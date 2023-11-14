@@ -29,4 +29,5 @@ Current Features:
     - Youth
     - Preschool
 - Calendar
+- Weekly news email
 
