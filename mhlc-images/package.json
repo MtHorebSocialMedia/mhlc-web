@@ -1,0 +1,12 @@
+{
+  "name": "@mhlc/images",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "MHLC Technology Team",
+  "license": "UNLICENSED"
+}

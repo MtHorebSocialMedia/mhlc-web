@@ -1,0 +1,16 @@
+{
+  "name": "@mhlc/web",
+  "version": "1.0.0",
+  "description": "GitHub project for the website of Mt. Horeb Lutheran Church, Chapin, SC - <https://mthoreb.net/>",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run start -w mhlc-content-api"
+  },
+  "author": "MHLC Technology Team",
+  "license": "UNLICENSED",
+  "workspaces": [
+    "mhlc-content-api",
+    "mhlc-ui",
+    "mhlc-images"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "@mhlc/content-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js"
+  },
+  "author": "MHLC Technology Team",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "axios": "^1.6.5",
+    "contentful": "^10.6.16",
+    "dotenv": "^16.3.2",
+    "express": "^4.18.2"
+  }
+}

@@ -1,13 +1,17 @@
 {
-  "name": "option-1",
-  "version": "0.0.0",
+  "name": "@mhlc/ui",
+  "version": "1.0.0",
   "private": true,
+  "description": "",
+  "main": "index.js",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
     "lint": "eslint . --fix --ignore-path .gitignore"
   },
+  "author": "MHLC Technology Team",
+  "license": "UNLICENSED",
   "dependencies": {
     "@mdi/font": "7.0.96",
     "core-js": "^3.29.0",

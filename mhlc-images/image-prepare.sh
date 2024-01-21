@@ -4,7 +4,7 @@
 # https://imagemagick.org/script/mogrify.php
 
 # Set the desired size
-SIZES=(400 500 600 800)
+SIZES=(400 500 600 800 1000 1400)
 
 # Find all .jpg and .png images in the current directory
 for FILE in library/*.jpg #library/*.png
