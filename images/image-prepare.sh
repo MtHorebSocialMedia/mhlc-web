@@ -4,7 +4,14 @@
 # https://imagemagick.org/script/mogrify.php
 
 # Set the desired size
-SIZES=(400 500 600 800)
+SIZES=(400 500 600 800 1000)
+
+# Clean any existing optimized images
+for SIZE in ${SIZES[@]}
+do
+  rm -rf "library/$SIZE"
+  mkdir "library/$SIZE"
+done
 
 # Find all .jpg and .png images in the current directory
 for FILE in library/*.jpg #library/*.png
@@ -13,7 +20,6 @@ do
   do
     DESTJPG="${FILE/library/library\/$SIZE}"
     DESTPNG="${DESTJPG/jpg/png}"
-    mkdir -p "library/$SIZE"
 
     # Resize original image if larger than desired and fix orientation
     if [ $(identify -format "%[fx:w]" $FILE) -gt $SIZE ]; then
@@ -59,10 +65,10 @@ do
 
     # Rounded corners with border (png only)
     convert $DESTPNG \
-        -format 'roundrectangle 1,1 %[fx:w+4],%[fx:h+4] 25,25' \
+        -format 'roundrectangle 1,1 %[fx:w],%[fx:h] 25,25' \
         info: > rounded_corner.mvg
     convert $DESTPNG \
-        -border 3 \
+        -border 0 \
         -alpha transparent \
         -background none \
         -fill white \
@@ -71,25 +77,31 @@ do
         -draw "@rounded_corner.mvg" \
         rounded_corner_mask.png
     convert $DESTPNG \
-        -border 3 \
+        -border 0 \
         -alpha transparent \
         -background none \
         -fill none \
         -stroke white \
-        -strokewidth 3 \
+        -strokewidth 0 \
         -draw "@rounded_corner.mvg" \
         rounded_corner_overlay.png
     convert $DESTPNG \
         -alpha set \
         -bordercolor none \
-        -border 3 \
+        -border 0 \
         rounded_corner_mask.png -compose DstIn -composite \
         rounded_corner_overlay.png -compose Over -composite \
         "${DESTPNG/.png/-border-rounded.png}"
     rm rounded_corner_mask.png
     rm rounded_corner_overlay.png
 
-    echo "Generated optimized options for: $FILE"
+    # width=$(identify -format "%w" $DESTJPG)
+    # height=$(identify -format "%h" $DESTJPG)
+    # convert -size "$width x $height" xc:black -fill white -draw "roundRectangle 0,0,$width,$height 25,25" generatedcardmask.png
+    # convert $DESTJPG generatedcardmask.png -alpha Off -compose CopyOpacity -composite -colorspace RGB "${DESTPNG/.png/-border-rounded.png}"
 
   done
+
+  echo "Generated optimized options for: $FILE"
+
 done
