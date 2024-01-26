@@ -16,6 +16,20 @@ const routes = [
       },
     ],
   },
+  {
+    path: '/content/:contentId(.*)', // will match anything starting with `/user-` and put it under `$route.params.afterUser`
+    component: () => import('@/layouts/default/Default.vue'),
+    children: [
+      {
+        path: '',
+        name: 'Content',
+        // route level code-splitting
+        // this generates a separate chunk (about.[hash].js) for this route
+        // which is lazy-loaded when the route is visited.
+        component: () => import(/* webpackChunkName: "home" */ '@/views/Content.vue'),
+      },
+    ],
+  },
 ]
 
 const router = createRouter({

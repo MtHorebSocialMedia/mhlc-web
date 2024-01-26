@@ -4,6 +4,8 @@
   "description": "GitHub project for the website of Mt. Horeb Lutheran Church, Chapin, SC - <https://mthoreb.net/>",
   "main": "index.js",
   "scripts": {
+    "build:ui": "npm run build -w mhlc-ui",
+    "dev:ui": "npm run dev -w mhlc-ui",
     "start": "npm run start -w mhlc-content-api"
   },
   "author": "MHLC Technology Team",

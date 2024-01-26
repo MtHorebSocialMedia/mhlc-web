@@ -14,6 +14,8 @@
   "license": "UNLICENSED",
   "dependencies": {
     "@mdi/font": "7.0.96",
+    "axios": "^1.6.5",
+    "contentful-rich-text-vue-renderer": "^3.1.0",
     "core-js": "^3.29.0",
     "pinia": "^2.0.0",
     "roboto-fontface": "*",
@@ -23,6 +25,7 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.0.0",
+    "axios-mock-adapter": "^1.22.0",
     "eslint": "^8.37.0",
     "eslint-plugin-vue": "^9.3.0",
     "sass": "^1.60.0",

@@ -31,3 +31,5 @@ Current Features:
 - Calendar
 - Weekly news email
 
+YouTube RSS:
+https://www.youtube.com/feeds/videos.xml?channel_id=UColWzhoom7ZRDvyOHhDK8Ag

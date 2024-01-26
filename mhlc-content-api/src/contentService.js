@@ -39,7 +39,36 @@ async function getContentPages() {
     });
 }
 
+async function getNewsTypes() {
+    const { items } = await client.getEntries({
+        content_type: 'newsType'
+    });
+    return items.map((item) => {
+        return {
+            id: item.sys.id,
+            type: item.fields.type
+        };
+    });
+}
+
+async function getNewsEntries() {
+    const { items } = await client.getEntries({
+        content_type: 'news'
+    });
+    return items.map((item) => {
+        return {
+            id: item.sys.id,
+            datetime: item.fields.datetime,
+            title: item.fields.title,
+            description: item.fields.description,
+            type: item.fields.type
+        };
+    });
+}
+
 module.exports = {
     getMenuItems,
-    getContentPages
+    getContentPages,
+    getNewsTypes,
+    getNewsEntries
 };
