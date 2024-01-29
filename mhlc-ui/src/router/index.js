@@ -26,7 +26,21 @@ const routes = [
         // route level code-splitting
         // this generates a separate chunk (about.[hash].js) for this route
         // which is lazy-loaded when the route is visited.
-        component: () => import(/* webpackChunkName: "home" */ '@/views/Content.vue'),
+        component: () => import(/* webpackChunkName: "content" */ '@/views/Content.vue'),
+      },
+    ],
+  },
+  {
+    path: '/news', // will match anything starting with `/user-` and put it under `$route.params.afterUser`
+    component: () => import('@/layouts/default/Default.vue'),
+    children: [
+      {
+        path: '',
+        name: 'News',
+        // route level code-splitting
+        // this generates a separate chunk (about.[hash].js) for this route
+        // which is lazy-loaded when the route is visited.
+        component: () => import(/* webpackChunkName: "news" */ '@/views/News.vue'),
       },
     ],
   },

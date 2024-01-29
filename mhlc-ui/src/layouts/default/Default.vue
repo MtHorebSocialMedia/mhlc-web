@@ -2,12 +2,12 @@
   <v-app>
     <default-bar />
     <v-main>
-      <v-container>
-        <v-row>
-          <v-col>
+      <v-container class="main-container fill-height">
+        <v-row class="fill-height">
+          <v-col class="main-view">
             <router-view />
           </v-col>
-          <v-col cols="3">
+          <v-col cols="3" class="side-view">
             <side-bar />
           </v-col>
         </v-row>
@@ -18,6 +18,11 @@
 
 <script setup>
   import DefaultBar from './AppBar.vue'
-  import DefaultView from './View.vue'
   import SideBar from './SideBar.vue'
 </script>
+
+<style>
+    .v-main { background: #ccc; }
+    .v-container.main-container > .v-row > .v-col { background: #FFF; }
+    .v-container.main-container > .v-row > .v-col.side-view { margin-left: 20px; }
+</style>

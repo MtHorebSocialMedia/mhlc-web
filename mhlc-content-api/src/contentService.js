@@ -61,7 +61,10 @@ async function getNewsEntries() {
             datetime: item.fields.datetime,
             title: item.fields.title,
             description: item.fields.description,
-            type: item.fields.type
+            type: item.fields.type ? item.fields.type.map(type => ({
+                id: type.sys.id,
+                type: type.fields.type
+            })) : []
         };
     });
 }

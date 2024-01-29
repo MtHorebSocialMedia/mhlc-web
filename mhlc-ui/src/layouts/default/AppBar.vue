@@ -28,6 +28,7 @@
           <v-btn
             color="primary"
             v-bind="props"
+            :to="item.path"
             text
           >
             {{ item.label }}
@@ -40,9 +41,12 @@
             :key="child.id"
           >
             <v-list-item-title>
-              <router-link :to="child.path">
+              <v-btn
+                :to="child.path"
+                plain
+              >
                 {{ child.label }}
-              </router-link>
+              </v-btn>
             </v-list-item-title>
           </v-list-item>
         </v-list>
