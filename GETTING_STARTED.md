@@ -10,8 +10,8 @@
 
 ### Access
 
-- Contact @NthngAlone to be added as a collaborator to the `mhlc-web` repository
-- Sign-up for a free [Contentful](https://www.contentful.com) account and request @NthngAlone to add you to the MHLC workspace
+- Contact [@NthngAlone](https://github.com/nthngalone) to be added as a collaborator to the `mhlc-web` repository
+- Sign-up for a free [Contentful](https://www.contentful.com) account and request [@NthngAlone](https://github.com/nthngalone) to add you to the MHLC workspace
 
 > Note: the command samples in this guide are assuming that you're using a bash-compatible terminal.  If you are using something different, you may need to adjust the commands to meet your terminals syntax.
 
