@@ -3,7 +3,8 @@ const {
     getMenuItems,
     getContentPages,
     getNewsTypes,
-    getNewsEntries
+    getNewsEntries,
+    getChurchInfo
 } = require('./contentService');
 
 const router = express.Router();
@@ -15,6 +16,17 @@ router.use((err, req, res, next) => {
     }
     console.error(err);
     res.sendStatus(500);
+});
+
+router.get('/church-info', (req, res, next) => {
+    (async function() {
+        try {
+            const info = await getChurchInfo();
+            res.send(info);
+        } catch(err) {
+            next(err);
+        }
+    })();
 });
 
 router.get('/menu-items', (req, res, next) => {

@@ -4,7 +4,7 @@
       Mt. Horeb Lutheran Church
     </v-app-bar-title>
     <v-spacer></v-spacer>
-101 East Boundary Street | Chapin, South Carolina 29036 | 803.345.2000
+        {{ churchInfo.streetAddress }} | {{ churchInfo.city }}, {{ churchInfo.state}} {{ churchInfo.zipCode }} | {{ churchInfo.phoneNumber }}
         <v-btn icon>
           <v-icon>mdi-facebook</v-icon>
         </v-btn>
@@ -17,7 +17,7 @@
           <v-icon>mdi-youtube</v-icon>
         </v-btn>
     <template v-slot:extension>
-      Experiencing &amp; Sharing God's Presence
+      {{ churchInfo.slogan }}
       <v-spacer />
       <v-menu
         v-for="(item) in menuItems"
@@ -60,7 +60,7 @@
     import { storeToRefs } from 'pinia';
 
     const contentStore = useContentStore();
-    const { menuItems } = storeToRefs(contentStore);
+    const { churchInfo, menuItems } = storeToRefs(contentStore);
 
 </script>
 <style>

@@ -69,9 +69,34 @@ async function getNewsEntries() {
     });
 }
 
+async function getChurchInfo() {
+    const { items } = await client.getEntries({
+        content_type: 'churchInfo'
+    });
+    const infoItems = items.map((item) => {
+        return {
+            id: item.sys.id,
+            name: item.fields.name,
+            streetAddress: item.fields.streetAddress,
+            city: item.fields.city,
+            state: item.fields.state,
+            zipCode: item.fields.zipCode,
+            phoneNumber: item.fields.phoneNumber,
+            sundaySchoolTime: item.fields.sundaySchoolTime,
+            sundayWorshipTime: item.fields.sundayWorshipTime,
+            slogan: item.fields.slogan,
+            facebook: item.fields.facebook,
+            instagram: item.fields.instagram,
+            youTube: item.fields.youTube
+        };
+    });
+    return infoItems.length > 0 ? infoItems[0]: null;
+}
+
 module.exports = {
     getMenuItems,
     getContentPages,
     getNewsTypes,
-    getNewsEntries
+    getNewsEntries,
+    getChurchInfo
 };

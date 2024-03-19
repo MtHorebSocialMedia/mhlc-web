@@ -9,14 +9,16 @@ export const useContentStore = defineStore('app', () => {
     const contentPages = ref([]);
     const newsTypes = ref([]);
     const news = ref([]);
+    const churchInfo = ref({});
     // const doubleCount = computed(() => count.value * 2);
     async function fetchContent() {
         menuItems.value = await getMenuItems();
         contentPages.value = await getContentPages();
         newsTypes.value = (await axios.get('/api/news-types')).data;
         news.value = (await axios.get('/api/news')).data;
+        churchInfo.value = await getChurchInfo();
     }
-    return { menuItems, contentPages, newsTypes, news, fetchContent };
+    return { menuItems, contentPages, newsTypes, news, churchInfo, fetchContent };
 });
 
 async function getMenuItems() {
@@ -41,6 +43,10 @@ async function getContentPages() {
         contentPages[page.contentPath] = page;
     })
     return contentPages;
+}
+
+async function getChurchInfo() {
+    return (await axios.get('/api/church-info')).data;
 }
 
 if (process.env.NODE_ENV === 'development') {
@@ -83,4 +89,20 @@ if (process.env.NODE_ENV === 'development') {
         { "id": "6VBCpIWaAV2Xup88UBzbFh", "datetime": "2024-01-29T00:00", "title": "Youth Bowling Night", "description": { "data": {}, "content": [ { "data": {}, "content": [ { "data": {}, "marks": [], "value": "The youth will be meeting at the church at 3:30 this afternoon to go out for bowling and dinner!  Any youth from 6th - 12th grade are invited!  Come out and join us for an evening of fun!", "nodeType": "text" } ], "nodeType": "paragraph" } ], "nodeType": "document" }, "type": [ { "id": "5ktejUJ8noonowWZUs0uN7", "type": "General" } ] },
         { "id": "JTL0DH2S7XrATtQD5WJGN", "datetime": "2023-11-08T00:00", "title": "Really cool news!", "description": { "data": {}, "content": [ { "data": {}, "content": [ { "data": {}, "marks": [], "value": "This is my first new post!", "nodeType": "text" } ], "nodeType": "paragraph" } ], "nodeType": "document" }, "type": [ { "id": "5ktejUJ8noonowWZUs0uN7", "type": "General" } ] }
     ]);
+
+    mock.onGet('/api/church-info').reply(200, {
+        "id": "001",
+        "name": "Church Info",
+        "streetAddress": "101 East Boundary Street",
+        "city": "Chapin",
+        "state": "SC",
+        "zipCode": "29036",
+        "phoneNumber": "803.345.2000",
+        "sundaySchoolTime": "9:00 am",
+        "sundayWorshipTime": "10:00 am",
+        "slogan": "Experiencing & Sharing God's Presence",
+        "facebook": "https://www.facebook.com/Mt-Horeb-Lutheran-Church-163197867173867",
+        "instagram": "https://www.instagram.com/mhlc_chapin/",
+        "youTube": "https://www.youtube.com/@MHLCChapinSC"
+    });
 }
