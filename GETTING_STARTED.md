@@ -18,7 +18,7 @@
 ## Clone the Repo
 
 ```bash
-git clone https://github.com/nthngalone/mhlc-web.git
+git clone git@github.com:nthngalone/mhlc-web.git
 ```
 
 ## Install the Dependencies
