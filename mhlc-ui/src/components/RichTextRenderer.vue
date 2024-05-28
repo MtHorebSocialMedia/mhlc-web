@@ -1,7 +1,9 @@
 <template>
-  <h2>{{ page.title }}</h2>
-  <hr />
-  <RichTextRenderer :document="page.content" />
+  <div class="content">
+    <h2>{{ page.title }}</h2>
+    <hr />
+    <RichTextRenderer :document="page.content" />
+  </div>
 </template>
 
 <script setup>
@@ -17,3 +19,9 @@
         return contentPages.value[contentPath];
     });
 </script>
+
+<style>
+  .content h2 { margin-top: 10px; margin-bottom: 10px; }
+  .content h3 { margin-top: 8px; margin-bottom: 8px; }
+  .content p  { margin-top: 5px; margin-bottom: 5px; }
+</style>

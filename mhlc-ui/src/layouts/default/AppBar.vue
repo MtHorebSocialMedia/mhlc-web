@@ -1,21 +1,25 @@
 <template>
-  <v-app-bar flat>
+  <v-app-bar>
     <v-app-bar-title>
-      Mt. Horeb Lutheran Church
+
     </v-app-bar-title>
+
     <v-spacer></v-spacer>
-        {{ churchInfo.streetAddress }} | {{ churchInfo.city }}, {{ churchInfo.state}} {{ churchInfo.zipCode }} | {{ churchInfo.phoneNumber }}
-        <v-btn icon>
-          <v-icon>mdi-facebook</v-icon>
-        </v-btn>
 
-        <v-btn icon>
-          <v-icon>mdi-instagram</v-icon>
-        </v-btn>
+    {{ churchInfo.streetAddress }} | {{ churchInfo.city }}, {{ churchInfo.state}} {{ churchInfo.zipCode }} | {{ churchInfo.phoneNumber }}
 
-        <v-btn icon>
-          <v-icon>mdi-youtube</v-icon>
-        </v-btn>
+    <v-btn icon>
+      <v-icon>mdi-facebook</v-icon>
+    </v-btn>
+
+    <v-btn icon>
+      <v-icon>mdi-instagram</v-icon>
+    </v-btn>
+
+    <v-btn icon>
+      <v-icon>mdi-youtube</v-icon>
+    </v-btn>
+
     <template v-slot:extension>
       {{ churchInfo.slogan }}
       <v-spacer />
@@ -65,4 +69,9 @@
 </script>
 <style>
 .v-toolbar__extension {  padding-left: 16px; padding-right: 10px; }
+.v-toolbar-title.v-app-bar-title { font-weight: bold; font-size: 25px; }
+.v-list-item .v-btn--variant-elevated, .v-list-item .v-btn--elevated:hover, .v-list-item .v-btn--elevated:focus {
+    box-shadow: none;
+}
+header.v-toolbar.v-app-bar { background-image: url("/logo193x185.png"); background-repeat: no-repeat; height: 225px; }
 </style>

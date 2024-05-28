@@ -22,7 +22,7 @@
 </script>
 
 <style>
-    .v-main { background: #ccc; }
+    .v-main { background-image: linear-gradient(#999, #DDD); }
     .v-container.main-container > .v-row > .v-col { background: #FFF; }
     .v-container.main-container > .v-row > .v-col.side-view { margin-left: 20px; }
 </style>
