@@ -30,7 +30,7 @@
             </v-col>
           </v-row>
           <v-row>
-            <v-col class="menu">
+            <v-col v-if="lgAndUp" class="menu">
               <v-menu
                 v-for="(item) in menuItems"
                 v-bind:key="item.id"
@@ -64,6 +64,11 @@
                 </v-list>
               </v-menu>
             </v-col>
+            <v-col v-else class="menu">
+              <v-btn icon>
+                <v-icon>mdi-menu</v-icon>
+              </v-btn>
+            </v-col>
           </v-row>
         </v-container>
       </v-col>
@@ -74,9 +79,11 @@
 <script setup>
     import { useContentStore } from '@/store/content';
     import { storeToRefs } from 'pinia';
+    import { useDisplay } from 'vuetify'
 
     const contentStore = useContentStore();
     const { churchInfo, menuItems } = storeToRefs(contentStore);
+    const { lgAndUp } = useDisplay()
 
 </script>
 <style>

@@ -6,7 +6,7 @@
   "scripts": {
     "build:ui": "npm run build -w mhlc-ui",
     "dev:ui": "npm run dev -w mhlc-ui",
-    "start": "npm run start -w mhlc-content-api"
+    "start": "npm run build:ui && npm run start -w mhlc-content-api"
   },
   "author": "MHLC Technology Team",
   "license": "UNLICENSED",
