@@ -17,7 +17,21 @@ const routes = [
     ],
   },
   {
-    path: '/content/:contentId(.*)', // will match anything starting with `/user-` and put it under `$route.params.afterUser`
+    path: '/home',
+    component: () => import('@/layouts/default/Default.vue'),
+    children: [
+      {
+        path: '',
+        name: 'Home',
+        // route level code-splitting
+        // this generates a separate chunk (about.[hash].js) for this route
+        // which is lazy-loaded when the route is visited.
+        component: () => import(/* webpackChunkName: "home" */ '@/views/Home.vue'),
+      },
+    ],
+  },
+  {
+    path: '/content/:contentId(.*)',
     component: () => import('@/layouts/default/Default.vue'),
     children: [
       {
@@ -31,7 +45,7 @@ const routes = [
     ],
   },
   {
-    path: '/news', // will match anything starting with `/user-` and put it under `$route.params.afterUser`
+    path: '/news',
     component: () => import('@/layouts/default/Default.vue'),
     children: [
       {
@@ -41,6 +55,20 @@ const routes = [
         // this generates a separate chunk (about.[hash].js) for this route
         // which is lazy-loaded when the route is visited.
         component: () => import(/* webpackChunkName: "news" */ '@/views/News.vue'),
+      },
+    ],
+  },
+  {
+    path: '/contact',
+    component: () => import('@/layouts/default/Default.vue'),
+    children: [
+      {
+        path: '',
+        name: 'Contact',
+        // route level code-splitting
+        // this generates a separate chunk (about.[hash].js) for this route
+        // which is lazy-loaded when the route is visited.
+        component: () => import(/* webpackChunkName: "news" */ '@/views/Contact.vue'),
       },
     ],
   },
