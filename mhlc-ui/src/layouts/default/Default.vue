@@ -7,7 +7,7 @@
           <v-col class="main-view">
             <router-view />
           </v-col>
-          <v-col cols="3" class="side-view">
+          <v-col v-if="lgAndUp" cols="3" class="side-view">
             <side-bar />
           </v-col>
         </v-row>
@@ -19,6 +19,8 @@
 <script setup>
   import DefaultBar from './AppBar.vue'
   import SideBar from './SideBar.vue'
+  import { useDisplay } from 'vuetify'
+  const { lgAndUp } = useDisplay()
 </script>
 
 <style>

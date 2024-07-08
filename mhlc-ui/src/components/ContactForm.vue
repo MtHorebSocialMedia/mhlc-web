@@ -1,5 +1,7 @@
 <template>
     <v-container class="contact">
+        <h2>Contact</h2>
+        <hr />
         <v-alert>
             <p class="instructions">Please fill out and submit the following form and we will contact you as soon as possible.</p>
             <p class="required-note"><v-icon color="red" size="x-small">mdi-asterisk</v-icon> indicates a required field.</p>
@@ -94,4 +96,6 @@
 .v-container.contact .v-alert { margin-bottom: 20px; }
 .v-container.contact .v-alert .instructions { margin-bottom: 5px; }
 .v-container.contact .v-alert .required-note { text-align: right; }
+.v-container.contact h2 { margin-top: 10px; margin-bottom: 10px; }
+.v-container.contact hr { margin-bottom: 20px; }
 </style>

@@ -1,5 +1,7 @@
 <template>
-  <RichTextRenderer />
+  <v-container>
+      <RichTextRenderer />
+  </v-container>
 </template>
 
 <script setup>

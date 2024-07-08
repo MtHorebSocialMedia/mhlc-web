@@ -26,7 +26,7 @@
         <v-row>
             <v-col>
                 <h3>Recent News</h3>
-                <NewsList />
+                <NewsList compact />
             </v-col>
         </v-row>
     </v-container>
@@ -38,5 +38,6 @@ import NewsList from '@/components/NewsList.vue'
 
 <style scoped>
  .elca { margin-bottom: 20px; }
+ h3 { margin-bottom: 10px; }
 </style>
 
