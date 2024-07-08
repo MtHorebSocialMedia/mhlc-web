@@ -46,3 +46,15 @@ The features of the current site are:
 
 YouTube RSS:
 https://www.youtube.com/feeds/videos.xml?channel_id=UColWzhoom7ZRDvyOHhDK8Ag
+
+## TO DO
+
+- Fix responsive (hamburger) menu to render a list
+- Pull in images content
+- Add a footer
+- Add a newsletter signup form
+- Add donate online forms
+- Add mock content for everything
+- publish demo to github pages
+- Add youtube rss feed
+- Add a calendar feature
