@@ -1,6 +1,6 @@
 <template>
     <v-container>
-        <v-row>
+        <v-row class="justify-center">
             <img
                 width="300"
                 height="88"

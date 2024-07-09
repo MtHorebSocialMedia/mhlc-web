@@ -8,7 +8,7 @@ const routes = [
     children: [
       {
         path: '',
-        name: 'Home',
+        name: 'Root',
         // route level code-splitting
         // this generates a separate chunk (about.[hash].js) for this route
         // which is lazy-loaded when the route is visited.
@@ -69,6 +69,20 @@ const routes = [
         // this generates a separate chunk (about.[hash].js) for this route
         // which is lazy-loaded when the route is visited.
         component: () => import(/* webpackChunkName: "news" */ '@/views/Contact.vue'),
+      },
+    ],
+  },
+  {
+    path: '/live-streams',
+    component: () => import('@/layouts/default/Default.vue'),
+    children: [
+      {
+        path: '/live-streams',
+        name: 'LiveStreams',
+        // route level code-splitting
+        // this generates a separate chunk (about.[hash].js) for this route
+        // which is lazy-loaded when the route is visited.
+        component: () => import(/* webpackChunkName: "news" */ '@/views/LiveStreams.vue'),
       },
     ],
   },

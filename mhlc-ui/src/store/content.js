@@ -10,6 +10,8 @@ export const useContentStore = defineStore('app', () => {
     const newsTypes = ref([]);
     const news = ref([]);
     const churchInfo = ref({});
+    const videoList = ref([]);
+
     // const doubleCount = computed(() => count.value * 2);
     async function fetchContent() {
         menuItems.value = await getMenuItems();
@@ -17,8 +19,9 @@ export const useContentStore = defineStore('app', () => {
         newsTypes.value = (await axios.get('/api/news-types')).data;
         news.value = (await axios.get('/api/news')).data;
         churchInfo.value = await getChurchInfo();
+        videoList.value = await getVideoList();
     }
-    return { menuItems, contentPages, newsTypes, news, churchInfo, fetchContent };
+    return { menuItems, contentPages, newsTypes, news, churchInfo, videoList, fetchContent };
 });
 
 async function getMenuItems() {
@@ -49,6 +52,10 @@ async function getChurchInfo() {
     return (await axios.get('/api/church-info')).data;
 }
 
+async function getVideoList() {
+    return (await axios.get('/api/video-list')).data;
+}
+
 if (process.env.NODE_ENV === 'development') {
 
     console.log('NODE_ENV: ', process.env.NODE_ENV);
@@ -64,15 +71,16 @@ if (process.env.NODE_ENV === 'development') {
         {"id":"002","label":"Who We Are","sequence":0,"path":"/content/who-we-are","parent":"004"},
         {"id":"003","label":"Home","sequence":0,"path":"/home","parent":null},
         {"id":"004","label":"About Us","sequence":1,"parent":null},
-        {"id":"005","label":"News","sequence":2,"path":"/news","parent":null},
-        {"id":"006","label":"Getting Involved","sequence":3,"path":"/content/get-involved","parent":null},
-        {"id":"007","label":"Preschool","sequence":4,"path":"/content/preschool","parent":null},
-        {"id":"008","label":"Contact","sequence":5,"path":"/contact","parent":null},
+        {"id":"005","label":"News","sequence":3,"path":"/news","parent":null},
+        {"id":"006","label":"Getting Involved","sequence":4,"path":"/content/get-involved","parent":null},
+        {"id":"007","label":"Preschool","sequence":5,"path":"/content/preschool","parent":null},
+        {"id":"008","label":"Contact","sequence":6,"path":"/contact","parent":null},
         {"id":"009","label":"Worship","sequence":0,"path":"/content/worship","parent":"006"},
         {"id":"010","label":"Learn","sequence":1,"path":"/content/learn","parent":"006"},
         {"id":"011","label":"Witness","sequence":2,"path":"/content/witness","parent":"006"},
         {"id":"012","label":"Serve","sequence":3,"path":"/content/serve","parent":"006"},
-        {"id":"013","label":"Support","sequence":4,"path":"/content/support","parent":"006"}
+        {"id":"013","label":"Support","sequence":4,"path":"/content/support","parent":"006"},
+        {"id":"014","label":"Live Streams","sequence":2,path:"/live-streams","parent":null}
     ]);
 
     mock.onGet("/api/content-pages").reply(200, [
@@ -105,4 +113,36 @@ if (process.env.NODE_ENV === 'development') {
         "instagram": "https://www.instagram.com/mhlc_chapin/",
         "youTube": "https://www.youtube.com/@MHLCChapinSC"
     });
+
+    mock.onGet('/api/video-list').reply(200, [{
+        id: 'LqslxP33w_g',
+        date: '2024-07-08',
+        title: 'Mt. Horeb Lutheran Church - Seventh Sunday after Pentecost - July 7, 2024',
+        thumbnail: 'https://i1.ytimg.com/vi/LqslxP33w_g/hqdefault.jpg',
+        link: 'https://www.youtube.com/watch?v=LqslxP33w_g'
+    }, {
+        id: '5AQpjBf7F5I',
+        date: '2024-06-30',
+        title: 'Mt. Horeb Lutheran Church - Sixth Sunday after Pentecost - June 30, 2024',
+        thumbnail: 'https://i2.ytimg.com/vi/5AQpjBf7F5I/hqdefault.jpg',
+        link: 'https://www.youtube.com/watch?v=5AQpjBf7F5I'
+    }, {
+        id: 'LOAARqhUBDs',
+        date: '2024-06-23',
+        title: 'Mt. Horeb Lutheran Church - Fifth Sunday after Pentecost - June 23, 2024',
+        thumbnail: 'https://i2.ytimg.com/vi/LOAARqhUBDs/hqdefault.jpg',
+        link: 'https://www.youtube.com/watch?v=LOAARqhUBDs'
+    }, {
+        id: 'lJfcyPuX6Vs',
+        date: '2024-06-16',
+        title: 'Mt. Horeb Lutheran Church - Fourth Sunday after Pentecost - June 16, 2024',
+        thumbnail: 'https://i2.ytimg.com/vi/lJfcyPuX6Vs/hqdefault.jpg',
+        link: 'https://www.youtube.com/watch?v=lJfcyPuX6Vs'
+    }, {
+        id: 'XPYIB_4n6zU',
+        date: '2024-06-09',
+        title: 'Mt. Horeb Lutheran Church - Third Sunday after Pentecost - June 9, 2024',
+        thumbnail: 'https://i2.ytimg.com/vi/XPYIB_4n6zU/hqdefault.jpg',
+        link: 'https://www.youtube.com/watch?v=XPYIB_4n6zU'
+    }]);
 }

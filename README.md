@@ -58,3 +58,6 @@ https://www.youtube.com/feeds/videos.xml?channel_id=UColWzhoom7ZRDvyOHhDK8Ag
 - publish demo to github pages
 - Add youtube rss feed
 - Add a calendar feature
+- Slider content - liturgical season?
+- Photo galleries
+- Preschool pages
