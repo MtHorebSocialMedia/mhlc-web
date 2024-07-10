@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <default-bar />
+    <app-bar />
     <v-main>
       <v-container class="main-container fill-height">
         <v-row class="fill-height">
@@ -13,11 +13,12 @@
         </v-row>
       </v-container>
     </v-main>
+    <v-footer>Mt. Horeb Lutheran Church is a congregation of the Evangelical Lutheran Church of America (ELCA) in Chapin, SC.</v-footer>
   </v-app>
 </template>
 
 <script setup>
-  import DefaultBar from './AppBar.vue'
+  import AppBar from './AppBar.vue'
   import SideBar from './SideBar.vue'
   import { useDisplay } from 'vuetify'
   const { lgAndUp } = useDisplay()
@@ -27,4 +28,5 @@
     .v-main { background-image: linear-gradient(#999, #DDD); }
     .v-container.main-container > .v-row > .v-col { background: #FFF; }
     .v-container.main-container > .v-row > .v-col.side-view { margin-left: 20px; }
+    .v-footer { background-color: #CCC !important; border-top: 1px solid #666 !important; }
 </style>

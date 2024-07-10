@@ -18,18 +18,18 @@
           </v-col>
       </v-row>
       <v-row v-if="videoList && videoList.length > 2">
-          <v-col>
+          <v-col cols="7">
               <VideoCard :video="videoList[1]" />
           </v-col>
-          <v-col>
+          <v-col cols="5">
               <VideoCard :video="videoList[2]" />
           </v-col>
       </v-row>
       <v-row v-if="videoList && videoList.length > 4">
-          <v-col>
+          <v-col cols="5">
               <VideoCard :video="videoList[3]" />
           </v-col>
-          <v-col>
+          <v-col cols="7">
               <VideoCard :video="videoList[4]" />
           </v-col>
       </v-row>

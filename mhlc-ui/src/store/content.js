@@ -80,7 +80,8 @@ if (process.env.NODE_ENV === 'development') {
         {"id":"011","label":"Witness","sequence":2,"path":"/content/witness","parent":"006"},
         {"id":"012","label":"Serve","sequence":3,"path":"/content/serve","parent":"006"},
         {"id":"013","label":"Support","sequence":4,"path":"/content/support","parent":"006"},
-        {"id":"014","label":"Live Streams","sequence":2,path:"/live-streams","parent":null}
+        {"id":"014","label":"Live Streams","sequence":2,path:"/live-streams","parent":"004"},
+        {"id":"014","label":"Photo Galleries","sequence":3,path:"/photo-galleries","parent":"004"}
     ]);
 
     mock.onGet("/api/content-pages").reply(200, [
