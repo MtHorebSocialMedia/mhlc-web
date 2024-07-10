@@ -57,9 +57,8 @@ async function getVideoList() {
 }
 
 console.log('MODE:', import.meta.env.MODE);
-console.log('DEV:', import.meta.env.DEV);
 
-if (import.meta.env.DEV) {
+if (import.meta.env.MODE === 'development') {
 
     console.log('Enabling mock responses');
 
