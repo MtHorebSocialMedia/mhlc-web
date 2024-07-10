@@ -56,9 +56,11 @@ async function getVideoList() {
     return (await axios.get('/api/video-list')).data;
 }
 
-if (process.env.NODE_ENV === 'development') {
+console.log('MODE: ', import.meta.env.MODE);
 
-    console.log('NODE_ENV: ', process.env.NODE_ENV);
+if (import.meta.env.DEV) {
+
+    console.log('MODE: ', import.meta.env.MODE);
     console.log('Enabling mock responses');
 
     // This sets the mock adapter on the default instance
