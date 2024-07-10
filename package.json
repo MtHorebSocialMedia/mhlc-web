@@ -6,7 +6,7 @@
   "scripts": {
     "build:ui": "npm run build -w mhlc-ui",
     "dev:ui": "npm run dev -w mhlc-ui",
-    "release:demo": "npm run build:demo -w mhlc-ui && cp -r ./mhlc-ui/dist/* ./docs",
+    "release:demo": "rm -rf ./docs/* && npm run build:demo -w mhlc-ui && cp -r ./mhlc-ui/dist/* ./docs",
     "start": "npm run build:ui && npm run start -w mhlc-content-api"
   },
   "author": "MHLC Technology Team",
