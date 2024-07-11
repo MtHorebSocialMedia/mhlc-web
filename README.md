@@ -49,15 +49,27 @@ https://www.youtube.com/feeds/videos.xml?channel_id=UColWzhoom7ZRDvyOHhDK8Ag
 
 ## TO DO
 
+### UI
 - Fix responsive (hamburger) menu to render a list
+- Fix mobile view - address/icons
+- Leadership page
 - Pull in images content
-- Add a footer
 - Add a newsletter signup form
 - Add donate online forms
 - Add mock content for everything
-- publish demo to github pages
-- Add youtube rss feed
-- Add a calendar feature
 - Slider content - liturgical season?
-- Photo galleries
 - Preschool pages
+- Photo galleries
+- History page
+- Add a calendar feature
+
+### API
+- YouTube videos API to fetch/parse RSS feed
+- Create contact API
+- Create newsletter signup API
+- Create donate API
+
+### Infrastructure
+- Containerize and deploy to Digital Ocean
+- Add content to contentful for all pages/paths
+- Move github repo to a managed MHLC account

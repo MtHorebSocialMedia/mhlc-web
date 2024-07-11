@@ -13,14 +13,19 @@
         </v-row>
       </v-container>
     </v-main>
-    <v-footer>Mt. Horeb Lutheran Church is a congregation of the Evangelical Lutheran Church of America (ELCA) in Chapin, SC.</v-footer>
+    <v-footer>{{ churchInfo.footer }}</v-footer>
   </v-app>
 </template>
 
 <script setup>
   import AppBar from './AppBar.vue'
   import SideBar from './SideBar.vue'
+  import { useContentStore } from '@/store/content';
+  import { storeToRefs } from 'pinia';
   import { useDisplay } from 'vuetify'
+
+    const contentStore = useContentStore();
+    const { churchInfo } = storeToRefs(contentStore);
   const { lgAndUp } = useDisplay()
 </script>
 

@@ -113,7 +113,8 @@ if (import.meta.env.MODE === 'development') {
         "slogan": "Experiencing & Sharing God's Presence",
         "facebook": "https://www.facebook.com/Mt-Horeb-Lutheran-Church-163197867173867",
         "instagram": "https://www.instagram.com/mhlc_chapin/",
-        "youTube": "https://www.youtube.com/@MHLCChapinSC"
+        "youTube": "https://www.youtube.com/@MHLCChapinSC",
+        "footer": "Copyright 2024 Mt. Horeb Lutheran Church.  Mt. Horeb Lutheran Church (MHLC) is a congregation of the Evangelical Lutheran Church of America (ELCA) in Chapin, SC."
     });
 
     mock.onGet('/api/video-list').reply(200, [{
