@@ -93,7 +93,7 @@ if (import.meta.env.MODE === 'development') {
     // ]);
 
     mock.onGet("/api/content-pages").reply(() => {
-        return mockClient.get('/mock/content-pages.json');
+        return mockClient.get('./mock/content-pages.json');
     });
 
     mock.onGet('/api/news-types').reply(200, [
