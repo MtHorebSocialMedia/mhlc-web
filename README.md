@@ -50,8 +50,6 @@ https://www.youtube.com/feeds/videos.xml?channel_id=UColWzhoom7ZRDvyOHhDK8Ag
 ## TO DO
 
 ### UI
-- Fix responsive (hamburger) menu to render a list
-- Fix mobile view - address/icons
 - Leadership page
 - Pull in images content
 - Add a newsletter signup form

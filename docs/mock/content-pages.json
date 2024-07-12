@@ -1,0 +1,3102 @@
+[
+    {
+        "id": "76J5b3fIdM7lGnRZKkTLj7",
+        "title": "Worship",
+        "content": {
+            "nodeType": "document",
+            "data": {},
+            "content": [
+                {
+                    "nodeType": "embedded-asset-block",
+                    "data": {
+                        "target": {
+                            "metadata": {
+                                "tags": []
+                            },
+                            "sys": {
+                                "space": {
+                                    "sys": {
+                                        "type": "Link",
+                                        "linkType": "Space",
+                                        "id": "3wcsgs8fznel"
+                                    }
+                                },
+                                "id": "4tmd4oGRV6CnaxHYZFPcCg",
+                                "type": "Asset",
+                                "createdAt": "2024-07-12T01:14:14.014Z",
+                                "updatedAt": "2024-07-12T01:14:14.014Z",
+                                "environment": {
+                                    "sys": {
+                                        "id": "master",
+                                        "type": "Link",
+                                        "linkType": "Environment"
+                                    }
+                                },
+                                "revision": 1,
+                                "locale": "en-US"
+                            },
+                            "fields": {
+                                "title": "altar-white-paraments",
+                                "description": "",
+                                "file": {
+                                    "url": "//images.ctfassets.net/3wcsgs8fznel/4tmd4oGRV6CnaxHYZFPcCg/7ec9d99901b11b3472c301d0a24b734e/20230416_111332-border-rounded-1.png",
+                                    "details": {
+                                        "size": 144231,
+                                        "image": {
+                                            "width": 806,
+                                            "height": 388
+                                        }
+                                    },
+                                    "fileName": "20230416_111332-border-rounded-1.png",
+                                    "contentType": "image/png"
+                                }
+                            }
+                        }
+                    },
+                    "content": []
+                },
+                {
+                    "nodeType": "heading-2",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "Core Value: Worship",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "Worship is the center of who we are. We believe that worship is the starting point for all that we do, and that in worship, we lay the groundwork for living a life of praise each and every day. At Mt. Horeb, we value a worship experience that both grounds the community in God’s Word as well as uplifts through an encounter with the risen Christ through the Spirit.",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "heading-3",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "How to Get Involved",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "Lutheran worship is not an act of the pastors, but it is a conversation among clergy, congregation and the Triune God. We worship according to liturgy handed down from the time of the early church, and the word “liturgy” translates to mean “the work of the people.” That means that everyone is involved in the act of worship.",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "There is a place for you in the worship life of our church! Here are some opportunities to use your spiritual gifts for the good of the community:",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "heading-4",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "Worship with us on Sundays – 10:00 AM",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "We mean it when we say, “All are welcome” in worship each week at Mt. Horeb!",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "",
+                            "marks": [],
+                            "data": {}
+                        },
+                        {
+                            "nodeType": "hyperlink",
+                            "data": {
+                                "uri": "https://mthoreb.net/worship-schedule"
+                            },
+                            "content": [
+                                {
+                                    "nodeType": "text",
+                                    "value": "Click here",
+                                    "marks": [],
+                                    "data": {}
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "text",
+                            "value": " to view more worship times, including ",
+                            "marks": [],
+                            "data": {}
+                        },
+                        {
+                            "nodeType": "text",
+                            "value": "special services & holidays",
+                            "marks": [
+                                {
+                                    "type": "bold"
+                                }
+                            ],
+                            "data": {}
+                        },
+                        {
+                            "nodeType": "text",
+                            "value": ".",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "heading-4",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "Participate in Mt. Horeb’s Music Ministries",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "Whether you want to sing in one of the weekly worship choirs, supply musical accompaniment or percussion, play in the Alleluia Praise Band, or audition for one of the special choral groups, there is a place for you in our Music Ministries. Please ",
+                            "marks": [],
+                            "data": {}
+                        },
+                        {
+                            "nodeType": "hyperlink",
+                            "data": {
+                                "uri": "https://mthoreb.net/contact/"
+                            },
+                            "content": [
+                                {
+                                    "nodeType": "text",
+                                    "value": "contact us ",
+                                    "marks": [],
+                                    "data": {}
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "text",
+                            "value": "to find out how your gifts can fit into the ministry here.",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "heading-4",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "Participate in the Altar Guild",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "Members of the Altar Guild are the behind-the-scenes facilitators of our worship life. They set the table for communion, change the paraments, and help prepare the worship space for Sunday. If you would like to use your gifts to serve in this vital ministry, please ",
+                            "marks": [],
+                            "data": {}
+                        },
+                        {
+                            "nodeType": "hyperlink",
+                            "data": {
+                                "uri": "https://mthoreb.net/contact/"
+                            },
+                            "content": [
+                                {
+                                    "nodeType": "text",
+                                    "value": "contact us",
+                                    "marks": [],
+                                    "data": {}
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "text",
+                            "value": ".",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "heading-4",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "Serve on the Worship and Music Team",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "If you would like to participate with those who gather to plan and facilitate the worship life of the congregation by giving input on music, special services, and worship themes, please ",
+                            "marks": [],
+                            "data": {}
+                        },
+                        {
+                            "nodeType": "hyperlink",
+                            "data": {
+                                "uri": "https://mthoreb.net/contact/"
+                            },
+                            "content": [
+                                {
+                                    "nodeType": "text",
+                                    "value": "contact us",
+                                    "marks": [],
+                                    "data": {}
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "text",
+                            "value": ".",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "heading-4",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "Volunteer to Set up for Special Worship Services",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "Have you ever wondered who puts out the poinsettias at Christmas or the white flowers at Easter? Many hands and feet are needed to set up for these special times in the life of our church. If you would like to help with these periodic needs, please ",
+                            "marks": [],
+                            "data": {}
+                        },
+                        {
+                            "nodeType": "hyperlink",
+                            "data": {
+                                "uri": "https://mthoreb.net/contact/"
+                            },
+                            "content": [
+                                {
+                                    "nodeType": "text",
+                                    "value": "contact us",
+                                    "marks": [],
+                                    "data": {}
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "text",
+                            "value": ".",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                }
+            ]
+        },
+        "contentPath": "/content/worship"
+    },
+    {
+        "id": "TFeElm89EzUr0FNxctKqP",
+        "title": "Preschool",
+        "content": {
+            "data": {},
+            "content": [
+                {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "marks": [
+                                {
+                                    "type": "bold"
+                                }
+                            ],
+                            "value": "Mt. Horeb Preschool ",
+                            "nodeType": "text"
+                        },
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": "will be open for the 2024-2025 school year and registration opens on February 15th, 2024! To register, please see the ",
+                            "nodeType": "text"
+                        },
+                        {
+                            "data": {
+                                "uri": "https://mthoreb.net/pre-school-registration-fees/"
+                            },
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "registration page",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "hyperlink"
+                        },
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": " for more information. If you have any questions, please contact us by calling 803-345-6441 or e-mailing us at ",
+                            "nodeType": "text"
+                        },
+                        {
+                            "data": {
+                                "uri": "mailto:preschool@mthoreb.net"
+                            },
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "preschool@mthoreb.net",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "hyperlink"
+                        },
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": ".",
+                            "nodeType": "text"
+                        }
+                    ],
+                    "nodeType": "paragraph"
+                },
+                {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "marks": [
+                                {
+                                    "type": "bold"
+                                }
+                            ],
+                            "value": "The Mt. Horeb Preschool",
+                            "nodeType": "text"
+                        },
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": " serves the church family and surrounding community by offering a quality child development program for children ages two through four. Our outstanding program features…",
+                            "nodeType": "text"
+                        }
+                    ],
+                    "nodeType": "paragraph"
+                },
+                {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "data": {},
+                                            "marks": [
+                                                {
+                                                    "type": "bold"
+                                                }
+                                            ],
+                                            "value": "Half-day program hours from 9 a.m. to 12 p.m., five days per week",
+                                            "nodeType": "text"
+                                        }
+                                    ],
+                                    "nodeType": "paragraph"
+                                }
+                            ],
+                            "nodeType": "list-item"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "data": {},
+                                            "marks": [
+                                                {
+                                                    "type": "bold"
+                                                }
+                                            ],
+                                            "value": "Christian environment",
+                                            "nodeType": "text"
+                                        }
+                                    ],
+                                    "nodeType": "paragraph"
+                                }
+                            ],
+                            "nodeType": "list-item"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "data": {},
+                                            "marks": [
+                                                {
+                                                    "type": "bold"
+                                                }
+                                            ],
+                                            "value": "Developmentally-appropriate curriculum",
+                                            "nodeType": "text"
+                                        }
+                                    ],
+                                    "nodeType": "paragraph"
+                                }
+                            ],
+                            "nodeType": "list-item"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "data": {},
+                                            "marks": [
+                                                {
+                                                    "type": "bold"
+                                                }
+                                            ],
+                                            "value": "Convenient location in downtown Chapin",
+                                            "nodeType": "text"
+                                        }
+                                    ],
+                                    "nodeType": "paragraph"
+                                }
+                            ],
+                            "nodeType": "list-item"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "data": {},
+                                            "marks": [
+                                                {
+                                                    "type": "bold"
+                                                }
+                                            ],
+                                            "value": "Safe, bright and attractive classrooms and playground areas",
+                                            "nodeType": "text"
+                                        }
+                                    ],
+                                    "nodeType": "paragraph"
+                                }
+                            ],
+                            "nodeType": "list-item"
+                        }
+                    ],
+                    "nodeType": "unordered-list"
+                },
+                {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "marks": [
+                                {
+                                    "type": "bold"
+                                }
+                            ],
+                            "value": "The Mt. Horeb learning environment is rich, varied, warm, stimulating and safe",
+                            "nodeType": "text"
+                        },
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": " for a young child’s healthy development. Teachers use The Creative Curriculum for Preschoolers, a developmentally appropriate, whole language, thematic approach to preschool education. Each classroom is arranged by interest areas, creatively organized to foster growth, imagination, creativity and independence. Activities are planned through centers which include language, math, science and art activities. 4K students will be introduced to our new curriculum called “Get Set for School,” part of the Handwriting Without Tears program.",
+                            "nodeType": "text"
+                        }
+                    ],
+                    "nodeType": "paragraph"
+                },
+                {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": "Once a week, children enjoy a 30-minute music class, and our pastors leads chapel time every Wednesday morning. Other special activities include a Preschool Art Show, Holiday Music Program, Preschool Sunday at the church.",
+                            "nodeType": "text"
+                        }
+                    ],
+                    "nodeType": "paragraph"
+                },
+                {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": "Two-year-olds attend either Monday/Wednesday or Tuesday/Thursday. Three-year-olds have the option of attending three days (M/T/W) or four days (M-Th). Four-year-olds have the option of attending four days (M-Th) or five days (M-F).",
+                            "nodeType": "text"
+                        }
+                    ],
+                    "nodeType": "paragraph"
+                },
+                {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": "Regular preschool hours are Monday-Thursday from 9 a.m. to 12 p.m., but those enrolled in the Early Bird program may arrive in the morning at 8 a.m. Three- and four-year-olds may bring a lunch and join the Lunch Bunch, staying at the preschool until 2 p.m.",
+                            "nodeType": "text"
+                        }
+                    ],
+                    "nodeType": "paragraph"
+                },
+                {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "marks": [
+                                {
+                                    "type": "bold"
+                                }
+                            ],
+                            "value": "Peggy Miller is our Preschool Director.",
+                            "nodeType": "text"
+                        },
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": " Peggy has been a member of Mt. Horeb Lutheran Church since 1994 and has been a Sunday School teacher at the church for more than 20 years. For nine years before becoming Preschool Director, Peggy taught the three-year-old preschool class at Mt. Horeb.",
+                            "nodeType": "text"
+                        }
+                    ],
+                    "nodeType": "paragraph"
+                }
+            ],
+            "nodeType": "document"
+        },
+        "contentPath": "/content/preschool"
+    },
+    {
+        "id": "7KIAvylJBMpEzpgle6RfHe",
+        "title": "Support",
+        "content": {
+            "data": {},
+            "content": [
+                {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": "Core Value: Support",
+                            "nodeType": "text"
+                        }
+                    ],
+                    "nodeType": "heading-2"
+                },
+                {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": "As a community of believers, we enter into covenant with God and with one another to serve side-by-side as the Body of Christ. That means giving back from the time, talent and treasures first given to us, and it means building Christ-centered relationships. When the church talks about Support, we’re talking about support of our church and support of one another. At Mt. Horeb, we offer this support in a variety of ways. Here’s a look at how we do Support:",
+                            "nodeType": "text"
+                        }
+                    ],
+                    "nodeType": "paragraph"
+                },
+                {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": "How to get involved…",
+                            "nodeType": "text"
+                        }
+                    ],
+                    "nodeType": "heading-3"
+                },
+                {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": "Practice Stewardship of by Giving Your Tithes and Offerings",
+                            "nodeType": "text"
+                        }
+                    ],
+                    "nodeType": "heading-4"
+                },
+                {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": "We are invited to participate in the ministry of the church by offering our worship, our time and talents, as well as our monetary contributions. Your tithe (or regular giving) helps support things like education and youth ministry, care for our students and missionaries, support of faith-based and charitable institutions, sustaining pastoral care and upkeep of the church building and physical resources. Offerings are gifts above and beyond regular giving that go to help special projects and needs that may arise. Please prayerfully consider how giving to the church can shape your walk of faith and make a difference in the lives of others. You may make your offerings in person or click ",
+                            "nodeType": "text"
+                        },
+                        {
+                            "data": {},
+                            "marks": [
+                                {
+                                    "type": "bold"
+                                }
+                            ],
+                            "value": "here ",
+                            "nodeType": "text"
+                        },
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": "to give online.",
+                            "nodeType": "text"
+                        }
+                    ],
+                    "nodeType": "paragraph"
+                },
+                {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": "Volunteer your time and talents",
+                            "nodeType": "text"
+                        }
+                    ],
+                    "nodeType": "heading-4"
+                },
+                {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": "Whether you are a woodworker or a choir member, gifted with numbers or great at organizing, whether you have a variety of skills and interests or just have some extra time to give, your time and talents are valuable to the support of God’s church in this place. Please contact us here to volunteer. With a church this size, many hands are needed to keep the property in top working order. If you have interest in helping with property needs, from repairs to technology to clean-up, we’d love to put your skills to good use!",
+                            "nodeType": "text"
+                        }
+                    ],
+                    "nodeType": "paragraph"
+                },
+                {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": "Serve the Needs of the Community",
+                            "nodeType": "text"
+                        }
+                    ],
+                    "nodeType": "heading-4"
+                },
+                {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": "Mt. Horeb is involved in community support ministries in a variety of ways, extending care to those in times of need in our own congregation, in our community and abroad. Ways that we serve those within our faith family include visiting and sending cards and seasonal bags to the elderly, homebound and those experiencing significant life passages, providing meals for the bereaved, and providing vaccinations, health screenings and education for our community members. In addition to congregational support, we serve those in need in our community in a variety of ways. If you would like to help out with our ministries to the local Food Bank, housing repair projects, or helping with ministry to the elderly and homebound in the community, please contact the church office at (803)345-2000.",
+                            "nodeType": "text"
+                        }
+                    ],
+                    "nodeType": "paragraph"
+                },
+                {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": "Participate in Fellowship Events",
+                            "nodeType": "text"
+                        }
+                    ],
+                    "nodeType": "heading-4"
+                },
+                {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": "The community of Mt. Horeb loves to gather around fun, fellowship and food! We gather weekly for coffee hour at 9:30am, and then at other times throughout the year for special times of learning, worship, or just some good clean fun! Periodically, we organize round-robin supper clubs to facilitate relationship building. For more information on upcoming fellowship events, please check our calendar.",
+                            "nodeType": "text"
+                        }
+                    ],
+                    "nodeType": "paragraph"
+                },
+                {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": "Build Christ-Centered Relationships",
+                            "nodeType": "text"
+                        }
+                    ],
+                    "nodeType": "heading-4"
+                },
+                {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": "There are a variety of Small Groups that meet at various times and places within Mt. Horeb. In addition to these informal groups, we also have vibrants Men’s Ministries, Women’s Ministries, Youth and Young Adult Groups. Please see below for more information:",
+                            "nodeType": "text"
+                        }
+                    ],
+                    "nodeType": "paragraph"
+                },
+                {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": "Lutheran Men in Mission (LMM)",
+                            "nodeType": "text"
+                        }
+                    ],
+                    "nodeType": "heading-5"
+                },
+                {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": "This group is open to men of all ages, and offers a chance to gather together around food, fellowship and faith. This group meets at the church on the first Monday of each month.",
+                            "nodeType": "text"
+                        }
+                    ],
+                    "nodeType": "paragraph"
+                },
+                {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": "Women of the ELCA (WELCA)",
+                            "nodeType": "text"
+                        }
+                    ],
+                    "nodeType": "heading-5"
+                },
+                {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": "Our Women of the ELCA gather throughout the year to participate in fellowship and devotions as well as service projects. Sisters in Christ create community in Circles, where small groups of women join together to grow in love God and for one another.",
+                            "nodeType": "text"
+                        }
+                    ],
+                    "nodeType": "paragraph"
+                },
+                {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": "Youth Groups",
+                            "nodeType": "text"
+                        }
+                    ],
+                    "nodeType": "heading-5"
+                },
+                {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": "Mt. Horeb has two youth groups, one for children grades 3-5 and one for Middle & High Schoolers. The 3rd-5th Grade group is called “Peace Frogs,” and it meets on the particular Sundays of the month at 4 PM. LCY for Middle & High Schoolers meets each week at 5pm.",
+                            "nodeType": "text"
+                        }
+                    ],
+                    "nodeType": "paragraph"
+                }
+            ],
+            "nodeType": "document"
+        },
+        "contentPath": "/content/support"
+    },
+    {
+        "id": "4e6jxa2wSeAQiQ5Q3lDspN",
+        "title": "Serve",
+        "content": {
+            "data": {},
+            "content": [
+                {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": "Core Value: Serve",
+                            "nodeType": "text"
+                        }
+                    ],
+                    "nodeType": "heading-2"
+                },
+                {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": "Mt. Horeb has a long legacy of serving others in our community and in our world. We believe that we are all called to share what has first been given to us with others, especially those in need. We uphold the dignity of all people and all of God’s creation, and we week to live out that belief in acts of service to others. If you are a believer, ask God how he can use you to spread the love of Christ through acts of compassion. Below are some of the ways we at Mt. Horeb seek to serve others.",
+                            "nodeType": "text"
+                        }
+                    ],
+                    "nodeType": "paragraph"
+                },
+                {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": "How to Get Involved",
+                            "nodeType": "text"
+                        }
+                    ],
+                    "nodeType": "heading-3"
+                },
+                {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": "Participate Mission Support",
+                            "nodeType": "text"
+                        }
+                    ],
+                    "nodeType": "heading-4"
+                },
+                {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": "This congregation has a robust Mission Fund which is used to send aid abroad as well as to mobilize missionaries for God’s work with our hands. We support missionaries in Japan, send our own members to places like Guyana and Costa Rica for hands-on mission work, provide mosquito nets for malaria, and participate in local and regional mission trips. We also host ongoing projects like Fair Trade products and cartridge recycling for World Hunger. To help support these ministries, check the calendar for fundraising events, or make a donation to Mt. Horeb’s Global Mission Fund. ",
+                            "nodeType": "text"
+                        }
+                    ],
+                    "nodeType": "paragraph"
+                },
+                {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": "Go on a Mission Trip",
+                            "nodeType": "text"
+                        }
+                    ],
+                    "nodeType": "heading-4"
+                },
+                {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": "We seek to prayerfully and actively respond to needs that arise in places near and far. Our Global Missions team organizes and sends groups to participate in international and nationwide mission trips. Past trips have included building a church in Guyana, disaster response in Alabama, and Habitat International in Costa Rica. Our youth group also participates in mission trips and in service projects involved in the National Youth Gathering. ",
+                            "nodeType": "text"
+                        }
+                    ],
+                    "nodeType": "paragraph"
+                },
+                {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": "Serve the Needs of the Community",
+                            "nodeType": "text"
+                        }
+                    ],
+                    "nodeType": "heading-4"
+                },
+                {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": "Mt. Horeb is involved in community support ministries in a variety of ways, extending care to those in times of need in our own congregation, in our community and abroad. Ways that we serve those within our faith family include visiting and sending cards and seasonal bags to the elderly, homebound and those experiencing significant life passages, providing meals for the bereaved, and providing vaccinations, health screenings and education for our community members. In addition to congregational support, we serve those in need in our community in a variety of ways. If you would like to help out with our ministries to the local food bank, housing repair projects, or helping with ministry to the elderly and homebound in the community, please contact the church office at (803) 345-2000.",
+                            "nodeType": "text"
+                        }
+                    ],
+                    "nodeType": "paragraph"
+                }
+            ],
+            "nodeType": "document"
+        },
+        "contentPath": "/content/serve"
+    },
+    {
+        "id": "4Do4t32zEIuLuTEri3MfCl",
+        "title": "Witness",
+        "content": {
+            "data": {},
+            "content": [
+                {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": "Core Value: Learn",
+                            "nodeType": "text"
+                        }
+                    ],
+                    "nodeType": "heading-2"
+                },
+                {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": "Jesus’ disciples called him “Rabbi,” for he was their teacher. As a community of disciples, our calling is to continue to grow in our learning about God’s Word and its teaching. Through study and the active participation in Faith Formation, we seek to write God’s Word on our hearts (Jeremiah 31:33). We believe that the study of God’s word is a serious endeavor, but it can also be fun! Educational opportunities for children, youth and adults seek to integrate learning and relationship-building for all ages.",
+                            "nodeType": "text"
+                        }
+                    ],
+                    "nodeType": "paragraph"
+                },
+                {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": "",
+                            "nodeType": "text"
+                        }
+                    ],
+                    "nodeType": "paragraph"
+                },
+                {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": "The way of a disciple is a lifelong path of learning. The Holy Scriptures (The Bible) and the Holy Spirit are two essential companions along that path. At Mt. Horeb, all disciples are encouraged to read, study and pray with the Word of God. There are many good companions to the Bible that help open up the meaning and background of the text. If you’d like to do more study, check out Enter the Bible from Luther Seminary.",
+                            "nodeType": "text"
+                        }
+                    ],
+                    "nodeType": "paragraph"
+                },
+                {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": "How to Get Involved With Learning",
+                            "nodeType": "text"
+                        }
+                    ],
+                    "nodeType": "heading-3"
+                },
+                {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": "There is a place for you in the learning ministries of Mt. Horeb! Whether it’s your first time attending a Bible Study, or you have gifts for planning and teaching, your gifts are an asset to God’s mission in this place. Check out the following ways you can get involved in Faith Formation at Mt. Horeb. If there’s something you’d like to get started that you don’t see on this list, talk to a member of the program staff.",
+                            "nodeType": "text"
+                        }
+                    ],
+                    "nodeType": "paragraph"
+                },
+                {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": "Attend a Sunday Morning Faith Formation Class",
+                            "nodeType": "text"
+                        }
+                    ],
+                    "nodeType": "heading-4"
+                },
+                {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": "There are classes for all ages on Sunday Mornings at 9:00 AM at Mt. Horeb. From nursery to Confirmation Classes to older adult classes, believers and inquirers alike all have a place in one of our studies. For more information on Sunday School classes, please contact the church.",
+                            "nodeType": "text"
+                        }
+                    ],
+                    "nodeType": "paragraph"
+                },
+                {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": "Participate in one of Mt. Horeb’s Youth Groups",
+                            "nodeType": "text"
+                        }
+                    ],
+                    "nodeType": "heading-4"
+                },
+                {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": "Growing in Faith is not always about classroom learning, but also involves exploring faith with peers and building Christ-centered relationships. Mt. Horeb currently has two youth groups: Peace Frogs for grades 3-5 and LCY for grades 6-12. Peace Frogs meet at 4pm on particular Sundays month and LCY meets Sundays at 5pm in the Fellowship Hall.",
+                            "nodeType": "text"
+                        }
+                    ],
+                    "nodeType": "paragraph"
+                },
+                {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": "Attend a Bible Study",
+                            "nodeType": "text"
+                        }
+                    ],
+                    "nodeType": "heading-4"
+                },
+                {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": "Weekly Bible Studies are offered in both morning and evening sessions. Topics range from Books of the Bible to studies of Faith and Culture. Check the church calendar for weekly Bible Study times, or contact the front office at (803) 345-2000.",
+                            "nodeType": "text"
+                        }
+                    ],
+                    "nodeType": "paragraph"
+                },
+                {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": "Attend Vacation Bible School",
+                            "nodeType": "text"
+                        }
+                    ],
+                    "nodeType": "heading-4"
+                },
+                {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": "At Mt. Horeb, Vacation Bible School is one of the highlights of our learning ministries. Children, youth and adults all come together for one week of great fun, learning about the Word of God. Past themes have included “Kingdom Rock,” “Weird Animals” and “Surf Shack.”",
+                            "nodeType": "text"
+                        }
+                    ],
+                    "nodeType": "paragraph"
+                },
+                {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": "Enroll in Confirmation Class",
+                            "nodeType": "text"
+                        }
+                    ],
+                    "nodeType": "heading-4"
+                },
+                {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": "The Confirmation program at Mt. Horeb is designed for 6-8th grade students, to ground them in the foundations of the Christian faith in the Lutheran tradition, and to help shape their lives according to their faith principles and practices. Confirmation classes meet every Sunday morning at 9:00am.",
+                            "nodeType": "text"
+                        }
+                    ],
+                    "nodeType": "paragraph"
+                },
+                {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": "Receive First Communion Instruction",
+                            "nodeType": "text"
+                        }
+                    ],
+                    "nodeType": "heading-4"
+                },
+                {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": "Children at Mt. Horeb meet together for special instruction to prepare them for their first communion. Adults who have not communed may also schedule time with the pastor to be informed about the meaning and faith tenets of Holy Communion.",
+                            "nodeType": "text"
+                        }
+                    ],
+                    "nodeType": "paragraph"
+                },
+                {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": "Teach a Class or Lead a Small Group",
+                            "nodeType": "text"
+                        }
+                    ],
+                    "nodeType": "heading-4"
+                },
+                {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": "If you have discerned a gift for leading or teaching, your gifts are valuable to the ministry of this congregation. Opportunities include: teaching (or assisting) with Sunday School for children, youth or adults, teaching a section on a certain topic, starting a Bible Study or home-based Small Group, or heading up a class at Vacation Bible School. If you would like to serve as a teacher or small group leader, please contact the church office.",
+                            "nodeType": "text"
+                        }
+                    ],
+                    "nodeType": "paragraph"
+                },
+                {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": "Volunteer with Learning Ministries at Mt. Horeb",
+                            "nodeType": "text"
+                        }
+                    ],
+                    "nodeType": "heading-4"
+                },
+                {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": "Under our Core Value LEARN, many things happen throughout the year here. From curriculum planning to the annual Easter Egg Hunt, from the Children’s Christmas Program to the Advent Breakfast & Bible Study, there are many hands at work behind the scenes. If you would like to give of your time to help, please call the church office at (803) 345-2000.",
+                            "nodeType": "text"
+                        }
+                    ],
+                    "nodeType": "paragraph"
+                }
+            ],
+            "nodeType": "document"
+        },
+        "contentPath": "/content/witness"
+    },
+    {
+        "id": "644yaYASz3lZnaODdNucCP",
+        "title": "Learn",
+        "content": {
+            "data": {},
+            "content": [
+                {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": "Core Value: Learn",
+                            "nodeType": "text"
+                        }
+                    ],
+                    "nodeType": "heading-2"
+                },
+                {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": "Jesus’ disciples called him “Rabbi,” for he was their teacher. As a community of disciples, our calling is to continue to grow in our learning about God’s Word and its teaching. Through study and the active participation in Faith Formation, we seek to write God’s Word on our hearts (Jeremiah 31:33). We believe that the study of God’s word is a serious endeavor, but it can also be fun! Educational opportunities for children, youth and adults seek to integrate learning and relationship-building for all ages.",
+                            "nodeType": "text"
+                        }
+                    ],
+                    "nodeType": "paragraph"
+                },
+                {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": "The way of a disciple is a lifelong path of learning. The Holy Scriptures (The Bible) and the Holy Spirit are two essential companions along that path. At Mt. Horeb, all disciples are encouraged to read, study and pray with the Word of God. There are many good companions to the Bible that help open up the meaning and background of the text. If you’d like to do more study, check out Enter the Bible from Luther Seminary.",
+                            "nodeType": "text"
+                        }
+                    ],
+                    "nodeType": "paragraph"
+                },
+                {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": "How to Get Involved With Learning",
+                            "nodeType": "text"
+                        }
+                    ],
+                    "nodeType": "heading-3"
+                },
+                {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": "There is a place for you in the learning ministries of Mt. Horeb! Whether it’s your first time attending a Bible Study, or you have gifts for planning and teaching, your gifts are an asset to God’s mission in this place. Check out the following ways you can get involved in Faith Formation at Mt. Horeb. If there’s something you’d like to get started that you don’t see on this list, talk to a member of the program staff.",
+                            "nodeType": "text"
+                        }
+                    ],
+                    "nodeType": "paragraph"
+                },
+                {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": "Attend a Sunday Morning Faith Formation Class",
+                            "nodeType": "text"
+                        }
+                    ],
+                    "nodeType": "heading-4"
+                },
+                {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": "There are classes for all ages on Sunday Mornings at 9:00 AM at Mt. Horeb. From nursery to Confirmation Classes to older adult classes, believers and inquirers alike all have a place in one of our studies. For more information on Sunday School classes, please contact the church.",
+                            "nodeType": "text"
+                        }
+                    ],
+                    "nodeType": "paragraph"
+                },
+                {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": "Participate in one of Mt. Horeb’s Youth Groups",
+                            "nodeType": "text"
+                        }
+                    ],
+                    "nodeType": "heading-4"
+                },
+                {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": "Growing in Faith is not always about classroom learning, but also involves exploring faith with peers and building Christ-centered relationships. Mt. Horeb currently has two youth groups: Peace Frogs for grades 3-5 and LCY for grades 6-12. Peace Frogs meet at 4pm on particular Sundays month and LCY meets Sundays at 5pm in the Fellowship Hall.",
+                            "nodeType": "text"
+                        }
+                    ],
+                    "nodeType": "paragraph"
+                },
+                {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": "Attend a Bible Study",
+                            "nodeType": "text"
+                        }
+                    ],
+                    "nodeType": "heading-4"
+                },
+                {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": "Weekly Bible Studies are offered in both morning and evening sessions. Topics range from Books of the Bible to studies of Faith and Culture. Check the church calendar for weekly Bible Study times, or contact the front office at (803) 345-2000.",
+                            "nodeType": "text"
+                        }
+                    ],
+                    "nodeType": "paragraph"
+                },
+                {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": "Attend Vacation Bible School",
+                            "nodeType": "text"
+                        }
+                    ],
+                    "nodeType": "heading-4"
+                },
+                {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": "At Mt. Horeb, Vacation Bible School is one of the highlights of our learning ministries. Children, youth and adults all come together for one week of great fun, learning about the Word of God. Past themes have included “Kingdom Rock,” “Weird Animals” and “Surf Shack.”",
+                            "nodeType": "text"
+                        }
+                    ],
+                    "nodeType": "paragraph"
+                },
+                {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": "Enroll in Confirmation Class",
+                            "nodeType": "text"
+                        }
+                    ],
+                    "nodeType": "heading-4"
+                },
+                {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": "The Confirmation program at Mt. Horeb is designed for 6-8th grade students, to ground them in the foundations of the Christian faith in the Lutheran tradition, and to help shape their lives according to their faith principles and practices. Confirmation classes meet every Sunday morning at 9:00am.",
+                            "nodeType": "text"
+                        }
+                    ],
+                    "nodeType": "paragraph"
+                },
+                {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": "Receive First Communion Instruction",
+                            "nodeType": "text"
+                        }
+                    ],
+                    "nodeType": "heading-4"
+                },
+                {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": "Children at Mt. Horeb meet together for special instruction to prepare them for their first communion. Adults who have not communed may also schedule time with the pastor to be informed about the meaning and faith tenets of Holy Communion.",
+                            "nodeType": "text"
+                        }
+                    ],
+                    "nodeType": "paragraph"
+                },
+                {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": "Teach a Class or Lead a Small Group",
+                            "nodeType": "text"
+                        }
+                    ],
+                    "nodeType": "heading-4"
+                },
+                {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": "If you have discerned a gift for leading or teaching, your gifts are valuable to the ministry of this congregation. Opportunities include: teaching (or assisting) with Sunday School for children, youth or adults, teaching a section on a certain topic, starting a Bible Study or home-based Small Group, or heading up a class at Vacation Bible School. If you would like to serve as a teacher or small group leader, please contact the church office.",
+                            "nodeType": "text"
+                        }
+                    ],
+                    "nodeType": "paragraph"
+                },
+                {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": "Volunteer with Learning Ministries at Mt. Horeb",
+                            "nodeType": "text"
+                        }
+                    ],
+                    "nodeType": "heading-4"
+                },
+                {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": "Under our Core Value LEARN, many things happen throughout the year here. From curriculum planning to the annual Easter Egg Hunt, from the Children’s Christmas Program to the Advent Breakfast & Bible Study, there are many hands at work behind the scenes. If you would like to give of your time to help, please call the church office at (803) 345-2000.",
+                            "nodeType": "text"
+                        }
+                    ],
+                    "nodeType": "paragraph"
+                }
+            ],
+            "nodeType": "document"
+        },
+        "contentPath": "/content/learn"
+    },
+    {
+        "id": "1o6w1QWfwwJE2ngKrI1tY2",
+        "title": "History",
+        "content": {
+            "data": {},
+            "content": [
+                {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "marks": [
+                                {
+                                    "type": "bold"
+                                }
+                            ],
+                            "value": "Mt. Horeb Lutheran Church",
+                            "nodeType": "text"
+                        },
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": " was established in 1891 – about the time the Town of Chapin was organized. The history of Mt. Horeb Church in many ways parallels that of the town itself. A number of leaders in the town have also been leaders in the church. As the town and the surrounding area has grown, so has the congregation of Mt. Horeb.",
+                            "nodeType": "text"
+                        }
+                    ],
+                    "nodeType": "paragraph"
+                },
+                {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": "The congregation can thank the Rev. W. L. Darr for being shepherding pastor who gathered together the little flock from which Mt. Horeb’s congregation has sprung. The report of the President of the Tennessee Synod to its 1889 convention stated that in the Spring of that year “the pastorate in South Carolina left vacant by the death of Dr. Smeltzer (Bethlehem, St. Thomas, and St. Jacobs) extended a call to Candidate W. L. Darr.”",
+                            "nodeType": "text"
+                        }
+                    ],
+                    "nodeType": "paragraph"
+                },
+                {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": "Brother Darr accepted the call and entered his labors on this field in June 1889. Although he served all three congregations, soon after his arrival in the area he gathered together a fourth which was to become Mt. Horeb. This little congregation first met in Mr. George Lindler’s Funeral Home.",
+                            "nodeType": "text"
+                        }
+                    ],
+                    "nodeType": "paragraph"
+                },
+                {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": "Through the years, the congregation has worshiped in three other buildings since then, including the current sanctuary, which was dedicated in October 1963. In the summer of 1999, the church completed an extensive renovation and addition project to its education building, and the interior of the sanctuary was remodeled in 2013.",
+                            "nodeType": "text"
+                        }
+                    ],
+                    "nodeType": "paragraph"
+                },
+                {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "marks": [
+                                {
+                                    "type": "bold"
+                                }
+                            ],
+                            "value": "The following is a list of the pastors who served Mt. Horeb Lutheran Church since its origins in 1889:",
+                            "nodeType": "text"
+                        }
+                    ],
+                    "nodeType": "paragraph"
+                },
+                {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "data": {},
+                                            "content": [
+                                                {
+                                                    "data": {},
+                                                    "marks": [
+                                                        {
+                                                            "type": "bold"
+                                                        }
+                                                    ],
+                                                    "value": "Pastor",
+                                                    "nodeType": "text"
+                                                }
+                                            ],
+                                            "nodeType": "paragraph"
+                                        }
+                                    ],
+                                    "nodeType": "table-header-cell"
+                                },
+                                {
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "data": {},
+                                            "content": [
+                                                {
+                                                    "data": {},
+                                                    "marks": [
+                                                        {
+                                                            "type": "bold"
+                                                        }
+                                                    ],
+                                                    "value": "Years Served",
+                                                    "nodeType": "text"
+                                                }
+                                            ],
+                                            "nodeType": "paragraph"
+                                        }
+                                    ],
+                                    "nodeType": "table-header-cell"
+                                }
+                            ],
+                            "nodeType": "table-row"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "data": {},
+                                            "content": [
+                                                {
+                                                    "data": {},
+                                                    "marks": [],
+                                                    "value": "W.L. Darr",
+                                                    "nodeType": "text"
+                                                }
+                                            ],
+                                            "nodeType": "paragraph"
+                                        }
+                                    ],
+                                    "nodeType": "table-cell"
+                                },
+                                {
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "data": {},
+                                            "content": [
+                                                {
+                                                    "data": {},
+                                                    "marks": [],
+                                                    "value": "1889-1895",
+                                                    "nodeType": "text"
+                                                }
+                                            ],
+                                            "nodeType": "paragraph"
+                                        }
+                                    ],
+                                    "nodeType": "table-cell"
+                                }
+                            ],
+                            "nodeType": "table-row"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "data": {},
+                                            "content": [
+                                                {
+                                                    "data": {},
+                                                    "marks": [],
+                                                    "value": "Jacob Wike",
+                                                    "nodeType": "text"
+                                                }
+                                            ],
+                                            "nodeType": "paragraph"
+                                        }
+                                    ],
+                                    "nodeType": "table-cell"
+                                },
+                                {
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "data": {},
+                                            "content": [
+                                                {
+                                                    "data": {},
+                                                    "marks": [],
+                                                    "value": "1896-1899",
+                                                    "nodeType": "text"
+                                                }
+                                            ],
+                                            "nodeType": "paragraph"
+                                        }
+                                    ],
+                                    "nodeType": "table-cell"
+                                }
+                            ],
+                            "nodeType": "table-row"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "data": {},
+                                            "content": [
+                                                {
+                                                    "data": {},
+                                                    "marks": [],
+                                                    "value": "J. F. Deal",
+                                                    "nodeType": "text"
+                                                }
+                                            ],
+                                            "nodeType": "paragraph"
+                                        }
+                                    ],
+                                    "nodeType": "table-cell"
+                                },
+                                {
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "data": {},
+                                            "content": [
+                                                {
+                                                    "data": {},
+                                                    "marks": [],
+                                                    "value": "1899-1902",
+                                                    "nodeType": "text"
+                                                }
+                                            ],
+                                            "nodeType": "paragraph"
+                                        }
+                                    ],
+                                    "nodeType": "table-cell"
+                                }
+                            ],
+                            "nodeType": "table-row"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "data": {},
+                                            "content": [
+                                                {
+                                                    "data": {},
+                                                    "marks": [],
+                                                    "value": "O. B. Shearouse",
+                                                    "nodeType": "text"
+                                                }
+                                            ],
+                                            "nodeType": "paragraph"
+                                        }
+                                    ],
+                                    "nodeType": "table-cell"
+                                },
+                                {
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "data": {},
+                                            "content": [
+                                                {
+                                                    "data": {},
+                                                    "marks": [],
+                                                    "value": "1903-1906",
+                                                    "nodeType": "text"
+                                                }
+                                            ],
+                                            "nodeType": "paragraph"
+                                        }
+                                    ],
+                                    "nodeType": "table-cell"
+                                }
+                            ],
+                            "nodeType": "table-row"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "data": {},
+                                            "content": [
+                                                {
+                                                    "data": {},
+                                                    "marks": [],
+                                                    "value": "Enoch Hite",
+                                                    "nodeType": "text"
+                                                }
+                                            ],
+                                            "nodeType": "paragraph"
+                                        }
+                                    ],
+                                    "nodeType": "table-cell"
+                                },
+                                {
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "data": {},
+                                            "content": [
+                                                {
+                                                    "data": {},
+                                                    "marks": [],
+                                                    "value": "1906-1909",
+                                                    "nodeType": "text"
+                                                }
+                                            ],
+                                            "nodeType": "paragraph"
+                                        }
+                                    ],
+                                    "nodeType": "table-cell"
+                                }
+                            ],
+                            "nodeType": "table-row"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "data": {},
+                                            "content": [
+                                                {
+                                                    "data": {},
+                                                    "marks": [],
+                                                    "value": "W. James Roof",
+                                                    "nodeType": "text"
+                                                }
+                                            ],
+                                            "nodeType": "paragraph"
+                                        }
+                                    ],
+                                    "nodeType": "table-cell"
+                                },
+                                {
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "data": {},
+                                            "content": [
+                                                {
+                                                    "data": {},
+                                                    "marks": [],
+                                                    "value": "1911-1914",
+                                                    "nodeType": "text"
+                                                }
+                                            ],
+                                            "nodeType": "paragraph"
+                                        }
+                                    ],
+                                    "nodeType": "table-cell"
+                                }
+                            ],
+                            "nodeType": "table-row"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "data": {},
+                                            "content": [
+                                                {
+                                                    "data": {},
+                                                    "marks": [],
+                                                    "value": "J. L. Cromer",
+                                                    "nodeType": "text"
+                                                }
+                                            ],
+                                            "nodeType": "paragraph"
+                                        }
+                                    ],
+                                    "nodeType": "table-cell"
+                                },
+                                {
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "data": {},
+                                            "content": [
+                                                {
+                                                    "data": {},
+                                                    "marks": [],
+                                                    "value": "1914-1919",
+                                                    "nodeType": "text"
+                                                }
+                                            ],
+                                            "nodeType": "paragraph"
+                                        }
+                                    ],
+                                    "nodeType": "table-cell"
+                                }
+                            ],
+                            "nodeType": "table-row"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "data": {},
+                                            "content": [
+                                                {
+                                                    "data": {},
+                                                    "marks": [],
+                                                    "value": "J. M. Senter",
+                                                    "nodeType": "text"
+                                                }
+                                            ],
+                                            "nodeType": "paragraph"
+                                        }
+                                    ],
+                                    "nodeType": "table-cell"
+                                },
+                                {
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "data": {},
+                                            "content": [
+                                                {
+                                                    "data": {},
+                                                    "marks": [],
+                                                    "value": "1919-1926",
+                                                    "nodeType": "text"
+                                                }
+                                            ],
+                                            "nodeType": "paragraph"
+                                        }
+                                    ],
+                                    "nodeType": "table-cell"
+                                }
+                            ],
+                            "nodeType": "table-row"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "data": {},
+                                            "content": [
+                                                {
+                                                    "data": {},
+                                                    "marks": [],
+                                                    "value": "W. A. Craun",
+                                                    "nodeType": "text"
+                                                }
+                                            ],
+                                            "nodeType": "paragraph"
+                                        }
+                                    ],
+                                    "nodeType": "table-cell"
+                                },
+                                {
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "data": {},
+                                            "content": [
+                                                {
+                                                    "data": {},
+                                                    "marks": [],
+                                                    "value": "1927-1928",
+                                                    "nodeType": "text"
+                                                }
+                                            ],
+                                            "nodeType": "paragraph"
+                                        }
+                                    ],
+                                    "nodeType": "table-cell"
+                                }
+                            ],
+                            "nodeType": "table-row"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "data": {},
+                                            "content": [
+                                                {
+                                                    "data": {},
+                                                    "marks": [],
+                                                    "value": "H. Smith Petrea",
+                                                    "nodeType": "text"
+                                                }
+                                            ],
+                                            "nodeType": "paragraph"
+                                        }
+                                    ],
+                                    "nodeType": "table-cell"
+                                },
+                                {
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "data": {},
+                                            "content": [
+                                                {
+                                                    "data": {},
+                                                    "marks": [],
+                                                    "value": "1928-1938",
+                                                    "nodeType": "text"
+                                                }
+                                            ],
+                                            "nodeType": "paragraph"
+                                        }
+                                    ],
+                                    "nodeType": "table-cell"
+                                }
+                            ],
+                            "nodeType": "table-row"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "data": {},
+                                            "content": [
+                                                {
+                                                    "data": {},
+                                                    "marks": [],
+                                                    "value": "Albert Stemmerman",
+                                                    "nodeType": "text"
+                                                }
+                                            ],
+                                            "nodeType": "paragraph"
+                                        }
+                                    ],
+                                    "nodeType": "table-cell"
+                                },
+                                {
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "data": {},
+                                            "content": [
+                                                {
+                                                    "data": {},
+                                                    "marks": [],
+                                                    "value": "1938-1942",
+                                                    "nodeType": "text"
+                                                }
+                                            ],
+                                            "nodeType": "paragraph"
+                                        }
+                                    ],
+                                    "nodeType": "table-cell"
+                                }
+                            ],
+                            "nodeType": "table-row"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "data": {},
+                                            "content": [
+                                                {
+                                                    "data": {},
+                                                    "marks": [],
+                                                    "value": "Henry B. Watson",
+                                                    "nodeType": "text"
+                                                }
+                                            ],
+                                            "nodeType": "paragraph"
+                                        }
+                                    ],
+                                    "nodeType": "table-cell"
+                                },
+                                {
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "data": {},
+                                            "content": [
+                                                {
+                                                    "data": {},
+                                                    "marks": [],
+                                                    "value": "1942-1945",
+                                                    "nodeType": "text"
+                                                }
+                                            ],
+                                            "nodeType": "paragraph"
+                                        }
+                                    ],
+                                    "nodeType": "table-cell"
+                                }
+                            ],
+                            "nodeType": "table-row"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "data": {},
+                                            "content": [
+                                                {
+                                                    "data": {},
+                                                    "marks": [],
+                                                    "value": "Luther H. Jeffcoat",
+                                                    "nodeType": "text"
+                                                }
+                                            ],
+                                            "nodeType": "paragraph"
+                                        }
+                                    ],
+                                    "nodeType": "table-cell"
+                                },
+                                {
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "data": {},
+                                            "content": [
+                                                {
+                                                    "data": {},
+                                                    "marks": [],
+                                                    "value": "1949-1951",
+                                                    "nodeType": "text"
+                                                }
+                                            ],
+                                            "nodeType": "paragraph"
+                                        }
+                                    ],
+                                    "nodeType": "table-cell"
+                                }
+                            ],
+                            "nodeType": "table-row"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "data": {},
+                                            "content": [
+                                                {
+                                                    "data": {},
+                                                    "marks": [],
+                                                    "value": "John H. Kock Jr.",
+                                                    "nodeType": "text"
+                                                }
+                                            ],
+                                            "nodeType": "paragraph"
+                                        }
+                                    ],
+                                    "nodeType": "table-cell"
+                                },
+                                {
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "data": {},
+                                            "content": [
+                                                {
+                                                    "data": {},
+                                                    "marks": [],
+                                                    "value": "1951-1961",
+                                                    "nodeType": "text"
+                                                }
+                                            ],
+                                            "nodeType": "paragraph"
+                                        }
+                                    ],
+                                    "nodeType": "table-cell"
+                                }
+                            ],
+                            "nodeType": "table-row"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "data": {},
+                                            "content": [
+                                                {
+                                                    "data": {},
+                                                    "marks": [],
+                                                    "value": "Everett A. Dasher",
+                                                    "nodeType": "text"
+                                                }
+                                            ],
+                                            "nodeType": "paragraph"
+                                        }
+                                    ],
+                                    "nodeType": "table-cell"
+                                },
+                                {
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "data": {},
+                                            "content": [
+                                                {
+                                                    "data": {},
+                                                    "marks": [],
+                                                    "value": "1961-1973",
+                                                    "nodeType": "text"
+                                                }
+                                            ],
+                                            "nodeType": "paragraph"
+                                        }
+                                    ],
+                                    "nodeType": "table-cell"
+                                }
+                            ],
+                            "nodeType": "table-row"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "data": {},
+                                            "content": [
+                                                {
+                                                    "data": {},
+                                                    "marks": [],
+                                                    "value": "Earl H. Loadholdt",
+                                                    "nodeType": "text"
+                                                }
+                                            ],
+                                            "nodeType": "paragraph"
+                                        }
+                                    ],
+                                    "nodeType": "table-cell"
+                                },
+                                {
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "data": {},
+                                            "content": [
+                                                {
+                                                    "data": {},
+                                                    "marks": [],
+                                                    "value": "1973-1981",
+                                                    "nodeType": "text"
+                                                }
+                                            ],
+                                            "nodeType": "paragraph"
+                                        }
+                                    ],
+                                    "nodeType": "table-cell"
+                                }
+                            ],
+                            "nodeType": "table-row"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "data": {},
+                                            "content": [
+                                                {
+                                                    "data": {},
+                                                    "marks": [],
+                                                    "value": "E. Armand Shealy",
+                                                    "nodeType": "text"
+                                                }
+                                            ],
+                                            "nodeType": "paragraph"
+                                        }
+                                    ],
+                                    "nodeType": "table-cell"
+                                },
+                                {
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "data": {},
+                                            "content": [
+                                                {
+                                                    "data": {},
+                                                    "marks": [],
+                                                    "value": "1981-1990",
+                                                    "nodeType": "text"
+                                                }
+                                            ],
+                                            "nodeType": "paragraph"
+                                        }
+                                    ],
+                                    "nodeType": "table-cell"
+                                }
+                            ],
+                            "nodeType": "table-row"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "data": {},
+                                            "content": [
+                                                {
+                                                    "data": {},
+                                                    "marks": [],
+                                                    "value": "Richard E. Webber",
+                                                    "nodeType": "text"
+                                                }
+                                            ],
+                                            "nodeType": "paragraph"
+                                        }
+                                    ],
+                                    "nodeType": "table-cell"
+                                },
+                                {
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "data": {},
+                                            "content": [
+                                                {
+                                                    "data": {},
+                                                    "marks": [],
+                                                    "value": "1991-2001",
+                                                    "nodeType": "text"
+                                                }
+                                            ],
+                                            "nodeType": "paragraph"
+                                        }
+                                    ],
+                                    "nodeType": "table-cell"
+                                }
+                            ],
+                            "nodeType": "table-row"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "data": {},
+                                            "content": [
+                                                {
+                                                    "data": {},
+                                                    "marks": [],
+                                                    "value": "Ralph G. Hill",
+                                                    "nodeType": "text"
+                                                }
+                                            ],
+                                            "nodeType": "paragraph"
+                                        }
+                                    ],
+                                    "nodeType": "table-cell"
+                                },
+                                {
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "data": {},
+                                            "content": [
+                                                {
+                                                    "data": {},
+                                                    "marks": [],
+                                                    "value": "2002-2022",
+                                                    "nodeType": "text"
+                                                }
+                                            ],
+                                            "nodeType": "paragraph"
+                                        }
+                                    ],
+                                    "nodeType": "table-cell"
+                                }
+                            ],
+                            "nodeType": "table-row"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "data": {},
+                                            "content": [
+                                                {
+                                                    "data": {},
+                                                    "marks": [],
+                                                    "value": "Ken C. Gillikin",
+                                                    "nodeType": "text"
+                                                }
+                                            ],
+                                            "nodeType": "paragraph"
+                                        }
+                                    ],
+                                    "nodeType": "table-cell"
+                                },
+                                {
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "data": {},
+                                            "content": [
+                                                {
+                                                    "data": {},
+                                                    "marks": [],
+                                                    "value": "2006-2010",
+                                                    "nodeType": "text"
+                                                }
+                                            ],
+                                            "nodeType": "paragraph"
+                                        }
+                                    ],
+                                    "nodeType": "table-cell"
+                                }
+                            ],
+                            "nodeType": "table-row"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "data": {},
+                                            "content": [
+                                                {
+                                                    "data": {},
+                                                    "marks": [],
+                                                    "value": "Ginger Litman-Koon",
+                                                    "nodeType": "text"
+                                                }
+                                            ],
+                                            "nodeType": "paragraph"
+                                        }
+                                    ],
+                                    "nodeType": "table-cell"
+                                },
+                                {
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "data": {},
+                                            "content": [
+                                                {
+                                                    "data": {},
+                                                    "marks": [],
+                                                    "value": "2012-2017",
+                                                    "nodeType": "text"
+                                                }
+                                            ],
+                                            "nodeType": "paragraph"
+                                        }
+                                    ],
+                                    "nodeType": "table-cell"
+                                }
+                            ],
+                            "nodeType": "table-row"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "data": {},
+                                            "content": [
+                                                {
+                                                    "data": {},
+                                                    "marks": [],
+                                                    "value": "Joanna C. Gragg",
+                                                    "nodeType": "text"
+                                                }
+                                            ],
+                                            "nodeType": "paragraph"
+                                        }
+                                    ],
+                                    "nodeType": "table-cell"
+                                },
+                                {
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "data": {},
+                                            "content": [
+                                                {
+                                                    "data": {},
+                                                    "marks": [],
+                                                    "value": "2018-2022",
+                                                    "nodeType": "text"
+                                                }
+                                            ],
+                                            "nodeType": "paragraph"
+                                        }
+                                    ],
+                                    "nodeType": "table-cell"
+                                }
+                            ],
+                            "nodeType": "table-row"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "data": {},
+                                            "content": [
+                                                {
+                                                    "data": {},
+                                                    "marks": [],
+                                                    "value": "Ron Philabaum",
+                                                    "nodeType": "text"
+                                                }
+                                            ],
+                                            "nodeType": "paragraph"
+                                        }
+                                    ],
+                                    "nodeType": "table-cell"
+                                },
+                                {
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "data": {},
+                                            "content": [
+                                                {
+                                                    "data": {},
+                                                    "marks": [],
+                                                    "value": "2024-present",
+                                                    "nodeType": "text"
+                                                }
+                                            ],
+                                            "nodeType": "paragraph"
+                                        }
+                                    ],
+                                    "nodeType": "table-cell"
+                                }
+                            ],
+                            "nodeType": "table-row"
+                        }
+                    ],
+                    "nodeType": "table"
+                },
+                {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": "",
+                            "nodeType": "text"
+                        }
+                    ],
+                    "nodeType": "paragraph"
+                }
+            ],
+            "nodeType": "document"
+        },
+        "contentPath": "/content/history"
+    },
+    {
+        "id": "6G8pVnBk3xyY3hfLgZWcx7",
+        "title": "Worship Schedule",
+        "content": {
+            "data": {},
+            "content": [
+                {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "marks": [
+                                {
+                                    "type": "bold"
+                                }
+                            ],
+                            "value": "Come join us at 10:00 AM each Sunday!",
+                            "nodeType": "text"
+                        }
+                    ],
+                    "nodeType": "heading-3"
+                },
+                {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "marks": [
+                                {
+                                    "type": "bold"
+                                }
+                            ],
+                            "value": "Faith Formation",
+                            "nodeType": "text"
+                        },
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": " for all ages at 9:00 AM",
+                            "nodeType": "text"
+                        }
+                    ],
+                    "nodeType": "paragraph"
+                },
+                {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "marks": [
+                                {
+                                    "type": "bold"
+                                }
+                            ],
+                            "value": "Special Worship Opportunities",
+                            "nodeType": "text"
+                        }
+                    ],
+                    "nodeType": "heading-3"
+                },
+                {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "marks": [
+                                {
+                                    "type": "italic"
+                                }
+                            ],
+                            "value": "(Note: Times listed here are the typical times for each service, but these may be adjusted each year to the needs of the church.  Be sure to check out the news section and our social media for any changes to these services!)",
+                            "nodeType": "text"
+                        }
+                    ],
+                    "nodeType": "paragraph"
+                },
+                {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "marks": [
+                                {
+                                    "type": "bold"
+                                }
+                            ],
+                            "value": "Advent/Christmas Cantata",
+                            "nodeType": "text"
+                        },
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": " each December",
+                            "nodeType": "text"
+                        }
+                    ],
+                    "nodeType": "paragraph"
+                },
+                {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "marks": [
+                                {
+                                    "type": "bold"
+                                }
+                            ],
+                            "value": "Christmas Eve Worship",
+                            "nodeType": "text"
+                        },
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": " at 11 AM, 5 PM, 7 PM",
+                            "nodeType": "text"
+                        }
+                    ],
+                    "nodeType": "paragraph"
+                },
+                {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "marks": [
+                                {
+                                    "type": "bold"
+                                }
+                            ],
+                            "value": "Ash Wednesday Worship ",
+                            "nodeType": "text"
+                        },
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": "at 11 AM and 7 PM",
+                            "nodeType": "text"
+                        }
+                    ],
+                    "nodeType": "paragraph"
+                },
+                {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "marks": [
+                                {
+                                    "type": "bold"
+                                }
+                            ],
+                            "value": "Lenten Worship ",
+                            "nodeType": "text"
+                        },
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": "Wednesdays in Lent at 7 PM, preceded by supper at 6 PM",
+                            "nodeType": "text"
+                        }
+                    ],
+                    "nodeType": "paragraph"
+                },
+                {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "marks": [
+                                {
+                                    "type": "bold"
+                                }
+                            ],
+                            "value": "Maundy Thursday Worship",
+                            "nodeType": "text"
+                        },
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": " with Communion at 11 AM and 7 PM",
+                            "nodeType": "text"
+                        }
+                    ],
+                    "nodeType": "paragraph"
+                },
+                {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "marks": [
+                                {
+                                    "type": "bold"
+                                }
+                            ],
+                            "value": "Good Friday Tenebrae Worship",
+                            "nodeType": "text"
+                        },
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": " at 7 PM",
+                            "nodeType": "text"
+                        }
+                    ],
+                    "nodeType": "paragraph"
+                },
+                {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "marks": [
+                                {
+                                    "type": "bold"
+                                }
+                            ],
+                            "value": "Easter Sunday Worship ",
+                            "nodeType": "text"
+                        },
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": "at 10:00 AM, preceded by breakfast at 8:30 AM and then flowering of the cross",
+                            "nodeType": "text"
+                        }
+                    ],
+                    "nodeType": "paragraph"
+                }
+            ],
+            "nodeType": "document"
+        },
+        "contentPath": "/content/worship-schedule"
+    },
+    {
+        "id": "4hCjGCwyRiyx0PWFjVt3wc",
+        "title": "Who We Are",
+        "content": {
+            "data": {},
+            "content": [
+                {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": "We are…",
+                            "nodeType": "text"
+                        }
+                    ],
+                    "nodeType": "heading-3"
+                },
+                {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": "…A community of disciples, actively living out faith in God through Jesus Christ.",
+                            "nodeType": "text"
+                        }
+                    ],
+                    "nodeType": "paragraph"
+                },
+                {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": "…An open and welcoming community which seeks to show God’s Grace to all.",
+                            "nodeType": "text"
+                        }
+                    ],
+                    "nodeType": "paragraph"
+                },
+                {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": "…Experiencing and Sharing God’s Presence.",
+                            "nodeType": "text"
+                        }
+                    ],
+                    "nodeType": "paragraph"
+                },
+                {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": "…A Congregation of the Evangelical Lutheran Church in America (ELCA). Please visit ",
+                            "nodeType": "text"
+                        },
+                        {
+                            "data": {
+                                "uri": "http://www.elca.org/"
+                            },
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "www.elca.org",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "hyperlink"
+                        },
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": " to learn more. We share in the vision of the ELCA, confessing that Christians are:",
+                            "nodeType": "text"
+                        }
+                    ],
+                    "nodeType": "paragraph"
+                },
+                {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": "+ ",
+                            "nodeType": "text"
+                        },
+                        {
+                            "data": {},
+                            "marks": [
+                                {
+                                    "type": "bold"
+                                }
+                            ],
+                            "value": "Claimed ",
+                            "nodeType": "text"
+                        },
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": "by God’s grace for the sake of the world, we are a new creation through God’s living word by the power of the Holy Spirit;",
+                            "nodeType": "text"
+                        }
+                    ],
+                    "nodeType": "paragraph"
+                },
+                {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": "+ ",
+                            "nodeType": "text"
+                        },
+                        {
+                            "data": {},
+                            "marks": [
+                                {
+                                    "type": "bold"
+                                }
+                            ],
+                            "value": "Gathered",
+                            "nodeType": "text"
+                        },
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": " by God’s grace for the sake of the world, we will live among God’s faithful people, hear God’s word and share Christ’s supper;",
+                            "nodeType": "text"
+                        }
+                    ],
+                    "nodeType": "paragraph"
+                },
+                {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": "+ ",
+                            "nodeType": "text"
+                        },
+                        {
+                            "data": {},
+                            "marks": [
+                                {
+                                    "type": "bold"
+                                }
+                            ],
+                            "value": "Sent",
+                            "nodeType": "text"
+                        },
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": " by God’s grace for the sake of the world, we will proclaim the good news of God in Christ through word and deed, serve all people following the example of our Lord Jesus, and strive for justice and peace in all the world.",
+                            "nodeType": "text"
+                        }
+                    ],
+                    "nodeType": "paragraph"
+                }
+            ],
+            "nodeType": "document"
+        },
+        "contentPath": "/content/who-we-are"
+    }
+]
