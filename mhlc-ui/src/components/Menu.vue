@@ -93,6 +93,30 @@
                         </v-menu>
                     </v-list-item-title>
                 </v-list-item>
+                <v-list-item :value="menuItems.length">
+                    <v-list-item-title>
+                        <v-btn
+                            color="primary"
+                            to="/donate"
+                            variant="text"
+                        >
+                            <v-icon></v-icon>
+                            Donate
+                        </v-btn>
+                    </v-list-item-title>
+                </v-list-item>
+                <v-list-item :value="menuItems.length+1">
+                    <v-list-item-title>
+                        <v-btn
+                            color="primary"
+                            to="/newsletter"
+                            variant="text"
+                        >
+                            <v-icon></v-icon>
+                            Join the Newsletter
+                        </v-btn>
+                    </v-list-item-title>
+                </v-list-item>
             </v-list>
         </v-menu>
     </template>
