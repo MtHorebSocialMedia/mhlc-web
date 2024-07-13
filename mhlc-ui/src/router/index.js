@@ -86,6 +86,34 @@ const routes = [
       },
     ],
   },
+  {
+    path: '/newsletter',
+    component: () => import('@/layouts/default/Default.vue'),
+    children: [
+      {
+        path: '/newsletter',
+        name: 'Newsletter',
+        // route level code-splitting
+        // this generates a separate chunk (about.[hash].js) for this route
+        // which is lazy-loaded when the route is visited.
+        component: () => import(/* webpackChunkName: "news" */ '@/views/NewsletterSignup.vue'),
+      },
+    ],
+  },
+  {
+    path: '/donate',
+    component: () => import('@/layouts/default/Default.vue'),
+    children: [
+      {
+        path: '/donate',
+        name: 'Donate',
+        // route level code-splitting
+        // this generates a separate chunk (about.[hash].js) for this route
+        // which is lazy-loaded when the route is visited.
+        component: () => import(/* webpackChunkName: "news" */ '@/views/Donate.vue'),
+      },
+    ],
+  },
 ]
 
 const router = createRouter({

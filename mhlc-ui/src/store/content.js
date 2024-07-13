@@ -12,7 +12,6 @@ export const useContentStore = defineStore('app', () => {
     const churchInfo = ref({});
     const videoList = ref([]);
 
-    // const doubleCount = computed(() => count.value * 2);
     async function fetchContent() {
         menuItems.value = await getMenuItems();
         contentPages.value = await getContentPages();

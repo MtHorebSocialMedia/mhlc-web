@@ -52,6 +52,7 @@ https://www.youtube.com/feeds/videos.xml?channel_id=UColWzhoom7ZRDvyOHhDK8Ag
 ### UI
 - Leadership page
 - Pull in images content
+- Make pictures more responsive
 - Add a newsletter signup form
 - Add donate online forms
 - Add mock content for everything
