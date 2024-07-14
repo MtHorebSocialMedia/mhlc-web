@@ -127,7 +127,6 @@
 .v-list-item .v-btn--variant-elevated, .v-list-item .v-btn--elevated:hover, .v-list-item .v-btn--elevated:focus {
     box-shadow: none;
 }
-/* header.v-toolbar.v-app-bar { background-image: url("/logo193x185.png"); background-repeat: no-repeat; height: 225px; } */
 .v-col.menu { text-align: right; }
 .v-col.contact { text-align: right; }
 .v-col.social { text-align: right; }

@@ -15,6 +15,7 @@
     import { BLOCKS } from '@contentful/rich-text-types';
     import RichTextRenderer from 'contentful-rich-text-vue-renderer';
     import { h, Comment } from "vue";
+    import { getAssetHeight, getAssetWidth } from '../utils/assetUtils';
 
     const props = defineProps({
         content: { type: Object, required: true }
@@ -30,9 +31,11 @@
                 case 'image/jpeg':
                 case 'image/gif':
                 case 'image/bmp':
+                  const width = getAssetWidth(asset.details.image.width, asset.details.image.height);
+                  const height = getAssetHeight(asset.details.image.width, asset.details.image.height);
                   return h(
                     'img',
-                    { src: asset.url },
+                    { src: asset.url, width, height },
                     next(node.content, key, next)
                   );
                 default:

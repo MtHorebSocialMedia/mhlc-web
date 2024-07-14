@@ -11,8 +11,8 @@
     </v-alert>
     <v-container class="d-flex justify-center">
       <iframe
-        :width="videoWidth"
-        :height="videoHeight"
+        :width="getAssetWidth(560, 315)"
+        :height="getAssetHeight(560, 315)"
         src="https://www.youtube.com/embed/FywyUyCav4A?si=OL6EtBX38sBYP2h7"
         title="YouTube video player"
         frameborder="0"
@@ -25,29 +25,7 @@
 </template>
 
 <script setup>
-  import { useDisplay } from 'vuetify'
-  import { computed } from 'vue';
-  const { xs, sm } = useDisplay();
-  const videoWidth = computed(() => {
-    const originalSize = 560;
-    if (xs.value) {
-      return originalSize * .7;
-    } else if (sm.value) {
-      return originalSize * .85;
-    } else {
-      return originalSize;
-    }
-  })
-  const videoHeight = computed(() => {
-    const originalSize = 315;
-    if (xs.value) {
-      return originalSize * .7;
-    } else if (sm.value) {
-      return originalSize * .85;
-    } else {
-      return originalSize;
-    }
-  })
+  import { getAssetWidth, getAssetHeight } from '../utils/assetUtils';
 </script>
 
 <style scoped>

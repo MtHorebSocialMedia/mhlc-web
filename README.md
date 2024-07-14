@@ -47,6 +47,10 @@ The features of the current site are:
 YouTube RSS:
 https://www.youtube.com/feeds/videos.xml?channel_id=UColWzhoom7ZRDvyOHhDK8Ag
 
+## Mobile Support
+
+Tested on screen size of 360x780 (Samsung Galaxy S22)
+
 ## TO DO
 
 ### UI
