@@ -6,6 +6,7 @@
   "scripts": {
     "build:ui": "npm run build -w mhlc-ui",
     "dev:ui": "npm run dev -w mhlc-ui",
+    "refresh-mock-content": "npm run refresh-mock-content -w mhlc-content-api",
     "release:demo": "rm -rf ./docs/* && npm run build:demo -w mhlc-ui && cp -r ./mhlc-ui/dist/* ./docs && touch ./docs/.nojekyll",
     "start": "npm run build:ui && npm run start -w mhlc-content-api"
   },

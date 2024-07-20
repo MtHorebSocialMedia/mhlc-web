@@ -1,5 +1,234 @@
 [
     {
+        "id": "4hCjGCwyRiyx0PWFjVt3wc",
+        "title": "Who We Are",
+        "content": {
+            "nodeType": "document",
+            "data": {},
+            "content": [
+                {
+                    "nodeType": "heading-3",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "We are…",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "unordered-list",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "list-item",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "paragraph",
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "nodeType": "text",
+                                            "value": "A community of disciples, actively living out faith in God through Jesus Christ.",
+                                            "marks": [],
+                                            "data": {}
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "list-item",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "paragraph",
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "nodeType": "text",
+                                            "value": "A",
+                                            "marks": [],
+                                            "data": {}
+                                        },
+                                        {
+                                            "nodeType": "text",
+                                            "value": "n open and welcoming community which seeks to show God’s Grace to all.",
+                                            "marks": [],
+                                            "data": {}
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "list-item",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "paragraph",
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "nodeType": "text",
+                                            "value": "Experiencing and Sharing God’s Presence.",
+                                            "marks": [],
+                                            "data": {}
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "list-item",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "paragraph",
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "nodeType": "text",
+                                            "value": "A Congregation of the Evangelical Lutheran Church in America (ELCA). Please visit ",
+                                            "marks": [],
+                                            "data": {}
+                                        },
+                                        {
+                                            "nodeType": "hyperlink",
+                                            "data": {
+                                                "uri": "http://www.elca.org/"
+                                            },
+                                            "content": [
+                                                {
+                                                    "nodeType": "text",
+                                                    "value": "www.elca.org",
+                                                    "marks": [],
+                                                    "data": {}
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "nodeType": "text",
+                                            "value": " to learn more. We share in the vision of the ELCA, confessing that Christians are:",
+                                            "marks": [],
+                                            "data": {}
+                                        }
+                                    ]
+                                },
+                                {
+                                    "nodeType": "unordered-list",
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "nodeType": "list-item",
+                                            "data": {},
+                                            "content": [
+                                                {
+                                                    "nodeType": "paragraph",
+                                                    "data": {},
+                                                    "content": [
+                                                        {
+                                                            "nodeType": "text",
+                                                            "value": "Claimed ",
+                                                            "marks": [
+                                                                {
+                                                                    "type": "bold"
+                                                                }
+                                                            ],
+                                                            "data": {}
+                                                        },
+                                                        {
+                                                            "nodeType": "text",
+                                                            "value": "by God’s grace for the sake of the world, we are a new creation through God’s living word by the power of the Holy Spirit;",
+                                                            "marks": [],
+                                                            "data": {}
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "nodeType": "list-item",
+                                            "data": {},
+                                            "content": [
+                                                {
+                                                    "nodeType": "paragraph",
+                                                    "data": {},
+                                                    "content": [
+                                                        {
+                                                            "nodeType": "text",
+                                                            "value": "Gathered",
+                                                            "marks": [
+                                                                {
+                                                                    "type": "bold"
+                                                                }
+                                                            ],
+                                                            "data": {}
+                                                        },
+                                                        {
+                                                            "nodeType": "text",
+                                                            "value": " by God’s grace for the sake of the world, we will live among God’s faithful people, hear God’s word and share Christ’s supper;",
+                                                            "marks": [],
+                                                            "data": {}
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "nodeType": "list-item",
+                                            "data": {},
+                                            "content": [
+                                                {
+                                                    "nodeType": "paragraph",
+                                                    "data": {},
+                                                    "content": [
+                                                        {
+                                                            "nodeType": "text",
+                                                            "value": "Sent",
+                                                            "marks": [
+                                                                {
+                                                                    "type": "bold"
+                                                                }
+                                                            ],
+                                                            "data": {}
+                                                        },
+                                                        {
+                                                            "nodeType": "text",
+                                                            "value": " by God’s grace for the sake of the world, we will proclaim the good news of God in Christ through word and deed, serve all people following the example of our Lord Jesus, and strive for justice and peace in all the world.",
+                                                            "marks": [],
+                                                            "data": {}
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                }
+            ]
+        },
+        "contentPath": "/content/who-we-are"
+    },
+    {
         "id": "76J5b3fIdM7lGnRZKkTLj7",
         "title": "Worship",
         "content": {
@@ -198,6 +427,55 @@
                             "data": {}
                         }
                     ]
+                },
+                {
+                    "nodeType": "embedded-asset-block",
+                    "data": {
+                        "target": {
+                            "metadata": {
+                                "tags": []
+                            },
+                            "sys": {
+                                "space": {
+                                    "sys": {
+                                        "type": "Link",
+                                        "linkType": "Space",
+                                        "id": "3wcsgs8fznel"
+                                    }
+                                },
+                                "id": "2nkRi2YoSXJ9uqlbIDcwor",
+                                "type": "Asset",
+                                "createdAt": "2024-07-20T00:24:29.122Z",
+                                "updatedAt": "2024-07-20T00:24:29.122Z",
+                                "environment": {
+                                    "sys": {
+                                        "id": "master",
+                                        "type": "Link",
+                                        "linkType": "Environment"
+                                    }
+                                },
+                                "revision": 1,
+                                "locale": "en-US"
+                            },
+                            "fields": {
+                                "title": "Praise Band",
+                                "description": "",
+                                "file": {
+                                    "url": "//images.ctfassets.net/3wcsgs8fznel/2nkRi2YoSXJ9uqlbIDcwor/183dcca86faf8dce24f4b3ec6ab2d354/praise-band-2-300x148.png",
+                                    "details": {
+                                        "size": 28805,
+                                        "image": {
+                                            "width": 300,
+                                            "height": 148
+                                        }
+                                    },
+                                    "fileName": "praise-band-2-300x148.png",
+                                    "contentType": "image/png"
+                                }
+                            }
+                        }
+                    },
+                    "content": []
                 },
                 {
                     "nodeType": "paragraph",
@@ -2923,180 +3201,5 @@
             "nodeType": "document"
         },
         "contentPath": "/content/worship-schedule"
-    },
-    {
-        "id": "4hCjGCwyRiyx0PWFjVt3wc",
-        "title": "Who We Are",
-        "content": {
-            "data": {},
-            "content": [
-                {
-                    "data": {},
-                    "content": [
-                        {
-                            "data": {},
-                            "marks": [],
-                            "value": "We are…",
-                            "nodeType": "text"
-                        }
-                    ],
-                    "nodeType": "heading-3"
-                },
-                {
-                    "data": {},
-                    "content": [
-                        {
-                            "data": {},
-                            "marks": [],
-                            "value": "…A community of disciples, actively living out faith in God through Jesus Christ.",
-                            "nodeType": "text"
-                        }
-                    ],
-                    "nodeType": "paragraph"
-                },
-                {
-                    "data": {},
-                    "content": [
-                        {
-                            "data": {},
-                            "marks": [],
-                            "value": "…An open and welcoming community which seeks to show God’s Grace to all.",
-                            "nodeType": "text"
-                        }
-                    ],
-                    "nodeType": "paragraph"
-                },
-                {
-                    "data": {},
-                    "content": [
-                        {
-                            "data": {},
-                            "marks": [],
-                            "value": "…Experiencing and Sharing God’s Presence.",
-                            "nodeType": "text"
-                        }
-                    ],
-                    "nodeType": "paragraph"
-                },
-                {
-                    "data": {},
-                    "content": [
-                        {
-                            "data": {},
-                            "marks": [],
-                            "value": "…A Congregation of the Evangelical Lutheran Church in America (ELCA). Please visit ",
-                            "nodeType": "text"
-                        },
-                        {
-                            "data": {
-                                "uri": "http://www.elca.org/"
-                            },
-                            "content": [
-                                {
-                                    "data": {},
-                                    "marks": [],
-                                    "value": "www.elca.org",
-                                    "nodeType": "text"
-                                }
-                            ],
-                            "nodeType": "hyperlink"
-                        },
-                        {
-                            "data": {},
-                            "marks": [],
-                            "value": " to learn more. We share in the vision of the ELCA, confessing that Christians are:",
-                            "nodeType": "text"
-                        }
-                    ],
-                    "nodeType": "paragraph"
-                },
-                {
-                    "data": {},
-                    "content": [
-                        {
-                            "data": {},
-                            "marks": [],
-                            "value": "+ ",
-                            "nodeType": "text"
-                        },
-                        {
-                            "data": {},
-                            "marks": [
-                                {
-                                    "type": "bold"
-                                }
-                            ],
-                            "value": "Claimed ",
-                            "nodeType": "text"
-                        },
-                        {
-                            "data": {},
-                            "marks": [],
-                            "value": "by God’s grace for the sake of the world, we are a new creation through God’s living word by the power of the Holy Spirit;",
-                            "nodeType": "text"
-                        }
-                    ],
-                    "nodeType": "paragraph"
-                },
-                {
-                    "data": {},
-                    "content": [
-                        {
-                            "data": {},
-                            "marks": [],
-                            "value": "+ ",
-                            "nodeType": "text"
-                        },
-                        {
-                            "data": {},
-                            "marks": [
-                                {
-                                    "type": "bold"
-                                }
-                            ],
-                            "value": "Gathered",
-                            "nodeType": "text"
-                        },
-                        {
-                            "data": {},
-                            "marks": [],
-                            "value": " by God’s grace for the sake of the world, we will live among God’s faithful people, hear God’s word and share Christ’s supper;",
-                            "nodeType": "text"
-                        }
-                    ],
-                    "nodeType": "paragraph"
-                },
-                {
-                    "data": {},
-                    "content": [
-                        {
-                            "data": {},
-                            "marks": [],
-                            "value": "+ ",
-                            "nodeType": "text"
-                        },
-                        {
-                            "data": {},
-                            "marks": [
-                                {
-                                    "type": "bold"
-                                }
-                            ],
-                            "value": "Sent",
-                            "nodeType": "text"
-                        },
-                        {
-                            "data": {},
-                            "marks": [],
-                            "value": " by God’s grace for the sake of the world, we will proclaim the good news of God in Christ through word and deed, serve all people following the example of our Lord Jesus, and strive for justice and peace in all the world.",
-                            "nodeType": "text"
-                        }
-                    ],
-                    "nodeType": "paragraph"
-                }
-            ],
-            "nodeType": "document"
-        },
-        "contentPath": "/content/who-we-are"
     }
 ]

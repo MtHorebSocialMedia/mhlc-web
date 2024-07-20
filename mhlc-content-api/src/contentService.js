@@ -69,6 +69,33 @@ async function getNewsEntries() {
     });
 }
 
+async function getStaff() {
+    const { items } = await client.getEntries({
+        content_type: 'staff'
+    });
+    return items.map((item) => {
+        return {
+            id: item.sys.id,
+            title: item.fields.title,
+            name: item.fields.name,
+            picture: item.fields.picture ? item.fields.picture.fields.file : null
+        };
+    });
+}
+
+async function getCouncil() {
+    const { items } = await client.getEntries({
+        content_type: 'council'
+    });
+    return items.map((item) => {
+        return {
+            id: item.sys.id,
+            role: item.fields.role,
+            name: item.fields.name
+        };
+    });
+}
+
 async function getChurchInfo() {
     const { items } = await client.getEntries({
         content_type: 'churchInfo'
@@ -98,5 +125,7 @@ module.exports = {
     getContentPages,
     getNewsTypes,
     getNewsEntries,
-    getChurchInfo
+    getChurchInfo,
+    getCouncil,
+    getStaff
 };

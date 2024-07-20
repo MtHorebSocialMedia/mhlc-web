@@ -4,7 +4,9 @@ const {
     getContentPages,
     getNewsTypes,
     getNewsEntries,
-    getChurchInfo
+    getChurchInfo,
+    getCouncil,
+    getStaff
 } = require('./contentService');
 
 const router = express.Router();
@@ -66,6 +68,28 @@ router.get('/news', (req, res, next) => {
     (async function() {
         try {
             const items = await getNewsEntries();
+            res.send(items);
+        } catch(err) {
+            next(err);
+        }
+    })();
+});
+
+router.get('/staff', (req, res, next) => {
+    (async function() {
+        try {
+            const items = await getStaff();
+            res.send(items);
+        } catch(err) {
+            next(err);
+        }
+    })();
+});
+
+router.get('/council', (req, res, next) => {
+    (async function() {
+        try {
+            const items = await getCouncil();
             res.send(items);
         } catch(err) {
             next(err);
