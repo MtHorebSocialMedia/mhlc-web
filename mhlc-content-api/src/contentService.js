@@ -78,7 +78,8 @@ async function getStaff() {
             id: item.sys.id,
             title: item.fields.title,
             name: item.fields.name,
-            picture: item.fields.picture ? item.fields.picture.fields.file : null
+            picture: item.fields.picture ? item.fields.picture.fields.file : null,
+            sequence: item.fields.sequence
         };
     });
 }
@@ -91,7 +92,8 @@ async function getCouncil() {
         return {
             id: item.sys.id,
             role: item.fields.role,
-            name: item.fields.name
+            name: item.fields.name,
+            sequence: item.fields.sequence
         };
     });
 }
@@ -114,7 +116,8 @@ async function getChurchInfo() {
             slogan: item.fields.slogan,
             facebook: item.fields.facebook,
             instagram: item.fields.instagram,
-            youTube: item.fields.youTube
+            youTube: item.fields.youTube,
+            footer: item.fields.footer
         };
     });
     return infoItems.length > 0 ? infoItems[0]: null;

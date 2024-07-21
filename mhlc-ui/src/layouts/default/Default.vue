@@ -24,8 +24,8 @@
   import { storeToRefs } from 'pinia';
   import { useDisplay } from 'vuetify'
 
-    const contentStore = useContentStore();
-    const { churchInfo } = storeToRefs(contentStore);
+  const contentStore = useContentStore();
+  const { churchInfo } = storeToRefs(contentStore);
   const { lgAndUp } = useDisplay()
 </script>
 
@@ -33,5 +33,5 @@
     .v-main { background-image: linear-gradient(#999, #DDD); }
     .v-container.main-container > .v-row > .v-col { background: #FFF; }
     .v-container.main-container > .v-row > .v-col.side-view { margin-left: 20px; }
-    .v-footer { background-color: #CCC !important; border-top: 1px solid #666 !important; }
+    .v-footer { background-color: #CCC !important; border-top: 1px solid #666 !important; max-height: 40px; }
 </style>

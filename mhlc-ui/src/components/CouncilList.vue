@@ -1,23 +1,36 @@
 <template>
-    <v-card v-if="council">
-        <v-container>
-            <v-row
-                v-for="member in council"
+    <v-container v-if="council">
+        <v-list>
+            <v-list-item
+                v-for="member in councilList"
                 :key="member.id"
             >
-                <v-col cols="2">{{ member.role }}</v-col>
-                <v-col>{{ member.name }}</v-col>
-            </v-row>
-        </v-container>
-    </v-card>
+                <v-list-item-title>{{ member.name }}</v-list-item-title>
+                <v-list-item-subtitle>{{ member.role }}</v-list-item-subtitle>
+            </v-list-item>
+        </v-list>
+    </v-container>
 </template>
 
 <script setup>
     import { useContentStore } from '@/store/content';
     import { storeToRefs } from 'pinia';
+    import { computed } from 'vue';
 
     const contentStore = useContentStore();
     const { council } = storeToRefs(contentStore);
+    const councilList = computed(() => {
+        council.value.sort((a, b) => {
+            if (a.sequence === undefined) {
+                a.sequence = 999;
+            }
+            if (b.sequence === undefined) {
+                b.sequence = 999;
+            }
+            return a.sequence - b.sequence;
+        });
+        return council.value;
+    });
 </script>
 
 <style>

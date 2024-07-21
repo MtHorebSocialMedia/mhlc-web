@@ -5,7 +5,7 @@
         <h3>Staff</h3>
         <StaffList />
         <br />
-        <h3>Council</h3>
+        <h3>Church Council</h3>
         <CouncilList />
     </v-container>
 </template>
