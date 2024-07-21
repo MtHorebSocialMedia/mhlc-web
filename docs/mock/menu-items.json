@@ -2,8 +2,15 @@
     {
         "id": "6OSEGHoxVMf0ZCKtmjqqQZ",
         "label": "Livestreams",
-        "sequence": 4,
+        "sequence": 5,
         "path": "/live-streams",
+        "parent": "5tf97ADQHKJ0vUNp4da4o"
+    },
+    {
+        "id": "3IvOJevvXsvhUeCycuWeSG",
+        "label": "Children & Youth Ministry",
+        "sequence": 4,
+        "path": "/content/children-and-youth",
         "parent": "5tf97ADQHKJ0vUNp4da4o"
     },
     {

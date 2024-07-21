@@ -1,5 +1,1052 @@
 [
     {
+        "id": "MxF7P4HmbMRP6tmhM9YRM",
+        "title": "Children & Youth Ministry",
+        "contentPath": "/content/children-and-youth",
+        "headerImage": null,
+        "section1": {
+            "content": {
+                "data": {},
+                "content": [
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "Children and Family Ministry",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "heading-2"
+                    },
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "Faith Formation",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "heading-3"
+                    },
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "Christian Education is an important emphasis for disciples of all ages, but especially critical in the early years of faith development. Mt. Horeb provides opportunities for children of all ages and adults to engage in Faith Formation each Sunday morning. Children under two are welcome in the nursery during the Sunday School time.",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    },
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "Peace Frogs",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "heading-3"
+                    },
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "This 3rd-5th grade youth group meets on the 2nd Sunday of the month at 4pm for programs and activities geared towards the creative, inquisitive and active learning style of our young disciples. With questions about Peace Frogs, please contact the church office (803) 345-2000.",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    },
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "Vacation Bible School",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "heading-3"
+                    },
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "Mt. Horeb always puts on a wonderful VBS for kids from the church and from the community each summer. Past themes have included “Baobab Blast,” “Kingdom Rock” and “Weird Animals.” We hope you will bring a child you love to VBS this year! For more information, please contact the church office (803) 345-2000.",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    }
+                ],
+                "nodeType": "document"
+            },
+            "image": {
+                "url": "//images.ctfassets.net/3wcsgs8fznel/3BlM23tJBXjD9OqJWgJ2Rw/9d9bcb81b9229529c826642d579abd37/kids-praying-300x207.png",
+                "details": {
+                    "size": 35128,
+                    "image": {
+                        "width": 300,
+                        "height": 207
+                    }
+                },
+                "fileName": "kids-praying-300x207.png",
+                "contentType": "image/png"
+            },
+            "imageAlignment": "right"
+        },
+        "section2": {
+            "content": {
+                "data": {},
+                "content": [
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "Youth Ministry",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "heading-2"
+                    },
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "Youth Group",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "heading-3"
+                    },
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "Middle & High School students are invited to participate in Lutheran Church Youth (LCY) at Mt. Horeb. LCY meets each week at 5:45pm for faith formational, service-oriented and relationship-building activities",
+                                "nodeType": "text"
+                            },
+                            {
+                                "data": {},
+                                "marks": [
+                                    {
+                                        "type": "italic"
+                                    }
+                                ],
+                                "value": ". For ",
+                                "nodeType": "text"
+                            },
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "information about Lutheran Church Youth, please contact the church office (803) 345-2000.",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    },
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "Confirmation Ministry",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "heading-3"
+                    },
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "Confirmation is our program for Middle School students to engage the faith through encounter with the Catechetical teachings of the church. In Confirmation, students will learn the basic tenets of the faith, and then together explore what impact their faith has on their day-to-day life, their relationships and their futures. For more information, please contact the church by calling (803) 345-2000.",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    }
+                ],
+                "nodeType": "document"
+            },
+            "image": {
+                "url": "//images.ctfassets.net/3wcsgs8fznel/5ByFet93Z3LQUXtsJTd0mX/fb992c6acb5466c55bad8f23ad26d4de/20230422_220155.jpg",
+                "details": {
+                    "size": 128012,
+                    "image": {
+                        "width": 800,
+                        "height": 474
+                    }
+                },
+                "fileName": "20230422_220155.jpg",
+                "contentType": "image/jpeg"
+            },
+            "imageAlignment": "top"
+        },
+        "section3": {
+            "content": {
+                "data": {},
+                "content": [
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "Preschool Ministry",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "heading-2"
+                    },
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "The Mt. Horeb Preschool serves the church family and surrounding community by offering a quality child development program for children ages two through four. The Mt. Horeb learning environment is rich, varied, warm, stimulating and safe for a young child’s healthy development. Teachers use The Creative Curriculum for Preschoolers, a developmentally appropriate, whole language, thematic approach to preschool education. Each classroom is arranged by interest areas, organized to foster growth, imagination, creativity and independence. Activities are planned through centers which include language, math, science and art activities.",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    },
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "Once a week, children enjoy a 30-minute music class, and our pastors leads chapel time every Wednesday morning. Other special activities include a Preschool Art Show, Holiday Music Program, Preschool Sunday at the church.",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    },
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "Two-year-olds attend either Monday/Wednesday or Tuesday/Thursday.",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    },
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "Three-year-olds have the option of attending three days (M/T/W) or four days (M-Th).",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    },
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "Four-year-olds have the option of attending four days (M-Th) or five days (M-F).",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    },
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "Regular preschool hours are Monday-Thursday from 9 a.m. to 12 p.m., but those enrolled in the Early Bird program may arrive in the morning at 8 a.m. Three- and four-year-olds may bring a lunch and join the Lunch Bunch, staying at the preschool until 2 p.m.",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    },
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "For more information, or to register for preschool, please contact Peggy Miller at ",
+                                "nodeType": "text"
+                            },
+                            {
+                                "data": {
+                                    "uri": "mailto:preschool@mthoreb.net"
+                                },
+                                "content": [
+                                    {
+                                        "data": {},
+                                        "marks": [],
+                                        "value": "preschool@mthoreb.net",
+                                        "nodeType": "text"
+                                    }
+                                ],
+                                "nodeType": "hyperlink"
+                            },
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": " or by calling (803) 345-6441.",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    }
+                ],
+                "nodeType": "document"
+            },
+            "image": null
+        }
+    },
+    {
+        "id": "4hCjGCwyRiyx0PWFjVt3wc",
+        "title": "Who We Are",
+        "content": {
+            "data": {},
+            "content": [
+                {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": "",
+                            "nodeType": "text"
+                        }
+                    ],
+                    "nodeType": "paragraph"
+                },
+                {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": "",
+                            "nodeType": "text"
+                        }
+                    ],
+                    "nodeType": "paragraph"
+                }
+            ],
+            "nodeType": "document"
+        },
+        "contentPath": "/content/who-we-are",
+        "headerImage": {
+            "url": "//images.ctfassets.net/3wcsgs8fznel/2r85vsbMaKOImkdw7RMbQE/72a231f79b0a2b08a2d6628c36368ce4/20230409_095655-cropped.jpg",
+            "details": {
+                "size": 70643,
+                "image": {
+                    "width": 800,
+                    "height": 341
+                }
+            },
+            "fileName": "20230409_095655-cropped.jpg",
+            "contentType": "image/jpeg"
+        },
+        "section1": {
+            "content": {
+                "data": {},
+                "content": [
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "We are…",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "heading-3"
+                    },
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "content": [
+                                    {
+                                        "data": {},
+                                        "content": [
+                                            {
+                                                "data": {},
+                                                "marks": [],
+                                                "value": "A community of disciples, actively living out faith in God through Jesus Christ.",
+                                                "nodeType": "text"
+                                            }
+                                        ],
+                                        "nodeType": "paragraph"
+                                    }
+                                ],
+                                "nodeType": "list-item"
+                            },
+                            {
+                                "data": {},
+                                "content": [
+                                    {
+                                        "data": {},
+                                        "content": [
+                                            {
+                                                "data": {},
+                                                "marks": [],
+                                                "value": "An open and welcoming community which seeks to show God’s Grace to all.",
+                                                "nodeType": "text"
+                                            }
+                                        ],
+                                        "nodeType": "paragraph"
+                                    }
+                                ],
+                                "nodeType": "list-item"
+                            },
+                            {
+                                "data": {},
+                                "content": [
+                                    {
+                                        "data": {},
+                                        "content": [
+                                            {
+                                                "data": {},
+                                                "marks": [],
+                                                "value": "Experiencing and Sharing God’s Presence.",
+                                                "nodeType": "text"
+                                            }
+                                        ],
+                                        "nodeType": "paragraph"
+                                    }
+                                ],
+                                "nodeType": "list-item"
+                            },
+                            {
+                                "data": {},
+                                "content": [
+                                    {
+                                        "data": {},
+                                        "content": [
+                                            {
+                                                "data": {},
+                                                "marks": [],
+                                                "value": "A Congregation of the Evangelical Lutheran Church in America (ELCA). Please visit ",
+                                                "nodeType": "text"
+                                            },
+                                            {
+                                                "data": {
+                                                    "uri": "http://www.elca.org/"
+                                                },
+                                                "content": [
+                                                    {
+                                                        "data": {},
+                                                        "marks": [],
+                                                        "value": "www.elca.org",
+                                                        "nodeType": "text"
+                                                    }
+                                                ],
+                                                "nodeType": "hyperlink"
+                                            },
+                                            {
+                                                "data": {},
+                                                "marks": [],
+                                                "value": " to learn more. We share in the vision of the ELCA, confessing that Christians are:",
+                                                "nodeType": "text"
+                                            }
+                                        ],
+                                        "nodeType": "paragraph"
+                                    },
+                                    {
+                                        "data": {},
+                                        "content": [
+                                            {
+                                                "data": {},
+                                                "content": [
+                                                    {
+                                                        "data": {},
+                                                        "content": [
+                                                            {
+                                                                "data": {},
+                                                                "marks": [
+                                                                    {
+                                                                        "type": "bold"
+                                                                    }
+                                                                ],
+                                                                "value": "Claimed ",
+                                                                "nodeType": "text"
+                                                            },
+                                                            {
+                                                                "data": {},
+                                                                "marks": [],
+                                                                "value": "by God’s grace for the sake of the world, we are a new creation through God’s living word by the power of the Holy Spirit;",
+                                                                "nodeType": "text"
+                                                            }
+                                                        ],
+                                                        "nodeType": "paragraph"
+                                                    }
+                                                ],
+                                                "nodeType": "list-item"
+                                            },
+                                            {
+                                                "data": {},
+                                                "content": [
+                                                    {
+                                                        "data": {},
+                                                        "content": [
+                                                            {
+                                                                "data": {},
+                                                                "marks": [
+                                                                    {
+                                                                        "type": "bold"
+                                                                    }
+                                                                ],
+                                                                "value": "Gathered",
+                                                                "nodeType": "text"
+                                                            },
+                                                            {
+                                                                "data": {},
+                                                                "marks": [],
+                                                                "value": " by God’s grace for the sake of the world, we will live among God’s faithful people, hear God’s word and share Christ’s supper;",
+                                                                "nodeType": "text"
+                                                            }
+                                                        ],
+                                                        "nodeType": "paragraph"
+                                                    }
+                                                ],
+                                                "nodeType": "list-item"
+                                            },
+                                            {
+                                                "data": {},
+                                                "content": [
+                                                    {
+                                                        "data": {},
+                                                        "content": [
+                                                            {
+                                                                "data": {},
+                                                                "marks": [
+                                                                    {
+                                                                        "type": "bold"
+                                                                    }
+                                                                ],
+                                                                "value": "Sent",
+                                                                "nodeType": "text"
+                                                            },
+                                                            {
+                                                                "data": {},
+                                                                "marks": [],
+                                                                "value": " by God’s grace for the sake of the world, we will proclaim the good news of God in Christ through word and deed, serve all people following the example of our Lord Jesus, and strive for justice and peace in all the world.",
+                                                                "nodeType": "text"
+                                                            }
+                                                        ],
+                                                        "nodeType": "paragraph"
+                                                    }
+                                                ],
+                                                "nodeType": "list-item"
+                                            }
+                                        ],
+                                        "nodeType": "unordered-list"
+                                    }
+                                ],
+                                "nodeType": "list-item"
+                            }
+                        ],
+                        "nodeType": "unordered-list"
+                    },
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    }
+                ],
+                "nodeType": "document"
+            },
+            "image": null
+        },
+        "section2": {
+            "content": {
+                "data": {},
+                "content": [
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "Our Core Values",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "heading-3"
+                    },
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "At Mt. Horeb, we uphold five Core Values that define who we are. They are five verbs that underscore everything we do as a family of faith. They are…",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    },
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "content": [
+                                    {
+                                        "data": {},
+                                        "content": [
+                                            {
+                                                "data": {},
+                                                "marks": [
+                                                    {
+                                                        "type": "bold"
+                                                    }
+                                                ],
+                                                "value": "WORSHIP",
+                                                "nodeType": "text"
+                                            },
+                                            {
+                                                "data": {},
+                                                "marks": [],
+                                                "value": "\nJoyfully proclaim the Word of God",
+                                                "nodeType": "text"
+                                            }
+                                        ],
+                                        "nodeType": "paragraph"
+                                    }
+                                ],
+                                "nodeType": "list-item"
+                            },
+                            {
+                                "data": {},
+                                "content": [
+                                    {
+                                        "data": {},
+                                        "content": [
+                                            {
+                                                "data": {},
+                                                "marks": [
+                                                    {
+                                                        "type": "bold"
+                                                    }
+                                                ],
+                                                "value": "LEARN",
+                                                "nodeType": "text"
+                                            },
+                                            {
+                                                "data": {},
+                                                "marks": [],
+                                                "value": "\nDutifully study, teach and live the Word of God",
+                                                "nodeType": "text"
+                                            }
+                                        ],
+                                        "nodeType": "paragraph"
+                                    }
+                                ],
+                                "nodeType": "list-item"
+                            },
+                            {
+                                "data": {},
+                                "content": [
+                                    {
+                                        "data": {},
+                                        "content": [
+                                            {
+                                                "data": {},
+                                                "marks": [
+                                                    {
+                                                        "type": "bold"
+                                                    }
+                                                ],
+                                                "value": "WITNESS",
+                                                "nodeType": "text"
+                                            },
+                                            {
+                                                "data": {},
+                                                "marks": [],
+                                                "value": "\nBoldly share the Word of God",
+                                                "nodeType": "text"
+                                            }
+                                        ],
+                                        "nodeType": "paragraph"
+                                    }
+                                ],
+                                "nodeType": "list-item"
+                            },
+                            {
+                                "data": {},
+                                "content": [
+                                    {
+                                        "data": {},
+                                        "content": [
+                                            {
+                                                "data": {},
+                                                "marks": [
+                                                    {
+                                                        "type": "bold"
+                                                    }
+                                                ],
+                                                "value": "SERVE",
+                                                "nodeType": "text"
+                                            },
+                                            {
+                                                "data": {},
+                                                "marks": [],
+                                                "value": "\nHumbly and enthusiastically respond to the Word of God",
+                                                "nodeType": "text"
+                                            }
+                                        ],
+                                        "nodeType": "paragraph"
+                                    }
+                                ],
+                                "nodeType": "list-item"
+                            },
+                            {
+                                "data": {},
+                                "content": [
+                                    {
+                                        "data": {},
+                                        "content": [
+                                            {
+                                                "data": {},
+                                                "marks": [
+                                                    {
+                                                        "type": "bold"
+                                                    }
+                                                ],
+                                                "value": "SUPPORT",
+                                                "nodeType": "text"
+                                            },
+                                            {
+                                                "data": {},
+                                                "marks": [],
+                                                "value": "\nGladly give our time, talent and treasures motivated by the Word of God",
+                                                "nodeType": "text"
+                                            }
+                                        ],
+                                        "nodeType": "paragraph"
+                                    }
+                                ],
+                                "nodeType": "list-item"
+                            }
+                        ],
+                        "nodeType": "unordered-list"
+                    },
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    }
+                ],
+                "nodeType": "document"
+            },
+            "image": {
+                "url": "//images.ctfassets.net/3wcsgs8fznel/55mKMAKD4eD3McJwMBHGL2/41c95a56e3fa8e1fa2dbb7e486f87d97/20231119_125035-border-rounded.png",
+                "details": {
+                    "size": 92401,
+                    "image": {
+                        "width": 406,
+                        "height": 645
+                    }
+                },
+                "fileName": "20231119_125035-border-rounded.png",
+                "contentType": "image/png"
+            },
+            "imageAlignment": "right"
+        },
+        "section3": {
+            "image": null
+        }
+    },
+    {
+        "id": "6G8pVnBk3xyY3hfLgZWcx7",
+        "title": "Worship Schedule",
+        "contentPath": "/content/worship-schedule",
+        "headerImage": {
+            "url": "//images.ctfassets.net/3wcsgs8fznel/4tmd4oGRV6CnaxHYZFPcCg/7ec9d99901b11b3472c301d0a24b734e/20230416_111332-border-rounded-1.png",
+            "details": {
+                "size": 144231,
+                "image": {
+                    "width": 806,
+                    "height": 388
+                }
+            },
+            "fileName": "20230416_111332-border-rounded-1.png",
+            "contentType": "image/png"
+        },
+        "section1": {
+            "content": {
+                "data": {},
+                "content": [
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [
+                                    {
+                                        "type": "bold"
+                                    }
+                                ],
+                                "value": "Come join us at 10:00 AM each Sunday!",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "heading-3"
+                    },
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [
+                                    {
+                                        "type": "bold"
+                                    }
+                                ],
+                                "value": "Faith Formation",
+                                "nodeType": "text"
+                            },
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": " for all ages at 9:00 AM",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    }
+                ],
+                "nodeType": "document"
+            },
+            "image": null
+        },
+        "section2": {
+            "content": {
+                "data": {},
+                "content": [
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [
+                                    {
+                                        "type": "bold"
+                                    }
+                                ],
+                                "value": "Special Worship Opportunities",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "heading-3"
+                    },
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [
+                                    {
+                                        "type": "italic"
+                                    }
+                                ],
+                                "value": "(Note: Times listed here are the typical times for each service, but these may be adjusted each year to the needs of the church. Be sure to check out the news section and our social media for any changes to these services!)",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    },
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [
+                                    {
+                                        "type": "bold"
+                                    }
+                                ],
+                                "value": "Christmas Eve Worship",
+                                "nodeType": "text"
+                            },
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": " at 11 AM, 5 PM, 7 PM",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    },
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [
+                                    {
+                                        "type": "bold"
+                                    }
+                                ],
+                                "value": "Ash Wednesday Worship ",
+                                "nodeType": "text"
+                            },
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "at 11 AM and 7 PM",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    },
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [
+                                    {
+                                        "type": "bold"
+                                    }
+                                ],
+                                "value": "Lenten Worship ",
+                                "nodeType": "text"
+                            },
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "Wednesdays in Lent at 7 PM, preceded by supper at 6 PM",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    },
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [
+                                    {
+                                        "type": "bold"
+                                    }
+                                ],
+                                "value": "Maundy Thursday Worship",
+                                "nodeType": "text"
+                            },
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": " with Communion at 11 AM and 7 PM",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    },
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [
+                                    {
+                                        "type": "bold"
+                                    }
+                                ],
+                                "value": "Good Friday Tenebrae Worship",
+                                "nodeType": "text"
+                            },
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": " at 7 PM",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    },
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [
+                                    {
+                                        "type": "bold"
+                                    }
+                                ],
+                                "value": "Easter Sunday Worship ",
+                                "nodeType": "text"
+                            },
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "at 10:00 AM, preceded by breakfast at 8:30 AM and then flowering of the cross",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    }
+                ],
+                "nodeType": "document"
+            },
+            "image": null
+        },
+        "section3": {
+            "image": null
+        }
+    },
+    {
         "id": "12IwJwC8lkovCoGxvxQs7w",
         "title": "Registration and Fees",
         "content": {
@@ -670,236 +1717,17 @@
                 }
             ]
         },
-        "contentPath": "/content/preschool-registration-and-fees"
-    },
-    {
-        "id": "4hCjGCwyRiyx0PWFjVt3wc",
-        "title": "Who We Are",
-        "content": {
-            "nodeType": "document",
-            "data": {},
-            "content": [
-                {
-                    "nodeType": "heading-3",
-                    "data": {},
-                    "content": [
-                        {
-                            "nodeType": "text",
-                            "value": "We are…",
-                            "marks": [],
-                            "data": {}
-                        }
-                    ]
-                },
-                {
-                    "nodeType": "unordered-list",
-                    "data": {},
-                    "content": [
-                        {
-                            "nodeType": "list-item",
-                            "data": {},
-                            "content": [
-                                {
-                                    "nodeType": "paragraph",
-                                    "data": {},
-                                    "content": [
-                                        {
-                                            "nodeType": "text",
-                                            "value": "A community of disciples, actively living out faith in God through Jesus Christ.",
-                                            "marks": [],
-                                            "data": {}
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "nodeType": "list-item",
-                            "data": {},
-                            "content": [
-                                {
-                                    "nodeType": "paragraph",
-                                    "data": {},
-                                    "content": [
-                                        {
-                                            "nodeType": "text",
-                                            "value": "A",
-                                            "marks": [],
-                                            "data": {}
-                                        },
-                                        {
-                                            "nodeType": "text",
-                                            "value": "n open and welcoming community which seeks to show God’s Grace to all.",
-                                            "marks": [],
-                                            "data": {}
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "nodeType": "list-item",
-                            "data": {},
-                            "content": [
-                                {
-                                    "nodeType": "paragraph",
-                                    "data": {},
-                                    "content": [
-                                        {
-                                            "nodeType": "text",
-                                            "value": "Experiencing and Sharing God’s Presence.",
-                                            "marks": [],
-                                            "data": {}
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "nodeType": "list-item",
-                            "data": {},
-                            "content": [
-                                {
-                                    "nodeType": "paragraph",
-                                    "data": {},
-                                    "content": [
-                                        {
-                                            "nodeType": "text",
-                                            "value": "A Congregation of the Evangelical Lutheran Church in America (ELCA). Please visit ",
-                                            "marks": [],
-                                            "data": {}
-                                        },
-                                        {
-                                            "nodeType": "hyperlink",
-                                            "data": {
-                                                "uri": "http://www.elca.org/"
-                                            },
-                                            "content": [
-                                                {
-                                                    "nodeType": "text",
-                                                    "value": "www.elca.org",
-                                                    "marks": [],
-                                                    "data": {}
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            "nodeType": "text",
-                                            "value": " to learn more. We share in the vision of the ELCA, confessing that Christians are:",
-                                            "marks": [],
-                                            "data": {}
-                                        }
-                                    ]
-                                },
-                                {
-                                    "nodeType": "unordered-list",
-                                    "data": {},
-                                    "content": [
-                                        {
-                                            "nodeType": "list-item",
-                                            "data": {},
-                                            "content": [
-                                                {
-                                                    "nodeType": "paragraph",
-                                                    "data": {},
-                                                    "content": [
-                                                        {
-                                                            "nodeType": "text",
-                                                            "value": "Claimed ",
-                                                            "marks": [
-                                                                {
-                                                                    "type": "bold"
-                                                                }
-                                                            ],
-                                                            "data": {}
-                                                        },
-                                                        {
-                                                            "nodeType": "text",
-                                                            "value": "by God’s grace for the sake of the world, we are a new creation through God’s living word by the power of the Holy Spirit;",
-                                                            "marks": [],
-                                                            "data": {}
-                                                        }
-                                                    ]
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            "nodeType": "list-item",
-                                            "data": {},
-                                            "content": [
-                                                {
-                                                    "nodeType": "paragraph",
-                                                    "data": {},
-                                                    "content": [
-                                                        {
-                                                            "nodeType": "text",
-                                                            "value": "Gathered",
-                                                            "marks": [
-                                                                {
-                                                                    "type": "bold"
-                                                                }
-                                                            ],
-                                                            "data": {}
-                                                        },
-                                                        {
-                                                            "nodeType": "text",
-                                                            "value": " by God’s grace for the sake of the world, we will live among God’s faithful people, hear God’s word and share Christ’s supper;",
-                                                            "marks": [],
-                                                            "data": {}
-                                                        }
-                                                    ]
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            "nodeType": "list-item",
-                                            "data": {},
-                                            "content": [
-                                                {
-                                                    "nodeType": "paragraph",
-                                                    "data": {},
-                                                    "content": [
-                                                        {
-                                                            "nodeType": "text",
-                                                            "value": "Sent",
-                                                            "marks": [
-                                                                {
-                                                                    "type": "bold"
-                                                                }
-                                                            ],
-                                                            "data": {}
-                                                        },
-                                                        {
-                                                            "nodeType": "text",
-                                                            "value": " by God’s grace for the sake of the world, we will proclaim the good news of God in Christ through word and deed, serve all people following the example of our Lord Jesus, and strive for justice and peace in all the world.",
-                                                            "marks": [],
-                                                            "data": {}
-                                                        }
-                                                    ]
-                                                }
-                                            ]
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "nodeType": "paragraph",
-                    "data": {},
-                    "content": [
-                        {
-                            "nodeType": "text",
-                            "value": "",
-                            "marks": [],
-                            "data": {}
-                        }
-                    ]
-                }
-            ]
+        "contentPath": "/content/preschool-registration-and-fees",
+        "headerImage": null,
+        "section1": {
+            "image": null
         },
-        "contentPath": "/content/who-we-are"
+        "section2": {
+            "image": null
+        },
+        "section3": {
+            "image": null
+        }
     },
     {
         "id": "76J5b3fIdM7lGnRZKkTLj7",
@@ -1316,7 +2144,17 @@
                 }
             ]
         },
-        "contentPath": "/content/worship"
+        "contentPath": "/content/worship",
+        "headerImage": null,
+        "section1": {
+            "image": null
+        },
+        "section2": {
+            "image": null
+        },
+        "section3": {
+            "image": null
+        }
     },
     {
         "id": "TFeElm89EzUr0FNxctKqP",
@@ -1607,7 +2445,17 @@
             ],
             "nodeType": "document"
         },
-        "contentPath": "/content/preschool"
+        "contentPath": "/content/preschool",
+        "headerImage": null,
+        "section1": {
+            "image": null
+        },
+        "section2": {
+            "image": null
+        },
+        "section3": {
+            "image": null
+        }
     },
     {
         "id": "7KIAvylJBMpEzpgle6RfHe",
@@ -1862,7 +2710,17 @@
             ],
             "nodeType": "document"
         },
-        "contentPath": "/content/support"
+        "contentPath": "/content/support",
+        "headerImage": null,
+        "section1": {
+            "image": null
+        },
+        "section2": {
+            "image": null
+        },
+        "section3": {
+            "image": null
+        }
     },
     {
         "id": "4e6jxa2wSeAQiQ5Q3lDspN",
@@ -1981,7 +2839,17 @@
             ],
             "nodeType": "document"
         },
-        "contentPath": "/content/serve"
+        "contentPath": "/content/serve",
+        "headerImage": null,
+        "section1": {
+            "image": null
+        },
+        "section2": {
+            "image": null
+        },
+        "section3": {
+            "image": null
+        }
     },
     {
         "id": "4Do4t32zEIuLuTEri3MfCl",
@@ -2256,7 +3124,17 @@
             ],
             "nodeType": "document"
         },
-        "contentPath": "/content/witness"
+        "contentPath": "/content/witness",
+        "headerImage": null,
+        "section1": {
+            "image": null
+        },
+        "section2": {
+            "image": null
+        },
+        "section3": {
+            "image": null
+        }
     },
     {
         "id": "644yaYASz3lZnaODdNucCP",
@@ -2519,7 +3397,17 @@
             ],
             "nodeType": "document"
         },
-        "contentPath": "/content/learn"
+        "contentPath": "/content/learn",
+        "headerImage": null,
+        "section1": {
+            "image": null
+        },
+        "section2": {
+            "image": null
+        },
+        "section3": {
+            "image": null
+        }
     },
     {
         "id": "1o6w1QWfwwJE2ngKrI1tY2",
@@ -3638,241 +4526,16 @@
             ],
             "nodeType": "document"
         },
-        "contentPath": "/content/history"
-    },
-    {
-        "id": "6G8pVnBk3xyY3hfLgZWcx7",
-        "title": "Worship Schedule",
-        "content": {
-            "data": {},
-            "content": [
-                {
-                    "data": {},
-                    "content": [
-                        {
-                            "data": {},
-                            "marks": [
-                                {
-                                    "type": "bold"
-                                }
-                            ],
-                            "value": "Come join us at 10:00 AM each Sunday!",
-                            "nodeType": "text"
-                        }
-                    ],
-                    "nodeType": "heading-3"
-                },
-                {
-                    "data": {},
-                    "content": [
-                        {
-                            "data": {},
-                            "marks": [
-                                {
-                                    "type": "bold"
-                                }
-                            ],
-                            "value": "Faith Formation",
-                            "nodeType": "text"
-                        },
-                        {
-                            "data": {},
-                            "marks": [],
-                            "value": " for all ages at 9:00 AM",
-                            "nodeType": "text"
-                        }
-                    ],
-                    "nodeType": "paragraph"
-                },
-                {
-                    "data": {},
-                    "content": [
-                        {
-                            "data": {},
-                            "marks": [
-                                {
-                                    "type": "bold"
-                                }
-                            ],
-                            "value": "Special Worship Opportunities",
-                            "nodeType": "text"
-                        }
-                    ],
-                    "nodeType": "heading-3"
-                },
-                {
-                    "data": {},
-                    "content": [
-                        {
-                            "data": {},
-                            "marks": [
-                                {
-                                    "type": "italic"
-                                }
-                            ],
-                            "value": "(Note: Times listed here are the typical times for each service, but these may be adjusted each year to the needs of the church.  Be sure to check out the news section and our social media for any changes to these services!)",
-                            "nodeType": "text"
-                        }
-                    ],
-                    "nodeType": "paragraph"
-                },
-                {
-                    "data": {},
-                    "content": [
-                        {
-                            "data": {},
-                            "marks": [
-                                {
-                                    "type": "bold"
-                                }
-                            ],
-                            "value": "Advent/Christmas Cantata",
-                            "nodeType": "text"
-                        },
-                        {
-                            "data": {},
-                            "marks": [],
-                            "value": " each December",
-                            "nodeType": "text"
-                        }
-                    ],
-                    "nodeType": "paragraph"
-                },
-                {
-                    "data": {},
-                    "content": [
-                        {
-                            "data": {},
-                            "marks": [
-                                {
-                                    "type": "bold"
-                                }
-                            ],
-                            "value": "Christmas Eve Worship",
-                            "nodeType": "text"
-                        },
-                        {
-                            "data": {},
-                            "marks": [],
-                            "value": " at 11 AM, 5 PM, 7 PM",
-                            "nodeType": "text"
-                        }
-                    ],
-                    "nodeType": "paragraph"
-                },
-                {
-                    "data": {},
-                    "content": [
-                        {
-                            "data": {},
-                            "marks": [
-                                {
-                                    "type": "bold"
-                                }
-                            ],
-                            "value": "Ash Wednesday Worship ",
-                            "nodeType": "text"
-                        },
-                        {
-                            "data": {},
-                            "marks": [],
-                            "value": "at 11 AM and 7 PM",
-                            "nodeType": "text"
-                        }
-                    ],
-                    "nodeType": "paragraph"
-                },
-                {
-                    "data": {},
-                    "content": [
-                        {
-                            "data": {},
-                            "marks": [
-                                {
-                                    "type": "bold"
-                                }
-                            ],
-                            "value": "Lenten Worship ",
-                            "nodeType": "text"
-                        },
-                        {
-                            "data": {},
-                            "marks": [],
-                            "value": "Wednesdays in Lent at 7 PM, preceded by supper at 6 PM",
-                            "nodeType": "text"
-                        }
-                    ],
-                    "nodeType": "paragraph"
-                },
-                {
-                    "data": {},
-                    "content": [
-                        {
-                            "data": {},
-                            "marks": [
-                                {
-                                    "type": "bold"
-                                }
-                            ],
-                            "value": "Maundy Thursday Worship",
-                            "nodeType": "text"
-                        },
-                        {
-                            "data": {},
-                            "marks": [],
-                            "value": " with Communion at 11 AM and 7 PM",
-                            "nodeType": "text"
-                        }
-                    ],
-                    "nodeType": "paragraph"
-                },
-                {
-                    "data": {},
-                    "content": [
-                        {
-                            "data": {},
-                            "marks": [
-                                {
-                                    "type": "bold"
-                                }
-                            ],
-                            "value": "Good Friday Tenebrae Worship",
-                            "nodeType": "text"
-                        },
-                        {
-                            "data": {},
-                            "marks": [],
-                            "value": " at 7 PM",
-                            "nodeType": "text"
-                        }
-                    ],
-                    "nodeType": "paragraph"
-                },
-                {
-                    "data": {},
-                    "content": [
-                        {
-                            "data": {},
-                            "marks": [
-                                {
-                                    "type": "bold"
-                                }
-                            ],
-                            "value": "Easter Sunday Worship ",
-                            "nodeType": "text"
-                        },
-                        {
-                            "data": {},
-                            "marks": [],
-                            "value": "at 10:00 AM, preceded by breakfast at 8:30 AM and then flowering of the cross",
-                            "nodeType": "text"
-                        }
-                    ],
-                    "nodeType": "paragraph"
-                }
-            ],
-            "nodeType": "document"
+        "contentPath": "/content/history",
+        "headerImage": null,
+        "section1": {
+            "image": null
         },
-        "contentPath": "/content/worship-schedule"
+        "section2": {
+            "image": null
+        },
+        "section3": {
+            "image": null
+        }
     }
 ]

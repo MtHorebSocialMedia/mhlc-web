@@ -54,17 +54,21 @@ Tested on screen size of 360x780 (Samsung Galaxy S22)
 ## TO DO
 
 ### UI
-- Leadership page
 - Pull in images content
 - Make pictures more responsive
+- Make Dialogs more responsive
+- Assets for news
 - Add a newsletter signup form
 - Add donate online forms
 - Add mock content for everything
-- Slider content - liturgical season?
 - Preschool pages
 - Photo galleries
 - History page
+- Slider content - liturgical season?
 - Add a calendar feature
+- Content Page Section Titles
+- Make content page sections an array
+- Deprecate content page "basic content"
 
 ### API
 - YouTube videos API to fetch/parse RSS feed
