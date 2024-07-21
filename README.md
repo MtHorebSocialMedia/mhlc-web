@@ -55,9 +55,12 @@ Tested on screen size of 360x780 (Samsung Galaxy S22)
 
 ### UI
 - Pull in images content
+- centering for content page images
 - Make pictures more responsive
 - Make Dialogs more responsive
 - Assets for news
+- New filters
+- social media links
 - Add a newsletter signup form
 - Add donate online forms
 - Add mock content for everything
