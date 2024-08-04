@@ -71,7 +71,7 @@ console.log('MODE:', import.meta.env.MODE);
 
 if (import.meta.env.MODE === 'development') {
 
-    console.log('Enabling mock responses');
+    console.log('Enabling mock responses for content store');
 
     const mockClient = axios.create();
 

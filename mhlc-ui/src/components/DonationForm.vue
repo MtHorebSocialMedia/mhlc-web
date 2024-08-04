@@ -209,12 +209,13 @@
             document.head.appendChild(tithelyScript)
         }
     });
+    submitPaypal() {
+    }
 </script>
 
 <style>
     .v-container.donation-form .v-alert { margin-bottom: 20px; }
     .v-container.donation-form .v-alert .instructions { margin-bottom: 5px; }
-    .v-container.donation-form .v-alert .required-note { text-align: right; }
     .v-container.donation-form .v-alert .required-note { text-align: right; }
     .v-container.donation-form .v-col { padding-top: 0px; padding-bottom: 0px; }
     .v-container.donation-form .v-expansion-panel-title { font-weight: bold; }

@@ -8,6 +8,7 @@ const {
     getCouncil,
     getStaff
 } = require('./contentService');
+const { getPaypalUrl } = require('./donationService');
 
 const router = express.Router();
 
@@ -91,6 +92,17 @@ router.get('/council', (req, res, next) => {
         try {
             const items = await getCouncil();
             res.send(items);
+        } catch(err) {
+            next(err);
+        }
+    })();
+});
+
+router.post('/donations/paypal', (req, res, next) => {
+    (async function() {
+        try {
+            const url = await getPaypalUrl();
+            res.send({ url });
         } catch(err) {
             next(err);
         }
