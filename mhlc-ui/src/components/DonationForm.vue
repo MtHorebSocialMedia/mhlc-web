@@ -26,11 +26,29 @@
                         <p class="instructions">Use the form below to make either a one-time or recurring donation. Payments are processed through PayPal, however, if you don't have a PayPal account, you can use your credit card.</p>
                         <p class="required-note"><v-icon color="red" size="x-small">mdi-asterisk</v-icon> indicates a required field.</p>
                     </v-alert>
+                    <v-alert v-if="paypalDonation.validationResult && !paypalDonation.validationResult.valid" type="error">
+                        <div v-if="paypalDonation.validationResult.errors.firstName">
+                            The first name field is required.
+                        </div>
+                        <div v-if="paypalDonation.validationResult.errors.lastName">
+                            The last name field is required.
+                        </div>
+                        <div v-if="paypalDonation.validationResult.errors.emailAddress">
+                            A valid email address is required.
+                        </div>
+                        <div v-if="paypalDonation.validationResult.errors.donationFrequency">
+                            A donation frequency selection is required.
+                        </div>
+                        <div v-if="paypalDonation.validationResult.errors.donationAmount">
+                            A donation amount is required.
+                        </div>
+                    </v-alert>
                     <br />
                     <v-form>
                         <v-row>
                             <v-col>
                                 <v-text-field
+                                    v-model="paypalDonation.request.firstName"
                                     label="First Name"
                                     variant="outlined"
                                 >
@@ -43,6 +61,7 @@
                         <v-row>
                             <v-col>
                                 <v-text-field
+                                    v-model="paypalDonation.request.lastName"
                                     label="Last Name"
                                     variant="outlined"
                                 >
@@ -55,6 +74,7 @@
                         <v-row>
                             <v-col>
                                 <v-text-field
+                                    v-model="paypalDonation.request.emailAddress"
                                     label="Email Address"
                                     variant="outlined"
                                 >
@@ -67,6 +87,7 @@
                         <v-row>
                             <v-col>
                                 <v-text-field
+                                    v-model="paypalDonation.confirm.emailAddressConfirmation"
                                     label="Confirm Email Address"
                                     variant="outlined"
                                 >
@@ -79,6 +100,7 @@
                         <v-row>
                             <v-col>
                                 <v-select
+                                    v-model="paypalDonation.request.donationFrequency"
                                     label="Donation Frequency"
                                     :items="['One Time Donation', 'Weekly Recurring Donation', 'Monthly Recurring Donation']"
                                     variant="outlined"
@@ -88,7 +110,9 @@
                         <v-row>
                             <v-col>
                                 <v-text-field
+                                    v-model.number="paypalDonation.request.donationAmount"
                                     label="Donation Amount"
+                                    type="number"
                                     variant="outlined"
                                 >
                                     <template v-slot:append-inner>
@@ -99,7 +123,13 @@
                         </v-row>
                         <v-row>
                             <v-col>
-                                <v-btn color="red" block>Submit</v-btn>
+                                <v-btn
+                                    color="red"
+                                    block
+                                    @click="submitPaypal()"
+                                >
+                                    Submit
+                                </v-btn>
                             </v-col>
                         </v-row>
                     </v-form>
@@ -193,11 +223,27 @@
 
 <script setup>
     import { useContentStore } from '@/store/content';
+    import { useDonationsStore } from '@/store/donations';
     import { storeToRefs } from 'pinia';
     import { ref, watch } from 'vue';
+    import { validate } from '../utils/validationUtils';
+    import paypalDonationRequestSchema from '@mhlc/content-api/schemas/paypalRequest.json';
 
     const contentStore = useContentStore();
     const tab = ref(1);
+    const paypalDonation = ref({
+        request: {
+            firstName: '',
+            lastName: '',
+            emailAddress: '',
+            donationFrequency: '',
+            donationAmount: null
+        },
+        confirm: {
+            emailAddressConfirmation: '',
+        },
+        validationResult: null
+    });
 
     watch(tab, () => {
         if (tab.value === 2) {
@@ -209,8 +255,15 @@
             document.head.appendChild(tithelyScript)
         }
     });
-    submitPaypal() {
-    }
+    const submitPaypal = async () => {
+        paypalDonation.value.validationResult = validate(paypalDonation.value.request, paypalDonationRequestSchema);
+        if(paypalDonation.value.validationResult.valid) {
+            const { url } = await useDonationsStore().getPayPalRequest(paypalDonation.value.request);
+            window.location = url;
+        } else {
+            console.log(paypalDonation.value.validationResult);
+        }
+    };
 </script>
 
 <style>

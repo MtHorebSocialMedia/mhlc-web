@@ -7,7 +7,7 @@ const paypalBaseUrl = 'https://www.paypal.com/cgi-bin/webscr/';
 
 const commonParams = {
     // Optional - the URL to which PayPal posts information about the payment, in the form of Instant Payment Notification messages
-    notify_url: 'https://mthoreb.net/?callback=gravityformspaypal',
+    // notify_url: 'https://mthoreb.net/?callback=gravityformspaypal',
     charset: 'UTF-8',
     currency_code: 'USD',
     business: process.env.PAYPAL_BUSINESS_ID,
@@ -23,28 +23,28 @@ async function getPaypalUrl(request) {
         ...commonParams,
         first_name: request.firstName,
         last_name: request.lastName,
-        email: request.email
+        email: request.emailAddress
     };
 
-    switch(request.frequency) {
-        case 'One Time':
+    switch(request.donationFrequency) {
+        case 'One Time Donation':
             paymentRequest.cmd = '_donations';
             paymentRequest.item_name = 'One Time Donation';
-            paymentRequest.amount = request.amount;
+            paymentRequest.amount = request.donationAmount;
             break;
-        case 'Weekly':
+        case 'Weekly Recurring Donation':
             paymentRequest.cmd = '_xclick-subscriptions';
             paymentRequest.item_name = 'Weekly Recurring Donation';
-            paymentRequest.a3 = request.amount;
+            paymentRequest.a3 = request.donationAmount;
             paymentRequest.p3 = 1;
             paymentRequest.t3 = 'W';
             paymentRequest.src = 1;
             paymentRequest.sra = 1;
             break;
-        case 'Monthly':
+        case 'Monthly Recurring Donation':
             paymentRequest.cmd = '_xclick-subscriptions';
             paymentRequest.item_name = 'Monthly Recurring Donation';
-            paymentRequest.a3 = request.amount;
+            paymentRequest.a3 = request.donationAmount;
             paymentRequest.p3 = 1;
             paymentRequest.t3 = 'M';
             paymentRequest.src = 1;
