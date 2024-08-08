@@ -26,7 +26,18 @@ app.use(express.static(uiPath, {
 app.use('/api', apiRouter);
 
 app.use('/donate/paypal-complete', (req, res) => {
-    console.log(req);
+    // Sample data response from paypal:
+    // GET /donate/paypal-complete
+    // req.query: {
+    //     tx: '2EJ19759TP867164H',
+    //     st: 'Completed',
+    //     amt: '1.00',
+    //     cc: 'USD',
+    //     cm: '',
+    //     item_number: '',
+    //     item_name: 'One Time Donation'
+    // }
+    // console.log(req.query);
     res.sendFile(indexPath);
 });
 

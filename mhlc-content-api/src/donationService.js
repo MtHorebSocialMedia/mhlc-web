@@ -6,14 +6,12 @@ const querystring = require('node:querystring');
 const paypalBaseUrl = 'https://www.paypal.com/cgi-bin/webscr/';
 
 const commonParams = {
-    // Optional - the URL to which PayPal posts information about the payment, in the form of Instant Payment Notification messages
-    // notify_url: 'https://mthoreb.net/?callback=gravityformspaypal',
     charset: 'UTF-8',
     currency_code: 'USD',
     business: process.env.PAYPAL_BUSINESS_ID,
     no_shipping: 1,
     // The URL to which PayPal redirects buyers' browser after they complete their payments. For example, specify a URL on your site that displays a thank you for your payment page.
-    return: 'https://mthoreb.net:443/donate-online/?gf_paypal_return=aWRzPTR8MTAyNDEmaGFzaD0yMDQ4NTE5YWI4NjA0N2QzNjdmMGM5YzgzYzY5YjVmMA=',
+    return: process.env.PAYPAL_RETURN_URL,
     // Return method - '2' means a POST to the return URL with all payment variables sent
     rm: 2
 };

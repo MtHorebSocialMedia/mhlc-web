@@ -36,6 +36,9 @@
                         <div v-if="paypalDonation.validationResult.errors.emailAddress">
                             A valid email address is required.
                         </div>
+                        <div v-if="paypalDonation.validationResult.errors.emailAddressConfirmation">
+                            A matching email address confirmation is required.
+                        </div>
                         <div v-if="paypalDonation.validationResult.errors.donationFrequency">
                             A donation frequency selection is required.
                         </div>
@@ -256,12 +259,16 @@
         }
     });
     const submitPaypal = async () => {
-        paypalDonation.value.validationResult = validate(paypalDonation.value.request, paypalDonationRequestSchema);
-        if(paypalDonation.value.validationResult.valid) {
-            const { url } = await useDonationsStore().getPayPalRequest(paypalDonation.value.request);
+        const donation = paypalDonation.value;
+        donation.validationResult = validate(donation.request, paypalDonationRequestSchema);
+        if (donation.confirm.emailAddressConfirmation.trim() === '' || donation.confirm.emailAddressConfirmation !== donation.request.emailAddress) {
+            donation.validationResult.valid = false;
+            donation.validationResult.errors = donation.validationResult.errors || {};
+            donation.validationResult.errors.emailAddressConfirmation = { failed: { invalid: true }};
+        }
+        if(donation.validationResult.valid) {
+            const { url } = await useDonationsStore().getPayPalRequest(donation.request);
             window.location = url;
-        } else {
-            console.log(paypalDonation.value.validationResult);
         }
     };
 </script>
