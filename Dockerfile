@@ -4,6 +4,6 @@ WORKDIR /home/node
 
 COPY . .
 
-RUN npm install
+RUN npm ci
 
 CMD node ./mhlc-content-api/src/index.js
