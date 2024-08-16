@@ -19,5 +19,6 @@ The workflows are defined at: [`./github/workflows/pipeline.yaml`](./github/work
 
 ## Reference Materials
 
+- https://docs.github.com/en/actions/writing-workflows/quickstart
 - https://docs.docker.com/build/ci/github-actions/
 - https://docs.digitalocean.com/products/container-registry/how-to/enable-push-to-deploy/
