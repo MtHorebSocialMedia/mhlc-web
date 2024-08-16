@@ -1,0 +1,13 @@
+docs
+**/coverage
+node_modules
+**/node_modules
+**/.env
+**/.env.sample
+.git
+.gitignore
+.vscode
+mhlc-images
+Dockerfile
+*.md
+*.sh
