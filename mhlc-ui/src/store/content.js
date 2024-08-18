@@ -7,6 +7,7 @@ import MockAdapter from 'axios-mock-adapter';
 export const useContentStore = defineStore('app', () => {
     const menuItems = ref([]);
     const contentPages = ref([]);
+    const contentBlocks = ref([]);
     const newsTypes = ref([]);
     const news = ref([]);
     const churchInfo = ref({});
@@ -17,6 +18,7 @@ export const useContentStore = defineStore('app', () => {
     async function fetchContent() {
         menuItems.value = await getMenuItems();
         contentPages.value = await getContentPages();
+        contentBlocks.value = await getContentBlocks();
         newsTypes.value = (await axios.get('/api/news-types')).data;
         news.value = (await axios.get('/api/news')).data;
         churchInfo.value = await getChurchInfo();
@@ -24,7 +26,7 @@ export const useContentStore = defineStore('app', () => {
         council.value = await getCouncil();
         staff.value = await getStaff();
     }
-    return { menuItems, contentPages, newsTypes, news, churchInfo, council, staff, videoList, fetchContent };
+    return { menuItems, contentPages, contentBlocks, newsTypes, news, churchInfo, council, staff, videoList, fetchContent };
 });
 
 async function getMenuItems() {
@@ -49,6 +51,14 @@ async function getContentPages() {
         contentPages[page.contentPath] = page;
     })
     return contentPages;
+}
+
+async function getContentBlocks() {
+    const contentBlocks = (await axios.get('/api/content-blocks')).data;
+    contentBlocks.forEach(block => {
+        contentBlocks[block.key] = block;
+    })
+    return contentBlocks;
 }
 
 async function getChurchInfo() {
@@ -84,6 +94,10 @@ if (import.meta.env.MODE === 'development') {
 
     mock.onGet("/api/content-pages").reply(() => {
         return mockClient.get('./mock/content-pages.json');
+    });
+
+    mock.onGet("/api/content-blocks").reply(() => {
+        return mockClient.get('./mock/content-blocks.json');
     });
 
     mock.onGet("/api/news-types").reply(() => {

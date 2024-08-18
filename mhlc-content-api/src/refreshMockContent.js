@@ -14,6 +14,7 @@ async function saveContent(contentServiceFunction, fileName) {
 (async function() {
     await saveContent(contentService.getChurchInfo, 'church-info.json');
     await saveContent(contentService.getContentPages, 'content-pages.json');
+    await saveContent(contentService.getContentBlocks, 'content-blocks.json');
     await saveContent(contentService.getCouncil, 'council.json');
     await saveContent(contentService.getMenuItems, 'menu-items.json');
     await saveContent(contentService.getNewsEntries, 'news-entries.json');
