@@ -10,6 +10,9 @@
   "author": "MHLC Technology Team",
   "license": "UNLICENSED",
   "dependencies": {
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1",
+    "body-parser": "^1.20.2",
     "contentful": "^10.12.8",
     "dotenv": "^16.4.5",
     "express": "^4.19.2"
