@@ -1,0 +1,29 @@
+{
+    "title": "PaypalDonationRequest",
+    "description": "Request object to donate via Paypal",
+    "type": "object",
+    "properties": {
+        "firstName": {
+            "type": "string",
+            "isNotBlank": true
+        },
+        "lastName": {
+            "type": "string",
+            "isNotBlank": true
+        },
+        "emailAddress": {
+            "type": "string",
+            "format": "email",
+            "isNotBlank": true
+        },
+        "donationFrequency": {
+            "type": "string",
+            "isNotBlank": true
+        },
+        "donationAmount": {
+            "type": "number",
+            "exclusiveMinimum": 0
+        }
+    },
+    "required": ["firstName", "lastName", "emailAddress", "donationFrequency", "donationAmount"]
+}

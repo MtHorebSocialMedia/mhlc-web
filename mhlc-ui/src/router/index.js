@@ -115,6 +115,20 @@ const routes = [
     ],
   },
   {
+    path: '/donate/paypal-complete',
+    component: () => import('@/layouts/default/Default.vue'),
+    children: [
+      {
+        path: '/donate/paypal-complete',
+        name: 'DonatePaypalComplete',
+        // route level code-splitting
+        // this generates a separate chunk (about.[hash].js) for this route
+        // which is lazy-loaded when the route is visited.
+        component: () => import(/* webpackChunkName: "news" */ '@/views/DonatePaypalComplete.vue'),
+      },
+    ],
+  },
+  {
     path: '/leaders',
     component: () => import('@/layouts/default/Default.vue'),
     children: [

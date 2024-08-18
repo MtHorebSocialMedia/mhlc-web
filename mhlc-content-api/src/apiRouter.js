@@ -9,6 +9,10 @@ const {
     getCouncil,
     getStaff
 } = require('./contentService');
+const { getPaypalUrl } = require('./donationService');
+const { getValidationHandler } = require('./validationHandler');
+const { getErrorHandler } = require('./errorHandler');
+const paypalRequestSchema = require('../schemas/paypalRequest.json');
 
 const router = express.Router();
 
@@ -108,5 +112,21 @@ router.get('/council', (req, res, next) => {
         }
     })();
 });
+
+router.post('/donations/paypal',
+    getValidationHandler({ bodySchema: paypalRequestSchema }),
+    (req, res, next) => {
+        (async function() {
+            try {
+                const url = await getPaypalUrl(req.body);
+                res.send({ url });
+            } catch(err) {
+                next(err);
+            }
+        })();
+    }
+);
+
+router.use(getErrorHandler());
 
 module.exports = router;
