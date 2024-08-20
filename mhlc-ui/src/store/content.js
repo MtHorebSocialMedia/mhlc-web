@@ -55,7 +55,7 @@ async function getContentPages() {
 }
 
 async function getContentBlocks() {
-    const contentBlocks = (await axios.get('/api/content-blocks')).data;
+    const contentBlocks = (await httpClient.get('/api/content-blocks')).data;
     contentBlocks.forEach(block => {
         contentBlocks[block.key] = block;
     })
