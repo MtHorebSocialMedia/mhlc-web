@@ -2,6 +2,7 @@ const express = require('express');
 const {
     getMenuItems,
     getContentPages,
+    getContentBlocks,
     getNewsTypes,
     getNewsEntries,
     getChurchInfo,
@@ -50,6 +51,17 @@ router.get('/content-pages', (req, res, next) => {
     (async function() {
         try {
             const items = await getContentPages();
+            res.send(items);
+        } catch(err) {
+            next(err);
+        }
+    })();
+});
+
+router.get('/content-blocks', (req, res, next) => {
+    (async function() {
+        try {
+            const items = await getContentBlocks();
             res.send(items);
         } catch(err) {
             next(err);

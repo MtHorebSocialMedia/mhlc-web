@@ -12,28 +12,22 @@
         />
       </v-col>
     </v-row>
-    <RichContentRenderer
-      v-if="page.content"
-      :content="page.content"
-    />
-    <ContentPageSection
-      v-if="page.section1.content"
-      :section="page.section1"
-    />
-    <ContentPageSection
-      v-if="page.section2.content"
-      :section="page.section2"
-    />
-    <ContentPageSection
-      v-if="page.section3.content"
-      :section="page.section3"
-    />
+    <v-row
+        v-for="block in page.contentBlocks"
+        v-bind:key="block.key"
+    >
+        <v-col>
+            <ContentBlock
+                :contentBlockKey="block.key"
+            />
+        </v-col>
+    </v-row>
   </v-container>
 </template>
 
 <script setup>
   import RichContentRenderer from '@/components/RichContentRenderer.vue'
-  import ContentPageSection from '@/components/ContentPageSection.vue'
+  import ContentBlock from '@/components/ContentBlock.vue'
   import { useContentStore } from '@/store/content';
   import { storeToRefs } from 'pinia';
   import { computed } from 'vue';

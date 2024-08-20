@@ -33,24 +33,27 @@ async function getContentPages() {
         return {
             id: item.sys.id,
             title: item.fields.title,
-            content: item.fields.content,
             contentPath: item.fields.contentPath,
             headerImage: item.fields.headerImage ? item.fields.headerImage.fields.file : null,
-            section1: {
-                content: item.fields.section1Content,
-                image: item.fields.section1Image ? item.fields.section1Image.fields.file : null,
-                imageAlignment: item.fields.section1ImageAlignment
-            },
-            section2: {
-                content: item.fields.section2Content,
-                image: item.fields.section2Image ? item.fields.section2Image.fields.file : null,
-                imageAlignment: item.fields.section2ImageAlignment
-            },
-            section3: {
-                content: item.fields.section3Content,
-                image: item.fields.section3Image ? item.fields.section3Image.fields.file : null,
-                imageAlignment: item.fields.section3ImageAlignment
-            }
+            contentBlocks: (item.fields.contentBlocks || []).map(block => ({
+                key: block.fields.key
+            }))
+        };
+    });
+}
+
+async function getContentBlocks() {
+    const { items } = await client.getEntries({
+        content_type: 'contentBlock'
+    });
+    return items.map((item) => {
+        return {
+            id: item.sys.id,
+            key: item.fields.key,
+            title: item.fields.title,
+            content: item.fields.content,
+            image: item.fields.image ? item.fields.image.fields.file : null,
+            imageAlignment: item.fields.imageAlignment
         };
     });
 }
@@ -142,6 +145,7 @@ async function getChurchInfo() {
 module.exports = {
     getMenuItems,
     getContentPages,
+    getContentBlocks,
     getNewsTypes,
     getNewsEntries,
     getChurchInfo,
