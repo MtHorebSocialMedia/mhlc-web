@@ -15,6 +15,7 @@ export const useContentStore = defineStore('app', () => {
     const staff = ref([]);
     const council = ref([]);
     const videoList = ref([]);
+    const contentAssistEnabled = ref(false);
 
     async function fetchContent() {
         menuItems.value = await getMenuItems();
@@ -27,7 +28,15 @@ export const useContentStore = defineStore('app', () => {
         council.value = await getCouncil();
         staff.value = await getStaff();
     }
-    return { menuItems, contentPages, contentBlocks, newsTypes, news, churchInfo, council, staff, videoList, fetchContent };
+
+    // Toggle the content assist with content block keys by pressing the back-tick (`) key
+    window.document.addEventListener('keypress', (event) => {
+        if(event.key === '`') {
+            contentAssistEnabled.value = !contentAssistEnabled.value;
+        }
+    });
+
+    return { menuItems, contentPages, contentBlocks, newsTypes, news, churchInfo, council, staff, videoList, contentAssistEnabled, fetchContent };
 });
 
 async function getMenuItems() {

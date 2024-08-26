@@ -1,24 +1,30 @@
 <template>
-    <div v-if="block" class="content-block">
-        <h3 v-if="block.title">{{ block.title }}</h3>
-        <hr v-if="block.title" />
-        <img
-            v-if="block.image && block.imageAlignment !== 'bottom'"
-            :src="block.image.url"
-            :width="getAssetWidth(block.image.details.image.width, block.image.details.image.height)"
-            :height="getAssetHeight(block.image.details.image.width, block.image.details.image.height)"
-            :class="block.imageAlignment"
-            alt="Content Block Image"
-        />
-        <RichContentRenderer :content="block.content" />
-        <img
-            v-if="block.image && block.imageAlignment === 'bottom'"
-            :src="block.image.url"
-            :width="getAssetWidth(block.image.details.image.width, block.image.details.image.height)"
-            :height="getAssetHeight(block.image.details.image.width, block.image.details.image.height)"
-            :class="block.imageAlignment"
-            alt="Content Block Image"
-        />
+    <div :class="contentAssistEnabled ? 'content-block outlined' : 'content-block'">
+        <v-alert
+            v-if="contentAssistEnabled"
+            icon="mdi-file-document-outline"
+        >{{ contentBlockKey }}</v-alert>
+        <div v-if="block" class="content">
+            <h3 v-if="block.title">{{ block.title }}</h3>
+            <hr v-if="block.title" />
+            <img
+                v-if="block.image && block.imageAlignment !== 'bottom'"
+                :src="block.image.url"
+                :width="getAssetWidth(block.image.details.image.width, block.image.details.image.height)"
+                :height="getAssetHeight(block.image.details.image.width, block.image.details.image.height)"
+                :class="block.imageAlignment"
+                alt="Content Block Image"
+            />
+            <RichContentRenderer :content="block.content" />
+            <img
+                v-if="block.image && block.imageAlignment === 'bottom'"
+                :src="block.image.url"
+                :width="getAssetWidth(block.image.details.image.width, block.image.details.image.height)"
+                :height="getAssetHeight(block.image.details.image.width, block.image.details.image.height)"
+                :class="block.imageAlignment"
+                alt="Content Block Image"
+            />
+        </div>
     </div>
 </template>
 
@@ -33,7 +39,7 @@
   });
 
   const contentStore = useContentStore();
-  const { contentBlocks } = storeToRefs(contentStore);
+  const { contentBlocks, contentAssistEnabled } = storeToRefs(contentStore);
 
   const block = contentBlocks.value[props.contentBlockKey];
 
@@ -45,4 +51,6 @@
   .content-block img.right { padding-left: 20px; padding-bottom: 10px; float: right; }
   .content-block img.top { text-align: center; }
   .content-block img.bottom { text-align: center; }
+  .content-block.outlined { border: 1px dashed #999; }
+  .content-block.outlined .content { padding: 5px; }
 </style>
