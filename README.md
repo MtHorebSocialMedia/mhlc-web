@@ -2,7 +2,7 @@
 
 This is the GitHub project for the website of Mt. Horeb Lutheran Church, Chapin, SC - <https://mthoreb.net/>
 
-This is a pilot project for the time being - building a project to replace the existing site.
+A demo of the site can be found here: <https://mthorebsocialmedia.github.io/mhlc-web/#/>
 
 For more information or to get started with this repository, please check out the following pages:
 
