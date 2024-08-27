@@ -1,5 +1,2220 @@
 [
     {
+        "id": "1JTE1X9Hl5ns2SS2LnD0q5",
+        "key": "preschool/info",
+        "content": {
+            "nodeType": "document",
+            "data": {},
+            "content": [
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "Mt. Horeb Preschool ",
+                            "marks": [
+                                {
+                                    "type": "bold"
+                                }
+                            ],
+                            "data": {}
+                        },
+                        {
+                            "nodeType": "text",
+                            "value": "will be open for the 2024-2025 school year and registration opens on February 15th, 2024! To register, please see the ",
+                            "marks": [],
+                            "data": {}
+                        },
+                        {
+                            "nodeType": "entry-hyperlink",
+                            "data": {
+                                "target": {
+                                    "metadata": {
+                                        "tags": []
+                                    },
+                                    "sys": {
+                                        "space": {
+                                            "sys": {
+                                                "type": "Link",
+                                                "linkType": "Space",
+                                                "id": "3wcsgs8fznel"
+                                            }
+                                        },
+                                        "id": "12IwJwC8lkovCoGxvxQs7w",
+                                        "type": "Entry",
+                                        "createdAt": "2024-07-21T00:56:05.007Z",
+                                        "updatedAt": "2024-08-17T19:26:09.477Z",
+                                        "environment": {
+                                            "sys": {
+                                                "id": "master",
+                                                "type": "Link",
+                                                "linkType": "Environment"
+                                            }
+                                        },
+                                        "revision": 2,
+                                        "contentType": {
+                                            "sys": {
+                                                "type": "Link",
+                                                "linkType": "ContentType",
+                                                "id": "contentPage"
+                                            }
+                                        },
+                                        "locale": "en-US"
+                                    },
+                                    "fields": {
+                                        "title": "Preschool Registration and Fees",
+                                        "contentPath": "/content/preschool-registration-and-fees",
+                                        "contentBlocks": [
+                                            {
+                                                "metadata": {
+                                                    "tags": []
+                                                },
+                                                "sys": {
+                                                    "space": {
+                                                        "sys": {
+                                                            "type": "Link",
+                                                            "linkType": "Space",
+                                                            "id": "3wcsgs8fznel"
+                                                        }
+                                                    },
+                                                    "id": "zbaw6X6iSHzommRRMRhVU",
+                                                    "type": "Entry",
+                                                    "createdAt": "2024-08-17T19:20:59.453Z",
+                                                    "updatedAt": "2024-08-27T00:20:10.397Z",
+                                                    "environment": {
+                                                        "sys": {
+                                                            "id": "master",
+                                                            "type": "Link",
+                                                            "linkType": "Environment"
+                                                        }
+                                                    },
+                                                    "revision": 2,
+                                                    "contentType": {
+                                                        "sys": {
+                                                            "type": "Link",
+                                                            "linkType": "ContentType",
+                                                            "id": "contentBlock"
+                                                        }
+                                                    },
+                                                    "locale": "en-US"
+                                                },
+                                                "fields": {
+                                                    "key": "preschool/registration-info",
+                                                    "title": "Registration Information",
+                                                    "content": {
+                                                        "nodeType": "document",
+                                                        "data": {},
+                                                        "content": [
+                                                            {
+                                                                "nodeType": "paragraph",
+                                                                "data": {},
+                                                                "content": [
+                                                                    {
+                                                                        "nodeType": "text",
+                                                                        "value": "Registration begins February 1st, 2023 for children not currently enrolled in our program. Please return your enrollment form along with your non-refundable registration fee to the church or preschool to guarantee your child’s spot in next years’ program.",
+                                                                        "marks": [],
+                                                                        "data": {}
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "nodeType": "heading-3",
+                                                                "data": {},
+                                                                "content": [
+                                                                    {
+                                                                        "nodeType": "text",
+                                                                        "value": "Registration Forms:",
+                                                                        "marks": [],
+                                                                        "data": {}
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "nodeType": "paragraph",
+                                                                "data": {},
+                                                                "content": [
+                                                                    {
+                                                                        "nodeType": "text",
+                                                                        "value": "",
+                                                                        "marks": [],
+                                                                        "data": {}
+                                                                    },
+                                                                    {
+                                                                        "nodeType": "asset-hyperlink",
+                                                                        "data": {
+                                                                            "target": {
+                                                                                "metadata": {
+                                                                                    "tags": []
+                                                                                },
+                                                                                "sys": {
+                                                                                    "space": {
+                                                                                        "sys": {
+                                                                                            "type": "Link",
+                                                                                            "linkType": "Space",
+                                                                                            "id": "3wcsgs8fznel"
+                                                                                        }
+                                                                                    },
+                                                                                    "id": "4yxzQJqHbn58aHb6f3rZin",
+                                                                                    "type": "Asset",
+                                                                                    "createdAt": "2024-08-27T00:18:26.659Z",
+                                                                                    "updatedAt": "2024-08-27T00:18:26.659Z",
+                                                                                    "environment": {
+                                                                                        "sys": {
+                                                                                            "id": "master",
+                                                                                            "type": "Link",
+                                                                                            "linkType": "Environment"
+                                                                                        }
+                                                                                    },
+                                                                                    "revision": 1,
+                                                                                    "locale": "en-US"
+                                                                                },
+                                                                                "fields": {
+                                                                                    "title": "mhlc-preschool-registration-2024-2025",
+                                                                                    "file": {
+                                                                                        "url": "//assets.ctfassets.net/3wcsgs8fznel/4yxzQJqHbn58aHb6f3rZin/4297922ce9d1f067375bb0f1b85e87e2/mhlc-preschool-registration-2024-2025__1_.pdf",
+                                                                                        "details": {
+                                                                                            "size": 90744
+                                                                                        },
+                                                                                        "fileName": "mhlc-preschool-registration-2024-2025 (1).pdf",
+                                                                                        "contentType": "application/pdf"
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        },
+                                                                        "content": [
+                                                                            {
+                                                                                "nodeType": "text",
+                                                                                "value": "Enrollment Form – 2024/2025",
+                                                                                "marks": [],
+                                                                                "data": {}
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    {
+                                                                        "nodeType": "text",
+                                                                        "value": "",
+                                                                        "marks": [],
+                                                                        "data": {}
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "nodeType": "paragraph",
+                                                                "data": {},
+                                                                "content": [
+                                                                    {
+                                                                        "nodeType": "text",
+                                                                        "value": "",
+                                                                        "marks": [],
+                                                                        "data": {}
+                                                                    },
+                                                                    {
+                                                                        "nodeType": "asset-hyperlink",
+                                                                        "data": {
+                                                                            "target": {
+                                                                                "metadata": {
+                                                                                    "tags": []
+                                                                                },
+                                                                                "sys": {
+                                                                                    "space": {
+                                                                                        "sys": {
+                                                                                            "type": "Link",
+                                                                                            "linkType": "Space",
+                                                                                            "id": "3wcsgs8fznel"
+                                                                                        }
+                                                                                    },
+                                                                                    "id": "1WCNCD7ZGkxwOn51GFdiOk",
+                                                                                    "type": "Asset",
+                                                                                    "createdAt": "2024-08-27T00:18:35.510Z",
+                                                                                    "updatedAt": "2024-08-27T00:18:35.510Z",
+                                                                                    "environment": {
+                                                                                        "sys": {
+                                                                                            "id": "master",
+                                                                                            "type": "Link",
+                                                                                            "linkType": "Environment"
+                                                                                        }
+                                                                                    },
+                                                                                    "revision": 1,
+                                                                                    "locale": "en-US"
+                                                                                },
+                                                                                "fields": {
+                                                                                    "title": "Developmental-History-Form",
+                                                                                    "file": {
+                                                                                        "url": "//assets.ctfassets.net/3wcsgs8fznel/1WCNCD7ZGkxwOn51GFdiOk/6a4ce1b909c57e9b6baa52dfa520a95d/Developmental-History-Form.docx",
+                                                                                        "details": {
+                                                                                            "size": 13336
+                                                                                        },
+                                                                                        "fileName": "Developmental-History-Form.docx",
+                                                                                        "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        },
+                                                                        "content": [
+                                                                            {
+                                                                                "nodeType": "text",
+                                                                                "value": "Developmental History Form",
+                                                                                "marks": [],
+                                                                                "data": {}
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    {
+                                                                        "nodeType": "text",
+                                                                        "value": "",
+                                                                        "marks": [],
+                                                                        "data": {}
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "nodeType": "paragraph",
+                                                                "data": {},
+                                                                "content": [
+                                                                    {
+                                                                        "nodeType": "text",
+                                                                        "value": "",
+                                                                        "marks": [],
+                                                                        "data": {}
+                                                                    },
+                                                                    {
+                                                                        "nodeType": "asset-hyperlink",
+                                                                        "data": {
+                                                                            "target": {
+                                                                                "metadata": {
+                                                                                    "tags": []
+                                                                                },
+                                                                                "sys": {
+                                                                                    "space": {
+                                                                                        "sys": {
+                                                                                            "type": "Link",
+                                                                                            "linkType": "Space",
+                                                                                            "id": "3wcsgs8fznel"
+                                                                                        }
+                                                                                    },
+                                                                                    "id": "39OkJifXMPdNyEFr6DdECG",
+                                                                                    "type": "Asset",
+                                                                                    "createdAt": "2024-08-27T00:18:40.836Z",
+                                                                                    "updatedAt": "2024-08-27T00:18:40.836Z",
+                                                                                    "environment": {
+                                                                                        "sys": {
+                                                                                            "id": "master",
+                                                                                            "type": "Link",
+                                                                                            "linkType": "Environment"
+                                                                                        }
+                                                                                    },
+                                                                                    "revision": 1,
+                                                                                    "locale": "en-US"
+                                                                                },
+                                                                                "fields": {
+                                                                                    "title": "Emergency-Contact-Form",
+                                                                                    "file": {
+                                                                                        "url": "//assets.ctfassets.net/3wcsgs8fznel/39OkJifXMPdNyEFr6DdECG/6442479484e1fbd29f9d1b60021333e6/Emergency-Contact-Form.docx",
+                                                                                        "details": {
+                                                                                            "size": 12506
+                                                                                        },
+                                                                                        "fileName": "Emergency-Contact-Form.docx",
+                                                                                        "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        },
+                                                                        "content": [
+                                                                            {
+                                                                                "nodeType": "text",
+                                                                                "value": "Emergency Contact Form",
+                                                                                "marks": [],
+                                                                                "data": {}
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    {
+                                                                        "nodeType": "text",
+                                                                        "value": "",
+                                                                        "marks": [],
+                                                                        "data": {}
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "nodeType": "paragraph",
+                                                                "data": {},
+                                                                "content": [
+                                                                    {
+                                                                        "nodeType": "text",
+                                                                        "value": "",
+                                                                        "marks": [],
+                                                                        "data": {}
+                                                                    },
+                                                                    {
+                                                                        "nodeType": "asset-hyperlink",
+                                                                        "data": {
+                                                                            "target": {
+                                                                                "metadata": {
+                                                                                    "tags": []
+                                                                                },
+                                                                                "sys": {
+                                                                                    "space": {
+                                                                                        "sys": {
+                                                                                            "type": "Link",
+                                                                                            "linkType": "Space",
+                                                                                            "id": "3wcsgs8fznel"
+                                                                                        }
+                                                                                    },
+                                                                                    "id": "2UmAb1fU69vSfFbK3KRJwW",
+                                                                                    "type": "Asset",
+                                                                                    "createdAt": "2024-08-27T00:18:46.518Z",
+                                                                                    "updatedAt": "2024-08-27T00:18:46.518Z",
+                                                                                    "environment": {
+                                                                                        "sys": {
+                                                                                            "id": "master",
+                                                                                            "type": "Link",
+                                                                                            "linkType": "Environment"
+                                                                                        }
+                                                                                    },
+                                                                                    "revision": 1,
+                                                                                    "locale": "en-US"
+                                                                                },
+                                                                                "fields": {
+                                                                                    "title": "Media-Consent-Form",
+                                                                                    "file": {
+                                                                                        "url": "//assets.ctfassets.net/3wcsgs8fznel/2UmAb1fU69vSfFbK3KRJwW/7a88a4f25058791c4643bb8908a65bc4/Media-Consent-Form.docx",
+                                                                                        "details": {
+                                                                                            "size": 11718
+                                                                                        },
+                                                                                        "fileName": "Media-Consent-Form.docx",
+                                                                                        "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        },
+                                                                        "content": [
+                                                                            {
+                                                                                "nodeType": "text",
+                                                                                "value": "Media Consent Form",
+                                                                                "marks": [],
+                                                                                "data": {}
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    {
+                                                                        "nodeType": "text",
+                                                                        "value": "",
+                                                                        "marks": [],
+                                                                        "data": {}
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "nodeType": "paragraph",
+                                                                "data": {},
+                                                                "content": [
+                                                                    {
+                                                                        "nodeType": "text",
+                                                                        "value": "Mail forms with payment to:",
+                                                                        "marks": [],
+                                                                        "data": {}
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "nodeType": "paragraph",
+                                                                "data": {},
+                                                                "content": [
+                                                                    {
+                                                                        "nodeType": "text",
+                                                                        "value": "Mt Horeb Lutheran Church",
+                                                                        "marks": [
+                                                                            {
+                                                                                "type": "bold"
+                                                                            }
+                                                                        ],
+                                                                        "data": {}
+                                                                    },
+                                                                    {
+                                                                        "nodeType": "text",
+                                                                        "value": "\nPO Box 8\nChapin, SC 29036\nAttn: Peggy Miller",
+                                                                        "marks": [],
+                                                                        "data": {}
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "metadata": {
+                                                    "tags": []
+                                                },
+                                                "sys": {
+                                                    "space": {
+                                                        "sys": {
+                                                            "type": "Link",
+                                                            "linkType": "Space",
+                                                            "id": "3wcsgs8fznel"
+                                                        }
+                                                    },
+                                                    "id": "2OsuugzXrA9tMBpWFePlVR",
+                                                    "type": "Entry",
+                                                    "createdAt": "2024-08-17T19:23:59.561Z",
+                                                    "updatedAt": "2024-08-17T19:23:59.561Z",
+                                                    "environment": {
+                                                        "sys": {
+                                                            "id": "master",
+                                                            "type": "Link",
+                                                            "linkType": "Environment"
+                                                        }
+                                                    },
+                                                    "revision": 1,
+                                                    "contentType": {
+                                                        "sys": {
+                                                            "type": "Link",
+                                                            "linkType": "ContentType",
+                                                            "id": "contentBlock"
+                                                        }
+                                                    },
+                                                    "locale": "en-US"
+                                                },
+                                                "fields": {
+                                                    "key": "preschool/registration-supply-fees",
+                                                    "title": "Registration and Suppy Fees",
+                                                    "content": {
+                                                        "data": {},
+                                                        "content": [
+                                                            {
+                                                                "data": {},
+                                                                "content": [
+                                                                    {
+                                                                        "data": {},
+                                                                        "marks": [],
+                                                                        "value": "Registration (Non-refundable – due with enrollment application)",
+                                                                        "nodeType": "text"
+                                                                    }
+                                                                ],
+                                                                "nodeType": "heading-4"
+                                                            },
+                                                            {
+                                                                "data": {},
+                                                                "content": [
+                                                                    {
+                                                                        "data": {},
+                                                                        "content": [
+                                                                            {
+                                                                                "data": {},
+                                                                                "content": [
+                                                                                    {
+                                                                                        "data": {},
+                                                                                        "marks": [],
+                                                                                        "value": "Church members – $100 ($25 for each additional sibling)",
+                                                                                        "nodeType": "text"
+                                                                                    }
+                                                                                ],
+                                                                                "nodeType": "paragraph"
+                                                                            }
+                                                                        ],
+                                                                        "nodeType": "list-item"
+                                                                    },
+                                                                    {
+                                                                        "data": {},
+                                                                        "content": [
+                                                                            {
+                                                                                "data": {},
+                                                                                "content": [
+                                                                                    {
+                                                                                        "data": {},
+                                                                                        "marks": [],
+                                                                                        "value": "Non-members – $150 ($50 for each additional sibling)",
+                                                                                        "nodeType": "text"
+                                                                                    }
+                                                                                ],
+                                                                                "nodeType": "paragraph"
+                                                                            }
+                                                                        ],
+                                                                        "nodeType": "list-item"
+                                                                    }
+                                                                ],
+                                                                "nodeType": "unordered-list"
+                                                            },
+                                                            {
+                                                                "data": {},
+                                                                "content": [
+                                                                    {
+                                                                        "data": {},
+                                                                        "marks": [],
+                                                                        "value": "Supply Fee (1/2 due w/ Sept. tuition, remainder due w/Jan. tuition)",
+                                                                        "nodeType": "text"
+                                                                    }
+                                                                ],
+                                                                "nodeType": "heading-4"
+                                                            },
+                                                            {
+                                                                "data": {},
+                                                                "content": [
+                                                                    {
+                                                                        "data": {},
+                                                                        "content": [
+                                                                            {
+                                                                                "data": {},
+                                                                                "content": [
+                                                                                    {
+                                                                                        "data": {},
+                                                                                        "marks": [],
+                                                                                        "value": "2 days/week – $120",
+                                                                                        "nodeType": "text"
+                                                                                    }
+                                                                                ],
+                                                                                "nodeType": "paragraph"
+                                                                            }
+                                                                        ],
+                                                                        "nodeType": "list-item"
+                                                                    },
+                                                                    {
+                                                                        "data": {},
+                                                                        "content": [
+                                                                            {
+                                                                                "data": {},
+                                                                                "content": [
+                                                                                    {
+                                                                                        "data": {},
+                                                                                        "marks": [],
+                                                                                        "value": "3 days/week – $130",
+                                                                                        "nodeType": "text"
+                                                                                    }
+                                                                                ],
+                                                                                "nodeType": "paragraph"
+                                                                            }
+                                                                        ],
+                                                                        "nodeType": "list-item"
+                                                                    },
+                                                                    {
+                                                                        "data": {},
+                                                                        "content": [
+                                                                            {
+                                                                                "data": {},
+                                                                                "content": [
+                                                                                    {
+                                                                                        "data": {},
+                                                                                        "marks": [],
+                                                                                        "value": "4 days/week – $140",
+                                                                                        "nodeType": "text"
+                                                                                    }
+                                                                                ],
+                                                                                "nodeType": "paragraph"
+                                                                            }
+                                                                        ],
+                                                                        "nodeType": "list-item"
+                                                                    },
+                                                                    {
+                                                                        "data": {},
+                                                                        "content": [
+                                                                            {
+                                                                                "data": {},
+                                                                                "content": [
+                                                                                    {
+                                                                                        "data": {},
+                                                                                        "marks": [],
+                                                                                        "value": "5 days/week – $150",
+                                                                                        "nodeType": "text"
+                                                                                    }
+                                                                                ],
+                                                                                "nodeType": "paragraph"
+                                                                            }
+                                                                        ],
+                                                                        "nodeType": "list-item"
+                                                                    }
+                                                                ],
+                                                                "nodeType": "unordered-list"
+                                                            },
+                                                            {
+                                                                "data": {},
+                                                                "content": [
+                                                                    {
+                                                                        "data": {},
+                                                                        "marks": [],
+                                                                        "value": "",
+                                                                        "nodeType": "text"
+                                                                    }
+                                                                ],
+                                                                "nodeType": "paragraph"
+                                                            }
+                                                        ],
+                                                        "nodeType": "document"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "metadata": {
+                                                    "tags": []
+                                                },
+                                                "sys": {
+                                                    "space": {
+                                                        "sys": {
+                                                            "type": "Link",
+                                                            "linkType": "Space",
+                                                            "id": "3wcsgs8fznel"
+                                                        }
+                                                    },
+                                                    "id": "2buAKSVmb5z4mPctgbLC1b",
+                                                    "type": "Entry",
+                                                    "createdAt": "2024-08-17T19:25:04.277Z",
+                                                    "updatedAt": "2024-08-17T19:25:04.277Z",
+                                                    "environment": {
+                                                        "sys": {
+                                                            "id": "master",
+                                                            "type": "Link",
+                                                            "linkType": "Environment"
+                                                        }
+                                                    },
+                                                    "revision": 1,
+                                                    "contentType": {
+                                                        "sys": {
+                                                            "type": "Link",
+                                                            "linkType": "ContentType",
+                                                            "id": "contentBlock"
+                                                        }
+                                                    },
+                                                    "locale": "en-US"
+                                                },
+                                                "fields": {
+                                                    "key": "preschool/monthly-tuition",
+                                                    "title": "Monthly Tuition",
+                                                    "content": {
+                                                        "nodeType": "document",
+                                                        "data": {},
+                                                        "content": [
+                                                            {
+                                                                "nodeType": "heading-4",
+                                                                "data": {},
+                                                                "content": [
+                                                                    {
+                                                                        "nodeType": "text",
+                                                                        "value": "Two Year Olds",
+                                                                        "marks": [],
+                                                                        "data": {}
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "nodeType": "unordered-list",
+                                                                "data": {},
+                                                                "content": [
+                                                                    {
+                                                                        "nodeType": "list-item",
+                                                                        "data": {},
+                                                                        "content": [
+                                                                            {
+                                                                                "nodeType": "paragraph",
+                                                                                "data": {},
+                                                                                "content": [
+                                                                                    {
+                                                                                        "nodeType": "text",
+                                                                                        "value": "2 days/week – $180/month",
+                                                                                        "marks": [],
+                                                                                        "data": {}
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "nodeType": "heading-4",
+                                                                "data": {},
+                                                                "content": [
+                                                                    {
+                                                                        "nodeType": "text",
+                                                                        "value": "Three Year Olds",
+                                                                        "marks": [],
+                                                                        "data": {}
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "nodeType": "unordered-list",
+                                                                "data": {},
+                                                                "content": [
+                                                                    {
+                                                                        "nodeType": "list-item",
+                                                                        "data": {},
+                                                                        "content": [
+                                                                            {
+                                                                                "nodeType": "paragraph",
+                                                                                "data": {},
+                                                                                "content": [
+                                                                                    {
+                                                                                        "nodeType": "text",
+                                                                                        "value": "3 days/week – $200/month",
+                                                                                        "marks": [],
+                                                                                        "data": {}
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    {
+                                                                        "nodeType": "list-item",
+                                                                        "data": {},
+                                                                        "content": [
+                                                                            {
+                                                                                "nodeType": "paragraph",
+                                                                                "data": {},
+                                                                                "content": [
+                                                                                    {
+                                                                                        "nodeType": "text",
+                                                                                        "value": "4 days/week – $220/month",
+                                                                                        "marks": [],
+                                                                                        "data": {}
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "nodeType": "heading-4",
+                                                                "data": {},
+                                                                "content": [
+                                                                    {
+                                                                        "nodeType": "text",
+                                                                        "value": "Four Year Olds (includes $20 curriculum fee)",
+                                                                        "marks": [],
+                                                                        "data": {}
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "nodeType": "unordered-list",
+                                                                "data": {},
+                                                                "content": [
+                                                                    {
+                                                                        "nodeType": "list-item",
+                                                                        "data": {},
+                                                                        "content": [
+                                                                            {
+                                                                                "nodeType": "paragraph",
+                                                                                "data": {},
+                                                                                "content": [
+                                                                                    {
+                                                                                        "nodeType": "text",
+                                                                                        "value": "4 days/week – $240/month",
+                                                                                        "marks": [],
+                                                                                        "data": {}
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    {
+                                                                        "nodeType": "list-item",
+                                                                        "data": {},
+                                                                        "content": [
+                                                                            {
+                                                                                "nodeType": "paragraph",
+                                                                                "data": {},
+                                                                                "content": [
+                                                                                    {
+                                                                                        "nodeType": "text",
+                                                                                        "value": "5 days/week – $260/month",
+                                                                                        "marks": [],
+                                                                                        "data": {}
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "nodeType": "heading-4",
+                                                                "data": {},
+                                                                "content": [
+                                                                    {
+                                                                        "nodeType": "text",
+                                                                        "value": "Sibling Discount",
+                                                                        "marks": [],
+                                                                        "data": {}
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "nodeType": "unordered-list",
+                                                                "data": {},
+                                                                "content": [
+                                                                    {
+                                                                        "nodeType": "list-item",
+                                                                        "data": {},
+                                                                        "content": [
+                                                                            {
+                                                                                "nodeType": "paragraph",
+                                                                                "data": {},
+                                                                                "content": [
+                                                                                    {
+                                                                                        "nodeType": "text",
+                                                                                        "value": "$40/month",
+                                                                                        "marks": [],
+                                                                                        "data": {}
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "nodeType": "paragraph",
+                                                                "data": {},
+                                                                "content": [
+                                                                    {
+                                                                        "nodeType": "text",
+                                                                        "value": "",
+                                                                        "marks": [],
+                                                                        "data": {}
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "metadata": {
+                                                    "tags": []
+                                                },
+                                                "sys": {
+                                                    "space": {
+                                                        "sys": {
+                                                            "type": "Link",
+                                                            "linkType": "Space",
+                                                            "id": "3wcsgs8fznel"
+                                                        }
+                                                    },
+                                                    "id": "5ZRatWGjblKiXjTbsWObTV",
+                                                    "type": "Entry",
+                                                    "createdAt": "2024-08-17T19:25:42.680Z",
+                                                    "updatedAt": "2024-08-17T19:25:42.680Z",
+                                                    "environment": {
+                                                        "sys": {
+                                                            "id": "master",
+                                                            "type": "Link",
+                                                            "linkType": "Environment"
+                                                        }
+                                                    },
+                                                    "revision": 1,
+                                                    "contentType": {
+                                                        "sys": {
+                                                            "type": "Link",
+                                                            "linkType": "ContentType",
+                                                            "id": "contentBlock"
+                                                        }
+                                                    },
+                                                    "locale": "en-US"
+                                                },
+                                                "fields": {
+                                                    "key": "preschool/extra-fees",
+                                                    "title": "Extras",
+                                                    "content": {
+                                                        "nodeType": "document",
+                                                        "data": {},
+                                                        "content": [
+                                                            {
+                                                                "nodeType": "heading-4",
+                                                                "data": {},
+                                                                "content": [
+                                                                    {
+                                                                        "nodeType": "text",
+                                                                        "value": "Early Bird drop-off",
+                                                                        "marks": [],
+                                                                        "data": {}
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "nodeType": "unordered-list",
+                                                                "data": {},
+                                                                "content": [
+                                                                    {
+                                                                        "nodeType": "list-item",
+                                                                        "data": {},
+                                                                        "content": [
+                                                                            {
+                                                                                "nodeType": "paragraph",
+                                                                                "data": {},
+                                                                                "content": [
+                                                                                    {
+                                                                                        "nodeType": "text",
+                                                                                        "value": "$7/day",
+                                                                                        "marks": [],
+                                                                                        "data": {}
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "nodeType": "heading-4",
+                                                                "data": {},
+                                                                "content": [
+                                                                    {
+                                                                        "nodeType": "text",
+                                                                        "value": "Lunch Bunch",
+                                                                        "marks": [],
+                                                                        "data": {}
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "nodeType": "unordered-list",
+                                                                "data": {},
+                                                                "content": [
+                                                                    {
+                                                                        "nodeType": "list-item",
+                                                                        "data": {},
+                                                                        "content": [
+                                                                            {
+                                                                                "nodeType": "paragraph",
+                                                                                "data": {},
+                                                                                "content": [
+                                                                                    {
+                                                                                        "nodeType": "text",
+                                                                                        "value": "$15/day",
+                                                                                        "marks": [],
+                                                                                        "data": {}
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "nodeType": "paragraph",
+                                                                "data": {},
+                                                                "content": [
+                                                                    {
+                                                                        "nodeType": "text",
+                                                                        "value": "",
+                                                                        "marks": [],
+                                                                        "data": {}
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            },
+                            "content": [
+                                {
+                                    "nodeType": "text",
+                                    "value": "registration page",
+                                    "marks": [],
+                                    "data": {}
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "text",
+                            "value": " for more information. If you have any questions, please contact us by calling 803-345-6441 or e-mailing us at ",
+                            "marks": [],
+                            "data": {}
+                        },
+                        {
+                            "nodeType": "hyperlink",
+                            "data": {
+                                "uri": "mailto:preschool@mthoreb.net"
+                            },
+                            "content": [
+                                {
+                                    "nodeType": "text",
+                                    "value": "preschool@mthoreb.net",
+                                    "marks": [],
+                                    "data": {}
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "text",
+                            "value": ".",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "The Mt. Horeb Preschool",
+                            "marks": [
+                                {
+                                    "type": "bold"
+                                }
+                            ],
+                            "data": {}
+                        },
+                        {
+                            "nodeType": "text",
+                            "value": " serves the church family and surrounding community by offering a quality child development program for children ages two through four. Our outstanding program features…",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "unordered-list",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "list-item",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "paragraph",
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "nodeType": "text",
+                                            "value": "Half-day program hours from 9 a.m. to 12 p.m., five days per week",
+                                            "marks": [
+                                                {
+                                                    "type": "bold"
+                                                }
+                                            ],
+                                            "data": {}
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "list-item",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "paragraph",
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "nodeType": "text",
+                                            "value": "Christian environment",
+                                            "marks": [
+                                                {
+                                                    "type": "bold"
+                                                }
+                                            ],
+                                            "data": {}
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "list-item",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "paragraph",
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "nodeType": "text",
+                                            "value": "Developmentally-appropriate curriculum",
+                                            "marks": [
+                                                {
+                                                    "type": "bold"
+                                                }
+                                            ],
+                                            "data": {}
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "list-item",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "paragraph",
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "nodeType": "text",
+                                            "value": "Convenient location in downtown Chapin",
+                                            "marks": [
+                                                {
+                                                    "type": "bold"
+                                                }
+                                            ],
+                                            "data": {}
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "list-item",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "paragraph",
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "nodeType": "text",
+                                            "value": "Safe, bright and attractive classrooms and playground areas",
+                                            "marks": [
+                                                {
+                                                    "type": "bold"
+                                                }
+                                            ],
+                                            "data": {}
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "The Mt. Horeb learning environment is rich, varied, warm, stimulating and safe",
+                            "marks": [
+                                {
+                                    "type": "bold"
+                                }
+                            ],
+                            "data": {}
+                        },
+                        {
+                            "nodeType": "text",
+                            "value": " for a young child’s healthy development. Teachers use The Creative Curriculum for Preschoolers, a developmentally appropriate, whole language, thematic approach to preschool education. Each classroom is arranged by interest areas, creatively organized to foster growth, imagination, creativity and independence. Activities are planned through centers which include language, math, science and art activities. 4K students will be introduced to our new curriculum called “Get Set for School,” part of the Handwriting Without Tears program.",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "Once a week, children enjoy a 30-minute music class, and our pastors leads chapel time every Wednesday morning. Other special activities include a Preschool Art Show, Holiday Music Program, Preschool Sunday at the church.",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "Two-year-olds attend either Monday/Wednesday or Tuesday/Thursday. Three-year-olds have the option of attending three days (M/T/W) or four days (M-Th). Four-year-olds have the option of attending four days (M-Th) or five days (M-F).",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "Regular preschool hours are Monday-Thursday from 9 a.m. to 12 p.m., but those enrolled in the Early Bird program may arrive in the morning at 8 a.m. Three- and four-year-olds may bring a lunch and join the Lunch Bunch, staying at the preschool until 2 p.m.",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                }
+            ]
+        },
+        "image": null
+    },
+    {
+        "id": "zbaw6X6iSHzommRRMRhVU",
+        "key": "preschool/registration-info",
+        "title": "Registration Information",
+        "content": {
+            "nodeType": "document",
+            "data": {},
+            "content": [
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "Registration begins February 1st, 2023 for children not currently enrolled in our program. Please return your enrollment form along with your non-refundable registration fee to the church or preschool to guarantee your child’s spot in next years’ program.",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "heading-3",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "Registration Forms:",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "",
+                            "marks": [],
+                            "data": {}
+                        },
+                        {
+                            "nodeType": "asset-hyperlink",
+                            "data": {
+                                "target": {
+                                    "metadata": {
+                                        "tags": []
+                                    },
+                                    "sys": {
+                                        "space": {
+                                            "sys": {
+                                                "type": "Link",
+                                                "linkType": "Space",
+                                                "id": "3wcsgs8fznel"
+                                            }
+                                        },
+                                        "id": "4yxzQJqHbn58aHb6f3rZin",
+                                        "type": "Asset",
+                                        "createdAt": "2024-08-27T00:18:26.659Z",
+                                        "updatedAt": "2024-08-27T00:18:26.659Z",
+                                        "environment": {
+                                            "sys": {
+                                                "id": "master",
+                                                "type": "Link",
+                                                "linkType": "Environment"
+                                            }
+                                        },
+                                        "revision": 1,
+                                        "locale": "en-US"
+                                    },
+                                    "fields": {
+                                        "title": "mhlc-preschool-registration-2024-2025",
+                                        "file": {
+                                            "url": "//assets.ctfassets.net/3wcsgs8fznel/4yxzQJqHbn58aHb6f3rZin/4297922ce9d1f067375bb0f1b85e87e2/mhlc-preschool-registration-2024-2025__1_.pdf",
+                                            "details": {
+                                                "size": 90744
+                                            },
+                                            "fileName": "mhlc-preschool-registration-2024-2025 (1).pdf",
+                                            "contentType": "application/pdf"
+                                        }
+                                    }
+                                }
+                            },
+                            "content": [
+                                {
+                                    "nodeType": "text",
+                                    "value": "Enrollment Form – 2024/2025",
+                                    "marks": [],
+                                    "data": {}
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "text",
+                            "value": "",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "",
+                            "marks": [],
+                            "data": {}
+                        },
+                        {
+                            "nodeType": "asset-hyperlink",
+                            "data": {
+                                "target": {
+                                    "metadata": {
+                                        "tags": []
+                                    },
+                                    "sys": {
+                                        "space": {
+                                            "sys": {
+                                                "type": "Link",
+                                                "linkType": "Space",
+                                                "id": "3wcsgs8fznel"
+                                            }
+                                        },
+                                        "id": "1WCNCD7ZGkxwOn51GFdiOk",
+                                        "type": "Asset",
+                                        "createdAt": "2024-08-27T00:18:35.510Z",
+                                        "updatedAt": "2024-08-27T00:18:35.510Z",
+                                        "environment": {
+                                            "sys": {
+                                                "id": "master",
+                                                "type": "Link",
+                                                "linkType": "Environment"
+                                            }
+                                        },
+                                        "revision": 1,
+                                        "locale": "en-US"
+                                    },
+                                    "fields": {
+                                        "title": "Developmental-History-Form",
+                                        "file": {
+                                            "url": "//assets.ctfassets.net/3wcsgs8fznel/1WCNCD7ZGkxwOn51GFdiOk/6a4ce1b909c57e9b6baa52dfa520a95d/Developmental-History-Form.docx",
+                                            "details": {
+                                                "size": 13336
+                                            },
+                                            "fileName": "Developmental-History-Form.docx",
+                                            "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+                                        }
+                                    }
+                                }
+                            },
+                            "content": [
+                                {
+                                    "nodeType": "text",
+                                    "value": "Developmental History Form",
+                                    "marks": [],
+                                    "data": {}
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "text",
+                            "value": "",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "",
+                            "marks": [],
+                            "data": {}
+                        },
+                        {
+                            "nodeType": "asset-hyperlink",
+                            "data": {
+                                "target": {
+                                    "metadata": {
+                                        "tags": []
+                                    },
+                                    "sys": {
+                                        "space": {
+                                            "sys": {
+                                                "type": "Link",
+                                                "linkType": "Space",
+                                                "id": "3wcsgs8fznel"
+                                            }
+                                        },
+                                        "id": "39OkJifXMPdNyEFr6DdECG",
+                                        "type": "Asset",
+                                        "createdAt": "2024-08-27T00:18:40.836Z",
+                                        "updatedAt": "2024-08-27T00:18:40.836Z",
+                                        "environment": {
+                                            "sys": {
+                                                "id": "master",
+                                                "type": "Link",
+                                                "linkType": "Environment"
+                                            }
+                                        },
+                                        "revision": 1,
+                                        "locale": "en-US"
+                                    },
+                                    "fields": {
+                                        "title": "Emergency-Contact-Form",
+                                        "file": {
+                                            "url": "//assets.ctfassets.net/3wcsgs8fznel/39OkJifXMPdNyEFr6DdECG/6442479484e1fbd29f9d1b60021333e6/Emergency-Contact-Form.docx",
+                                            "details": {
+                                                "size": 12506
+                                            },
+                                            "fileName": "Emergency-Contact-Form.docx",
+                                            "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+                                        }
+                                    }
+                                }
+                            },
+                            "content": [
+                                {
+                                    "nodeType": "text",
+                                    "value": "Emergency Contact Form",
+                                    "marks": [],
+                                    "data": {}
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "text",
+                            "value": "",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "",
+                            "marks": [],
+                            "data": {}
+                        },
+                        {
+                            "nodeType": "asset-hyperlink",
+                            "data": {
+                                "target": {
+                                    "metadata": {
+                                        "tags": []
+                                    },
+                                    "sys": {
+                                        "space": {
+                                            "sys": {
+                                                "type": "Link",
+                                                "linkType": "Space",
+                                                "id": "3wcsgs8fznel"
+                                            }
+                                        },
+                                        "id": "2UmAb1fU69vSfFbK3KRJwW",
+                                        "type": "Asset",
+                                        "createdAt": "2024-08-27T00:18:46.518Z",
+                                        "updatedAt": "2024-08-27T00:18:46.518Z",
+                                        "environment": {
+                                            "sys": {
+                                                "id": "master",
+                                                "type": "Link",
+                                                "linkType": "Environment"
+                                            }
+                                        },
+                                        "revision": 1,
+                                        "locale": "en-US"
+                                    },
+                                    "fields": {
+                                        "title": "Media-Consent-Form",
+                                        "file": {
+                                            "url": "//assets.ctfassets.net/3wcsgs8fznel/2UmAb1fU69vSfFbK3KRJwW/7a88a4f25058791c4643bb8908a65bc4/Media-Consent-Form.docx",
+                                            "details": {
+                                                "size": 11718
+                                            },
+                                            "fileName": "Media-Consent-Form.docx",
+                                            "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+                                        }
+                                    }
+                                }
+                            },
+                            "content": [
+                                {
+                                    "nodeType": "text",
+                                    "value": "Media Consent Form",
+                                    "marks": [],
+                                    "data": {}
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "text",
+                            "value": "",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "Mail forms with payment to:",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "Mt Horeb Lutheran Church",
+                            "marks": [
+                                {
+                                    "type": "bold"
+                                }
+                            ],
+                            "data": {}
+                        },
+                        {
+                            "nodeType": "text",
+                            "value": "\nPO Box 8\nChapin, SC 29036\nAttn: Peggy Miller",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                }
+            ]
+        },
+        "image": null
+    },
+    {
+        "id": "49nvpSKpz1xcQ43Vh5rs5x",
+        "key": "worship/get-involved",
+        "title": "How to Get Involved",
+        "content": {
+            "nodeType": "document",
+            "data": {},
+            "content": [
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "Lutheran worship is not an act of the pastors, but it is a conversation among clergy, congregation and the Triune God. We worship according to liturgy handed down from the time of the early church, and the word “liturgy” translates to mean “the work of the people.” That means that everyone is involved in the act of worship.",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "There is a place for you in the worship life of our church! Here are some opportunities to use your spiritual gifts for the good of the community:",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "heading-4",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "Worship with us on Sunday Mornings and Other Services",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "We mean it when we say, “All are welcome” in worship each week at Mt. Horeb!",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "",
+                            "marks": [],
+                            "data": {}
+                        },
+                        {
+                            "nodeType": "entry-hyperlink",
+                            "data": {
+                                "target": {
+                                    "metadata": {
+                                        "tags": []
+                                    },
+                                    "sys": {
+                                        "space": {
+                                            "sys": {
+                                                "type": "Link",
+                                                "linkType": "Space",
+                                                "id": "3wcsgs8fznel"
+                                            }
+                                        },
+                                        "id": "6G8pVnBk3xyY3hfLgZWcx7",
+                                        "type": "Entry",
+                                        "createdAt": "2023-11-09T02:49:24.222Z",
+                                        "updatedAt": "2024-08-17T15:25:47.684Z",
+                                        "environment": {
+                                            "sys": {
+                                                "id": "master",
+                                                "type": "Link",
+                                                "linkType": "Environment"
+                                            }
+                                        },
+                                        "revision": 5,
+                                        "contentType": {
+                                            "sys": {
+                                                "type": "Link",
+                                                "linkType": "ContentType",
+                                                "id": "contentPage"
+                                            }
+                                        },
+                                        "locale": "en-US"
+                                    },
+                                    "fields": {
+                                        "title": "Worship Schedule",
+                                        "contentPath": "/content/worship-schedule",
+                                        "headerImage": {
+                                            "metadata": {
+                                                "tags": []
+                                            },
+                                            "sys": {
+                                                "space": {
+                                                    "sys": {
+                                                        "type": "Link",
+                                                        "linkType": "Space",
+                                                        "id": "3wcsgs8fznel"
+                                                    }
+                                                },
+                                                "id": "4tmd4oGRV6CnaxHYZFPcCg",
+                                                "type": "Asset",
+                                                "createdAt": "2024-07-12T01:14:14.014Z",
+                                                "updatedAt": "2024-07-12T01:14:14.014Z",
+                                                "environment": {
+                                                    "sys": {
+                                                        "id": "master",
+                                                        "type": "Link",
+                                                        "linkType": "Environment"
+                                                    }
+                                                },
+                                                "revision": 1,
+                                                "locale": "en-US"
+                                            },
+                                            "fields": {
+                                                "title": "altar-white-paraments",
+                                                "description": "",
+                                                "file": {
+                                                    "url": "//images.ctfassets.net/3wcsgs8fznel/4tmd4oGRV6CnaxHYZFPcCg/7ec9d99901b11b3472c301d0a24b734e/20230416_111332-border-rounded-1.png",
+                                                    "details": {
+                                                        "size": 144231,
+                                                        "image": {
+                                                            "width": 806,
+                                                            "height": 388
+                                                        }
+                                                    },
+                                                    "fileName": "20230416_111332-border-rounded-1.png",
+                                                    "contentType": "image/png"
+                                                }
+                                            }
+                                        },
+                                        "contentBlocks": [
+                                            {
+                                                "metadata": {
+                                                    "tags": []
+                                                },
+                                                "sys": {
+                                                    "space": {
+                                                        "sys": {
+                                                            "type": "Link",
+                                                            "linkType": "Space",
+                                                            "id": "3wcsgs8fznel"
+                                                        }
+                                                    },
+                                                    "id": "1tXFLQsBWdn0OS8KtsRjI4",
+                                                    "type": "Entry",
+                                                    "createdAt": "2024-08-17T15:24:05.480Z",
+                                                    "updatedAt": "2024-08-17T15:24:05.480Z",
+                                                    "environment": {
+                                                        "sys": {
+                                                            "id": "master",
+                                                            "type": "Link",
+                                                            "linkType": "Environment"
+                                                        }
+                                                    },
+                                                    "revision": 1,
+                                                    "contentType": {
+                                                        "sys": {
+                                                            "type": "Link",
+                                                            "linkType": "ContentType",
+                                                            "id": "contentBlock"
+                                                        }
+                                                    },
+                                                    "locale": "en-US"
+                                                },
+                                                "fields": {
+                                                    "key": "worship-schedule/weekly-times",
+                                                    "content": {
+                                                        "nodeType": "document",
+                                                        "data": {},
+                                                        "content": [
+                                                            {
+                                                                "nodeType": "heading-3",
+                                                                "data": {},
+                                                                "content": [
+                                                                    {
+                                                                        "nodeType": "text",
+                                                                        "value": "Come join us for worship at 10:00 AM each Sunday!",
+                                                                        "marks": [
+                                                                            {
+                                                                                "type": "bold"
+                                                                            }
+                                                                        ],
+                                                                        "data": {}
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "nodeType": "paragraph",
+                                                                "data": {},
+                                                                "content": [
+                                                                    {
+                                                                        "nodeType": "text",
+                                                                        "value": "Faith Formation",
+                                                                        "marks": [
+                                                                            {
+                                                                                "type": "bold"
+                                                                            }
+                                                                        ],
+                                                                        "data": {}
+                                                                    },
+                                                                    {
+                                                                        "nodeType": "text",
+                                                                        "value": " for all ages at 9:00 AM!",
+                                                                        "marks": [],
+                                                                        "data": {}
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "metadata": {
+                                                    "tags": []
+                                                },
+                                                "sys": {
+                                                    "space": {
+                                                        "sys": {
+                                                            "type": "Link",
+                                                            "linkType": "Space",
+                                                            "id": "3wcsgs8fznel"
+                                                        }
+                                                    },
+                                                    "id": "WYKC9VXAeIv7g5vH8MNjw",
+                                                    "type": "Entry",
+                                                    "createdAt": "2024-08-17T15:25:22.229Z",
+                                                    "updatedAt": "2024-08-17T15:25:22.229Z",
+                                                    "environment": {
+                                                        "sys": {
+                                                            "id": "master",
+                                                            "type": "Link",
+                                                            "linkType": "Environment"
+                                                        }
+                                                    },
+                                                    "revision": 1,
+                                                    "contentType": {
+                                                        "sys": {
+                                                            "type": "Link",
+                                                            "linkType": "ContentType",
+                                                            "id": "contentBlock"
+                                                        }
+                                                    },
+                                                    "locale": "en-US"
+                                                },
+                                                "fields": {
+                                                    "key": "worship-schedule/special-services",
+                                                    "title": "Special Worship Opportunities",
+                                                    "content": {
+                                                        "nodeType": "document",
+                                                        "data": {},
+                                                        "content": [
+                                                            {
+                                                                "nodeType": "paragraph",
+                                                                "data": {},
+                                                                "content": [
+                                                                    {
+                                                                        "nodeType": "text",
+                                                                        "value": "(Note: Times listed here are the typical times for each service, but these may be adjusted each year to the needs of the church. Be sure to check out the news section and our social media for any changes to these services!)",
+                                                                        "marks": [
+                                                                            {
+                                                                                "type": "italic"
+                                                                            }
+                                                                        ],
+                                                                        "data": {}
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "nodeType": "paragraph",
+                                                                "data": {},
+                                                                "content": [
+                                                                    {
+                                                                        "nodeType": "text",
+                                                                        "value": "Christmas Eve Worship",
+                                                                        "marks": [
+                                                                            {
+                                                                                "type": "bold"
+                                                                            }
+                                                                        ],
+                                                                        "data": {}
+                                                                    },
+                                                                    {
+                                                                        "nodeType": "text",
+                                                                        "value": " at 11 AM, 5 PM, 7 PM",
+                                                                        "marks": [],
+                                                                        "data": {}
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "nodeType": "paragraph",
+                                                                "data": {},
+                                                                "content": [
+                                                                    {
+                                                                        "nodeType": "text",
+                                                                        "value": "Ash Wednesday Worship ",
+                                                                        "marks": [
+                                                                            {
+                                                                                "type": "bold"
+                                                                            }
+                                                                        ],
+                                                                        "data": {}
+                                                                    },
+                                                                    {
+                                                                        "nodeType": "text",
+                                                                        "value": "at 11 AM and 7 PM",
+                                                                        "marks": [],
+                                                                        "data": {}
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "nodeType": "paragraph",
+                                                                "data": {},
+                                                                "content": [
+                                                                    {
+                                                                        "nodeType": "text",
+                                                                        "value": "Lenten Worship ",
+                                                                        "marks": [
+                                                                            {
+                                                                                "type": "bold"
+                                                                            }
+                                                                        ],
+                                                                        "data": {}
+                                                                    },
+                                                                    {
+                                                                        "nodeType": "text",
+                                                                        "value": "Wednesdays in Lent at 7 PM, preceded by supper at 6 PM",
+                                                                        "marks": [],
+                                                                        "data": {}
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "nodeType": "paragraph",
+                                                                "data": {},
+                                                                "content": [
+                                                                    {
+                                                                        "nodeType": "text",
+                                                                        "value": "Maundy Thursday Worship",
+                                                                        "marks": [
+                                                                            {
+                                                                                "type": "bold"
+                                                                            }
+                                                                        ],
+                                                                        "data": {}
+                                                                    },
+                                                                    {
+                                                                        "nodeType": "text",
+                                                                        "value": " with Communion at 11 AM and 7 PM",
+                                                                        "marks": [],
+                                                                        "data": {}
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "nodeType": "paragraph",
+                                                                "data": {},
+                                                                "content": [
+                                                                    {
+                                                                        "nodeType": "text",
+                                                                        "value": "Good Friday Tenebrae Worship",
+                                                                        "marks": [
+                                                                            {
+                                                                                "type": "bold"
+                                                                            }
+                                                                        ],
+                                                                        "data": {}
+                                                                    },
+                                                                    {
+                                                                        "nodeType": "text",
+                                                                        "value": " at 7 PM",
+                                                                        "marks": [],
+                                                                        "data": {}
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "nodeType": "paragraph",
+                                                                "data": {},
+                                                                "content": [
+                                                                    {
+                                                                        "nodeType": "text",
+                                                                        "value": "Easter Sunday Worship ",
+                                                                        "marks": [
+                                                                            {
+                                                                                "type": "bold"
+                                                                            }
+                                                                        ],
+                                                                        "data": {}
+                                                                    },
+                                                                    {
+                                                                        "nodeType": "text",
+                                                                        "value": "at 10:00 AM, preceded by breakfast at 8:30 AM and then flowering of the cross",
+                                                                        "marks": [],
+                                                                        "data": {}
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            },
+                            "content": [
+                                {
+                                    "nodeType": "text",
+                                    "value": "Click here",
+                                    "marks": [],
+                                    "data": {}
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "text",
+                            "value": " to view our ",
+                            "marks": [],
+                            "data": {}
+                        },
+                        {
+                            "nodeType": "text",
+                            "value": "worship times",
+                            "marks": [
+                                {
+                                    "type": "bold"
+                                }
+                            ],
+                            "data": {}
+                        },
+                        {
+                            "nodeType": "text",
+                            "value": ", including ",
+                            "marks": [],
+                            "data": {}
+                        },
+                        {
+                            "nodeType": "text",
+                            "value": "special services & holidays",
+                            "marks": [
+                                {
+                                    "type": "bold"
+                                }
+                            ],
+                            "data": {}
+                        },
+                        {
+                            "nodeType": "text",
+                            "value": ".",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "Please ",
+                            "marks": [],
+                            "data": {}
+                        },
+                        {
+                            "nodeType": "hyperlink",
+                            "data": {
+                                "uri": "/contact"
+                            },
+                            "content": [
+                                {
+                                    "nodeType": "text",
+                                    "value": "contact us ",
+                                    "marks": [],
+                                    "data": {}
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "text",
+                            "value": "to find out how your gifts can fit into the worship ministries.",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "heading-4",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "Participate in Mt. Horeb’s Music Ministries",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "Whether you want to sing in one of the weekly worship choirs, supply musical accompaniment or percussion, play in the Alleluia Praise Band, or audition for one of the special choral groups, there is a place for you in our Music Ministries.",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "heading-4",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "Participate in the Altar Guild",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "Members of the Altar Guild are the behind-the-scenes facilitators of our worship life. They set the table for communion, change the paraments, and help prepare the worship space for Sunday.",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "heading-4",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "Serve on the Worship and Music Team",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "Our worship and music team gathers monthly to plan and facilitate the worship life of the congregation by giving input on music, special services, and worship themes.",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "heading-4",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "Volunteer to Set up for Special Worship Services",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "Have you ever wondered who puts out the poinsettias at Christmas or the white flowers at Easter? Many hands and feet are needed to set up for these special times in the life of our church.",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                }
+            ]
+        },
+        "image": {
+            "url": "//images.ctfassets.net/3wcsgs8fznel/2nkRi2YoSXJ9uqlbIDcwor/183dcca86faf8dce24f4b3ec6ab2d354/praise-band-2-300x148.png",
+            "details": {
+                "size": 28805,
+                "image": {
+                    "width": 300,
+                    "height": 148
+                }
+            },
+            "fileName": "praise-band-2-300x148.png",
+            "contentType": "image/png"
+        },
+        "imageAlignment": "left"
+    },
+    {
         "id": "Cr7yI07lNS4JKLtRf55l1",
         "key": "history/pastors",
         "content": {
@@ -1839,571 +4054,6 @@
         "imageAlignment": "left"
     },
     {
-        "id": "1JTE1X9Hl5ns2SS2LnD0q5",
-        "key": "preschool/info",
-        "content": {
-            "data": {},
-            "content": [
-                {
-                    "data": {},
-                    "content": [
-                        {
-                            "data": {},
-                            "marks": [
-                                {
-                                    "type": "bold"
-                                }
-                            ],
-                            "value": "Mt. Horeb Preschool ",
-                            "nodeType": "text"
-                        },
-                        {
-                            "data": {},
-                            "marks": [],
-                            "value": "will be open for the 2024-2025 school year and registration opens on February 15th, 2024! To register, please see the ",
-                            "nodeType": "text"
-                        },
-                        {
-                            "data": {
-                                "uri": "https://mthoreb.net/pre-school-registration-fees/"
-                            },
-                            "content": [
-                                {
-                                    "data": {},
-                                    "marks": [],
-                                    "value": "registration page",
-                                    "nodeType": "text"
-                                }
-                            ],
-                            "nodeType": "hyperlink"
-                        },
-                        {
-                            "data": {},
-                            "marks": [],
-                            "value": " for more information. If you have any questions, please contact us by calling 803-345-6441 or e-mailing us at ",
-                            "nodeType": "text"
-                        },
-                        {
-                            "data": {
-                                "uri": "mailto:preschool@mthoreb.net"
-                            },
-                            "content": [
-                                {
-                                    "data": {},
-                                    "marks": [],
-                                    "value": "preschool@mthoreb.net",
-                                    "nodeType": "text"
-                                }
-                            ],
-                            "nodeType": "hyperlink"
-                        },
-                        {
-                            "data": {},
-                            "marks": [],
-                            "value": ".",
-                            "nodeType": "text"
-                        }
-                    ],
-                    "nodeType": "paragraph"
-                },
-                {
-                    "data": {},
-                    "content": [
-                        {
-                            "data": {},
-                            "marks": [
-                                {
-                                    "type": "bold"
-                                }
-                            ],
-                            "value": "The Mt. Horeb Preschool",
-                            "nodeType": "text"
-                        },
-                        {
-                            "data": {},
-                            "marks": [],
-                            "value": " serves the church family and surrounding community by offering a quality child development program for children ages two through four. Our outstanding program features…",
-                            "nodeType": "text"
-                        }
-                    ],
-                    "nodeType": "paragraph"
-                },
-                {
-                    "data": {},
-                    "content": [
-                        {
-                            "data": {},
-                            "content": [
-                                {
-                                    "data": {},
-                                    "content": [
-                                        {
-                                            "data": {},
-                                            "marks": [
-                                                {
-                                                    "type": "bold"
-                                                }
-                                            ],
-                                            "value": "Half-day program hours from 9 a.m. to 12 p.m., five days per week",
-                                            "nodeType": "text"
-                                        }
-                                    ],
-                                    "nodeType": "paragraph"
-                                }
-                            ],
-                            "nodeType": "list-item"
-                        },
-                        {
-                            "data": {},
-                            "content": [
-                                {
-                                    "data": {},
-                                    "content": [
-                                        {
-                                            "data": {},
-                                            "marks": [
-                                                {
-                                                    "type": "bold"
-                                                }
-                                            ],
-                                            "value": "Christian environment",
-                                            "nodeType": "text"
-                                        }
-                                    ],
-                                    "nodeType": "paragraph"
-                                }
-                            ],
-                            "nodeType": "list-item"
-                        },
-                        {
-                            "data": {},
-                            "content": [
-                                {
-                                    "data": {},
-                                    "content": [
-                                        {
-                                            "data": {},
-                                            "marks": [
-                                                {
-                                                    "type": "bold"
-                                                }
-                                            ],
-                                            "value": "Developmentally-appropriate curriculum",
-                                            "nodeType": "text"
-                                        }
-                                    ],
-                                    "nodeType": "paragraph"
-                                }
-                            ],
-                            "nodeType": "list-item"
-                        },
-                        {
-                            "data": {},
-                            "content": [
-                                {
-                                    "data": {},
-                                    "content": [
-                                        {
-                                            "data": {},
-                                            "marks": [
-                                                {
-                                                    "type": "bold"
-                                                }
-                                            ],
-                                            "value": "Convenient location in downtown Chapin",
-                                            "nodeType": "text"
-                                        }
-                                    ],
-                                    "nodeType": "paragraph"
-                                }
-                            ],
-                            "nodeType": "list-item"
-                        },
-                        {
-                            "data": {},
-                            "content": [
-                                {
-                                    "data": {},
-                                    "content": [
-                                        {
-                                            "data": {},
-                                            "marks": [
-                                                {
-                                                    "type": "bold"
-                                                }
-                                            ],
-                                            "value": "Safe, bright and attractive classrooms and playground areas",
-                                            "nodeType": "text"
-                                        }
-                                    ],
-                                    "nodeType": "paragraph"
-                                }
-                            ],
-                            "nodeType": "list-item"
-                        }
-                    ],
-                    "nodeType": "unordered-list"
-                },
-                {
-                    "data": {},
-                    "content": [
-                        {
-                            "data": {},
-                            "marks": [
-                                {
-                                    "type": "bold"
-                                }
-                            ],
-                            "value": "The Mt. Horeb learning environment is rich, varied, warm, stimulating and safe",
-                            "nodeType": "text"
-                        },
-                        {
-                            "data": {},
-                            "marks": [],
-                            "value": " for a young child’s healthy development. Teachers use The Creative Curriculum for Preschoolers, a developmentally appropriate, whole language, thematic approach to preschool education. Each classroom is arranged by interest areas, creatively organized to foster growth, imagination, creativity and independence. Activities are planned through centers which include language, math, science and art activities. 4K students will be introduced to our new curriculum called “Get Set for School,” part of the Handwriting Without Tears program.",
-                            "nodeType": "text"
-                        }
-                    ],
-                    "nodeType": "paragraph"
-                },
-                {
-                    "data": {},
-                    "content": [
-                        {
-                            "data": {},
-                            "marks": [],
-                            "value": "Once a week, children enjoy a 30-minute music class, and our pastors leads chapel time every Wednesday morning. Other special activities include a Preschool Art Show, Holiday Music Program, Preschool Sunday at the church.",
-                            "nodeType": "text"
-                        }
-                    ],
-                    "nodeType": "paragraph"
-                },
-                {
-                    "data": {},
-                    "content": [
-                        {
-                            "data": {},
-                            "marks": [],
-                            "value": "Two-year-olds attend either Monday/Wednesday or Tuesday/Thursday. Three-year-olds have the option of attending three days (M/T/W) or four days (M-Th). Four-year-olds have the option of attending four days (M-Th) or five days (M-F).",
-                            "nodeType": "text"
-                        }
-                    ],
-                    "nodeType": "paragraph"
-                },
-                {
-                    "data": {},
-                    "content": [
-                        {
-                            "data": {},
-                            "marks": [],
-                            "value": "Regular preschool hours are Monday-Thursday from 9 a.m. to 12 p.m., but those enrolled in the Early Bird program may arrive in the morning at 8 a.m. Three- and four-year-olds may bring a lunch and join the Lunch Bunch, staying at the preschool until 2 p.m.",
-                            "nodeType": "text"
-                        }
-                    ],
-                    "nodeType": "paragraph"
-                }
-            ],
-            "nodeType": "document"
-        },
-        "image": null
-    },
-    {
-        "id": "49nvpSKpz1xcQ43Vh5rs5x",
-        "key": "worship/get-involved",
-        "title": "How to Get Involved",
-        "content": {
-            "data": {},
-            "content": [
-                {
-                    "data": {},
-                    "content": [
-                        {
-                            "data": {},
-                            "marks": [],
-                            "value": "Lutheran worship is not an act of the pastors, but it is a conversation among clergy, congregation and the Triune God. We worship according to liturgy handed down from the time of the early church, and the word “liturgy” translates to mean “the work of the people.” That means that everyone is involved in the act of worship.",
-                            "nodeType": "text"
-                        }
-                    ],
-                    "nodeType": "paragraph"
-                },
-                {
-                    "data": {},
-                    "content": [
-                        {
-                            "data": {},
-                            "marks": [],
-                            "value": "There is a place for you in the worship life of our church! Here are some opportunities to use your spiritual gifts for the good of the community:",
-                            "nodeType": "text"
-                        }
-                    ],
-                    "nodeType": "paragraph"
-                },
-                {
-                    "data": {},
-                    "content": [
-                        {
-                            "data": {},
-                            "marks": [],
-                            "value": "Worship with us on Sunday Mornings and Other Services",
-                            "nodeType": "text"
-                        }
-                    ],
-                    "nodeType": "heading-4"
-                },
-                {
-                    "data": {},
-                    "content": [
-                        {
-                            "data": {},
-                            "marks": [],
-                            "value": "We mean it when we say, “All are welcome” in worship each week at Mt. Horeb!",
-                            "nodeType": "text"
-                        }
-                    ],
-                    "nodeType": "paragraph"
-                },
-                {
-                    "data": {},
-                    "content": [
-                        {
-                            "data": {},
-                            "marks": [],
-                            "value": "",
-                            "nodeType": "text"
-                        },
-                        {
-                            "data": {
-                                "uri": "https://mthoreb.net/worship-schedule"
-                            },
-                            "content": [
-                                {
-                                    "data": {},
-                                    "marks": [],
-                                    "value": "Click here",
-                                    "nodeType": "text"
-                                }
-                            ],
-                            "nodeType": "hyperlink"
-                        },
-                        {
-                            "data": {},
-                            "marks": [],
-                            "value": " to view more worship times, including ",
-                            "nodeType": "text"
-                        },
-                        {
-                            "data": {},
-                            "marks": [
-                                {
-                                    "type": "bold"
-                                }
-                            ],
-                            "value": "special services & holidays",
-                            "nodeType": "text"
-                        },
-                        {
-                            "data": {},
-                            "marks": [],
-                            "value": ".",
-                            "nodeType": "text"
-                        }
-                    ],
-                    "nodeType": "paragraph"
-                },
-                {
-                    "data": {},
-                    "content": [
-                        {
-                            "data": {},
-                            "marks": [],
-                            "value": "Participate in Mt. Horeb’s Music Ministries",
-                            "nodeType": "text"
-                        }
-                    ],
-                    "nodeType": "heading-4"
-                },
-                {
-                    "data": {},
-                    "content": [
-                        {
-                            "data": {},
-                            "marks": [],
-                            "value": "Whether you want to sing in one of the weekly worship choirs, supply musical accompaniment or percussion, play in the Alleluia Praise Band, or audition for one of the special choral groups, there is a place for you in our Music Ministries. Please ",
-                            "nodeType": "text"
-                        },
-                        {
-                            "data": {
-                                "uri": "https://mthoreb.net/contact/"
-                            },
-                            "content": [
-                                {
-                                    "data": {},
-                                    "marks": [],
-                                    "value": "contact us ",
-                                    "nodeType": "text"
-                                }
-                            ],
-                            "nodeType": "hyperlink"
-                        },
-                        {
-                            "data": {},
-                            "marks": [],
-                            "value": "to find out how your gifts can fit into the ministry here.",
-                            "nodeType": "text"
-                        }
-                    ],
-                    "nodeType": "paragraph"
-                },
-                {
-                    "data": {},
-                    "content": [
-                        {
-                            "data": {},
-                            "marks": [],
-                            "value": "Participate in the Altar Guild",
-                            "nodeType": "text"
-                        }
-                    ],
-                    "nodeType": "heading-4"
-                },
-                {
-                    "data": {},
-                    "content": [
-                        {
-                            "data": {},
-                            "marks": [],
-                            "value": "Members of the Altar Guild are the behind-the-scenes facilitators of our worship life. They set the table for communion, change the paraments, and help prepare the worship space for Sunday. If you would like to use your gifts to serve in this vital ministry, please ",
-                            "nodeType": "text"
-                        },
-                        {
-                            "data": {
-                                "uri": "https://mthoreb.net/contact/"
-                            },
-                            "content": [
-                                {
-                                    "data": {},
-                                    "marks": [],
-                                    "value": "contact us",
-                                    "nodeType": "text"
-                                }
-                            ],
-                            "nodeType": "hyperlink"
-                        },
-                        {
-                            "data": {},
-                            "marks": [],
-                            "value": ".",
-                            "nodeType": "text"
-                        }
-                    ],
-                    "nodeType": "paragraph"
-                },
-                {
-                    "data": {},
-                    "content": [
-                        {
-                            "data": {},
-                            "marks": [],
-                            "value": "Serve on the Worship and Music Team",
-                            "nodeType": "text"
-                        }
-                    ],
-                    "nodeType": "heading-4"
-                },
-                {
-                    "data": {},
-                    "content": [
-                        {
-                            "data": {},
-                            "marks": [],
-                            "value": "If you would like to participate with those who gather to plan and facilitate the worship life of the congregation by giving input on music, special services, and worship themes, please ",
-                            "nodeType": "text"
-                        },
-                        {
-                            "data": {
-                                "uri": "https://mthoreb.net/contact/"
-                            },
-                            "content": [
-                                {
-                                    "data": {},
-                                    "marks": [],
-                                    "value": "contact us",
-                                    "nodeType": "text"
-                                }
-                            ],
-                            "nodeType": "hyperlink"
-                        },
-                        {
-                            "data": {},
-                            "marks": [],
-                            "value": ".",
-                            "nodeType": "text"
-                        }
-                    ],
-                    "nodeType": "paragraph"
-                },
-                {
-                    "data": {},
-                    "content": [
-                        {
-                            "data": {},
-                            "marks": [],
-                            "value": "Volunteer to Set up for Special Worship Services",
-                            "nodeType": "text"
-                        }
-                    ],
-                    "nodeType": "heading-4"
-                },
-                {
-                    "data": {},
-                    "content": [
-                        {
-                            "data": {},
-                            "marks": [],
-                            "value": "Have you ever wondered who puts out the poinsettias at Christmas or the white flowers at Easter? Many hands and feet are needed to set up for these special times in the life of our church. If you would like to help with these periodic needs, please ",
-                            "nodeType": "text"
-                        },
-                        {
-                            "data": {
-                                "uri": "https://mthoreb.net/contact/"
-                            },
-                            "content": [
-                                {
-                                    "data": {},
-                                    "marks": [],
-                                    "value": "contact us",
-                                    "nodeType": "text"
-                                }
-                            ],
-                            "nodeType": "hyperlink"
-                        },
-                        {
-                            "data": {},
-                            "marks": [],
-                            "value": ".",
-                            "nodeType": "text"
-                        }
-                    ],
-                    "nodeType": "paragraph"
-                }
-            ],
-            "nodeType": "document"
-        },
-        "image": {
-            "url": "//images.ctfassets.net/3wcsgs8fznel/2nkRi2YoSXJ9uqlbIDcwor/183dcca86faf8dce24f4b3ec6ab2d354/praise-band-2-300x148.png",
-            "details": {
-                "size": 28805,
-                "image": {
-                    "width": 300,
-                    "height": 148
-                }
-            },
-            "fileName": "praise-band-2-300x148.png",
-            "contentType": "image/png"
-        },
-        "imageAlignment": "left"
-    },
-    {
         "id": "2l17ZZ0CeXJxMpcHqV50or",
         "key": "worship/core-value",
         "title": "Core Value: Worship",
@@ -2897,204 +4547,6 @@
                             "data": {},
                             "marks": [],
                             "value": "",
-                            "nodeType": "text"
-                        }
-                    ],
-                    "nodeType": "paragraph"
-                }
-            ],
-            "nodeType": "document"
-        },
-        "image": null
-    },
-    {
-        "id": "zbaw6X6iSHzommRRMRhVU",
-        "key": "preschool/registration-info",
-        "title": "Registration Information",
-        "content": {
-            "data": {},
-            "content": [
-                {
-                    "data": {},
-                    "content": [
-                        {
-                            "data": {},
-                            "marks": [],
-                            "value": "Registration begins February 1st, 2023 for children not currently enrolled in our program. Please return your enrollment form along with your non-refundable registration fee to the church or preschool to guarantee your child’s spot in next years’ program.",
-                            "nodeType": "text"
-                        }
-                    ],
-                    "nodeType": "paragraph"
-                },
-                {
-                    "data": {},
-                    "content": [
-                        {
-                            "data": {},
-                            "marks": [],
-                            "value": "Registration Forms:",
-                            "nodeType": "text"
-                        }
-                    ],
-                    "nodeType": "heading-3"
-                },
-                {
-                    "data": {},
-                    "content": [
-                        {
-                            "data": {},
-                            "marks": [],
-                            "value": "",
-                            "nodeType": "text"
-                        },
-                        {
-                            "data": {
-                                "uri": "https://mthoreb.net/wp-content/uploads/2024/01/mhlc-preschool-registration-2024-2025.pdf"
-                            },
-                            "content": [
-                                {
-                                    "data": {},
-                                    "marks": [],
-                                    "value": "Enrollment Form – 2024/2025",
-                                    "nodeType": "text"
-                                }
-                            ],
-                            "nodeType": "hyperlink"
-                        },
-                        {
-                            "data": {},
-                            "marks": [],
-                            "value": "",
-                            "nodeType": "text"
-                        }
-                    ],
-                    "nodeType": "paragraph"
-                },
-                {
-                    "data": {},
-                    "content": [
-                        {
-                            "data": {},
-                            "marks": [],
-                            "value": "",
-                            "nodeType": "text"
-                        },
-                        {
-                            "data": {
-                                "uri": "https://mthoreb.net/wp-content/uploads/2015/01/Developmental-History-Form.docx"
-                            },
-                            "content": [
-                                {
-                                    "data": {},
-                                    "marks": [],
-                                    "value": "Developmental History Form",
-                                    "nodeType": "text"
-                                }
-                            ],
-                            "nodeType": "hyperlink"
-                        },
-                        {
-                            "data": {},
-                            "marks": [],
-                            "value": "",
-                            "nodeType": "text"
-                        }
-                    ],
-                    "nodeType": "paragraph"
-                },
-                {
-                    "data": {},
-                    "content": [
-                        {
-                            "data": {},
-                            "marks": [],
-                            "value": "",
-                            "nodeType": "text"
-                        },
-                        {
-                            "data": {
-                                "uri": "https://mthoreb.net/wp-content/uploads/2015/01/Emergency-Contact-Form.docx"
-                            },
-                            "content": [
-                                {
-                                    "data": {},
-                                    "marks": [],
-                                    "value": "Emergency Contact Form",
-                                    "nodeType": "text"
-                                }
-                            ],
-                            "nodeType": "hyperlink"
-                        },
-                        {
-                            "data": {},
-                            "marks": [],
-                            "value": "",
-                            "nodeType": "text"
-                        }
-                    ],
-                    "nodeType": "paragraph"
-                },
-                {
-                    "data": {},
-                    "content": [
-                        {
-                            "data": {},
-                            "marks": [],
-                            "value": "",
-                            "nodeType": "text"
-                        },
-                        {
-                            "data": {
-                                "uri": "https://mthoreb.net/wp-content/uploads/2015/01/Media-Consent-Form.docx"
-                            },
-                            "content": [
-                                {
-                                    "data": {},
-                                    "marks": [],
-                                    "value": "Media Consent Form",
-                                    "nodeType": "text"
-                                }
-                            ],
-                            "nodeType": "hyperlink"
-                        },
-                        {
-                            "data": {},
-                            "marks": [],
-                            "value": "",
-                            "nodeType": "text"
-                        }
-                    ],
-                    "nodeType": "paragraph"
-                },
-                {
-                    "data": {},
-                    "content": [
-                        {
-                            "data": {},
-                            "marks": [],
-                            "value": "Mail forms with payment to:",
-                            "nodeType": "text"
-                        }
-                    ],
-                    "nodeType": "paragraph"
-                },
-                {
-                    "data": {},
-                    "content": [
-                        {
-                            "data": {},
-                            "marks": [
-                                {
-                                    "type": "bold"
-                                }
-                            ],
-                            "value": "Mt Horeb Lutheran Church",
-                            "nodeType": "text"
-                        },
-                        {
-                            "data": {},
-                            "marks": [],
-                            "value": "\nPO Box 8\nChapin, SC 29036\nAttn: Peggy Miller",
                             "nodeType": "text"
                         }
                     ],
