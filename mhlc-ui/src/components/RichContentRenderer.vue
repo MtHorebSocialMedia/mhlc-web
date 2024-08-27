@@ -8,10 +8,7 @@
 </template>
 
 <script setup>
-    import { useContentStore } from '@/store/content';
-    import { storeToRefs } from 'pinia';
-    import { computed } from 'vue';
-    import router from '../router';
+    import { RouterLink } from 'vue-router'
     import { BLOCKS } from '@contentful/rich-text-types';
     import RichTextRenderer from 'contentful-rich-text-vue-renderer';
     import { h, Comment } from "vue";
@@ -48,6 +45,38 @@
                   );
               }
 
+          },
+          'hyperlink': (node, key, next) => {
+            if (node.data.uri.startsWith('/')) {
+              return h(
+                RouterLink,
+                { to: node.data.uri },
+                () => next(node.content, key, next)
+              );
+            } else {
+              return h(
+                'a',
+                { href: node.data.uri },
+                next(node.content, key, next)
+              );
+            }
+          },
+          'entry-hyperlink': (node, key, next) => {
+            return h(
+              RouterLink,
+              { to: node.data.target.fields.contentPath },
+              () => next(node.content, key, next)
+            );
+          },
+          'asset-hyperlink': (node, key, next) => {
+            return h(
+                'a',
+                {
+                  href: node.data.target.fields.file.url,
+                  target: '_blank'
+                },
+                next(node.content, key, next)
+              );
           }
         }
     }
