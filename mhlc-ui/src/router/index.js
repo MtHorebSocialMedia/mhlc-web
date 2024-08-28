@@ -68,7 +68,7 @@ const routes = [
         // route level code-splitting
         // this generates a separate chunk (about.[hash].js) for this route
         // which is lazy-loaded when the route is visited.
-        component: () => import(/* webpackChunkName: "news" */ '@/views/Contact.vue'),
+        component: () => import(/* webpackChunkName: "contact" */ '@/views/Contact.vue'),
       },
     ],
   },
@@ -82,7 +82,7 @@ const routes = [
         // route level code-splitting
         // this generates a separate chunk (about.[hash].js) for this route
         // which is lazy-loaded when the route is visited.
-        component: () => import(/* webpackChunkName: "news" */ '@/views/LiveStreams.vue'),
+        component: () => import(/* webpackChunkName: "live-streams" */ '@/views/LiveStreams.vue'),
       },
     ],
   },
@@ -96,7 +96,7 @@ const routes = [
         // route level code-splitting
         // this generates a separate chunk (about.[hash].js) for this route
         // which is lazy-loaded when the route is visited.
-        component: () => import(/* webpackChunkName: "news" */ '@/views/NewsletterSignup.vue'),
+        component: () => import(/* webpackChunkName: "newsletter-signup" */ '@/views/NewsletterSignup.vue'),
       },
     ],
   },
@@ -110,7 +110,7 @@ const routes = [
         // route level code-splitting
         // this generates a separate chunk (about.[hash].js) for this route
         // which is lazy-loaded when the route is visited.
-        component: () => import(/* webpackChunkName: "news" */ '@/views/Donate.vue'),
+        component: () => import(/* webpackChunkName: "donate" */ '@/views/Donate.vue'),
       },
     ],
   },
@@ -124,7 +124,7 @@ const routes = [
         // route level code-splitting
         // this generates a separate chunk (about.[hash].js) for this route
         // which is lazy-loaded when the route is visited.
-        component: () => import(/* webpackChunkName: "news" */ '@/views/DonatePaypalComplete.vue'),
+        component: () => import(/* webpackChunkName: "donate-paypal-complete" */ '@/views/DonatePaypalComplete.vue'),
       },
     ],
   },
@@ -138,7 +138,7 @@ const routes = [
         // route level code-splitting
         // this generates a separate chunk (about.[hash].js) for this route
         // which is lazy-loaded when the route is visited.
-        component: () => import(/* webpackChunkName: "news" */ '@/views/Leaders.vue'),
+        component: () => import(/* webpackChunkName: "leaders" */ '@/views/Leaders.vue'),
       },
     ],
   },
