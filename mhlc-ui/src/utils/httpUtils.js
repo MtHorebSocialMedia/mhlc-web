@@ -7,7 +7,7 @@ export function getHttpClient() {
     if (!httpClient) {
         httpClient = axios.create();
         if (import.meta.env.MODE === 'development') {
-            const mock = new MockAdapter(httpClient);
+            const mock = new MockAdapter(httpClient, { delayResponse: 1500 });
             httpClient.addMocks = (callback) => {
                 callback(mock);
             }
