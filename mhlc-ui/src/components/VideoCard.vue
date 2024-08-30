@@ -48,7 +48,7 @@
                             width="640"
                             height="390"
                             :src="`http://www.youtube.com/embed/${video.id}`"
-                            frameborder="0"
+                            :title="video.title"
                             allowfullscreen
                         ></iframe>
                     </v-col>
