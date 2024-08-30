@@ -126,37 +126,9 @@ if (import.meta.env.MODE === 'development') {
             return mockClient.get('./mock/council.json');
         });
 
-        mock.onGet('/api/video-list').reply(200, [{
-            id: 'LqslxP33w_g',
-            date: '2024-07-08',
-            title: 'Mt. Horeb Lutheran Church - Seventh Sunday after Pentecost - July 7, 2024',
-            thumbnail: 'https://i1.ytimg.com/vi/LqslxP33w_g/hqdefault.jpg',
-            link: 'https://www.youtube.com/watch?v=LqslxP33w_g'
-        }, {
-            id: '5AQpjBf7F5I',
-            date: '2024-06-30',
-            title: 'Mt. Horeb Lutheran Church - Sixth Sunday after Pentecost - June 30, 2024',
-            thumbnail: 'https://i2.ytimg.com/vi/5AQpjBf7F5I/hqdefault.jpg',
-            link: 'https://www.youtube.com/watch?v=5AQpjBf7F5I'
-        }, {
-            id: 'LOAARqhUBDs',
-            date: '2024-06-23',
-            title: 'Mt. Horeb Lutheran Church - Fifth Sunday after Pentecost - June 23, 2024',
-            thumbnail: 'https://i2.ytimg.com/vi/LOAARqhUBDs/hqdefault.jpg',
-            link: 'https://www.youtube.com/watch?v=LOAARqhUBDs'
-        }, {
-            id: 'lJfcyPuX6Vs',
-            date: '2024-06-16',
-            title: 'Mt. Horeb Lutheran Church - Fourth Sunday after Pentecost - June 16, 2024',
-            thumbnail: 'https://i2.ytimg.com/vi/lJfcyPuX6Vs/hqdefault.jpg',
-            link: 'https://www.youtube.com/watch?v=lJfcyPuX6Vs'
-        }, {
-            id: 'XPYIB_4n6zU',
-            date: '2024-06-09',
-            title: 'Mt. Horeb Lutheran Church - Third Sunday after Pentecost - June 9, 2024',
-            thumbnail: 'https://i2.ytimg.com/vi/XPYIB_4n6zU/hqdefault.jpg',
-            link: 'https://www.youtube.com/watch?v=XPYIB_4n6zU'
-        }]);
+        mock.onGet("/api/video-list").reply(() => {
+            return mockClient.get('./mock/video-list.json');
+        });
     });
 
 }
