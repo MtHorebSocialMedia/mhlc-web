@@ -10,6 +10,7 @@ const {
     getStaff
 } = require('./contentService');
 const { getPaypalUrl } = require('./donationService');
+const { getVideosList } = require('./youtubeService');
 const { getValidationHandler } = require('./validationHandler');
 const { getErrorHandler } = require('./errorHandler');
 const paypalRequestSchema = require('../schemas/paypalRequest.json');
@@ -112,6 +113,19 @@ router.get('/council', (req, res, next) => {
         }
     })();
 });
+
+router.get('/video-list',
+    (req, res, next) => {
+        (async function() {
+            try {
+                const videos = await getVideosList();
+                res.send(videos);
+            } catch(err) {
+                next(err);
+            }
+        })();
+    }
+);
 
 router.post('/donations/paypal',
     getValidationHandler({ bodySchema: paypalRequestSchema }),
