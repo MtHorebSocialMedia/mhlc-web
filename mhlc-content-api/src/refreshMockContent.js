@@ -1,6 +1,7 @@
 require('dotenv').config();
 
 const contentService = require('./contentService');
+const youtubeService = require('./youtubeService');
 const fs = require('node:fs');
 
 const mockIndexPath = require.resolve('@mhlc/ui/public/mock/index.json');
@@ -20,4 +21,5 @@ async function saveContent(contentServiceFunction, fileName) {
     await saveContent(contentService.getNewsEntries, 'news-entries.json');
     await saveContent(contentService.getNewsTypes, 'news-types.json');
     await saveContent(contentService.getStaff, 'staff.json');
+    await saveContent(youtubeService.getVideosList, 'video-list.json');
 })();
