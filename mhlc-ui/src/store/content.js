@@ -38,7 +38,7 @@ export const useContentStore = defineStore('app', () => {
         }
     });
 
-    return { menuItems, contentPages, contentBlocks, newsTypes, news, churchInfo, council, staff, videoList, contentAssistEnabled, fetchContent };
+    return { menuItems, contentPages, contentBlocks, newsTypes, news, blogPosts, churchInfo, council, staff, videoList, contentAssistEnabled, fetchContent };
 });
 
 async function getMenuItems() {

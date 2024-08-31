@@ -87,7 +87,7 @@
   .content h3 { margin-top: 8px; margin-bottom: 8px; }
   .content h4 { margin-top: 8px; margin-bottom: 8px; }
   .content hr { margin-bottom: 20px; }
-  .content p  { margin-top: 5px; margin-bottom: 5px; }
+  .content p  { margin-top: 10px; margin-bottom: 10px; }
   .content ul { margin-left: 25px; }
   .content ol { margin-left: 25px; }
 </style>

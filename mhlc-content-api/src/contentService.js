@@ -92,7 +92,7 @@ async function getBlogPosts() {
     const { items } = await client.getEntries({
         content_type: 'blogPost'
     });
-    return items.map((item) => {
+    const blogs = items.map((item) => {
         return {
             id: item.sys.id,
             publishDate: item.fields.publishDate,
@@ -104,6 +104,11 @@ async function getBlogPosts() {
             content: item.fields.content
         };
     });
+    blogs.sort((a, b) => {
+        // Sort by publish date, descending (newest first)
+        return a.publishDate > b.publishDate ? -1 : 1;
+    });
+    return blogs;
 }
 
 async function getStaff() {
