@@ -88,6 +88,24 @@ async function getNewsEntries() {
     });
 }
 
+async function getBlogPosts() {
+    const { items } = await client.getEntries({
+        content_type: 'blogPost'
+    });
+    return items.map((item) => {
+        return {
+            id: item.sys.id,
+            publishDate: item.fields.publishDate,
+            author: {
+                name: item.fields.author.fields.name,
+                image: item.fields.author.fields.image ? item.fields.author.fields.image.fields.file : null
+            },
+            title: item.fields.title,
+            content: item.fields.content
+        };
+    });
+}
+
 async function getStaff() {
     const { items } = await client.getEntries({
         content_type: 'staff'
@@ -150,5 +168,6 @@ module.exports = {
     getNewsEntries,
     getChurchInfo,
     getCouncil,
-    getStaff
+    getStaff,
+    getBlogPosts
 };
