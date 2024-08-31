@@ -1,0 +1,1 @@
+import{q as u}from"./index-a5008ef7.js";function c(e){const{width:t}=u();return e>=t.value*.9?t.value*.8:e}function a(e,t){const{width:s}=u();if(e>=s.value*.9){const n=s.value*.8/e;return t*n}else return t}export{a,c as g};
