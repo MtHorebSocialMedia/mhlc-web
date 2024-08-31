@@ -1,5 +1,12 @@
 [
     {
+        "id": "6weSwBA3kJc7cHudLHJriz",
+        "label": "Blog Posts",
+        "sequence": 6,
+        "path": "/blog-posts",
+        "parent": "5tf97ADQHKJ0vUNp4da4o"
+    },
+    {
         "id": "6OSEGHoxVMf0ZCKtmjqqQZ",
         "label": "Livestreams",
         "sequence": 5,

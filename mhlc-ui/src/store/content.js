@@ -15,6 +15,7 @@ export const useContentStore = defineStore('app', () => {
     const staff = ref([]);
     const council = ref([]);
     const videoList = ref([]);
+    const blogPosts = ref([]);
     const contentAssistEnabled = ref(false);
 
     async function fetchContent() {
@@ -27,6 +28,7 @@ export const useContentStore = defineStore('app', () => {
         videoList.value = await getVideoList();
         council.value = await getCouncil();
         staff.value = await getStaff();
+        blogPosts.value = await getBlogPosts();
     }
 
     // Toggle the content assist with content block keys by pressing the back-tick (`) key
@@ -36,7 +38,7 @@ export const useContentStore = defineStore('app', () => {
         }
     });
 
-    return { menuItems, contentPages, contentBlocks, newsTypes, news, churchInfo, council, staff, videoList, contentAssistEnabled, fetchContent };
+    return { menuItems, contentPages, contentBlocks, newsTypes, news, blogPosts, churchInfo, council, staff, videoList, contentAssistEnabled, fetchContent };
 });
 
 async function getMenuItems() {
@@ -87,6 +89,10 @@ async function getVideoList() {
     return (await httpClient.get('/api/video-list')).data;
 }
 
+async function getBlogPosts() {
+    return (await httpClient.get('/api/blog-posts')).data;
+}
+
 if (import.meta.env.MODE === 'development') {
 
     console.log('Enabling mock responses for content store');
@@ -128,6 +134,10 @@ if (import.meta.env.MODE === 'development') {
 
         mock.onGet("/api/video-list").reply(() => {
             return mockClient.get('./mock/video-list.json');
+        });
+
+        mock.onGet("/api/blog-posts").reply(() => {
+            return mockClient.get('./mock/blog-posts.json');
         });
     });
 
