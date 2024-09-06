@@ -1,12 +1,33 @@
 <template>
+    <v-row v-if="!props.compact">
+        <v-col
+            v-for="type in newsTypes"
+            :key="type.id"
+        >
+            <v-checkbox
+                v-model="ex4"
+                color="red"
+                :label="type.type"
+                :value="type.id"
+            ></v-checkbox>
+        </v-col>
+        <v-col>
+            <v-btn prepend-icon="mdi-filter">
+                Filter
+            </v-btn>
+        </v-col>
+    </v-row>
     <v-row
         v-for="item in news"
         v-bind:key="item.id"
     >
         <v-col>
             <v-card class="mx-auto">
-                <v-card-title><a href="javascript:void(0)" @click="openFullDetailsDialog(item.id)">{{ item.title }}</a></v-card-title>
-                <v-card-subtitle>
+                <v-card-title class="news-title">
+                    <v-icon size="small">mdi-newspaper-variant-outline</v-icon>
+                    <a href="javascript:void(0)" @click="openFullDetailsDialog(item.id)">{{ item.title }}</a>
+                </v-card-title>
+                <v-card-subtitle class="news-subtitle">
                     <v-container>
                         <v-row>
                             <v-col class="news-date">
@@ -35,11 +56,12 @@
       width="auto"
     >
         <v-card width="800">
-            <v-card-title>
+            <v-card-title class="news-title">
+                <v-icon size="small">mdi-newspaper-variant-outline</v-icon>
                 {{ fullDetailsToShow.title }}
                 <hr />
             </v-card-title>
-            <v-card-subtitle>
+            <v-card-subtitle class="news-subtitle">
                 <v-container>
                     <v-row>
                         <v-col class="news-date">
@@ -85,7 +107,7 @@
     });
 
     const contentStore = useContentStore();
-    const { news } = storeToRefs(contentStore);
+    const { news, newsTypes } = storeToRefs(contentStore);
 
     const showFullDetails = ref(false);
     const fullDetailsToShow = ref(null);
@@ -102,7 +124,9 @@
 </script>
 
 <style>
-.v-card-subtitle .v-container { padding: 0px; }
-.v-card-subtitle .v-col { padding: 10px; }
-.v-card-subtitle .news-type { text-align: right; }
+.news-title .v-icon { margin-right: 10px; }
+.news-subtitle .v-container { padding: 0px; }
+.news-subtitle .v-col { padding: 10px; }
+.news-subtitle .news-type { text-align: right; }
+.news-subtitle .news-type .v-chip { margin-left: 5px; }
 </style>
