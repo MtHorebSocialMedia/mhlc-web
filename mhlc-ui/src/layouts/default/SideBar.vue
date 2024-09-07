@@ -38,7 +38,7 @@
         <v-row>
             <v-col>
                 <h3>Recent News</h3>
-                <NewsList compact />
+                <NewsList recent />
             </v-col>
         </v-row>
     </v-container>

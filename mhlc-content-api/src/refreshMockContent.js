@@ -7,20 +7,20 @@ const fs = require('node:fs');
 const mockIndexPath = require.resolve('@mhlc/ui/public/mock/index.json');
 const mockPath = mockIndexPath.replace('/index.json', '');
 
-async function saveContent(contentServiceFunction, fileName) {
-    const content = await contentServiceFunction();
+function saveContent(content, fileName) {
     fs.writeFileSync(`${mockPath}/${fileName}`, JSON.stringify(content, null, 4));
 }
 
 (async function() {
-    await saveContent(contentService.getChurchInfo, 'church-info.json');
-    await saveContent(contentService.getContentPages, 'content-pages.json');
-    await saveContent(contentService.getContentBlocks, 'content-blocks.json');
-    await saveContent(contentService.getCouncil, 'council.json');
-    await saveContent(contentService.getMenuItems, 'menu-items.json');
-    await saveContent(contentService.getNewsEntries, 'news-entries.json');
-    await saveContent(contentService.getNewsTypes, 'news-types.json');
-    await saveContent(contentService.getStaff, 'staff.json');
-    await saveContent(contentService.getBlogPosts, 'blog-posts.json');
-    await saveContent(youtubeService.getVideosList, 'video-list.json');
+    saveContent(await contentService.getChurchInfo(), 'church-info.json');
+    saveContent(await contentService.getContentPages(), 'content-pages.json');
+    saveContent(await contentService.getContentBlocks(), 'content-blocks.json');
+    saveContent(await contentService.getCouncil(), 'council.json');
+    saveContent(await contentService.getMenuItems(), 'menu-items.json');
+    saveContent(await contentService.getNewsEntries(1), 'news-entries-1.json');
+    saveContent(await contentService.getNewsEntries(2), 'news-entries-2.json');
+    saveContent(await contentService.getNewsTypes(), 'news-types.json');
+    saveContent(await contentService.getStaff(), 'staff.json');
+    saveContent(await contentService.getBlogPosts(), 'blog-posts.json');
+    saveContent(await youtubeService.getVideosList(), 'video-list.json');
 })();

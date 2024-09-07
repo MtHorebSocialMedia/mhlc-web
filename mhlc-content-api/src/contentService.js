@@ -72,9 +72,14 @@ async function getNewsTypes() {
 
 // Add paging:
 // https://www.contentful.com/developers/docs/references/content-delivery-api/#/introduction/collection-resources-and-pagination
-async function getNewsEntries() {
-    const { items } = await client.getEntries({
-        content_type: 'news'
+async function getNewsEntries(page) {
+    page = page || 1;
+    const itemsPerPage = 10;
+    const skip = (page - 1) * itemsPerPage;
+    const { items, total } = await client.getEntries({
+        content_type: 'news',
+        limit: itemsPerPage,
+        skip
     });
     const news = items.map((item) => {
         return {
@@ -92,7 +97,8 @@ async function getNewsEntries() {
         // Sort by publish date, descending (newest first)
         return a.datetime > b.datetime ? -1 : 1;
     });
-    return news;
+    const totalPages = Math.ceil(total / itemsPerPage)
+    return { news, page, totalPages };
 }
 
 async function getBlogPosts() {

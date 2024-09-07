@@ -1,0 +1,35 @@
+{
+    "news": [
+        {
+            "id": "6VBCpIWaAV2Xup88UBzbFh",
+            "datetime": "2024-01-29T00:00",
+            "title": "Youth Bowling Night",
+            "description": {
+                "data": {},
+                "content": [
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "The youth will be meeting at the church at 3:30 this afternoon to go out for bowling and dinner!  Any youth from 6th - 12th grade are invited!  Come out and join us for an evening of fun!",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    }
+                ],
+                "nodeType": "document"
+            },
+            "type": [
+                {
+                    "id": "5ktejUJ8noonowWZUs0uN7",
+                    "type": "General"
+                }
+            ]
+        }
+    ],
+    "page": 2,
+    "totalPages": 2
+}
