@@ -85,8 +85,9 @@ router.get('/news-types', (req, res, next) => {
 router.get('/news', (req, res, next) => {
     (async function() {
         try {
-            const items = await getNewsEntries();
-            res.send(items);
+            const page = req.query.page || 1;
+            const results = await getNewsEntries(page);
+            res.send(results);
         } catch(err) {
             next(err);
         }

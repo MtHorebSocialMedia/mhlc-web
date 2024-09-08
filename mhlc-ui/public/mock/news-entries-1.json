@@ -1,0 +1,632 @@
+{
+    "news": [
+        {
+            "id": "1gNqwt3zDuah4AHruO3Tcu",
+            "datetime": "2024-09-01T00:00",
+            "title": "September 2024 Newsletter",
+            "description": {
+                "nodeType": "document",
+                "data": {},
+                "content": [
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "Read the monthly Mt. Horeb newsletter for September!",
+                                "marks": [],
+                                "data": {}
+                            }
+                        ]
+                    }
+                ]
+            },
+            "type": [
+                {
+                    "id": "2pWRSRQB8VE40PR4Tuncyc",
+                    "type": "Newsletters"
+                }
+            ],
+            "image": null,
+            "attachments": [
+                {
+                    "title": "September 2024 Newsletter",
+                    "file": {
+                        "url": "//assets.ctfassets.net/3wcsgs8fznel/1bVloXJV3dyQlbIHC7XNvS/978b432753fd2fe6f8c2417bbbe92266/Sept.pdf",
+                        "details": {
+                            "size": 1097438
+                        },
+                        "fileName": "Sept.pdf",
+                        "contentType": "application/pdf"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "11sHifejXXe4hmFfKj8U9N",
+            "datetime": "2024-08-30T00:00",
+            "title": "We Care September Needs",
+            "description": {
+                "data": {},
+                "content": [
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "content": [
+                                    {
+                                        "data": {},
+                                        "content": [
+                                            {
+                                                "data": {},
+                                                "marks": [],
+                                                "value": "grits",
+                                                "nodeType": "text"
+                                            }
+                                        ],
+                                        "nodeType": "paragraph"
+                                    }
+                                ],
+                                "nodeType": "list-item"
+                            },
+                            {
+                                "data": {},
+                                "content": [
+                                    {
+                                        "data": {},
+                                        "content": [
+                                            {
+                                                "data": {},
+                                                "marks": [],
+                                                "value": "spaghetti sauce (cans/plastic jars)",
+                                                "nodeType": "text"
+                                            }
+                                        ],
+                                        "nodeType": "paragraph"
+                                    }
+                                ],
+                                "nodeType": "list-item"
+                            },
+                            {
+                                "data": {},
+                                "content": [
+                                    {
+                                        "data": {},
+                                        "content": [
+                                            {
+                                                "data": {},
+                                                "marks": [],
+                                                "value": "corn muffin mix",
+                                                "nodeType": "text"
+                                            }
+                                        ],
+                                        "nodeType": "paragraph"
+                                    }
+                                ],
+                                "nodeType": "list-item"
+                            },
+                            {
+                                "data": {},
+                                "content": [
+                                    {
+                                        "data": {},
+                                        "content": [
+                                            {
+                                                "data": {},
+                                                "marks": [],
+                                                "value": "cereal",
+                                                "nodeType": "text"
+                                            }
+                                        ],
+                                        "nodeType": "paragraph"
+                                    }
+                                ],
+                                "nodeType": "list-item"
+                            },
+                            {
+                                "data": {},
+                                "content": [
+                                    {
+                                        "data": {},
+                                        "content": [
+                                            {
+                                                "data": {},
+                                                "marks": [],
+                                                "value": "baked beans/pork and beans",
+                                                "nodeType": "text"
+                                            }
+                                        ],
+                                        "nodeType": "paragraph"
+                                    }
+                                ],
+                                "nodeType": "list-item"
+                            },
+                            {
+                                "data": {},
+                                "content": [
+                                    {
+                                        "data": {},
+                                        "content": [
+                                            {
+                                                "data": {},
+                                                "marks": [],
+                                                "value": "pancake mix and syrup",
+                                                "nodeType": "text"
+                                            }
+                                        ],
+                                        "nodeType": "paragraph"
+                                    }
+                                ],
+                                "nodeType": "list-item"
+                            },
+                            {
+                                "data": {},
+                                "content": [
+                                    {
+                                        "data": {},
+                                        "content": [
+                                            {
+                                                "data": {},
+                                                "marks": [],
+                                                "value": "SpaghettiOs",
+                                                "nodeType": "text"
+                                            }
+                                        ],
+                                        "nodeType": "paragraph"
+                                    }
+                                ],
+                                "nodeType": "list-item"
+                            },
+                            {
+                                "data": {},
+                                "content": [
+                                    {
+                                        "data": {},
+                                        "content": [
+                                            {
+                                                "data": {},
+                                                "marks": [],
+                                                "value": "Vienna sausages",
+                                                "nodeType": "text"
+                                            }
+                                        ],
+                                        "nodeType": "paragraph"
+                                    }
+                                ],
+                                "nodeType": "list-item"
+                            },
+                            {
+                                "data": {},
+                                "content": [
+                                    {
+                                        "data": {},
+                                        "content": [
+                                            {
+                                                "data": {},
+                                                "marks": [],
+                                                "value": "ramen noodles and soup",
+                                                "nodeType": "text"
+                                            }
+                                        ],
+                                        "nodeType": "paragraph"
+                                    }
+                                ],
+                                "nodeType": "list-item"
+                            },
+                            {
+                                "data": {},
+                                "content": [
+                                    {
+                                        "data": {},
+                                        "content": [
+                                            {
+                                                "data": {},
+                                                "marks": [],
+                                                "value": "large family size soup",
+                                                "nodeType": "text"
+                                            }
+                                        ],
+                                        "nodeType": "paragraph"
+                                    }
+                                ],
+                                "nodeType": "list-item"
+                            },
+                            {
+                                "data": {},
+                                "content": [
+                                    {
+                                        "data": {},
+                                        "content": [
+                                            {
+                                                "data": {},
+                                                "marks": [],
+                                                "value": "dish soap",
+                                                "nodeType": "text"
+                                            }
+                                        ],
+                                        "nodeType": "paragraph"
+                                    }
+                                ],
+                                "nodeType": "list-item"
+                            },
+                            {
+                                "data": {},
+                                "content": [
+                                    {
+                                        "data": {},
+                                        "content": [
+                                            {
+                                                "data": {},
+                                                "marks": [],
+                                                "value": "laundry detergent",
+                                                "nodeType": "text"
+                                            }
+                                        ],
+                                        "nodeType": "paragraph"
+                                    }
+                                ],
+                                "nodeType": "list-item"
+                            }
+                        ],
+                        "nodeType": "unordered-list"
+                    },
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    }
+                ],
+                "nodeType": "document"
+            },
+            "type": [
+                {
+                    "id": "5ktejUJ8noonowWZUs0uN7",
+                    "type": "General"
+                }
+            ],
+            "image": null,
+            "attachments": []
+        },
+        {
+            "id": "pkMZlsFkMYgRCDf8Nw1Gu",
+            "datetime": "2024-08-29T00:00",
+            "title": "Preschool News",
+            "description": {
+                "data": {},
+                "content": [
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "The first regular day of preschoo",
+                                "nodeType": "text"
+                            },
+                            {
+                                "data": {},
+                                "marks": [
+                                    {
+                                        "type": "bold"
+                                    }
+                                ],
+                                "value": "l ",
+                                "nodeType": "text"
+                            },
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "is September 3rd. This school year marks the 50",
+                                "nodeType": "text"
+                            },
+                            {
+                                "data": {},
+                                "marks": [
+                                    {
+                                        "type": "superscript"
+                                    }
+                                ],
+                                "value": "th",
+                                "nodeType": "text"
+                            },
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": " Anniversary! Wow! ",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    }
+                ],
+                "nodeType": "document"
+            },
+            "type": [
+                {
+                    "id": "5ktejUJ8noonowWZUs0uN7",
+                    "type": "General"
+                },
+                {
+                    "id": "1CmfTH5pRNQYh9bLmqt4p1",
+                    "type": "Preschool"
+                }
+            ],
+            "image": null,
+            "attachments": []
+        },
+        {
+            "id": "2WPyRGWM8SedW0S1CHVjlG",
+            "datetime": "2024-08-29T00:00",
+            "title": "Youth News",
+            "description": {
+                "data": {},
+                "content": [
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "The youth will have their first meeting back from the summer break on Sunday, September 15th, from 5pm-7pm in the Fellowship Hall with pizza, games, and planning for the upcoming year. ",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    }
+                ],
+                "nodeType": "document"
+            },
+            "type": [
+                {
+                    "id": "5ktejUJ8noonowWZUs0uN7",
+                    "type": "General"
+                },
+                {
+                    "id": "3BITHvpc2z0yYfvxgTUQbK",
+                    "type": "Youth"
+                }
+            ],
+            "image": null,
+            "attachments": []
+        },
+        {
+            "id": "1OLn4uVzblCIIKuUh2j6Nd",
+            "datetime": "2024-08-29T00:00",
+            "title": "Snack Pack Program",
+            "description": {
+                "data": {},
+                "content": [
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "It's that time again! Mt. Horeb has committed to provide 105 cans of pasta each week. This program continues through the school year, so we need your support. If you can help, please leave your donations at the Welcome Center.",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    }
+                ],
+                "nodeType": "document"
+            },
+            "type": [
+                {
+                    "id": "5ktejUJ8noonowWZUs0uN7",
+                    "type": "General"
+                }
+            ],
+            "image": null,
+            "attachments": []
+        },
+        {
+            "id": "3HVJ1isvWVAbc5xbVGSxq7",
+            "datetime": "2024-08-29T00:00",
+            "title": "School Supply Drive",
+            "description": {
+                "data": {},
+                "content": [
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "The school supply drive has been extended until September 15th. All collections will be given to local elementary schools. A box is in the Narthex with a list of much needed items.",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    }
+                ],
+                "nodeType": "document"
+            },
+            "type": [
+                {
+                    "id": "5ktejUJ8noonowWZUs0uN7",
+                    "type": "General"
+                }
+            ],
+            "image": null,
+            "attachments": []
+        },
+        {
+            "id": "1qSFo25QWYrpPChWE6SPoE",
+            "datetime": "2024-08-29T00:00",
+            "title": "Leisure Timers on 9/3",
+            "description": {
+                "data": {},
+                "content": [
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "The Leisure Timers will meet September 3rd at 10:30am. Sign up at the Welcome Center. Food will be provided. Pam Shear will have our program.",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    }
+                ],
+                "nodeType": "document"
+            },
+            "type": [
+                {
+                    "id": "3Zl7eAG9eIPOZLPyA11Uj8",
+                    "type": "Event"
+                },
+                {
+                    "id": "5ktejUJ8noonowWZUs0uN7",
+                    "type": "General"
+                }
+            ],
+            "image": null,
+            "attachments": []
+        },
+        {
+            "id": "2WDSua1KvPAspFcPAdeSKe",
+            "datetime": "2024-08-29T00:00",
+            "title": "Lutheran Meeting on 9/9",
+            "description": {
+                "data": {},
+                "content": [
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "The Lutheran Men will meet Monday, September 9",
+                                "nodeType": "text"
+                            },
+                            {
+                                "data": {},
+                                "marks": [
+                                    {
+                                        "type": "superscript"
+                                    }
+                                ],
+                                "value": "th",
+                                "nodeType": "text"
+                            },
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": " at 6:30pm. Our guest will be Bob Oldendick, a political science professor at the university. One of his topics will be “Changing the constitution?”",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    }
+                ],
+                "nodeType": "document"
+            },
+            "type": [
+                {
+                    "id": "3Zl7eAG9eIPOZLPyA11Uj8",
+                    "type": "Event"
+                },
+                {
+                    "id": "5ktejUJ8noonowWZUs0uN7",
+                    "type": "General"
+                }
+            ],
+            "image": null,
+            "attachments": []
+        },
+        {
+            "id": "2o23Tyn6fAhBMDjP0AFAtE",
+            "datetime": "2024-08-29T00:00",
+            "title": "Outdoor Service on 9/29",
+            "description": {
+                "data": {},
+                "content": [
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "Join us on Sunday September 29th at 10am for an outdoor worship service!",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    }
+                ],
+                "nodeType": "document"
+            },
+            "type": [
+                {
+                    "id": "3Zl7eAG9eIPOZLPyA11Uj8",
+                    "type": "Event"
+                }
+            ],
+            "image": null,
+            "attachments": []
+        },
+        {
+            "id": "3Mrbnayk0Lfi0bdMFj0z1K",
+            "datetime": "2024-08-01T00:00",
+            "title": "August 2024 Newsletter",
+            "description": {
+                "data": {},
+                "content": [
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "Check out",
+                                "nodeType": "text"
+                            },
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": " the monthly Mt. Horeb Newsletter for August!",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    }
+                ],
+                "nodeType": "document"
+            },
+            "type": [
+                {
+                    "id": "2pWRSRQB8VE40PR4Tuncyc",
+                    "type": "Newsletters"
+                }
+            ],
+            "image": null,
+            "attachments": [
+                {
+                    "title": "August 2024 Newsletter",
+                    "file": {
+                        "url": "//assets.ctfassets.net/3wcsgs8fznel/5WsOSUpZtG02Rj3HLVb6i1/add4478937467fb14a0fcdf2970013c2/Aug.pdf",
+                        "details": {
+                            "size": 826214
+                        },
+                        "fileName": "Aug.pdf",
+                        "contentType": "application/pdf"
+                    }
+                }
+            ]
+        }
+    ],
+    "page": 1,
+    "totalPages": 2
+}

@@ -5,12 +5,12 @@ import { getHttpClient, getMockClient } from '../utils/httpUtils';
 
 const httpClient = getHttpClient();
 
-export const useContentStore = defineStore('app', () => {
+export const useContentStore = defineStore('content', () => {
     const menuItems = ref([]);
     const contentPages = ref([]);
     const contentBlocks = ref([]);
     const newsTypes = ref([]);
-    const news = ref([]);
+    const recentNews = ref({});
     const churchInfo = ref({});
     const staff = ref([]);
     const council = ref([]);
@@ -19,16 +19,47 @@ export const useContentStore = defineStore('app', () => {
     const contentAssistEnabled = ref(false);
 
     async function fetchContent() {
-        menuItems.value = await getMenuItems();
-        contentPages.value = await getContentPages();
-        contentBlocks.value = await getContentBlocks();
-        newsTypes.value = (await httpClient.get('/api/news-types')).data;
-        news.value = (await httpClient.get('/api/news')).data;
-        churchInfo.value = await getChurchInfo();
-        videoList.value = await getVideoList();
-        council.value = await getCouncil();
-        staff.value = await getStaff();
-        blogPosts.value = await getBlogPosts();
+
+        const [
+            churchInfoResp,
+            menuItemsResp,
+            contentPagesResp,
+            contentBlocksResp,
+            newsTypesResp,
+            videoListResp,
+            councilResp,
+            staffResp,
+            blogPostsResp
+        ] = await Promise.all([
+            getChurchInfo(),
+            getMenuItems(),
+            getContentPages(),
+            getContentBlocks(),
+            getNewsTypes(),
+            getVideoList(),
+            getCouncil(),
+            getStaff(),
+            getBlogPosts(),
+            loadNews(1)
+        ]);
+
+        menuItems.value = menuItemsResp;
+        contentPages.value = contentPagesResp;
+        contentBlocks.value = contentBlocksResp;
+        newsTypes.value = newsTypesResp;
+        churchInfo.value = churchInfoResp;
+        videoList.value = videoListResp;
+        council.value = councilResp;
+        staff.value = staffResp;
+        blogPosts.value = blogPostsResp;
+    }
+
+    async function loadNews(page) {
+        const newsResults = await getNews(page);
+        if (page === 1) {
+            recentNews.value = newsResults;
+        }
+        return newsResults;
     }
 
     // Toggle the content assist with content block keys by pressing the back-tick (`) key
@@ -38,7 +69,7 @@ export const useContentStore = defineStore('app', () => {
         }
     });
 
-    return { menuItems, contentPages, contentBlocks, newsTypes, news, blogPosts, churchInfo, council, staff, videoList, contentAssistEnabled, fetchContent };
+    return { menuItems, contentPages, contentBlocks, newsTypes, recentNews, blogPosts, churchInfo, council, staff, videoList, contentAssistEnabled, fetchContent, getNews };
 });
 
 async function getMenuItems() {
@@ -73,6 +104,14 @@ async function getContentBlocks() {
     return contentBlocks;
 }
 
+async function getNewsTypes() {
+    return (await httpClient.get('/api/news-types')).data;
+}
+
+async function getNews(page) {
+    return (await httpClient.get('/api/news', { params: { page } })).data;
+}
+
 async function getChurchInfo() {
     return (await httpClient.get('/api/church-info')).data;
 }
@@ -105,7 +144,7 @@ if (import.meta.env.MODE === 'development') {
         });
 
         mock.onGet("/api/content-pages").reply(() => {
-            return mockClient.get('./mock/content-pages.json');
+            return mockClient.get(`./mock/content-pages.json`);
         });
 
         mock.onGet("/api/content-blocks").reply(() => {
@@ -116,8 +155,9 @@ if (import.meta.env.MODE === 'development') {
             return mockClient.get('./mock/news-types.json');
         });
 
-        mock.onGet("/api/news").reply(() => {
-            return mockClient.get('./mock/news-entries.json');
+        mock.onGet("/api/news").reply((config) => {
+            const page = config.params ? config.params.page : 1;
+            return mockClient.get(`./mock/news-entries-${page}.json`);
         });
 
         mock.onGet("/api/church-info").reply(() => {

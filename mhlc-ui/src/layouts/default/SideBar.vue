@@ -38,8 +38,13 @@
         <v-row>
             <v-col>
                 <h3>Recent News</h3>
-                <NewsList compact />
             </v-col>
+            <v-col class="news-link">
+                <router-link to="/news">View All News</router-link>
+            </v-col>
+        </v-row>
+        <v-row>
+            <NewsList recent />
         </v-row>
     </v-container>
 </template>
@@ -51,5 +56,6 @@ import NewsList from '@/components/NewsList.vue'
 <style scoped>
  .elca { margin-bottom: 20px; }
  h3 { margin-bottom: 10px; }
+ .v-col.news-link { text-align: right; }
 </style>
 

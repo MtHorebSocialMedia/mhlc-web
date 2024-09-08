@@ -70,11 +70,18 @@ async function getNewsTypes() {
     });
 }
 
-async function getNewsEntries() {
-    const { items } = await client.getEntries({
-        content_type: 'news'
+// Add paging:
+// https://www.contentful.com/developers/docs/references/content-delivery-api/#/introduction/collection-resources-and-pagination
+async function getNewsEntries(page) {
+    page = page || 1;
+    const itemsPerPage = 10;
+    const skip = (page - 1) * itemsPerPage;
+    const { items, total } = await client.getEntries({
+        content_type: 'news',
+        limit: itemsPerPage,
+        skip
     });
-    return items.map((item) => {
+    const news = items.map((item) => {
         return {
             id: item.sys.id,
             datetime: item.fields.datetime,
@@ -83,9 +90,20 @@ async function getNewsEntries() {
             type: item.fields.type ? item.fields.type.map(type => ({
                 id: type.sys.id,
                 type: type.fields.type
+            })) : [],
+            image: item.fields.image ? item.fields.image.fields.file : null,
+            attachments: item.fields.attachments ? item.fields.attachments.map((attachment) => ({
+                title: attachment.fields.title,
+                file: attachment.fields.file
             })) : []
         };
     });
+    news.sort((a, b) => {
+        // Sort by publish date, descending (newest first)
+        return a.datetime > b.datetime ? -1 : 1;
+    });
+    const totalPages = Math.ceil(total / itemsPerPage)
+    return { news, page, totalPages };
 }
 
 async function getBlogPosts() {
