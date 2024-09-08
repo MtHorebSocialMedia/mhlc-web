@@ -6,13 +6,21 @@
         <StaffList />
         <br />
         <h3>Church Council</h3>
-        <CouncilList />
+        <v-row>
+          <v-col>
+            <CouncilList />
+          </v-col>
+          <v-col>
+            <ContentBlock contentBlockKey="leaders/council" />
+          </v-col>
+        </v-row>
     </v-container>
 </template>
 
 <script setup>
   import StaffList from '@/components/StaffList.vue'
   import CouncilList from '@/components/CouncilList.vue'
+  import ContentBlock from '@/components/ContentBlock.vue'
 </script>
 
 <style scoped>

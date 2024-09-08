@@ -3,11 +3,7 @@
     <h2>Welcome to Mt. Horeb Lutheran Church!</h2>
     <hr />
     <v-alert style="text-align: center">
-      <p>Mt. Horeb Lutheran Church is a community of faith located in Chapin, SC and is a part of the Evangelical Lutheran Church of America (ELCA).</p>
-      <p>We are a vibrant congregation steeped in a rich history while also looking forward torwards a promising future!</p>
-      <p>
-        <strong>Come worship with us on Sunday mornings at 10am!</strong>
-      </p>
+      <ContentBlock contentBlockKey="home/welcome" />
     </v-alert>
     <v-container class="d-flex justify-center">
       <iframe
@@ -26,6 +22,7 @@
 
 <script setup>
   import { getAssetWidth, getAssetHeight } from '../utils/assetUtils';
+  import ContentBlock from '../components/ContentBlock.vue';
 </script>
 
 <style scoped>

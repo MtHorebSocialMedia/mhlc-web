@@ -33,15 +33,26 @@
   import { getAssetWidth, getAssetHeight } from '../utils/assetUtils';
   import { useContentStore } from '@/store/content';
   import { storeToRefs } from 'pinia';
+  import { ref, watch } from 'vue';
 
   const props = defineProps({
       contentBlockKey: { type: String, required: true }
   });
 
+  const block = ref(null);
+
   const contentStore = useContentStore();
   const { contentBlocks, contentAssistEnabled } = storeToRefs(contentStore);
 
-  const block = contentBlocks.value[props.contentBlockKey];
+  block.value = contentBlocks.value[props.contentBlockKey];
+  if (!block.value) {
+    console.log('block not found yet');
+    watch(contentBlocks, () => {
+        console.log('content blocks loaded');
+        block.value = contentBlocks.value[props.contentBlockKey];
+        console.log('block: ', block);
+    });
+  }
 
 </script>
 
