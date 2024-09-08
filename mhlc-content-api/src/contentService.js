@@ -90,6 +90,11 @@ async function getNewsEntries(page) {
             type: item.fields.type ? item.fields.type.map(type => ({
                 id: type.sys.id,
                 type: type.fields.type
+            })) : [],
+            image: item.fields.image ? item.fields.image.fields.file : null,
+            attachments: item.fields.attachments ? item.fields.attachments.map((attachment) => ({
+                title: attachment.fields.title,
+                file: attachment.fields.file
             })) : []
         };
     });

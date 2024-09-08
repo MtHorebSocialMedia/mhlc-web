@@ -27,6 +27,20 @@
                     "id": "2pWRSRQB8VE40PR4Tuncyc",
                     "type": "Newsletters"
                 }
+            ],
+            "image": null,
+            "attachments": [
+                {
+                    "title": "September 2024 Newsletter",
+                    "file": {
+                        "url": "//assets.ctfassets.net/3wcsgs8fznel/1bVloXJV3dyQlbIHC7XNvS/978b432753fd2fe6f8c2417bbbe92266/Sept.pdf",
+                        "details": {
+                            "size": 1097438
+                        },
+                        "fileName": "Sept.pdf",
+                        "contentType": "application/pdf"
+                    }
+                }
             ]
         },
         {
@@ -278,7 +292,9 @@
                     "id": "5ktejUJ8noonowWZUs0uN7",
                     "type": "General"
                 }
-            ]
+            ],
+            "image": null,
+            "attachments": []
         },
         {
             "id": "pkMZlsFkMYgRCDf8Nw1Gu",
@@ -343,7 +359,9 @@
                     "id": "1CmfTH5pRNQYh9bLmqt4p1",
                     "type": "Preschool"
                 }
-            ]
+            ],
+            "image": null,
+            "attachments": []
         },
         {
             "id": "2WPyRGWM8SedW0S1CHVjlG",
@@ -376,7 +394,9 @@
                     "id": "3BITHvpc2z0yYfvxgTUQbK",
                     "type": "Youth"
                 }
-            ]
+            ],
+            "image": null,
+            "attachments": []
         },
         {
             "id": "1OLn4uVzblCIIKuUh2j6Nd",
@@ -405,7 +425,9 @@
                     "id": "5ktejUJ8noonowWZUs0uN7",
                     "type": "General"
                 }
-            ]
+            ],
+            "image": null,
+            "attachments": []
         },
         {
             "id": "3HVJ1isvWVAbc5xbVGSxq7",
@@ -434,7 +456,9 @@
                     "id": "5ktejUJ8noonowWZUs0uN7",
                     "type": "General"
                 }
-            ]
+            ],
+            "image": null,
+            "attachments": []
         },
         {
             "id": "1qSFo25QWYrpPChWE6SPoE",
@@ -467,7 +491,9 @@
                     "id": "5ktejUJ8noonowWZUs0uN7",
                     "type": "General"
                 }
-            ]
+            ],
+            "image": null,
+            "attachments": []
         },
         {
             "id": "2WDSua1KvPAspFcPAdeSKe",
@@ -516,7 +542,9 @@
                     "id": "5ktejUJ8noonowWZUs0uN7",
                     "type": "General"
                 }
-            ]
+            ],
+            "image": null,
+            "attachments": []
         },
         {
             "id": "2o23Tyn6fAhBMDjP0AFAtE",
@@ -545,7 +573,9 @@
                     "id": "3Zl7eAG9eIPOZLPyA11Uj8",
                     "type": "Event"
                 }
-            ]
+            ],
+            "image": null,
+            "attachments": []
         },
         {
             "id": "3Mrbnayk0Lfi0bdMFj0z1K",
@@ -579,6 +609,20 @@
                 {
                     "id": "2pWRSRQB8VE40PR4Tuncyc",
                     "type": "Newsletters"
+                }
+            ],
+            "image": null,
+            "attachments": [
+                {
+                    "title": "August 2024 Newsletter",
+                    "file": {
+                        "url": "//assets.ctfassets.net/3wcsgs8fznel/5WsOSUpZtG02Rj3HLVb6i1/add4478937467fb14a0fcdf2970013c2/Aug.pdf",
+                        "details": {
+                            "size": 826214
+                        },
+                        "fileName": "Aug.pdf",
+                        "contentType": "application/pdf"
+                    }
                 }
             ]
         }

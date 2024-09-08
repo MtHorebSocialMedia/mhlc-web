@@ -64,10 +64,7 @@
                             </v-row>
                         </v-container>
                     </v-card-subtitle>
-                    <v-card-text v-if="!props.recent">
-                        <RichTextRenderer :document="item.description" />
-                    </v-card-text>
-                    <br v-else />
+                    <br />
                 </v-card>
             </v-col>
         </v-row>
@@ -121,7 +118,23 @@
             <v-container>
                 <v-row>
                     <v-col>
-                        <RichTextRenderer :document="fullDetailsToShow.description" />
+                        <RichContentRenderer :content="fullDetailsToShow.description" />
+                    </v-col>
+                </v-row>
+                <v-row v-if="fullDetailsToShow.attachments && fullDetailsToShow.attachments.length > 0">
+                    <v-col>
+                        <v-card>
+                            <v-card-title>Attachments</v-card-title>
+                            <v-list>
+                                <v-list-item
+                                    v-for="attachment in fullDetailsToShow.attachments"
+                                    :key="attachment.id"
+                                >
+                                    <v-list-item-title>{{ attachment.title }}</v-list-item-title>
+                                    <v-list-item-subtitle><a :href="attachment.file.url" target="_blank">{{ attachment.file.fileName }}</a></v-list-item-subtitle>
+                                </v-list-item>
+                            </v-list>
+                        </v-card>
                     </v-col>
                 </v-row>
             </v-container>
@@ -139,8 +152,8 @@
 <script setup>
     import { useContentStore } from '@/store/content';
     import { storeToRefs } from 'pinia';
-    import RichTextRenderer from 'contentful-rich-text-vue-renderer';
-    import { ref } from 'vue';
+    import RichContentRenderer from './RichContentRenderer.vue';
+    import { ref, watch } from 'vue';
 
     const props = defineProps({
         recent: { type: Boolean, required: false, default: false }
@@ -154,11 +167,21 @@
     const showFullDetails = ref(false);
     const fullDetailsToShow = ref(null);
 
-    if (props.recent) {
-        newsResults.value = recentNews.value;
-        console.log('set newsResults to recentNews: ', newsResults.value);
-    } else {
+    if (!props.recent) {
         nextPage();
+    } else {
+        setRecentNews();
+        watch(recentNews, () => {
+            setRecentNews();
+        });
+    }
+
+    function setRecentNews() {
+        newsResults.value = recentNews.value;
+        if (newsResults.value && newsResults.value.news) {
+            // truncate to only 5 entries
+            newsResults.value.news.length = 5;
+        }
     }
 
     async function nextPage() {
