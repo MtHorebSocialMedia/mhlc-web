@@ -69,7 +69,10 @@ export const useContentStore = defineStore('content', () => {
         }
     });
 
-    return { menuItems, contentPages, contentBlocks, newsTypes, recentNews, blogPosts, churchInfo, council, staff, videoList, contentAssistEnabled, fetchContent, getNews };
+    return {
+        menuItems, contentPages, contentBlocks, newsTypes, recentNews, churchInfo, council, staff, videoList, contentAssistEnabled,
+        fetchContent, getNews, getBlogPosts
+    };
 });
 
 async function getMenuItems() {
@@ -128,8 +131,8 @@ async function getVideoList() {
     return (await httpClient.get('/api/video-list')).data;
 }
 
-async function getBlogPosts() {
-    return (await httpClient.get('/api/blog-posts')).data;
+async function getBlogPosts(page) {
+    return (await httpClient.get('/api/blog-posts', { params: { page } })).data;
 }
 
 if (import.meta.env.MODE === 'development') {

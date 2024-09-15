@@ -121,6 +121,16 @@
                         <RichContentRenderer :content="fullDetailsToShow.description" />
                     </v-col>
                 </v-row>
+                <v-row v-if="fullDetailsToShow.image">
+                    <v-col class="news-image">
+                        <img
+                            :src="fullDetailsToShow.image.url"
+                            :width="getAssetWidth(fullDetailsToShow.image.details.image.width, fullDetailsToShow.image.details.image.height)"
+                            :height="getAssetHeight(fullDetailsToShow.image.details.image.width, fullDetailsToShow.image.details.image.height)"
+                            alt="Content Block Image"
+                        />
+                    </v-col>
+                </v-row>
                 <v-row v-if="fullDetailsToShow.attachments && fullDetailsToShow.attachments.length > 0">
                     <v-col>
                         <v-card>
@@ -211,6 +221,7 @@
 .news-subtitle .v-col { padding: 10px; }
 .news-subtitle .news-type { text-align: right; }
 .news-subtitle .news-type .v-chip { margin-left: 5px; }
+.news-image { text-align: center }
 .v-col.previous { text-align: left; }
 .v-col.page-count { text-align: center; }
 .v-col.next { text-align: right; }
