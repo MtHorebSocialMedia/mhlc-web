@@ -14,7 +14,7 @@
   "author": "MHLC Technology Team",
   "license": "UNLICENSED",
   "dependencies": {
-    "@mdi/font": "7.0.96",
+    "@mdi/font": "^7.4.47",
     "ajv": "^8.17.1",
     "ajv-formats": "^3.0.1",
     "axios": "^1.7.2",

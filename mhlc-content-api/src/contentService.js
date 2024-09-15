@@ -70,8 +70,6 @@ async function getNewsTypes() {
     });
 }
 
-// Add paging:
-// https://www.contentful.com/developers/docs/references/content-delivery-api/#/introduction/collection-resources-and-pagination
 async function getNewsEntries(page) {
     page = page || 1;
     const itemsPerPage = 10;
@@ -79,6 +77,8 @@ async function getNewsEntries(page) {
     const { items, total } = await client.getEntries({
         content_type: 'news',
         limit: itemsPerPage,
+        'fields.datetime[lte]': new Date().toISOString(),
+        order: '-fields.datetime',
         skip
     });
     const news = items.map((item) => {
@@ -98,17 +98,20 @@ async function getNewsEntries(page) {
             })) : []
         };
     });
-    news.sort((a, b) => {
-        // Sort by publish date, descending (newest first)
-        return a.datetime > b.datetime ? -1 : 1;
-    });
-    const totalPages = Math.ceil(total / itemsPerPage)
+    const totalPages = Math.ceil(total / itemsPerPage);
     return { news, page, totalPages };
 }
 
-async function getBlogPosts() {
-    const { items } = await client.getEntries({
-        content_type: 'blogPost'
+async function getBlogPosts(page) {
+    page = page || 1;
+    const itemsPerPage = 10;
+    const skip = (page - 1) * itemsPerPage;
+    const { items, total } = await client.getEntries({
+        content_type: 'blogPost',
+        limit: itemsPerPage,
+        'fields.publishDate[lte]': new Date().toISOString(),
+        order: '-fields.publishDate',
+        skip
     });
     const blogs = items.map((item) => {
         return {
@@ -122,11 +125,8 @@ async function getBlogPosts() {
             content: item.fields.content
         };
     });
-    blogs.sort((a, b) => {
-        // Sort by publish date, descending (newest first)
-        return a.publishDate > b.publishDate ? -1 : 1;
-    });
-    return blogs;
+    const totalPages = Math.ceil(total / itemsPerPage);
+    return { blogs, page, totalPages };
 }
 
 async function getStaff() {

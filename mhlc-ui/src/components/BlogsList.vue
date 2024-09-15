@@ -1,30 +1,70 @@
 <template>
-    <v-row
-        v-for="item in blogPosts"
-        v-bind:key="item.id"
-    >
-        <v-col>
-            <v-card class="mx-auto">
-                <v-card-title class="blog-title">
-                    <v-icon size="small">mdi-post-outline</v-icon>
-                    <a href="javascript:void(0)" @click="openFullDetailsDialog(item.id)">{{ item.title }}</a>
-                </v-card-title>
-                <v-card-subtitle class="blog-subtitle">
-                    <v-container>
-                        <v-row>
-                            <v-col class="blog-author">
-                                {{ item.author.name }}
-                            </v-col>
-                            <v-col class="blog-publish-date">
-                                <span>{{ formatDateTime(item.publishDate) }}</span>
-                            </v-col>
-                        </v-row>
-                    </v-container>
-                </v-card-subtitle>
-                <br />
-            </v-card>
-        </v-col>
-    </v-row>
+    <v-container>
+        <v-row>
+            <v-col class="previous">
+                <v-btn :disabled="blogResults.page <= 1" @click="prevPage()">
+                    <v-icon>mdi-arrow-left-circle-outline</v-icon>
+                    Previous
+                </v-btn>
+            </v-col>
+            <v-col class="page-count">
+                <v-chip>
+                    Page {{ blogResults.page }} of {{ blogResults.totalPages }}
+                </v-chip>
+            </v-col>
+            <v-col class="next">
+                <v-btn :disabled="blogResults.page >= blogResults.totalPages" @click="nextPage()">
+                    Next
+                    <v-icon>mdi-arrow-right-circle-outline</v-icon>
+                </v-btn>
+            </v-col>
+        </v-row>
+        <v-row
+            v-for="item in blogResults.blogs"
+            v-bind:key="item.id"
+        >
+            <v-col>
+                <v-card class="mx-auto">
+                    <v-card-title class="blog-title">
+                        <v-icon size="small">mdi-post-outline</v-icon>
+                        <a href="javascript:void(0)" @click="openFullDetailsDialog(item.id)">{{ item.title }}</a>
+                    </v-card-title>
+                    <v-card-subtitle class="blog-subtitle">
+                        <v-container>
+                            <v-row>
+                                <v-col class="blog-author">
+                                    {{ item.author.name }}
+                                </v-col>
+                                <v-col class="blog-publish-date">
+                                    <span>{{ formatDateTime(item.publishDate) }}</span>
+                                </v-col>
+                            </v-row>
+                        </v-container>
+                    </v-card-subtitle>
+                    <br />
+                </v-card>
+            </v-col>
+        </v-row>
+        <v-row>
+            <v-col class="previous">
+                <v-btn :disabled="blogResults.page <= 1" @click="prevPage()">
+                    <v-icon>mdi-arrow-left-circle-outline</v-icon>
+                    Previous
+                </v-btn>
+            </v-col>
+            <v-col class="page-count">
+                <v-chip>
+                    Page {{ blogResults.page }} of {{ blogResults.totalPages }}
+                </v-chip>
+            </v-col>
+            <v-col class="next">
+                <v-btn :disabled="blogResults.page >= blogResults.totalPages" @click="nextPage()">
+                    Next
+                    <v-icon>mdi-arrow-right-circle-outline</v-icon>
+                </v-btn>
+            </v-col>
+        </v-row>
+    </v-container>
     <v-dialog
       v-model="showFullDetails"
       width="auto"
@@ -67,15 +107,27 @@
 
 <script setup>
     import { useContentStore } from '@/store/content';
-    import { storeToRefs } from 'pinia';
     import RichContentRenderer from './RichContentRenderer.vue';
     import { ref } from 'vue';
 
     const contentStore = useContentStore();
-    const { blogPosts } = storeToRefs(contentStore);
 
+    const blogResults = ref({});
+    const currentPage = ref(0);
     const showFullDetails = ref(false);
     const fullDetailsToShow = ref(null);
+
+    nextPage();
+
+    async function nextPage() {
+        currentPage.value = currentPage.value + 1;
+        blogResults.value = await contentStore.getBlogPosts(currentPage.value);
+    }
+
+    async function prevPage() {
+        currentPage.value = currentPage.value - 1;
+        blogResults.value = await contentStore.getBlogPosts(currentPage.value);
+    }
 
     function formatDateTime(dateTime) {
         const [ year, month, day ] = dateTime.split('T')[0].split('-');
@@ -83,7 +135,7 @@
     }
 
     function openFullDetailsDialog(blogId) {
-        fullDetailsToShow.value = blogPosts.value.find(({ id }) => id === blogId);
+        fullDetailsToShow.value = blogResults.value.blogs.find(({ id }) => id === blogId);
         showFullDetails.value = true;
     }
 </script>
