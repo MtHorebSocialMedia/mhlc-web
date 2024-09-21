@@ -7,10 +7,29 @@
             </p>
             <p class="required-note"><v-icon color="red" size="x-small">mdi-asterisk</v-icon> indicates a required field.</p>
         </v-alert>
-        <v-form>
+        <v-alert v-if="newsletterSignup.validationResult && !newsletterSignup.validationResult.valid" type="error">
+            <div v-if="newsletterSignup.validationResult.errors.firstName">
+                The first name field is required.
+            </div>
+            <div v-if="newsletterSignup.validationResult.errors.lastName">
+                The last name field is required.
+            </div>
+            <div v-if="newsletterSignup.validationResult.errors.emailAddress">
+                A valid email address is required.
+            </div>
+            <div v-if="newsletterSignup.validationResult.errors.emailAddressConfirmation">
+                A matching email address confirmation is required.
+            </div>
+        </v-alert>
+        <v-alert v-if="signupComplete" type="success">
+            Thank you for signing up for our newsletter.  Please check your e-mail for a confirmation request to complete your sign-up.
+        </v-alert>
+        <br />
+        <v-form v-if="!signupComplete">
             <v-row>
                 <v-col>
                     <v-text-field
+                        v-model="newsletterSignup.request.firstName"
                         label="First Name"
                         variant="outlined"
                     >
@@ -23,6 +42,7 @@
             <v-row>
                 <v-col>
                     <v-text-field
+                        v-model="newsletterSignup.request.lastName"
                         label="Last Name"
                         variant="outlined"
                     >
@@ -35,6 +55,7 @@
             <v-row>
                 <v-col>
                     <v-text-field
+                        v-model="newsletterSignup.request.emailAddress"
                         label="Email Address"
                         variant="outlined"
                     >
@@ -47,6 +68,7 @@
             <v-row>
                 <v-col>
                     <v-text-field
+                        v-model="newsletterSignup.confirm.emailAddressConfirmation"
                         label="Confirm Email Address"
                         variant="outlined"
                     >
@@ -58,7 +80,13 @@
             </v-row>
             <v-row>
                 <v-col>
-                    <v-btn color="red" block>Sign Me Up!</v-btn>
+                    <v-btn
+                        color="red"
+                        block
+                        @click="submitSignupRequest()"
+                    >
+                        Sign Me Up!
+                    </v-btn>
                 </v-col>
             </v-row>
         </v-form>
@@ -66,9 +94,38 @@
 </template>
 
 <script setup>
-    import { useContentStore } from '@/store/content';
-    import { storeToRefs } from 'pinia';
-    const contentStore = useContentStore();
+    import { ref } from 'vue';
+    import { useMailStore } from '@/store/mail';
+    import { validate } from '../utils/validationUtils';
+    import newsletterSignupRequestSchema from '@mhlc/content-api/schemas/newsletterSignupRequest.json';
+
+    const newsletterSignup = ref({
+        request: {
+            firstName: '',
+            lastName: '',
+            emailAddress: ''
+        },
+        confirm: {
+            emailAddressConfirmation: '',
+        },
+        validationResult: null
+    });
+
+    const signupComplete = ref(false);
+
+    const submitSignupRequest = async () => {
+        const signup = newsletterSignup.value;
+        signup.validationResult = validate(signup.request, newsletterSignupRequestSchema);
+        if (signup.confirm.emailAddressConfirmation.trim() === '' || signup.confirm.emailAddressConfirmation !== signup.request.emailAddress) {
+            signup.validationResult.valid = false;
+            signup.validationResult.errors = signup.validationResult.errors || {};
+            signup.validationResult.errors.emailAddressConfirmation = { failed: { invalid: true }};
+        }
+        if(signup.validationResult.valid) {
+            const { success } = await useMailStore().addMemberToNewsletter(signup.request);
+            signupComplete.value = success;
+        }
+    };
 </script>
 
 <style>

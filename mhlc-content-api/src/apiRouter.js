@@ -12,9 +12,11 @@ const {
 } = require('./contentService');
 const { getPaypalUrl } = require('./donationService');
 const { getVideosList } = require('./youtubeService');
+const { addMemberToNewsletter } = require('./mailService');
 const { getValidationHandler } = require('./validationHandler');
 const { getErrorHandler } = require('./errorHandler');
 const paypalRequestSchema = require('../schemas/paypalRequest.json');
+const newsletterSignupSchema = require('../schemas/newsletterSignupRequest.json');
 
 const router = express.Router();
 
@@ -147,6 +149,20 @@ router.post('/donations/paypal',
             try {
                 const url = await getPaypalUrl(req.body);
                 res.send({ url });
+            } catch(err) {
+                next(err);
+            }
+        })();
+    }
+);
+
+router.post('/newsletter/signup',
+    getValidationHandler({ bodySchema: newsletterSignupSchema }),
+    (req, res, next) => {
+        (async function() {
+            try {
+                const success = await addMemberToNewsletter(req.body);
+                res.send({ success });
             } catch(err) {
                 next(err);
             }
