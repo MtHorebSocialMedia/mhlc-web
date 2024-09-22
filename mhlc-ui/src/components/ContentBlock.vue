@@ -46,11 +46,8 @@
 
   block.value = contentBlocks.value[props.contentBlockKey];
   if (!block.value) {
-    console.log('block not found yet');
     watch(contentBlocks, () => {
-        console.log('content blocks loaded');
         block.value = contentBlocks.value[props.contentBlockKey];
-        console.log('block: ', block);
     });
   }
 
@@ -60,8 +57,9 @@
   .content-block hr { margin-bottom: 10px; }
   .content-block img.left { padding-right: 20px; padding-bottom: 10px; float: left; }
   .content-block img.right { padding-left: 20px; padding-bottom: 10px; float: right; }
-  .content-block img.top { text-align: center; }
-  .content-block img.bottom { text-align: center; }
+  .content-block img.top { display: block; margin-left: auto; margin-right: auto; }
+  .content-block img.bottom { display: block; margin-left: auto; margin-right: auto; }
+  .content-block image { border-radius: 25px; }
   .content-block.outlined { border: 1px dashed #999; }
   .content-block.outlined .content { padding: 5px; }
 </style>

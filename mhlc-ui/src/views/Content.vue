@@ -26,7 +26,6 @@
 </template>
 
 <script setup>
-  import RichContentRenderer from '@/components/RichContentRenderer.vue'
   import ContentBlock from '@/components/ContentBlock.vue'
   import { useContentStore } from '@/store/content';
   import { storeToRefs } from 'pinia';

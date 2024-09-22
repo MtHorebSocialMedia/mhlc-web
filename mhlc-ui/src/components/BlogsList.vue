@@ -25,9 +25,20 @@
         >
             <v-col>
                 <v-card class="mx-auto">
-                    <v-card-title class="blog-title">
-                        <v-icon size="small">mdi-post-outline</v-icon>
-                        <a href="javascript:void(0)" @click="openFullDetailsDialog(item.id)">{{ item.title }}</a>
+                    <v-card-title>
+                        <v-container class="blog-item">
+                            <v-row>
+                                <v-col class="blog-title">
+                                    <v-icon size="small">mdi-post-outline</v-icon>
+                                    <a href="javascript:void(0)" @click="openFullDetailsDialog(item.id)">{{ item.title }}</a>
+                                </v-col>
+                                <v-col class="blog-navigation">
+                                    <router-link :to="'/blog-posts/'+item.id">
+                                        <v-icon size="x-small">mdi-open-in-new</v-icon>
+                                    </router-link>
+                                </v-col>
+                            </v-row>
+                        </v-container>
                     </v-card-title>
                     <v-card-subtitle class="blog-subtitle">
                         <v-container>
@@ -141,8 +152,10 @@
 </script>
 
 <style>
+.blog-item { padding-left: 0px; }
 .blog-title .v-icon { margin-right: 10px; }
 .blog-subtitle .v-container { padding: 0px; }
 .blog-subtitle .v-col { padding: 10px; }
 .blog-subtitle .blog-publish-date { text-align: right; }
+.blog-navigation { text-align: right; }
 </style>

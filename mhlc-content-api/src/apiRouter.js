@@ -5,7 +5,9 @@ const {
     getContentBlocks,
     getNewsTypes,
     getNewsEntries,
+    getNewsEntry,
     getBlogPosts,
+    getBlogPost,
     getChurchInfo,
     getCouncil,
     getStaff
@@ -94,11 +96,33 @@ router.get('/news', (req, res, next) => {
     })();
 });
 
+router.get('/news/:newsId', (req, res, next) => {
+    (async function() {
+        try {
+            const newsEntry = await getNewsEntry(req.params.newsId);
+            res.send(newsEntry);
+        } catch(err) {
+            next(err);
+        }
+    })();
+});
+
 router.get('/blog-posts', (req, res, next) => {
     (async function() {
         try {
             const items = await getBlogPosts();
             res.send(items);
+        } catch(err) {
+            next(err);
+        }
+    })();
+});
+
+router.get('/blog-posts/:blogId', (req, res, next) => {
+    (async function() {
+        try {
+            const blogPost = await getBlogPost(req.params.blogId);
+            res.send(blogPost);
         } catch(err) {
             next(err);
         }

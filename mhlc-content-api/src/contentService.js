@@ -102,6 +102,25 @@ async function getNewsEntries(page) {
     return { news, page, totalPages };
 }
 
+async function getNewsEntry(newsId) {
+    const item = await client.getEntry(newsId);
+    return {
+        id: item.sys.id,
+        datetime: item.fields.datetime,
+        title: item.fields.title,
+        description: item.fields.description,
+        type: item.fields.type ? item.fields.type.map(type => ({
+            id: type.sys.id,
+            type: type.fields.type
+        })) : [],
+        image: item.fields.image ? item.fields.image.fields.file : null,
+        attachments: item.fields.attachments ? item.fields.attachments.map((attachment) => ({
+            title: attachment.fields.title,
+            file: attachment.fields.file
+        })) : []
+    };
+}
+
 async function getBlogPosts(page) {
     page = page || 1;
     const itemsPerPage = 10;
@@ -127,6 +146,20 @@ async function getBlogPosts(page) {
     });
     const totalPages = Math.ceil(total / itemsPerPage);
     return { blogs, page, totalPages };
+}
+
+async function getBlogPost(newsId) {
+    const item = await client.getEntry(newsId);
+    return {
+        id: item.sys.id,
+        publishDate: item.fields.publishDate,
+        author: {
+            name: item.fields.author.fields.name,
+            image: item.fields.author.fields.image ? item.fields.author.fields.image.fields.file : null
+        },
+        title: item.fields.title,
+        content: item.fields.content
+    };
 }
 
 async function getStaff() {
@@ -189,8 +222,10 @@ module.exports = {
     getContentBlocks,
     getNewsTypes,
     getNewsEntries,
+    getNewsEntry,
     getChurchInfo,
     getCouncil,
     getStaff,
-    getBlogPosts
+    getBlogPosts,
+    getBlogPost
 };

@@ -59,6 +59,20 @@ const routes = [
     ],
   },
   {
+    path: '/news/:newsId',
+    component: () => import('@/layouts/default/Default.vue'),
+    children: [
+      {
+        path: '',
+        name: 'NewsEntry',
+        // route level code-splitting
+        // this generates a separate chunk (about.[hash].js) for this route
+        // which is lazy-loaded when the route is visited.
+        component: () => import(/* webpackChunkName: "newsEntry" */ '@/views/NewsEntry.vue'),
+      },
+    ],
+  },
+  {
     path: '/blog-posts',
     component: () => import('@/layouts/default/Default.vue'),
     children: [
@@ -69,6 +83,20 @@ const routes = [
         // this generates a separate chunk (about.[hash].js) for this route
         // which is lazy-loaded when the route is visited.
         component: () => import(/* webpackChunkName: "blogs" */ '@/views/Blogs.vue'),
+      },
+    ],
+  },
+  {
+    path: '/blog-posts/:blogId',
+    component: () => import('@/layouts/default/Default.vue'),
+    children: [
+      {
+        path: '',
+        name: 'BlogPost',
+        // route level code-splitting
+        // this generates a separate chunk (about.[hash].js) for this route
+        // which is lazy-loaded when the route is visited.
+        component: () => import(/* webpackChunkName: "blogPost" */ '@/views/BlogPost.vue'),
       },
     ],
   },

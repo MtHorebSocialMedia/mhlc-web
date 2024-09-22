@@ -1,5 +1,34 @@
 [
     {
+        "id": "76J5b3fIdM7lGnRZKkTLj7",
+        "title": "Worship",
+        "contentPath": "/content/worship",
+        "headerImage": null,
+        "contentBlocks": [
+            {
+                "key": "worship/core-value"
+            },
+            {
+                "key": "worship/get-involved"
+            },
+            {
+                "key": "worship/get-involved/services"
+            },
+            {
+                "key": "worship/get-involved/music-ministries"
+            },
+            {
+                "key": "worship/get-involved/altar-guild"
+            },
+            {
+                "key": "worship/get-involved/worship-team"
+            },
+            {
+                "key": "worship/get-involved/special-services"
+            }
+        ]
+    },
+    {
         "id": "1o6w1QWfwwJE2ngKrI1tY2",
         "title": "History",
         "contentPath": "/content/history",
@@ -77,20 +106,6 @@
             },
             {
                 "key": "preschool/director"
-            }
-        ]
-    },
-    {
-        "id": "76J5b3fIdM7lGnRZKkTLj7",
-        "title": "Worship",
-        "contentPath": "/content/worship",
-        "headerImage": null,
-        "contentBlocks": [
-            {
-                "key": "worship/core-value"
-            },
-            {
-                "key": "worship/get-involved"
             }
         ]
     },
