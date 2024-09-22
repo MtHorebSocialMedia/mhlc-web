@@ -53,7 +53,8 @@ async function getContentBlocks() {
             title: item.fields.title,
             content: item.fields.content,
             image: item.fields.image ? item.fields.image.fields.file : null,
-            imageAlignment: item.fields.imageAlignment
+            imageAlignment: item.fields.imageAlignment,
+            imageLink: item.fields.imageLink
         };
     });
 }
@@ -216,6 +217,11 @@ async function getChurchInfo() {
     return infoItems.length > 0 ? infoItems[0]: null;
 }
 
+async function getAsset(assetId) {
+    const asset = await client.getAsset(assetId);
+    return asset;
+}
+
 module.exports = {
     getMenuItems,
     getContentPages,
@@ -227,5 +233,6 @@ module.exports = {
     getCouncil,
     getStaff,
     getBlogPosts,
-    getBlogPost
+    getBlogPost,
+    getAsset
 };

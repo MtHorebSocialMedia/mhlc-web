@@ -1,5 +1,23 @@
 [
     {
+        "id": "L8RiDipHOuwVFtd0xz898",
+        "title": "Interim Organist",
+        "name": "Dr. Bob Hawkins",
+        "picture": {
+            "url": "//images.ctfassets.net/3wcsgs8fznel/opaMg5v8fiwc4JuipOaao/519fff55dd7c90e53ea1e24d2595d5f1/dr-bob.jpg",
+            "details": {
+                "size": 5230,
+                "image": {
+                    "width": 150,
+                    "height": 189
+                }
+            },
+            "fileName": "dr-bob.jpg",
+            "contentType": "image/jpeg"
+        },
+        "sequence": 5
+    },
+    {
         "id": "32r0wB3idRFVY9iMCOLcUU",
         "title": "Preschool Director",
         "name": "Peggy Miller",

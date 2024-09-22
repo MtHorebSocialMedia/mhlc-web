@@ -5,7 +5,18 @@
             "publishDate": "2024-09-20T00:00",
             "author": {
                 "name": "Dr. Bob Hawkins",
-                "image": null
+                "image": {
+                    "url": "//images.ctfassets.net/3wcsgs8fznel/opaMg5v8fiwc4JuipOaao/519fff55dd7c90e53ea1e24d2595d5f1/dr-bob.jpg",
+                    "details": {
+                        "size": 5230,
+                        "image": {
+                            "width": 150,
+                            "height": 189
+                        }
+                    },
+                    "fileName": "dr-bob.jpg",
+                    "contentType": "image/jpeg"
+                }
             },
             "title": "“Be Upstanding in Court!”",
             "content": {
@@ -516,7 +527,18 @@
             "publishDate": "2024-08-29T11:50",
             "author": {
                 "name": "Dr. Bob Hawkins",
-                "image": null
+                "image": {
+                    "url": "//images.ctfassets.net/3wcsgs8fznel/opaMg5v8fiwc4JuipOaao/519fff55dd7c90e53ea1e24d2595d5f1/dr-bob.jpg",
+                    "details": {
+                        "size": 5230,
+                        "image": {
+                            "width": 150,
+                            "height": 189
+                        }
+                    },
+                    "fileName": "dr-bob.jpg",
+                    "contentType": "image/jpeg"
+                }
             },
             "title": "Learning to Climb Mountains and Trees with Zacchaeus",
             "content": {
@@ -893,7 +915,18 @@
             "publishDate": "2024-08-13T00:00",
             "author": {
                 "name": "Dr. Bob Hawkins",
-                "image": null
+                "image": {
+                    "url": "//images.ctfassets.net/3wcsgs8fznel/opaMg5v8fiwc4JuipOaao/519fff55dd7c90e53ea1e24d2595d5f1/dr-bob.jpg",
+                    "details": {
+                        "size": 5230,
+                        "image": {
+                            "width": 150,
+                            "height": 189
+                        }
+                    },
+                    "fileName": "dr-bob.jpg",
+                    "contentType": "image/jpeg"
+                }
             },
             "title": "When the Church’s Cook Takes the Day Off",
             "content": {
@@ -1132,7 +1165,18 @@
             "publishDate": "2024-06-20T00:00",
             "author": {
                 "name": "Dr. Bob Hawkins",
-                "image": null
+                "image": {
+                    "url": "//images.ctfassets.net/3wcsgs8fznel/opaMg5v8fiwc4JuipOaao/519fff55dd7c90e53ea1e24d2595d5f1/dr-bob.jpg",
+                    "details": {
+                        "size": 5230,
+                        "image": {
+                            "width": 150,
+                            "height": 189
+                        }
+                    },
+                    "fileName": "dr-bob.jpg",
+                    "contentType": "image/jpeg"
+                }
             },
             "title": "Neutral Spirits",
             "content": {
