@@ -7,6 +7,16 @@
             </p>
             <p class="required-note"><v-icon color="red" size="x-small">mdi-asterisk</v-icon> indicates a required field.</p>
         </v-alert>
+        <v-alert v-if="signupError" type="error">
+            <p class="instructions">
+                We are currently experiencing a technical issue.  Please try again later or contact the church office.
+            </p>
+        </v-alert>
+        <v-alert v-if="memberExistsMsg" type="warning">
+            <p class="instructions">
+                The member {{ newsletterSignup.request.emailAddress }} already exists on the church web newsletter list.
+            </p>
+        </v-alert>
         <v-alert v-if="newsletterSignup.validationResult && !newsletterSignup.validationResult.valid" type="error">
             <div v-if="newsletterSignup.validationResult.errors.firstName">
                 The first name field is required.
@@ -112,8 +122,11 @@
     });
 
     const signupComplete = ref(false);
+    const signupError = ref(false);
+    const memberExistsMsg = ref(false);
 
     const submitSignupRequest = async () => {
+        signupError.value = false;
         const signup = newsletterSignup.value;
         signup.validationResult = validate(signup.request, newsletterSignupRequestSchema);
         if (signup.confirm.emailAddressConfirmation.trim() === '' || signup.confirm.emailAddressConfirmation !== signup.request.emailAddress) {
@@ -122,8 +135,14 @@
             signup.validationResult.errors.emailAddressConfirmation = { failed: { invalid: true }};
         }
         if(signup.validationResult.valid) {
-            const { success } = await useMailStore().addMemberToNewsletter(signup.request);
-            signupComplete.value = success;
+            try {
+                const { success, memberExists } = await useMailStore().addMemberToNewsletter(signup.request);
+                signupComplete.value = success;
+                memberExistsMsg.value = memberExists;
+            } catch (error) {
+                console.log(error);
+                signupError.value = true;
+            }
         }
     };
 </script>

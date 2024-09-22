@@ -1,8 +1,6 @@
 // Docs for mailchimp marketing api:
 // https://mailchimp.com/developer/marketing/api/
 
-// require('dotenv').config();
-
 const mailchimp = require('@mailchimp/mailchimp_marketing');
 
 function getMailchimpClient() {
@@ -14,18 +12,42 @@ function getMailchimpClient() {
 }
 
 // https://mailchimp.com/developer/marketing/api/list-members/
+// TODO Add interests selection
+// request data should look like this with interest ids being the keys:
+// interests: {
+//     '0d8e5fee26': false,
+//     '06241490b2': false,
+//     a8bb9dec49: false,
+//     '99c9a6d7e5': false,
+//     '508115b57c': false,
+//     '557aff0307': false,
+//     '22a3865cfa': false,
+//     '82ff227f58': false,
+//     d29512912d: false
+// },
 async function addMemberToNewsletter(request) {
     const client = getMailchimpClient();
     const { id: listId } = await getNewsletterList(client);
-    // const response = await client.lists.addListMember(listId, {
-    //     email_address: request.emailAddress,
-    //     status: "pending",
-    //     merge_fields: {
-    //         "FNAME": request.firstName,
-    //         "LNAME": request.lastName,
-    //     }
-    // });
-    return true;
+    const response = {};
+    try {
+        await client.lists.addListMember(listId, {
+            email_address: request.emailAddress,
+            status: "pending",
+            merge_fields: {
+                "FNAME": request.firstName,
+                "LNAME": request.lastName,
+            }
+        });
+        response.success = true;
+    } catch (error) {
+        if (error.status === 400 && error.response && error.response.text.includes('Member Exists')) {
+            response.success = false;
+            response.memberExists = true;
+        } else {
+            throw error;
+        }
+    }
+    return response;
 }
 
 async function getNewsletterList(client) {
@@ -55,7 +77,4 @@ async function callPing() {
     console.log(response);
 }
 
-// getNewsletterInterests();
-
 module.exports = { addMemberToNewsletter, getNewsletterInterests };
-

@@ -161,8 +161,8 @@ router.post('/newsletter/signup',
     (req, res, next) => {
         (async function() {
             try {
-                const success = await addMemberToNewsletter(req.body);
-                res.send({ success });
+                const results = await addMemberToNewsletter(req.body);
+                res.send(results);
             } catch(err) {
                 next(err);
             }
