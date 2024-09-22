@@ -1,5 +1,1822 @@
 [
     {
+        "id": "fJycYcXwGDSUbomVUs2ua",
+        "key": "contact/header",
+        "content": {
+            "nodeType": "document",
+            "data": {},
+            "content": [
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "The online contact form is temporarily offline but will be back soon!  In the meantime, please contact the church office at (803) 345-2000!",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                }
+            ]
+        },
+        "image": null
+    },
+    {
+        "id": "4UzWTZiurY4REEHJDftgQF",
+        "key": "support/get-involved",
+        "title": "How to get involved…",
+        "content": {
+            "nodeType": "document",
+            "data": {},
+            "content": [
+                {
+                    "nodeType": "heading-4",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "Practice Stewardship of by Giving Your Tithes and Offerings",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "We are invited to participate in the ministry of the church by offering our worship, our time and talents, as well as our monetary contributions. Your tithe (or regular giving) helps support things like education and youth ministry, care for our students and missionaries, support of faith-based and charitable institutions, sustaining pastoral care and upkeep of the church building and physical resources. Offerings are gifts above and beyond regular giving that go to help special projects and needs that may arise. Please prayerfully consider how giving to the church can shape your walk of faith and make a difference in the lives of others. You may make your offerings in person or ",
+                            "marks": [],
+                            "data": {}
+                        },
+                        {
+                            "nodeType": "hyperlink",
+                            "data": {
+                                "uri": "/donate"
+                            },
+                            "content": [
+                                {
+                                    "nodeType": "text",
+                                    "value": "click here to give online",
+                                    "marks": [],
+                                    "data": {}
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "text",
+                            "value": ".",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "heading-4",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "Volunteer your time and talents",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "Whether you are a woodworker or a choir member, gifted with numbers or great at organizing, whether you have a variety of skills and interests or just have some extra time to give, your time and talents are valuable to the support of God’s church in this place. Please contact us here to volunteer. With a church this size, many hands are needed to keep the property in top working order. If you have interest in helping with property needs, from repairs to technology to clean-up, we’d love to put your skills to good use!",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "heading-4",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "Serve the Needs of the Community",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "Mt. Horeb is involved in community support ministries in a variety of ways, extending care to those in times of need in our own congregation, in our community and abroad. Ways that we serve those within our faith family include visiting and sending cards and seasonal bags to the elderly, homebound and those experiencing significant life passages, providing meals for the bereaved, and providing vaccinations, health screenings and education for our community members. In addition to congregational support, we serve those in need in our community in a variety of ways. If you would like to help out with our ministries to the local Food Bank, housing repair projects, or helping with ministry to the elderly and homebound in the community, please ",
+                            "marks": [],
+                            "data": {}
+                        },
+                        {
+                            "nodeType": "hyperlink",
+                            "data": {
+                                "uri": "/contact"
+                            },
+                            "content": [
+                                {
+                                    "nodeType": "text",
+                                    "value": "contact",
+                                    "marks": [],
+                                    "data": {}
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "text",
+                            "value": " the church office.",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "heading-4",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "Participate in Fellowship Events",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "The community of Mt. Horeb loves to gather around fun, fellowship and food! We gather weekly for coffee hour at 9:30am, and then at other times throughout the year for special times of learning, worship, or just some good clean fun! Periodically, we organize round-robin supper clubs to facilitate relationship building. For more information on upcoming fellowship events, please check our calendar.",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "heading-4",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "Build Christ-Centered Relationships",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "There are a variety of Small Groups that meet at various times and places within Mt. Horeb. In addition to these informal groups, we also have vibrants Men’s Ministries, Women’s Ministries, Youth and Young Adult Groups. Please see below for more information:",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "heading-5",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "Lutheran Men in Mission (LMM)",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "This group is open to men of all ages, and offers a chance to gather together around food, fellowship and faith. This group meets at the church on the first Monday of each month.",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "heading-5",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "Women of the ELCA (WELCA)",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "Our Women of the ELCA gather throughout the year to participate in fellowship and devotions as well as service projects. Sisters in Christ create community in Circles, where small groups of women join together to grow in love God and for one another.",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                }
+            ]
+        },
+        "image": null
+    },
+    {
+        "id": "2e1ZfeJhsnCiMPPt6rwoZF",
+        "key": "witness/core-value",
+        "title": "Core Value: Witness",
+        "content": {
+            "nodeType": "document",
+            "data": {},
+            "content": [
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "The Mission Statement of Mt. Horeb is “Experiencing and Sharing Christ’s Presence.” That means that when we experience the presence of the Risen Christ through worship, prayer, and faithful relationships, we cannot keep that experience to ourselves; we are called to share it with others. Witnessing to the good news and deeds of God is our joyful response to what God has done and is doing. In his letter to the Romans, the Apostle Paul calls us to witness when he reminds us that the saving power of God’s Word works through our evangelism:",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "“Everyone who calls on the name of the Lord shall be saved.” But how are they to call on one in whom they have not believed? And how are they to believe in one of whom they have never heard? And how are they to hear without someone to proclaim him? And how are they to proclaim him unless they are sent? As it is written, “How beautiful are the feet of those who bring good news!” – Romans 10:13-15",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "Being a witness to God through Christ is an everyday act that happens in and through the daily lives of believers. There are also ways that we can witness together as the Body of Christ in this place. Mt. Horeb seeks to be a witness to the community in a variety of ways throughout its ministries.",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "To learn more about how you can be a witness to the love of God in our community, or to get involved in spreading the word about the ministries of Mt. Horeb, please ",
+                            "marks": [],
+                            "data": {}
+                        },
+                        {
+                            "nodeType": "hyperlink",
+                            "data": {
+                                "uri": "/contact"
+                            },
+                            "content": [
+                                {
+                                    "nodeType": "text",
+                                    "value": "contact",
+                                    "marks": [],
+                                    "data": {}
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "text",
+                            "value": " the church office.",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                }
+            ]
+        },
+        "image": null
+    },
+    {
+        "id": "5dXaO5qpujpYImDexjsLXR",
+        "key": "family-ministries/youth",
+        "title": "Youth Ministry",
+        "content": {
+            "nodeType": "document",
+            "data": {},
+            "content": [
+                {
+                    "nodeType": "heading-3",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "Youth Group",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "Middle & High School students are invited to participate in Lutheran Church Youth (LCY) at Mt. Horeb. LCY meets each week at 5:45pm for faith formational, service-oriented and relationship-building activities",
+                            "marks": [],
+                            "data": {}
+                        },
+                        {
+                            "nodeType": "text",
+                            "value": ". ",
+                            "marks": [
+                                {
+                                    "type": "italic"
+                                }
+                            ],
+                            "data": {}
+                        },
+                        {
+                            "nodeType": "text",
+                            "value": "For",
+                            "marks": [],
+                            "data": {}
+                        },
+                        {
+                            "nodeType": "text",
+                            "value": " ",
+                            "marks": [
+                                {
+                                    "type": "italic"
+                                }
+                            ],
+                            "data": {}
+                        },
+                        {
+                            "nodeType": "text",
+                            "value": "information about Lutheran Church Youth, please ",
+                            "marks": [],
+                            "data": {}
+                        },
+                        {
+                            "nodeType": "hyperlink",
+                            "data": {
+                                "uri": "/contact"
+                            },
+                            "content": [
+                                {
+                                    "nodeType": "text",
+                                    "value": "contact",
+                                    "marks": [],
+                                    "data": {}
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "text",
+                            "value": " the church office.",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "heading-3",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "Confirmation Ministry",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "Confirmation is our program for Middle School students to engage the faith through encounter with the Catechetical teachings of the church. In Confirmation, students will learn the basic tenets of the faith, and then together explore what impact their faith has on their day-to-day life, their relationships and their futures. For more information, please ",
+                            "marks": [],
+                            "data": {}
+                        },
+                        {
+                            "nodeType": "hyperlink",
+                            "data": {
+                                "uri": "/contact"
+                            },
+                            "content": [
+                                {
+                                    "nodeType": "text",
+                                    "value": "contact",
+                                    "marks": [],
+                                    "data": {}
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "text",
+                            "value": " the church office.",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                }
+            ]
+        },
+        "image": {
+            "url": "//images.ctfassets.net/3wcsgs8fznel/5ByFet93Z3LQUXtsJTd0mX/fb992c6acb5466c55bad8f23ad26d4de/20230422_220155.jpg",
+            "details": {
+                "size": 128012,
+                "image": {
+                    "width": 800,
+                    "height": 474
+                }
+            },
+            "fileName": "20230422_220155.jpg",
+            "contentType": "image/jpeg"
+        },
+        "imageAlignment": "top"
+    },
+    {
+        "id": "sQkA1r4KFLbjZO7645WyC",
+        "key": "serve/get-involved",
+        "title": "How to Get Involved",
+        "content": {
+            "nodeType": "document",
+            "data": {},
+            "content": [
+                {
+                    "nodeType": "heading-4",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "Participate Mission Support",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "This congregation has a robust Mission Fund which is used to send aid abroad as well as to mobilize missionaries for God’s work with our hands. We support missionaries in Japan, send our own members to places like Guyana and Costa Rica for hands-on mission work, provide mosquito nets for malaria, and participate in local and regional mission trips. We also host ongoing projects like Fair Trade products and cartridge recycling for World Hunger. To help support these ministries, check the calendar for fundraising events, or make a donation to Mt. Horeb’s Global Mission Fund. ",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "heading-4",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "Go on a Mission Trip",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "We seek to prayerfully and actively respond to needs that arise in places near and far. Our Global Missions team organizes and sends groups to participate in international and nationwide mission trips. Past trips have included building a church in Guyana, disaster response in Alabama, and Habitat International in Costa Rica. Our youth group also participates in mission trips and in service projects involved in the National Youth Gathering. ",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "heading-4",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "Serve the Needs of the Community",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "Mt. Horeb is involved in community support ministries in a variety of ways, extending care to those in times of need in our own congregation, in our community and abroad. ",
+                            "marks": [],
+                            "data": {}
+                        },
+                        {
+                            "nodeType": "text",
+                            "value": "Ways that we serve those within our faith family include visiting and sending cards and seasonal Sunshine bags to the elderly, those unable to attend church and those experiencing significant life passages, and providing meals for the bereaved.",
+                            "marks": [],
+                            "data": {}
+                        },
+                        {
+                            "nodeType": "text",
+                            "value": "  In addition to congregational support, we serve those in need in our community in a variety of ways. If you would like to help out with our ministries to the local food bank, housing repair projects, or helping with ministry to the elderly and homebound in the community, please ",
+                            "marks": [],
+                            "data": {}
+                        },
+                        {
+                            "nodeType": "hyperlink",
+                            "data": {
+                                "uri": "/contact"
+                            },
+                            "content": [
+                                {
+                                    "nodeType": "text",
+                                    "value": "contact",
+                                    "marks": [],
+                                    "data": {}
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "text",
+                            "value": " the church office.",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                }
+            ]
+        },
+        "image": null
+    },
+    {
+        "id": "5HtdYkMiq9IFBEdX04zK3T",
+        "key": "family-ministries/children",
+        "title": "Children and Family Ministry",
+        "content": {
+            "nodeType": "document",
+            "data": {},
+            "content": [
+                {
+                    "nodeType": "heading-3",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "Faith Formation",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "Christian Education is an important emphasis for disciples of all ages, but especially critical in the early years of faith development. Mt. Horeb provides opportunities for children of all ages and adults to engage in Faith Formation each Sunday morning. Children under two are welcome in the nursery during the Sunday School time.",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "heading-3",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "Vacation Bible School",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "Mt. Horeb always puts on a wonderful VBS for kids from the church and from the community each summer. Past themes have included “Baobab Blast,” “Kingdom Rock” and “Weird Animals.” We hope you will bring a child you love to VBS this year! For more information, please ",
+                            "marks": [],
+                            "data": {}
+                        },
+                        {
+                            "nodeType": "hyperlink",
+                            "data": {
+                                "uri": "/contact"
+                            },
+                            "content": [
+                                {
+                                    "nodeType": "text",
+                                    "value": "contact",
+                                    "marks": [],
+                                    "data": {}
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "text",
+                            "value": " the church office.",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                }
+            ]
+        },
+        "image": {
+            "url": "//images.ctfassets.net/3wcsgs8fznel/3BlM23tJBXjD9OqJWgJ2Rw/9d9bcb81b9229529c826642d579abd37/kids-praying-300x207.png",
+            "details": {
+                "size": 35128,
+                "image": {
+                    "width": 300,
+                    "height": 207
+                }
+            },
+            "fileName": "kids-praying-300x207.png",
+            "contentType": "image/png"
+        },
+        "imageAlignment": "right"
+    },
+    {
+        "id": "5LmTlUY3a5Kcb6WGXcZid5",
+        "key": "learn/get-involved",
+        "title": "How to Get Involved With Learn",
+        "content": {
+            "nodeType": "document",
+            "data": {},
+            "content": [
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "There is a place for you in the learning ministries of Mt. Horeb! Whether it’s your first time attending a Bible Study, or you have gifts for planning and teaching, your gifts are an asset to God’s mission in this place. Check out the following ways you can get involved in Faith Formation at Mt. Horeb. If there’s something you’d like to get started that you don’t see on this list, talk to a member of the program staff.",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "heading-4",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "Attend a Sunday Morning Faith Formation Class",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "There are classes for all ages on Sunday Mornings at 9:00 AM at Mt. Horeb. From nursery to Confirmation Classes to older adult classes, believers and inquirers alike all have a place in one of our studies. For more information on Sunday School classes, please contact the church.",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "heading-4",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "Participate in one of Mt. Horeb’s Youth Groups",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "Growing in Faith is not always about classroom learning, but also involves exploring faith with peers and building Christ-centered relationships. Mt. Horeb currently has two youth groups: Peace Frogs for grades 3-5 and LCY for grades 6-12. Peace Frogs meet at 4pm on particular Sundays month and LCY meets Sundays at 5pm in the Fellowship Hall.",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "heading-4",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "Attend a Bible Study",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "Bible Studies are offered periodically throughout the year. Topics range from Books of the Bible to studies of Faith and Culture. Check the church news for upcoming Bible Studies, or ",
+                            "marks": [],
+                            "data": {}
+                        },
+                        {
+                            "nodeType": "hyperlink",
+                            "data": {
+                                "uri": "/contact"
+                            },
+                            "content": [
+                                {
+                                    "nodeType": "text",
+                                    "value": "contact",
+                                    "marks": [],
+                                    "data": {}
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "text",
+                            "value": " the church office.",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "heading-4",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "Attend Vacation Bible School",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "At Mt. Horeb, Vacation Bible School is one of the highlights of our learning ministries. Children, youth and adults all come together for one week of great fun, learning about the Word of God. Past themes have included “Kingdom Rock,” “Weird Animals” and “Surf Shack.”",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "heading-4",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "Enroll in Confirmation Class",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "The Confirmation program at Mt. Horeb is designed for 6-8th grade students, to ground them in the foundations of the Christian faith in the Lutheran tradition, and to help shape their lives according to their faith principles and practices. Confirmation classes meet every Sunday morning at 9:00am.",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "heading-4",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "Receive First Communion Instruction",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "Children at Mt. Horeb meet together for special instruction to prepare them for their first communion. Adults who have not communed may also schedule time with the pastor to be informed about the meaning and faith tenets of Holy Communion.",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "heading-4",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "Teach a Class or Lead a Small Group",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "If you have discerned a gift for leading or teaching, your gifts are valuable to the ministry of this congregation. Opportunities include: teaching (or assisting) with Sunday School for children, youth or adults, teaching a section on a certain topic, starting a Bible Study or home-based Small Group, or heading up a class at Vacation Bible School. If you would like to serve as a teacher or small group leader, please contact the church office.",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "heading-4",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "Volunteer with Learning Ministries at Mt. Horeb",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "Under our Core Value LEARN, many things happen throughout the year here. From curriculum planning to the annual Easter Egg Hunt, from the Children’s Christmas Program to the Advent Breakfast & Bible Study, there are many hands at work behind the scenes. If you would like to give of your time to help, ",
+                            "marks": [],
+                            "data": {}
+                        },
+                        {
+                            "nodeType": "hyperlink",
+                            "data": {
+                                "uri": "/contact"
+                            },
+                            "content": [
+                                {
+                                    "nodeType": "text",
+                                    "value": "contact",
+                                    "marks": [],
+                                    "data": {}
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "text",
+                            "value": " the church office.",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                }
+            ]
+        },
+        "image": null
+    },
+    {
+        "id": "49nvpSKpz1xcQ43Vh5rs5x",
+        "key": "worship/get-involved",
+        "title": "How to Get Involved",
+        "content": {
+            "nodeType": "document",
+            "data": {},
+            "content": [
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "Lutheran worship is not an act of the pastors, but it is a conversation among clergy, congregation and the Triune God. We worship according to liturgy handed down from the time of the early church, and the word “liturgy” translates to mean “the work of the people.” That means that everyone is involved in the act of worship.",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "There is a place for you in the worship life of our church! Here are some opportunities to use your spiritual gifts for the good of the community:",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                }
+            ]
+        },
+        "image": {
+            "url": "//images.ctfassets.net/3wcsgs8fznel/2nkRi2YoSXJ9uqlbIDcwor/183dcca86faf8dce24f4b3ec6ab2d354/praise-band-2-300x148.png",
+            "details": {
+                "size": 28805,
+                "image": {
+                    "width": 300,
+                    "height": 148
+                }
+            },
+            "fileName": "praise-band-2-300x148.png",
+            "contentType": "image/png"
+        },
+        "imageAlignment": "left"
+    },
+    {
+        "id": "6JrSIypj6ZwuZ6hQRgT9v5",
+        "key": "worship/get-involved/special-services",
+        "content": {
+            "data": {},
+            "content": [
+                {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": "Volunteer to Set up for Special Worship Services",
+                            "nodeType": "text"
+                        }
+                    ],
+                    "nodeType": "heading-4"
+                },
+                {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": "Have you ever wondered who puts out the poinsettias at Christmas or the white flowers at Easter? Many hands and feet are needed to set up for these special times in the life of our church.",
+                            "nodeType": "text"
+                        }
+                    ],
+                    "nodeType": "paragraph"
+                }
+            ],
+            "nodeType": "document"
+        },
+        "image": null
+    },
+    {
+        "id": "7yG8TdxE7HoCQvY6gke91r",
+        "key": "worship/get-involved/worship-team",
+        "content": {
+            "nodeType": "document",
+            "data": {},
+            "content": [
+                {
+                    "nodeType": "heading-4",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "Serve on the Worship and Music Team",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "Our worship and music team gathers monthly to plan and facilitate the worship life of the congregation by giving input on music, special services, and worship themes.",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                }
+            ]
+        },
+        "image": null
+    },
+    {
+        "id": "4F59jKZFUeD6VXoXg8yVie",
+        "key": "worship/get-involved/altar-guild",
+        "content": {
+            "nodeType": "document",
+            "data": {},
+            "content": [
+                {
+                    "nodeType": "heading-4",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "Participate in the Altar Guild",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "Members of the Altar Guild are the behind-the-scenes facilitators of our worship life. They set the table for communion, change the paraments, and help prepare the worship space for Sunday.",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                }
+            ]
+        },
+        "image": null
+    },
+    {
+        "id": "5Z1I2ka8OJXOoxd2bhP46v",
+        "key": "worship/get-involved/music-ministries",
+        "content": {
+            "nodeType": "document",
+            "data": {},
+            "content": [
+                {
+                    "nodeType": "heading-4",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "Participate in Mt. Horeb’s Music Ministries",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "Whether you want to sing in one of the weekly worship choirs, supply musical accompaniment or percussion, play in the Alleluia Praise Band, or audition for one of the special choral groups, there is a place for you in our Music Ministries.",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                }
+            ]
+        },
+        "image": null
+    },
+    {
+        "id": "1bBmPaQdZT96eGU40WINmi",
+        "key": "worship/get-involved/services",
+        "content": {
+            "nodeType": "document",
+            "data": {},
+            "content": [
+                {
+                    "nodeType": "heading-4",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "Worship with us on Sunday Mornings and Other Services",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "We mean it when we say, “All are welcome” in worship each week at Mt. Horeb!",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "",
+                            "marks": [],
+                            "data": {}
+                        },
+                        {
+                            "nodeType": "entry-hyperlink",
+                            "data": {
+                                "target": {
+                                    "metadata": {
+                                        "tags": []
+                                    },
+                                    "sys": {
+                                        "space": {
+                                            "sys": {
+                                                "type": "Link",
+                                                "linkType": "Space",
+                                                "id": "3wcsgs8fznel"
+                                            }
+                                        },
+                                        "id": "6G8pVnBk3xyY3hfLgZWcx7",
+                                        "type": "Entry",
+                                        "createdAt": "2023-11-09T02:49:24.222Z",
+                                        "updatedAt": "2024-08-17T15:25:47.684Z",
+                                        "environment": {
+                                            "sys": {
+                                                "id": "master",
+                                                "type": "Link",
+                                                "linkType": "Environment"
+                                            }
+                                        },
+                                        "revision": 5,
+                                        "contentType": {
+                                            "sys": {
+                                                "type": "Link",
+                                                "linkType": "ContentType",
+                                                "id": "contentPage"
+                                            }
+                                        },
+                                        "locale": "en-US"
+                                    },
+                                    "fields": {
+                                        "title": "Worship Schedule",
+                                        "contentPath": "/content/worship-schedule",
+                                        "headerImage": {
+                                            "metadata": {
+                                                "tags": []
+                                            },
+                                            "sys": {
+                                                "space": {
+                                                    "sys": {
+                                                        "type": "Link",
+                                                        "linkType": "Space",
+                                                        "id": "3wcsgs8fznel"
+                                                    }
+                                                },
+                                                "id": "4tmd4oGRV6CnaxHYZFPcCg",
+                                                "type": "Asset",
+                                                "createdAt": "2024-07-12T01:14:14.014Z",
+                                                "updatedAt": "2024-07-12T01:14:14.014Z",
+                                                "environment": {
+                                                    "sys": {
+                                                        "id": "master",
+                                                        "type": "Link",
+                                                        "linkType": "Environment"
+                                                    }
+                                                },
+                                                "revision": 1,
+                                                "locale": "en-US"
+                                            },
+                                            "fields": {
+                                                "title": "altar-white-paraments",
+                                                "description": "",
+                                                "file": {
+                                                    "url": "//images.ctfassets.net/3wcsgs8fznel/4tmd4oGRV6CnaxHYZFPcCg/7ec9d99901b11b3472c301d0a24b734e/20230416_111332-border-rounded-1.png",
+                                                    "details": {
+                                                        "size": 144231,
+                                                        "image": {
+                                                            "width": 806,
+                                                            "height": 388
+                                                        }
+                                                    },
+                                                    "fileName": "20230416_111332-border-rounded-1.png",
+                                                    "contentType": "image/png"
+                                                }
+                                            }
+                                        },
+                                        "contentBlocks": [
+                                            {
+                                                "metadata": {
+                                                    "tags": []
+                                                },
+                                                "sys": {
+                                                    "space": {
+                                                        "sys": {
+                                                            "type": "Link",
+                                                            "linkType": "Space",
+                                                            "id": "3wcsgs8fznel"
+                                                        }
+                                                    },
+                                                    "id": "1tXFLQsBWdn0OS8KtsRjI4",
+                                                    "type": "Entry",
+                                                    "createdAt": "2024-08-17T15:24:05.480Z",
+                                                    "updatedAt": "2024-08-17T15:24:05.480Z",
+                                                    "environment": {
+                                                        "sys": {
+                                                            "id": "master",
+                                                            "type": "Link",
+                                                            "linkType": "Environment"
+                                                        }
+                                                    },
+                                                    "revision": 1,
+                                                    "contentType": {
+                                                        "sys": {
+                                                            "type": "Link",
+                                                            "linkType": "ContentType",
+                                                            "id": "contentBlock"
+                                                        }
+                                                    },
+                                                    "locale": "en-US"
+                                                },
+                                                "fields": {
+                                                    "key": "worship-schedule/weekly-times",
+                                                    "content": {
+                                                        "nodeType": "document",
+                                                        "data": {},
+                                                        "content": [
+                                                            {
+                                                                "nodeType": "heading-3",
+                                                                "data": {},
+                                                                "content": [
+                                                                    {
+                                                                        "nodeType": "text",
+                                                                        "value": "Come join us for worship at 10:00 AM each Sunday!",
+                                                                        "marks": [
+                                                                            {
+                                                                                "type": "bold"
+                                                                            }
+                                                                        ],
+                                                                        "data": {}
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "nodeType": "paragraph",
+                                                                "data": {},
+                                                                "content": [
+                                                                    {
+                                                                        "nodeType": "text",
+                                                                        "value": "Faith Formation",
+                                                                        "marks": [
+                                                                            {
+                                                                                "type": "bold"
+                                                                            }
+                                                                        ],
+                                                                        "data": {}
+                                                                    },
+                                                                    {
+                                                                        "nodeType": "text",
+                                                                        "value": " for all ages at 9:00 AM!",
+                                                                        "marks": [],
+                                                                        "data": {}
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "metadata": {
+                                                    "tags": []
+                                                },
+                                                "sys": {
+                                                    "space": {
+                                                        "sys": {
+                                                            "type": "Link",
+                                                            "linkType": "Space",
+                                                            "id": "3wcsgs8fznel"
+                                                        }
+                                                    },
+                                                    "id": "WYKC9VXAeIv7g5vH8MNjw",
+                                                    "type": "Entry",
+                                                    "createdAt": "2024-08-17T15:25:22.229Z",
+                                                    "updatedAt": "2024-08-17T15:25:22.229Z",
+                                                    "environment": {
+                                                        "sys": {
+                                                            "id": "master",
+                                                            "type": "Link",
+                                                            "linkType": "Environment"
+                                                        }
+                                                    },
+                                                    "revision": 1,
+                                                    "contentType": {
+                                                        "sys": {
+                                                            "type": "Link",
+                                                            "linkType": "ContentType",
+                                                            "id": "contentBlock"
+                                                        }
+                                                    },
+                                                    "locale": "en-US"
+                                                },
+                                                "fields": {
+                                                    "key": "worship-schedule/special-services",
+                                                    "title": "Special Worship Opportunities",
+                                                    "content": {
+                                                        "nodeType": "document",
+                                                        "data": {},
+                                                        "content": [
+                                                            {
+                                                                "nodeType": "paragraph",
+                                                                "data": {},
+                                                                "content": [
+                                                                    {
+                                                                        "nodeType": "text",
+                                                                        "value": "(Note: Times listed here are the typical times for each service, but these may be adjusted each year to the needs of the church. Be sure to check out the news section and our social media for any changes to these services!)",
+                                                                        "marks": [
+                                                                            {
+                                                                                "type": "italic"
+                                                                            }
+                                                                        ],
+                                                                        "data": {}
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "nodeType": "paragraph",
+                                                                "data": {},
+                                                                "content": [
+                                                                    {
+                                                                        "nodeType": "text",
+                                                                        "value": "Christmas Eve Worship",
+                                                                        "marks": [
+                                                                            {
+                                                                                "type": "bold"
+                                                                            }
+                                                                        ],
+                                                                        "data": {}
+                                                                    },
+                                                                    {
+                                                                        "nodeType": "text",
+                                                                        "value": " at 11 AM, 5 PM, 7 PM",
+                                                                        "marks": [],
+                                                                        "data": {}
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "nodeType": "paragraph",
+                                                                "data": {},
+                                                                "content": [
+                                                                    {
+                                                                        "nodeType": "text",
+                                                                        "value": "Ash Wednesday Worship ",
+                                                                        "marks": [
+                                                                            {
+                                                                                "type": "bold"
+                                                                            }
+                                                                        ],
+                                                                        "data": {}
+                                                                    },
+                                                                    {
+                                                                        "nodeType": "text",
+                                                                        "value": "at 11 AM and 7 PM",
+                                                                        "marks": [],
+                                                                        "data": {}
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "nodeType": "paragraph",
+                                                                "data": {},
+                                                                "content": [
+                                                                    {
+                                                                        "nodeType": "text",
+                                                                        "value": "Lenten Worship ",
+                                                                        "marks": [
+                                                                            {
+                                                                                "type": "bold"
+                                                                            }
+                                                                        ],
+                                                                        "data": {}
+                                                                    },
+                                                                    {
+                                                                        "nodeType": "text",
+                                                                        "value": "Wednesdays in Lent at 7 PM, preceded by supper at 6 PM",
+                                                                        "marks": [],
+                                                                        "data": {}
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "nodeType": "paragraph",
+                                                                "data": {},
+                                                                "content": [
+                                                                    {
+                                                                        "nodeType": "text",
+                                                                        "value": "Maundy Thursday Worship",
+                                                                        "marks": [
+                                                                            {
+                                                                                "type": "bold"
+                                                                            }
+                                                                        ],
+                                                                        "data": {}
+                                                                    },
+                                                                    {
+                                                                        "nodeType": "text",
+                                                                        "value": " with Communion at 11 AM and 7 PM",
+                                                                        "marks": [],
+                                                                        "data": {}
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "nodeType": "paragraph",
+                                                                "data": {},
+                                                                "content": [
+                                                                    {
+                                                                        "nodeType": "text",
+                                                                        "value": "Good Friday Tenebrae Worship",
+                                                                        "marks": [
+                                                                            {
+                                                                                "type": "bold"
+                                                                            }
+                                                                        ],
+                                                                        "data": {}
+                                                                    },
+                                                                    {
+                                                                        "nodeType": "text",
+                                                                        "value": " at 7 PM",
+                                                                        "marks": [],
+                                                                        "data": {}
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "nodeType": "paragraph",
+                                                                "data": {},
+                                                                "content": [
+                                                                    {
+                                                                        "nodeType": "text",
+                                                                        "value": "Easter Sunday Worship ",
+                                                                        "marks": [
+                                                                            {
+                                                                                "type": "bold"
+                                                                            }
+                                                                        ],
+                                                                        "data": {}
+                                                                    },
+                                                                    {
+                                                                        "nodeType": "text",
+                                                                        "value": "at 10:00 AM, preceded by breakfast at 8:30 AM and then flowering of the cross",
+                                                                        "marks": [],
+                                                                        "data": {}
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            },
+                            "content": [
+                                {
+                                    "nodeType": "text",
+                                    "value": "Click here",
+                                    "marks": [],
+                                    "data": {}
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "text",
+                            "value": " to view our ",
+                            "marks": [],
+                            "data": {}
+                        },
+                        {
+                            "nodeType": "text",
+                            "value": "worship times",
+                            "marks": [
+                                {
+                                    "type": "bold"
+                                }
+                            ],
+                            "data": {}
+                        },
+                        {
+                            "nodeType": "text",
+                            "value": ", including ",
+                            "marks": [],
+                            "data": {}
+                        },
+                        {
+                            "nodeType": "text",
+                            "value": "special services & holidays",
+                            "marks": [
+                                {
+                                    "type": "bold"
+                                }
+                            ],
+                            "data": {}
+                        },
+                        {
+                            "nodeType": "text",
+                            "value": ".",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "Please ",
+                            "marks": [],
+                            "data": {}
+                        },
+                        {
+                            "nodeType": "hyperlink",
+                            "data": {
+                                "uri": "/contact"
+                            },
+                            "content": [
+                                {
+                                    "nodeType": "text",
+                                    "value": "contact us ",
+                                    "marks": [],
+                                    "data": {}
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "text",
+                            "value": "to find out how your gifts can fit into the worship ministries.",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                }
+            ]
+        },
+        "image": null
+    },
+    {
+        "id": "15nAsnkAa01lecSa5asssO",
+        "key": "who-we-are/we-are",
+        "title": "We are…",
+        "content": {
+            "data": {},
+            "content": [
+                {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "data": {},
+                                            "marks": [],
+                                            "value": "A community of disciples, actively living out faith in God through Jesus Christ.",
+                                            "nodeType": "text"
+                                        }
+                                    ],
+                                    "nodeType": "paragraph"
+                                }
+                            ],
+                            "nodeType": "list-item"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "data": {},
+                                            "marks": [],
+                                            "value": "An open and welcoming community which seeks to show God’s Grace to all.",
+                                            "nodeType": "text"
+                                        }
+                                    ],
+                                    "nodeType": "paragraph"
+                                }
+                            ],
+                            "nodeType": "list-item"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "data": {},
+                                            "marks": [],
+                                            "value": "Experiencing and Sharing God’s Presence.",
+                                            "nodeType": "text"
+                                        }
+                                    ],
+                                    "nodeType": "paragraph"
+                                }
+                            ],
+                            "nodeType": "list-item"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "data": {},
+                                            "marks": [],
+                                            "value": "A Congregation of the Evangelical Lutheran Church in America (ELCA). Please visit ",
+                                            "nodeType": "text"
+                                        },
+                                        {
+                                            "data": {
+                                                "uri": "http://www.elca.org/"
+                                            },
+                                            "content": [
+                                                {
+                                                    "data": {},
+                                                    "marks": [],
+                                                    "value": "www.elca.org",
+                                                    "nodeType": "text"
+                                                }
+                                            ],
+                                            "nodeType": "hyperlink"
+                                        },
+                                        {
+                                            "data": {},
+                                            "marks": [],
+                                            "value": " to learn more. We share in the vision of the ELCA, confessing that Christians are:",
+                                            "nodeType": "text"
+                                        }
+                                    ],
+                                    "nodeType": "paragraph"
+                                },
+                                {
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "data": {},
+                                            "content": [
+                                                {
+                                                    "data": {},
+                                                    "content": [
+                                                        {
+                                                            "data": {},
+                                                            "marks": [
+                                                                {
+                                                                    "type": "bold"
+                                                                }
+                                                            ],
+                                                            "value": "Claimed ",
+                                                            "nodeType": "text"
+                                                        },
+                                                        {
+                                                            "data": {},
+                                                            "marks": [],
+                                                            "value": "by God’s grace for the sake of the world, we are a new creation through God’s living word by the power of the Holy Spirit;",
+                                                            "nodeType": "text"
+                                                        }
+                                                    ],
+                                                    "nodeType": "paragraph"
+                                                }
+                                            ],
+                                            "nodeType": "list-item"
+                                        },
+                                        {
+                                            "data": {},
+                                            "content": [
+                                                {
+                                                    "data": {},
+                                                    "content": [
+                                                        {
+                                                            "data": {},
+                                                            "marks": [
+                                                                {
+                                                                    "type": "bold"
+                                                                }
+                                                            ],
+                                                            "value": "Gathered",
+                                                            "nodeType": "text"
+                                                        },
+                                                        {
+                                                            "data": {},
+                                                            "marks": [],
+                                                            "value": " by God’s grace for the sake of the world, we will live among God’s faithful people, hear God’s word and share Christ’s supper;",
+                                                            "nodeType": "text"
+                                                        }
+                                                    ],
+                                                    "nodeType": "paragraph"
+                                                }
+                                            ],
+                                            "nodeType": "list-item"
+                                        },
+                                        {
+                                            "data": {},
+                                            "content": [
+                                                {
+                                                    "data": {},
+                                                    "content": [
+                                                        {
+                                                            "data": {},
+                                                            "marks": [
+                                                                {
+                                                                    "type": "bold"
+                                                                }
+                                                            ],
+                                                            "value": "Sent",
+                                                            "nodeType": "text"
+                                                        },
+                                                        {
+                                                            "data": {},
+                                                            "marks": [],
+                                                            "value": " by God’s grace for the sake of the world, we will proclaim the good news of God in Christ through word and deed, serve all people following the example of our Lord Jesus, and strive for justice and peace in all the world.",
+                                                            "nodeType": "text"
+                                                        }
+                                                    ],
+                                                    "nodeType": "paragraph"
+                                                }
+                                            ],
+                                            "nodeType": "list-item"
+                                        }
+                                    ],
+                                    "nodeType": "unordered-list"
+                                }
+                            ],
+                            "nodeType": "list-item"
+                        }
+                    ],
+                    "nodeType": "unordered-list"
+                },
+                {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": "",
+                            "nodeType": "text"
+                        }
+                    ],
+                    "nodeType": "paragraph"
+                }
+            ],
+            "nodeType": "document"
+        },
+        "image": null
+    },
+    {
         "id": "uYnp7aUPi46wFnqi0gv2Z",
         "key": "home/welcome",
         "content": {
@@ -1664,625 +3481,6 @@
         "image": null
     },
     {
-        "id": "49nvpSKpz1xcQ43Vh5rs5x",
-        "key": "worship/get-involved",
-        "title": "How to Get Involved",
-        "content": {
-            "nodeType": "document",
-            "data": {},
-            "content": [
-                {
-                    "nodeType": "paragraph",
-                    "data": {},
-                    "content": [
-                        {
-                            "nodeType": "text",
-                            "value": "Lutheran worship is not an act of the pastors, but it is a conversation among clergy, congregation and the Triune God. We worship according to liturgy handed down from the time of the early church, and the word “liturgy” translates to mean “the work of the people.” That means that everyone is involved in the act of worship.",
-                            "marks": [],
-                            "data": {}
-                        }
-                    ]
-                },
-                {
-                    "nodeType": "paragraph",
-                    "data": {},
-                    "content": [
-                        {
-                            "nodeType": "text",
-                            "value": "There is a place for you in the worship life of our church! Here are some opportunities to use your spiritual gifts for the good of the community:",
-                            "marks": [],
-                            "data": {}
-                        }
-                    ]
-                },
-                {
-                    "nodeType": "heading-4",
-                    "data": {},
-                    "content": [
-                        {
-                            "nodeType": "text",
-                            "value": "Worship with us on Sunday Mornings and Other Services",
-                            "marks": [],
-                            "data": {}
-                        }
-                    ]
-                },
-                {
-                    "nodeType": "paragraph",
-                    "data": {},
-                    "content": [
-                        {
-                            "nodeType": "text",
-                            "value": "We mean it when we say, “All are welcome” in worship each week at Mt. Horeb!",
-                            "marks": [],
-                            "data": {}
-                        }
-                    ]
-                },
-                {
-                    "nodeType": "paragraph",
-                    "data": {},
-                    "content": [
-                        {
-                            "nodeType": "text",
-                            "value": "",
-                            "marks": [],
-                            "data": {}
-                        },
-                        {
-                            "nodeType": "entry-hyperlink",
-                            "data": {
-                                "target": {
-                                    "metadata": {
-                                        "tags": []
-                                    },
-                                    "sys": {
-                                        "space": {
-                                            "sys": {
-                                                "type": "Link",
-                                                "linkType": "Space",
-                                                "id": "3wcsgs8fznel"
-                                            }
-                                        },
-                                        "id": "6G8pVnBk3xyY3hfLgZWcx7",
-                                        "type": "Entry",
-                                        "createdAt": "2023-11-09T02:49:24.222Z",
-                                        "updatedAt": "2024-08-17T15:25:47.684Z",
-                                        "environment": {
-                                            "sys": {
-                                                "id": "master",
-                                                "type": "Link",
-                                                "linkType": "Environment"
-                                            }
-                                        },
-                                        "revision": 5,
-                                        "contentType": {
-                                            "sys": {
-                                                "type": "Link",
-                                                "linkType": "ContentType",
-                                                "id": "contentPage"
-                                            }
-                                        },
-                                        "locale": "en-US"
-                                    },
-                                    "fields": {
-                                        "title": "Worship Schedule",
-                                        "contentPath": "/content/worship-schedule",
-                                        "headerImage": {
-                                            "metadata": {
-                                                "tags": []
-                                            },
-                                            "sys": {
-                                                "space": {
-                                                    "sys": {
-                                                        "type": "Link",
-                                                        "linkType": "Space",
-                                                        "id": "3wcsgs8fznel"
-                                                    }
-                                                },
-                                                "id": "4tmd4oGRV6CnaxHYZFPcCg",
-                                                "type": "Asset",
-                                                "createdAt": "2024-07-12T01:14:14.014Z",
-                                                "updatedAt": "2024-07-12T01:14:14.014Z",
-                                                "environment": {
-                                                    "sys": {
-                                                        "id": "master",
-                                                        "type": "Link",
-                                                        "linkType": "Environment"
-                                                    }
-                                                },
-                                                "revision": 1,
-                                                "locale": "en-US"
-                                            },
-                                            "fields": {
-                                                "title": "altar-white-paraments",
-                                                "description": "",
-                                                "file": {
-                                                    "url": "//images.ctfassets.net/3wcsgs8fznel/4tmd4oGRV6CnaxHYZFPcCg/7ec9d99901b11b3472c301d0a24b734e/20230416_111332-border-rounded-1.png",
-                                                    "details": {
-                                                        "size": 144231,
-                                                        "image": {
-                                                            "width": 806,
-                                                            "height": 388
-                                                        }
-                                                    },
-                                                    "fileName": "20230416_111332-border-rounded-1.png",
-                                                    "contentType": "image/png"
-                                                }
-                                            }
-                                        },
-                                        "contentBlocks": [
-                                            {
-                                                "metadata": {
-                                                    "tags": []
-                                                },
-                                                "sys": {
-                                                    "space": {
-                                                        "sys": {
-                                                            "type": "Link",
-                                                            "linkType": "Space",
-                                                            "id": "3wcsgs8fznel"
-                                                        }
-                                                    },
-                                                    "id": "1tXFLQsBWdn0OS8KtsRjI4",
-                                                    "type": "Entry",
-                                                    "createdAt": "2024-08-17T15:24:05.480Z",
-                                                    "updatedAt": "2024-08-17T15:24:05.480Z",
-                                                    "environment": {
-                                                        "sys": {
-                                                            "id": "master",
-                                                            "type": "Link",
-                                                            "linkType": "Environment"
-                                                        }
-                                                    },
-                                                    "revision": 1,
-                                                    "contentType": {
-                                                        "sys": {
-                                                            "type": "Link",
-                                                            "linkType": "ContentType",
-                                                            "id": "contentBlock"
-                                                        }
-                                                    },
-                                                    "locale": "en-US"
-                                                },
-                                                "fields": {
-                                                    "key": "worship-schedule/weekly-times",
-                                                    "content": {
-                                                        "nodeType": "document",
-                                                        "data": {},
-                                                        "content": [
-                                                            {
-                                                                "nodeType": "heading-3",
-                                                                "data": {},
-                                                                "content": [
-                                                                    {
-                                                                        "nodeType": "text",
-                                                                        "value": "Come join us for worship at 10:00 AM each Sunday!",
-                                                                        "marks": [
-                                                                            {
-                                                                                "type": "bold"
-                                                                            }
-                                                                        ],
-                                                                        "data": {}
-                                                                    }
-                                                                ]
-                                                            },
-                                                            {
-                                                                "nodeType": "paragraph",
-                                                                "data": {},
-                                                                "content": [
-                                                                    {
-                                                                        "nodeType": "text",
-                                                                        "value": "Faith Formation",
-                                                                        "marks": [
-                                                                            {
-                                                                                "type": "bold"
-                                                                            }
-                                                                        ],
-                                                                        "data": {}
-                                                                    },
-                                                                    {
-                                                                        "nodeType": "text",
-                                                                        "value": " for all ages at 9:00 AM!",
-                                                                        "marks": [],
-                                                                        "data": {}
-                                                                    }
-                                                                ]
-                                                            }
-                                                        ]
-                                                    }
-                                                }
-                                            },
-                                            {
-                                                "metadata": {
-                                                    "tags": []
-                                                },
-                                                "sys": {
-                                                    "space": {
-                                                        "sys": {
-                                                            "type": "Link",
-                                                            "linkType": "Space",
-                                                            "id": "3wcsgs8fznel"
-                                                        }
-                                                    },
-                                                    "id": "WYKC9VXAeIv7g5vH8MNjw",
-                                                    "type": "Entry",
-                                                    "createdAt": "2024-08-17T15:25:22.229Z",
-                                                    "updatedAt": "2024-08-17T15:25:22.229Z",
-                                                    "environment": {
-                                                        "sys": {
-                                                            "id": "master",
-                                                            "type": "Link",
-                                                            "linkType": "Environment"
-                                                        }
-                                                    },
-                                                    "revision": 1,
-                                                    "contentType": {
-                                                        "sys": {
-                                                            "type": "Link",
-                                                            "linkType": "ContentType",
-                                                            "id": "contentBlock"
-                                                        }
-                                                    },
-                                                    "locale": "en-US"
-                                                },
-                                                "fields": {
-                                                    "key": "worship-schedule/special-services",
-                                                    "title": "Special Worship Opportunities",
-                                                    "content": {
-                                                        "nodeType": "document",
-                                                        "data": {},
-                                                        "content": [
-                                                            {
-                                                                "nodeType": "paragraph",
-                                                                "data": {},
-                                                                "content": [
-                                                                    {
-                                                                        "nodeType": "text",
-                                                                        "value": "(Note: Times listed here are the typical times for each service, but these may be adjusted each year to the needs of the church. Be sure to check out the news section and our social media for any changes to these services!)",
-                                                                        "marks": [
-                                                                            {
-                                                                                "type": "italic"
-                                                                            }
-                                                                        ],
-                                                                        "data": {}
-                                                                    }
-                                                                ]
-                                                            },
-                                                            {
-                                                                "nodeType": "paragraph",
-                                                                "data": {},
-                                                                "content": [
-                                                                    {
-                                                                        "nodeType": "text",
-                                                                        "value": "Christmas Eve Worship",
-                                                                        "marks": [
-                                                                            {
-                                                                                "type": "bold"
-                                                                            }
-                                                                        ],
-                                                                        "data": {}
-                                                                    },
-                                                                    {
-                                                                        "nodeType": "text",
-                                                                        "value": " at 11 AM, 5 PM, 7 PM",
-                                                                        "marks": [],
-                                                                        "data": {}
-                                                                    }
-                                                                ]
-                                                            },
-                                                            {
-                                                                "nodeType": "paragraph",
-                                                                "data": {},
-                                                                "content": [
-                                                                    {
-                                                                        "nodeType": "text",
-                                                                        "value": "Ash Wednesday Worship ",
-                                                                        "marks": [
-                                                                            {
-                                                                                "type": "bold"
-                                                                            }
-                                                                        ],
-                                                                        "data": {}
-                                                                    },
-                                                                    {
-                                                                        "nodeType": "text",
-                                                                        "value": "at 11 AM and 7 PM",
-                                                                        "marks": [],
-                                                                        "data": {}
-                                                                    }
-                                                                ]
-                                                            },
-                                                            {
-                                                                "nodeType": "paragraph",
-                                                                "data": {},
-                                                                "content": [
-                                                                    {
-                                                                        "nodeType": "text",
-                                                                        "value": "Lenten Worship ",
-                                                                        "marks": [
-                                                                            {
-                                                                                "type": "bold"
-                                                                            }
-                                                                        ],
-                                                                        "data": {}
-                                                                    },
-                                                                    {
-                                                                        "nodeType": "text",
-                                                                        "value": "Wednesdays in Lent at 7 PM, preceded by supper at 6 PM",
-                                                                        "marks": [],
-                                                                        "data": {}
-                                                                    }
-                                                                ]
-                                                            },
-                                                            {
-                                                                "nodeType": "paragraph",
-                                                                "data": {},
-                                                                "content": [
-                                                                    {
-                                                                        "nodeType": "text",
-                                                                        "value": "Maundy Thursday Worship",
-                                                                        "marks": [
-                                                                            {
-                                                                                "type": "bold"
-                                                                            }
-                                                                        ],
-                                                                        "data": {}
-                                                                    },
-                                                                    {
-                                                                        "nodeType": "text",
-                                                                        "value": " with Communion at 11 AM and 7 PM",
-                                                                        "marks": [],
-                                                                        "data": {}
-                                                                    }
-                                                                ]
-                                                            },
-                                                            {
-                                                                "nodeType": "paragraph",
-                                                                "data": {},
-                                                                "content": [
-                                                                    {
-                                                                        "nodeType": "text",
-                                                                        "value": "Good Friday Tenebrae Worship",
-                                                                        "marks": [
-                                                                            {
-                                                                                "type": "bold"
-                                                                            }
-                                                                        ],
-                                                                        "data": {}
-                                                                    },
-                                                                    {
-                                                                        "nodeType": "text",
-                                                                        "value": " at 7 PM",
-                                                                        "marks": [],
-                                                                        "data": {}
-                                                                    }
-                                                                ]
-                                                            },
-                                                            {
-                                                                "nodeType": "paragraph",
-                                                                "data": {},
-                                                                "content": [
-                                                                    {
-                                                                        "nodeType": "text",
-                                                                        "value": "Easter Sunday Worship ",
-                                                                        "marks": [
-                                                                            {
-                                                                                "type": "bold"
-                                                                            }
-                                                                        ],
-                                                                        "data": {}
-                                                                    },
-                                                                    {
-                                                                        "nodeType": "text",
-                                                                        "value": "at 10:00 AM, preceded by breakfast at 8:30 AM and then flowering of the cross",
-                                                                        "marks": [],
-                                                                        "data": {}
-                                                                    }
-                                                                ]
-                                                            }
-                                                        ]
-                                                    }
-                                                }
-                                            }
-                                        ]
-                                    }
-                                }
-                            },
-                            "content": [
-                                {
-                                    "nodeType": "text",
-                                    "value": "Click here",
-                                    "marks": [],
-                                    "data": {}
-                                }
-                            ]
-                        },
-                        {
-                            "nodeType": "text",
-                            "value": " to view our ",
-                            "marks": [],
-                            "data": {}
-                        },
-                        {
-                            "nodeType": "text",
-                            "value": "worship times",
-                            "marks": [
-                                {
-                                    "type": "bold"
-                                }
-                            ],
-                            "data": {}
-                        },
-                        {
-                            "nodeType": "text",
-                            "value": ", including ",
-                            "marks": [],
-                            "data": {}
-                        },
-                        {
-                            "nodeType": "text",
-                            "value": "special services & holidays",
-                            "marks": [
-                                {
-                                    "type": "bold"
-                                }
-                            ],
-                            "data": {}
-                        },
-                        {
-                            "nodeType": "text",
-                            "value": ".",
-                            "marks": [],
-                            "data": {}
-                        }
-                    ]
-                },
-                {
-                    "nodeType": "paragraph",
-                    "data": {},
-                    "content": [
-                        {
-                            "nodeType": "text",
-                            "value": "Please ",
-                            "marks": [],
-                            "data": {}
-                        },
-                        {
-                            "nodeType": "hyperlink",
-                            "data": {
-                                "uri": "/contact"
-                            },
-                            "content": [
-                                {
-                                    "nodeType": "text",
-                                    "value": "contact us ",
-                                    "marks": [],
-                                    "data": {}
-                                }
-                            ]
-                        },
-                        {
-                            "nodeType": "text",
-                            "value": "to find out how your gifts can fit into the worship ministries.",
-                            "marks": [],
-                            "data": {}
-                        }
-                    ]
-                },
-                {
-                    "nodeType": "heading-4",
-                    "data": {},
-                    "content": [
-                        {
-                            "nodeType": "text",
-                            "value": "Participate in Mt. Horeb’s Music Ministries",
-                            "marks": [],
-                            "data": {}
-                        }
-                    ]
-                },
-                {
-                    "nodeType": "paragraph",
-                    "data": {},
-                    "content": [
-                        {
-                            "nodeType": "text",
-                            "value": "Whether you want to sing in one of the weekly worship choirs, supply musical accompaniment or percussion, play in the Alleluia Praise Band, or audition for one of the special choral groups, there is a place for you in our Music Ministries.",
-                            "marks": [],
-                            "data": {}
-                        }
-                    ]
-                },
-                {
-                    "nodeType": "heading-4",
-                    "data": {},
-                    "content": [
-                        {
-                            "nodeType": "text",
-                            "value": "Participate in the Altar Guild",
-                            "marks": [],
-                            "data": {}
-                        }
-                    ]
-                },
-                {
-                    "nodeType": "paragraph",
-                    "data": {},
-                    "content": [
-                        {
-                            "nodeType": "text",
-                            "value": "Members of the Altar Guild are the behind-the-scenes facilitators of our worship life. They set the table for communion, change the paraments, and help prepare the worship space for Sunday.",
-                            "marks": [],
-                            "data": {}
-                        }
-                    ]
-                },
-                {
-                    "nodeType": "heading-4",
-                    "data": {},
-                    "content": [
-                        {
-                            "nodeType": "text",
-                            "value": "Serve on the Worship and Music Team",
-                            "marks": [],
-                            "data": {}
-                        }
-                    ]
-                },
-                {
-                    "nodeType": "paragraph",
-                    "data": {},
-                    "content": [
-                        {
-                            "nodeType": "text",
-                            "value": "Our worship and music team gathers monthly to plan and facilitate the worship life of the congregation by giving input on music, special services, and worship themes.",
-                            "marks": [],
-                            "data": {}
-                        }
-                    ]
-                },
-                {
-                    "nodeType": "heading-4",
-                    "data": {},
-                    "content": [
-                        {
-                            "nodeType": "text",
-                            "value": "Volunteer to Set up for Special Worship Services",
-                            "marks": [],
-                            "data": {}
-                        }
-                    ]
-                },
-                {
-                    "nodeType": "paragraph",
-                    "data": {},
-                    "content": [
-                        {
-                            "nodeType": "text",
-                            "value": "Have you ever wondered who puts out the poinsettias at Christmas or the white flowers at Easter? Many hands and feet are needed to set up for these special times in the life of our church.",
-                            "marks": [],
-                            "data": {}
-                        }
-                    ]
-                }
-            ]
-        },
-        "image": {
-            "url": "//images.ctfassets.net/3wcsgs8fznel/2nkRi2YoSXJ9uqlbIDcwor/183dcca86faf8dce24f4b3ec6ab2d354/praise-band-2-300x148.png",
-            "details": {
-                "size": 28805,
-                "image": {
-                    "width": 300,
-                    "height": 148
-                }
-            },
-            "fileName": "praise-band-2-300x148.png",
-            "contentType": "image/png"
-        },
-        "imageAlignment": "left"
-    },
-    {
         "id": "Cr7yI07lNS4JKLtRf55l1",
         "key": "history/pastors",
         "content": {
@@ -3413,222 +4611,6 @@
         "image": null
     },
     {
-        "id": "5LmTlUY3a5Kcb6WGXcZid5",
-        "key": "learn/get-involved",
-        "title": "How to Get Involved With Learn",
-        "content": {
-            "nodeType": "document",
-            "data": {},
-            "content": [
-                {
-                    "nodeType": "paragraph",
-                    "data": {},
-                    "content": [
-                        {
-                            "nodeType": "text",
-                            "value": "There is a place for you in the learning ministries of Mt. Horeb! Whether it’s your first time attending a Bible Study, or you have gifts for planning and teaching, your gifts are an asset to God’s mission in this place. Check out the following ways you can get involved in Faith Formation at Mt. Horeb. If there’s something you’d like to get started that you don’t see on this list, talk to a member of the program staff.",
-                            "marks": [],
-                            "data": {}
-                        }
-                    ]
-                },
-                {
-                    "nodeType": "heading-4",
-                    "data": {},
-                    "content": [
-                        {
-                            "nodeType": "text",
-                            "value": "Attend a Sunday Morning Faith Formation Class",
-                            "marks": [],
-                            "data": {}
-                        }
-                    ]
-                },
-                {
-                    "nodeType": "paragraph",
-                    "data": {},
-                    "content": [
-                        {
-                            "nodeType": "text",
-                            "value": "There are classes for all ages on Sunday Mornings at 9:00 AM at Mt. Horeb. From nursery to Confirmation Classes to older adult classes, believers and inquirers alike all have a place in one of our studies. For more information on Sunday School classes, please contact the church.",
-                            "marks": [],
-                            "data": {}
-                        }
-                    ]
-                },
-                {
-                    "nodeType": "heading-4",
-                    "data": {},
-                    "content": [
-                        {
-                            "nodeType": "text",
-                            "value": "Participate in one of Mt. Horeb’s Youth Groups",
-                            "marks": [],
-                            "data": {}
-                        }
-                    ]
-                },
-                {
-                    "nodeType": "paragraph",
-                    "data": {},
-                    "content": [
-                        {
-                            "nodeType": "text",
-                            "value": "Growing in Faith is not always about classroom learning, but also involves exploring faith with peers and building Christ-centered relationships. Mt. Horeb currently has two youth groups: Peace Frogs for grades 3-5 and LCY for grades 6-12. Peace Frogs meet at 4pm on particular Sundays month and LCY meets Sundays at 5pm in the Fellowship Hall.",
-                            "marks": [],
-                            "data": {}
-                        }
-                    ]
-                },
-                {
-                    "nodeType": "heading-4",
-                    "data": {},
-                    "content": [
-                        {
-                            "nodeType": "text",
-                            "value": "Attend a Bible Study",
-                            "marks": [],
-                            "data": {}
-                        }
-                    ]
-                },
-                {
-                    "nodeType": "paragraph",
-                    "data": {},
-                    "content": [
-                        {
-                            "nodeType": "text",
-                            "value": "Weekly Bible Studies are offered in both morning and evening sessions. Topics range from Books of the Bible to studies of Faith and Culture. Check the church calendar for weekly Bible Study times, or contact the front office at (803) 345-2000.",
-                            "marks": [],
-                            "data": {}
-                        }
-                    ]
-                },
-                {
-                    "nodeType": "heading-4",
-                    "data": {},
-                    "content": [
-                        {
-                            "nodeType": "text",
-                            "value": "Attend Vacation Bible School",
-                            "marks": [],
-                            "data": {}
-                        }
-                    ]
-                },
-                {
-                    "nodeType": "paragraph",
-                    "data": {},
-                    "content": [
-                        {
-                            "nodeType": "text",
-                            "value": "At Mt. Horeb, Vacation Bible School is one of the highlights of our learning ministries. Children, youth and adults all come together for one week of great fun, learning about the Word of God. Past themes have included “Kingdom Rock,” “Weird Animals” and “Surf Shack.”",
-                            "marks": [],
-                            "data": {}
-                        }
-                    ]
-                },
-                {
-                    "nodeType": "heading-4",
-                    "data": {},
-                    "content": [
-                        {
-                            "nodeType": "text",
-                            "value": "Enroll in Confirmation Class",
-                            "marks": [],
-                            "data": {}
-                        }
-                    ]
-                },
-                {
-                    "nodeType": "paragraph",
-                    "data": {},
-                    "content": [
-                        {
-                            "nodeType": "text",
-                            "value": "The Confirmation program at Mt. Horeb is designed for 6-8th grade students, to ground them in the foundations of the Christian faith in the Lutheran tradition, and to help shape their lives according to their faith principles and practices. Confirmation classes meet every Sunday morning at 9:00am.",
-                            "marks": [],
-                            "data": {}
-                        }
-                    ]
-                },
-                {
-                    "nodeType": "heading-4",
-                    "data": {},
-                    "content": [
-                        {
-                            "nodeType": "text",
-                            "value": "Receive First Communion Instruction",
-                            "marks": [],
-                            "data": {}
-                        }
-                    ]
-                },
-                {
-                    "nodeType": "paragraph",
-                    "data": {},
-                    "content": [
-                        {
-                            "nodeType": "text",
-                            "value": "Children at Mt. Horeb meet together for special instruction to prepare them for their first communion. Adults who have not communed may also schedule time with the pastor to be informed about the meaning and faith tenets of Holy Communion.",
-                            "marks": [],
-                            "data": {}
-                        }
-                    ]
-                },
-                {
-                    "nodeType": "heading-4",
-                    "data": {},
-                    "content": [
-                        {
-                            "nodeType": "text",
-                            "value": "Teach a Class or Lead a Small Group",
-                            "marks": [],
-                            "data": {}
-                        }
-                    ]
-                },
-                {
-                    "nodeType": "paragraph",
-                    "data": {},
-                    "content": [
-                        {
-                            "nodeType": "text",
-                            "value": "If you have discerned a gift for leading or teaching, your gifts are valuable to the ministry of this congregation. Opportunities include: teaching (or assisting) with Sunday School for children, youth or adults, teaching a section on a certain topic, starting a Bible Study or home-based Small Group, or heading up a class at Vacation Bible School. If you would like to serve as a teacher or small group leader, please contact the church office.",
-                            "marks": [],
-                            "data": {}
-                        }
-                    ]
-                },
-                {
-                    "nodeType": "heading-4",
-                    "data": {},
-                    "content": [
-                        {
-                            "nodeType": "text",
-                            "value": "Volunteer with Learning Ministries at Mt. Horeb",
-                            "marks": [],
-                            "data": {}
-                        }
-                    ]
-                },
-                {
-                    "nodeType": "paragraph",
-                    "data": {},
-                    "content": [
-                        {
-                            "nodeType": "text",
-                            "value": "Under our Core Value LEARN, many things happen throughout the year here. From curriculum planning to the annual Easter Egg Hunt, from the Children’s Christmas Program to the Advent Breakfast & Bible Study, there are many hands at work behind the scenes. If you would like to give of your time to help, please call the church office at (803) 345-2000.",
-                            "marks": [],
-                            "data": {}
-                        }
-                    ]
-                }
-            ]
-        },
-        "image": null
-    },
-    {
         "id": "6XN3MQcbu69TnpyTHX3VF4",
         "key": "learn/core-value",
         "title": "Core Value: Learn",
@@ -3665,150 +4647,6 @@
         "image": null
     },
     {
-        "id": "2e1ZfeJhsnCiMPPt6rwoZF",
-        "key": "witness/core-value",
-        "title": "Core Value: Witness",
-        "content": {
-            "nodeType": "document",
-            "data": {},
-            "content": [
-                {
-                    "nodeType": "paragraph",
-                    "data": {},
-                    "content": [
-                        {
-                            "nodeType": "text",
-                            "value": "The Mission Statement of Mt. Horeb is “Experiencing and Sharing Christ’s Presence.” That means that when we experience the presence of the Risen Christ through worship, prayer, and faithful relationships, we cannot keep that experience to ourselves; we are called to share it with others. Witnessing to the good news and deeds of God is our joyful response to what God has done and is doing. In his letter to the Romans, the Apostle Paul calls us to witness when he reminds us that the saving power of God’s Word works through our evangelism:",
-                            "marks": [],
-                            "data": {}
-                        }
-                    ]
-                },
-                {
-                    "nodeType": "paragraph",
-                    "data": {},
-                    "content": [
-                        {
-                            "nodeType": "text",
-                            "value": "“Everyone who calls on the name of the Lord shall be saved.” But how are they to call on one in whom they have not believed? And how are they to believe in one of whom they have never heard? And how are they to hear without someone to proclaim him? And how are they to proclaim him unless they are sent? As it is written, “How beautiful are the feet of those who bring good news!” – Romans 10:13-15",
-                            "marks": [],
-                            "data": {}
-                        }
-                    ]
-                },
-                {
-                    "nodeType": "paragraph",
-                    "data": {},
-                    "content": [
-                        {
-                            "nodeType": "text",
-                            "value": "Being a witness to God through Christ is an everyday act that happens in and through the daily lives of believers. There are also ways that we can witness together as the Body of Christ in this place. Mt. Horeb seeks to be a witness to the community in a variety of ways throughout its ministries.",
-                            "marks": [],
-                            "data": {}
-                        }
-                    ]
-                },
-                {
-                    "nodeType": "paragraph",
-                    "data": {},
-                    "content": [
-                        {
-                            "nodeType": "text",
-                            "value": "To learn more about how you can be a witness to the love of God in our community, or to get involved in spreading the word about the ministries of Mt. Horeb, please contact the church by calling (803) 345-2000.",
-                            "marks": [],
-                            "data": {}
-                        }
-                    ]
-                }
-            ]
-        },
-        "image": null
-    },
-    {
-        "id": "sQkA1r4KFLbjZO7645WyC",
-        "key": "serve/get-involved",
-        "title": "How to Get Involved",
-        "content": {
-            "data": {},
-            "content": [
-                {
-                    "data": {},
-                    "content": [
-                        {
-                            "data": {},
-                            "marks": [],
-                            "value": "Participate Mission Support",
-                            "nodeType": "text"
-                        }
-                    ],
-                    "nodeType": "heading-4"
-                },
-                {
-                    "data": {},
-                    "content": [
-                        {
-                            "data": {},
-                            "marks": [],
-                            "value": "This congregation has a robust Mission Fund which is used to send aid abroad as well as to mobilize missionaries for God’s work with our hands. We support missionaries in Japan, send our own members to places like Guyana and Costa Rica for hands-on mission work, provide mosquito nets for malaria, and participate in local and regional mission trips. We also host ongoing projects like Fair Trade products and cartridge recycling for World Hunger. To help support these ministries, check the calendar for fundraising events, or make a donation to Mt. Horeb’s Global Mission Fund. ",
-                            "nodeType": "text"
-                        }
-                    ],
-                    "nodeType": "paragraph"
-                },
-                {
-                    "data": {},
-                    "content": [
-                        {
-                            "data": {},
-                            "marks": [],
-                            "value": "Go on a Mission Trip",
-                            "nodeType": "text"
-                        }
-                    ],
-                    "nodeType": "heading-4"
-                },
-                {
-                    "data": {},
-                    "content": [
-                        {
-                            "data": {},
-                            "marks": [],
-                            "value": "We seek to prayerfully and actively respond to needs that arise in places near and far. Our Global Missions team organizes and sends groups to participate in international and nationwide mission trips. Past trips have included building a church in Guyana, disaster response in Alabama, and Habitat International in Costa Rica. Our youth group also participates in mission trips and in service projects involved in the National Youth Gathering. ",
-                            "nodeType": "text"
-                        }
-                    ],
-                    "nodeType": "paragraph"
-                },
-                {
-                    "data": {},
-                    "content": [
-                        {
-                            "data": {},
-                            "marks": [],
-                            "value": "Serve the Needs of the Community",
-                            "nodeType": "text"
-                        }
-                    ],
-                    "nodeType": "heading-4"
-                },
-                {
-                    "data": {},
-                    "content": [
-                        {
-                            "data": {},
-                            "marks": [],
-                            "value": "Mt. Horeb is involved in community support ministries in a variety of ways, extending care to those in times of need in our own congregation, in our community and abroad. Ways that we serve those within our faith family include visiting and sending cards and seasonal bags to the elderly, homebound and those experiencing significant life passages, providing meals for the bereaved, and providing vaccinations, health screenings and education for our community members. In addition to congregational support, we serve those in need in our community in a variety of ways. If you would like to help out with our ministries to the local food bank, housing repair projects, or helping with ministry to the elderly and homebound in the community, please contact the church office at (803) 345-2000.",
-                            "nodeType": "text"
-                        }
-                    ],
-                    "nodeType": "paragraph"
-                }
-            ],
-            "nodeType": "document"
-        },
-        "image": null
-    },
-    {
         "id": "asJmU0vgXVgUWTykx2sZh",
         "key": "serve/core-value",
         "title": "Core Value: Serve",
@@ -3823,226 +4661,6 @@
                         {
                             "nodeType": "text",
                             "value": "Mt. Horeb has a long legacy of serving others in our community and in our world. We believe that we are all called to share what has first been given to us with others, especially those in need. We uphold the dignity of all people and all of God’s creation, and we week to live out that belief in acts of service to others. If you are a believer, ask God how he can use you to spread the love of Christ through acts of compassion. Below are some of the ways we at Mt. Horeb seek to serve others.",
-                            "marks": [],
-                            "data": {}
-                        }
-                    ]
-                }
-            ]
-        },
-        "image": null
-    },
-    {
-        "id": "4UzWTZiurY4REEHJDftgQF",
-        "key": "support/get-involved",
-        "title": "How to get involved…",
-        "content": {
-            "nodeType": "document",
-            "data": {},
-            "content": [
-                {
-                    "nodeType": "heading-4",
-                    "data": {},
-                    "content": [
-                        {
-                            "nodeType": "text",
-                            "value": "Practice Stewardship of by Giving Your Tithes and Offerings",
-                            "marks": [],
-                            "data": {}
-                        }
-                    ]
-                },
-                {
-                    "nodeType": "paragraph",
-                    "data": {},
-                    "content": [
-                        {
-                            "nodeType": "text",
-                            "value": "We are invited to participate in the ministry of the church by offering our worship, our time and talents, as well as our monetary contributions. Your tithe (or regular giving) helps support things like education and youth ministry, care for our students and missionaries, support of faith-based and charitable institutions, sustaining pastoral care and upkeep of the church building and physical resources. Offerings are gifts above and beyond regular giving that go to help special projects and needs that may arise. Please prayerfully consider how giving to the church can shape your walk of faith and make a difference in the lives of others. You may make your offerings in person or click ",
-                            "marks": [],
-                            "data": {}
-                        },
-                        {
-                            "nodeType": "text",
-                            "value": "here ",
-                            "marks": [
-                                {
-                                    "type": "bold"
-                                }
-                            ],
-                            "data": {}
-                        },
-                        {
-                            "nodeType": "text",
-                            "value": "to give online.",
-                            "marks": [],
-                            "data": {}
-                        }
-                    ]
-                },
-                {
-                    "nodeType": "heading-4",
-                    "data": {},
-                    "content": [
-                        {
-                            "nodeType": "text",
-                            "value": "Volunteer your time and talents",
-                            "marks": [],
-                            "data": {}
-                        }
-                    ]
-                },
-                {
-                    "nodeType": "paragraph",
-                    "data": {},
-                    "content": [
-                        {
-                            "nodeType": "text",
-                            "value": "Whether you are a woodworker or a choir member, gifted with numbers or great at organizing, whether you have a variety of skills and interests or just have some extra time to give, your time and talents are valuable to the support of God’s church in this place. Please contact us here to volunteer. With a church this size, many hands are needed to keep the property in top working order. If you have interest in helping with property needs, from repairs to technology to clean-up, we’d love to put your skills to good use!",
-                            "marks": [],
-                            "data": {}
-                        }
-                    ]
-                },
-                {
-                    "nodeType": "heading-4",
-                    "data": {},
-                    "content": [
-                        {
-                            "nodeType": "text",
-                            "value": "Serve the Needs of the Community",
-                            "marks": [],
-                            "data": {}
-                        }
-                    ]
-                },
-                {
-                    "nodeType": "paragraph",
-                    "data": {},
-                    "content": [
-                        {
-                            "nodeType": "text",
-                            "value": "Mt. Horeb is involved in community support ministries in a variety of ways, extending care to those in times of need in our own congregation, in our community and abroad. Ways that we serve those within our faith family include visiting and sending cards and seasonal bags to the elderly, homebound and those experiencing significant life passages, providing meals for the bereaved, and providing vaccinations, health screenings and education for our community members. In addition to congregational support, we serve those in need in our community in a variety of ways. If you would like to help out with our ministries to the local Food Bank, housing repair projects, or helping with ministry to the elderly and homebound in the community, please contact the church office at (803)345-2000.",
-                            "marks": [],
-                            "data": {}
-                        }
-                    ]
-                },
-                {
-                    "nodeType": "heading-4",
-                    "data": {},
-                    "content": [
-                        {
-                            "nodeType": "text",
-                            "value": "Participate in Fellowship Events",
-                            "marks": [],
-                            "data": {}
-                        }
-                    ]
-                },
-                {
-                    "nodeType": "paragraph",
-                    "data": {},
-                    "content": [
-                        {
-                            "nodeType": "text",
-                            "value": "The community of Mt. Horeb loves to gather around fun, fellowship and food! We gather weekly for coffee hour at 9:30am, and then at other times throughout the year for special times of learning, worship, or just some good clean fun! Periodically, we organize round-robin supper clubs to facilitate relationship building. For more information on upcoming fellowship events, please check our calendar.",
-                            "marks": [],
-                            "data": {}
-                        }
-                    ]
-                },
-                {
-                    "nodeType": "heading-4",
-                    "data": {},
-                    "content": [
-                        {
-                            "nodeType": "text",
-                            "value": "Build Christ-Centered Relationships",
-                            "marks": [],
-                            "data": {}
-                        }
-                    ]
-                },
-                {
-                    "nodeType": "paragraph",
-                    "data": {},
-                    "content": [
-                        {
-                            "nodeType": "text",
-                            "value": "There are a variety of Small Groups that meet at various times and places within Mt. Horeb. In addition to these informal groups, we also have vibrants Men’s Ministries, Women’s Ministries, Youth and Young Adult Groups. Please see below for more information:",
-                            "marks": [],
-                            "data": {}
-                        }
-                    ]
-                },
-                {
-                    "nodeType": "heading-5",
-                    "data": {},
-                    "content": [
-                        {
-                            "nodeType": "text",
-                            "value": "Lutheran Men in Mission (LMM)",
-                            "marks": [],
-                            "data": {}
-                        }
-                    ]
-                },
-                {
-                    "nodeType": "paragraph",
-                    "data": {},
-                    "content": [
-                        {
-                            "nodeType": "text",
-                            "value": "This group is open to men of all ages, and offers a chance to gather together around food, fellowship and faith. This group meets at the church on the first Monday of each month.",
-                            "marks": [],
-                            "data": {}
-                        }
-                    ]
-                },
-                {
-                    "nodeType": "heading-5",
-                    "data": {},
-                    "content": [
-                        {
-                            "nodeType": "text",
-                            "value": "Women of the ELCA (WELCA)",
-                            "marks": [],
-                            "data": {}
-                        }
-                    ]
-                },
-                {
-                    "nodeType": "paragraph",
-                    "data": {},
-                    "content": [
-                        {
-                            "nodeType": "text",
-                            "value": "Our Women of the ELCA gather throughout the year to participate in fellowship and devotions as well as service projects. Sisters in Christ create community in Circles, where small groups of women join together to grow in love God and for one another.",
-                            "marks": [],
-                            "data": {}
-                        }
-                    ]
-                },
-                {
-                    "nodeType": "heading-5",
-                    "data": {},
-                    "content": [
-                        {
-                            "nodeType": "text",
-                            "value": "Youth Groups",
-                            "marks": [],
-                            "data": {}
-                        }
-                    ]
-                },
-                {
-                    "nodeType": "paragraph",
-                    "data": {},
-                    "content": [
-                        {
-                            "nodeType": "text",
-                            "value": "Mt. Horeb has two youth groups, one for children grades 3-5 and one for Middle & High Schoolers. The 3rd-5th Grade group is called “Peace Frogs,” and it meets on the particular Sundays of the month at 4 PM. LCY for Middle & High Schoolers meets each week at 5pm.",
                             "marks": [],
                             "data": {}
                         }
@@ -5029,218 +5647,6 @@
         "imageAlignment": "right"
     },
     {
-        "id": "15nAsnkAa01lecSa5asssO",
-        "key": "who-we-are/we-are",
-        "title": "We are…",
-        "content": {
-            "data": {},
-            "content": [
-                {
-                    "data": {},
-                    "content": [
-                        {
-                            "data": {},
-                            "content": [
-                                {
-                                    "data": {},
-                                    "content": [
-                                        {
-                                            "data": {},
-                                            "marks": [],
-                                            "value": "A community of disciples, actively living out faith in God through Jesus Christ.",
-                                            "nodeType": "text"
-                                        }
-                                    ],
-                                    "nodeType": "paragraph"
-                                }
-                            ],
-                            "nodeType": "list-item"
-                        },
-                        {
-                            "data": {},
-                            "content": [
-                                {
-                                    "data": {},
-                                    "content": [
-                                        {
-                                            "data": {},
-                                            "marks": [],
-                                            "value": "An open and welcoming community which seeks to show God’s Grace to all.",
-                                            "nodeType": "text"
-                                        }
-                                    ],
-                                    "nodeType": "paragraph"
-                                }
-                            ],
-                            "nodeType": "list-item"
-                        },
-                        {
-                            "data": {},
-                            "content": [
-                                {
-                                    "data": {},
-                                    "content": [
-                                        {
-                                            "data": {},
-                                            "marks": [],
-                                            "value": "Experiencing and Sharing God’s Presence.",
-                                            "nodeType": "text"
-                                        }
-                                    ],
-                                    "nodeType": "paragraph"
-                                }
-                            ],
-                            "nodeType": "list-item"
-                        },
-                        {
-                            "data": {},
-                            "content": [
-                                {
-                                    "data": {},
-                                    "content": [
-                                        {
-                                            "data": {},
-                                            "marks": [],
-                                            "value": "A Congregation of the Evangelical Lutheran Church in America (ELCA). Please visit ",
-                                            "nodeType": "text"
-                                        },
-                                        {
-                                            "data": {
-                                                "uri": "http://www.elca.org/"
-                                            },
-                                            "content": [
-                                                {
-                                                    "data": {},
-                                                    "marks": [],
-                                                    "value": "www.elca.org",
-                                                    "nodeType": "text"
-                                                }
-                                            ],
-                                            "nodeType": "hyperlink"
-                                        },
-                                        {
-                                            "data": {},
-                                            "marks": [],
-                                            "value": " to learn more. We share in the vision of the ELCA, confessing that Christians are:",
-                                            "nodeType": "text"
-                                        }
-                                    ],
-                                    "nodeType": "paragraph"
-                                },
-                                {
-                                    "data": {},
-                                    "content": [
-                                        {
-                                            "data": {},
-                                            "content": [
-                                                {
-                                                    "data": {},
-                                                    "content": [
-                                                        {
-                                                            "data": {},
-                                                            "marks": [
-                                                                {
-                                                                    "type": "bold"
-                                                                }
-                                                            ],
-                                                            "value": "Claimed ",
-                                                            "nodeType": "text"
-                                                        },
-                                                        {
-                                                            "data": {},
-                                                            "marks": [],
-                                                            "value": "by God’s grace for the sake of the world, we are a new creation through God’s living word by the power of the Holy Spirit;",
-                                                            "nodeType": "text"
-                                                        }
-                                                    ],
-                                                    "nodeType": "paragraph"
-                                                }
-                                            ],
-                                            "nodeType": "list-item"
-                                        },
-                                        {
-                                            "data": {},
-                                            "content": [
-                                                {
-                                                    "data": {},
-                                                    "content": [
-                                                        {
-                                                            "data": {},
-                                                            "marks": [
-                                                                {
-                                                                    "type": "bold"
-                                                                }
-                                                            ],
-                                                            "value": "Gathered",
-                                                            "nodeType": "text"
-                                                        },
-                                                        {
-                                                            "data": {},
-                                                            "marks": [],
-                                                            "value": " by God’s grace for the sake of the world, we will live among God’s faithful people, hear God’s word and share Christ’s supper;",
-                                                            "nodeType": "text"
-                                                        }
-                                                    ],
-                                                    "nodeType": "paragraph"
-                                                }
-                                            ],
-                                            "nodeType": "list-item"
-                                        },
-                                        {
-                                            "data": {},
-                                            "content": [
-                                                {
-                                                    "data": {},
-                                                    "content": [
-                                                        {
-                                                            "data": {},
-                                                            "marks": [
-                                                                {
-                                                                    "type": "bold"
-                                                                }
-                                                            ],
-                                                            "value": "Sent",
-                                                            "nodeType": "text"
-                                                        },
-                                                        {
-                                                            "data": {},
-                                                            "marks": [],
-                                                            "value": " by God’s grace for the sake of the world, we will proclaim the good news of God in Christ through word and deed, serve all people following the example of our Lord Jesus, and strive for justice and peace in all the world.",
-                                                            "nodeType": "text"
-                                                        }
-                                                    ],
-                                                    "nodeType": "paragraph"
-                                                }
-                                            ],
-                                            "nodeType": "list-item"
-                                        }
-                                    ],
-                                    "nodeType": "unordered-list"
-                                }
-                            ],
-                            "nodeType": "list-item"
-                        }
-                    ],
-                    "nodeType": "unordered-list"
-                },
-                {
-                    "data": {},
-                    "content": [
-                        {
-                            "data": {},
-                            "marks": [],
-                            "value": "",
-                            "nodeType": "text"
-                        }
-                    ],
-                    "nodeType": "paragraph"
-                }
-            ],
-            "nodeType": "document"
-        },
-        "image": null
-    },
-    {
         "id": "19QIbfNgzNUF2jLn4lXfXq",
         "key": "family-ministries/preschool",
         "title": "Preschool Ministry",
@@ -5355,189 +5761,5 @@
             "nodeType": "document"
         },
         "image": null
-    },
-    {
-        "id": "5dXaO5qpujpYImDexjsLXR",
-        "key": "family-ministries/youth",
-        "title": "Youth Ministry",
-        "content": {
-            "data": {},
-            "content": [
-                {
-                    "data": {},
-                    "content": [
-                        {
-                            "data": {},
-                            "marks": [],
-                            "value": "Youth Group",
-                            "nodeType": "text"
-                        }
-                    ],
-                    "nodeType": "heading-3"
-                },
-                {
-                    "data": {},
-                    "content": [
-                        {
-                            "data": {},
-                            "marks": [],
-                            "value": "Middle & High School students are invited to participate in Lutheran Church Youth (LCY) at Mt. Horeb. LCY meets each week at 5:45pm for faith formational, service-oriented and relationship-building activities",
-                            "nodeType": "text"
-                        },
-                        {
-                            "data": {},
-                            "marks": [
-                                {
-                                    "type": "italic"
-                                }
-                            ],
-                            "value": ". For ",
-                            "nodeType": "text"
-                        },
-                        {
-                            "data": {},
-                            "marks": [],
-                            "value": "information about Lutheran Church Youth, please contact the church office (803) 345-2000.",
-                            "nodeType": "text"
-                        }
-                    ],
-                    "nodeType": "paragraph"
-                },
-                {
-                    "data": {},
-                    "content": [
-                        {
-                            "data": {},
-                            "marks": [],
-                            "value": "Confirmation Ministry",
-                            "nodeType": "text"
-                        }
-                    ],
-                    "nodeType": "heading-3"
-                },
-                {
-                    "data": {},
-                    "content": [
-                        {
-                            "data": {},
-                            "marks": [],
-                            "value": "Confirmation is our program for Middle School students to engage the faith through encounter with the Catechetical teachings of the church. In Confirmation, students will learn the basic tenets of the faith, and then together explore what impact their faith has on their day-to-day life, their relationships and their futures. For more information, please contact the church by calling (803) 345-2000.",
-                            "nodeType": "text"
-                        }
-                    ],
-                    "nodeType": "paragraph"
-                }
-            ],
-            "nodeType": "document"
-        },
-        "image": {
-            "url": "//images.ctfassets.net/3wcsgs8fznel/5ByFet93Z3LQUXtsJTd0mX/fb992c6acb5466c55bad8f23ad26d4de/20230422_220155.jpg",
-            "details": {
-                "size": 128012,
-                "image": {
-                    "width": 800,
-                    "height": 474
-                }
-            },
-            "fileName": "20230422_220155.jpg",
-            "contentType": "image/jpeg"
-        },
-        "imageAlignment": "top"
-    },
-    {
-        "id": "5HtdYkMiq9IFBEdX04zK3T",
-        "key": "family-ministries/children",
-        "title": "Children and Family Ministry",
-        "content": {
-            "data": {},
-            "content": [
-                {
-                    "data": {},
-                    "content": [
-                        {
-                            "data": {},
-                            "marks": [],
-                            "value": "Faith Formation",
-                            "nodeType": "text"
-                        }
-                    ],
-                    "nodeType": "heading-3"
-                },
-                {
-                    "data": {},
-                    "content": [
-                        {
-                            "data": {},
-                            "marks": [],
-                            "value": "Christian Education is an important emphasis for disciples of all ages, but especially critical in the early years of faith development. Mt. Horeb provides opportunities for children of all ages and adults to engage in Faith Formation each Sunday morning. Children under two are welcome in the nursery during the Sunday School time.",
-                            "nodeType": "text"
-                        }
-                    ],
-                    "nodeType": "paragraph"
-                },
-                {
-                    "data": {},
-                    "content": [
-                        {
-                            "data": {},
-                            "marks": [],
-                            "value": "Peace Frogs",
-                            "nodeType": "text"
-                        }
-                    ],
-                    "nodeType": "heading-3"
-                },
-                {
-                    "data": {},
-                    "content": [
-                        {
-                            "data": {},
-                            "marks": [],
-                            "value": "This 3rd-5th grade youth group meets on the 2nd Sunday of the month at 4pm for programs and activities geared towards the creative, inquisitive and active learning style of our young disciples. With questions about Peace Frogs, please contact the church office (803) 345-2000.",
-                            "nodeType": "text"
-                        }
-                    ],
-                    "nodeType": "paragraph"
-                },
-                {
-                    "data": {},
-                    "content": [
-                        {
-                            "data": {},
-                            "marks": [],
-                            "value": "Vacation Bible School",
-                            "nodeType": "text"
-                        }
-                    ],
-                    "nodeType": "heading-3"
-                },
-                {
-                    "data": {},
-                    "content": [
-                        {
-                            "data": {},
-                            "marks": [],
-                            "value": "Mt. Horeb always puts on a wonderful VBS for kids from the church and from the community each summer. Past themes have included “Baobab Blast,” “Kingdom Rock” and “Weird Animals.” We hope you will bring a child you love to VBS this year! For more information, please contact the church office (803) 345-2000.",
-                            "nodeType": "text"
-                        }
-                    ],
-                    "nodeType": "paragraph"
-                }
-            ],
-            "nodeType": "document"
-        },
-        "image": {
-            "url": "//images.ctfassets.net/3wcsgs8fznel/3BlM23tJBXjD9OqJWgJ2Rw/9d9bcb81b9229529c826642d579abd37/kids-praying-300x207.png",
-            "details": {
-                "size": 35128,
-                "image": {
-                    "width": 300,
-                    "height": 207
-                }
-            },
-            "fileName": "kids-praying-300x207.png",
-            "contentType": "image/png"
-        },
-        "imageAlignment": "right"
     }
 ]

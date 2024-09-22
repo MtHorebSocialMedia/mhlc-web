@@ -1,5 +1,5 @@
 <template>
-    <v-card width="800">
+    <v-card width="800" v-if="newsEntry">
         <v-card-title class="news-title">
             <v-icon size="small">mdi-newspaper-variant-outline</v-icon>
             {{ newsEntry.title }}
@@ -67,7 +67,6 @@
     const newsEntry = ref(null);
 
     async function loadNewsEntry(newsId) {
-        console.log("Loading news entry for id: ", newsId);
         newsEntry.value = await useContentStore().getNewsEntry(newsId);
     }
 

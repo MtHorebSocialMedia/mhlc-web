@@ -15,7 +15,6 @@ export const useContentStore = defineStore('content', () => {
     const staff = ref([]);
     const council = ref([]);
     const videoList = ref([]);
-    const blogPosts = ref([]);
     const contentAssistEnabled = ref(false);
 
     async function fetchContent() {
@@ -28,8 +27,7 @@ export const useContentStore = defineStore('content', () => {
             newsTypesResp,
             videoListResp,
             councilResp,
-            staffResp,
-            blogPostsResp
+            staffResp
         ] = await Promise.all([
             getChurchInfo(),
             getMenuItems(),
@@ -39,7 +37,6 @@ export const useContentStore = defineStore('content', () => {
             getVideoList(),
             getCouncil(),
             getStaff(),
-            getBlogPosts(),
             loadNews(1)
         ]);
 
@@ -51,7 +48,6 @@ export const useContentStore = defineStore('content', () => {
         videoList.value = videoListResp;
         council.value = councilResp;
         staff.value = staffResp;
-        blogPosts.value = blogPostsResp;
     }
 
     async function loadNews(page) {
@@ -171,9 +167,9 @@ if (import.meta.env.MODE === 'development') {
             return mockClient.get(`./mock/news-entries-${page}.json`);
         });
 
-        mock.onGet(/\/api\/news\/w+/).reply((config) => {
-            const page = config.params ? config.params.page : 1;
-            return mockClient.get(`./mock/news-entries-${page}.json`);
+        mock.onGet(/\/api\/news\/\w+/).reply(async () => {
+            const { news } = (await mockClient.get(`./mock/news-entries-1.json`)).data;
+            return [200, news[0]];
         });
 
         mock.onGet("/api/church-info").reply(() => {
@@ -192,8 +188,14 @@ if (import.meta.env.MODE === 'development') {
             return mockClient.get('./mock/video-list.json');
         });
 
-        mock.onGet("/api/blog-posts").reply(() => {
-            return mockClient.get('./mock/blog-posts.json');
+        mock.onGet("/api/blog-posts").reply((config) => {
+            const page = config.params ? config.params.page : 1;
+            return mockClient.get(`./mock/blog-posts-${page}.json`);
+        });
+
+        mock.onGet(/\/api\/blog-posts\/\w+/).reply(async () => {
+            const { blogs } = (await mockClient.get(`./mock/blog-posts-1.json`)).data;
+            return [200, blogs[0]];
         });
     });
 

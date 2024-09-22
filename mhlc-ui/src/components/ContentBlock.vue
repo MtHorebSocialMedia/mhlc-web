@@ -46,11 +46,8 @@
 
   block.value = contentBlocks.value[props.contentBlockKey];
   if (!block.value) {
-    console.log('block not found yet');
     watch(contentBlocks, () => {
-        console.log('content blocks loaded');
         block.value = contentBlocks.value[props.contentBlockKey];
-        console.log('block: ', block);
     });
   }
 

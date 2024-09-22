@@ -21,6 +21,6 @@ function saveContent(content, fileName) {
     saveContent(await contentService.getNewsEntries(2), 'news-entries-2.json');
     saveContent(await contentService.getNewsTypes(), 'news-types.json');
     saveContent(await contentService.getStaff(), 'staff.json');
-    saveContent(await contentService.getBlogPosts(), 'blog-posts.json');
+    saveContent(await contentService.getBlogPosts(1), 'blog-posts-1.json');
     saveContent(await youtubeService.getVideosList(), 'video-list.json');
 })();

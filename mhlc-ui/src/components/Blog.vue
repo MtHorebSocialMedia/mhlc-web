@@ -36,7 +36,6 @@
     const blogContent = ref(null);
 
     async function loadBlogPost(blogId) {
-        console.log("Loading blog post for id: ", blogId);
         blogContent.value = await useContentStore().getBlogPost(blogId);
     }
 
