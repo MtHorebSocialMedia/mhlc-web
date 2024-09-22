@@ -1,5 +1,23 @@
 [
     {
+        "id": "6y95vbX1aA065GkwlbtmQE",
+        "key": "home/elca",
+        "image": {
+            "url": "//images.ctfassets.net/3wcsgs8fznel/4v7EZH2ii4C8AEcbdFkOq0/b900c5503cfad88d46c3182547ef2fc2/ELCA_4_Color_Secondary.png",
+            "details": {
+                "size": 6277,
+                "image": {
+                    "width": 300,
+                    "height": 88
+                }
+            },
+            "fileName": "ELCA_4_Color_Secondary.png",
+            "contentType": "image/png"
+        },
+        "imageAlignment": "top",
+        "imageLink": "https://elca.org"
+    },
+    {
         "id": "fJycYcXwGDSUbomVUs2ua",
         "key": "contact/header",
         "content": {
@@ -1871,12 +1889,12 @@
         "id": "1F9FCBnBbAjrtcgM7Kogm9",
         "key": "leaders/council",
         "image": {
-            "url": "//images.ctfassets.net/3wcsgs8fznel/4VwsfMi8loRjUx6htlGEuw/195af4c6aeea935d538a225ed9e002f8/2024-mhlc-council-border-rounded-1.png",
+            "url": "//images.ctfassets.net/3wcsgs8fznel/4VwsfMi8loRjUx6htlGEuw/04af1f12f0f44b6b658204fb54914be2/2024-mhlc-council-border-rounded-1.png",
             "details": {
-                "size": 138359,
+                "size": 203816,
                 "image": {
-                    "width": 606,
-                    "height": 402
+                    "width": 400,
+                    "height": 265
                 }
             },
             "fileName": "2024-mhlc-council-border-rounded-1.png",

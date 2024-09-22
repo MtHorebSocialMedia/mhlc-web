@@ -1,17 +1,7 @@
 <template>
     <v-container>
         <v-row class="justify-center">
-            <img
-                width="300"
-                height="88"
-                data-src="https://mthoreb.net/wp-content/uploads/2022/09/ELCA_4_Color_Secondary.png"
-                class="elca image wp-image-12330  attachment-full size-full ls-is-cached lazyloaded"
-                alt="ELCA Logo"
-                style="--smush-placeholder-width: 300px; --smush-placeholder-aspect-ratio: 300/88;max-width: 100%; height: auto;"
-                decoding="async"
-                loading="lazy"
-                src="https://mthoreb.net/wp-content/uploads/2022/09/ELCA_4_Color_Secondary.png"
-            />
+            <ContentBlock contentBlockKey="home/elca" />
         </v-row>
         <v-row>
             <v-col>
@@ -50,6 +40,7 @@
 </template>
 
 <script setup>
+import ContentBlock from '@/components/ContentBlock.vue'
 import NewsList from '@/components/NewsList.vue'
 </script>
 

@@ -158,7 +158,7 @@
                 </v-container>
             </v-tabs-window-item>
             <v-tabs-window-item :value="3">
-                <v-container>
+                <v-container class="faqs">
                     <v-expansion-panels>
                         <v-expansion-panel>
                             <v-expansion-panel-title>
@@ -166,14 +166,18 @@
                                 Can I Direct My Donation to a Specific Fund?
                             </v-expansion-panel-title>
                             <v-expansion-panel-text>
-                                You will be able to choose to direct your donation to any of the following:
-
-                                General Fund
-                                Building Fund
-                                Debt reduction
-                                Memorial
-                                Cemetery
-                                Other (please specify in notes)
+                                <v-container>
+                                    <h3>Tithe.ly</h3>
+                                    You will be able to choose to direct your donation to any of the following:
+                                    <ul>
+                                        <li>General Fund</li>
+                                        <li>Building Fund</li>
+                                        <li>Debt reduction</li>
+                                        <li>Memorial</li>
+                                        <li>Cemetery</li>
+                                        <li>Other (please specify in notes)</li>
+                                    </ul>
+                                </v-container>
                             </v-expansion-panel-text>
                         </v-expansion-panel>
                         <v-expansion-panel>
@@ -182,12 +186,16 @@
                                 Can I make One-Time or Recurring Donations?
                             </v-expansion-panel-title>
                             <v-expansion-panel-text>
-                                You can make a one-time gift or a recurring gift. The recurring gift can be made in any of the following frequencies, on the day of the week of your choosing.
-
-                                Every week
-                                Every 2 weeks
-                                Every month
-                                1st &amp; 15th of monthly
+                                <v-container>
+                                    <h3>Tithe.ly</h3>
+                                    You can make a one-time gift or a recurring gift. The recurring gift can be made in any of the following frequencies, on the day of the week of your choosing.
+                                    <ul>
+                                        <li>Every week</li>
+                                        <li>Every 2 weeks</li>
+                                        <li>Every month</li>
+                                        <li>1st &amp; 15th of monthly</li>
+                                    </ul>
+                                </v-container>
                             </v-expansion-panel-text>
                         </v-expansion-panel>
                         <v-expansion-panel>
@@ -196,7 +204,10 @@
                                 How Can I Give?
                             </v-expansion-panel-title>
                             <v-expansion-panel-text>
-                                You may donate using either a credit card or direct bank draft
+                                <v-container>
+                                    <h3>Tithe.ly</h3>
+                                    You may donate using either a credit card or direct bank draft
+                                </v-container>
                             </v-expansion-panel-text>
                         </v-expansion-panel>
                         <v-expansion-panel>
@@ -205,7 +216,10 @@
                                 Who Pays the Fees?
                             </v-expansion-panel-title>
                             <v-expansion-panel-text>
-                                You can choose whether you want the payment processing fees to be added to your donation, so you are paying the fees, or whether they should be deducted from your gift, where the church is paying the fees.
+                                <v-container>
+                                    <h3>Tithe.ly</h3>
+                                    You can choose whether you want the payment processing fees to be added to your donation, so you are paying the fees, or whether they should be deducted from your gift, where the church is paying the fees.
+                                </v-container>
                             </v-expansion-panel-text>
                         </v-expansion-panel>
                         <v-expansion-panel>
@@ -214,7 +228,10 @@
                                 How Can I Change My Gift in the Future?
                             </v-expansion-panel-title>
                             <v-expansion-panel-text>
-                                Tithe.ly will securely store your information so that future giving is easier. You’ll be prompted to create a password and a PIN.You can create an account so that you can login later to make changes or discontinue your gift.
+                                <v-container>
+                                    <h3>Tithe.ly</h3>
+                                    Tithe.ly will securely store your information so that future giving is easier. You’ll be prompted to create a password and a PIN. You can create an account so that you can login later to make changes or discontinue your gift.
+                                </v-container>
                             </v-expansion-panel-text>
                         </v-expansion-panel>
                     </v-expansion-panels>
@@ -277,4 +294,5 @@
     .v-container.donation-form .v-col { padding-top: 0px; padding-bottom: 0px; }
     .v-container.donation-form .v-expansion-panel-title { font-weight: bold; }
     .v-container.donation-form .v-expansion-panel-title .v-icon { margin-right: 5px; }
+    .v-container.donation-form .faqs ul { margin-left: 25px; }
 </style>

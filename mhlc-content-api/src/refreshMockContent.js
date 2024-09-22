@@ -23,4 +23,15 @@ function saveContent(content, fileName) {
     saveContent(await contentService.getStaff(), 'staff.json');
     saveContent(await contentService.getBlogPosts(1), 'blog-posts-1.json');
     saveContent(await youtubeService.getVideosList(), 'video-list.json');
+
+    // Asset Urls for fav icons:
+    // cropped-favicon-180x180
+    console.log((await contentService.getAsset('14QTtgiOnGHM8o6373plWL')).fields.file.url);
+    // cropped-favicon-32x32
+    console.log((await contentService.getAsset('6nl0jBtkrinaLFuICgwOxN')).fields.file.url);
+    // cropped-favicon-192x192
+    console.log((await contentService.getAsset('1iIqZfH2BenwbvWvq4rJen')).fields.file.url);
+    // cropped-favicon-270x270
+    console.log((await contentService.getAsset('3Oh1f8DQrlQPu6Ga2OFSEk')).fields.file.url);
+
 })();

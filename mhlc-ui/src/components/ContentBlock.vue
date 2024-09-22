@@ -12,8 +12,9 @@
                 :src="block.image.url"
                 :width="getAssetWidth(block.image.details.image.width, block.image.details.image.height)"
                 :height="getAssetHeight(block.image.details.image.width, block.image.details.image.height)"
-                :class="block.imageAlignment"
+                :class="getImageClass(block)"
                 alt="Content Block Image"
+                @click="imageClicked(block.imageLink)"
             />
             <RichContentRenderer :content="block.content" />
             <img
@@ -21,8 +22,9 @@
                 :src="block.image.url"
                 :width="getAssetWidth(block.image.details.image.width, block.image.details.image.height)"
                 :height="getAssetHeight(block.image.details.image.width, block.image.details.image.height)"
-                :class="block.imageAlignment"
+                :class="getImageClass(block)"
                 alt="Content Block Image"
+                @click="imageClicked(block.imageLink)"
             />
         </div>
     </div>
@@ -51,6 +53,17 @@
     });
   }
 
+  function getImageClass(block) {
+      return block.imageLink ? `${block.imageAlignment} link` : block.imageAlignment;
+  }
+
+  function imageClicked(imageLink) {
+      console.log('image clicked: ', imageLink);
+      if (imageLink) {
+          window.open(imageLink);
+      }
+  }
+
 </script>
 
 <style>
@@ -59,6 +72,7 @@
   .content-block img.right { padding-left: 20px; padding-bottom: 10px; float: right; }
   .content-block img.top { display: block; margin-left: auto; margin-right: auto; }
   .content-block img.bottom { display: block; margin-left: auto; margin-right: auto; }
+  .content-block img.link { cursor: pointer; }
   .content-block image { border-radius: 25px; }
   .content-block.outlined { border: 1px dashed #999; }
   .content-block.outlined .content { padding: 5px; }
