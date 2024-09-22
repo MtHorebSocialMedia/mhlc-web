@@ -225,14 +225,11 @@
 </template>
 
 <script setup>
-    import { useContentStore } from '@/store/content';
     import { useDonationsStore } from '@/store/donations';
-    import { storeToRefs } from 'pinia';
     import { ref, watch } from 'vue';
     import { validate } from '../utils/validationUtils';
     import paypalDonationRequestSchema from '@mhlc/content-api/schemas/paypalRequest.json';
 
-    const contentStore = useContentStore();
     const tab = ref(1);
     const paypalDonation = ref({
         request: {

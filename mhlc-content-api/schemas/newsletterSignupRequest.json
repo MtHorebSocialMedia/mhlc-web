@@ -1,0 +1,21 @@
+{
+    "title": "NewsletterSignupRequest",
+    "description": "Request object to signup for the church newsletter",
+    "type": "object",
+    "properties": {
+        "firstName": {
+            "type": "string",
+            "isNotBlank": true
+        },
+        "lastName": {
+            "type": "string",
+            "isNotBlank": true
+        },
+        "emailAddress": {
+            "type": "string",
+            "format": "email",
+            "isNotBlank": true
+        }
+    },
+    "required": ["firstName", "lastName", "emailAddress"]
+}
