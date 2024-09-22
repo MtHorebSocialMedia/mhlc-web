@@ -1,8 +1,11 @@
 <template>
   <v-container class="news">
-      <h2>News</h2>
-      <hr />
-      <NewsList />
+    <h2>
+      <v-icon>mdi-image-filter-hdr-outline</v-icon>
+      Happenings from the Mount - News
+    </h2>
+    <hr />
+    <NewsList />
   </v-container>
 </template>
 

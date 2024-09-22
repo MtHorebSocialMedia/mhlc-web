@@ -36,11 +36,11 @@
             </v-col>
         </v-row>
         <v-row>
-            <v-col>
+            <v-col cols="8">
                 <h3>Recent News</h3>
             </v-col>
-            <v-col class="news-link">
-                <router-link to="/news">View All News</router-link>
+            <v-col cols="4" class="news-link">
+                <router-link to="/news">View All</router-link>
             </v-col>
         </v-row>
         <v-row>

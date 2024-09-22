@@ -43,9 +43,20 @@
         >
             <v-col>
                 <v-card class="mx-auto">
-                    <v-card-title class="news-title">
-                        <v-icon size="small">mdi-newspaper-variant-outline</v-icon>
-                        <a href="javascript:void(0)" @click="openFullDetailsDialog(item.id)">{{ item.title }}</a>
+                    <v-card-title>
+                        <v-container class="news-item">
+                            <v-row>
+                                <v-col class="news-title">
+                                    <v-icon size="small">mdi-newspaper-variant-outline</v-icon>
+                                    <a href="javascript:void(0)" @click="openFullDetailsDialog(item.id)">{{ item.title }}</a>
+                                </v-col>
+                                <v-col v-if="!props.recent" class="news-navigation">
+                                    <router-link :to="'/news/'+item.id">
+                                        <v-icon size="x-small">mdi-open-in-new</v-icon>
+                                    </router-link>
+                                </v-col>
+                            </v-row>
+                        </v-container>
                     </v-card-title>
                     <v-card-subtitle class="news-subtitle">
                         <v-container>
@@ -216,12 +227,14 @@
 </script>
 
 <style>
+.news-item { padding-left: 0px; }
 .news-title .v-icon { margin-right: 10px; }
 .news-subtitle .v-container { padding: 0px; }
 .news-subtitle .v-col { padding: 10px; }
 .news-subtitle .news-type { text-align: right; }
 .news-subtitle .news-type .v-chip { margin-left: 5px; }
 .news-image { text-align: center }
+.news-navigation { text-align: right; }
 .v-col.previous { text-align: left; }
 .v-col.page-count { text-align: center; }
 .v-col.next { text-align: right; }

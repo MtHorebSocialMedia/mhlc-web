@@ -6,9 +6,10 @@ async function getVideosList() {
     const feed = await rssParser.parseURL(process.env.YOUTUBE_RSS_FEED);
 
     return feed.items
-        .filter(() => {
+        .filter((video) => {
             // TODO filter out non live streams
-            return true;
+            // Filter out Celebrations of Life (funerals)
+            return !video.title.toLowerCase().includes('celebration of life');
         })
         .map((video) => {
             const [,,id] = video.id.split(':');

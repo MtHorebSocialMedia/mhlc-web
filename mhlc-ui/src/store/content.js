@@ -71,7 +71,7 @@ export const useContentStore = defineStore('content', () => {
 
     return {
         menuItems, contentPages, contentBlocks, newsTypes, recentNews, churchInfo, council, staff, videoList, contentAssistEnabled,
-        fetchContent, getNews, getBlogPosts
+        fetchContent, getNews, getNewsEntry, getBlogPosts, getBlogPost
     };
 });
 
@@ -115,6 +115,10 @@ async function getNews(page) {
     return (await httpClient.get('/api/news', { params: { page } })).data;
 }
 
+async function getNewsEntry(newsId) {
+    return (await httpClient.get(`/api/news/${newsId}`)).data;
+}
+
 async function getChurchInfo() {
     return (await httpClient.get('/api/church-info')).data;
 }
@@ -133,6 +137,10 @@ async function getVideoList() {
 
 async function getBlogPosts(page) {
     return (await httpClient.get('/api/blog-posts', { params: { page } })).data;
+}
+
+async function getBlogPost(blogId) {
+    return (await httpClient.get(`/api/blog-posts/${blogId}`)).data;
 }
 
 if (import.meta.env.MODE === 'development') {
@@ -159,6 +167,11 @@ if (import.meta.env.MODE === 'development') {
         });
 
         mock.onGet("/api/news").reply((config) => {
+            const page = config.params ? config.params.page : 1;
+            return mockClient.get(`./mock/news-entries-${page}.json`);
+        });
+
+        mock.onGet(/\/api\/news\/w+/).reply((config) => {
             const page = config.params ? config.params.page : 1;
             return mockClient.get(`./mock/news-entries-${page}.json`);
         });

@@ -1,9 +1,9 @@
 <template>
   <v-container class="blogs">
       <h2>
-        Blog Posts
-        <v-icon>mdi-image-filter-hdr-outline</v-icon>
         Musings from the Mount
+        <v-icon>mdi-image-filter-hdr-outline</v-icon>
+        Blog Posts
       </h2>
       <hr />
       <BlogsList />
