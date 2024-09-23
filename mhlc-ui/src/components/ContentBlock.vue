@@ -73,7 +73,10 @@
   .content-block img.top { display: block; margin-left: auto; margin-right: auto; }
   .content-block img.bottom { display: block; margin-left: auto; margin-right: auto; }
   .content-block img.link { cursor: pointer; }
-  .content-block image { border-radius: 25px; }
+  .content-block img { border-radius: 25px; }
+  .content-block table { border-collapse: collapse; margin-left: auto; margin-right: auto; }
+  .content-block table th { background: #DDD; padding-left: 10px; padding-right: 10px; border: 1px solid black; }
+  .content-block table td { padding-left: 10px; padding-right: 10px; border: 1px solid black; }
   .content-block.outlined { border: 1px dashed #999; }
   .content-block.outlined .content { padding: 5px; }
 </style>
