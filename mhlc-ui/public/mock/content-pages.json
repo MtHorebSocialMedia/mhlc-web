@@ -1,5 +1,25 @@
 [
     {
+        "id": "7KIAvylJBMpEzpgle6RfHe",
+        "title": "Support",
+        "contentPath": "/content/support",
+        "headerImage": null,
+        "contentBlocks": [
+            {
+                "key": "support/core-value"
+            },
+            {
+                "key": "support/get-involved"
+            },
+            {
+                "key": "support/get-involved/lmm"
+            },
+            {
+                "key": "support/get-involved/welca"
+            }
+        ]
+    },
+    {
         "id": "76J5b3fIdM7lGnRZKkTLj7",
         "title": "Worship",
         "contentPath": "/content/worship",
@@ -22,9 +42,6 @@
             },
             {
                 "key": "worship/get-involved/worship-team"
-            },
-            {
-                "key": "worship/get-involved/special-services"
             }
         ]
     },
@@ -78,20 +95,6 @@
             },
             {
                 "key": "serve/get-involved"
-            }
-        ]
-    },
-    {
-        "id": "7KIAvylJBMpEzpgle6RfHe",
-        "title": "Support",
-        "contentPath": "/content/support",
-        "headerImage": null,
-        "contentBlocks": [
-            {
-                "key": "support/core-value"
-            },
-            {
-                "key": "support/get-involved"
             }
         ]
     },

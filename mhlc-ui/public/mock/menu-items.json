@@ -1,5 +1,12 @@
 [
     {
+        "id": "5nB30CWQzNyT4gRn2oRV0g",
+        "label": "History",
+        "sequence": 5,
+        "path": "/content/history",
+        "parent": "5tf97ADQHKJ0vUNp4da4o"
+    },
+    {
         "id": "6weSwBA3kJc7cHudLHJriz",
         "label": "Blog Posts",
         "sequence": 6,
