@@ -1,5 +1,8 @@
 <template>
-    <v-card width="800" v-if="newsEntry">
+    <v-card
+        v-if="newsEntry"
+        :width="getAssetWidth(800)"
+    >
         <v-card-title class="news-title">
             <v-icon size="small">mdi-newspaper-variant-outline</v-icon>
             {{ newsEntry.title }}
@@ -61,6 +64,7 @@
 <script setup>
     import { useContentStore } from '@/store/content';
     import RichContentRenderer from './RichContentRenderer.vue';
+    import { getAssetWidth } from '../utils/assetUtils';
     import { ref } from 'vue';
     import router from '../router';
 

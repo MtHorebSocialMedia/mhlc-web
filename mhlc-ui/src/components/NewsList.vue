@@ -103,7 +103,7 @@
       v-model="showFullDetails"
       width="auto"
     >
-        <v-card width="800">
+        <v-card :width="getAssetWidth(800)">
             <v-card-title class="news-title">
                 <v-icon size="small">mdi-newspaper-variant-outline</v-icon>
                 {{ fullDetailsToShow.title }}
@@ -174,6 +174,7 @@
     import { useContentStore } from '@/store/content';
     import { storeToRefs } from 'pinia';
     import RichContentRenderer from './RichContentRenderer.vue';
+    import { getAssetWidth } from '../utils/assetUtils';
     import { ref, watch } from 'vue';
 
     const props = defineProps({

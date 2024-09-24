@@ -13,7 +13,7 @@
         </v-row>
       </v-container>
     </v-main>
-    <v-footer>{{ churchInfo.footer }}</v-footer>
+    <v-footer :class="name">{{ churchInfo.footer }}</v-footer>
   </v-app>
 </template>
 
@@ -26,7 +26,8 @@
 
   const contentStore = useContentStore();
   const { churchInfo } = storeToRefs(contentStore);
-  const { lgAndUp } = useDisplay()
+  const { lgAndUp, name } = useDisplay();
+
 </script>
 
 <style>
@@ -34,5 +35,9 @@
     .v-container.main-container > .v-row > .v-col { background: #FFF; }
     .v-container.main-container > .v-row > .v-col.main-view { max-width: 900px; }
     .v-container.main-container > .v-row > .v-col.side-view { margin-left: 20px; }
-    .v-footer { background-color: #CCC !important; border-top: 1px solid #666 !important; max-height: 40px; }
+    .v-footer { background-color: #CCC !important; border-top: 1px solid #666 !important; }
+    .v-footer.lg { max-height: 40px; }
+    .v-footer.md { max-height: 80px; }
+    .v-footer.sm { max-height: 100px; }
+    .v-footer.xs { max-height: 160px; }
 </style>
