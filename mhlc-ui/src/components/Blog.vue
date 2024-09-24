@@ -1,5 +1,8 @@
 <template>
-    <v-card width="800" v-if="blogContent">
+    <v-card
+        v-if="blogContent"
+        :width="getAssetWidth(800)"
+    >
         <v-card-title class="blog-title">
             <v-icon size="small">mdi-post-outline</v-icon>
             {{ blogContent.title }}
@@ -30,6 +33,7 @@
 <script setup>
     import { useContentStore } from '@/store/content';
     import RichContentRenderer from './RichContentRenderer.vue';
+    import { getAssetWidth } from '../utils/assetUtils';
     import { ref } from 'vue';
     import router from '../router';
 

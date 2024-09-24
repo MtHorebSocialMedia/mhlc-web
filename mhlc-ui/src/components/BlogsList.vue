@@ -80,7 +80,7 @@
       v-model="showFullDetails"
       width="auto"
     >
-        <v-card width="800">
+        <v-card :width="getAssetWidth(800)">
             <v-card-title class="blog-title">
                 <v-icon size="small">mdi-post-outline</v-icon>
                 {{ fullDetailsToShow.title }}
@@ -119,6 +119,7 @@
 <script setup>
     import { useContentStore } from '@/store/content';
     import RichContentRenderer from './RichContentRenderer.vue';
+    import { getAssetWidth } from '../utils/assetUtils';
     import { ref } from 'vue';
 
     const contentStore = useContentStore();
@@ -158,4 +159,7 @@
 .blog-subtitle .v-col { padding: 10px; }
 .blog-subtitle .blog-publish-date { text-align: right; }
 .blog-navigation { text-align: right; }
+.v-col.previous { text-align: left; }
+.v-col.page-count { text-align: center; }
+.v-col.next { text-align: right; }
 </style>

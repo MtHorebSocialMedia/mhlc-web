@@ -33,7 +33,7 @@
       v-model="showVideo"
       width="auto"
     >
-        <v-card width="800">
+        <v-card :width="getAssetWidth(800)">
             <v-card-title>
                 {{ title }}
                 <hr />
@@ -45,8 +45,8 @@
                             id="player"
                             class="mx-auto"
                             type="text/html"
-                            width="640"
-                            height="390"
+                            :width="getAssetWidth(640)"
+                            :height="getAssetHeight(640, 390)"
                             :src="`http://www.youtube.com/embed/${video.id}`"
                             :title="video.title"
                             allowfullscreen
@@ -67,6 +67,7 @@
 
 <script setup>
     import { ref, computed } from 'vue';
+    import { getAssetWidth, getAssetHeight } from '../utils/assetUtils';
 
     const props = defineProps({
         video: { type: Object, required: true }
