@@ -1,6 +1,9 @@
 <template>
     <v-container class="leaders">
-        <h2>Our Leaders</h2>
+        <h2>
+          <v-icon>mdi-image-filter-hdr-outline</v-icon>
+          Our Leaders
+        </h2>
         <hr />
         <h3>Staff</h3>
         <StaffList />

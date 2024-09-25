@@ -5,12 +5,16 @@
         Musings from the Mount - Blog Posts
       </h2>
       <hr />
+      <v-alert>
+        <ContentBlock content-block-key="blogs/header" />
+      </v-alert>
       <BlogsList />
   </v-container>
 </template>
 
 <script setup>
   import BlogsList from '@/components/BlogsList.vue'
+  import ContentBlock from '@/components/ContentBlock.vue'
 </script>
 
 <style scoped>

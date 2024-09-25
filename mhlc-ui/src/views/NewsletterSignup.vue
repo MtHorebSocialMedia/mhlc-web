@@ -1,6 +1,9 @@
 <template>
     <v-container class="newsletter-signup">
-        <h2>Newsletter Signup</h2>
+        <h2>
+          <v-icon>mdi-image-filter-hdr-outline</v-icon>
+          Newsletter Signup
+        </h2>
         <hr />
         <NewsletterSignupForm />
       </v-container>

@@ -1,22 +1,24 @@
 <template>
     <v-container>
         <v-row>
-            <v-col class="previous">
-                <v-btn :disabled="blogResults.page <= 1" @click="prevPage()">
-                    <v-icon>mdi-arrow-left-circle-outline</v-icon>
-                    Previous
-                </v-btn>
-            </v-col>
             <v-col class="page-count">
+                <v-icon
+                    :disabled="blogResults.page <= 1"
+                    class="prev-page"
+                    @click="prevPage()"
+                >
+                    mdi-arrow-left-circle-outline
+                </v-icon>
                 <v-chip>
                     Page {{ blogResults.page }} of {{ blogResults.totalPages }}
                 </v-chip>
-            </v-col>
-            <v-col class="next">
-                <v-btn :disabled="blogResults.page >= blogResults.totalPages" @click="nextPage()">
-                    Next
-                    <v-icon>mdi-arrow-right-circle-outline</v-icon>
-                </v-btn>
+                <v-icon
+                    :disabled="blogResults.page >= blogResults.totalPages"
+                    class="next-page"
+                    @click="nextPage()"
+                >
+                    mdi-arrow-right-circle-outline
+                </v-icon>
             </v-col>
         </v-row>
         <v-row
@@ -24,55 +26,60 @@
             v-bind:key="item.id"
         >
             <v-col>
-                <v-card class="mx-auto">
-                    <v-card-title>
-                        <v-container class="blog-item">
-                            <v-row>
-                                <v-col class="blog-title">
-                                    <v-icon size="small">mdi-post-outline</v-icon>
-                                    <a href="javascript:void(0)" @click="openFullDetailsDialog(item.id)">{{ item.title }}</a>
-                                </v-col>
-                                <v-col class="blog-navigation">
-                                    <router-link :to="'/blog-posts/'+item.id">
-                                        <v-icon size="x-small">mdi-open-in-new</v-icon>
-                                    </router-link>
-                                </v-col>
-                            </v-row>
-                        </v-container>
-                    </v-card-title>
-                    <v-card-subtitle class="blog-subtitle">
-                        <v-container>
-                            <v-row>
-                                <v-col class="blog-author">
-                                    {{ item.author.name }}
-                                </v-col>
-                                <v-col class="blog-publish-date">
-                                    <span>{{ formatDateTime(item.publishDate) }}</span>
-                                </v-col>
-                            </v-row>
-                        </v-container>
-                    </v-card-subtitle>
-                    <br />
+                <v-card class="mx-auto" elevation="4">
+                    <v-card-item class="blog-card-item">
+                        <v-card-title class="blog-title">
+                            <a href="javascript:void(0)" @click="openFullDetailsDialog(item.id)">{{ item.title }}</a>
+                        </v-card-title>
+                        <v-card-subtitle class="blog-subtitle">
+                            <v-container>
+                                <v-row v-if="!xs">
+                                    <v-col class="blog-author">
+                                        {{ item.author.name }}
+                                    </v-col>
+                                    <v-col class="blog-publish-date">
+                                        <span>{{ formatDateTime(item.publishDate) }}</span>
+                                    </v-col>
+                                </v-row>
+                                <v-row v-else>
+                                    <v-col class="blog-author-and-publish-date">
+                                        <div>{{ item.author.name }}</div>
+                                        <div>{{ formatDateTime(item.publishDate) }}</div>
+                                    </v-col>
+                                </v-row>
+                            </v-container>
+                        </v-card-subtitle>
+                        <template v-slot:prepend>
+                            <v-icon size="large">mdi-post-outline</v-icon>
+                        </template>
+                        <template v-slot:append>
+                            <router-link :to="'/blog-posts/'+item.id">
+                                <v-icon size="small">mdi-open-in-new</v-icon>
+                            </router-link>
+                        </template>
+                    </v-card-item>
                 </v-card>
             </v-col>
         </v-row>
         <v-row>
-            <v-col class="previous">
-                <v-btn :disabled="blogResults.page <= 1" @click="prevPage()">
-                    <v-icon>mdi-arrow-left-circle-outline</v-icon>
-                    Previous
-                </v-btn>
-            </v-col>
             <v-col class="page-count">
+                <v-icon
+                    :disabled="blogResults.page <= 1"
+                    class="prev-page"
+                    @click="prevPage()"
+                >
+                    mdi-arrow-left-circle-outline
+                </v-icon>
                 <v-chip>
                     Page {{ blogResults.page }} of {{ blogResults.totalPages }}
                 </v-chip>
-            </v-col>
-            <v-col class="next">
-                <v-btn :disabled="blogResults.page >= blogResults.totalPages" @click="nextPage()">
-                    Next
-                    <v-icon>mdi-arrow-right-circle-outline</v-icon>
-                </v-btn>
+                <v-icon
+                    :disabled="blogResults.page >= blogResults.totalPages"
+                    class="next-page"
+                    @click="nextPage()"
+                >
+                    mdi-arrow-right-circle-outline
+                </v-icon>
             </v-col>
         </v-row>
     </v-container>
@@ -121,6 +128,7 @@
     import RichContentRenderer from './RichContentRenderer.vue';
     import { getAssetWidth } from '../utils/assetUtils';
     import { ref } from 'vue';
+    import { useDisplay } from 'vuetify'
 
     const contentStore = useContentStore();
 
@@ -128,6 +136,8 @@
     const currentPage = ref(0);
     const showFullDetails = ref(false);
     const fullDetailsToShow = ref(null);
+
+    const { xs } = useDisplay();
 
     nextPage();
 
@@ -155,11 +165,16 @@
 <style>
 .blog-item { padding-left: 0px; }
 .blog-title .v-icon { margin-right: 10px; }
-.blog-subtitle .v-container { padding: 0px; }
+.blog-title { font-size: 16px; }
+.blog-subtitle .v-container { padding-top: 10px; padding-left: 5px; padding-right: 5px; }
 .blog-subtitle .v-col { padding: 10px; }
 .blog-subtitle .blog-publish-date { text-align: right; }
+.blog-subtitle .blog-author-and-publish-date { text-align: center; }
 .blog-navigation { text-align: right; }
 .v-col.previous { text-align: left; }
 .v-col.page-count { text-align: center; }
 .v-col.next { text-align: right; }
+.v-icon.prev-page { margin-right: 10px; }
+.v-icon.next-page { margin-left: 10px; }
+.blog-card-item .v-card-item__content { border-left: 1px solid #CCC; border-right: 1px solid #CCC; padding: 5px; }
 </style>

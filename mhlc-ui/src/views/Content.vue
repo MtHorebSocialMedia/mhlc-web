@@ -1,6 +1,9 @@
 <template>
   <v-container class="content-page">
-    <h2>{{ page.title }}</h2>
+    <h2>
+      <v-icon>mdi-image-filter-hdr-outline</v-icon>
+      {{ page.title }}
+    </h2>
     <hr />
     <v-row v-if="page.headerImage">
       <v-col>

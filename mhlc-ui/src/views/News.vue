@@ -5,12 +5,16 @@
       Happenings from the Mount - News
     </h2>
     <hr />
+    <v-alert>
+      <ContentBlock content-block-key="news/header" />
+    </v-alert>
     <NewsList />
   </v-container>
 </template>
 
 <script setup>
   import NewsList from '@/components/NewsList.vue'
+  import ContentBlock from '@/components/ContentBlock.vue'
 </script>
 
 <style scoped>
