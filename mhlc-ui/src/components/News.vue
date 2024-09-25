@@ -86,8 +86,8 @@
 </script>
 
 <style>
-.blog-title .v-icon { margin-right: 10px; }
-.blog-subtitle .v-container { padding: 0px; }
-.blog-subtitle .v-col { padding: 10px; }
-.blog-subtitle .blog-publish-date { text-align: right; }
+.news-title .v-icon { margin-right: 10px; }
+.news-subtitle .v-container { padding-top: 10px; padding-left: 5px; padding-right: 5px; }
+.news-subtitle .v-col { padding: 10px; }
+.news-subtitle .blog-publish-date { text-align: right; }
 </style>

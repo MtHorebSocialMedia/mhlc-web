@@ -19,22 +19,24 @@
             </v-col>
         </v-row-->
         <v-row v-if="!props.recent">
-            <v-col class="previous">
-                <v-btn :disabled="newsResults.page <= 1" @click="prevPage()">
-                    <v-icon>mdi-arrow-left-circle-outline</v-icon>
-                    Previous
-                </v-btn>
-            </v-col>
             <v-col class="page-count">
+                <v-icon
+                    :disabled="newsResults.page <= 1"
+                    class="prev-page"
+                    @click="prevPage()"
+                >
+                    mdi-arrow-left-circle-outline
+                </v-icon>
                 <v-chip>
                     Page {{ newsResults.page }} of {{ newsResults.totalPages }}
                 </v-chip>
-            </v-col>
-            <v-col class="next">
-                <v-btn :disabled="newsResults.page >= newsResults.totalPages" @click="nextPage()">
-                    Next
-                    <v-icon>mdi-arrow-right-circle-outline</v-icon>
-                </v-btn>
+                <v-icon
+                    :disabled="newsResults.page >= newsResults.totalPages"
+                    class="next-page"
+                    @click="nextPage()"
+                >
+                    mdi-arrow-right-circle-outline
+                </v-icon>
             </v-col>
         </v-row>
         <v-row
@@ -42,60 +44,73 @@
             v-bind:key="item.id"
         >
             <v-col>
-                <v-card class="mx-auto">
-                    <v-card-title>
-                        <v-container class="news-item">
-                            <v-row>
-                                <v-col class="news-title">
-                                    <v-icon size="small">mdi-newspaper-variant-outline</v-icon>
-                                    <a href="javascript:void(0)" @click="openFullDetailsDialog(item.id)">{{ item.title }}</a>
-                                </v-col>
-                                <v-col v-if="!props.recent" class="news-navigation">
-                                    <router-link :to="'/news/'+item.id">
-                                        <v-icon size="x-small">mdi-open-in-new</v-icon>
-                                    </router-link>
-                                </v-col>
-                            </v-row>
-                        </v-container>
-                    </v-card-title>
-                    <v-card-subtitle class="news-subtitle">
-                        <v-container>
-                            <v-row>
-                                <v-col class="news-date">
-                                    <span>{{ formatDateTime(item.datetime) }}</span>
-                                </v-col>
-                                <v-col class="news-type">
-                                    <v-chip
-                                        v-for="type in item.type"
-                                        v-bind:key="type.id"
-                                    >
-                                        {{ type.type }}
-                                    </v-chip>
-                                </v-col>
-                            </v-row>
-                        </v-container>
-                    </v-card-subtitle>
-                    <br />
+                <v-card class="mx-auto" elevation="4">
+                    <v-card-item :class="getCardItemClass()">
+                        <v-card-title class="news-title">
+                            <v-icon v-if="props.recent" size="small">mdi-post-outline</v-icon>
+                            <a href="javascript:void(0)" @click="openFullDetailsDialog(item.id)">{{ item.title }}</a>
+                        </v-card-title>
+                        <v-card-subtitle class="news-subtitle">
+                            <v-container>
+                                <v-row v-if="!xs">
+                                    <v-col class="news-date">
+                                        <span>{{ formatDateTime(item.datetime) }}</span>
+                                    </v-col>
+                                    <v-col class="news-type">
+                                        <v-chip
+                                            v-for="type in item.type"
+                                            v-bind:key="type.id"
+                                        >
+                                            {{ type.type }}
+                                        </v-chip>
+                                    </v-col>
+                                </v-row>
+                                <v-row v-else>
+                                    <v-col class="news-date-and-type">
+                                        <div>{{ formatDateTime(item.datetime) }}</div>
+                                        <div>
+                                            <v-chip
+                                                v-for="type in item.type"
+                                                v-bind:key="type.id"
+                                            >
+                                                {{ type.type }}
+                                            </v-chip>
+                                        </div>
+                                    </v-col>
+                                </v-row>
+                            </v-container>
+                        </v-card-subtitle>
+                        <template v-if="!props.recent" v-slot:prepend>
+                            <v-icon>mdi-post-outline</v-icon>
+                        </template>
+                        <template v-if="!props.recent" v-slot:append>
+                            <router-link :to="'/news/'+item.id">
+                                <v-icon size="small">mdi-open-in-new</v-icon>
+                            </router-link>
+                        </template>
+                    </v-card-item>
                 </v-card>
             </v-col>
         </v-row>
         <v-row v-if="!props.recent">
-            <v-col class="previous">
-                <v-btn :disabled="newsResults.page <= 1" @click="prevPage()">
-                    <v-icon>mdi-arrow-left-circle-outline</v-icon>
-                    Previous
-                </v-btn>
-            </v-col>
             <v-col class="page-count">
+                <v-icon
+                    :disabled="newsResults.page <= 1"
+                    class="prev-page"
+                    @click="prevPage()"
+                >
+                    mdi-arrow-left-circle-outline
+                </v-icon>
                 <v-chip>
                     Page {{ newsResults.page }} of {{ newsResults.totalPages }}
                 </v-chip>
-            </v-col>
-            <v-col class="next">
-                <v-btn :disabled="newsResults.page >= newsResults.totalPages" @click="nextPage()">
-                    Next
-                    <v-icon>mdi-arrow-right-circle-outline</v-icon>
-                </v-btn>
+                <v-icon
+                    :disabled="newsResults.page >= newsResults.totalPages"
+                    class="next-page"
+                    @click="nextPage()"
+                >
+                    mdi-arrow-right-circle-outline
+                </v-icon>
             </v-col>
         </v-row>
     </v-container>
@@ -176,6 +191,9 @@
     import RichContentRenderer from './RichContentRenderer.vue';
     import { getAssetWidth } from '../utils/assetUtils';
     import { ref, watch } from 'vue';
+    import { useDisplay } from 'vuetify';
+
+    const { xs } = useDisplay();
 
     const props = defineProps({
         recent: { type: Boolean, required: false, default: false }
@@ -196,6 +214,10 @@
         watch(recentNews, () => {
             setRecentNews();
         });
+    }
+
+    function getCardItemClass() {
+        return !props.recent ? 'news-card-item full-news' : 'news-card-item recent-news';
     }
 
     function setRecentNews() {
@@ -229,14 +251,20 @@
 
 <style>
 .news-item { padding-left: 0px; }
+.news-title { font-size: 16px; }
 .news-title .v-icon { margin-right: 10px; }
-.news-subtitle .v-container { padding: 0px; }
+.news-subtitle .v-container { padding-top: 10px; padding-left: 5px; padding-right: 5px; }
 .news-subtitle .v-col { padding: 10px; }
 .news-subtitle .news-type { text-align: right; }
-.news-subtitle .news-type .v-chip { margin-left: 5px; }
+.news-subtitle .news-type .v-chip { margin-left: 4px; }
+.news-subtitle .news-date-and-type { text-align: center; }
+.news-subtitle .news-date-and-type .v-chip { margin-left: 2px; margin-right: 2px; }
 .news-image { text-align: center }
 .news-navigation { text-align: right; }
 .v-col.previous { text-align: left; }
 .v-col.page-count { text-align: center; }
 .v-col.next { text-align: right; }
+.v-icon.prev-page { margin-right: 10px; }
+.v-icon.next-page { margin-left: 10px; }
+.news-card-item.full-news .v-card-item__content { border-left: 1px solid #CCC; border-right: 1px solid #CCC; padding: 5px; }
 </style>

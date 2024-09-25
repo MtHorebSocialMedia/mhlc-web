@@ -1,6 +1,9 @@
 <template>
   <v-container class="home">
-    <h2>Welcome to Mt. Horeb Lutheran Church!</h2>
+    <h2>
+      <v-icon>mdi-image-filter-hdr-outline</v-icon>
+      Welcome to Mt. Horeb Lutheran Church!
+    </h2>
     <hr />
     <v-alert style="text-align: center">
       <ContentBlock contentBlockKey="home/welcome" />

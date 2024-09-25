@@ -1,6 +1,9 @@
 <template>
     <v-container class="contact">
-        <h2>Contact</h2>
+        <h2>
+          <v-icon>mdi-image-filter-hdr-outline</v-icon>
+          Contact
+        </h2>
         <hr />
         <v-alert>
           <ContentBlock contentBlockKey="contact/header" />

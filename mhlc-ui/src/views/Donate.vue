@@ -1,6 +1,9 @@
 <template>
     <v-container class="donate">
-        <h2>Donate Online</h2>
+        <h2>
+          <v-icon>mdi-image-filter-hdr-outline</v-icon>
+          Donate Online
+        </h2>
         <hr />
         <DonationForm />
       </v-container>
