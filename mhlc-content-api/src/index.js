@@ -2,6 +2,7 @@ require('dotenv').config();
 const express = require('express');
 const apiRouter = require('./apiRouter');
 const bodyParser = require('body-parser');
+const rssFeed = require('./rssFeed');
 
 const app = express();
 const port = 3000;
@@ -24,6 +25,8 @@ app.use(express.static(uiPath, {
 }));
 
 app.use('/api', apiRouter);
+
+app.use('/feed', rssFeed);
 
 app.use('/donate/paypal-complete', (req, res) => {
     res.sendFile(indexPath);
