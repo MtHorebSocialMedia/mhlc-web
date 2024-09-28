@@ -1,5 +1,51 @@
 [
     {
+        "id": "4m6hqGDVJt34awGnZYAJn0",
+        "key": "blogs/header",
+        "content": {
+            "nodeType": "document",
+            "data": {},
+            "content": [
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "Check out the musings of our Mt. Horeb family!  Click each link to view the blog post.",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                }
+            ]
+        },
+        "image": null
+    },
+    {
+        "id": "5XH4eSlbPKbMXbOG0w8KA1",
+        "key": "news/header",
+        "content": {
+            "nodeType": "document",
+            "data": {},
+            "content": [
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "Check out the current happenings at Mt. Horeb!  Click each link to view the full news item.",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                }
+            ]
+        },
+        "image": null
+    },
+    {
         "id": "1JTE1X9Hl5ns2SS2LnD0q5",
         "key": "preschool/info",
         "content": {

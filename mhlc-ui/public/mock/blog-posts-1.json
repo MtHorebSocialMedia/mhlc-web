@@ -1,6 +1,200 @@
 {
     "blogs": [
         {
+            "id": "1sZbwbBSfSQrXx1Dvcr7Db",
+            "publishDate": "2024-09-27T00:00",
+            "author": {
+                "name": "Dr. Bob Hawkins",
+                "image": {
+                    "url": "//images.ctfassets.net/3wcsgs8fznel/opaMg5v8fiwc4JuipOaao/519fff55dd7c90e53ea1e24d2595d5f1/dr-bob.jpg",
+                    "details": {
+                        "size": 5230,
+                        "image": {
+                            "width": 150,
+                            "height": 189
+                        }
+                    },
+                    "fileName": "dr-bob.jpg",
+                    "contentType": "image/jpeg"
+                }
+            },
+            "title": "In Mt. Horeb’s Greenery Where God Paints the Scenery…",
+            "content": {
+                "data": {},
+                "content": [
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "Meandering home last summer on South Carolina’s not-so-highways and byways in order to avoid the horrendous construction mess on I-26 between the Charleston and I-95 interchange, I inadvertently made a wrong turn. After half a mile, I realized we were not on the road we wanted, but around the next bend we entered holy ground. Abutting the country road was one of the oldest church campground sites in the country, Cyprus Methodist Camp Ground, established in 1794, a cluster of thirty-four tents (actually rough frame cabins with dirt floors) facing the arbor, an open space for gathering, praying, preaching, and singing. Eventually a Tabernacle, an open-sided pavilion, was built to shelter folks. Farther back is a cemetery dating to the early 1800s.",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    },
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "The layout of the Cyprus campground is typical of many which dotted the landscape of South Carolina beginning in the late eighteenth century. The camps remain the on-going evidence of the commitment of early evangelical Christians led primarily by Methodist, Baptist, and Presbyterian clergy. Cyprus Methodist Camp Ground and a handful of others continue to hold annual meetings, reflecting the revivalist zeal of the Second Great Awakening (1790-1845) to serve a wide flung frontier population in a largely unsettled, rural landscape. Methodists in particular, both in rural England and North America, commissioned circuit riding pastors to gather folks for worship where sufficient land and potential housing could be provided for sometimes thousands of folks who might stay for a week to a month. The venerable Francis Asbury [1745-1815], first Methodist Bishop in North America, preached on five separate occasions at Cyprus campground. Shady Grove, another campground, was established by freed slaves after the War Between the States. In 1870 a local rice planter gave former slaves struggling to establish themselves a parcel of land in Dorchester County for a camp site if they would help with the harvest. Shady Grove, named after a sheltering grove on the land, is now the largest of the four remaining Methodist camp grounds in Dorchester County and continues to host revivals each October.",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    },
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "The camps and their worship traditions were shaped by frontier folks who were granted religious freedom and economic possibilities after the Revolutionary War. The revivals attracted folks inspired by social reform, temperance, suffrage for men AND women, the renouncing of slavery and discrimination – how do we continue to ignore this? [St. Paul already had made his point about this in Romans 12 as well as in his letter to Philemon!]. Arson has on occasion more recently destroyed a number of “tents,” particularly in African American campgrounds. Originally, women and African Americans both were welcomed and given wider responsibilities. Revival meetings the camps hosted attracted almost unimaginable numbers. The largest of any was the 1801 Cane Ridge Revival in Kentucky organized by Presbyterians attracting tens of thousands of people over the course of a week in August. [It is also the birthplace of my own family’s religious tradition, the Disciples of Christ, organized by Barton W. Stone, Thomas and son Alexander Campbell, Cumberland Presbyterian pastors. Alexander once",
+                                "nodeType": "text"
+                            },
+                            {
+                                "data": {},
+                                "marks": [
+                                    {
+                                        "type": "italic"
+                                    }
+                                ],
+                                "value": " tried",
+                                "nodeType": "text"
+                            },
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": " to preach at my home congregation in Indiana, but every time he entered the pulpit, the babies present began to caterwaul.]",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    },
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "Meanwhile, if you are wondering about Colonial era Lutherans, that is a convoluted story! First, one must remember that Lutherans were already long formed by the European catholic tradition, its worship patterns as well as its ecclesiology [i.e., church organization], and its understanding of Biblical study, preaching, and the sacraments. On the other hand, camp meeting folks were in large part creating out of nothing other than their desire to gather with other folks and be assured of God’s presence and blessing for their often difficult lives. “Religious brands” weren’t as significant as simply the need to ask God’s blessing on communities of faith and on life passages, including baptisms, weddings, and funerals. The Lutherans settling the southeast were largely German speaking which somewhat isolated them and made difficult joining in the ecstatic frenzy of camp meeting evangelizing. Nevertheless, Lutherans by the scores began to attend camp meeting revivals, causing considerable consternation among Lutheran governing bodies. NC Synod, founded in 1803, was comprised of congregations from both North and South Carolina. NC parishes in particular became a battleground of folks who thought camp meeting revivals were a work of the devil, and others who found no problem working with other Christians, including their pastors, who encouraged such evangelical endeavors. It was not pleasant. The SC congregations established the SC Synod in 1823 in part simply to avoid the animosity bubbling north of the border, but the beguiling popularity of camp meeting revivals continued to fester for a long while. A number of congregations in our immediate area called pastors from each of the opposing camps who would preach on alternate Sundays, not a good solution in the end, let alone the heartbreak and confusion a handful of controversial and imbittered clergy can cause their flocks, prompting them to make all manner of bizarre decisions. Matters were not reconciled until 1922, although we witness such divisive behavior even now. [Hearty thanks to my seminary Church History colleague who clarified this morass of bickering Lutherans.]",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    },
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "The recent Covid pandemic provided us not only with the opportunity [which was really always there] as well as the absolute need to meet outdoors in the grove of magnolias across the street while weather permitted. One learns a great deal and discovers happy surprises of faith in such a move -- and we did. While there was much to do to get set up and be ready for Sunday worship, we, along with many other congregations, learned that God can in fact and deed be worshiped anyplace.",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    },
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "That being said, while the scheduled “Outdoor Worship” looms on the weekend, there is also a hurricane brooding now off the Florida coast threatening us with sogginess even if the eye of the storm comes nowhere near us. Such is the stuff of clergy, choir, property, hospitality, and outreach committees’ anxiety and frustration. A decision will have to be reached before Sunday at 10 AM – are we out or in? It is difficult to keep minds and hearts on the Lord when our keesters are plopped in wet chairs and raindrops keep fallin’ on our heads…. Also, post-liturgy water-logged hamburgers have never been all that appealing. We have had the foresight to prepare liturgy Plan A – Outdoors and Plan B – Inside. There is an important teaching to be learned because of this, and some of our needed clarity for what to do is included in the readings chosen for outdoors based in part on the propers for Stewardship of Creation.",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    },
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "It is, in fact, meet, right, and proper that we choose different readings if we are planning a designated, one-time, outdoor liturgy. It’s not just another day, no matter what Miss Scarlet might claim. We won’t be moving organ and piano outside. We WILL be singing some well-known pieces without accompaniment – imagine! There will be trains, critters, and traffic lurking, even some curious gawking. We will intentionally focus on the wonders of God’s creation – we’re obviously standing and sitting in it under those impressive old trees with greenery all around. Might we notice the beauty and be quick to give thanks? It is also a reminder that we were created to be God’s stewards of this fragile world, not greedy, self-indulgent consumers blind to all but our wants.",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    },
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "The First Reading [Job 38:1-7, 12-20; 42:1-3] is God’s expectation that we wake up and smell the coffee. We can schedule and decide in advance all we want [and Lutherans LUUUUVVV to schedule in advance], but God doesn’t always kowtow to our projected plans [God already warned us in Isaiah 55:8-9: ",
+                                "nodeType": "text"
+                            },
+                            {
+                                "data": {},
+                                "marks": [
+                                    {
+                                        "type": "italic"
+                                    }
+                                ],
+                                "value": "For my thoughts are not your thoughts, nor are your ways my ways, says the Lord. For as the heavens are higher than the earth, so are my ways higher than your ways and my thoughts than your thoughts",
+                                "nodeType": "text"
+                            },
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": ".] This, of course, includes the weather.",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    },
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "God nails Job and us between the eyes in the first appointed reading, asking all: ",
+                                "nodeType": "text"
+                            },
+                            {
+                                "data": {},
+                                "marks": [
+                                    {
+                                        "type": "italic"
+                                    }
+                                ],
+                                "value": "Who is this that darkens counsel by words without knowledge? Gird up your loins like a man; I will question you, and you shall declare to me. Where were you when I laid the foundation of the earth? Tell me, if you have understanding",
+                                "nodeType": "text"
+                            },
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "… Watching the Worship Committee’s frustration last Sunday after the service for getting two different places and patterns of worship readied, along with communicating to all others responsible for this and that including a picnic in the park […or Fellowship Hall] is a reminder of what goes into our congregation’s worship and events every blessed day of the year, come rain or shine, in sickness or in health, not to mention highway construction closing the I-26 exit onto Columbia Avenue. Things don’t simply get put in place by a stray angel or two; brothers and sisters in faith spend long hours and hard work making sure things go smoothly when we walk in the door or out into the grove. As much is done behind the scenes as when we’re “…all in our places with sun-shining faces! Weather reports are merely predictions, but fundamentally, so are our best-laid plans. We hope and pray that things unfold smoothly, and yes, they usually do. But whatever we do this coming Sunday, it finally, as always, remains in the hands of God. As Luther supposedly said on his deathbed, “It’s true. We’re beggars.”",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    },
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "The early frontier types, whether Evangelicals in their campground or Lutherans, Roman Catholics, and Episcopalians in their early frame or brick churches, were likely far more used to the vagaries of the elements. The uncertainties we face as the weekend unfolds should teach us the humility God was hoping for in the first of Sunday’s OUTDOOR readings. Whatever happens, the Second INDOOR Reading from James 5 is a most welcome reminder that our attention is to be on the welfare of the community and others no matter WHERE we are, whether joyous or in need, and our ready reliance on the One who has provided since time began for our every need and all that is required to sustain this breathtaking, stunning, yet oh! so fragile creation we call home.",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    }
+                ],
+                "nodeType": "document"
+            }
+        },
+        {
             "id": "2scS1e9gKKumiZZwlZs7SC",
             "publishDate": "2024-09-20T00:00",
             "author": {

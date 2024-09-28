@@ -222,6 +222,26 @@ async function getAsset(assetId) {
     return asset;
 }
 
+async function getSpecialAnnouncements(page) {
+    const currentDate = new Date().toISOString();
+    const { items } = await client.getEntries({
+        content_type: 'specialAnnouncement',
+        'fields.publishBeginDate[lte]': currentDate,
+        'fields.publishEndDate[gte]': currentDate,
+        order: '-fields.publishBeginDate'
+    });
+    return items.map((item) => {
+        return {
+            id: item.sys.id,
+            publishBeginDate: item.fields.publishBeginDate,
+            publishEndDate: item.fields.publishEndDate,
+            title: item.fields.title,
+            description: item.fields.description,
+            type: item.fields.type
+        };
+    });
+}
+
 module.exports = {
     getMenuItems,
     getContentPages,
@@ -234,5 +254,6 @@ module.exports = {
     getStaff,
     getBlogPosts,
     getBlogPost,
+    getSpecialAnnouncements,
     getAsset
 };

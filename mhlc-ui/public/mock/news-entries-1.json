@@ -1,9 +1,9 @@
 {
     "news": [
         {
-            "id": "211F3uOkNjnmJYzqVJ88K7",
-            "datetime": "2024-09-20T00:00",
-            "title": "Worship Team",
+            "id": "2NKd1Ca8EZlzROsUyLjLcy",
+            "datetime": "2024-09-27T00:00",
+            "title": "We Care",
             "description": {
                 "data": {},
                 "content": [
@@ -13,19 +13,42 @@
                             {
                                 "data": {},
                                 "marks": [],
-                                "value": "We meet this Sunday, September 22, after the service.",
+                                "value": "Most needed items for ",
                                 "nodeType": "text"
-                            }
-                        ],
-                        "nodeType": "paragraph"
-                    },
-                    {
-                        "data": {},
-                        "content": [
+                            },
+                            {
+                                "data": {},
+                                "marks": [
+                                    {
+                                        "type": "underline"
+                                    },
+                                    {
+                                        "type": "bold"
+                                    }
+                                ],
+                                "value": "October",
+                                "nodeType": "text"
+                            },
                             {
                                 "data": {},
                                 "marks": [],
-                                "value": "\n",
+                                "value": " are jam/jelly (plastic jars), cereal, chili beans, baked beans, Vienna sausages, family size soup, ramen noodles/soup, spaghetti sauce, SpaghettiOs, and oatmeal. They ",
+                                "nodeType": "text"
+                            },
+                            {
+                                "data": {},
+                                "marks": [
+                                    {
+                                        "type": "underline"
+                                    }
+                                ],
+                                "value": "always",
+                                "nodeType": "text"
+                            },
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": " need pet food, laundry detergent, dish soap, and toiletries.",
                                 "nodeType": "text"
                             }
                         ],
@@ -38,19 +61,15 @@
                 {
                     "id": "5ktejUJ8noonowWZUs0uN7",
                     "type": "General"
-                },
-                {
-                    "id": "3Zl7eAG9eIPOZLPyA11Uj8",
-                    "type": "Event"
                 }
             ],
             "image": null,
             "attachments": []
         },
         {
-            "id": "7A7ETCA5Wy8mnH4sSWVkIT",
-            "datetime": "2024-09-20T00:00",
-            "title": "Bulletin for September 22",
+            "id": "NR6qOX56t9f4guxA6jL3Y",
+            "datetime": "2024-09-27T00:00",
+            "title": "Sweatshirts for Newberry Boys Farm",
             "description": {
                 "data": {},
                 "content": [
@@ -60,7 +79,81 @@
                             {
                                 "data": {},
                                 "marks": [],
-                                "value": "Check out the bulletin for this Sunday's service!",
+                                "value": "Agape Circle has been collecting sweatshirts for the Boys at Newberry Boys Farm. We could use your help! If you would like to contribute to this project, bring any kind of new sweatshirt to our collection box in the Narthex. Sweatshirts can be any size or color, crew neck, zip up, or hoodie. We will collect through Sunday, Oct 20th and deliver on Thursday October 24th. ",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    },
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "The boys range in age from first grade to twelfth grade. Their sizes vary, so the more we have the more likely we will have something for everyone! Thank you for any help you can give. ",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    }
+                ],
+                "nodeType": "document"
+            },
+            "type": [
+                {
+                    "id": "5ktejUJ8noonowWZUs0uN7",
+                    "type": "General"
+                }
+            ],
+            "image": null,
+            "attachments": []
+        },
+        {
+            "id": "F1ULZK72cJ7MbaeIjnmVf",
+            "datetime": "2024-09-27T00:00",
+            "title": "Camp Can-Do Update",
+            "description": {
+                "data": {},
+                "content": [
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "Sunday, October 6, we will recognize students who have been working on their first milestone – The Lord’s Prayer. John Adams, Gabriel Morgan and Hazel Jordan have worked very hard on discussing, learning, and practicing the Lord’s Prayer. They will participate in leading the Lord’s Prayer during the worship service. We are thankful for and proud of these children and their families. Please continue to support and encourage them on their faith journey.",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    }
+                ],
+                "nodeType": "document"
+            },
+            "type": [
+                {
+                    "id": "5ktejUJ8noonowWZUs0uN7",
+                    "type": "General"
+                }
+            ],
+            "image": null,
+            "attachments": []
+        },
+        {
+            "id": "2Hslx3mpRwq0KRYtUKWeTs",
+            "datetime": "2024-09-27T00:00",
+            "title": "Bulletin for September 29",
+            "description": {
+                "data": {},
+                "content": [
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "Check out the September 29 bulletin for the outdoor service!",
                                 "nodeType": "text"
                             }
                         ],
@@ -78,21 +171,62 @@
             "image": null,
             "attachments": [
                 {
-                    "title": "Bulletin for September 22, 2024",
+                    "title": "September 29 bulletin",
                     "file": {
-                        "url": "//assets.ctfassets.net/3wcsgs8fznel/7N30QNKH5bJm09PQ8pH90l/d10ed49794fbe93b4bb676e860986529/bulletin0922.pdf",
+                        "url": "//assets.ctfassets.net/3wcsgs8fznel/6vJlkf2OUIxJ0Eg7bgB93c/c9a623d50f2652f350a947ad70b12f55/Bulletinoutdoor.pdf",
                         "details": {
-                            "size": 1298824
+                            "size": 654849
                         },
-                        "fileName": "bulletin0922.pdf",
+                        "fileName": "Bulletinoutdoor.pdf",
                         "contentType": "application/pdf"
                     }
                 }
             ]
         },
         {
-            "id": "2zNvcY6QedtI8fR6JcI90L",
-            "datetime": "2024-09-20T00:00",
+            "id": "35anrS2ohq88sEOz2RAieZ",
+            "datetime": "2024-09-27T00:00",
+            "title": "Outdoor Service",
+            "description": {
+                "data": {},
+                "content": [
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "This Sunday, September 29th at 10am, come join us for worship outside.  ",
+                                "nodeType": "text"
+                            },
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "You can sit in your car and listen to the service (tune to FM 87.9) or bring a chair to sit outdoors. Hot dogs, hamburgers, fixings and beverage will be provided after the service. To-Go Boxes will be provided to those who are unable to maneuver the un-even ground.",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    }
+                ],
+                "nodeType": "document"
+            },
+            "type": [
+                {
+                    "id": "3Zl7eAG9eIPOZLPyA11Uj8",
+                    "type": "Event"
+                },
+                {
+                    "id": "5ktejUJ8noonowWZUs0uN7",
+                    "type": "General"
+                }
+            ],
+            "image": null,
+            "attachments": []
+        },
+        {
+            "id": "3GAg8BJ3PeMGNhfXhHiUgg",
+            "datetime": "2024-09-27T00:00",
             "title": "Prayer Requests",
             "description": {
                 "data": {},
@@ -103,7 +237,7 @@
                             {
                                 "data": {},
                                 "marks": [],
-                                "value": "–Jerry Bundrick",
+                                "value": "Þ Jerry Bundrick",
                                 "nodeType": "text"
                             }
                         ],
@@ -115,7 +249,7 @@
                             {
                                 "data": {},
                                 "marks": [],
-                                "value": "–Gene Teal",
+                                "value": "Þ Gene Teal",
                                 "nodeType": "text"
                             }
                         ],
@@ -127,7 +261,7 @@
                             {
                                 "data": {},
                                 "marks": [],
-                                "value": "–Andrea Hollis",
+                                "value": "Þ Ann B. Shealy",
                                 "nodeType": "text"
                             }
                         ],
@@ -139,7 +273,7 @@
                             {
                                 "data": {},
                                 "marks": [],
-                                "value": "–Ann B. Shealy",
+                                "value": "Þ Randy Addy",
                                 "nodeType": "text"
                             }
                         ],
@@ -151,43 +285,7 @@
                             {
                                 "data": {},
                                 "marks": [],
-                                "value": "–Randy Addy",
-                                "nodeType": "text"
-                            }
-                        ],
-                        "nodeType": "paragraph"
-                    },
-                    {
-                        "data": {},
-                        "content": [
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": "–Susan Addy",
-                                "nodeType": "text"
-                            }
-                        ],
-                        "nodeType": "paragraph"
-                    },
-                    {
-                        "data": {},
-                        "content": [
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": "–Family of Tammy Shealy on her death",
-                                "nodeType": "text"
-                            }
-                        ],
-                        "nodeType": "paragraph"
-                    },
-                    {
-                        "data": {},
-                        "content": [
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": "–Ann S. Shealy and entire family of Charlie Shealy on his death",
+                                "value": "Þ Susan Addy",
                                 "nodeType": "text"
                             }
                         ],
@@ -206,9 +304,9 @@
             "attachments": []
         },
         {
-            "id": "2z34dr9Yu9EuExlAZHW0l9",
-            "datetime": "2024-09-12T00:00",
-            "title": "LutheReaders",
+            "id": "1I1zzwgJdvjMC3R1R5TNYl",
+            "datetime": "2024-09-27T00:00",
+            "title": "Social Ministry Team",
             "description": {
                 "data": {},
                 "content": [
@@ -218,7 +316,13 @@
                             {
                                 "data": {},
                                 "marks": [],
-                                "value": "We meet Tuesday, September 17, at 5:30pm.",
+                                "value": "We meet ",
+                                "nodeType": "text"
+                            },
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "Thursday, October 3, at 10am.",
                                 "nodeType": "text"
                             }
                         ],
@@ -228,108 +332,22 @@
                 "nodeType": "document"
             },
             "type": [
-                {
-                    "id": "5ktejUJ8noonowWZUs0uN7",
-                    "type": "General"
-                },
-                {
-                    "id": "3Zl7eAG9eIPOZLPyA11Uj8",
-                    "type": "Event"
-                }
-            ],
-            "image": null,
-            "attachments": []
-        },
-        {
-            "id": "qN2bbRep64fS7Rrmuh0gs",
-            "datetime": "2024-09-12T00:00",
-            "title": "Agape",
-            "description": {
-                "data": {},
-                "content": [
-                    {
-                        "data": {},
-                        "content": [
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": "We will meet Thursday, September 19, at 6:30pm.",
-                                "nodeType": "text"
-                            }
-                        ],
-                        "nodeType": "paragraph"
-                    },
-                    {
-                        "data": {},
-                        "content": [
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": "\n",
-                                "nodeType": "text"
-                            }
-                        ],
-                        "nodeType": "paragraph"
-                    }
-                ],
-                "nodeType": "document"
-            },
-            "type": [
-                {
-                    "id": "5ktejUJ8noonowWZUs0uN7",
-                    "type": "General"
-                },
-                {
-                    "id": "3Zl7eAG9eIPOZLPyA11Uj8",
-                    "type": "Event"
-                }
-            ],
-            "image": null,
-            "attachments": []
-        },
-        {
-            "id": "MsDd52TIWckw72IykUTzu",
-            "datetime": "2024-09-12T00:00",
-            "title": "Youth Meeting",
-            "description": {
-                "data": {},
-                "content": [
-                    {
-                        "data": {},
-                        "content": [
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": "We will have our first youth meeting back from the summer break this Sunday, September 15, 5pm-7pm in the Fellowship Hall with pizza, games, and planning for the upcoming year. ",
-                                "nodeType": "text"
-                            }
-                        ],
-                        "nodeType": "paragraph"
-                    }
-                ],
-                "nodeType": "document"
-            },
-            "type": [
-                {
-                    "id": "5ktejUJ8noonowWZUs0uN7",
-                    "type": "General"
-                },
                 {
                     "id": "3Zl7eAG9eIPOZLPyA11Uj8",
                     "type": "Event"
                 },
                 {
-                    "id": "3BITHvpc2z0yYfvxgTUQbK",
-                    "type": "Youth"
+                    "id": "5ktejUJ8noonowWZUs0uN7",
+                    "type": "General"
                 }
             ],
             "image": null,
             "attachments": []
         },
         {
-            "id": "7J2jnsVpff6wmg36NYGoQX",
-            "datetime": "2024-09-12T00:00",
-            "title": "Blessing of Teachers",
+            "id": "7xbz1jP3lyoQnSBl35oksh",
+            "datetime": "2024-09-27T00:00",
+            "title": "Dorcas Circle",
             "description": {
                 "data": {},
                 "content": [
@@ -339,7 +357,13 @@
                             {
                                 "data": {},
                                 "marks": [],
-                                "value": "This Sunday, September 15, we will have a Blessing of Teachers during the worship service.",
+                                "value": "We meet ",
+                                "nodeType": "text"
+                            },
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "Wednesday, October 2, at 11am. ",
                                 "nodeType": "text"
                             }
                         ],
@@ -358,9 +382,9 @@
             "attachments": []
         },
         {
-            "id": "7Eo1KZzWKLtvJjD38Lg2lO",
-            "datetime": "2024-09-12T00:00",
-            "title": "Friendship Circle",
+            "id": "4H2BE89OrOe8o9k3LzBArr",
+            "datetime": "2024-09-27T00:00",
+            "title": "Leisure Timers",
             "description": {
                 "data": {},
                 "content": [
@@ -370,7 +394,7 @@
                             {
                                 "data": {},
                                 "marks": [],
-                                "value": "We will meet Friday, September 20, at 11:30am.",
+                                "value": "We meet Tuesday, October 1, at 9am for apple picking. We will also visit Lutheridge since we will be in the vicinity.",
                                 "nodeType": "text"
                             }
                         ],
@@ -383,19 +407,15 @@
                 {
                     "id": "5ktejUJ8noonowWZUs0uN7",
                     "type": "General"
-                },
-                {
-                    "id": "3Zl7eAG9eIPOZLPyA11Uj8",
-                    "type": "Event"
                 }
             ],
             "image": null,
             "attachments": []
         },
         {
-            "id": "tiTa2FLYECHyvtkFDPLPJ",
-            "datetime": "2024-09-12T00:00",
-            "title": "Stewardship Team",
+            "id": "1JJQcBFXP0Ix7tzwvSYmwB",
+            "datetime": "2024-09-27T00:00",
+            "title": "Lutheran Men's Sunday",
             "description": {
                 "data": {},
                 "content": [
@@ -405,42 +425,23 @@
                             {
                                 "data": {},
                                 "marks": [],
-                                "value": "We meet Wednesday, September 18, at 5:15pm in the Fellowship Hall.",
+                                "value": "Mark your calendar",
                                 "nodeType": "text"
-                            }
-                        ],
-                        "nodeType": "paragraph"
-                    }
-                ],
-                "nodeType": "document"
-            },
-            "type": [
-                {
-                    "id": "5ktejUJ8noonowWZUs0uN7",
-                    "type": "General"
-                },
-                {
-                    "id": "3Zl7eAG9eIPOZLPyA11Uj8",
-                    "type": "Event"
-                }
-            ],
-            "image": null,
-            "attachments": []
-        },
-        {
-            "id": "1oixAIRqoE9rS7mMDzh7KF",
-            "datetime": "2024-09-12T00:00",
-            "title": "School Supply Drive",
-            "description": {
-                "data": {},
-                "content": [
-                    {
-                        "data": {},
-                        "content": [
+                            },
+                            {
+                                "data": {},
+                                "marks": [
+                                    {
+                                        "type": "bold"
+                                    }
+                                ],
+                                "value": " ",
+                                "nodeType": "text"
+                            },
                             {
                                 "data": {},
                                 "marks": [],
-                                "value": "The drive will end this Sunday, September 15th. All collections will be given to local elementary schools. A box is in the Narthex with a list of much needed items.",
+                                "value": "for Lutheran Men’s Sunday on October 6th.",
                                 "nodeType": "text"
                             }
                         ],
@@ -460,5 +461,5 @@
         }
     ],
     "page": 1,
-    "totalPages": 4
+    "totalPages": 5
 }
