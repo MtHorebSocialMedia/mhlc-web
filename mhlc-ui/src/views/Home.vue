@@ -5,6 +5,7 @@
       Welcome to Mt. Horeb Lutheran Church!
     </h2>
     <hr />
+    <SpecialAnnoucements />
     <v-alert style="text-align: center">
       <ContentBlock contentBlockKey="home/welcome" />
     </v-alert>
@@ -26,6 +27,7 @@
 <script setup>
   import { getAssetWidth, getAssetHeight } from '../utils/assetUtils';
   import ContentBlock from '../components/ContentBlock.vue';
+  import SpecialAnnoucements from '../components/SpecialAnnouncements.vue';
 </script>
 
 <style scoped>

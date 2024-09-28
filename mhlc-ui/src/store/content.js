@@ -15,6 +15,7 @@ export const useContentStore = defineStore('content', () => {
     const staff = ref([]);
     const council = ref([]);
     const videoList = ref([]);
+    const specialAnnouncements = ref([]);
     const contentAssistEnabled = ref(false);
 
     async function fetchContent() {
@@ -27,7 +28,8 @@ export const useContentStore = defineStore('content', () => {
             newsTypesResp,
             videoListResp,
             councilResp,
-            staffResp
+            staffResp,
+            specialAnnouncementsResp
         ] = await Promise.all([
             getChurchInfo(),
             getMenuItems(),
@@ -37,6 +39,7 @@ export const useContentStore = defineStore('content', () => {
             getVideoList(),
             getCouncil(),
             getStaff(),
+            getSpecialAnnoucements(),
             loadNews(1)
         ]);
 
@@ -48,6 +51,7 @@ export const useContentStore = defineStore('content', () => {
         videoList.value = videoListResp;
         council.value = councilResp;
         staff.value = staffResp;
+        specialAnnouncements.value = specialAnnouncementsResp;
     }
 
     async function loadNews(page) {
@@ -66,7 +70,7 @@ export const useContentStore = defineStore('content', () => {
     });
 
     return {
-        menuItems, contentPages, contentBlocks, newsTypes, recentNews, churchInfo, council, staff, videoList, contentAssistEnabled,
+        menuItems, contentPages, contentBlocks, newsTypes, recentNews, churchInfo, council, staff, videoList, specialAnnouncements, contentAssistEnabled,
         fetchContent, getNews, getNewsEntry, getBlogPosts, getBlogPost
     };
 });
@@ -131,6 +135,10 @@ async function getVideoList() {
     return (await httpClient.get('/api/video-list')).data;
 }
 
+async function getSpecialAnnoucements() {
+    return (await httpClient.get('/api/special-announcements')).data;
+}
+
 async function getBlogPosts(page) {
     return (await httpClient.get('/api/blog-posts', { params: { page } })).data;
 }
@@ -178,6 +186,10 @@ if (import.meta.env.MODE === 'development') {
 
         mock.onGet("/api/staff").reply(() => {
             return mockClient.get('./mock/staff.json');
+        });
+
+        mock.onGet("/api/special-announcements").reply(() => {
+            return mockClient.get('./mock/special-annoucements.json');
         });
 
         mock.onGet("/api/council").reply(() => {

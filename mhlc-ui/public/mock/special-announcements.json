@@ -1,0 +1,27 @@
+[
+    {
+        "id": "7wesQQ8Flz6nlFPBptsWpp",
+        "publishBeginDate": "2024-09-28T00:00-04:00",
+        "publishEndDate": "2024-09-30T00:00-04:00",
+        "title": "Test",
+        "description": {
+            "data": {},
+            "content": [
+                {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": "This is a test announcement!",
+                            "nodeType": "text"
+                        }
+                    ],
+                    "nodeType": "paragraph"
+                }
+            ],
+            "nodeType": "document"
+        },
+        "type": "info"
+    }
+]

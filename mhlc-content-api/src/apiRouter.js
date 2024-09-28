@@ -10,7 +10,8 @@ const {
     getBlogPost,
     getChurchInfo,
     getCouncil,
-    getStaff
+    getStaff,
+    getSpecialAnnouncements
 } = require('./contentService');
 const { getPaypalUrl } = require('./donationService');
 const { getVideosList } = require('./youtubeService');
@@ -159,6 +160,19 @@ router.get('/video-list',
             try {
                 const videos = await getVideosList();
                 res.send(videos);
+            } catch(err) {
+                next(err);
+            }
+        })();
+    }
+);
+
+router.get('/special-announcements',
+    (req, res, next) => {
+        (async function() {
+            try {
+                const announcements = await getSpecialAnnouncements();
+                res.send(announcements);
             } catch(err) {
                 next(err);
             }

@@ -1,453 +1,8 @@
 {
     "news": [
         {
-            "id": "7umuuYaPRnn7pGGnER2FLN",
-            "datetime": "2024-09-08T00:00",
-            "title": "Calling All Bakers!",
-            "description": {
-                "data": {},
-                "content": [
-                    {
-                        "data": {},
-                        "content": [
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": "Put your aprons on! We need baked goods for our booth at the Labor Day festival. Cookies, brownies, cakes and other delectables are welcome! Sign up for your tasty treats at the Welcome Center in the Narthex. Goodies should be dropped off at the church by Sunday, September 1st.",
-                                "nodeType": "text"
-                            }
-                        ],
-                        "nodeType": "paragraph"
-                    }
-                ],
-                "nodeType": "document"
-            },
-            "type": [
-                {
-                    "id": "5ktejUJ8noonowWZUs0uN7",
-                    "type": "General"
-                }
-            ],
-            "image": null,
-            "attachments": []
-        },
-        {
-            "id": "1w2nTuXjMP84aL6rWAd6vV",
-            "datetime": "2024-09-05T00:00",
-            "title": "Lutheran Men",
-            "description": {
-                "data": {},
-                "content": [
-                    {
-                        "data": {},
-                        "content": [
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": "Don’t forget we meet this Monday, September 9",
-                                "nodeType": "text"
-                            },
-                            {
-                                "data": {},
-                                "marks": [
-                                    {
-                                        "type": "superscript"
-                                    }
-                                ],
-                                "value": "th",
-                                "nodeType": "text"
-                            },
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": " at 6:30pm. Our guest will be Bob Oldendick, a political science professor at the university. One of his topics will be “Changing the Constitution?”",
-                                "nodeType": "text"
-                            }
-                        ],
-                        "nodeType": "paragraph"
-                    }
-                ],
-                "nodeType": "document"
-            },
-            "type": [
-                {
-                    "id": "5ktejUJ8noonowWZUs0uN7",
-                    "type": "General"
-                },
-                {
-                    "id": "3Zl7eAG9eIPOZLPyA11Uj8",
-                    "type": "Event"
-                }
-            ],
-            "image": null,
-            "attachments": []
-        },
-        {
-            "id": "1gNqwt3zDuah4AHruO3Tcu",
-            "datetime": "2024-09-01T00:00",
-            "title": "September 2024 Newsletter",
-            "description": {
-                "nodeType": "document",
-                "data": {},
-                "content": [
-                    {
-                        "nodeType": "paragraph",
-                        "data": {},
-                        "content": [
-                            {
-                                "nodeType": "text",
-                                "value": "Read the monthly Mt. Horeb newsletter for September!",
-                                "marks": [],
-                                "data": {}
-                            }
-                        ]
-                    }
-                ]
-            },
-            "type": [
-                {
-                    "id": "2pWRSRQB8VE40PR4Tuncyc",
-                    "type": "Newsletters"
-                }
-            ],
-            "image": null,
-            "attachments": [
-                {
-                    "title": "September 2024 Newsletter",
-                    "file": {
-                        "url": "//assets.ctfassets.net/3wcsgs8fznel/1bVloXJV3dyQlbIHC7XNvS/978b432753fd2fe6f8c2417bbbe92266/Sept.pdf",
-                        "details": {
-                            "size": 1097438
-                        },
-                        "fileName": "Sept.pdf",
-                        "contentType": "application/pdf"
-                    }
-                }
-            ]
-        },
-        {
-            "id": "11sHifejXXe4hmFfKj8U9N",
-            "datetime": "2024-08-30T00:00",
-            "title": "We Care September Needs",
-            "description": {
-                "data": {},
-                "content": [
-                    {
-                        "data": {},
-                        "content": [
-                            {
-                                "data": {},
-                                "content": [
-                                    {
-                                        "data": {},
-                                        "content": [
-                                            {
-                                                "data": {},
-                                                "marks": [],
-                                                "value": "grits",
-                                                "nodeType": "text"
-                                            }
-                                        ],
-                                        "nodeType": "paragraph"
-                                    }
-                                ],
-                                "nodeType": "list-item"
-                            },
-                            {
-                                "data": {},
-                                "content": [
-                                    {
-                                        "data": {},
-                                        "content": [
-                                            {
-                                                "data": {},
-                                                "marks": [],
-                                                "value": "spaghetti sauce (cans/plastic jars)",
-                                                "nodeType": "text"
-                                            }
-                                        ],
-                                        "nodeType": "paragraph"
-                                    }
-                                ],
-                                "nodeType": "list-item"
-                            },
-                            {
-                                "data": {},
-                                "content": [
-                                    {
-                                        "data": {},
-                                        "content": [
-                                            {
-                                                "data": {},
-                                                "marks": [],
-                                                "value": "corn muffin mix",
-                                                "nodeType": "text"
-                                            }
-                                        ],
-                                        "nodeType": "paragraph"
-                                    }
-                                ],
-                                "nodeType": "list-item"
-                            },
-                            {
-                                "data": {},
-                                "content": [
-                                    {
-                                        "data": {},
-                                        "content": [
-                                            {
-                                                "data": {},
-                                                "marks": [],
-                                                "value": "cereal",
-                                                "nodeType": "text"
-                                            }
-                                        ],
-                                        "nodeType": "paragraph"
-                                    }
-                                ],
-                                "nodeType": "list-item"
-                            },
-                            {
-                                "data": {},
-                                "content": [
-                                    {
-                                        "data": {},
-                                        "content": [
-                                            {
-                                                "data": {},
-                                                "marks": [],
-                                                "value": "baked beans/pork and beans",
-                                                "nodeType": "text"
-                                            }
-                                        ],
-                                        "nodeType": "paragraph"
-                                    }
-                                ],
-                                "nodeType": "list-item"
-                            },
-                            {
-                                "data": {},
-                                "content": [
-                                    {
-                                        "data": {},
-                                        "content": [
-                                            {
-                                                "data": {},
-                                                "marks": [],
-                                                "value": "pancake mix and syrup",
-                                                "nodeType": "text"
-                                            }
-                                        ],
-                                        "nodeType": "paragraph"
-                                    }
-                                ],
-                                "nodeType": "list-item"
-                            },
-                            {
-                                "data": {},
-                                "content": [
-                                    {
-                                        "data": {},
-                                        "content": [
-                                            {
-                                                "data": {},
-                                                "marks": [],
-                                                "value": "SpaghettiOs",
-                                                "nodeType": "text"
-                                            }
-                                        ],
-                                        "nodeType": "paragraph"
-                                    }
-                                ],
-                                "nodeType": "list-item"
-                            },
-                            {
-                                "data": {},
-                                "content": [
-                                    {
-                                        "data": {},
-                                        "content": [
-                                            {
-                                                "data": {},
-                                                "marks": [],
-                                                "value": "Vienna sausages",
-                                                "nodeType": "text"
-                                            }
-                                        ],
-                                        "nodeType": "paragraph"
-                                    }
-                                ],
-                                "nodeType": "list-item"
-                            },
-                            {
-                                "data": {},
-                                "content": [
-                                    {
-                                        "data": {},
-                                        "content": [
-                                            {
-                                                "data": {},
-                                                "marks": [],
-                                                "value": "ramen noodles and soup",
-                                                "nodeType": "text"
-                                            }
-                                        ],
-                                        "nodeType": "paragraph"
-                                    }
-                                ],
-                                "nodeType": "list-item"
-                            },
-                            {
-                                "data": {},
-                                "content": [
-                                    {
-                                        "data": {},
-                                        "content": [
-                                            {
-                                                "data": {},
-                                                "marks": [],
-                                                "value": "large family size soup",
-                                                "nodeType": "text"
-                                            }
-                                        ],
-                                        "nodeType": "paragraph"
-                                    }
-                                ],
-                                "nodeType": "list-item"
-                            },
-                            {
-                                "data": {},
-                                "content": [
-                                    {
-                                        "data": {},
-                                        "content": [
-                                            {
-                                                "data": {},
-                                                "marks": [],
-                                                "value": "dish soap",
-                                                "nodeType": "text"
-                                            }
-                                        ],
-                                        "nodeType": "paragraph"
-                                    }
-                                ],
-                                "nodeType": "list-item"
-                            },
-                            {
-                                "data": {},
-                                "content": [
-                                    {
-                                        "data": {},
-                                        "content": [
-                                            {
-                                                "data": {},
-                                                "marks": [],
-                                                "value": "laundry detergent",
-                                                "nodeType": "text"
-                                            }
-                                        ],
-                                        "nodeType": "paragraph"
-                                    }
-                                ],
-                                "nodeType": "list-item"
-                            }
-                        ],
-                        "nodeType": "unordered-list"
-                    },
-                    {
-                        "data": {},
-                        "content": [
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": "",
-                                "nodeType": "text"
-                            }
-                        ],
-                        "nodeType": "paragraph"
-                    }
-                ],
-                "nodeType": "document"
-            },
-            "type": [
-                {
-                    "id": "5ktejUJ8noonowWZUs0uN7",
-                    "type": "General"
-                }
-            ],
-            "image": null,
-            "attachments": []
-        },
-        {
-            "id": "pkMZlsFkMYgRCDf8Nw1Gu",
-            "datetime": "2024-08-29T00:00",
-            "title": "Preschool News",
-            "description": {
-                "data": {},
-                "content": [
-                    {
-                        "data": {},
-                        "content": [
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": "The first regular day of preschoo",
-                                "nodeType": "text"
-                            },
-                            {
-                                "data": {},
-                                "marks": [
-                                    {
-                                        "type": "bold"
-                                    }
-                                ],
-                                "value": "l ",
-                                "nodeType": "text"
-                            },
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": "is September 3rd. This school year marks the 50",
-                                "nodeType": "text"
-                            },
-                            {
-                                "data": {},
-                                "marks": [
-                                    {
-                                        "type": "superscript"
-                                    }
-                                ],
-                                "value": "th",
-                                "nodeType": "text"
-                            },
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": " Anniversary! Wow! ",
-                                "nodeType": "text"
-                            }
-                        ],
-                        "nodeType": "paragraph"
-                    }
-                ],
-                "nodeType": "document"
-            },
-            "type": [
-                {
-                    "id": "5ktejUJ8noonowWZUs0uN7",
-                    "type": "General"
-                },
-                {
-                    "id": "1CmfTH5pRNQYh9bLmqt4p1",
-                    "type": "Preschool"
-                }
-            ],
-            "image": null,
-            "attachments": []
-        },
-        {
-            "id": "2WPyRGWM8SedW0S1CHVjlG",
-            "datetime": "2024-08-29T00:00",
+            "id": "rxAJJphjrtMXmOrW5Lmoc",
+            "datetime": "2024-09-27T00:00",
             "title": "Youth News",
             "description": {
                 "data": {},
@@ -458,7 +13,132 @@
                             {
                                 "data": {},
                                 "marks": [],
-                                "value": "The youth will have their first meeting back from the summer break on Sunday, September 15th, from 5pm-7pm in the Fellowship Hall with pizza, games, and planning for the upcoming year. ",
+                                "value": "We meet this Sunday September 29th ",
+                                "nodeType": "text"
+                            },
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "at 5pm for a prayer walk in Chapin and then to Sonic for supper.",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    }
+                ],
+                "nodeType": "document"
+            },
+            "type": [
+                {
+                    "id": "3BITHvpc2z0yYfvxgTUQbK",
+                    "type": "Youth"
+                },
+                {
+                    "id": "5ktejUJ8noonowWZUs0uN7",
+                    "type": "General"
+                }
+            ],
+            "image": null,
+            "attachments": []
+        },
+        {
+            "id": "2zNvcY6QedtI8fR6JcI90L",
+            "datetime": "2024-09-20T00:00",
+            "title": "Prayer Requests",
+            "description": {
+                "data": {},
+                "content": [
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "–Jerry Bundrick",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    },
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "–Gene Teal",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    },
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "–Andrea Hollis",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    },
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "–Ann B. Shealy",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    },
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "–Randy Addy",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    },
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "–Susan Addy",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    },
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "–Family of Tammy Shealy on her death",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    },
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "–Ann S. Shealy and entire family of Charlie Shealy on his death",
                                 "nodeType": "text"
                             }
                         ],
@@ -471,6 +151,213 @@
                 {
                     "id": "5ktejUJ8noonowWZUs0uN7",
                     "type": "General"
+                }
+            ],
+            "image": null,
+            "attachments": []
+        },
+        {
+            "id": "7A7ETCA5Wy8mnH4sSWVkIT",
+            "datetime": "2024-09-20T00:00",
+            "title": "Bulletin for September 22",
+            "description": {
+                "data": {},
+                "content": [
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "Check out the bulletin for this Sunday's service!",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    }
+                ],
+                "nodeType": "document"
+            },
+            "type": [
+                {
+                    "id": "5ktejUJ8noonowWZUs0uN7",
+                    "type": "General"
+                }
+            ],
+            "image": null,
+            "attachments": [
+                {
+                    "title": "Bulletin for September 22, 2024",
+                    "file": {
+                        "url": "//assets.ctfassets.net/3wcsgs8fznel/7N30QNKH5bJm09PQ8pH90l/d10ed49794fbe93b4bb676e860986529/bulletin0922.pdf",
+                        "details": {
+                            "size": 1298824
+                        },
+                        "fileName": "bulletin0922.pdf",
+                        "contentType": "application/pdf"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "211F3uOkNjnmJYzqVJ88K7",
+            "datetime": "2024-09-20T00:00",
+            "title": "Worship Team",
+            "description": {
+                "data": {},
+                "content": [
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "We meet this Sunday, September 22, after the service.",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    },
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "\n",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    }
+                ],
+                "nodeType": "document"
+            },
+            "type": [
+                {
+                    "id": "5ktejUJ8noonowWZUs0uN7",
+                    "type": "General"
+                },
+                {
+                    "id": "3Zl7eAG9eIPOZLPyA11Uj8",
+                    "type": "Event"
+                }
+            ],
+            "image": null,
+            "attachments": []
+        },
+        {
+            "id": "2z34dr9Yu9EuExlAZHW0l9",
+            "datetime": "2024-09-12T00:00",
+            "title": "LutheReaders",
+            "description": {
+                "data": {},
+                "content": [
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "We meet Tuesday, September 17, at 5:30pm.",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    }
+                ],
+                "nodeType": "document"
+            },
+            "type": [
+                {
+                    "id": "5ktejUJ8noonowWZUs0uN7",
+                    "type": "General"
+                },
+                {
+                    "id": "3Zl7eAG9eIPOZLPyA11Uj8",
+                    "type": "Event"
+                }
+            ],
+            "image": null,
+            "attachments": []
+        },
+        {
+            "id": "qN2bbRep64fS7Rrmuh0gs",
+            "datetime": "2024-09-12T00:00",
+            "title": "Agape",
+            "description": {
+                "data": {},
+                "content": [
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "We will meet Thursday, September 19, at 6:30pm.",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    },
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "\n",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    }
+                ],
+                "nodeType": "document"
+            },
+            "type": [
+                {
+                    "id": "5ktejUJ8noonowWZUs0uN7",
+                    "type": "General"
+                },
+                {
+                    "id": "3Zl7eAG9eIPOZLPyA11Uj8",
+                    "type": "Event"
+                }
+            ],
+            "image": null,
+            "attachments": []
+        },
+        {
+            "id": "MsDd52TIWckw72IykUTzu",
+            "datetime": "2024-09-12T00:00",
+            "title": "Youth Meeting",
+            "description": {
+                "data": {},
+                "content": [
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "We will have our first youth meeting back from the summer break this Sunday, September 15, 5pm-7pm in the Fellowship Hall with pizza, games, and planning for the upcoming year. ",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    }
+                ],
+                "nodeType": "document"
+            },
+            "type": [
+                {
+                    "id": "5ktejUJ8noonowWZUs0uN7",
+                    "type": "General"
+                },
+                {
+                    "id": "3Zl7eAG9eIPOZLPyA11Uj8",
+                    "type": "Event"
                 },
                 {
                     "id": "3BITHvpc2z0yYfvxgTUQbK",
@@ -481,9 +368,9 @@
             "attachments": []
         },
         {
-            "id": "3HVJ1isvWVAbc5xbVGSxq7",
-            "datetime": "2024-08-29T00:00",
-            "title": "School Supply Drive",
+            "id": "7J2jnsVpff6wmg36NYGoQX",
+            "datetime": "2024-09-12T00:00",
+            "title": "Blessing of Teachers",
             "description": {
                 "data": {},
                 "content": [
@@ -493,7 +380,7 @@
                             {
                                 "data": {},
                                 "marks": [],
-                                "value": "The school supply drive has been extended until September 15th. All collections will be given to local elementary schools. A box is in the Narthex with a list of much needed items.",
+                                "value": "This Sunday, September 15, we will have a Blessing of Teachers during the worship service.",
                                 "nodeType": "text"
                             }
                         ],
@@ -512,9 +399,9 @@
             "attachments": []
         },
         {
-            "id": "2WDSua1KvPAspFcPAdeSKe",
-            "datetime": "2024-08-29T00:00",
-            "title": "Lutheran Meeting on 9/9",
+            "id": "7Eo1KZzWKLtvJjD38Lg2lO",
+            "datetime": "2024-09-12T00:00",
+            "title": "Friendship Circle",
             "description": {
                 "data": {},
                 "content": [
@@ -524,23 +411,7 @@
                             {
                                 "data": {},
                                 "marks": [],
-                                "value": "The Lutheran Men will meet Monday, September 9",
-                                "nodeType": "text"
-                            },
-                            {
-                                "data": {},
-                                "marks": [
-                                    {
-                                        "type": "superscript"
-                                    }
-                                ],
-                                "value": "th",
-                                "nodeType": "text"
-                            },
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": " at 6:30pm. Our guest will be Bob Oldendick, a political science professor at the university. One of his topics will be “Changing the constitution?”",
+                                "value": "We will meet Friday, September 20, at 11:30am.",
                                 "nodeType": "text"
                             }
                         ],
@@ -551,78 +422,47 @@
             },
             "type": [
                 {
-                    "id": "3Zl7eAG9eIPOZLPyA11Uj8",
-                    "type": "Event"
+                    "id": "5ktejUJ8noonowWZUs0uN7",
+                    "type": "General"
                 },
                 {
+                    "id": "3Zl7eAG9eIPOZLPyA11Uj8",
+                    "type": "Event"
+                }
+            ],
+            "image": null,
+            "attachments": []
+        },
+        {
+            "id": "tiTa2FLYECHyvtkFDPLPJ",
+            "datetime": "2024-09-12T00:00",
+            "title": "Stewardship Team",
+            "description": {
+                "data": {},
+                "content": [
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "We meet Wednesday, September 18, at 5:15pm in the Fellowship Hall.",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    }
+                ],
+                "nodeType": "document"
+            },
+            "type": [
+                {
                     "id": "5ktejUJ8noonowWZUs0uN7",
                     "type": "General"
-                }
-            ],
-            "image": null,
-            "attachments": []
-        },
-        {
-            "id": "2o23Tyn6fAhBMDjP0AFAtE",
-            "datetime": "2024-08-29T00:00",
-            "title": "Outdoor Service on 9/29",
-            "description": {
-                "data": {},
-                "content": [
-                    {
-                        "data": {},
-                        "content": [
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": "Join us on Sunday September 29th at 10am for an outdoor worship service!",
-                                "nodeType": "text"
-                            }
-                        ],
-                        "nodeType": "paragraph"
-                    }
-                ],
-                "nodeType": "document"
-            },
-            "type": [
-                {
-                    "id": "3Zl7eAG9eIPOZLPyA11Uj8",
-                    "type": "Event"
-                }
-            ],
-            "image": null,
-            "attachments": []
-        },
-        {
-            "id": "1qSFo25QWYrpPChWE6SPoE",
-            "datetime": "2024-08-29T00:00",
-            "title": "Leisure Timers on 9/3",
-            "description": {
-                "data": {},
-                "content": [
-                    {
-                        "data": {},
-                        "content": [
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": "The Leisure Timers will meet September 3rd at 10:30am. Sign up at the Welcome Center. Food will be provided. Pam Shear will have our program.",
-                                "nodeType": "text"
-                            }
-                        ],
-                        "nodeType": "paragraph"
-                    }
-                ],
-                "nodeType": "document"
-            },
-            "type": [
-                {
-                    "id": "3Zl7eAG9eIPOZLPyA11Uj8",
-                    "type": "Event"
                 },
                 {
-                    "id": "5ktejUJ8noonowWZUs0uN7",
-                    "type": "General"
+                    "id": "3Zl7eAG9eIPOZLPyA11Uj8",
+                    "type": "Event"
                 }
             ],
             "image": null,
@@ -630,5 +470,5 @@
         }
     ],
     "page": 2,
-    "totalPages": 4
+    "totalPages": 5
 }

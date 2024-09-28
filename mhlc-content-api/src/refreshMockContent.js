@@ -23,6 +23,7 @@ function saveContent(content, fileName) {
     saveContent(await contentService.getStaff(), 'staff.json');
     saveContent(await contentService.getBlogPosts(1), 'blog-posts-1.json');
     saveContent(await youtubeService.getVideosList(), 'video-list.json');
+    saveContent(await contentService.getSpecialAnnouncements(), 'special-announcements.json');
 
     // Asset Urls for fav icons:
     // cropped-favicon-180x180
