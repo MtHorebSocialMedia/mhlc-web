@@ -21,8 +21,12 @@ module.exports = (req, res, next) =>{
                 language: 'en',
                 categories: ['News','Blogs'],
             });
-            const { news } = await getNewsEntries(1);
+            const { news: news1 } = await getNewsEntries(1);
+            const { news: news2 } = await getNewsEntries(2);
             const { blogs } = await getBlogPosts(1);
+
+            const news = news1.concat(news2);
+            news.length = 14; // max the news to 14 entries to make sure we get at least one blog post in
 
             const feedItems = (
                 news.map((item) => ({
@@ -52,8 +56,8 @@ module.exports = (req, res, next) =>{
                     return 0;
                 }
             });
-            // Truncate to the last 10 items
-            feedItems.length = 10;
+            // Truncate to the last 15 items
+            feedItems.length = 15;
 
             /* loop over data and add to feed */
             feedItems.forEach((item) => {
