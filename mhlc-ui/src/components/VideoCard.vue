@@ -52,7 +52,7 @@
                             type="text/html"
                             :width="getAssetWidth(640)"
                             :height="getAssetHeight(640, 390)"
-                            :src="`http://www.youtube.com/embed/${video.id}`"
+                            :src="`https://www.youtube.com/embed/${video.id}`"
                             :title="video.title"
                             allowfullscreen
                         ></iframe>
