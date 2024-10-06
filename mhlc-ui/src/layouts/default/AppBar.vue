@@ -15,13 +15,13 @@
         <v-container>
           <v-row>
             <v-col class="social">
-              <v-btn icon @click = "openFacebook">
+              <v-btn icon @click="openFacebook">
                 <v-icon color="#4267B2">mdi-facebook</v-icon>
               </v-btn>
-              <v-btn icon @click = "openInstagram">
+              <v-btn icon @click="openInstagram">
                 <v-icon color="#833AB4">mdi-instagram</v-icon>
               </v-btn>
-              <v-btn icon @click = "openYoutube">
+              <v-btn icon @click="openYouTube">
                 <v-icon color="red">mdi-youtube</v-icon>
               </v-btn>
             </v-col>
@@ -120,6 +120,16 @@
     const showAddress = ref(false);
     const showPhone = ref(false);
 
+    function openFacebook () {
+      window.open(churchInfo.value.facebook, '_blank');
+    }
+    function openInstagram() {
+      window.open(churchInfo.value.instagram, '_blank');
+    }
+    function openYouTube () {
+      window.open(churchInfo.value.youTube, '_blank');
+    }
+
 </script>
 <style>
 .v-toolbar__extension {  padding-left: 16px; padding-right: 10px; }
@@ -133,20 +143,3 @@
 .v-container.header { padding-top: 4px; padding-bottom: 4px; }
 .header .v-btn--icon { margin-left: 5px; }
 </style>
-
-<script>
-export default {
-  name: 'App',
-  methods: {
-    openFacebook () {
-      window.open("https://www.facebook.com/Mt-Horeb-Lutheran-Church-163197867173867", '_blank');
-    },
-    openInstagram() {
-      window.open("https://www.instagram.com/mhlc_chapin/", '_blank');
-    },
-    openYoutube () {
-      window.open("https://www.youtube.com/@MHLCChapinSC", '_blank');
-    }
-  }
-}
-</script>

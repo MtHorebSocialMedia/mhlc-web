@@ -38,6 +38,11 @@
                 {{ title }}
                 <hr />
             </v-card-title>
+            <v-card-subtitle>
+                <v-icon color="red">mdi-youtube</v-icon>
+                <a :href="video.link" target="_blank">Watch on YouTube</a>
+                <v-icon size="small">mdi-open-in-new</v-icon>
+            </v-card-subtitle>
             <v-container>
                 <v-row>
                     <v-col class="d-flex">
@@ -94,6 +99,7 @@
 <style>
 .v-card-subtitle .v-container { padding: 0px; }
 .v-card-subtitle .v-col { padding: 10px; }
-.v-card-subtitle .news-type { text-align: right; }
+.v-card-subtitle { text-align: right; }
+.v-card-subtitle .v-icon { margin-right: 5px; margin-left: 5px; }
 .v-img { margin-bottom: 20px; }
 </style>
