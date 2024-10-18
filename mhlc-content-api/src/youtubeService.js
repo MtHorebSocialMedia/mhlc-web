@@ -7,9 +7,10 @@ async function getVideosList() {
 
     return feed.items
         .filter((video) => {
-            // TODO filter out non live streams
+            // All live stream titles start with "Mt. Horeb Lutheran Church"
             // Filter out Celebrations of Life (funerals)
-            return !video.title.toLowerCase().includes('celebration of life');
+            return video.title.toLowerCase().startsWith('mt. horeb lutheran church')
+                && !video.title.toLowerCase().includes('celebration of life');
         })
         .map((video) => {
             const [,,id] = video.id.split(':');

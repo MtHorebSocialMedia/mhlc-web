@@ -26,6 +26,18 @@
                 alt="Content Block Image"
                 @click="imageClicked(block.imageLink)"
             />
+            <v-container v-if="block.videoUrl" class="d-flex justify-center">
+                <iframe
+                    :width="getAssetWidth(560, 315)"
+                    :height="getAssetHeight(560, 315)"
+                    :src="block.videoUrl"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                ></iframe>
+            </v-container>
         </div>
     </div>
 </template>
@@ -58,7 +70,6 @@
   }
 
   function imageClicked(imageLink) {
-      console.log('image clicked: ', imageLink);
       if (imageLink) {
           window.open(imageLink);
       }
