@@ -1,9 +1,9 @@
 [
     {
-        "id": "7wesQQ8Flz6nlFPBptsWpp",
-        "publishBeginDate": "2024-09-28T00:00-04:00",
-        "publishEndDate": "2024-09-30T00:00-04:00",
-        "title": "Test",
+        "id": "7imGAVEQT5ZUewnAWFZ189",
+        "publishBeginDate": "2024-10-16T00:00",
+        "publishEndDate": "2024-10-21T00:00",
+        "title": "Stuff Pastor Ron's Car!",
         "description": {
             "data": {},
             "content": [
@@ -13,7 +13,44 @@
                         {
                             "data": {},
                             "marks": [],
-                            "value": "This is a test announcement!",
+                            "value": "Come out to worship this Sunday (10/20/2024) and stuff Pastor Ron's car with supplies for Hurricane Helene relief!",
+                            "nodeType": "text"
+                        }
+                    ],
+                    "nodeType": "paragraph"
+                }
+            ],
+            "nodeType": "document"
+        },
+        "type": "info"
+    },
+    {
+        "id": "2BiKfcU0BDwVVx74eRTeYP",
+        "publishBeginDate": "2024-10-15T00:00",
+        "publishEndDate": "2024-10-28T00:00",
+        "title": "Trunk or Treat!",
+        "description": {
+            "data": {},
+            "content": [
+                {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": "We're getting close to our annual Trunk-or-Treat event!  Have you signed up in the narthex to decorate your car and hand out treats?",
+                            "nodeType": "text"
+                        }
+                    ],
+                    "nodeType": "paragraph"
+                },
+                {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": "Don't forget to invite your friends, family, and neighbors - we're looking forward to seeing the whole community come out!",
                             "nodeType": "text"
                         }
                     ],

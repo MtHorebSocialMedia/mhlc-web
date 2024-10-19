@@ -74,7 +74,8 @@
                             "data": {
                                 "target": {
                                     "metadata": {
-                                        "tags": []
+                                        "tags": [],
+                                        "concepts": []
                                     },
                                     "sys": {
                                         "space": {
@@ -111,7 +112,8 @@
                                         "contentBlocks": [
                                             {
                                                 "metadata": {
-                                                    "tags": []
+                                                    "tags": [],
+                                                    "concepts": []
                                                 },
                                                 "sys": {
                                                     "space": {
@@ -489,7 +491,8 @@
                                             },
                                             {
                                                 "metadata": {
-                                                    "tags": []
+                                                    "tags": [],
+                                                    "concepts": []
                                                 },
                                                 "sys": {
                                                     "space": {
@@ -689,7 +692,8 @@
                                             },
                                             {
                                                 "metadata": {
-                                                    "tags": []
+                                                    "tags": [],
+                                                    "concepts": []
                                                 },
                                                 "sys": {
                                                     "space": {
@@ -925,7 +929,8 @@
                                             },
                                             {
                                                 "metadata": {
-                                                    "tags": []
+                                                    "tags": [],
+                                                    "concepts": []
                                                 },
                                                 "sys": {
                                                     "space": {
@@ -2881,7 +2886,8 @@
                             "data": {
                                 "target": {
                                     "metadata": {
-                                        "tags": []
+                                        "tags": [],
+                                        "concepts": []
                                     },
                                     "sys": {
                                         "space": {
@@ -2961,7 +2967,8 @@
                                         "contentBlocks": [
                                             {
                                                 "metadata": {
-                                                    "tags": []
+                                                    "tags": [],
+                                                    "concepts": []
                                                 },
                                                 "sys": {
                                                     "space": {
@@ -3042,7 +3049,8 @@
                                             },
                                             {
                                                 "metadata": {
-                                                    "tags": []
+                                                    "tags": [],
+                                                    "concepts": []
                                                 },
                                                 "sys": {
                                                     "space": {

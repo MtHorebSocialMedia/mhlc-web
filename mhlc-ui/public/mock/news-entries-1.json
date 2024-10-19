@@ -1,9 +1,9 @@
 {
     "news": [
         {
-            "id": "2NKd1Ca8EZlzROsUyLjLcy",
-            "datetime": "2024-09-27T00:00",
-            "title": "We Care",
+            "id": "1FnwzNmHaHcEfrcjVHCyYy",
+            "datetime": "2024-10-18T00:00",
+            "title": "Golden Agers",
             "description": {
                 "data": {},
                 "content": [
@@ -13,42 +13,7 @@
                             {
                                 "data": {},
                                 "marks": [],
-                                "value": "Most needed items for ",
-                                "nodeType": "text"
-                            },
-                            {
-                                "data": {},
-                                "marks": [
-                                    {
-                                        "type": "underline"
-                                    },
-                                    {
-                                        "type": "bold"
-                                    }
-                                ],
-                                "value": "October",
-                                "nodeType": "text"
-                            },
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": " are jam/jelly (plastic jars), cereal, chili beans, baked beans, Vienna sausages, family size soup, ramen noodles/soup, spaghetti sauce, SpaghettiOs, and oatmeal. They ",
-                                "nodeType": "text"
-                            },
-                            {
-                                "data": {},
-                                "marks": [
-                                    {
-                                        "type": "underline"
-                                    }
-                                ],
-                                "value": "always",
-                                "nodeType": "text"
-                            },
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": " need pet food, laundry detergent, dish soap, and toiletries.",
+                                "value": "This Sunday, October 20th, we celebrate the lives of our members who are 75 years and older.  Stay after worship to enjoy a catered lunch!",
                                 "nodeType": "text"
                             }
                         ],
@@ -59,6 +24,10 @@
             },
             "type": [
                 {
+                    "id": "3Zl7eAG9eIPOZLPyA11Uj8",
+                    "type": "Event"
+                },
+                {
                     "id": "5ktejUJ8noonowWZUs0uN7",
                     "type": "General"
                 }
@@ -67,9 +36,9 @@
             "attachments": []
         },
         {
-            "id": "NR6qOX56t9f4guxA6jL3Y",
-            "datetime": "2024-09-27T00:00",
-            "title": "Sweatshirts for Newberry Boys Farm",
+            "id": "40M6QJMB7uS5JR7Nj8qmYp",
+            "datetime": "2024-10-18T00:00",
+            "title": "Prayer Requests",
             "description": {
                 "data": {},
                 "content": [
@@ -79,7 +48,7 @@
                             {
                                 "data": {},
                                 "marks": [],
-                                "value": "Agape Circle has been collecting sweatshirts for the Boys at Newberry Boys Farm. We could use your help! If you would like to contribute to this project, bring any kind of new sweatshirt to our collection box in the Narthex. Sweatshirts can be any size or color, crew neck, zip up, or hoodie. We will collect through Sunday, Oct 20th and deliver on Thursday October 24th. ",
+                                "value": "--Ann B. Shealy",
                                 "nodeType": "text"
                             }
                         ],
@@ -91,7 +60,19 @@
                             {
                                 "data": {},
                                 "marks": [],
-                                "value": "The boys range in age from first grade to twelfth grade. Their sizes vary, so the more we have the more likely we will have something for everyone! Thank you for any help you can give. ",
+                                "value": "--Jerry Shealy",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    },
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "--Lois Bundrick",
                                 "nodeType": "text"
                             }
                         ],
@@ -110,9 +91,9 @@
             "attachments": []
         },
         {
-            "id": "F1ULZK72cJ7MbaeIjnmVf",
-            "datetime": "2024-09-27T00:00",
-            "title": "Camp Can-Do Update",
+            "id": "2A96Ed23YaciBZh3deubMI",
+            "datetime": "2024-10-18T00:00",
+            "title": "Reformation Sunday",
             "description": {
                 "data": {},
                 "content": [
@@ -122,7 +103,7 @@
                             {
                                 "data": {},
                                 "marks": [],
-                                "value": "Sunday, October 6, we will recognize students who have been working on their first milestone – The Lord’s Prayer. John Adams, Gabriel Morgan and Hazel Jordan have worked very hard on discussing, learning, and practicing the Lord’s Prayer. They will participate in leading the Lord’s Prayer during the worship service. We are thankful for and proud of these children and their families. Please continue to support and encourage them on their faith journey.",
+                                "value": "Don’t forget to wear red Sunday, October 27th which represents the Holy Spirit and the Martyrs of the Christian Church. Reformation Sunday marks the anniversary of the day Martin Luther posted his Ninety-five Theses on the door of the Castle Church in Wittenberg, Germany (October 31, 1517). ",
                                 "nodeType": "text"
                             }
                         ],
@@ -141,9 +122,9 @@
             "attachments": []
         },
         {
-            "id": "2Hslx3mpRwq0KRYtUKWeTs",
-            "datetime": "2024-09-27T00:00",
-            "title": "Bulletin for September 29",
+            "id": "L7H2VhTq81f7g96Z3ZQsH",
+            "datetime": "2024-10-18T00:00",
+            "title": "Poinsettia Orders for Christmas",
             "description": {
                 "data": {},
                 "content": [
@@ -153,7 +134,121 @@
                             {
                                 "data": {},
                                 "marks": [],
-                                "value": "Check out the September 29 bulletin for the outdoor service!",
+                                "value": "Poinsettias are available for order now. The cost is $13 per plant and the deadline is ",
+                                "nodeType": "text"
+                            },
+                            {
+                                "data": {},
+                                "marks": [
+                                    {
+                                        "type": "bold"
+                                    }
+                                ],
+                                "value": "November 10.",
+                                "nodeType": "text"
+                            },
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": " Order forms are available at the Welcome Center if you would like to order. Turn the form into the office with your payment. Thank you!",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    }
+                ],
+                "nodeType": "document"
+            },
+            "type": [
+                {
+                    "id": "5ktejUJ8noonowWZUs0uN7",
+                    "type": "General"
+                }
+            ],
+            "image": null,
+            "attachments": []
+        },
+        {
+            "id": "6KUZqWLWy9D0Fx2aKjXjBq",
+            "datetime": "2024-10-18T00:00",
+            "title": "Visitation Team",
+            "description": {
+                "data": {},
+                "content": [
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "Pastor Ron and the Visitation Team need you! Please prayerfully consider being a part of the Visitation Team. A commitment to the Visitation Team involves the following:",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    },
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "—One meeting a month in the Sanctuary to pray with Pastor Ron and receive blessed communion elements to take with you.",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    },
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "—During that month, choose your day or days to visit members that no longer can attend in-person services.",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    },
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "Pastor Ron will provide training so that the Team will understand the expectations and to answer any questions team members may have. We want to make sure we are reaching everyone who is unable to attend in-person. If you would like to volunteer, please contact the office or sign up in the narthex.",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    }
+                ],
+                "nodeType": "document"
+            },
+            "type": [
+                {
+                    "id": "5ktejUJ8noonowWZUs0uN7",
+                    "type": "General"
+                }
+            ],
+            "image": null,
+            "attachments": []
+        },
+        {
+            "id": "3kW8Hs7rbQofbxlda2vecD",
+            "datetime": "2024-10-18T00:00",
+            "title": "Bulletin for October 20",
+            "description": {
+                "data": {},
+                "content": [
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "Check out this Sunday's bulletin.",
                                 "nodeType": "text"
                             }
                         ],
@@ -171,22 +266,22 @@
             "image": null,
             "attachments": [
                 {
-                    "title": "September 29 bulletin",
+                    "title": "October 20 bulletin",
                     "file": {
-                        "url": "//assets.ctfassets.net/3wcsgs8fznel/6vJlkf2OUIxJ0Eg7bgB93c/c9a623d50f2652f350a947ad70b12f55/Bulletinoutdoor.pdf",
+                        "url": "//assets.ctfassets.net/3wcsgs8fznel/509gqAJ2XX77O08Kn5nET7/af4500d76f8bcb315d30de41bd193739/bulletin1020.pdf",
                         "details": {
-                            "size": 654849
+                            "size": 1203594
                         },
-                        "fileName": "Bulletinoutdoor.pdf",
+                        "fileName": "bulletin1020.pdf",
                         "contentType": "application/pdf"
                     }
                 }
             ]
         },
         {
-            "id": "35anrS2ohq88sEOz2RAieZ",
-            "datetime": "2024-09-27T00:00",
-            "title": "Outdoor Service",
+            "id": "7BzxrxH0l59dGxNIgDYnSr",
+            "datetime": "2024-10-18T00:00",
+            "title": "Family Book Share",
             "description": {
                 "data": {},
                 "content": [
@@ -196,13 +291,31 @@
                             {
                                 "data": {},
                                 "marks": [],
-                                "value": "This Sunday, September 29th at 10am, come join us for worship outside.  ",
+                                "value": "The Learn Team has set up a Basket of Books for families and children. This basket will be located in the Narthex. Please look through and take home any book of interest. This is just one more way to support our families and children in “faith formation”. ",
                                 "nodeType": "text"
-                            },
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    },
+                    {
+                        "data": {},
+                        "content": [
                             {
                                 "data": {},
                                 "marks": [],
-                                "value": "You can sit in your car and listen to the service (tune to FM 87.9) or bring a chair to sit outdoors. Hot dogs, hamburgers, fixings and beverage will be provided after the service. To-Go Boxes will be provided to those who are unable to maneuver the un-even ground.",
+                                "value": "After your family has read a book, bring it back and put it in the basket and take another one home to share with your children.",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    },
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "Any of you may share these books with any you think would enjoy them. If a book makes its way back to the basket, that’s great. If a book finds a new home, that may be just where it belongs! The Good News is meant to be shared!",
                                 "nodeType": "text"
                             }
                         ],
@@ -213,9 +326,46 @@
             },
             "type": [
                 {
-                    "id": "3Zl7eAG9eIPOZLPyA11Uj8",
-                    "type": "Event"
-                },
+                    "id": "5ktejUJ8noonowWZUs0uN7",
+                    "type": "General"
+                }
+            ],
+            "image": null,
+            "attachments": []
+        },
+        {
+            "id": "2Dm3Xaj9kEmGEtn0Sk9Vqn",
+            "datetime": "2024-10-11T00:00",
+            "title": "Golden Agers Booklet",
+            "description": {
+                "data": {},
+                "content": [
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "If you have turned 75 years old and are a new golden ager OR you need to update your existing information for the booklet, turn in to the church office at frontdesk@mthoreb.net. In order to print the books in time for Sunday, October 20th, we cannot accept any updates after ",
+                                "nodeType": "text"
+                            },
+                            {
+                                "data": {},
+                                "marks": [
+                                    {
+                                        "type": "bold"
+                                    }
+                                ],
+                                "value": "Monday, October 14th.",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    }
+                ],
+                "nodeType": "document"
+            },
+            "type": [
                 {
                     "id": "5ktejUJ8noonowWZUs0uN7",
                     "type": "General"
@@ -225,8 +375,39 @@
             "attachments": []
         },
         {
-            "id": "3GAg8BJ3PeMGNhfXhHiUgg",
-            "datetime": "2024-09-27T00:00",
+            "id": "2psJpIMdRH13NTtH9nc74l",
+            "datetime": "2024-10-11T00:00",
+            "title": "Lutheran Men",
+            "description": {
+                "data": {},
+                "content": [
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "We meet Monday, October 14th.  Sign-up at the Welcome Center. The program will be led by a master bee keeper.",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    }
+                ],
+                "nodeType": "document"
+            },
+            "type": [
+                {
+                    "id": "5ktejUJ8noonowWZUs0uN7",
+                    "type": "General"
+                }
+            ],
+            "image": null,
+            "attachments": []
+        },
+        {
+            "id": "1sVKFOO6qSiGSXQNZemJeJ",
+            "datetime": "2024-10-11T00:00",
             "title": "Prayer Requests",
             "description": {
                 "data": {},
@@ -237,7 +418,7 @@
                             {
                                 "data": {},
                                 "marks": [],
-                                "value": "Þ Jerry Bundrick",
+                                "value": "--Ann B. Shealy",
                                 "nodeType": "text"
                             }
                         ],
@@ -249,199 +430,7 @@
                             {
                                 "data": {},
                                 "marks": [],
-                                "value": "Þ Gene Teal",
-                                "nodeType": "text"
-                            }
-                        ],
-                        "nodeType": "paragraph"
-                    },
-                    {
-                        "data": {},
-                        "content": [
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": "Þ Ann B. Shealy",
-                                "nodeType": "text"
-                            }
-                        ],
-                        "nodeType": "paragraph"
-                    },
-                    {
-                        "data": {},
-                        "content": [
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": "Þ Randy Addy",
-                                "nodeType": "text"
-                            }
-                        ],
-                        "nodeType": "paragraph"
-                    },
-                    {
-                        "data": {},
-                        "content": [
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": "Þ Susan Addy",
-                                "nodeType": "text"
-                            }
-                        ],
-                        "nodeType": "paragraph"
-                    }
-                ],
-                "nodeType": "document"
-            },
-            "type": [
-                {
-                    "id": "5ktejUJ8noonowWZUs0uN7",
-                    "type": "General"
-                }
-            ],
-            "image": null,
-            "attachments": []
-        },
-        {
-            "id": "1I1zzwgJdvjMC3R1R5TNYl",
-            "datetime": "2024-09-27T00:00",
-            "title": "Social Ministry Team",
-            "description": {
-                "data": {},
-                "content": [
-                    {
-                        "data": {},
-                        "content": [
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": "We meet ",
-                                "nodeType": "text"
-                            },
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": "Thursday, October 3, at 10am.",
-                                "nodeType": "text"
-                            }
-                        ],
-                        "nodeType": "paragraph"
-                    }
-                ],
-                "nodeType": "document"
-            },
-            "type": [
-                {
-                    "id": "3Zl7eAG9eIPOZLPyA11Uj8",
-                    "type": "Event"
-                },
-                {
-                    "id": "5ktejUJ8noonowWZUs0uN7",
-                    "type": "General"
-                }
-            ],
-            "image": null,
-            "attachments": []
-        },
-        {
-            "id": "7xbz1jP3lyoQnSBl35oksh",
-            "datetime": "2024-09-27T00:00",
-            "title": "Dorcas Circle",
-            "description": {
-                "data": {},
-                "content": [
-                    {
-                        "data": {},
-                        "content": [
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": "We meet ",
-                                "nodeType": "text"
-                            },
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": "Wednesday, October 2, at 11am. ",
-                                "nodeType": "text"
-                            }
-                        ],
-                        "nodeType": "paragraph"
-                    }
-                ],
-                "nodeType": "document"
-            },
-            "type": [
-                {
-                    "id": "5ktejUJ8noonowWZUs0uN7",
-                    "type": "General"
-                }
-            ],
-            "image": null,
-            "attachments": []
-        },
-        {
-            "id": "4H2BE89OrOe8o9k3LzBArr",
-            "datetime": "2024-09-27T00:00",
-            "title": "Leisure Timers",
-            "description": {
-                "data": {},
-                "content": [
-                    {
-                        "data": {},
-                        "content": [
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": "We meet Tuesday, October 1, at 9am for apple picking. We will also visit Lutheridge since we will be in the vicinity.",
-                                "nodeType": "text"
-                            }
-                        ],
-                        "nodeType": "paragraph"
-                    }
-                ],
-                "nodeType": "document"
-            },
-            "type": [
-                {
-                    "id": "5ktejUJ8noonowWZUs0uN7",
-                    "type": "General"
-                }
-            ],
-            "image": null,
-            "attachments": []
-        },
-        {
-            "id": "1JJQcBFXP0Ix7tzwvSYmwB",
-            "datetime": "2024-09-27T00:00",
-            "title": "Lutheran Men's Sunday",
-            "description": {
-                "data": {},
-                "content": [
-                    {
-                        "data": {},
-                        "content": [
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": "Mark your calendar",
-                                "nodeType": "text"
-                            },
-                            {
-                                "data": {},
-                                "marks": [
-                                    {
-                                        "type": "bold"
-                                    }
-                                ],
-                                "value": " ",
-                                "nodeType": "text"
-                            },
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": "for Lutheran Men’s Sunday on October 6th.",
+                                "value": "--Jerry Shealy",
                                 "nodeType": "text"
                             }
                         ],
@@ -461,5 +450,5 @@
         }
     ],
     "page": 1,
-    "totalPages": 5
+    "totalPages": 7
 }

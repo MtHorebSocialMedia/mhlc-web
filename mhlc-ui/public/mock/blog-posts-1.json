@@ -1,6 +1,907 @@
 {
     "blogs": [
         {
+            "id": "5hRLpnvfGKrAofb8U4zTsd",
+            "publishDate": "2024-10-11T00:00",
+            "author": {
+                "name": "Dr. Bob Hawkins",
+                "image": {
+                    "url": "//images.ctfassets.net/3wcsgs8fznel/opaMg5v8fiwc4JuipOaao/519fff55dd7c90e53ea1e24d2595d5f1/dr-bob.jpg",
+                    "details": {
+                        "size": 5230,
+                        "image": {
+                            "width": 150,
+                            "height": 189
+                        }
+                    },
+                    "fileName": "dr-bob.jpg",
+                    "contentType": "image/jpeg"
+                }
+            },
+            "title": "Teach us to number our days, rejoice, and be glad…",
+            "content": {
+                "nodeType": "document",
+                "data": {},
+                "content": [
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "Psalm 90 looms before us this coming Sunday – at least its last six verses – and is the source for Isaac Watts’ (1675-1748) paraphrase, the beloved hymn “O God, Our Help in Ages Past” [ELW 632]. Both hymn and psalm contemplate the mind-boggling power and majesty of Almighty God while reminding us mortals that God was, is, and remains God long before anything else existed. Psalm 90 reminds us as well the sobering truth of Genesis 3:19 we hear on Ash Wednesday, “You are dust and to dust you shall return.” Indeed, God has fashioned all that has been “on earth as in heaven…”, both “seen and unseen,” including our own sense of time’s unfolding [check Genesis 1 & 2 as well as the first article of the Nicene Creed]. Despite our frailty, our mortality, and our iniquities, the psalm does not try to belittle or dismiss us, God’s wayward creatures. The psalm is blatantly honest about God’s and our reality in order to “teach us to number our days that we may apply our hearts to wisdom [Psalm 90:12].” Importantly, the psalm also reassures us that we need not cower before the Godhead. God, who first fashioned us in the divine image and likeness, continues to supply us with whatever we ",
+                                "marks": [],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "need",
+                                "marks": [
+                                    {
+                                        "type": "italic"
+                                    }
+                                ],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": " but not always what we might ",
+                                "marks": [],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "want",
+                                "marks": [
+                                    {
+                                        "type": "italic"
+                                    }
+                                ],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": " – God is NOT a vending machine of self-gratification! ",
+                                "marks": [],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "Return, O Lord",
+                                "marks": [
+                                    {
+                                        "type": "italic"
+                                    }
+                                ],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "…, the psalmist asks, ",
+                                "marks": [],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "Satisfy us by your steadfast love in the morning, so shall we rejoice and be glad all our days",
+                                "marks": [
+                                    {
+                                        "type": "italic"
+                                    }
+                                ],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": ".",
+                                "marks": [],
+                                "data": {}
+                            }
+                        ]
+                    },
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "All our days",
+                                "marks": [
+                                    {
+                                        "type": "italic"
+                                    }
+                                ],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "… is a telling phrase, for it suggests that we are to live perpetually mindful that we are God’s own family 24/7 and not just Sunday morning Christians who muster up the energy to check in once a week, or maybe twice a week in Lent. The psalm concludes with a prayer that God’s graciousness be upon us and that the Creator continue to bless us by prospering the work of our hands ",
+                                "marks": [],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "all our days",
+                                "marks": [
+                                    {
+                                        "type": "italic"
+                                    }
+                                ],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": ", not just on the presumed “default” day for Christians. Alas, a good deal of the traditions, habits, and thoughts about how we are to spend the “sabbath” tend to reinforce such sporadic exercise of Christian behavior. On March 7, 321 Emperor Constantine declared that Sunday was to be an official day of rest in the realm, although it took the work of Puritans during the 16",
+                                "marks": [],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "th",
+                                "marks": [
+                                    {
+                                        "type": "superscript"
+                                    }
+                                ],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": " and 17",
+                                "marks": [],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "th",
+                                "marks": [
+                                    {
+                                        "type": "superscript"
+                                    }
+                                ],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": " centuries in England to impose a day of somber reflection, abstinence, and required church attendance as the fitting way to observe the Sunday “sabbath.” Biblically, there is only one day set apart as “holy,” the seventh day of the week designated by the 4",
+                                "marks": [],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "th",
+                                "marks": [
+                                    {
+                                        "type": "superscript"
+                                    }
+                                ],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": " Commandment as a day to be kept holy [Exodus 20:8]. Its purpose, however, was that we rest and enjoy God’s handiwork ",
+                                "marks": [],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "with",
+                                "marks": [
+                                    {
+                                        "type": "italic"
+                                    }
+                                ],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": " the Creator, not cast forbidding gloom on the day: ",
+                                "marks": [],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "God saw everything that he had made, and indeed, it was very good… So God blessed the seventh day and hallowed it, because on it God rested from all the work that he had done in creation",
+                                "marks": [
+                                    {
+                                        "type": "italic"
+                                    }
+                                ],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": " [Genesis 1:31 and 2:3]. ",
+                                "marks": [],
+                                "data": {}
+                            }
+                        ]
+                    },
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "Despite the Sabbath declaration in Exodus 20:8 and Constantine’s edict that Sunday is to be the official day of rest in the realm, Surprise!!!, there is no New Testament equivalent. In fact, the first day of the week remained a workday, and still is for many. Much later, it took King James I to publish his ",
+                                "marks": [],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "Declaration on Sports",
+                                "marks": [
+                                    {
+                                        "type": "italic"
+                                    }
+                                ],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": " in 1617 to recover a sense of enjoyment of the day, commending … “",
+                                "marks": [],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "hyperlink",
+                                "data": {
+                                    "uri": "https://en.wikipedia.org/wiki/Archery"
+                                },
+                                "content": [
+                                    {
+                                        "nodeType": "text",
+                                        "value": "archery",
+                                        "marks": [],
+                                        "data": {}
+                                    }
+                                ]
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": ", ",
+                                "marks": [],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "hyperlink",
+                                "data": {
+                                    "uri": "https://en.wikipedia.org/wiki/Historical_dance"
+                                },
+                                "content": [
+                                    {
+                                        "nodeType": "text",
+                                        "value": "dancing",
+                                        "marks": [],
+                                        "data": {}
+                                    }
+                                ]
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": ", \"leaping, vaulting, or any other such harmless recreation\" as permissible sports, together with \"May-games, ",
+                                "marks": [],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "hyperlink",
+                                "data": {
+                                    "uri": "https://en.wikipedia.org/wiki/Whitsun_Ale"
+                                },
+                                "content": [
+                                    {
+                                        "nodeType": "text",
+                                        "value": "Whitsun-ales",
+                                        "marks": [],
+                                        "data": {}
+                                    }
+                                ]
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": " and ",
+                                "marks": [],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "hyperlink",
+                                "data": {
+                                    "uri": "https://en.wikipedia.org/wiki/Morris_dance"
+                                },
+                                "content": [
+                                    {
+                                        "nodeType": "text",
+                                        "value": "Morris-dances",
+                                        "marks": [],
+                                        "data": {}
+                                    }
+                                ]
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": ", and the setting up of ",
+                                "marks": [],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "hyperlink",
+                                "data": {
+                                    "uri": "https://en.wikipedia.org/wiki/Maypole"
+                                },
+                                "content": [
+                                    {
+                                        "nodeType": "text",
+                                        "value": "May-poles",
+                                        "marks": [],
+                                        "data": {}
+                                    }
+                                ]
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": ",\" also \"women shall have leave to ",
+                                "marks": [],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "hyperlink",
+                                "data": {
+                                    "uri": "https://en.wikipedia.org/wiki/Rushbearing"
+                                },
+                                "content": [
+                                    {
+                                        "nodeType": "text",
+                                        "value": "carry rushes",
+                                        "marks": [],
+                                        "data": {}
+                                    }
+                                ]
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": " to the church for the decorating of it, according to their old custom.\" For some reason, bear- and bullbaiting, along with bowling, remained off-limits. At about that same time references begin to appear regarding suitable attire for this recently recovered day of rest and enjoyment. This was possible because more people were able to afford having a “good set” of clothing to bring out on very special occasions. Such became known as one’s “Sunday best” or “Sunday Go to Meeting” clothes, “gay apparel” as voiced in “Deck the Halls,” and the related “glad rags,” ones party clothes, not to mention ladies’ “Easter bonnets with all the frills…,” as well as spiffy ushers’ jackets, or the myriad women’s “hats” [almost an understatement] in several Evangelical traditions. The “hat ladies” and their elaborate creations were immortalized in Michael Cunningham’s ",
+                                "marks": [],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "Crowns: Portraits of Black Women in Church Hats,",
+                                "marks": [
+                                    {
+                                        "type": "italic"
+                                    }
+                                ],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": " a beautifully presented photo essay published on Reformation Day in 2000. It is well worth reading.",
+                                "marks": [],
+                                "data": {}
+                            }
+                        ]
+                    },
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "Strangely enough, dressing up and approaching Sunday as a day set apart not only for rest but for explicit Christian behaviors, rituals, and a variety of appointed liturgies does not really resonate all that well with the witness of the New Testament. Certainly Jesus, Mary, and Joseph along with Jesus’ followers continued to follow Jewish customs, including times of prayer and the rite of presentation and purification. It is likely that the boy Jesus celebrated his ",
+                                "marks": [],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "Bar mitzvah",
+                                "marks": [
+                                    {
+                                        "type": "italic"
+                                    }
+                                ],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": ", too. Was that what was happening when he played ",
+                                "marks": [],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "Stump the Synagogue Teachers",
+                                "marks": [
+                                    {
+                                        "type": "italic"
+                                    }
+                                ],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": " when he went with his parents to the Jerusalem for the Passover. However, when Jesus finally establishes his own ministry, calling his band of twelve puzzled souls, such references to Judaic custom and ritual almost vanish from the gospel accounts. Rather, one reads of Jesus and his disciples setting off throughout the region preaching, teaching, and healing. Jesus frequently encounters the increasingly irate Pharisees not only around the synagogues but also when the trusty band of folks had been invited to eat with tax collectors and sinners. Jesus makes it his business to go about the countryside, inviting folks to talk about their fears, hopes, while entertaining their questions, and dining with them. ",
+                                "marks": [],
+                                "data": {}
+                            }
+                        ]
+                    },
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "We read of Jesus’ being ambushed by a young man wanting to understand how he could obtain eternal life. The Mark 10:17-31 account is one of three parallel stories of a rich young ruler with life shaking questions in Matthew, Mark, and Luke. It is a reflection of how things occur in in the lives of Jesus and his disciples. Anytime, anyplace, we might find ourselves surprised by someone we know or even a total stranger met in passing. They turn to us, unexpectedly revealing their hidden torment or profound sadness. There’s no time for us to read up on heartbreak and irrational anxieties; we can’t just tell them to “Hold that thought!” and promise to get back with them later. Although we’re not expected [by God at least] to pull a miracle out of our sleeve, scriptural passage after passage does imply that we will meet suffering folks with a listening ear and compassionate heart. Jesus didn’t sign us up to read them a prepared list of condemnations and rationalizations. He didn’t; his disciples’ apparently didn’t; neither should we. It may be that we can just offer a sign of friendship and recognition that they, whatever their issues, are still children of God’s own fashioning. WHY that is so is God’s business, not ours, but it is the promise of creation’s story.",
+                                "marks": [],
+                                "data": {}
+                            }
+                        ]
+                    },
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "Do we ever reflect that such hair-raising encounters with REAL LIFE don’t seem to happen as readily while we’re tucked into our pews. How safe the Charleston churches’ boxed pews must seem! Despite the various architectural and emotional barriers we might try erect, the liturgy itself, along with Sunday School, weekday bible study, Preschool ministry, and visitation of the sick are only part of a complex and ever-continuing rhythm of life peculiar to people of faith. God never made us for a life of glorious isolation – even the hermit religious living by themselves throughout history spent their lives praying for others and the work of Christ’s holy Church, not to mention trying to tame the vices and distractions that explode in all of our skulls each day. What we can and must do is bring the fruits of our ministries experienced in the world’s highways and byways of life to the congregation for its prayerful consideration. We do the work of ministry when we bite our tongues before making abrupt and uncaring comments or demands of our associates or those who work for us. We do the work of ministry when we, the ones the boss has been rude to, refrain from plotting in dark corners rather than with civility challenge unjust actions [that IS what Matthew 18 is about]. We do the work of ministry when we say a gracious, friendly word to the weary or sullen clerk or waitstaff trying to provide what WE need. We do the work of ministry when we say “Hey!” and ask the stranger in the church entrance, at school, or where we work their name, and whether, perhaps, we can be of help.",
+                                "marks": [],
+                                "data": {}
+                            }
+                        ]
+                    },
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "We needn’t expect a perfect track record of suddenly transformed, radiant souls ready to convert to our way of thinking, doing, and believing. Neither do we assume we’ve been utter klutzes at this outreach thing disciples are supposed to know how to do. It is in the doing of all these things day by day, praying impromptu mini-prayers in the midst of the vagaries of this life, and yes, regularly showing up for worship and Sunday School, choir, and whatever else not only for our own sake, but for the sake of community, too. As an ancient Christian text puts it: “Do not stay away from the meeting, for you deprive the Body of its members,” a concise summary of I Corinthians 12:1-31. That rhythm day in, day out, punctuated by “not staying away from the meeting,” is EXACTLY what the psalmist Sunday is talking about [Psalm 90 12, 14]: ",
+                                "marks": [],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "12",
+                                "marks": [
+                                    {
+                                        "type": "superscript"
+                                    },
+                                    {
+                                        "type": "italic"
+                                    }
+                                ],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "So teach us to number our days that we may apply our hearts to wisdom… ",
+                                "marks": [
+                                    {
+                                        "type": "italic"
+                                    }
+                                ],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "14",
+                                "marks": [
+                                    {
+                                        "type": "superscript"
+                                    },
+                                    {
+                                        "type": "italic"
+                                    }
+                                ],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "Satisfy us by your steadfast love in the morning; so shall we rejoice and be glad all our days.",
+                                "marks": [
+                                    {
+                                        "type": "italic"
+                                    }
+                                ],
+                                "data": {}
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "4W9iC8b80KjawhVhk7mXHA",
+            "publishDate": "2024-10-04T00:00",
+            "author": {
+                "name": "Dr. Bob Hawkins",
+                "image": {
+                    "url": "//images.ctfassets.net/3wcsgs8fznel/opaMg5v8fiwc4JuipOaao/519fff55dd7c90e53ea1e24d2595d5f1/dr-bob.jpg",
+                    "details": {
+                        "size": 5230,
+                        "image": {
+                            "width": 150,
+                            "height": 189
+                        }
+                    },
+                    "fileName": "dr-bob.jpg",
+                    "contentType": "image/jpeg"
+                }
+            },
+            "title": "God Is NOT Calling Us to Keep Up “…with the Kardashians!”",
+            "content": {
+                "nodeType": "document",
+                "data": {},
+                "content": [
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "There is a certain irony being played out this coming Sunday when we recognize and celebrate the diverse ministries of the men of our congregation. A few weeks ago, we asked for God’s blessing on teachers [September 15]. Most of the appointed readings that day had to do with the art and craft of teaching and learning – of the Spirit, we might well conclude. However, this Sunday’s gospel raises the painful topic of divorce, a thorny issue in the best of times and a horrendous nightmare for many people most of the time. I can find no direct connection between the work of Lutheran Men in Mission and the rupture of divorce, nor should there be. Neither is the convergence of LMM and Mark 10 necessarily “…of the Spirit.” However, before we simply try to ignore what is read this coming Sunday or reduce Jesus’ concerns to a blanket condemnation of divorce, it is wise to look carefully at the passage to see if issues are lurking which need some clarification in order to banish the brooding gloom that Mark 10 and similar passages cast [not to mention the tricky task of preaching on such a text]. There appear to be three distinct issues perking in the Gospel reading: 1) the position of Mosaic Law (i.e., that which is attributed to Moses and the Commandments), 2) God’s desire for humankind in contrast to the hardhearted mess we usually make of things, and 3) and the concluding verses [Mark 10:13-16], yet another reminder of the obvious, “of the Spirit” connection between the simple, fierce trust of small children and the way any child of God is to enter the Kingdom of love.",
+                                "marks": [],
+                                "data": {}
+                            }
+                        ]
+                    },
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "The conniving Pharisees once again try to trap Jesus [don’t they have anything better or more constructive to be doing???]. This time, they dangle the question of the legality of divorce based on Moses’ extending the “right” for a devout man to have a bill of divorce prepared so that he could be shed of a problematic spouse. It must be noted at this point that there was no clear parallel for a devout woman to have a similar bill of divorce prepared so that she could be rid of the bum. However, Biblical scholars argue that in extreme cases a woman could be granted her freedom. Otherwise, she was considered property like children, having no personal integrity, worth, or “rights” other than being “useful.” That being said, basing your case and appeal on “rights” will find you on very shaky ground in God’s kingdom, since everything in creation is God’s mind-boggling gift, God’s gracious, lavish favor on the creation God so dearly loves. It is logically inconsistent to claim a gift as ones right. Do that and it ceases to be “gift.” On the other hand, neither does God wish us to be doormats for the rude, crude, abusive, or vengeful beings who apparently can do nothing but maim others.",
+                                "marks": [],
+                                "data": {}
+                            }
+                        ]
+                    },
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "Happily, there is some major-league cognitive dissonance bubbling in Sunday’s readings which preclude the legitimacy either of a rigid, patriarchal social structure based on some hairbrained “divine right of males” or the default position that the man is simply by nature of his genetic makeup and birth ",
+                                "marks": [],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "ipso facto",
+                                "marks": [
+                                    {
+                                        "type": "italic"
+                                    }
+                                ],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": " head of the household or Roger Miller’s and Johnny Cash’s memorable “King of the Road” insofar as God’s kingdom is concerned. First of all, Jesus is not pleased either with the Pharisees’ question or the “hardness of heart” people so readily exhibit. Our lack of charity and consideration, gracious hospitality and respect, and our disregard of God’s creating us first and foremost as companions and stewards of God’s everlasting kingdom of love is the only reason that Moses extended the “right” in order to resolve corrosive animosity, Jesus insists. What God has created and sustained out of holy love in no way allows the comparison to trading in a used car for a new model. God fashioned us for abiding companionship and love. Nevertheless, many people get hooked by skewed cultural values, the beauty-and-success-at-all-costs myth, discarding the baggage and people who weigh us down or stand in our way, and becoming serial shoppers for trophy spouses and bank account cushiness. God’s idea about living in the kingdom is not the same as ",
+                                "marks": [],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "Keeping up with the Kardashians",
+                                "marks": [
+                                    {
+                                        "type": "italic"
+                                    }
+                                ],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": ". Not even the Joneses manage to do that.",
+                                "marks": [],
+                                "data": {}
+                            }
+                        ]
+                    },
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "The reality is this: God can rightly expect “far, far better things” from us [a slight bow to Dickens’ ",
+                                "marks": [],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "A Tale of Two Cities",
+                                "marks": [
+                                    {
+                                        "type": "italic"
+                                    }
+                                ],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "] in the way of holy living and loving than we often display by our actions, decisions, glib speech, and even the questionable “stuff” we’re addicted to on television and social media, “alternative facts news,” not to mention our behavior at home and in public when we think “mom” is neither watching nor listening (“mom” being anyone or anything who keeps us mindful of our “P’s & Q’s”). Remember, even Santa Claus knows most everything, including when “…we’ve been bad or good.” Yet, given our tendencies, one really must ask just why God SHOULD expect such exemplary behavior from us? We are so shaped and formed by Lutheran theology which rightly and blessedly encourages heartfelt contrition and repentance, but too often has tipped our fears over into the abject terror that God might squish us if we are stupid enough to “fess up.” No less a philosopher and anthropologist than Ludwig Feuerbach (1804-1872) even suggested that Luther’s theology was a hymn of praise to God but an utter lampoon of humankind. Such a pessimistic approach to faith and living as God’s children was not Luther’s intent though somewhat consistent with Medieval piety, I sense, but the proof is in the pudding. After all, we were happy as clams for a very long time, content with a ",
+                                "marks": [],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "Brief Order of Confession and Forgiveness",
+                                "marks": [
+                                    {
+                                        "type": "italic"
+                                    }
+                                ],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": " weekly while begrudgingly accepting God’s invitation to table [once a month? quarterly?] because we might not be “worthy enough” more often. Despite Luther’s own pleading, it took us nearly five hundred years to return to a weekly communion with our loving God at the altar where we join our brothers and sisters, Christian “souls decked in gladness” eagerly partaking of this blessed meal [take a peek at ELW 488 and 462, Joel W. Lundeen’s twentieth century recasting of the original text].",
+                                "marks": [],
+                                "data": {}
+                            }
+                        ]
+                    },
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "“With gladness” we hit paydirt in the other readings for this coming Sunday. They unfold for us why God can indeed expect much from us “earthen vessels.” Psalm 8 is a stunning summary of our job description as God’s beloved children crafted in the midst of creation: ",
+                                "marks": [],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "3",
+                                "marks": [
+                                    {
+                                        "type": "superscript"
+                                    },
+                                    {
+                                        "type": "italic"
+                                    }
+                                ],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "When I consider your heavens, the work of your fingers, the moon and the stars you have set in their courses, ",
+                                "marks": [
+                                    {
+                                        "type": "italic"
+                                    }
+                                ],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "4",
+                                "marks": [
+                                    {
+                                        "type": "superscript"
+                                    },
+                                    {
+                                        "type": "italic"
+                                    }
+                                ],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "what are mere mortals that you should be mindful of them, human beings that you should care for them? ",
+                                "marks": [
+                                    {
+                                        "type": "italic"
+                                    }
+                                ],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "5",
+                                "marks": [
+                                    {
+                                        "type": "superscript"
+                                    },
+                                    {
+                                        "type": "italic"
+                                    }
+                                ],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "Yet you have made them little less than divine; with glory and honor you crown them. ",
+                                "marks": [
+                                    {
+                                        "type": "italic"
+                                    }
+                                ],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "6",
+                                "marks": [
+                                    {
+                                        "type": "superscript"
+                                    },
+                                    {
+                                        "type": "italic"
+                                    }
+                                ],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "You have made them rule over the works of your hands; you have put all things under their feet: ",
+                                "marks": [
+                                    {
+                                        "type": "italic"
+                                    }
+                                ],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "7",
+                                "marks": [
+                                    {
+                                        "type": "superscript"
+                                    },
+                                    {
+                                        "type": "italic"
+                                    }
+                                ],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "all flocks and cattle, even the wild beasts of the field, ",
+                                "marks": [
+                                    {
+                                        "type": "italic"
+                                    }
+                                ],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "8",
+                                "marks": [
+                                    {
+                                        "type": "superscript"
+                                    },
+                                    {
+                                        "type": "italic"
+                                    }
+                                ],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "the birds of the air, the fish of the sea, and whatever passes along the paths of the sea. ",
+                                "marks": [
+                                    {
+                                        "type": "italic"
+                                    }
+                                ],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "Had not the Almighty really big things in mind for us to accomplish as his beloved children, what a pathetic waste of time Creation would have been! We have been created in the image and likeness of the living God. It has nothing to do with male and female “differences,” physical, mental, and/or spiritual. We have been created creative, gifted individuals: ",
+                                "marks": [],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "So God created humans in his image, in the image of God he created them;male and female he created them.",
+                                "marks": [
+                                    {
+                                        "type": "italic"
+                                    }
+                                ],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": " We have been fashioned “little less than divine…” in order to be caretakers, stewards, and God’s ambassadors in the midst of a troubled world. This is also the wellspring where we discover exactly what “our own personal crosses” are, based on the gifts of God’s granting and the need and suffering we encounter in our neck of the woods. The cross is never bothersome ailments or wearisome interruptions we simply endure – such things, brothers and sisters, are the thorns in the flesh St. Paul ponders [II Corinthians 12:7-10]. Rather, it is the gracious, holy work we have been gifted to undertake [which means we’re able to do it!] on behalf of others which the Church knows as a “calling.” Callings are ",
+                                "marks": [],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "not",
+                                "marks": [
+                                    {
+                                        "type": "italic"
+                                    }
+                                ],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": " schemes for conniving to get what we want, particularly just to feel good about ourselves because we have managed to be “oh, so nice” for a bit.",
+                                "marks": [],
+                                "data": {}
+                            }
+                        ]
+                    },
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "The passage from Hebrews is also a tidy summary of what God in Christ has done “…for us and for our salvation” (second article of the Nicene Creed if you want to check) simply because God has had so very much in store for us from the beginning. The passage reiterates Psalm 8’s reminder of our noble creation: “for a little while lower than the angels” while crowning us with glory and honor. Nothing suggests that God has devised a nefarious scheme to squish us flat. This poor, suffering world can’t afford such a wasteful derailing of God’s stewards; we have work to do!!!",
+                                "marks": [],
+                                "data": {}
+                            }
+                        ]
+                    },
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "Really, what this coming Sunday holds before us scripturally is the importance of the abiding relationships God fashions for us in order to support us in the crucial work of ministry, something, I dare say, Lutheran Men in Mission, the Women of the ELCA, and anyone else on the church roster or baptismal rolls all hold dear. In the same way that Jesus was sent to us by God’s unfathomable love “for the whole cosmos” [John 3:16 – that IS what the Greek says!], so we, too, are sent to the sick, suffering, the needy, lonely, the forgotten, and the dying, not to mention to the joyous and secure in their faith, and the wider issue of creation’s care. Faith, which is this holy relationship lived out and reflected upon, is ultimately learning to live by holding on to a fierce trust in the Lord of life who creates good, beneficial, generous communities of faithful service, not beguiling pits of self-indulgence heralding a sure and certain destruction.",
+                                "marks": [],
+                                "data": {}
+                            }
+                        ]
+                    },
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "Jesus’ continuing stress on childlike trust presents God’s goal as the Peaceable Kingdom which the venerable prophet describes on the Second Sunday of Advent, Year A in Isaiah 11:1-10: ",
+                                "marks": [],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "the wolf shall live with the lamb, the leopard shall lie down with the kid, the calf and the lion and the fatling together, ",
+                                "marks": [
+                                    {
+                                        "type": "italic"
+                                    }
+                                ],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "and a little child shall lead them...",
+                                "marks": [
+                                    {
+                                        "type": "bold"
+                                    },
+                                    {
+                                        "type": "italic"
+                                    }
+                                ],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": " Any other questions, children of God?",
+                                "marks": [],
+                                "data": {}
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
             "id": "1sZbwbBSfSQrXx1Dvcr7Db",
             "publishDate": "2024-09-27T00:00",
             "author": {

@@ -1,5 +1,5 @@
 <template>
-    <div :class="contentAssistEnabled ? 'content-block outlined' : 'content-block'">
+    <div :class="contentAssistEnabled ? 'content-block outlined' : 'content-block'" ref="content-block">
         <v-alert
             v-if="contentAssistEnabled"
             icon="mdi-file-document-outline"
@@ -10,9 +10,8 @@
             <img
                 v-if="block.image && block.imageAlignment !== 'bottom'"
                 :src="block.image.url"
-                :width="getAssetWidth(block.image.details.image.width, block.image.details.image.height)"
-                :height="getAssetHeight(block.image.details.image.width, block.image.details.image.height)"
                 :class="getImageClass(block)"
+                :style="getImageStyle(block, this)"
                 alt="Content Block Image"
                 @click="imageClicked(block.imageLink)"
             />
@@ -20,9 +19,8 @@
             <img
                 v-if="block.image && block.imageAlignment === 'bottom'"
                 :src="block.image.url"
-                :width="getAssetWidth(block.image.details.image.width, block.image.details.image.height)"
-                :height="getAssetHeight(block.image.details.image.width, block.image.details.image.height)"
                 :class="getImageClass(block)"
+                :style="getImageStyle(block, this)"
                 alt="Content Block Image"
                 @click="imageClicked(block.imageLink)"
             />
@@ -32,10 +30,10 @@
 
 <script setup>
   import RichContentRenderer from '@/components/RichContentRenderer.vue'
-  import { getAssetWidth, getAssetHeight } from '../utils/assetUtils';
+  import { getAssetWidth, getAssetHeight, getAssetSizeStyle } from '../utils/assetUtils';
   import { useContentStore } from '@/store/content';
   import { storeToRefs } from 'pinia';
-  import { ref, watch } from 'vue';
+  import { ref, watch, useTemplateRef } from 'vue';
 
   const props = defineProps({
       contentBlockKey: { type: String, required: true }
@@ -45,6 +43,7 @@
 
   const contentStore = useContentStore();
   const { contentBlocks, contentAssistEnabled } = storeToRefs(contentStore);
+  const contentBlock = useTemplateRef('content-block');
 
   block.value = contentBlocks.value[props.contentBlockKey];
   if (!block.value) {
@@ -55,6 +54,18 @@
 
   function getImageClass(block) {
       return block.imageLink ? `${block.imageAlignment} link` : block.imageAlignment;
+  }
+
+  function getImageStyle(block) {
+      if (contentBlock.value) {
+        return getAssetSizeStyle(
+            block.image.details.image.width,
+            block.image.details.image.height,
+            contentBlock.value
+        );
+      } else {
+        return 'width: 10px; height: 10px;';
+      }
   }
 
   function imageClicked(imageLink) {

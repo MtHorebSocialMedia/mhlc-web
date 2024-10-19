@@ -1,9 +1,9 @@
 {
     "news": [
         {
-            "id": "rxAJJphjrtMXmOrW5Lmoc",
-            "datetime": "2024-09-27T00:00",
-            "title": "Youth News",
+            "id": "15QBKkM6N3JR4mWnILR9jC",
+            "datetime": "2024-10-11T00:00",
+            "title": "Friendship Circle",
             "description": {
                 "data": {},
                 "content": [
@@ -13,132 +13,13 @@
                             {
                                 "data": {},
                                 "marks": [],
-                                "value": "We meet this Sunday September 29th ",
+                                "value": "We meet ",
                                 "nodeType": "text"
                             },
                             {
                                 "data": {},
                                 "marks": [],
-                                "value": "at 5pm for a prayer walk in Chapin and then to Sonic for supper.",
-                                "nodeType": "text"
-                            }
-                        ],
-                        "nodeType": "paragraph"
-                    }
-                ],
-                "nodeType": "document"
-            },
-            "type": [
-                {
-                    "id": "3BITHvpc2z0yYfvxgTUQbK",
-                    "type": "Youth"
-                },
-                {
-                    "id": "5ktejUJ8noonowWZUs0uN7",
-                    "type": "General"
-                }
-            ],
-            "image": null,
-            "attachments": []
-        },
-        {
-            "id": "2zNvcY6QedtI8fR6JcI90L",
-            "datetime": "2024-09-20T00:00",
-            "title": "Prayer Requests",
-            "description": {
-                "data": {},
-                "content": [
-                    {
-                        "data": {},
-                        "content": [
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": "–Jerry Bundrick",
-                                "nodeType": "text"
-                            }
-                        ],
-                        "nodeType": "paragraph"
-                    },
-                    {
-                        "data": {},
-                        "content": [
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": "–Gene Teal",
-                                "nodeType": "text"
-                            }
-                        ],
-                        "nodeType": "paragraph"
-                    },
-                    {
-                        "data": {},
-                        "content": [
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": "–Andrea Hollis",
-                                "nodeType": "text"
-                            }
-                        ],
-                        "nodeType": "paragraph"
-                    },
-                    {
-                        "data": {},
-                        "content": [
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": "–Ann B. Shealy",
-                                "nodeType": "text"
-                            }
-                        ],
-                        "nodeType": "paragraph"
-                    },
-                    {
-                        "data": {},
-                        "content": [
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": "–Randy Addy",
-                                "nodeType": "text"
-                            }
-                        ],
-                        "nodeType": "paragraph"
-                    },
-                    {
-                        "data": {},
-                        "content": [
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": "–Susan Addy",
-                                "nodeType": "text"
-                            }
-                        ],
-                        "nodeType": "paragraph"
-                    },
-                    {
-                        "data": {},
-                        "content": [
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": "–Family of Tammy Shealy on her death",
-                                "nodeType": "text"
-                            }
-                        ],
-                        "nodeType": "paragraph"
-                    },
-                    {
-                        "data": {},
-                        "content": [
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": "–Ann S. Shealy and entire family of Charlie Shealy on his death",
+                                "value": "Friday, October 18th, at 11:30am. ",
                                 "nodeType": "text"
                             }
                         ],
@@ -157,9 +38,9 @@
             "attachments": []
         },
         {
-            "id": "7A7ETCA5Wy8mnH4sSWVkIT",
-            "datetime": "2024-09-20T00:00",
-            "title": "Bulletin for September 22",
+            "id": "0sqaYHSK2ptEEVE3CQfD3",
+            "datetime": "2024-10-11T00:00",
+            "title": "Agape Circle",
             "description": {
                 "data": {},
                 "content": [
@@ -169,7 +50,119 @@
                             {
                                 "data": {},
                                 "marks": [],
-                                "value": "Check out the bulletin for this Sunday's service!",
+                                "value": "We ",
+                                "nodeType": "text"
+                            },
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "meet Thursday, October 17th, at 6:30pm. We will have “Big Circle” and have invited the ladies form Bethel Lutheran to join us.",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    }
+                ],
+                "nodeType": "document"
+            },
+            "type": [
+                {
+                    "id": "5ktejUJ8noonowWZUs0uN7",
+                    "type": "General"
+                }
+            ],
+            "image": null,
+            "attachments": []
+        },
+        {
+            "id": "6NPhgQdwLEeG7iEab1yp6s",
+            "datetime": "2024-10-11T00:00",
+            "title": "Sweatshirts for Newberry Boys Farm",
+            "description": {
+                "data": {},
+                "content": [
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "Agape Circle has been collecting sweatshirts for the Boys at Newberry Boys Farm. We could use your help! If you would like to contribute to this project, bring any kind of ",
+                                "nodeType": "text"
+                            },
+                            {
+                                "data": {},
+                                "marks": [
+                                    {
+                                        "type": "underline"
+                                    }
+                                ],
+                                "value": "new",
+                                "nodeType": "text"
+                            },
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": " sweatshirt to our collection box in the Narthex. Sweatshirts can be any size or color, crew neck, zip up, or hoodie. We will collect through ",
+                                "nodeType": "text"
+                            },
+                            {
+                                "data": {},
+                                "marks": [
+                                    {
+                                        "type": "underline"
+                                    }
+                                ],
+                                "value": "Sunday, Oct 20th ",
+                                "nodeType": "text"
+                            },
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "and deliver on Thursday October 24th. ",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    },
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "The boys range in age from first grade to twelfth grade. Their sizes vary, so the more we have the more likely we will have something for everyone! Thank you for any help you can give. ",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    }
+                ],
+                "nodeType": "document"
+            },
+            "type": [
+                {
+                    "id": "5ktejUJ8noonowWZUs0uN7",
+                    "type": "General"
+                }
+            ],
+            "image": null,
+            "attachments": []
+        },
+        {
+            "id": "6LMIcmA49ih0JtdLqWmXnD",
+            "datetime": "2024-10-11T00:00",
+            "title": "Bulletin for October 13",
+            "description": {
+                "data": {},
+                "content": [
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "Check out this Sunday's bulletin.",
                                 "nodeType": "text"
                             }
                         ],
@@ -187,104 +180,53 @@
             "image": null,
             "attachments": [
                 {
-                    "title": "Bulletin for September 22, 2024",
+                    "title": "Bulletin for October 13",
                     "file": {
-                        "url": "//assets.ctfassets.net/3wcsgs8fznel/7N30QNKH5bJm09PQ8pH90l/d10ed49794fbe93b4bb676e860986529/bulletin0922.pdf",
+                        "url": "//assets.ctfassets.net/3wcsgs8fznel/4VVRzvMcRsKGVJqdVLlISf/92437e284caa189486ee4421aeadf169/bulletin1013.pdf",
                         "details": {
-                            "size": 1298824
+                            "size": 1229325
                         },
-                        "fileName": "bulletin0922.pdf",
+                        "fileName": "bulletin1013.pdf",
                         "contentType": "application/pdf"
                     }
                 }
             ]
         },
         {
-            "id": "211F3uOkNjnmJYzqVJ88K7",
-            "datetime": "2024-09-20T00:00",
-            "title": "Worship Team",
-            "description": {
-                "data": {},
-                "content": [
-                    {
-                        "data": {},
-                        "content": [
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": "We meet this Sunday, September 22, after the service.",
-                                "nodeType": "text"
-                            }
-                        ],
-                        "nodeType": "paragraph"
-                    },
-                    {
-                        "data": {},
-                        "content": [
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": "\n",
-                                "nodeType": "text"
-                            }
-                        ],
-                        "nodeType": "paragraph"
-                    }
-                ],
-                "nodeType": "document"
-            },
-            "type": [
-                {
-                    "id": "5ktejUJ8noonowWZUs0uN7",
-                    "type": "General"
-                },
-                {
-                    "id": "3Zl7eAG9eIPOZLPyA11Uj8",
-                    "type": "Event"
-                }
-            ],
-            "image": null,
-            "attachments": []
-        },
-        {
-            "id": "2z34dr9Yu9EuExlAZHW0l9",
-            "datetime": "2024-09-12T00:00",
+            "id": "2ZpPObgUF6To6xS0zz6CDR",
+            "datetime": "2024-10-11T00:00",
             "title": "LutheReaders",
             "description": {
+                "nodeType": "document",
                 "data": {},
                 "content": [
                     {
+                        "nodeType": "paragraph",
                         "data": {},
                         "content": [
                             {
-                                "data": {},
+                                "nodeType": "text",
+                                "value": "We meet Tuesday, October 15th, at 5:30pm.",
                                 "marks": [],
-                                "value": "We meet Tuesday, September 17, at 5:30pm.",
-                                "nodeType": "text"
+                                "data": {}
                             }
-                        ],
-                        "nodeType": "paragraph"
+                        ]
                     }
-                ],
-                "nodeType": "document"
+                ]
             },
             "type": [
                 {
                     "id": "5ktejUJ8noonowWZUs0uN7",
                     "type": "General"
-                },
-                {
-                    "id": "3Zl7eAG9eIPOZLPyA11Uj8",
-                    "type": "Event"
                 }
             ],
             "image": null,
             "attachments": []
         },
         {
-            "id": "qN2bbRep64fS7Rrmuh0gs",
-            "datetime": "2024-09-12T00:00",
-            "title": "Agape",
+            "id": "7ppiDizUfWo1mvvo7sq4yb",
+            "datetime": "2024-10-04T00:00",
+            "title": "Prayer Requests",
             "description": {
                 "data": {},
                 "content": [
@@ -294,7 +236,7 @@
                             {
                                 "data": {},
                                 "marks": [],
-                                "value": "We will meet Thursday, September 19, at 6:30pm.",
+                                "value": "Þ Gene Teal",
                                 "nodeType": "text"
                             }
                         ],
@@ -306,81 +248,43 @@
                             {
                                 "data": {},
                                 "marks": [],
-                                "value": "\n",
+                                "value": "Þ Ann B. Shealy",
                                 "nodeType": "text"
                             }
                         ],
                         "nodeType": "paragraph"
-                    }
-                ],
-                "nodeType": "document"
-            },
-            "type": [
-                {
-                    "id": "5ktejUJ8noonowWZUs0uN7",
-                    "type": "General"
-                },
-                {
-                    "id": "3Zl7eAG9eIPOZLPyA11Uj8",
-                    "type": "Event"
-                }
-            ],
-            "image": null,
-            "attachments": []
-        },
-        {
-            "id": "MsDd52TIWckw72IykUTzu",
-            "datetime": "2024-09-12T00:00",
-            "title": "Youth Meeting",
-            "description": {
-                "data": {},
-                "content": [
+                    },
                     {
                         "data": {},
                         "content": [
                             {
                                 "data": {},
                                 "marks": [],
-                                "value": "We will have our first youth meeting back from the summer break this Sunday, September 15, 5pm-7pm in the Fellowship Hall with pizza, games, and planning for the upcoming year. ",
+                                "value": "Þ Randy Addy",
                                 "nodeType": "text"
                             }
                         ],
                         "nodeType": "paragraph"
-                    }
-                ],
-                "nodeType": "document"
-            },
-            "type": [
-                {
-                    "id": "5ktejUJ8noonowWZUs0uN7",
-                    "type": "General"
-                },
-                {
-                    "id": "3Zl7eAG9eIPOZLPyA11Uj8",
-                    "type": "Event"
-                },
-                {
-                    "id": "3BITHvpc2z0yYfvxgTUQbK",
-                    "type": "Youth"
-                }
-            ],
-            "image": null,
-            "attachments": []
-        },
-        {
-            "id": "7J2jnsVpff6wmg36NYGoQX",
-            "datetime": "2024-09-12T00:00",
-            "title": "Blessing of Teachers",
-            "description": {
-                "data": {},
-                "content": [
+                    },
                     {
                         "data": {},
                         "content": [
                             {
                                 "data": {},
                                 "marks": [],
-                                "value": "This Sunday, September 15, we will have a Blessing of Teachers during the worship service.",
+                                "value": "Þ Susan Addy",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    },
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "Þ Loretta Griffin and family on the death of her niece",
                                 "nodeType": "text"
                             }
                         ],
@@ -399,9 +303,9 @@
             "attachments": []
         },
         {
-            "id": "7Eo1KZzWKLtvJjD38Lg2lO",
-            "datetime": "2024-09-12T00:00",
-            "title": "Friendship Circle",
+            "id": "2QWSqX9R1Z4DGYZ5uPModU",
+            "datetime": "2024-10-04T00:00",
+            "title": "Bulletin for October 6",
             "description": {
                 "data": {},
                 "content": [
@@ -411,7 +315,7 @@
                             {
                                 "data": {},
                                 "marks": [],
-                                "value": "We will meet Friday, September 20, at 11:30am.",
+                                "value": "Check out this Sunday's bulletin.",
                                 "nodeType": "text"
                             }
                         ],
@@ -424,19 +328,64 @@
                 {
                     "id": "5ktejUJ8noonowWZUs0uN7",
                     "type": "General"
-                },
+                }
+            ],
+            "image": null,
+            "attachments": [
                 {
-                    "id": "3Zl7eAG9eIPOZLPyA11Uj8",
-                    "type": "Event"
+                    "title": "October 6th Bulletin",
+                    "file": {
+                        "url": "//assets.ctfassets.net/3wcsgs8fznel/2OQLaBmiEE3N7q8n2vIeMP/d0d3ba248d5e4ac4a2c1710ffa21532e/bulletin1006.pdf",
+                        "details": {
+                            "size": 1166563
+                        },
+                        "fileName": "bulletin1006.pdf",
+                        "contentType": "application/pdf"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "2luYempq0TEwPjuzWOeiQi",
+            "datetime": "2024-10-04T00:00",
+            "title": "Finance Team",
+            "description": {
+                "data": {},
+                "content": [
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "We ",
+                                "nodeType": "text"
+                            },
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "meet Thursday, October 10th, via Zoom at 7pm.",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    }
+                ],
+                "nodeType": "document"
+            },
+            "type": [
+                {
+                    "id": "5ktejUJ8noonowWZUs0uN7",
+                    "type": "General"
                 }
             ],
             "image": null,
             "attachments": []
         },
         {
-            "id": "tiTa2FLYECHyvtkFDPLPJ",
-            "datetime": "2024-09-12T00:00",
-            "title": "Stewardship Team",
+            "id": "1H0IRsNtsTQvJtXnjLPHDz",
+            "datetime": "2024-10-02T00:00",
+            "title": "You Are Welcome at the Mount!",
             "description": {
                 "data": {},
                 "content": [
@@ -446,7 +395,463 @@
                             {
                                 "data": {},
                                 "marks": [],
-                                "value": "We meet Wednesday, September 18, at 5:15pm in the Fellowship Hall.",
+                                "value": "It's been a very challenging time for the Chapin community following Hurricane Helene. Please, come, and experience the Welcome at ",
+                                "nodeType": "text"
+                            },
+                            {
+                                "data": {},
+                                "marks": [
+                                    {
+                                        "type": "italic"
+                                    }
+                                ],
+                                "value": "The Mount:",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    },
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "content": [
+                                    {
+                                        "data": {},
+                                        "content": [
+                                            {
+                                                "data": {},
+                                                "marks": [],
+                                                "value": "Enjoy the quiet of our sanctuary to ",
+                                                "nodeType": "text"
+                                            },
+                                            {
+                                                "data": {},
+                                                "marks": [
+                                                    {
+                                                        "type": "bold"
+                                                    },
+                                                    {
+                                                        "type": "underline"
+                                                    }
+                                                ],
+                                                "value": "pray!",
+                                                "nodeType": "text"
+                                            }
+                                        ],
+                                        "nodeType": "paragraph"
+                                    }
+                                ],
+                                "nodeType": "list-item"
+                            },
+                            {
+                                "data": {},
+                                "content": [
+                                    {
+                                        "data": {},
+                                        "content": [
+                                            {
+                                                "data": {},
+                                                "marks": [],
+                                                "value": "Drink a cold glass of living ",
+                                                "nodeType": "text"
+                                            },
+                                            {
+                                                "data": {},
+                                                "marks": [
+                                                    {
+                                                        "type": "bold"
+                                                    },
+                                                    {
+                                                        "type": "underline"
+                                                    }
+                                                ],
+                                                "value": "water",
+                                                "nodeType": "text"
+                                            },
+                                            {
+                                                "data": {},
+                                                "marks": [
+                                                    {
+                                                        "type": "underline"
+                                                    }
+                                                ],
+                                                "value": "!",
+                                                "nodeType": "text"
+                                            }
+                                        ],
+                                        "nodeType": "paragraph"
+                                    }
+                                ],
+                                "nodeType": "list-item"
+                            },
+                            {
+                                "data": {},
+                                "content": [
+                                    {
+                                        "data": {},
+                                        "content": [
+                                            {
+                                                "data": {},
+                                                "marks": [
+                                                    {
+                                                        "type": "bold"
+                                                    },
+                                                    {
+                                                        "type": "underline"
+                                                    }
+                                                ],
+                                                "value": "Charge",
+                                                "nodeType": "text"
+                                            },
+                                            {
+                                                "data": {},
+                                                "marks": [],
+                                                "value": " your phones and computers!",
+                                                "nodeType": "text"
+                                            }
+                                        ],
+                                        "nodeType": "paragraph"
+                                    }
+                                ],
+                                "nodeType": "list-item"
+                            },
+                            {
+                                "data": {},
+                                "content": [
+                                    {
+                                        "data": {},
+                                        "content": [
+                                            {
+                                                "data": {},
+                                                "marks": [],
+                                                "value": "Enjoy our ",
+                                                "nodeType": "text"
+                                            },
+                                            {
+                                                "data": {},
+                                                "marks": [
+                                                    {
+                                                        "type": "bold"
+                                                    },
+                                                    {
+                                                        "type": "underline"
+                                                    }
+                                                ],
+                                                "value": "WiFi!",
+                                                "nodeType": "text"
+                                            }
+                                        ],
+                                        "nodeType": "paragraph"
+                                    }
+                                ],
+                                "nodeType": "list-item"
+                            },
+                            {
+                                "data": {},
+                                "content": [
+                                    {
+                                        "data": {},
+                                        "content": [
+                                            {
+                                                "data": {},
+                                                "marks": [],
+                                                "value": "Our ",
+                                                "nodeType": "text"
+                                            },
+                                            {
+                                                "data": {},
+                                                "marks": [
+                                                    {
+                                                        "type": "bold"
+                                                    },
+                                                    {
+                                                        "type": "underline"
+                                                    }
+                                                ],
+                                                "value": "restrooms",
+                                                "nodeType": "text"
+                                            },
+                                            {
+                                                "data": {},
+                                                "marks": [
+                                                    {
+                                                        "type": "underline"
+                                                    }
+                                                ],
+                                                "value": " ",
+                                                "nodeType": "text"
+                                            },
+                                            {
+                                                "data": {},
+                                                "marks": [],
+                                                "value": "are available!",
+                                                "nodeType": "text"
+                                            }
+                                        ],
+                                        "nodeType": "paragraph"
+                                    }
+                                ],
+                                "nodeType": "list-item"
+                            },
+                            {
+                                "data": {},
+                                "content": [
+                                    {
+                                        "data": {},
+                                        "content": [
+                                            {
+                                                "data": {},
+                                                "marks": [],
+                                                "value": "Enjoy the ",
+                                                "nodeType": "text"
+                                            },
+                                            {
+                                                "data": {},
+                                                "marks": [
+                                                    {
+                                                        "type": "bold"
+                                                    },
+                                                    {
+                                                        "type": "underline"
+                                                    }
+                                                ],
+                                                "value": "Air",
+                                                "nodeType": "text"
+                                            },
+                                            {
+                                                "data": {},
+                                                "marks": [
+                                                    {
+                                                        "type": "underline"
+                                                    }
+                                                ],
+                                                "value": " ",
+                                                "nodeType": "text"
+                                            },
+                                            {
+                                                "data": {},
+                                                "marks": [
+                                                    {
+                                                        "type": "bold"
+                                                    },
+                                                    {
+                                                        "type": "underline"
+                                                    }
+                                                ],
+                                                "value": "Conditioning!",
+                                                "nodeType": "text"
+                                            }
+                                        ],
+                                        "nodeType": "paragraph"
+                                    }
+                                ],
+                                "nodeType": "list-item"
+                            },
+                            {
+                                "data": {},
+                                "content": [
+                                    {
+                                        "data": {},
+                                        "content": [
+                                            {
+                                                "data": {},
+                                                "marks": [],
+                                                "value": "Share your ",
+                                                "nodeType": "text"
+                                            },
+                                            {
+                                                "data": {},
+                                                "marks": [
+                                                    {
+                                                        "type": "bold"
+                                                    },
+                                                    {
+                                                        "type": "underline"
+                                                    }
+                                                ],
+                                                "value": "challenges",
+                                                "nodeType": "text"
+                                            },
+                                            {
+                                                "data": {},
+                                                "marks": [],
+                                                "value": " and ",
+                                                "nodeType": "text"
+                                            },
+                                            {
+                                                "data": {},
+                                                "marks": [
+                                                    {
+                                                        "type": "bold"
+                                                    },
+                                                    {
+                                                        "type": "underline"
+                                                    }
+                                                ],
+                                                "value": "joys",
+                                                "nodeType": "text"
+                                            },
+                                            {
+                                                "data": {},
+                                                "marks": [],
+                                                "value": " with Pastor Ron!",
+                                                "nodeType": "text"
+                                            }
+                                        ],
+                                        "nodeType": "paragraph"
+                                    }
+                                ],
+                                "nodeType": "list-item"
+                            }
+                        ],
+                        "nodeType": "unordered-list"
+                    },
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [
+                                    {
+                                        "type": "italic"
+                                    }
+                                ],
+                                "value": "But those who trust in the ",
+                                "nodeType": "text"
+                            },
+                            {
+                                "data": {},
+                                "marks": [
+                                    {
+                                        "type": "italic"
+                                    },
+                                    {
+                                        "type": "underline"
+                                    }
+                                ],
+                                "value": "Lord",
+                                "nodeType": "text"
+                            },
+                            {
+                                "data": {},
+                                "marks": [
+                                    {
+                                        "type": "italic"
+                                    }
+                                ],
+                                "value": " will find ",
+                                "nodeType": "text"
+                            },
+                            {
+                                "data": {},
+                                "marks": [
+                                    {
+                                        "type": "italic"
+                                    },
+                                    {
+                                        "type": "underline"
+                                    }
+                                ],
+                                "value": "new",
+                                "nodeType": "text"
+                            },
+                            {
+                                "data": {},
+                                "marks": [
+                                    {
+                                        "type": "italic"
+                                    }
+                                ],
+                                "value": " strength. They will soar high on wings like ",
+                                "nodeType": "text"
+                            },
+                            {
+                                "data": {},
+                                "marks": [
+                                    {
+                                        "type": "italic"
+                                    },
+                                    {
+                                        "type": "underline"
+                                    }
+                                ],
+                                "value": "Eagles.",
+                                "nodeType": "text"
+                            },
+                            {
+                                "data": {},
+                                "marks": [
+                                    {
+                                        "type": "italic"
+                                    }
+                                ],
+                                "value": " They will ",
+                                "nodeType": "text"
+                            },
+                            {
+                                "data": {},
+                                "marks": [
+                                    {
+                                        "type": "italic"
+                                    },
+                                    {
+                                        "type": "underline"
+                                    }
+                                ],
+                                "value": "run",
+                                "nodeType": "text"
+                            },
+                            {
+                                "data": {},
+                                "marks": [
+                                    {
+                                        "type": "italic"
+                                    }
+                                ],
+                                "value": " and not grow weary. They will ",
+                                "nodeType": "text"
+                            },
+                            {
+                                "data": {},
+                                "marks": [
+                                    {
+                                        "type": "italic"
+                                    },
+                                    {
+                                        "type": "underline"
+                                    }
+                                ],
+                                "value": "walk",
+                                "nodeType": "text"
+                            },
+                            {
+                                "data": {},
+                                "marks": [
+                                    {
+                                        "type": "italic"
+                                    }
+                                ],
+                                "value": " and not faint. ",
+                                "nodeType": "text"
+                            },
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "Isaiah 40:31 NLT",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    },
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "The Chapin Community is stronger when we come together! Come to the Mount and renew your strength!",
                                 "nodeType": "text"
                             }
                         ],
@@ -459,10 +864,97 @@
                 {
                     "id": "5ktejUJ8noonowWZUs0uN7",
                     "type": "General"
-                },
+                }
+            ],
+            "image": null,
+            "attachments": []
+        },
+        {
+            "id": "2lls7EtMwx7gkGioSJCikg",
+            "datetime": "2024-09-28T00:00",
+            "title": "The Church Has Power!",
+            "description": {
+                "nodeType": "document",
+                "data": {},
+                "content": [
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "We will worship indoors on Sunday. Please come whether the storm has limited your ability to get cleaned up or not, let’s give thanks that we are together. Although we do not have bulletins printed for indoors, we do have worship planned and our tech team will assist us. ",
+                                "marks": [],
+                                "data": {}
+                            }
+                        ]
+                    },
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "Our picnic will be postponed to an undetermined date due to complications of the storm.",
+                                "marks": [],
+                                "data": {}
+                            }
+                        ]
+                    },
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "Also, the planned youth activities for tomorrow afternoon will be postponed to next Sunday.",
+                                "marks": [],
+                                "data": {}
+                            }
+                        ]
+                    },
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "If you have perishable items that need to be cooked, come to the church. Pastor is here and you can use the kitchen to cook things that will go bad. He has 5 bags of ice for those who need it. There is limited amount of ice in the church ice maker. If you need to use our restrooms for washing up, shaving brushing your teeth, please come. ",
+                                "marks": [],
+                                "data": {}
+                            }
+                        ]
+                    },
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "Thanks for your patience and your presence tomorrow,",
+                                "marks": [],
+                                "data": {}
+                            }
+                        ]
+                    },
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "Pastor Ron",
+                                "marks": [],
+                                "data": {}
+                            }
+                        ]
+                    }
+                ]
+            },
+            "type": [
                 {
-                    "id": "3Zl7eAG9eIPOZLPyA11Uj8",
-                    "type": "Event"
+                    "id": "5ktejUJ8noonowWZUs0uN7",
+                    "type": "General"
                 }
             ],
             "image": null,
@@ -470,5 +962,5 @@
         }
     ],
     "page": 2,
-    "totalPages": 5
+    "totalPages": 7
 }
