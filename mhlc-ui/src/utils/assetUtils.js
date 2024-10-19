@@ -2,8 +2,9 @@ import { useDisplay } from 'vuetify'
 
 export function getAssetWidth(originalWidth) {
     const { width: deviceWidth } = useDisplay();
-    if (originalWidth >= deviceWidth.value * 0.9) {
-        return deviceWidth.value * 0.8;
+    const maxWidth = deviceWidth.value < 900 ? deviceWidth.value : 900;
+    if (originalWidth >= maxWidth * 0.60) {
+        return maxWidth * 0.60;
     } else {
         return originalWidth;
     }
@@ -11,8 +12,9 @@ export function getAssetWidth(originalWidth) {
 
 export function getAssetHeight(originalWidth, originalHeight) {
     const { width: deviceWidth } = useDisplay();
-    if (originalWidth >= deviceWidth.value * 0.9) {
-        const percentage = (deviceWidth.value * 0.8) / originalWidth;
+    const maxWidth = deviceWidth.value < 900 ? deviceWidth.value : 900;
+    if (originalWidth >= maxWidth * 0.60) {
+        const percentage = (maxWidth * 0.60) / originalWidth;
         return originalHeight * percentage;
     } else {
         return originalHeight;

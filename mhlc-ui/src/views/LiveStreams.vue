@@ -12,27 +12,36 @@
                 </v-alert>
             </v-col>
       </v-row>
-      <v-row v-if="videoList && videoList.length > 0">
-          <v-col>
-              <VideoCard :video="videoList[0]" />
-          </v-col>
-      </v-row>
-      <v-row v-if="videoList && videoList.length > 2">
-          <v-col cols="7">
-              <VideoCard :video="videoList[1]" />
-          </v-col>
-          <v-col cols="5">
-              <VideoCard :video="videoList[2]" />
-          </v-col>
-      </v-row>
-      <v-row v-if="videoList && videoList.length > 4">
-          <v-col cols="5">
-              <VideoCard :video="videoList[3]" />
-          </v-col>
-          <v-col cols="7">
-              <VideoCard :video="videoList[4]" />
-          </v-col>
-      </v-row>
+      <template v-if="!smAndDown">
+        <v-row v-if="videoList && videoList.length > 0">
+            <v-col>
+                <VideoCard :video="videoList[0]" />
+            </v-col>
+        </v-row>
+        <v-row v-if="videoList && videoList.length > 2">
+            <v-col cols="7">
+                <VideoCard :video="videoList[1]" />
+            </v-col>
+            <v-col cols="5">
+                <VideoCard :video="videoList[2]" />
+            </v-col>
+        </v-row>
+        <v-row v-if="videoList && videoList.length > 4">
+            <v-col cols="5">
+                <VideoCard :video="videoList[3]" />
+            </v-col>
+            <v-col cols="7">
+                <VideoCard :video="videoList[4]" />
+            </v-col>
+        </v-row>
+      </template>
+      <template v-if="smAndDown && videoList && videoList.length > 1">
+        <v-row v-for="i in videoCount" :key="i">
+            <v-col>
+                <VideoCard :video="videoList[i]" />
+            </v-col>
+        </v-row>
+      </template>
   </v-container>
 </template>
 
@@ -41,7 +50,12 @@
   import { storeToRefs } from 'pinia';
   import VideoCard from '@/components/VideoCard.vue'
   const contentStore = useContentStore();
+  import { useDisplay } from 'vuetify'
   const { videoList, churchInfo } = storeToRefs(contentStore);
+
+  const { smAndDown } = useDisplay();
+  const videoCount = videoList.value.length > 5 ? 5 : videoList.value.length;
+
 </script>
 
 <style scoped>

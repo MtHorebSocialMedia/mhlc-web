@@ -3,8 +3,10 @@ const xmlFormat = require('xml-formatter');
 const { documentToHtmlString } = require('@contentful/rich-text-html-renderer');
 const {
     getNewsEntries,
-    getBlogPosts
+    getBlogPosts,
+    getSpecialAnnouncements
 } = require('./contentService');
+const { getVideosList } = require('./youtubeService');
 
 module.exports = (req, res, next) =>{
 
@@ -21,8 +23,14 @@ module.exports = (req, res, next) =>{
                 language: 'en',
                 categories: ['News','Blogs'],
             });
-            const { news } = await getNewsEntries(1);
+            const { news: news1 } = await getNewsEntries(1);
+            const { news: news2 } = await getNewsEntries(2);
             const { blogs } = await getBlogPosts(1);
+            const announcements = await getSpecialAnnouncements();
+            const videos = await getVideosList();
+
+            const news = news1.concat(news2);
+            news.length = 14; // max the news to 14 entries to make sure we get at least one blog post in
 
             const feedItems = (
                 news.map((item) => ({
@@ -42,6 +50,24 @@ module.exports = (req, res, next) =>{
                     author: item.author.name,
                     date: item.publishDate
                 }))
+            ).concat(
+                announcements.map((announcement => ({
+                    title: `Special Announcement: ${announcement.title}`,
+                    description: documentToHtmlString(announcement.description),
+                    url: 'https://mthoreb.net',
+                    guid: announcement.id,
+                    author: 'Mt. Horeb Lutheran Church',
+                    date: new Date().toISOString()
+                })))
+            ).concat(
+                videos.map((video => ({
+                    title: `Live Stream: ${video.title}`,
+                    description: `<p>Live stream video for [${video.title}]</p>`,
+                    url: video.link,
+                    guid: video.id,
+                    author: 'Mt. Horeb Lutheran Church',
+                    date: video.date
+                })))
             );
             feedItems.sort((a, b) => {
                 if (a.date > b.date) {
@@ -52,8 +78,8 @@ module.exports = (req, res, next) =>{
                     return 0;
                 }
             });
-            // Truncate to the last 10 items
-            feedItems.length = 10;
+            // Truncate to the last 20 items
+            feedItems.length = 20;
 
             /* loop over data and add to feed */
             feedItems.forEach((item) => {

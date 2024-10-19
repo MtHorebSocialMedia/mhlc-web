@@ -54,7 +54,8 @@ async function getContentBlocks() {
             content: item.fields.content,
             image: item.fields.image ? item.fields.image.fields.file : null,
             imageAlignment: item.fields.imageAlignment,
-            imageLink: item.fields.imageLink
+            imageLink: item.fields.imageLink,
+            videoUrl: item.fields.videoUrl
         };
     });
 }
@@ -96,7 +97,8 @@ async function getNewsEntries(page) {
             attachments: item.fields.attachments ? item.fields.attachments.map((attachment) => ({
                 title: attachment.fields.title,
                 file: attachment.fields.file
-            })) : []
+            })) : [],
+            videoUrl: item.fields.videoUrl
         };
     });
     const totalPages = Math.ceil(total / itemsPerPage);
@@ -118,7 +120,8 @@ async function getNewsEntry(newsId) {
         attachments: item.fields.attachments ? item.fields.attachments.map((attachment) => ({
             title: attachment.fields.title,
             file: attachment.fields.file
-        })) : []
+        })) : [],
+        videoUrl: item.fields.videoUrl
     };
 }
 
@@ -237,7 +240,9 @@ async function getSpecialAnnouncements(page) {
             publishEndDate: item.fields.publishEndDate,
             title: item.fields.title,
             description: item.fields.description,
-            type: item.fields.type
+            type: item.fields.type,
+            image: item.fields.image ? item.fields.image.fields.file : null,
+            videoUrl: item.fields.videoUrl
         };
     });
 }
