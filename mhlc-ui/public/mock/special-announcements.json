@@ -22,7 +22,9 @@
             ],
             "nodeType": "document"
         },
-        "type": "info"
+        "type": "info",
+        "image": null,
+        "videoUrl": "https://www.youtube.com/embed/GsCZC3hsjwk?si=7A0-hSZw9O1AV2HG"
     },
     {
         "id": "2BiKfcU0BDwVVx74eRTeYP",
@@ -59,6 +61,18 @@
             ],
             "nodeType": "document"
         },
-        "type": "info"
+        "type": "info",
+        "image": {
+            "url": "//images.ctfassets.net/3wcsgs8fznel/4WhtUMjmvjALRX0gF2luII/7e73056fe8510f5950bbd011f88d07fc/463775497_950797843761423_5670927774141529852_n.jpg",
+            "details": {
+                "size": 85205,
+                "image": {
+                    "width": 951,
+                    "height": 540
+                }
+            },
+            "fileName": "463775497_950797843761423_5670927774141529852_n.jpg",
+            "contentType": "image/jpeg"
+        }
     }
 ]

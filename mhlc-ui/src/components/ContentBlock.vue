@@ -11,7 +11,7 @@
                 v-if="block.image && block.imageAlignment !== 'bottom'"
                 :src="block.image.url"
                 :class="getImageClass(block)"
-                :style="getImageStyle(block, this)"
+                :style="getImageStyle(block)"
                 alt="Content Block Image"
                 @click="imageClicked(block.imageLink)"
             />
@@ -20,17 +20,15 @@
                 v-if="block.image && block.imageAlignment === 'bottom'"
                 :src="block.image.url"
                 :class="getImageClass(block)"
-                :style="getImageStyle(block, this)"
+                :style="getImageStyle(block)"
                 alt="Content Block Image"
                 @click="imageClicked(block.imageLink)"
             />
             <v-container v-if="block.videoUrl" class="d-flex justify-center">
                 <iframe
-                    :width="getAssetWidth(560, 315)"
-                    :height="getAssetHeight(560, 315)"
                     :src="block.videoUrl"
+                    :style="getVideoStyle(index)"
                     title="YouTube video player"
-                    frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     referrerpolicy="strict-origin-when-cross-origin"
                     allowfullscreen
@@ -42,7 +40,7 @@
 
 <script setup>
   import RichContentRenderer from '@/components/RichContentRenderer.vue'
-  import { getAssetWidth, getAssetHeight, getAssetSizeStyle } from '../utils/assetUtils';
+  import { getAssetSizeStyle } from '../utils/assetUtils';
   import { useContentStore } from '@/store/content';
   import { storeToRefs } from 'pinia';
   import { ref, watch, useTemplateRef } from 'vue';
@@ -69,15 +67,19 @@
   }
 
   function getImageStyle(block) {
-      if (contentBlock.value) {
-        return getAssetSizeStyle(
-            block.image.details.image.width,
-            block.image.details.image.height,
-            contentBlock.value
-        );
-      } else {
-        return 'width: 10px; height: 10px;';
-      }
+    return getAssetSizeStyle(
+        block.image.details.image.width,
+        block.image.details.image.height,
+        contentBlock.value
+    );
+  }
+
+  function getVideoStyle() {
+    return getAssetSizeStyle(
+        560,
+        315,
+        contentBlock.value
+    ) + ' border: none;';
   }
 
   function imageClicked(imageLink) {
