@@ -159,18 +159,7 @@
                 </v-row>
                 <v-row v-if="fullDetailsToShow.videoUrl">
                     <v-col>
-                        <v-container class="d-flex justify-center">
-                            <iframe
-                                :width="getAssetWidth(560, 315)"
-                                :height="getAssetHeight(560, 315)"
-                                :src="fullDetailsToShow.videoUrl"
-                                title="YouTube video player"
-                                frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                referrerpolicy="strict-origin-when-cross-origin"
-                                allowfullscreen
-                            ></iframe>
-                        </v-container>
+                        <EmbeddedVideo :videoId="fullDetailsToShow.videoId" />
                     </v-col>
                 </v-row>
                 <v-row v-if="fullDetailsToShow.attachments && fullDetailsToShow.attachments.length > 0">
@@ -204,6 +193,7 @@
 <script setup>
     import { useContentStore } from '@/store/content';
     import { storeToRefs } from 'pinia';
+    import EmbeddedVideo from './EmbeddedVideo.vue';
     import RichContentRenderer from './RichContentRenderer.vue';
     import { getAssetWidth } from '../utils/assetUtils';
     import { ref, watch } from 'vue';
@@ -271,6 +261,7 @@
 .news-title .v-icon { margin-right: 10px; }
 .news-subtitle .v-container { padding-top: 10px; padding-left: 5px; padding-right: 5px; }
 .news-subtitle .v-col { padding: 10px; }
+.news-subtitle .news-date { text-align: left; }
 .news-subtitle .news-type { text-align: right; }
 .news-subtitle .news-type .v-chip { margin-left: 4px; }
 .news-subtitle .news-date-and-type { text-align: center; }

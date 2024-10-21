@@ -15,16 +15,10 @@
                     alt="Special Announcement Image"
                     class="d-flex justify-center"
                 />
-                <v-container v-if="announcement.videoUrl" class="d-flex justify-center">
-                    <iframe
-                        :src="announcement.videoUrl"
-                        :style="getVideoStyle(index)"
-                        title="YouTube video player"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        referrerpolicy="strict-origin-when-cross-origin"
-                        allowfullscreen
-                    ></iframe>
-                </v-container>
+                <EmbeddedVideo
+                    v-if="announcement.videoUrl"
+                    :videoId="announcement.videoId"
+                />
             </div>
         </v-alert>
     </v-container>
@@ -34,6 +28,7 @@
     import { useContentStore } from '@/store/content';
     import { storeToRefs } from 'pinia';
     import { getAssetSizeStyle } from '../utils/assetUtils';
+    import EmbeddedVideo from './EmbeddedVideo.vue';
     import RichContentRenderer from './RichContentRenderer.vue';
     import { useTemplateRef } from 'vue';
 

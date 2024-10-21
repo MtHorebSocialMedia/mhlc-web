@@ -46,16 +46,11 @@
             <v-container>
                 <v-row>
                     <v-col class="d-flex">
-                        <iframe
-                            id="player"
-                            class="mx-auto"
-                            type="text/html"
-                            :width="getAssetWidth(640)"
-                            :height="getAssetHeight(640, 390)"
-                            :src="`https://www.youtube.com/embed/${video.id}`"
-                            :title="video.title"
-                            allowfullscreen
-                        ></iframe>
+                        <EmbeddedVideo
+                            :videoId="video.id"
+                            :maxWidth="640"
+                            :maxHeight="390"
+                        />
                     </v-col>
                 </v-row>
             </v-container>
@@ -72,7 +67,8 @@
 
 <script setup>
     import { ref, computed } from 'vue';
-    import { getAssetWidth, getAssetHeight } from '../utils/assetUtils';
+    import { getAssetWidth } from '../utils/assetUtils';
+    import EmbeddedVideo from './EmbeddedVideo.vue';
 
     const props = defineProps({
         video: { type: Object, required: true }

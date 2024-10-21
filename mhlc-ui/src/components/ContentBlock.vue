@@ -25,14 +25,7 @@
                 @click="imageClicked(block.imageLink)"
             />
             <v-container v-if="block.videoUrl" class="d-flex justify-center">
-                <iframe
-                    :src="block.videoUrl"
-                    :style="getVideoStyle(index)"
-                    title="YouTube video player"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerpolicy="strict-origin-when-cross-origin"
-                    allowfullscreen
-                ></iframe>
+                <EmbeddedVideo :videoId="block.videoId" />
             </v-container>
         </div>
     </div>
@@ -44,6 +37,7 @@
   import { useContentStore } from '@/store/content';
   import { storeToRefs } from 'pinia';
   import { ref, watch, useTemplateRef } from 'vue';
+  import EmbeddedVideo from './EmbeddedVideo.vue';
 
   const props = defineProps({
       contentBlockKey: { type: String, required: true }
@@ -72,14 +66,6 @@
         block.image.details.image.height,
         contentBlock.value
     );
-  }
-
-  function getVideoStyle() {
-    return getAssetSizeStyle(
-        560,
-        315,
-        contentBlock.value
-    ) + ' border: none;';
   }
 
   function imageClicked(imageLink) {

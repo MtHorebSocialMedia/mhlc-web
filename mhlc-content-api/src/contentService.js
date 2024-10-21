@@ -55,7 +55,8 @@ async function getContentBlocks() {
             image: item.fields.image ? item.fields.image.fields.file : null,
             imageAlignment: item.fields.imageAlignment,
             imageLink: item.fields.imageLink,
-            videoUrl: item.fields.videoUrl
+            videoUrl: item.fields.videoUrl,
+            videoId: item.fields.videoUrl ? getVideoId(item.fields.videoUrl) : null
         };
     });
 }
@@ -98,7 +99,8 @@ async function getNewsEntries(page) {
                 title: attachment.fields.title,
                 file: attachment.fields.file
             })) : [],
-            videoUrl: item.fields.videoUrl
+            videoUrl: item.fields.videoUrl,
+            videoId: item.fields.videoUrl ? getVideoId(item.fields.videoUrl) : null
         };
     });
     const totalPages = Math.ceil(total / itemsPerPage);
@@ -121,7 +123,8 @@ async function getNewsEntry(newsId) {
             title: attachment.fields.title,
             file: attachment.fields.file
         })) : [],
-        videoUrl: item.fields.videoUrl
+        videoUrl: item.fields.videoUrl,
+        videoId: item.fields.videoUrl ? getVideoId(item.fields.videoUrl) : null
     };
 }
 
@@ -242,9 +245,26 @@ async function getSpecialAnnouncements(page) {
             description: item.fields.description,
             type: item.fields.type,
             image: item.fields.image ? item.fields.image.fields.file : null,
-            videoUrl: item.fields.videoUrl
+            videoUrl: item.fields.videoUrl,
+            videoId: item.fields.videoUrl ? getVideoId(item.fields.videoUrl) : null
         };
     });
+}
+
+// Watch Url: https://www.youtube.com/watch?v=GsCZC3hsjwk
+// Embed Url: https://www.youtube.com/embed/GsCZC3hsjwk
+function getVideoId(videoUrl) {
+    const [ path, query ] = videoUrl.split('?');
+    if (videoUrl.includes('/watch')) {
+        const [ , videoId ] = query.split('=');
+        return videoId;
+    } else if (videoUrl.includes('/embed')) {
+        const [ , videoId ] = path.split('/embed/');
+        return videoId;
+    } else {
+        console.warn('Could not figure out videoId from url: ', videoUrl);
+        return null;
+    }
 }
 
 module.exports = {
