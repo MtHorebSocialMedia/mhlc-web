@@ -36,11 +36,6 @@
     const { specialAnnouncements } = storeToRefs(contentStore);
     const specialAnnouncementsContainer = useTemplateRef('special-announcements-container');
 
-    function formatDateTime(dateTime) {
-        const [ year, month, day ] = dateTime.split('T')[0].split('-');
-        return `${month}/${day}/${year}`;
-    }
-
     function getImageStyle(image, index) {
         return getAssetSizeStyle(
             image.details.image.width,
@@ -48,15 +43,6 @@
             specialAnnouncementsContainer.value ? specialAnnouncementsContainer.value[index] : null
         );
     }
-
-    function getVideoStyle(index) {
-        return getAssetSizeStyle(
-            560,
-            315,
-            specialAnnouncementsContainer.value ? specialAnnouncementsContainer.value[index] : null
-        ) + ' border: none;';
-    }
-
 
 </script>
 
