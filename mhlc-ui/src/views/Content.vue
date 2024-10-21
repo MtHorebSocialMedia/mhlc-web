@@ -1,5 +1,5 @@
 <template>
-  <v-container class="content-page">
+  <v-container class="content-page" ref="content-page">
     <h2>
       <v-icon>mdi-image-filter-hdr-outline</v-icon>
       {{ page.title }}
@@ -9,8 +9,7 @@
       <v-col class="header-image">
         <img
             :src="page.headerImage.url"
-            :width="getAssetWidth(page.headerImage.details.image.width, page.headerImage.details.image.height)"
-            :height="getAssetHeight(page.headerImage.details.image.width, page.headerImage.details.image.height)"
+            :style="getImageStyle(page.headerImage)"
             alt="Header Image"
         />
       </v-col>
@@ -32,16 +31,27 @@
   import ContentBlock from '@/components/ContentBlock.vue'
   import { useContentStore } from '@/store/content';
   import { storeToRefs } from 'pinia';
-  import { computed } from 'vue';
+  import { computed, useTemplateRef } from 'vue';
   import router from '../router';
-  import { getAssetWidth, getAssetHeight } from '../utils/assetUtils';
+  import { getAssetSizeStyle } from '../utils/assetUtils';
 
   const contentStore = useContentStore();
   const { contentPages } = storeToRefs(contentStore);
+  const contentPage = useTemplateRef('content-page');
+
   const page = computed(() => {
       const contentPath = router.currentRoute.value.path;
       return contentPages.value[contentPath];
   });
+
+  function getImageStyle(image) {
+      return getAssetSizeStyle(
+          image.details.image.width,
+          image.details.image.height,
+          contentPage.value ? contentPage.value.$el : null
+      );
+  }
+
 </script>
 
 <style scoped>

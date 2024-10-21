@@ -38,7 +38,7 @@
       <template v-if="smAndDown && videoList && videoList.length > 1">
         <v-row v-for="i in videoCount" :key="i">
             <v-col>
-                <VideoCard :video="videoList[i]" />
+                <VideoCard :video="videoList[i-1]" /> <!-- index is "1" based -->
             </v-col>
         </v-row>
       </template>

@@ -20,3 +20,17 @@ export function getAssetHeight(originalWidth, originalHeight) {
         return originalHeight;
     }
 }
+
+export function getAssetSizeStyle(originalWidth, originalHeight, parentElement) {
+    if (parentElement) {
+        const { width: deviceWidth } = useDisplay();
+        const parentWidth = parentElement.clientWidth;
+        const maxWidth = parentWidth < deviceWidth.value ? parentWidth : deviceWidth.value;
+        const assetWidth = (originalWidth >= maxWidth * 0.9) ? maxWidth * 0.85 : originalWidth;
+        const percentage = assetWidth / originalWidth;
+        const assetHeight = originalHeight * percentage;
+        return `width: ${assetWidth}px; height: ${assetHeight}px;`;
+    } else {
+        return '';
+    }
+}

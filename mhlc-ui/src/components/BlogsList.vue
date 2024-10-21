@@ -168,6 +168,7 @@
 .blog-title { font-size: 16px; }
 .blog-subtitle .v-container { padding-top: 10px; padding-left: 5px; padding-right: 5px; }
 .blog-subtitle .v-col { padding: 10px; }
+.blog-subtitle .blog-author { text-align: left; }
 .blog-subtitle .blog-publish-date { text-align: right; }
 .blog-subtitle .blog-author-and-publish-date { text-align: center; }
 .blog-navigation { text-align: right; }

@@ -18,10 +18,23 @@ async function getVideosList() {
                 id,
                 title: video.title,
                 link: video.link,
+                embedLink: getEmbedLink(video.link),
                 date: video.pubDate,
                 author: video.author
             }
         });
+}
+
+// Turn this: https://www.youtube.com/watch?v=GsCZC3hsjwk
+// Into this: https://www.youtube.com/embed/GsCZC3hsjwk
+function getEmbedLink(link) {
+    if (link.includes('/watch')) {
+        const [ query ] = link.split('?');
+        const [ , videoId ] = query.split('=');
+        return `https://www.youtube.com/embed/${videoId}`;
+    } else {
+        return link;
+    }
 }
 
 module.exports = {

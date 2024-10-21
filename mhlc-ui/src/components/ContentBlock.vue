@@ -1,5 +1,5 @@
 <template>
-    <div :class="contentAssistEnabled ? 'content-block outlined' : 'content-block'">
+    <div :class="contentAssistEnabled ? 'content-block outlined' : 'content-block'" ref="content-block">
         <v-alert
             v-if="contentAssistEnabled"
             icon="mdi-file-document-outline"
@@ -10,9 +10,8 @@
             <img
                 v-if="block.image && block.imageAlignment !== 'bottom'"
                 :src="block.image.url"
-                :width="getAssetWidth(block.image.details.image.width, block.image.details.image.height)"
-                :height="getAssetHeight(block.image.details.image.width, block.image.details.image.height)"
                 :class="getImageClass(block)"
+                :style="getImageStyle(block)"
                 alt="Content Block Image"
                 @click="imageClicked(block.imageLink)"
             />
@@ -20,23 +19,13 @@
             <img
                 v-if="block.image && block.imageAlignment === 'bottom'"
                 :src="block.image.url"
-                :width="getAssetWidth(block.image.details.image.width, block.image.details.image.height)"
-                :height="getAssetHeight(block.image.details.image.width, block.image.details.image.height)"
                 :class="getImageClass(block)"
+                :style="getImageStyle(block)"
                 alt="Content Block Image"
                 @click="imageClicked(block.imageLink)"
             />
             <v-container v-if="block.videoUrl" class="d-flex justify-center">
-                <iframe
-                    :width="getAssetWidth(560, 315)"
-                    :height="getAssetHeight(560, 315)"
-                    :src="block.videoUrl"
-                    title="YouTube video player"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerpolicy="strict-origin-when-cross-origin"
-                    allowfullscreen
-                ></iframe>
+                <EmbeddedVideo :videoId="block.videoId" />
             </v-container>
         </div>
     </div>
@@ -44,10 +33,11 @@
 
 <script setup>
   import RichContentRenderer from '@/components/RichContentRenderer.vue'
-  import { getAssetWidth, getAssetHeight } from '../utils/assetUtils';
+  import { getAssetSizeStyle } from '../utils/assetUtils';
   import { useContentStore } from '@/store/content';
   import { storeToRefs } from 'pinia';
-  import { ref, watch } from 'vue';
+  import { ref, watch, useTemplateRef } from 'vue';
+  import EmbeddedVideo from './EmbeddedVideo.vue';
 
   const props = defineProps({
       contentBlockKey: { type: String, required: true }
@@ -57,6 +47,7 @@
 
   const contentStore = useContentStore();
   const { contentBlocks, contentAssistEnabled } = storeToRefs(contentStore);
+  const contentBlock = useTemplateRef('content-block');
 
   block.value = contentBlocks.value[props.contentBlockKey];
   if (!block.value) {
@@ -67,6 +58,14 @@
 
   function getImageClass(block) {
       return block.imageLink ? `${block.imageAlignment} link` : block.imageAlignment;
+  }
+
+  function getImageStyle(block) {
+    return getAssetSizeStyle(
+        block.image.details.image.width,
+        block.image.details.image.height,
+        contentBlock.value
+    );
   }
 
   function imageClicked(imageLink) {

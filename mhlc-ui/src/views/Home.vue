@@ -5,29 +5,18 @@
       Welcome to Mt. Horeb Lutheran Church!
     </h2>
     <hr />
-    <SpecialAnnoucements />
+    <SpecialAnnouncements />
     <v-alert style="text-align: center">
       <ContentBlock contentBlockKey="home/welcome" />
     </v-alert>
-    <v-container class="d-flex justify-center">
-      <iframe
-        :width="getAssetWidth(560, 315)"
-        :height="getAssetHeight(560, 315)"
-        src="https://www.youtube.com/embed/FywyUyCav4A?si=OL6EtBX38sBYP2h7"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        referrerpolicy="strict-origin-when-cross-origin"
-        allowfullscreen
-      ></iframe>
-    </v-container>
+    <EmbeddedVideo videoId="FywyUyCav4A" />
   </v-container>
 </template>
 
 <script setup>
-  import { getAssetWidth, getAssetHeight } from '../utils/assetUtils';
   import ContentBlock from '../components/ContentBlock.vue';
-  import SpecialAnnoucements from '../components/SpecialAnnouncements.vue';
+  import SpecialAnnouncements from '../components/SpecialAnnouncements.vue';
+import EmbeddedVideo from '@/components/EmbeddedVideo.vue';
 </script>
 
 <style scoped>

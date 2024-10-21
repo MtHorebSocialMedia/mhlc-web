@@ -39,7 +39,7 @@ export const useContentStore = defineStore('content', () => {
             getVideoList(),
             getCouncil(),
             getStaff(),
-            getSpecialAnnoucements(),
+            getSpecialAnnouncements(),
             loadNews(1)
         ]);
 
@@ -135,7 +135,7 @@ async function getVideoList() {
     return (await httpClient.get('/api/video-list')).data;
 }
 
-async function getSpecialAnnoucements() {
+async function getSpecialAnnouncements() {
     return (await httpClient.get('/api/special-announcements')).data;
 }
 
