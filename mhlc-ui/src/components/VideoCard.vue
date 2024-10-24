@@ -33,27 +33,29 @@
       v-model="showVideo"
       width="auto"
     >
-        <v-card :width="getAssetWidth(800)">
-            <v-card-title>
-                {{ title }}
-                <hr />
-            </v-card-title>
-            <v-card-subtitle>
-                <v-icon color="red">mdi-youtube</v-icon>
-                <a :href="video.link" target="_blank">Watch on YouTube</a>
-                <v-icon size="small">mdi-open-in-new</v-icon>
-            </v-card-subtitle>
-            <v-container>
-                <v-row>
-                    <v-col class="d-flex">
-                        <EmbeddedVideo
-                            :videoId="video.id"
-                            :maxWidth="640"
-                            :maxHeight="390"
-                        />
-                    </v-col>
-                </v-row>
-            </v-container>
+        <v-card>
+            <v-card-item>
+                <v-card-title>
+                    {{ title }}
+                    <hr />
+                </v-card-title>
+                <v-card-subtitle>
+                    <v-icon color="red">mdi-youtube</v-icon>
+                    <a :href="video.link" target="_blank">Watch on YouTube</a>
+                    <v-icon size="small">mdi-open-in-new</v-icon>
+                </v-card-subtitle>
+                <v-container>
+                    <v-row>
+                        <v-col class="d-flex">
+                            <EmbeddedVideo
+                                :videoId="video.id"
+                                :maxWidth="640"
+                                :maxHeight="390"
+                            />
+                        </v-col>
+                    </v-row>
+                </v-container>
+            </v-card-item>
             <template v-slot:actions>
                 <v-btn
                     class="ms-auto"
@@ -67,7 +69,6 @@
 
 <script setup>
     import { ref, computed } from 'vue';
-    import { getAssetWidth } from '../utils/assetUtils';
     import EmbeddedVideo from './EmbeddedVideo.vue';
 
     const props = defineProps({

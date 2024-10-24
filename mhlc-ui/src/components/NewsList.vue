@@ -118,67 +118,71 @@
       v-model="showFullDetails"
       width="auto"
     >
-        <v-card :width="getAssetWidth(800)">
-            <v-card-title class="news-title">
-                <v-icon size="small">mdi-newspaper-variant-outline</v-icon>
-                {{ fullDetailsToShow.title }}
-                <hr />
-            </v-card-title>
-            <v-card-subtitle class="news-subtitle">
+        <v-card>
+            <v-card-item>
+                <v-card-title class="news-title">
+                    <v-icon size="small">mdi-newspaper-variant-outline</v-icon>
+                    {{ fullDetailsToShow.title }}
+                    <hr />
+                </v-card-title>
+                <v-card-subtitle class="news-subtitle">
+                    <v-container>
+                        <v-row>
+                            <v-col class="news-date">
+                                <span>{{ formatDateTime(fullDetailsToShow.datetime) }}</span>
+                            </v-col>
+                            <v-col class="news-type">
+                                <v-chip
+                                    v-for="type in fullDetailsToShow.type"
+                                    v-bind:key="type.id"
+                                >
+                                    {{ type.type }}
+                                </v-chip>
+                            </v-col>
+                        </v-row>
+                    </v-container>
+                </v-card-subtitle>
                 <v-container>
                     <v-row>
-                        <v-col class="news-date">
-                            <span>{{ formatDateTime(fullDetailsToShow.datetime) }}</span>
+                        <v-col>
+                            <RichContentRenderer :content="fullDetailsToShow.description" />
                         </v-col>
-                        <v-col class="news-type">
-                            <v-chip
-                                v-for="type in fullDetailsToShow.type"
-                                v-bind:key="type.id"
-                            >
-                                {{ type.type }}
-                            </v-chip>
+                    </v-row>
+                    <v-row v-if="fullDetailsToShow.image">
+                        <v-col class="news-image">
+                            <ResponsiveImage
+                                :src="fullDetailsToShow.image.url"
+                                alt="News Image"
+                                :maxWidth="fullDetailsToShow.image.details.image.width"
+                                :maxHeight="fullDetailsToShow.image.details.image.height"
+                            />
+                        </v-col>
+                    </v-row>
+                    <v-row v-if="fullDetailsToShow.videoUrl">
+                        <v-col>
+                            <EmbeddedVideo :videoId="fullDetailsToShow.videoId" />
+                        </v-col>
+                    </v-row>
+                    <v-row v-if="fullDetailsToShow.attachments && fullDetailsToShow.attachments.length > 0">
+                        <v-col>
+                            <v-card>
+                                <v-card-item>
+                                    <v-card-title>Attachments</v-card-title>
+                                    <v-list>
+                                        <v-list-item
+                                            v-for="attachment in fullDetailsToShow.attachments"
+                                            :key="attachment.id"
+                                        >
+                                            <v-list-item-title>{{ attachment.title }}</v-list-item-title>
+                                            <v-list-item-subtitle><a :href="attachment.file.url" target="_blank">{{ attachment.file.fileName }}</a></v-list-item-subtitle>
+                                        </v-list-item>
+                                    </v-list>
+                                </v-card-item>
+                            </v-card>
                         </v-col>
                     </v-row>
                 </v-container>
-            </v-card-subtitle>
-            <v-container>
-                <v-row>
-                    <v-col>
-                        <RichContentRenderer :content="fullDetailsToShow.description" />
-                    </v-col>
-                </v-row>
-                <v-row v-if="fullDetailsToShow.image">
-                    <v-col class="news-image">
-                        <img
-                            :src="fullDetailsToShow.image.url"
-                            :width="getAssetWidth(fullDetailsToShow.image.details.image.width, fullDetailsToShow.image.details.image.height)"
-                            :height="getAssetHeight(fullDetailsToShow.image.details.image.width, fullDetailsToShow.image.details.image.height)"
-                            alt="Content Block Image"
-                        />
-                    </v-col>
-                </v-row>
-                <v-row v-if="fullDetailsToShow.videoUrl">
-                    <v-col>
-                        <EmbeddedVideo :videoId="fullDetailsToShow.videoId" />
-                    </v-col>
-                </v-row>
-                <v-row v-if="fullDetailsToShow.attachments && fullDetailsToShow.attachments.length > 0">
-                    <v-col>
-                        <v-card>
-                            <v-card-title>Attachments</v-card-title>
-                            <v-list>
-                                <v-list-item
-                                    v-for="attachment in fullDetailsToShow.attachments"
-                                    :key="attachment.id"
-                                >
-                                    <v-list-item-title>{{ attachment.title }}</v-list-item-title>
-                                    <v-list-item-subtitle><a :href="attachment.file.url" target="_blank">{{ attachment.file.fileName }}</a></v-list-item-subtitle>
-                                </v-list-item>
-                            </v-list>
-                        </v-card>
-                    </v-col>
-                </v-row>
-            </v-container>
+            </v-card-item>
             <template v-slot:actions>
                 <v-btn
                     class="ms-auto"
@@ -195,7 +199,7 @@
     import { storeToRefs } from 'pinia';
     import EmbeddedVideo from './EmbeddedVideo.vue';
     import RichContentRenderer from './RichContentRenderer.vue';
-    import { getAssetWidth } from '../utils/assetUtils';
+    import ResponsiveImage from './ResponsiveImage.vue';
     import { ref, watch } from 'vue';
     import { useDisplay } from 'vuetify';
 

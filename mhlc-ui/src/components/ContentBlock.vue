@@ -7,22 +7,24 @@
         <div v-if="block" class="content">
             <h3 v-if="block.title">{{ block.title }}</h3>
             <hr v-if="block.title" />
-            <img
+            <ResponsiveImage
                 v-if="block.image && block.imageAlignment !== 'bottom'"
                 :src="block.image.url"
-                :class="getImageClass(block)"
-                :style="getImageStyle(block)"
                 alt="Content Block Image"
-                @click="imageClicked(block.imageLink)"
+                :maxWidth="block.image.details.image.width"
+                :maxHeight="block.image.details.image.height"
+                :align="block.imageAlignment"
+                :link="block.imageLink"
             />
             <RichContentRenderer :content="block.content" />
-            <img
+            <ResponsiveImage
                 v-if="block.image && block.imageAlignment === 'bottom'"
                 :src="block.image.url"
-                :class="getImageClass(block)"
-                :style="getImageStyle(block)"
                 alt="Content Block Image"
-                @click="imageClicked(block.imageLink)"
+                :maxWidth="block.image.details.image.width"
+                :maxHeight="block.image.details.image.height"
+                :align="block.imageAlignment"
+                :link="block.imageLink"
             />
             <v-container v-if="block.videoUrl" class="d-flex justify-center">
                 <EmbeddedVideo :videoId="block.videoId" />
@@ -33,11 +35,11 @@
 
 <script setup>
   import RichContentRenderer from '@/components/RichContentRenderer.vue'
-  import { getAssetSizeStyle } from '../utils/assetUtils';
   import { useContentStore } from '@/store/content';
   import { storeToRefs } from 'pinia';
-  import { ref, watch, useTemplateRef } from 'vue';
+  import { ref, watch } from 'vue';
   import EmbeddedVideo from './EmbeddedVideo.vue';
+  import ResponsiveImage from './ResponsiveImage.vue';
 
   const props = defineProps({
       contentBlockKey: { type: String, required: true }
@@ -47,7 +49,6 @@
 
   const contentStore = useContentStore();
   const { contentBlocks, contentAssistEnabled } = storeToRefs(contentStore);
-  const contentBlock = useTemplateRef('content-block');
 
   block.value = contentBlocks.value[props.contentBlockKey];
   if (!block.value) {
@@ -56,34 +57,10 @@
     });
   }
 
-  function getImageClass(block) {
-      return block.imageLink ? `${block.imageAlignment} link` : block.imageAlignment;
-  }
-
-  function getImageStyle(block) {
-    return getAssetSizeStyle(
-        block.image.details.image.width,
-        block.image.details.image.height,
-        contentBlock.value
-    );
-  }
-
-  function imageClicked(imageLink) {
-      if (imageLink) {
-          window.open(imageLink);
-      }
-  }
-
 </script>
 
 <style>
   .content-block hr { margin-bottom: 10px; }
-  .content-block img.left { padding-right: 20px; padding-bottom: 10px; float: left; }
-  .content-block img.right { padding-left: 20px; padding-bottom: 10px; float: right; }
-  .content-block img.top { display: block; margin-left: auto; margin-right: auto; }
-  .content-block img.bottom { display: block; margin-left: auto; margin-right: auto; }
-  .content-block img.link { cursor: pointer; }
-  .content-block img { border-radius: 25px; }
   .content-block table { border-collapse: collapse; margin-left: auto; margin-right: auto; }
   .content-block table th { background: #DDD; padding-left: 10px; padding-right: 10px; border: 1px solid black; }
   .content-block table td { padding-left: 10px; padding-right: 10px; border: 1px solid black; }
