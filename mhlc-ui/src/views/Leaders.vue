@@ -9,14 +9,8 @@
         <StaffList />
         <br />
         <h3>Church Council</h3>
-        <v-row>
-          <v-col>
-            <CouncilList />
-          </v-col>
-          <v-col>
-            <ContentBlock contentBlockKey="leaders/council" />
-          </v-col>
-        </v-row>
+        <ContentBlock contentBlockKey="leaders/council" />
+        <CouncilList />
     </v-container>
 </template>
 

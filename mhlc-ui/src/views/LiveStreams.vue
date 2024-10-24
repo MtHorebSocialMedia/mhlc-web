@@ -49,12 +49,14 @@
   import { useContentStore } from '@/store/content';
   import { storeToRefs } from 'pinia';
   import VideoCard from '@/components/VideoCard.vue'
-  const contentStore = useContentStore();
   import { useDisplay } from 'vuetify'
+  import { computed } from 'vue';
+
+  const contentStore = useContentStore();
   const { videoList, churchInfo } = storeToRefs(contentStore);
 
   const { smAndDown } = useDisplay();
-  const videoCount = videoList.value.length > 5 ? 5 : videoList.value.length;
+  const videoCount = computed(() => videoList.value.length > 5 ? 5 : videoList.value.length);
 
 </script>
 

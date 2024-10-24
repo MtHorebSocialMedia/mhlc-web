@@ -151,6 +151,5 @@
     .v-container.newsletter-signup-form .v-alert { margin-bottom: 20px; }
     .v-container.newsletter-signup-form .v-alert .instructions { margin-bottom: 5px; }
     .v-container.newsletter-signup-form .v-alert .required-note { text-align: right; }
-    .v-container.newsletter-signup-form .v-alert .required-note { text-align: right; }
     .v-container.newsletter-signup-form .v-col { padding-top: 0px; padding-bottom: 0px; }
 </style>
