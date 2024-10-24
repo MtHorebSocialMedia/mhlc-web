@@ -59,22 +59,31 @@
 <script setup>
     import { useContentStore } from '@/store/content';
     import { storeToRefs } from 'pinia';
-    import { computed } from 'vue';
+    import { computed, watch } from 'vue';
     import { useDisplay } from 'vuetify'
     import ResponsiveImage from './ResponsiveImage.vue';
 
     const { mdAndUp } = useDisplay();
     const contentStore = useContentStore();
     const { staff } = storeToRefs(contentStore);
-    staff.value.sort((a, b) => {
-        if (a.sequence === undefined) {
-            a.sequence = 999;
-        }
-        if (b.sequence === undefined) {
-            b.sequence = 999;
-        }
-        return a.sequence - b.sequence;
+
+    const sortStaff = () => {
+        staff.value.sort((a, b) => {
+            if (a.sequence === undefined) {
+                a.sequence = 999;
+            }
+            if (b.sequence === undefined) {
+                b.sequence = 999;
+            }
+            return a.sequence - b.sequence;
+        });
+    };
+
+    sortStaff();
+    watch(staff, () => {
+        sortStaff();
     });
+
     const staffMatrix = computed(() => {
         // technique copied from
         // https://stackoverflow.com/questions/4492385/convert-simple-array-into-two-dimensional-array-matrix
@@ -86,9 +95,7 @@
     });
 </script>
 
-<style>
+<style scoped>
 .v-card-subtitle .v-container { padding: 0px; }
 .v-card-subtitle .v-col { padding: 10px; }
-.v-card-subtitle .news-type { text-align: right; }
-.v-img { margin-bottom: 20px; }
 </style>

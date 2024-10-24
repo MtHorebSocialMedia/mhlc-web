@@ -1,14 +1,15 @@
 <template>
     <v-container v-if="council">
-        <v-list>
-            <v-list-item
-                v-for="member in councilList"
-                :key="member.id"
-            >
-                <v-list-item-title>{{ member.name }}</v-list-item-title>
-                <v-list-item-subtitle>{{ member.role }}</v-list-item-subtitle>
-            </v-list-item>
-        </v-list>
+        <v-row v-for="member in councilList">
+            <v-col>
+                <v-card elevation="4" class="council-member">
+                    <v-card-item>
+                        <v-card-title>{{ member.name }}</v-card-title>
+                        <v-card-subtitle>{{ member.role }}</v-card-subtitle>
+                    </v-card-item>
+                </v-card>
+            </v-col>
+        </v-row>
     </v-container>
 </template>
 
@@ -33,9 +34,6 @@
     });
 </script>
 
-<style>
-.v-card-subtitle .v-container { padding: 0px; }
-.v-card-subtitle .v-col { padding: 10px; }
-.v-card-subtitle .news-type { text-align: right; }
-.v-img { margin-bottom: 20px; }
+<style scoped>
+.v-card-title { font-size: 1rem; }
 </style>

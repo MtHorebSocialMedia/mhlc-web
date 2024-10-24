@@ -56,10 +56,10 @@
     v-model="showAddress"
     width="auto"
   >
-      <v-card width="400">
+      <v-card>
           <v-card-title>
               <v-icon color="blue">mdi-map-marker</v-icon>
-              Mt. Horeb Lutheran Church
+              Address
               <hr />
           </v-card-title>
           <v-container>
@@ -83,10 +83,10 @@
     v-model="showPhone"
     width="auto"
   >
-      <v-card width="400">
+      <v-card>
           <v-card-title>
               <v-icon color="green">mdi-phone</v-icon>
-              Mt. Horeb Lutheran Church
+              Phone
               <hr />
           </v-card-title>
           <v-container>

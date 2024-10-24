@@ -93,7 +93,7 @@
     }
 </script>
 
-<style>
+<style scoped>
 .v-card-subtitle .v-container { padding: 0px; }
 .v-card-subtitle .v-col { padding: 10px; }
 .v-card-subtitle { text-align: right; }

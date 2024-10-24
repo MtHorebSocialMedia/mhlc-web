@@ -94,14 +94,11 @@
 
 <script setup>
     import { useContentStore } from '@/store/content';
-    import { storeToRefs } from 'pinia';
-    const contentStore = useContentStore();
 </script>
 
 <style>
     .v-container.contact-form .v-alert { margin-bottom: 20px; }
     .v-container.contact-form .v-alert .instructions { margin-bottom: 5px; }
-    .v-container.contact-form .v-alert .required-note { text-align: right; }
     .v-container.contact-form .v-alert .required-note { text-align: right; }
     .v-container.contact-form .v-col { padding-top: 0px; padding-bottom: 0px; }
 </style>
