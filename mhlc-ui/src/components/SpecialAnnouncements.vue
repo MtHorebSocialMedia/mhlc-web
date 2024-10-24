@@ -8,12 +8,12 @@
             <div ref="special-announcements-container">
                 <h3>{{ announcement.title }}</h3>
                 <RichContentRenderer :content="announcement.description" />
-                <img
+                <ResponsiveImage
                     v-if="announcement.image"
                     :src="announcement.image.url"
-                    :style="getImageStyle(announcement.image, index)"
                     alt="Special Announcement Image"
-                    class="d-flex justify-center"
+                    :maxWidth="announcement.image.details.image.width"
+                    :maxHeight="announcement.image.details.image.height"
                 />
                 <EmbeddedVideo
                     v-if="announcement.videoUrl"
@@ -29,6 +29,7 @@
     import { storeToRefs } from 'pinia';
     import { getAssetSizeStyle } from '../utils/assetUtils';
     import EmbeddedVideo from './EmbeddedVideo.vue';
+    import ResponsiveImage from './ResponsiveImage.vue';
     import RichContentRenderer from './RichContentRenderer.vue';
     import { useTemplateRef } from 'vue';
 

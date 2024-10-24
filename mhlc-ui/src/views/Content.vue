@@ -7,10 +7,11 @@
     <hr />
     <v-row v-if="page.headerImage">
       <v-col class="header-image">
-        <img
+        <ResponsiveImage
             :src="page.headerImage.url"
-            :style="getImageStyle(page.headerImage)"
             alt="Header Image"
+            :maxWidth="page.headerImage.details.image.width"
+            :maxHeight="page.headerImage.details.image.height"
         />
       </v-col>
     </v-row>
@@ -34,6 +35,7 @@
   import { computed, useTemplateRef } from 'vue';
   import router from '../router';
   import { getAssetSizeStyle } from '../utils/assetUtils';
+  import ResponsiveImage from '@/components/ResponsiveImage.vue';
 
   const contentStore = useContentStore();
   const { contentPages } = storeToRefs(contentStore);

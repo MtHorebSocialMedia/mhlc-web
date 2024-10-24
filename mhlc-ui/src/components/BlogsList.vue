@@ -87,31 +87,33 @@
       v-model="showFullDetails"
       width="auto"
     >
-        <v-card :width="getAssetWidth(800)">
-            <v-card-title class="blog-title">
-                <v-icon size="small">mdi-post-outline</v-icon>
-                {{ fullDetailsToShow.title }}
-                <hr />
-            </v-card-title>
-            <v-card-subtitle class="blog-subtitle">
+        <v-card>
+            <v-card-item>
+                <v-card-title class="blog-title">
+                    <v-icon size="small">mdi-post-outline</v-icon>
+                    {{ fullDetailsToShow.title }}
+                    <hr />
+                </v-card-title>
+                <v-card-subtitle class="blog-subtitle">
+                    <v-container>
+                        <v-row>
+                            <v-col class="blog-author">
+                                {{ fullDetailsToShow.author.name }}
+                            </v-col>
+                            <v-col class="blog-publish-date">
+                                <span>{{ formatDateTime(fullDetailsToShow.publishDate) }}</span>
+                            </v-col>
+                        </v-row>
+                    </v-container>
+                </v-card-subtitle>
                 <v-container>
                     <v-row>
-                        <v-col class="blog-author">
-                            {{ fullDetailsToShow.author.name }}
-                        </v-col>
-                        <v-col class="blog-publish-date">
-                            <span>{{ formatDateTime(fullDetailsToShow.publishDate) }}</span>
+                        <v-col>
+                            <RichContentRenderer :content="fullDetailsToShow.content" />
                         </v-col>
                     </v-row>
                 </v-container>
-            </v-card-subtitle>
-            <v-container>
-                <v-row>
-                    <v-col>
-                        <RichContentRenderer :content="fullDetailsToShow.content" />
-                    </v-col>
-                </v-row>
-            </v-container>
+            </v-card-item>
             <template v-slot:actions>
                 <v-btn
                     class="ms-auto"
@@ -126,7 +128,6 @@
 <script setup>
     import { useContentStore } from '@/store/content';
     import RichContentRenderer from './RichContentRenderer.vue';
-    import { getAssetWidth } from '../utils/assetUtils';
     import { ref } from 'vue';
     import { useDisplay } from 'vuetify'
 

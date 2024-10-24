@@ -1,7 +1,9 @@
 <template>
     <v-container>
-        <v-row class="justify-center">
-            <ContentBlock contentBlockKey="home/elca" />
+        <v-row>
+            <v-col>
+                <ContentBlock contentBlockKey="home/elca" />
+            </v-col>
         </v-row>
         <v-row>
             <v-col>
@@ -45,7 +47,6 @@ import NewsList from '@/components/NewsList.vue'
 </script>
 
 <style scoped>
- .elca { margin-bottom: 20px; }
  h3 { margin-bottom: 10px; }
  .v-col.news-link { text-align: right; }
 </style>

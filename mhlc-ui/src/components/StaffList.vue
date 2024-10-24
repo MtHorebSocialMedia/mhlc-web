@@ -1,29 +1,58 @@
 <template>
     <v-container v-if="staff">
-        <v-row
-            v-for="(row, rowIndex) in staffMatrix"
-            :key="rowIndex"
-        >
-            <v-col
-                v-for="member in row"
+        <template v-if="mdAndUp">
+            <v-row
+                v-for="(row, rowIndex) in staffMatrix"
+                :key="rowIndex"
+            >
+                <v-col
+                    v-for="member in row"
+                    :key="member.id"
+                >
+                    <v-card elevation="4">
+                        <v-card-item>
+                            <v-card-title>{{ member.name }}</v-card-title>
+                            <v-card-subtitle>{{ member.title }}</v-card-subtitle>
+                            <v-card-text>
+                                <ResponsiveImage
+                                    v-if="member.picture"
+                                    :src="member.picture.url"
+                                    :alt="member.name"
+                                    :maxWidth="member.picture.details.image.width"
+                                    :maxHeight="member.picture.details.image.height"
+                                    align="center"
+                                />
+                            </v-card-text>
+                        </v-card-item>
+                    </v-card>
+                </v-col>
+            </v-row>
+        </template>
+        <template v-else>
+            <v-row
+                v-for="member in staff"
                 :key="member.id"
             >
-                <v-card>
-                    <v-card-title>{{ member.name }}</v-card-title>
-                    <v-card-subtitle>{{ member.title }}</v-card-subtitle>
-                    <v-card-text class="d-flex">
-                        <img
-                            v-if="member.picture"
-                            :src="member.picture.url"
-                            :width="getAssetWidth(member.picture.details.image.width, member.picture.details.image.height)"
-                            :height="getAssetHeight(member.picture.details.image.width, member.picture.details.image.height)"
-                            :alt="member.name"
-                            class="mx-auto"
-                        />
-                    </v-card-text>
-                </v-card>
-            </v-col>
-        </v-row>
+                <v-col>
+                    <v-card elevation="4">
+                        <v-card-item>
+                            <v-card-title>{{ member.name }}</v-card-title>
+                            <v-card-subtitle>{{ member.title }}</v-card-subtitle>
+                            <v-card-text>
+                                <ResponsiveImage
+                                    v-if="member.picture"
+                                    :src="member.picture.url"
+                                    :alt="member.name"
+                                    :maxWidth="member.picture.details.image.width"
+                                    :maxHeight="member.picture.details.image.height"
+                                    align="center"
+                                />
+                            </v-card-text>
+                        </v-card-item>
+                    </v-card>
+                </v-col>
+            </v-row>
+        </template>
     </v-container>
 </template>
 
@@ -31,20 +60,22 @@
     import { useContentStore } from '@/store/content';
     import { storeToRefs } from 'pinia';
     import { computed } from 'vue';
-    import { getAssetWidth, getAssetHeight } from '../utils/assetUtils';
+    import { useDisplay } from 'vuetify'
+    import ResponsiveImage from './ResponsiveImage.vue';
 
+    const { mdAndUp } = useDisplay();
     const contentStore = useContentStore();
     const { staff } = storeToRefs(contentStore);
+    staff.value.sort((a, b) => {
+        if (a.sequence === undefined) {
+            a.sequence = 999;
+        }
+        if (b.sequence === undefined) {
+            b.sequence = 999;
+        }
+        return a.sequence - b.sequence;
+    });
     const staffMatrix = computed(() => {
-        staff.value.sort((a, b) => {
-            if (a.sequence === undefined) {
-                a.sequence = 999;
-            }
-            if (b.sequence === undefined) {
-                b.sequence = 999;
-            }
-            return a.sequence - b.sequence;
-        });
         // technique copied from
         // https://stackoverflow.com/questions/4492385/convert-simple-array-into-two-dimensional-array-matrix
         return staff.value.reduce((rows, key, index) => {
