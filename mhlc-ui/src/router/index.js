@@ -1,5 +1,6 @@
 // Composables
-import { createRouter, createWebHistory, createWebHashHistory } from 'vue-router'
+import { createRouter, createWebHistory, createWebHashHistory } from 'vue-router';
+import { logEvent } from '../utils/auditService';
 
 const routes = [
   {
@@ -189,6 +190,10 @@ const routes = [
 const router = createRouter({
   history: import.meta.env.MODE === 'production' ? createWebHistory(process.env.BASE_URL) : createWebHashHistory(),
   routes,
-})
+});
+
+router.afterEach((to) => {
+  logEvent({ uri: to.fullPath, type: 'route' });
+});
 
 export default router
