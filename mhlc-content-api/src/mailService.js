@@ -2,6 +2,9 @@
 // https://mailchimp.com/developer/marketing/api/
 
 const mailchimp = require('@mailchimp/mailchimp_marketing');
+const { getLogger } = require('./logger');
+
+const logger = getLogger('mailService');
 
 function getMailchimpClient() {
     mailchimp.setConfig({
@@ -74,7 +77,7 @@ async function getNewsletterInterests() {
 
 async function callPing() {
     const response = await mailchimp.ping.get();
-    console.log(response);
+    logger.debug(response);
 }
 
 module.exports = { addMemberToNewsletter, getNewsletterInterests };

@@ -18,6 +18,8 @@
     "contentful": "^10.12.8",
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
+    "googleapis": "^144.0.0",
+    "log4js": "^6.9.1",
     "rss": "^1.2.2",
     "rss-parser": "^3.13.0",
     "xml-formatter": "^3.6.3"

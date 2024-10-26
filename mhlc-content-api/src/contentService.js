@@ -1,4 +1,7 @@
 const contentful = require('contentful');
+const { getLogger } = require('./logger');
+
+const logger = getLogger('contentService');
 
 const {
     CONTENTFUL_SPACE_ID,
@@ -262,7 +265,7 @@ function getVideoId(videoUrl) {
         const [ , videoId ] = path.split('/embed/');
         return videoId;
     } else {
-        console.warn('Could not figure out videoId from url: ', videoUrl);
+        logger.warn('Could not figure out videoId from url: ', videoUrl);
         return null;
     }
 }

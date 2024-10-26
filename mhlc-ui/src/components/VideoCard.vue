@@ -23,7 +23,7 @@
             >
                 <v-btn
                     icon="mdi-play"
-                    @click="showVideo = true"
+                    @click="openVideoDialog()"
                 >
                 </v-btn>
             </v-overlay>
@@ -70,6 +70,7 @@
 <script setup>
     import { ref, computed } from 'vue';
     import EmbeddedVideo from './EmbeddedVideo.vue';
+    import { logEvent } from '../utils/auditService';
 
     const props = defineProps({
         video: { type: Object, required: true }
@@ -82,14 +83,9 @@
 
     const showVideo = ref(false);
 
-    function formatDateTime(dateTime) {
-        const [ year, month, day ] = dateTime.split('T')[0].split('-');
-        return `${month}/${day}/${year}`;
-    }
-
-    function openFullDetailsDialog(newsId) {
-        fullDetailsToShow.value = news.value.find(({ id }) => id === newsId);
-        showFullDetails.value = true;
+    function openVideoDialog() {
+        showVideo.value = true;
+        logEvent({ uri: `/live-streams/${props.video.id}`, type: 'dialog' });
     }
 </script>
 

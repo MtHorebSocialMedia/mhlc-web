@@ -129,7 +129,8 @@
     import { useContentStore } from '@/store/content';
     import RichContentRenderer from './RichContentRenderer.vue';
     import { ref } from 'vue';
-    import { useDisplay } from 'vuetify'
+    import { useDisplay } from 'vuetify';
+    import { logEvent } from '../utils/auditService';
 
     const contentStore = useContentStore();
 
@@ -160,6 +161,7 @@
     function openFullDetailsDialog(blogId) {
         fullDetailsToShow.value = blogResults.value.blogs.find(({ id }) => id === blogId);
         showFullDetails.value = true;
+        logEvent({ uri: `/blog-posts/${blogId}`, type: 'dialog' });
     }
 </script>
 

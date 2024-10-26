@@ -20,6 +20,9 @@ const { getValidationHandler } = require('./validationHandler');
 const { getErrorHandler } = require('./errorHandler');
 const paypalRequestSchema = require('../schemas/paypalRequest.json');
 const newsletterSignupSchema = require('../schemas/newsletterSignupRequest.json');
+const { getLogger } = require('./logger');
+
+const logger = getLogger('apiRouter');
 
 const router = express.Router();
 
@@ -28,7 +31,7 @@ router.use((err, req, res, next) => {
     if (res.headersSent) {
         return next(err)
     }
-    console.error(err);
+    logger.error(err);
     res.sendStatus(500);
 });
 
@@ -207,6 +210,10 @@ router.post('/newsletter/signup',
         })();
     }
 );
+
+router.post('/audit', (req, res) => {
+    res.send();
+});
 
 router.use(getErrorHandler());
 

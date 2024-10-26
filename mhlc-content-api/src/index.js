@@ -3,12 +3,19 @@ const express = require('express');
 const apiRouter = require('./apiRouter');
 const bodyParser = require('body-parser');
 const rssFeed = require('./rssFeed');
+const { getLogger } = require('./logger');
+const { getAuditHandler } = require('./auditHandler');
+const { initialize: initializeAnalytics } = require('./analyticsService');
 
 const app = express();
 const port = 3000;
 
+const logger = getLogger('index');
+
 // automatically parse request bodies into JSON if content-type is application/json
 app.use(bodyParser.json());
+
+app.use(getAuditHandler());
 
 // To get the path to our build ui code, we'll use a little hack
 // First resolve the absolute path to the index.html file in the ui module
@@ -37,6 +44,9 @@ app.use('*', (req, res) => {
     res.sendFile(indexPath);
 });
 
-app.listen(port, () => {
-    console.log(`mhlc-web app listening on port ${port}`);
-});
+(async function() {
+    await initializeAnalytics();
+    app.listen(port, () => {
+        logger.info(`mhlc-web app listening on port ${port}`);
+    });
+})();

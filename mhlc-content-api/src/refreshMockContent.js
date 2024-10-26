@@ -1,4 +1,7 @@
 require('dotenv').config();
+const { getLogger } = require('./logger');
+
+const logger = getLogger('refreshMockContent');
 
 const contentService = require('./contentService');
 const youtubeService = require('./youtubeService');
@@ -27,12 +30,12 @@ function saveContent(content, fileName) {
 
     // Asset Urls for fav icons:
     // cropped-favicon-180x180
-    console.log((await contentService.getAsset('14QTtgiOnGHM8o6373plWL')).fields.file.url);
+    logger.debug((await contentService.getAsset('14QTtgiOnGHM8o6373plWL')).fields.file.url);
     // cropped-favicon-32x32
-    console.log((await contentService.getAsset('6nl0jBtkrinaLFuICgwOxN')).fields.file.url);
+    logger.debug((await contentService.getAsset('6nl0jBtkrinaLFuICgwOxN')).fields.file.url);
     // cropped-favicon-192x192
-    console.log((await contentService.getAsset('1iIqZfH2BenwbvWvq4rJen')).fields.file.url);
+    logger.debug((await contentService.getAsset('1iIqZfH2BenwbvWvq4rJen')).fields.file.url);
     // cropped-favicon-270x270
-    console.log((await contentService.getAsset('3Oh1f8DQrlQPu6Ga2OFSEk')).fields.file.url);
+    logger.debug((await contentService.getAsset('3Oh1f8DQrlQPu6Ga2OFSEk')).fields.file.url);
 
 })();

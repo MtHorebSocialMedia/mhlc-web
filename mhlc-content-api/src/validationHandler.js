@@ -1,6 +1,9 @@
 const { BadRequestError } = require('./apiErrors');
 const Ajv = require('ajv');
 const addFormats = require('ajv-formats');
+const { getLogger } = require('./logger');
+
+const logger = getLogger('validationHandler');
 
 function isNotBlank(data) {
     return (data !== null) && (data !== undefined) && (data.trim().length > 0);
@@ -81,7 +84,7 @@ const getValidationHandler = ({ paramsSchema, bodySchema }) => {
         const valid = (!paramsSchema || (paramsSchema && results.params.valid))
             && (!bodySchema || (bodySchema && results.body.valid));
         if (valid) {
-            console.debug(`Validation for '${req.method.toUpperCase()} ${req.originalUrl}' was successful.`);
+            logger.debug(`Validation for '${req.method.toUpperCase()} ${req.originalUrl}' was successful.`);
             next();
         } else {
             const errorResults = {

@@ -202,6 +202,7 @@
     import ResponsiveImage from './ResponsiveImage.vue';
     import { ref, watch } from 'vue';
     import { useDisplay } from 'vuetify';
+    import { logEvent } from '../utils/auditService';
 
     const { xs } = useDisplay();
 
@@ -256,6 +257,7 @@
     function openFullDetailsDialog(newsId) {
         fullDetailsToShow.value = newsResults.value.news.find(({ id }) => id === newsId);
         showFullDetails.value = true;
+        logEvent({ uri: `/news/${newsId}`, type: 'dialog' });
     }
 </script>
 

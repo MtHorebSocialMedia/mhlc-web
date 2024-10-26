@@ -1,4 +1,7 @@
 const { SystemError, BadRequestError, ConflictError } = require('./apiErrors');
+const { getLogger } = require('./logger');
+
+const logger = getLogger('errorHandler');
 
 const getErrorHandler = () => {
     return (
@@ -11,7 +14,7 @@ const getErrorHandler = () => {
         if (err.statusCode && err.message) {
             const resourceError = err;
             if (resourceError instanceof SystemError) {
-                console.error(
+                logger.error(
                     'A system error was encountered',
                     resourceError.error
                 );
@@ -27,7 +30,7 @@ const getErrorHandler = () => {
                 res.send(resourceError.message);
             }
         } else {
-            console.error(
+            logger.error(
                 'An unexpected error was encountered',
                 err
             );
