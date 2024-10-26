@@ -4,6 +4,7 @@
   "description": "GitHub project for the website of Mt. Horeb Lutheran Church, Chapin, SC - <https://mthoreb.net/>",
   "main": "index.js",
   "scripts": {
+    "b64-google-private-key": "npm run b64-google-private-key -w mhlc-content-api",
     "build:ui": "npm run build -w mhlc-ui",
     "dev:ui": "npm run dev -w mhlc-ui",
     "refresh-mock-content": "npm run refresh-mock-content -w mhlc-content-api",
