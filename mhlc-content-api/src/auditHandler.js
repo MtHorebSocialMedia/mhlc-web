@@ -27,11 +27,11 @@ const getAuditHandler = () => {
                 resourceType = req.originalUrl.startsWith('/api/') ? 'api' : '';
                 resource = req.originalUrl;
             }
-            const ip = req.ip;
-            const referrer = req.get('Referer');
-            const userAgent = req.get('User-Agent');
             if (resourceType && resourceType !== '') {
-                logger.info(`${statusCode} ${method} ${resourceType}:${resource} ${duration}`);
+                logger.info(`${statusCode} ${method.padEnd(4, ' ')} ${resourceType.padEnd(6, ' ')} ${resource} ${duration}`);
+                const ip = req.ip;
+                const referrer = req.get('Referer');
+                const userAgent = req.get('User-Agent');
                 writeEvent({
                     dateTime: new Date().toISOString(),
                     statusCode,

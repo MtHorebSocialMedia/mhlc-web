@@ -1,0 +1,1 @@
+A generated credentials.json file and possibly a token.json file will be placed in this directory at start up if analytics are enabled.  These files are listed in the .gitignore file so that they will not be accidentally committed.  This README is here to help ensure the directory exists.
