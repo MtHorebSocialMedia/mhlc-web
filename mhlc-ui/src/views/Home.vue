@@ -9,14 +9,13 @@
     <v-alert style="text-align: center">
       <ContentBlock contentBlockKey="home/welcome" />
     </v-alert>
-    <EmbeddedVideo videoId="FywyUyCav4A" />
+    <ContentBlock contentBlockKey="home/welcome-video" />
   </v-container>
 </template>
 
 <script setup>
   import ContentBlock from '../components/ContentBlock.vue';
   import SpecialAnnouncements from '../components/SpecialAnnouncements.vue';
-import EmbeddedVideo from '@/components/EmbeddedVideo.vue';
 </script>
 
 <style scoped>
