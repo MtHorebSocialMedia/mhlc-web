@@ -1,6 +1,1328 @@
 {
     "blogs": [
         {
+            "id": "X5YEp4I4O5mUXIaPL9n2r",
+            "publishDate": "2024-10-25T00:00",
+            "author": {
+                "name": "Dr. Bob Hawkins",
+                "image": {
+                    "url": "//images.ctfassets.net/3wcsgs8fznel/opaMg5v8fiwc4JuipOaao/519fff55dd7c90e53ea1e24d2595d5f1/dr-bob.jpg",
+                    "details": {
+                        "size": 5230,
+                        "image": {
+                            "width": 150,
+                            "height": 189
+                        }
+                    },
+                    "fileName": "dr-bob.jpg",
+                    "contentType": "image/jpeg"
+                }
+            },
+            "title": "What Treasure Is Lurking on Your Bookshelf?",
+            "content": {
+                "nodeType": "document",
+                "data": {},
+                "content": [
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "A search into the nooks and crannies of many area homes might well reveal one or two very old books tucked away, small with well-worn covers perhaps attached by only a few threads. In Lutheran households, were one to open up such a book – they likely fit conveniently into your hand – one might figure it’s a collection of poetry, likely in German, and now maybe unreadable for the present holder. Nevertheless, those books might well be the treasured hymnals of Great-Great-Grandfather Heinrich or Great-great-Grandma Brunhilda, some of the folks settling the Dutch Fork area long before there was a Lake Murray. On our mantle we have several, including a hand-sized, text-only ",
+                                "marks": [],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "Common Service Book and Hymnal",
+                                "marks": [
+                                    {
+                                        "type": "italic"
+                                    }
+                                ],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": " [published 1917 which serves as the forerunner of our present orders of worship] and a much earlier German hymnal printed in 1802. For our forebearers in faith, such hymnals served as devotional and educational material long before ",
+                                "marks": [],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "The Lutheran Witness",
+                                "marks": [
+                                    {
+                                        "type": "italic"
+                                    }
+                                ],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": ", ",
+                                "marks": [],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "Living Lutheran, Light for Today, or Christ in Our Home",
+                                "marks": [
+                                    {
+                                        "type": "italic"
+                                    }
+                                ],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": " were available. In fact, for seventeenth to nineteenth century Lutherans, these now moldering books were the most important books of faith beyond the Bible. They served as a ",
+                                "marks": [],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "vade mecum",
+                                "marks": [
+                                    {
+                                        "type": "italic"
+                                    }
+                                ],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": " [literally “take me with you”], conveniently pocket-sized to make that possible. To have those stunning poems of faith before our eyes without the distraction of notes and staves makes it easier to take their rhymed wisdom to heart, fulfilling a hymnal project dear to Luther’s own heart. Writing to Court Poet Georg Spalatin at the end of 1523, the budding Reformer penned: “Our plan is to follow the example of the prophets and the ancient fathers of the church, and to compose psalms for the people in the vernacular, that is, ",
+                                "marks": [],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "spiritual",
+                                "marks": [
+                                    {
+                                        "type": "italic"
+                                    }
+                                ],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": " songs, so that the Word of God may be among the people also in the form of music…” [",
+                                "marks": [],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "Luther’s Works",
+                                "marks": [
+                                    {
+                                        "type": "italic"
+                                    }
+                                ],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": ", Letters II, American Edition, vol. 49, p. 68f.] Luther certainly didn’t invent hymns, but he did understand their utter significance for people of faith, never wavering in his conviction throughout his life. Even in the last hymnal preface he wrote the year before his death, he states: “For God has cheered our hearts and minds through his dear Son, whom he gave for us to redeem us from sin, death, and the devil. [The one] who believes this earnestly cannot be quiet about it. But he must gladly and willingly sing and speak about it, so that others also may come and hear it…” [",
+                                "marks": [],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "Babst Hymnal",
+                                "marks": [
+                                    {
+                                        "type": "italic"
+                                    }
+                                ],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": ", 1546].",
+                                "marks": [],
+                                "data": {}
+                            }
+                        ]
+                    },
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "Post-reformation Christians heeded Luther’s teaching regarding hymnody. So did the Roman Catholic communion by the Second Vatican Council [1962-1965]. Roman Catholics and Lutherans, used to five hundred years of intrenched nastiness toward one another instead of working unceasingly to become one again in mission for the sake of Christ’s ONE, holy, catholic, and apostolic Church, were quite puzzled at first. I can remember a reception I attended at Notre Dame with a wide cross-section of Roman Catholics present. Some folks were discussing the new Roman Catholic hymnal at the time, ",
+                                "marks": [],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "Worship II",
+                                "marks": [
+                                    {
+                                        "type": "italic"
+                                    }
+                                ],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": ", which included Luther’s “A Mighty Fortress”as the second hymn in the alphabetized collection. While Luther’s name certainly raised eyebrows, someone asked what really was “wrong” with the hymn. The bewildered folks had to agree that there was nothing in the text they hadn’t heard preached and prayed during mass. Meanwhile, a quick peek at recent Lutheran hymnals reveals a good number of hymns by Roman Catholic poets and musicians, including now beloved favorites such as “You Have Come Down to the Lakeshore,” “On Eagle’s Wings,” and “One Bread, One Body,” all happily crowded in with standard Lutheran hymns, other traditional hymns, Gospel hymns of the evangelicals, and even a few praise songs. The LBW and ELW Hymnals are ecumenical witnesses to the goal of the Lutheran reformation most folks were too bullheaded to embrace during the first five hundred years (have ",
+                                "marks": [],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "we",
+                                "marks": [
+                                    {
+                                        "type": "italic"
+                                    }
+                                ],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": " been among that number?). St. Paul’s ",
+                                "marks": [],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "Letter to the Ephesians",
+                                "marks": [
+                                    {
+                                        "type": "italic"
+                                    }
+                                ],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": " articulates the goal: Christians should be …",
+                                "marks": [],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "making every effort to maintain the unity of the Spirit in the bond of peace: there is one body and one Spirit, just as you were called to the one hope of your calling, one Lord, one faith, one baptism, one God and Father of all, who is above all and through all and in all...",
+                                "marks": [
+                                    {
+                                        "type": "italic"
+                                    }
+                                ],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": " [Eph 4:3-6]. The Reformation wasn’t, isn’t, and never will be about one tradition slandering and libeling another, spiritually beating up on each other, smug in our polemic parochialism. The Pope in Rome is NOT the Antichrist, and neither is Luther, John Wesley, Fanny Crosby, nor Thomas A. Dorsey among many others.",
+                                "marks": [],
+                                "data": {}
+                            }
+                        ]
+                    },
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "It is because of our sad, turbulent, and occasionally shocking history as Christ’s bickering flock that Lutherans, perhaps surprisingly, have held on to their Latin motto, ",
+                                "marks": [],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "ecclesia semper reformanda",
+                                "marks": [
+                                    {
+                                        "type": "italic"
+                                    }
+                                ],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": " ",
+                                "marks": [],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "est",
+                                "marks": [
+                                    {
+                                        "type": "italic"
+                                    }
+                                ],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": " – the Church is constantly reforming. It is a lifelong task individually and communally for any people of faith as Reformation Sunday’s second reading declares: ",
+                                "marks": [],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "For there is no distinction, since all have sinned and fall short of the glory of God; they are now justified by his grace as a gift, through the redemption that is in Christ Jesus, whom God put forward as a sacrifice of atonementby his blood, effective through faith. He did this to demonstrate his righteousness, because in his divine forbearance he had passed over the sins previously committed",
+                                "marks": [
+                                    {
+                                        "type": "italic"
+                                    }
+                                ],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": " [Romans 3:22b-26]. Pay attention to the venerable Prayer of the Day, too. Such prayers tend to encapsulate the heart of each Sunday’s proclamation.",
+                                "marks": [],
+                                "data": {}
+                            }
+                        ]
+                    },
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "However, we need hymns to provide us with texts to anchor this good news in our hearts and minds. Several memorized hymns helped twentieth century reformer and martyr Dietrich Bonhoeffer as he actually did walk through Death’s Dark Valley in 1945. Anglican theologian, Massey Hamilton Shepherd, wrote in 1960 that it is chiefly the strong hymns of faith which teach God’s faithful people their theology – i.e., the most reliable, accurate, and clear way to think, express, and witness to God’s ways and the Christian life. If you study and sing “good” hymns, you may find that believing is more understandable and comforting while remaining challenging [remember: the Church is always reforming!]. That also means, of course, that if you tend to focus only on Christian-lite, “just-make-me-feel-good-with-no-challenges, please” songs, you’ll find yourself up the proverbial creek without a paddle regarding life’s difficulties.",
+                                "marks": [],
+                                "data": {}
+                            }
+                        ]
+                    },
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "Luther himself would have agreed wholeheartedly with the venerable Anglican Professor Dr. Shepherd (who incidentally grew up in Trinity Cathedral’s congregation in Columbia and was even confirmed there). The hymns of faith decidedly DO help us navigate our faith and belief. Early in his career, Luther penned the ultimate Reformation hymn (although it is NOT “A Mighty Fortress,” a much later writing of his). Alas, “Dear Christians, One and All, Rejoice” [ELW 594; LBW 299] remains largely unfamiliar these days, given its length and tricky music (at least for the present age). From beginning to end, the hymn remains a stunning declaration of the primary themes of the Reformation, particularly the ravages of sin, God’s abiding love first expressed in John 3:16, faith, grace, and God’s work of salvation as an unbreakable relationship between God and the beloved -- US. It concludes with Christ’s commending the story of his saving, freeing work to guide all our living, understanding, and witness. Here it is as it originally appeared – a poem. Study it well. It’s blessedly freeing [John 8:36]!!!",
+                                "marks": [],
+                                "data": {}
+                            }
+                        ]
+                    },
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "Prologue",
+                                "marks": [
+                                    {
+                                        "type": "bold"
+                                    }
+                                ],
+                                "data": {}
+                            }
+                        ]
+                    },
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "1 Dear Christians, one and all, rejoice,",
+                                "marks": [],
+                                "data": {}
+                            }
+                        ]
+                    },
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "with exultation springing,",
+                                "marks": [],
+                                "data": {}
+                            }
+                        ]
+                    },
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "and, with united heart and voice",
+                                "marks": [],
+                                "data": {}
+                            }
+                        ]
+                    },
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "and holy rapture singing,",
+                                "marks": [],
+                                "data": {}
+                            }
+                        ]
+                    },
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "proclaim the wonders God has done,",
+                                "marks": [],
+                                "data": {}
+                            }
+                        ]
+                    },
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "how his right arm the vict’ry won,",
+                                "marks": [],
+                                "data": {}
+                            }
+                        ]
+                    },
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "what price our ransom cost him!",
+                                "marks": [],
+                                "data": {}
+                            }
+                        ]
+                    },
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "Narrative Flashback: What we endured before God’s work",
+                                "marks": [
+                                    {
+                                        "type": "bold"
+                                    }
+                                ],
+                                "data": {}
+                            }
+                        ]
+                    },
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "2 Fast bound in Satan’s chains I lay,",
+                                "marks": [],
+                                "data": {}
+                            }
+                        ]
+                    },
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "death brooded darkly o’er me,",
+                                "marks": [],
+                                "data": {}
+                            }
+                        ]
+                    },
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "sin was my torment night and day;",
+                                "marks": [],
+                                "data": {}
+                            }
+                        ]
+                    },
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "in sin my mother bore me.",
+                                "marks": [],
+                                "data": {}
+                            }
+                        ]
+                    },
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "But daily deeper still I fell;",
+                                "marks": [],
+                                "data": {}
+                            }
+                        ]
+                    },
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "my life became a living hell,",
+                                "marks": [],
+                                "data": {}
+                            }
+                        ]
+                    },
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "so firmly sin possessed me.",
+                                "marks": [],
+                                "data": {}
+                            }
+                        ]
+                    },
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "The folly of thinking we can earn God’s favor on our own independently",
+                                "marks": [
+                                    {
+                                        "type": "bold"
+                                    }
+                                ],
+                                "data": {}
+                            }
+                        ]
+                    },
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "3 My own good works all came to naught,",
+                                "marks": [],
+                                "data": {}
+                            }
+                        ]
+                    },
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "no grace or merit gaining;",
+                                "marks": [],
+                                "data": {}
+                            }
+                        ]
+                    },
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "free will against God’s judgment fought,",
+                                "marks": [],
+                                "data": {}
+                            }
+                        ]
+                    },
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "dead to all good remaining.",
+                                "marks": [],
+                                "data": {}
+                            }
+                        ]
+                    },
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "My fears increased till sheer despair",
+                                "marks": [],
+                                "data": {}
+                            }
+                        ]
+                    },
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "left only death to be my share;",
+                                "marks": [],
+                                "data": {}
+                            }
+                        ]
+                    },
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "the pangs of hell I suffered.",
+                                "marks": [],
+                                "data": {}
+                            }
+                        ]
+                    },
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "God’s love for creation and us reflected in John 3:16",
+                                "marks": [
+                                    {
+                                        "type": "bold"
+                                    }
+                                ],
+                                "data": {}
+                            }
+                        ]
+                    },
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "4 But God had seen my wretched state",
+                                "marks": [],
+                                "data": {}
+                            }
+                        ]
+                    },
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "before the world’s foundation,",
+                                "marks": [],
+                                "data": {}
+                            }
+                        ]
+                    },
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "and, mindful of his mercies great,",
+                                "marks": [],
+                                "data": {}
+                            }
+                        ]
+                    },
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "he planned for my salvation.",
+                                "marks": [],
+                                "data": {}
+                            }
+                        ]
+                    },
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "He turned to me a father’s heart;",
+                                "marks": [],
+                                "data": {}
+                            }
+                        ]
+                    },
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "he did not choose the easy part,",
+                                "marks": [],
+                                "data": {}
+                            }
+                        ]
+                    },
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "but gave his dearest treasure.",
+                                "marks": [],
+                                "data": {}
+                            }
+                        ]
+                    },
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "The mission of God’s beloved Son",
+                                "marks": [
+                                    {
+                                        "type": "bold"
+                                    }
+                                ],
+                                "data": {}
+                            }
+                        ]
+                    },
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "5 God said to his beloved Son:",
+                                "marks": [],
+                                "data": {}
+                            }
+                        ]
+                    },
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "“’Tis time to have compassion.",
+                                "marks": [],
+                                "data": {}
+                            }
+                        ]
+                    },
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "Then go, bright jewel of my crown,",
+                                "marks": [],
+                                "data": {}
+                            }
+                        ]
+                    },
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "and bring to all salvation;",
+                                "marks": [],
+                                "data": {}
+                            }
+                        ]
+                    },
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "from sin and sorrow set them free;",
+                                "marks": [],
+                                "data": {}
+                            }
+                        ]
+                    },
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "slay bitter death for them that they",
+                                "marks": [],
+                                "data": {}
+                            }
+                        ]
+                    },
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "may live with you forever.”",
+                                "marks": [],
+                                "data": {}
+                            }
+                        ]
+                    },
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "Christ’s fidelity to God’s will for creation",
+                                "marks": [
+                                    {
+                                        "type": "bold"
+                                    }
+                                ],
+                                "data": {}
+                            }
+                        ]
+                    },
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "6 The Son obeyed his Father’s will,",
+                                "marks": [],
+                                "data": {}
+                            }
+                        ]
+                    },
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "was born of virgin mother;",
+                                "marks": [],
+                                "data": {}
+                            }
+                        ]
+                    },
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "and, God’s good pleasure to fulfill,",
+                                "marks": [],
+                                "data": {}
+                            }
+                        ]
+                    },
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "he came to be my brother.",
+                                "marks": [],
+                                "data": {}
+                            }
+                        ]
+                    },
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "His royal pow’r disguised he bore,",
+                                "marks": [],
+                                "data": {}
+                            }
+                        ]
+                    },
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "a servant’s form, like mine, he wore,",
+                                "marks": [],
+                                "data": {}
+                            }
+                        ]
+                    },
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "to lead the devil captive.",
+                                "marks": [],
+                                "data": {}
+                            }
+                        ]
+                    },
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "We know Jesus as “Christ for us”…",
+                                "marks": [
+                                    {
+                                        "type": "bold"
+                                    }
+                                ],
+                                "data": {}
+                            }
+                        ]
+                    },
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "7 To me he said: “Stay close to me,",
+                                "marks": [],
+                                "data": {}
+                            }
+                        ]
+                    },
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "I am your rock and castle.",
+                                "marks": [],
+                                "data": {}
+                            }
+                        ]
+                    },
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "Your ransom I myself will be;",
+                                "marks": [],
+                                "data": {}
+                            }
+                        ]
+                    },
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "for you I strive and wrestle;",
+                                "marks": [],
+                                "data": {}
+                            }
+                        ]
+                    },
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "for I am yours, and you are mine,",
+                                "marks": [],
+                                "data": {}
+                            }
+                        ]
+                    },
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "and where I am you may remain;",
+                                "marks": [],
+                                "data": {}
+                            }
+                        ]
+                    },
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "the foe shall not divide us.",
+                                "marks": [],
+                                "data": {}
+                            }
+                        ]
+                    },
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "…risking everything to save us",
+                                "marks": [
+                                    {
+                                        "type": "bold"
+                                    }
+                                ],
+                                "data": {}
+                            }
+                        ]
+                    },
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "8 “Though he will shed my precious blood,",
+                                "marks": [],
+                                "data": {}
+                            }
+                        ]
+                    },
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "of life me thus bereaving,",
+                                "marks": [],
+                                "data": {}
+                            }
+                        ]
+                    },
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "all this I suffer for your good;",
+                                "marks": [],
+                                "data": {}
+                            }
+                        ]
+                    },
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "be steadfast and believing.",
+                                "marks": [],
+                                "data": {}
+                            }
+                        ]
+                    },
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "Life will from death the vict’ry win;",
+                                "marks": [],
+                                "data": {}
+                            }
+                        ]
+                    },
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "my innocence shall bear your sin;",
+                                "marks": [],
+                                "data": {}
+                            }
+                        ]
+                    },
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "and you are blest forever.",
+                                "marks": [],
+                                "data": {}
+                            }
+                        ]
+                    },
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "Mission of the Spirit…",
+                                "marks": [
+                                    {
+                                        "type": "bold"
+                                    }
+                                ],
+                                "data": {}
+                            }
+                        ]
+                    },
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "9 “Now to my Father I depart,",
+                                "marks": [],
+                                "data": {}
+                            }
+                        ]
+                    },
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "from earth to heav’n ascending,",
+                                "marks": [],
+                                "data": {}
+                            }
+                        ]
+                    },
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "and, heav’nly wisdom to impart,",
+                                "marks": [],
+                                "data": {}
+                            }
+                        ]
+                    },
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "the Holy Spirit sending;",
+                                "marks": [],
+                                "data": {}
+                            }
+                        ]
+                    },
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "in trouble he will comfort you",
+                                "marks": [],
+                                "data": {}
+                            }
+                        ]
+                    },
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "and teach you always to be true",
+                                "marks": [],
+                                "data": {}
+                            }
+                        ]
+                    },
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "and into truth shall guide you.",
+                                "marks": [],
+                                "data": {}
+                            }
+                        ]
+                    },
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "“And lo, I am with you always…”",
+                                "marks": [
+                                    {
+                                        "type": "bold"
+                                    }
+                                ],
+                                "data": {}
+                            }
+                        ]
+                    },
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "10 “What I on earth have done and taught",
+                                "marks": [],
+                                "data": {}
+                            }
+                        ]
+                    },
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "guide all your life and teaching;",
+                                "marks": [],
+                                "data": {}
+                            }
+                        ]
+                    },
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "so shall the kingdom’s work be wrought",
+                                "marks": [],
+                                "data": {}
+                            }
+                        ]
+                    },
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "and honored in your preaching.",
+                                "marks": [],
+                                "data": {}
+                            }
+                        ]
+                    },
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "But watch lest foes with base alloy",
+                                "marks": [],
+                                "data": {}
+                            }
+                        ]
+                    },
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "the heav’nly treasure should destroy;",
+                                "marks": [],
+                                "data": {}
+                            }
+                        ]
+                    },
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "this final word I leave you.”",
+                                "marks": [],
+                                "data": {}
+                            }
+                        ]
+                    },
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "Text: Martin Luther, 1483-1546; tr. Richard Massie, 1800-1887, alt. Headers, RDH, 2024",
+                                "marks": [],
+                                "data": {}
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
             "id": "5hRLpnvfGKrAofb8U4zTsd",
             "publishDate": "2024-10-11T00:00",
             "author": {

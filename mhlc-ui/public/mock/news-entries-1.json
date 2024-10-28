@@ -1,6 +1,318 @@
 {
     "news": [
         {
+            "id": "3S6KFQLEpBgqyXNZ7P0pSZ",
+            "datetime": "2024-10-25T00:00",
+            "title": "Bulletin for October 27",
+            "description": {
+                "data": {},
+                "content": [
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "Check out this Sunday's bulletin.",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    }
+                ],
+                "nodeType": "document"
+            },
+            "type": [
+                {
+                    "id": "5ktejUJ8noonowWZUs0uN7",
+                    "type": "General"
+                }
+            ],
+            "image": null,
+            "attachments": [
+                {
+                    "title": "Bulletin for October 27",
+                    "file": {
+                        "url": "//assets.ctfassets.net/3wcsgs8fznel/6fGClbWQSztBhiHHfmdoB7/ed0131dab1fdc0ce2ee78f4a4ce5a09c/bulletin1027.pdf",
+                        "details": {
+                            "size": 1436724
+                        },
+                        "fileName": "bulletin1027.pdf",
+                        "contentType": "application/pdf"
+                    }
+                }
+            ],
+            "videoId": null
+        },
+        {
+            "id": "6nP0mDRL4k3Yv2orQ6KT7D",
+            "datetime": "2024-10-25T00:00",
+            "title": "Prayer Requests",
+            "description": {
+                "data": {},
+                "content": [
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "Ann B. Shealy",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    },
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "Jerry Shealy",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    },
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "Cathryn Summer",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    }
+                ],
+                "nodeType": "document"
+            },
+            "type": [
+                {
+                    "id": "5ktejUJ8noonowWZUs0uN7",
+                    "type": "General"
+                }
+            ],
+            "image": null,
+            "attachments": [],
+            "videoId": null
+        },
+        {
+            "id": "13q4bVurRp3IevrKIq2lMq",
+            "datetime": "2024-10-25T00:00",
+            "title": "Trunk or Treat \"Car\"nival",
+            "description": {
+                "data": {},
+                "content": [
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "Join us this Sunday, October 27th, from 4-6pm in the Boundary Street parking lot. Decorate your car trunks with festive and creative themes or just come to help hand out candy as we enjoy fellowship with our church family and neighbors. Also, bring candy, snacks, or other appropriate prizes to hand out. Thank you!",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    }
+                ],
+                "nodeType": "document"
+            },
+            "type": [
+                {
+                    "id": "3Zl7eAG9eIPOZLPyA11Uj8",
+                    "type": "Event"
+                },
+                {
+                    "id": "5ktejUJ8noonowWZUs0uN7",
+                    "type": "General"
+                }
+            ],
+            "image": null,
+            "attachments": [],
+            "videoId": null
+        },
+        {
+            "id": "1jzmT7YwMT5mdtEisRAQtu",
+            "datetime": "2024-10-25T00:00",
+            "title": "Social Ministry Team",
+            "description": {
+                "data": {},
+                "content": [
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "We will meet Thursday, October 31st at 10am.",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    }
+                ],
+                "nodeType": "document"
+            },
+            "type": [
+                {
+                    "id": "5ktejUJ8noonowWZUs0uN7",
+                    "type": "General"
+                }
+            ],
+            "image": null,
+            "attachments": [],
+            "videoId": null
+        },
+        {
+            "id": "3hVrcMFXOjXRgLG8J9uLsQ",
+            "datetime": "2024-10-25T00:00",
+            "title": "New Puzzle",
+            "description": {
+                "data": {},
+                "content": [
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "There is a new puzzle in the Fellowship Hall. It is very tough so it will take lots of hands. Any time you can work on this puzzle would be appreciated. The theme of the puzzle is “Jesus finds us even when we are lost!” However, let’s try not to lose any pieces!",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    }
+                ],
+                "nodeType": "document"
+            },
+            "type": [
+                {
+                    "id": "5ktejUJ8noonowWZUs0uN7",
+                    "type": "General"
+                }
+            ],
+            "image": null,
+            "attachments": [],
+            "videoId": null
+        },
+        {
+            "id": "1m14eI9ycozhhHkIlwGDBr",
+            "datetime": "2024-10-25T00:00",
+            "title": "Reformation ",
+            "description": {
+                "data": {},
+                "content": [
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "The church color is red this Sunday October 27th, which represents the Holy Spirit and the Martyrs of the Christian Church. Reformation Sunday marks the anniversary of the day Martin Luther posted his Ninety-five Theses on the door of the Castle Church in Wittenberg, Germany (October 31, 1517). So, don't forget to wear red!",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    }
+                ],
+                "nodeType": "document"
+            },
+            "type": [
+                {
+                    "id": "5ktejUJ8noonowWZUs0uN7",
+                    "type": "General"
+                }
+            ],
+            "image": null,
+            "attachments": [],
+            "videoId": null
+        },
+        {
+            "id": "31NFAnFVwNWPDekwTBgyto",
+            "datetime": "2024-10-25T00:00",
+            "title": "SONshine Bags",
+            "description": {
+                "data": {},
+                "content": [
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "It is time for fall SONshine bags",
+                                "nodeType": "text"
+                            },
+                            {
+                                "data": {},
+                                "marks": [
+                                    {
+                                        "type": "bold"
+                                    }
+                                ],
+                                "value": " ",
+                                "nodeType": "text"
+                            },
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "These will be in the Fellowship Hall on October 31 through November 17. We have decided to rename these SONshine Bags so that we can spread sunshine and “Son”shine to our members who are unable to attend services. Snacks, puzzles, notepads, pens or pencils or any other item that may bring a smile to our fellow members! Bags should be picked up after service on November 17 and delivered no later than Thanksgiving! The Social Ministry Team thanks you for your assistance with this ministry!",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    }
+                ],
+                "nodeType": "document"
+            },
+            "type": [
+                {
+                    "id": "5ktejUJ8noonowWZUs0uN7",
+                    "type": "General"
+                }
+            ],
+            "image": null,
+            "attachments": [],
+            "videoId": null
+        },
+        {
+            "id": "G8rSLl4ORCCk6JUxG7U4d",
+            "datetime": "2024-10-25T00:00",
+            "title": "Worship Team",
+            "description": {
+                "data": {},
+                "content": [
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "We meet this Sunday after the service.",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    }
+                ],
+                "nodeType": "document"
+            },
+            "type": [
+                {
+                    "id": "5ktejUJ8noonowWZUs0uN7",
+                    "type": "General"
+                }
+            ],
+            "image": null,
+            "attachments": [],
+            "videoId": null
+        },
+        {
             "id": "1FnwzNmHaHcEfrcjVHCyYy",
             "datetime": "2024-10-18T00:00",
             "title": "Golden Agers",
@@ -33,207 +345,8 @@
                 }
             ],
             "image": null,
-            "attachments": []
-        },
-        {
-            "id": "40M6QJMB7uS5JR7Nj8qmYp",
-            "datetime": "2024-10-18T00:00",
-            "title": "Prayer Requests",
-            "description": {
-                "data": {},
-                "content": [
-                    {
-                        "data": {},
-                        "content": [
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": "--Ann B. Shealy",
-                                "nodeType": "text"
-                            }
-                        ],
-                        "nodeType": "paragraph"
-                    },
-                    {
-                        "data": {},
-                        "content": [
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": "--Jerry Shealy",
-                                "nodeType": "text"
-                            }
-                        ],
-                        "nodeType": "paragraph"
-                    },
-                    {
-                        "data": {},
-                        "content": [
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": "--Lois Bundrick",
-                                "nodeType": "text"
-                            }
-                        ],
-                        "nodeType": "paragraph"
-                    }
-                ],
-                "nodeType": "document"
-            },
-            "type": [
-                {
-                    "id": "5ktejUJ8noonowWZUs0uN7",
-                    "type": "General"
-                }
-            ],
-            "image": null,
-            "attachments": []
-        },
-        {
-            "id": "2A96Ed23YaciBZh3deubMI",
-            "datetime": "2024-10-18T00:00",
-            "title": "Reformation Sunday",
-            "description": {
-                "data": {},
-                "content": [
-                    {
-                        "data": {},
-                        "content": [
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": "Don’t forget to wear red Sunday, October 27th which represents the Holy Spirit and the Martyrs of the Christian Church. Reformation Sunday marks the anniversary of the day Martin Luther posted his Ninety-five Theses on the door of the Castle Church in Wittenberg, Germany (October 31, 1517). ",
-                                "nodeType": "text"
-                            }
-                        ],
-                        "nodeType": "paragraph"
-                    }
-                ],
-                "nodeType": "document"
-            },
-            "type": [
-                {
-                    "id": "5ktejUJ8noonowWZUs0uN7",
-                    "type": "General"
-                }
-            ],
-            "image": null,
-            "attachments": []
-        },
-        {
-            "id": "L7H2VhTq81f7g96Z3ZQsH",
-            "datetime": "2024-10-18T00:00",
-            "title": "Poinsettia Orders for Christmas",
-            "description": {
-                "data": {},
-                "content": [
-                    {
-                        "data": {},
-                        "content": [
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": "Poinsettias are available for order now. The cost is $13 per plant and the deadline is ",
-                                "nodeType": "text"
-                            },
-                            {
-                                "data": {},
-                                "marks": [
-                                    {
-                                        "type": "bold"
-                                    }
-                                ],
-                                "value": "November 10.",
-                                "nodeType": "text"
-                            },
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": " Order forms are available at the Welcome Center if you would like to order. Turn the form into the office with your payment. Thank you!",
-                                "nodeType": "text"
-                            }
-                        ],
-                        "nodeType": "paragraph"
-                    }
-                ],
-                "nodeType": "document"
-            },
-            "type": [
-                {
-                    "id": "5ktejUJ8noonowWZUs0uN7",
-                    "type": "General"
-                }
-            ],
-            "image": null,
-            "attachments": []
-        },
-        {
-            "id": "6KUZqWLWy9D0Fx2aKjXjBq",
-            "datetime": "2024-10-18T00:00",
-            "title": "Visitation Team",
-            "description": {
-                "data": {},
-                "content": [
-                    {
-                        "data": {},
-                        "content": [
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": "Pastor Ron and the Visitation Team need you! Please prayerfully consider being a part of the Visitation Team. A commitment to the Visitation Team involves the following:",
-                                "nodeType": "text"
-                            }
-                        ],
-                        "nodeType": "paragraph"
-                    },
-                    {
-                        "data": {},
-                        "content": [
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": "—One meeting a month in the Sanctuary to pray with Pastor Ron and receive blessed communion elements to take with you.",
-                                "nodeType": "text"
-                            }
-                        ],
-                        "nodeType": "paragraph"
-                    },
-                    {
-                        "data": {},
-                        "content": [
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": "—During that month, choose your day or days to visit members that no longer can attend in-person services.",
-                                "nodeType": "text"
-                            }
-                        ],
-                        "nodeType": "paragraph"
-                    },
-                    {
-                        "data": {},
-                        "content": [
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": "Pastor Ron will provide training so that the Team will understand the expectations and to answer any questions team members may have. We want to make sure we are reaching everyone who is unable to attend in-person. If you would like to volunteer, please contact the office or sign up in the narthex.",
-                                "nodeType": "text"
-                            }
-                        ],
-                        "nodeType": "paragraph"
-                    }
-                ],
-                "nodeType": "document"
-            },
-            "type": [
-                {
-                    "id": "5ktejUJ8noonowWZUs0uN7",
-                    "type": "General"
-                }
-            ],
-            "image": null,
-            "attachments": []
+            "attachments": [],
+            "videoId": null
         },
         {
             "id": "3kW8Hs7rbQofbxlda2vecD",
@@ -276,179 +389,10 @@
                         "contentType": "application/pdf"
                     }
                 }
-            ]
-        },
-        {
-            "id": "7BzxrxH0l59dGxNIgDYnSr",
-            "datetime": "2024-10-18T00:00",
-            "title": "Family Book Share",
-            "description": {
-                "data": {},
-                "content": [
-                    {
-                        "data": {},
-                        "content": [
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": "The Learn Team has set up a Basket of Books for families and children. This basket will be located in the Narthex. Please look through and take home any book of interest. This is just one more way to support our families and children in “faith formation”. ",
-                                "nodeType": "text"
-                            }
-                        ],
-                        "nodeType": "paragraph"
-                    },
-                    {
-                        "data": {},
-                        "content": [
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": "After your family has read a book, bring it back and put it in the basket and take another one home to share with your children.",
-                                "nodeType": "text"
-                            }
-                        ],
-                        "nodeType": "paragraph"
-                    },
-                    {
-                        "data": {},
-                        "content": [
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": "Any of you may share these books with any you think would enjoy them. If a book makes its way back to the basket, that’s great. If a book finds a new home, that may be just where it belongs! The Good News is meant to be shared!",
-                                "nodeType": "text"
-                            }
-                        ],
-                        "nodeType": "paragraph"
-                    }
-                ],
-                "nodeType": "document"
-            },
-            "type": [
-                {
-                    "id": "5ktejUJ8noonowWZUs0uN7",
-                    "type": "General"
-                }
             ],
-            "image": null,
-            "attachments": []
-        },
-        {
-            "id": "2Dm3Xaj9kEmGEtn0Sk9Vqn",
-            "datetime": "2024-10-11T00:00",
-            "title": "Golden Agers Booklet",
-            "description": {
-                "data": {},
-                "content": [
-                    {
-                        "data": {},
-                        "content": [
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": "If you have turned 75 years old and are a new golden ager OR you need to update your existing information for the booklet, turn in to the church office at frontdesk@mthoreb.net. In order to print the books in time for Sunday, October 20th, we cannot accept any updates after ",
-                                "nodeType": "text"
-                            },
-                            {
-                                "data": {},
-                                "marks": [
-                                    {
-                                        "type": "bold"
-                                    }
-                                ],
-                                "value": "Monday, October 14th.",
-                                "nodeType": "text"
-                            }
-                        ],
-                        "nodeType": "paragraph"
-                    }
-                ],
-                "nodeType": "document"
-            },
-            "type": [
-                {
-                    "id": "5ktejUJ8noonowWZUs0uN7",
-                    "type": "General"
-                }
-            ],
-            "image": null,
-            "attachments": []
-        },
-        {
-            "id": "2psJpIMdRH13NTtH9nc74l",
-            "datetime": "2024-10-11T00:00",
-            "title": "Lutheran Men",
-            "description": {
-                "data": {},
-                "content": [
-                    {
-                        "data": {},
-                        "content": [
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": "We meet Monday, October 14th.  Sign-up at the Welcome Center. The program will be led by a master bee keeper.",
-                                "nodeType": "text"
-                            }
-                        ],
-                        "nodeType": "paragraph"
-                    }
-                ],
-                "nodeType": "document"
-            },
-            "type": [
-                {
-                    "id": "5ktejUJ8noonowWZUs0uN7",
-                    "type": "General"
-                }
-            ],
-            "image": null,
-            "attachments": []
-        },
-        {
-            "id": "1sVKFOO6qSiGSXQNZemJeJ",
-            "datetime": "2024-10-11T00:00",
-            "title": "Prayer Requests",
-            "description": {
-                "data": {},
-                "content": [
-                    {
-                        "data": {},
-                        "content": [
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": "--Ann B. Shealy",
-                                "nodeType": "text"
-                            }
-                        ],
-                        "nodeType": "paragraph"
-                    },
-                    {
-                        "data": {},
-                        "content": [
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": "--Jerry Shealy",
-                                "nodeType": "text"
-                            }
-                        ],
-                        "nodeType": "paragraph"
-                    }
-                ],
-                "nodeType": "document"
-            },
-            "type": [
-                {
-                    "id": "5ktejUJ8noonowWZUs0uN7",
-                    "type": "General"
-                }
-            ],
-            "image": null,
-            "attachments": []
+            "videoId": null
         }
     ],
     "page": 1,
-    "totalPages": 7
+    "totalPages": 8
 }
