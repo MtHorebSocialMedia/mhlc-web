@@ -114,6 +114,29 @@ async function writeEvent(event) {
     }
 }
 
+async function getEvents() {
+    const auth = await authorize();
+    const sheets = google.sheets({ version: 'v4', auth });
+    const res = await sheets.spreadsheets.values.get({
+        spreadsheetId: process.env.GOOGLE_APIS_ANALYTICS_SHEET_ID,
+        range: 'Events!A2:J'
+    });
+    return res.data.values.map(([dateTime, environment, status, method, resourceType, resource, duration, referrer, ip, agent]) => ({
+        dateTime,
+        environment,
+        status,
+        method,
+        resourceType,
+        resource,
+        duration,
+        referrer,
+        ip: ip.replace('::ffff:', ''),
+        agent,
+        fromFacebook: resource.includes('fbclid='),
+        fromEnews: resource.includes('src=enews')
+    })).filter(({ environment, resourceType }) => (environment === 'production' && (resourceType === 'route' || resourceType === 'dialog')));
+}
+
 async function processEvents() {
     if (events.length > 0) {
         const eventsToProcess = [];
@@ -161,4 +184,4 @@ async function writeToSheets(events) {
     });
 }
 
-module.exports = { initialize, writeEvent };
+module.exports = { initialize, writeEvent, getEvents };

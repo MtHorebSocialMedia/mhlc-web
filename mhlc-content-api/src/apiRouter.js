@@ -16,6 +16,7 @@ const {
 const { getPaypalUrl } = require('./donationService');
 const { getVideosList } = require('./youtubeService');
 const { addMemberToNewsletter } = require('./mailService');
+const { getEvents } = require('./analyticsService');
 const { getValidationHandler } = require('./validationHandler');
 const { getErrorHandler } = require('./errorHandler');
 const paypalRequestSchema = require('../schemas/paypalRequest.json');
@@ -212,7 +213,19 @@ router.post('/newsletter/signup',
 );
 
 router.post('/audit', (req, res) => {
+    // logic for this route is consolidated in the auditHandler middleware
     res.send();
+});
+
+router.get('/audit/events', (req, res, next) => {
+    (async function() {
+        try {
+            const results = await getEvents();
+            res.send(results);
+        } catch(err) {
+            next(err);
+        }
+    })();
 });
 
 router.use(getErrorHandler());
