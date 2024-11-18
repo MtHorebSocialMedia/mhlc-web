@@ -5,7 +5,8 @@ let httpClient = null;
 
 export function getHttpClient() {
     if (!httpClient) {
-        httpClient = axios.create();
+        const token = getAuthToken();
+        createHttpClient(token);
         if (import.meta.env.MODE === 'development') {
             const mock = new MockAdapter(httpClient, { delayResponse: 1500 });
             httpClient.addMocks = (callback) => {
@@ -18,4 +19,21 @@ export function getHttpClient() {
 
 export function getMockClient() {
     return axios.create();
+}
+
+export function saveAuthToken(token) {
+    window.localStorage.setItem('MHLC_AUTH_TOKEN', token);
+    createHttpClient(token);
+}
+
+function createHttpClient(token) {
+    httpClient = axios.create({
+        headers: {
+            'x-authorization': token ? `Bearer ${token}` : null
+        }
+    });
+}
+
+function getAuthToken() {
+    return window.localStorage.getItem('MHLC_AUTH_TOKEN');
 }

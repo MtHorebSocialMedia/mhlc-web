@@ -12,16 +12,20 @@ const {
     getCouncil,
     getStaff,
     getSpecialAnnouncements
-} = require('./contentService');
-const { getPaypalUrl } = require('./donationService');
-const { getVideosList } = require('./youtubeService');
-const { addMemberToNewsletter } = require('./mailService');
-const { getEvents } = require('./analyticsService');
-const { getValidationHandler } = require('./validationHandler');
-const { getErrorHandler } = require('./errorHandler');
+} = require('./services/contentService');
+const { getPaypalUrl } = require('./services/donationService');
+const { getVideosList } = require('./services/youtubeService');
+const { addMemberToNewsletter } = require('./services/mailService');
+const { getEvents } = require('./services/analyticsService');
+const { getValidationHandler } = require('./middleware/validationHandler');
+const { getAuthenticationHandler } = require('./middleware/authenticationHandler');
+const { getErrorHandler } = require('./middleware/errorHandler');
 const paypalRequestSchema = require('../schemas/paypalRequest.json');
 const newsletterSignupSchema = require('../schemas/newsletterSignupRequest.json');
-const { getLogger } = require('./logger');
+const authenticationRequestSchema = require('../schemas/authenticationRequest.json');
+const { getLogger } = require('./utils/logger');
+const { authenticate } = require('./services/securityService');
+const { jwtSign } = require('./utils/jwtUtils');
 
 const logger = getLogger('apiRouter');
 
@@ -217,16 +221,40 @@ router.post('/audit', (req, res) => {
     res.send();
 });
 
-router.get('/audit/events', (req, res, next) => {
-    (async function() {
-        try {
-            const results = await getEvents();
-            res.send(results);
-        } catch(err) {
-            next(err);
-        }
-    })();
-});
+router.get('/audit/events',
+    getAuthenticationHandler({ authRequired: true }),
+    (req, res, next) => {
+        (async function() {
+            try {
+                const results = await getEvents();
+                res.send(results);
+            } catch(err) {
+                next(err);
+            }
+        })();
+    }
+);
+
+router.post('/authenticate',
+    getValidationHandler({ bodySchema: authenticationRequestSchema }),
+    (req, res, next) => {
+        (async function() {
+            try {
+                const authenticated = await authenticate(req.body);
+                if (authenticated) {
+                    req.user = {
+                        userName: req.body.userName,
+                        admin: true
+                    };
+                    res.set('x-authorization', await jwtSign(req.user));
+                }
+                res.send({ authenticated });
+            } catch (err) {
+                next(err);
+            }
+        })();
+    }
+);
 
 router.use(getErrorHandler());
 

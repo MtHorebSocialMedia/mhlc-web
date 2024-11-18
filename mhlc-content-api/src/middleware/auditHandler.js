@@ -1,5 +1,5 @@
-const { getLogger } = require('./logger');
-const { writeEvent } = require('./analyticsService');
+const { getLogger } = require('../utils/logger');
+const { writeEvent } = require('../services/analyticsService');
 
 const logger = getLogger('audit');
 

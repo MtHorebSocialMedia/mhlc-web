@@ -2,7 +2,7 @@ const fs = require('fs').promises;
 const path = require('path');
 const process = require('process');
 const { google } = require('googleapis');
-const { getLogger } = require('./logger');
+const { getLogger } = require('../utils/logger');
 
 const logger = getLogger('analyticsService');
 

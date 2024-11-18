@@ -1,7 +1,7 @@
-const { BadRequestError } = require('./apiErrors');
+const { BadRequestError } = require('../apiErrors');
 const Ajv = require('ajv');
 const addFormats = require('ajv-formats');
-const { getLogger } = require('./logger');
+const { getLogger } = require('../utils/logger');
 
 const logger = getLogger('validationHandler');
 

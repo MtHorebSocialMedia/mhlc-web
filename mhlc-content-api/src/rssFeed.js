@@ -5,8 +5,8 @@ const {
     getNewsEntries,
     getBlogPosts,
     getSpecialAnnouncements
-} = require('./contentService');
-const { getVideosList } = require('./youtubeService');
+} = require('./services/contentService');
+const { getVideosList } = require('./services/youtubeService');
 
 module.exports = (req, res, next) =>{
 
