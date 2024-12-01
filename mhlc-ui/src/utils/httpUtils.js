@@ -26,6 +26,11 @@ export function saveAuthToken(token) {
     createHttpClient(token);
 }
 
+export function isAuthenticated() {
+    const authToken = getAuthToken();
+    return authToken !== undefined && authToken !== null && authToken.length > 0;
+}
+
 function createHttpClient(token) {
     httpClient = axios.create({
         headers: {

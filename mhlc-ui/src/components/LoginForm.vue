@@ -72,6 +72,7 @@
     import { useSecurityStore } from '@/store/security';
     import { validate } from '../utils/validationUtils';
     import authenticationRequestSchema from '@mhlc/content-api/schemas/authenticationRequest.json';
+    import router from '../router';
 
     const login = ref({
         request: {
@@ -95,6 +96,7 @@
                 const { success } = await useSecurityStore().login(loginVal.request);
                 loginInvalid.value = !success;
                 loginComplete.value = success;
+                router.push('/admin');
             } catch (error) {
                 console.log(error);
                 loginError.value = true;
