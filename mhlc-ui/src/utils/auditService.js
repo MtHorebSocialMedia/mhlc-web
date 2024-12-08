@@ -1,26 +1,21 @@
-import { getHttpClient } from './httpUtils';
-
-const httpClient = getHttpClient();
+import { getHttpClient, addMocks } from './httpUtils';
 
 export function logEvent(eventDetails) {
-    httpClient.post('/api/audit', eventDetails);
+    getHttpClient().post('/api/audit', eventDetails);
 }
 
 export async function getEvents() {
-    return (await httpClient.get('/api/audit/events')).data;
+    return (await getHttpClient().get('/api/audit/events')).data;
 }
 
 if (import.meta.env.MODE === 'development') {
 
     console.log('Enabling mock responses for audit service');
 
-    httpClient.addMocks((mock) => {
+    addMocks((mock) => {
         mock.onPost("/api/audit").reply(() => {
             return [200];
         });
-    });
-
-    httpClient.addMocks((mock) => {
         mock.onGet("/api/audit/events").reply(() => {
             return [200, []];
         });

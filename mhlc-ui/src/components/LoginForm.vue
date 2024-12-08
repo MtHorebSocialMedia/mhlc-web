@@ -45,6 +45,7 @@
                         v-model="login.request.password"
                         label="Password"
                         variant="outlined"
+                        type="password"
                     >
                         <template v-slot:append-inner>
                             <v-icon color="red" size="x-small">mdi-asterisk</v-icon>
@@ -93,10 +94,11 @@
         loginVal.validationResult = validate(loginVal.request, authenticationRequestSchema);
         if(loginVal.validationResult.valid) {
             try {
-                const { success } = await useSecurityStore().login(loginVal.request);
-                loginInvalid.value = !success;
-                loginComplete.value = success;
-                router.push('/admin');
+                const { authenticated } = await useSecurityStore().login(loginVal.request);
+                loginInvalid.value = !authenticated;
+                if (authenticated) {
+                    router.push('/admin');
+                }
             } catch (error) {
                 console.log(error);
                 loginError.value = true;

@@ -4,7 +4,7 @@
     <v-main>
       <v-container class="main-container fill-height">
         <v-row class="justify-center fill-height">
-          <v-col :class="getMainViewClass()">
+          <v-col class="admin-main-container">
             <router-view />
           </v-col>
         </v-row>
@@ -37,12 +37,11 @@
 <style>
     .v-main { background-image: linear-gradient(#999, #DDD); }
     .v-container.main-container > .v-row > .v-col { background: #FFF; }
-    .v-container.main-container > .v-row > .v-col.main-view { max-width: 900px; }
-    .v-container.main-container > .v-row > .v-col.main-view.xxs { max-width: 375px; }
-    .v-container.main-container > .v-row > .v-col.main-view.xs { max-width: 425px; }
-    .v-container.main-container > .v-row > .v-col.main-view.sm { max-width: 570px; }
-    .v-container.main-container > .v-row > .v-col.main-view.md { max-width: 850px; }
-    .v-container.main-container > .v-row > .v-col.side-view { margin-left: 20px; }
+    .v-container.main-container > .v-row > .v-col.admin-main-view { max-width: 1000px; }
+    .v-container.main-container > .v-row > .v-col.admin-main-view.xxs { max-width: 375px; }
+    .v-container.main-container > .v-row > .v-col.admin-main-view.xs { max-width: 425px; }
+    .v-container.main-container > .v-row > .v-col.admin-main-view.sm { max-width: 570px; }
+    .v-container.main-container > .v-row > .v-col.admin-main-view.md { max-width: 850px; }
     .v-footer { background-color: #CCC !important; border-top: 1px solid #666 !important; }
     .v-footer.lg { max-height: 40px; }
     .v-footer.md { max-height: 80px; }

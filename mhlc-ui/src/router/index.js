@@ -249,7 +249,7 @@ const router = createRouter({
   routes,
 });
 
-const securePaths = ['/analytics'];
+const securePaths = ['/admin', '/analytics'];
 
 router.beforeEach(async (to) => {
   // if this is a secured page, make sure the user is authenticated

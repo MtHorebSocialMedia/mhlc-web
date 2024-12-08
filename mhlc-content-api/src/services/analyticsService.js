@@ -3,6 +3,8 @@ const path = require('path');
 const process = require('process');
 const { google } = require('googleapis');
 const { getLogger } = require('../utils/logger');
+const { isbot } = require('isbot');
+const { isBoxedPrimitive } = require('util/types');
 
 const logger = getLogger('analyticsService');
 
@@ -134,7 +136,7 @@ async function getEvents() {
         agent,
         fromFacebook: resource.includes('fbclid='),
         fromEnews: resource.includes('src=enews')
-    })).filter(({ environment, resourceType }) => (environment === 'production' && (resourceType === 'route' || resourceType === 'dialog')));
+    })).filter(({ environment, resourceType, agent }) => (environment === 'production' && !isbot(agent) && (resourceType === 'route' || resourceType === 'dialog')));
 }
 
 async function processEvents() {
