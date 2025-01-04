@@ -4,7 +4,6 @@ const process = require('process');
 const { google } = require('googleapis');
 const { getLogger } = require('../utils/logger');
 const { isbot } = require('isbot');
-const { isBoxedPrimitive } = require('util/types');
 
 const logger = getLogger('analyticsService');
 
@@ -111,7 +110,7 @@ const events = [];
  * @param {google.auth.OAuth2} auth The authenticated Google OAuth client.
  */
 async function writeEvent(event) {
-    if (process.env.GOOGLE_APIS_ANALYTICS_ENABLED === 'true' && initialized) {
+    if (process.env.GOOGLE_APIS_ANALYTICS_ENABLED === 'true' && initialized && !isbot(event.userAgent)) {
         events.push(event);
     }
 }

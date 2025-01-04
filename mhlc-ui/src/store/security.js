@@ -1,8 +1,11 @@
 // Utilities
 import { defineStore } from 'pinia';
-import { getHttpClient, saveAuthToken, addMocks } from '../utils/httpUtils';
+import { ref } from 'vue';
+import { getHttpClient, saveAuthToken, clearAuthToken, isAuthenticated, addMocks } from '../utils/httpUtils';
 
 export const useSecurityStore = defineStore('security', () => {
+
+    const isAuthenticatedUser = ref(isAuthenticated());
 
     async function login(credentials) {
         const { data, headers } = await getHttpClient().post('/api/authenticate', credentials);
@@ -15,10 +18,16 @@ export const useSecurityStore = defineStore('security', () => {
                 throw new Error('Authentication was successful, but the response did not have a valid auth token');
             }
         }
+        isAuthenticatedUser.value = isAuthenticated();
         return { authenticated };
     }
 
-    return { login };
+    async function logout() {
+        clearAuthToken();
+        isAuthenticatedUser.value = isAuthenticated();
+    }
+
+    return { isAuthenticatedUser, login, logout };
 });
 
 if (import.meta.env.MODE === 'development') {

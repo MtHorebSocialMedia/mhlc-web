@@ -1,7 +1,7 @@
 // Composables
 import { createRouter, createWebHistory, createWebHashHistory } from 'vue-router';
-import { logEvent } from '../utils/auditService';
-import { isAuthenticated } from '@/utils/httpUtils';
+import { logEvent } from '@/utils/auditService';
+import { isAuthenticated, addErrorCallback } from '@/utils/httpUtils';
 
 const routes = [
   {
@@ -201,6 +201,20 @@ const routes = [
     ],
   },
   {
+    path: '/logout',
+    component: () => import('@/layouts/default/Admin.vue'),
+    children: [
+      {
+        path: '/logout',
+        name: 'Logout',
+        // route level code-splitting
+        // this generates a separate chunk (about.[hash].js) for this route
+        // which is lazy-loaded when the route is visited.
+        component: () => import(/* webpackChunkName: "logout" */ '@/views/Logout.vue'),
+      },
+    ],
+  },
+  {
     path: '/admin',
     component: () => import('@/layouts/default/Admin.vue'),
     children: [
@@ -247,6 +261,15 @@ const routes = [
 const router = createRouter({
   history: import.meta.env.MODE === 'production' ? createWebHistory(process.env.BASE_URL) : createWebHashHistory(),
   routes,
+});
+
+// Add an http error callback to redirect any unauthenticated/unauthorized
+// requests to the login page
+addErrorCallback(401, () => {
+  router.replace('/logout');
+});
+addErrorCallback(403, () => {
+  router.replace('/logout');
 });
 
 const securePaths = ['/admin', '/analytics'];

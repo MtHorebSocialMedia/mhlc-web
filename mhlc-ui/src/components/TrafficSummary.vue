@@ -293,7 +293,7 @@
         name: 'Linux',
         color: 'orange',
         analyze: (agent, platform) => {
-            if (agent.toLowerCase().includes('x11; linux x86_64')) {
+            if (agent.toLowerCase().includes('x11; linux x86_64') || agent.toLowerCase().includes('x11; ubuntu; linux x86_64')) {
                 platform.count++;
                 return true;
             }
