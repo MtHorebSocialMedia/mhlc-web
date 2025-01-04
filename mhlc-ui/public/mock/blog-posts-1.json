@@ -1,6 +1,1522 @@
 {
     "blogs": [
         {
+            "id": "3OKeUzV8rzHIWDdkYSn2O",
+            "publishDate": "2024-11-15T00:00",
+            "author": {
+                "name": "Dr. Bob Hawkins",
+                "image": {
+                    "url": "//images.ctfassets.net/3wcsgs8fznel/opaMg5v8fiwc4JuipOaao/519fff55dd7c90e53ea1e24d2595d5f1/dr-bob.jpg",
+                    "details": {
+                        "size": 5230,
+                        "image": {
+                            "width": 150,
+                            "height": 189
+                        }
+                    },
+                    "fileName": "dr-bob.jpg",
+                    "contentType": "image/jpeg"
+                }
+            },
+            "title": "It’s Been Quite the Happening Place for a Very Long Time",
+            "content": {
+                "nodeType": "document",
+                "data": {},
+                "content": [
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "The Christian Year is once again coming to its close. We commemorated the 507",
+                                "marks": [],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "th",
+                                "marks": [
+                                    {
+                                        "type": "superscript"
+                                    }
+                                ],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": " anniversary of the Reformation two weeks ago and celebrated the Festival of All Saints last Sunday. These two, lynchpin observances for Lutherans herald the Church’s annual remembrance of the End Times, what theology calls the ",
+                                "marks": [],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "Eschaton",
+                                "marks": [
+                                    {
+                                        "type": "italic"
+                                    }
+                                ],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": ", the concluding focus of the Christian Year. ",
+                                "marks": [],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "Wikipedia",
+                                "marks": [
+                                    {
+                                        "type": "italic"
+                                    }
+                                ],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": " declares the following: “The Abrahamic religions [",
+                                "marks": [],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "remember, Father Abraham is the spiritual parent “…of many nations” as God promised in Genesis 17:4",
+                                "marks": [
+                                    {
+                                        "type": "italic"
+                                    }
+                                ],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "] maintain a linear ",
+                                "marks": [],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "hyperlink",
+                                "data": {
+                                    "uri": "https://en.wikipedia.org/wiki/Cosmology"
+                                },
+                                "content": [
+                                    {
+                                        "nodeType": "text",
+                                        "value": "cosmology",
+                                        "marks": [],
+                                        "data": {}
+                                    }
+                                ]
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": ", with end-time scenarios containing themes of ",
+                                "marks": [],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "hyperlink",
+                                "data": {
+                                    "uri": "https://en.wikipedia.org/wiki/Spiritual_transformation"
+                                },
+                                "content": [
+                                    {
+                                        "nodeType": "text",
+                                        "value": "transformation",
+                                        "marks": [],
+                                        "data": {}
+                                    }
+                                ]
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": " and ",
+                                "marks": [],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "hyperlink",
+                                "data": {
+                                    "uri": "https://en.wikipedia.org/wiki/Redemption_(theology)"
+                                },
+                                "content": [
+                                    {
+                                        "nodeType": "text",
+                                        "value": "redemption",
+                                        "marks": [],
+                                        "data": {}
+                                    }
+                                ]
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": ". In ",
+                                "marks": [],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "hyperlink",
+                                "data": {
+                                    "uri": "https://en.wikipedia.org/wiki/Judaism"
+                                },
+                                "content": [
+                                    {
+                                        "nodeType": "text",
+                                        "value": "Judaism",
+                                        "marks": [
+                                            {
+                                                "type": "bold"
+                                            }
+                                        ],
+                                        "data": {}
+                                    }
+                                ]
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": ", the term \"end of days\" makes reference to the ",
+                                "marks": [],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "hyperlink",
+                                "data": {
+                                    "uri": "https://en.wikipedia.org/wiki/Messianic_Age"
+                                },
+                                "content": [
+                                    {
+                                        "nodeType": "text",
+                                        "value": "Messianic Age",
+                                        "marks": [],
+                                        "data": {}
+                                    }
+                                ]
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": " and includes an in-gathering of the exiled ",
+                                "marks": [],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "hyperlink",
+                                "data": {
+                                    "uri": "https://en.wikipedia.org/wiki/Jewish_diaspora"
+                                },
+                                "content": [
+                                    {
+                                        "nodeType": "text",
+                                        "value": "Jewish diaspora",
+                                        "marks": [],
+                                        "data": {}
+                                    }
+                                ]
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": ", the coming of the ",
+                                "marks": [],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "hyperlink",
+                                "data": {
+                                    "uri": "https://en.wikipedia.org/wiki/Messiah_in_Judaism"
+                                },
+                                "content": [
+                                    {
+                                        "nodeType": "text",
+                                        "value": "Messiah",
+                                        "marks": [],
+                                        "data": {}
+                                    }
+                                ]
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": ", the ",
+                                "marks": [],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "hyperlink",
+                                "data": {
+                                    "uri": "https://en.wikipedia.org/wiki/Techiyat_hamaysim"
+                                },
+                                "content": [
+                                    {
+                                        "nodeType": "text",
+                                        "value": "resurrection of the righteous",
+                                        "marks": [],
+                                        "data": {}
+                                    }
+                                ]
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": ", and the ",
+                                "marks": [],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "hyperlink",
+                                "data": {
+                                    "uri": "https://en.wikipedia.org/wiki/Jewish_eschatology#World_to_come"
+                                },
+                                "content": [
+                                    {
+                                        "nodeType": "text",
+                                        "value": "world to come",
+                                        "marks": [],
+                                        "data": {}
+                                    }
+                                ]
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": ". ",
+                                "marks": [],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "hyperlink",
+                                "data": {
+                                    "uri": "https://en.wikipedia.org/wiki/Christianity"
+                                },
+                                "content": [
+                                    {
+                                        "nodeType": "text",
+                                        "value": "Christianity",
+                                        "marks": [
+                                            {
+                                                "type": "bold"
+                                            }
+                                        ],
+                                        "data": {}
+                                    }
+                                ]
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": " depicts the end time as a period of ",
+                                "marks": [],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "hyperlink",
+                                "data": {
+                                    "uri": "https://en.wikipedia.org/wiki/Tribulation"
+                                },
+                                "content": [
+                                    {
+                                        "nodeType": "text",
+                                        "value": "tribulation",
+                                        "marks": [],
+                                        "data": {}
+                                    }
+                                ]
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": " that precedes the ",
+                                "marks": [],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "hyperlink",
+                                "data": {
+                                    "uri": "https://en.wikipedia.org/wiki/Second_Coming"
+                                },
+                                "content": [
+                                    {
+                                        "nodeType": "text",
+                                        "value": "second coming",
+                                        "marks": [],
+                                        "data": {}
+                                    }
+                                ]
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": " of ",
+                                "marks": [],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "hyperlink",
+                                "data": {
+                                    "uri": "https://en.wikipedia.org/wiki/Jesus_Christ"
+                                },
+                                "content": [
+                                    {
+                                        "nodeType": "text",
+                                        "value": "Christ",
+                                        "marks": [],
+                                        "data": {}
+                                    }
+                                ]
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": ", who will face the rise of the ",
+                                "marks": [],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "hyperlink",
+                                "data": {
+                                    "uri": "https://en.wikipedia.org/wiki/Antichrist"
+                                },
+                                "content": [
+                                    {
+                                        "nodeType": "text",
+                                        "value": "Antichrist",
+                                        "marks": [],
+                                        "data": {}
+                                    }
+                                ]
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": " along with his power structure and ",
+                                "marks": [],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "hyperlink",
+                                "data": {
+                                    "uri": "https://en.wikipedia.org/wiki/False_prophet"
+                                },
+                                "content": [
+                                    {
+                                        "nodeType": "text",
+                                        "value": "false prophets",
+                                        "marks": [],
+                                        "data": {}
+                                    }
+                                ]
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": ", and usher in the ",
+                                "marks": [],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "hyperlink",
+                                "data": {
+                                    "uri": "https://en.wikipedia.org/wiki/Kingdom_of_God"
+                                },
+                                "content": [
+                                    {
+                                        "nodeType": "text",
+                                        "value": "Kingdom of God",
+                                        "marks": [],
+                                        "data": {}
+                                    }
+                                ]
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": ". In ",
+                                "marks": [],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "later traditions of Islam",
+                                "marks": [
+                                    {
+                                        "type": "bold"
+                                    }
+                                ],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": ", separate ",
+                                "marks": [],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "hadiths",
+                                "marks": [
+                                    {
+                                        "type": "italic"
+                                    }
+                                ],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": " (the reports and teachings of the Prophet Muhammad) detail the ",
+                                "marks": [],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "hyperlink",
+                                "data": {
+                                    "uri": "https://en.wikipedia.org/wiki/Yawm_al-Qiy%C4%81mah"
+                                },
+                                "content": [
+                                    {
+                                        "nodeType": "text",
+                                        "value": "Day of Judgment",
+                                        "marks": [],
+                                        "data": {}
+                                    }
+                                ]
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": " is preceded by the appearance of the ",
+                                "marks": [],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "hyperlink",
+                                "data": {
+                                    "uri": "https://en.wikipedia.org/wiki/Al-Masih_ad-Dajjal"
+                                },
+                                "content": [
+                                    {
+                                        "nodeType": "text",
+                                        "value": "Masīḥ ad-Dajjāl",
+                                        "marks": [
+                                            {
+                                                "type": "italic"
+                                            }
+                                        ],
+                                        "data": {}
+                                    }
+                                ]
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": ", and followed by the descending of ",
+                                "marks": [],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "hyperlink",
+                                "data": {
+                                    "uri": "https://en.wikipedia.org/wiki/Jesus_in_Islam"
+                                },
+                                "content": [
+                                    {
+                                        "nodeType": "text",
+                                        "value": "ʿĪsā",
+                                        "marks": [
+                                            {
+                                                "type": "italic"
+                                            }
+                                        ],
+                                        "data": {}
+                                    }
+                                ]
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": " (",
+                                "marks": [
+                                    {
+                                        "type": "italic"
+                                    }
+                                ],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "hyperlink",
+                                "data": {
+                                    "uri": "https://en.wikipedia.org/wiki/Jesus"
+                                },
+                                "content": [
+                                    {
+                                        "nodeType": "text",
+                                        "value": "Jesus",
+                                        "marks": [
+                                            {
+                                                "type": "italic"
+                                            }
+                                        ],
+                                        "data": {}
+                                    }
+                                ]
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": ")",
+                                "marks": [
+                                    {
+                                        "type": "italic"
+                                    }
+                                ],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": ", which shall triumph over the false Messiah or Antichrist; his defeat will lead to a sequence of events that will end with the sun rising from the west and the beginning of the ",
+                                "marks": [],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "hyperlink",
+                                "data": {
+                                    "uri": "https://en.wikipedia.org/wiki/Qiyamah"
+                                },
+                                "content": [
+                                    {
+                                        "nodeType": "text",
+                                        "value": "Qiyāmah",
+                                        "marks": [
+                                            {
+                                                "type": "italic"
+                                            }
+                                        ],
+                                        "data": {}
+                                    }
+                                ]
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": " (Judgment Day) [Wikipedia, “Eschatology”]. While our various histories reflect much animosity, suspicion, and even hatred and violence toward one another, each tradition’s understanding of the End Times nevertheless reveals close, commonly held beliefs which should give us pause for thought. The concluding Sunday readings of the Christian Year, including Reformation and All Saints, lift up these themes.",
+                                "marks": [],
+                                "data": {}
+                            }
+                        ]
+                    },
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "Popular thought often views the End Times primarily through the lens of the Armageddon [Revelation 16:16], the cosmic battle of God’s annihilation of the demonic forces of this world when seven angels pour out God’s wrath on Satan and the powers of evil. It is helpful, however, to remember that in a very real sense, ",
+                                "marks": [],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "Revelation",
+                                "marks": [
+                                    {
+                                        "type": "italic"
+                                    }
+                                ],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": " was intended to serve primarily as a bracing message of encouragement to the Children of God, affirming that God, first, last, and always is in control and will establish peace in ways beyond our understanding. It has ",
+                                "marks": [],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "never",
+                                "marks": [
+                                    {
+                                        "type": "italic"
+                                    }
+                                ],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": " been a soothsayer’s prediction. On Reformation Sunday we heard Jeremiah’s prophecy: ",
+                                "marks": [],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "The days are surely coming, says the Lord, when I will make a new covenant…, I will put my law within them, and I will write it on their hearts; and I will be their God, and they shall be my people..",
+                                "marks": [
+                                    {
+                                        "type": "italic"
+                                    }
+                                ],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "., ",
+                                "marks": [],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "for I will forgive their iniquity, and remember their sin no more ",
+                                "marks": [
+                                    {
+                                        "type": "italic"
+                                    }
+                                ],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "[Jer 31:31-34]. On All Saints, Isaiah’s wondrous description of the banquet God is preparing on the Holy Mountain was proclaimed: ",
+                                "marks": [],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "On this mountain the Lord of hosts will make for all peoples a feast",
+                                "marks": [
+                                    {
+                                        "type": "italic"
+                                    }
+                                ],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "… [Isaiah 25:6ff.]. People from the ends of the earth will gather for this festal meal. On November 10",
+                                "marks": [],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "th",
+                                "marks": [
+                                    {
+                                        "type": "superscript"
+                                    }
+                                ],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": " we heard in the Second Reading of Christ’s coming in glory at the end of the ages: ",
+                                "marks": [],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "Christ, having been offered once to bear the sins of many, will appear a second time, not to deal with sin, but to save those who are eagerly waiting for him",
+                                "marks": [
+                                    {
+                                        "type": "italic"
+                                    }
+                                ],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": " [Hebrews 9:28]. Next Sunday, on November 17 the End Time declarations become explicit. From the mystic Prophet Daniel we hear: ",
+                                "marks": [],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "At that time",
+                                "marks": [
+                                    {
+                                        "type": "italic"
+                                    }
+                                ],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": " [the archangel] ",
+                                "marks": [],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "Michael, the great prince, the protector of your people, shall arise. There shall be a time of anguish, such as has never occurred since nations first came into existence. But at that time your people shall be delivered, everyone who is found written in the book ",
+                                "marks": [
+                                    {
+                                        "type": "italic"
+                                    }
+                                ],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "[Daniel 12:1]. The Second Reading, Hebrews 10:11-25, reiterates Jeremiah 31’s covenantal promise heard on Reformation. The appointed Gospel, Mark 13:1-8 outlines the tribulations of the End Times: …",
+                                "marks": [],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "Then Jesus began to say to them, “Beware that no one leads you astray. Many will come in my name and say, ‘I am he!’ and they will lead many astray. When you hear of wars and rumors of wars, do not be alarmed; this must take place, but the end is still to come. For nation will rise against nation, and kingdom against kingdom; there will be earthquakes in various places; there will be famines. This is but the beginning of the birth pangs.",
+                                "marks": [
+                                    {
+                                        "type": "italic"
+                                    }
+                                ],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": " These readings of woe and wonder culminate on the Final Sunday of the Christian Year, Christ the King (November 24 this year). The Prophet Daniel proclaims the enthronement of the Ancient One whose …",
+                                "marks": [],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "dominion is an everlasting dominion that shall not pass away, and his kingship is one that shall never be destroyed ",
+                                "marks": [
+                                    {
+                                        "type": "italic"
+                                    }
+                                ],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "[Daniel 7:14]. The Christian Year closes with Jesus’ magisterial reply to Pilate on the eve of his crucifixion: ",
+                                "marks": [],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "You say that I am a king. For this I was born, and for this I came into the world, to testify to the truth. Everyone who belongs to the truth listens to my voice",
+                                "marks": [
+                                    {
+                                        "type": "italic"
+                                    }
+                                ],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": " [John 18:37].",
+                                "marks": [],
+                                "data": {}
+                            }
+                        ]
+                    },
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "While the main points of the End Times’ readings are enough to keep the Church’s head spinning for days, life goes on, including saints days familiar (like St. Francis, October 4, or St. Stephen, December 26) and others not so familiar (St. Bibiana is a good saint to remember on New Year’s Day since she’s the patron of folks with headaches and hangovers, among other maladies). The ELCA Lutheran “official list” appears in your handy ELW on pages 14-17; how many do you recognize? Often, we simply skip over them since they are more likely to land on weekdays than on Sundays, although they might be mentioned in the prayers. The Sunday appointed readings almost invariably take precedence unless a REALLY BIG DAY occurs like Reformation or All Saints, both which knocked the 23",
+                                "marks": [],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "rd",
+                                "marks": [
+                                    {
+                                        "type": "superscript"
+                                    }
+                                ],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": " and 24",
+                                "marks": [],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "th",
+                                "marks": [
+                                    {
+                                        "type": "superscript"
+                                    }
+                                ],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": " Sundays after Pentecost off our radar for this year. Nevertheless, Sunday, November 17 is also the Commemoration of St. Elizabeth of Hungary… -- and let the people say, “Who in the world is that???” Whether you’ve been introduced or not, St. Elizabeth is not a person you want to ignore.",
+                                "marks": [],
+                                "data": {}
+                            }
+                        ]
+                    },
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "St. Elizabeth’s life [July 7, 1207 – November 17, 1231] was brief but fully lived. Only 24 years old at her death, she had been sent to the court of the ruling house of Thuringia at the age of 4, betrothed to Louis IV of Thuringia. Married at 14 [and apparently a very happy, loving marriage, the couple blessed with 3 children], she was widowed at the age of 20 when Louis, traveling through Italy to join the Sixth Crusade, died of the fever. During their marriage she with Louis’ blessing generously gave monetary and other assistance for relief work because of disastrous floods, sickness, and hunger in Thuringia. When widowed, she moved from Louis’ court to Marburg where she apparently followed the rule of Third Order Franciscans, a lay community known for its exemplary charitable work (there is one in Aiken, SC, I’m told). Out of her dowry returned to her upon Louis’ death, she built a hospital in Marburg for the needy. She died on November 17, 1231, and was canonized a saint on May 24, 1235.",
+                                "marks": [],
+                                "data": {}
+                            }
+                        ]
+                    },
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "A well-versed Lutheran might have mental fireworks going off at the mention of her marriage to Louis IV of Thuringia. Thuringia is literally the heart of Lutheranism and its homeland. Louis’ court was located in a large castle brooding above the city of Eisenach, the initial construction begun in 1067 by an earlier Louis as an outpost of his expanding territory. Legend has it when he first glimpsed the mount where he would erect his castle, he supposedly said, “Wait, mountain. [German: ",
+                                "marks": [],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "Warte",
+                                "marks": [
+                                    {
+                                        "type": "italic"
+                                    },
+                                    {
+                                        "type": "bold"
+                                    }
+                                ],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": ", Berg",
+                                "marks": [
+                                    {
+                                        "type": "italic"
+                                    }
+                                ],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "…] You will bear my castle! […",
+                                "marks": [],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "du sollst mir eine ",
+                                "marks": [
+                                    {
+                                        "type": "italic"
+                                    }
+                                ],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "Burg",
+                                "marks": [
+                                    {
+                                        "type": "bold"
+                                    },
+                                    {
+                                        "type": "italic"
+                                    }
+                                ],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": " tragen!",
+                                "marks": [
+                                    {
+                                        "type": "italic"
+                                    }
+                                ],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "”] While most of us will miss the German play on words, it is easy enough to pick out WARTe and BURG, a.k.a. the Wartburg. Elizabeth was the young chatelaine of Wartburg Castle some three hundred years before Luther took refuge with an imperial ban on his head. But wait!!!, like Ginzu knives, that is by no means all. Elizabeth’s second child, Sophie of Thuringia, became the wife of Henry II, Duke of Brabant, becoming the ancestors of the rulers of Hesse. Philip I, Landgrave of Hesse (1509-1567) was the generous patron of the fledgling Lutheran reform, the ruler who provided in his castle, the Wartburg, the necessary shelter for Luther. It is the place where Luther flung an inkwell at a devilish torment, Martin declaring, “But I am Baptized!!!” One can still visit the room. It is also where he translated the entirety of the New Testament into German May 4, 1521 to March 3, 1522, his text becoming the foundation of New High German still spoken to this day.",
+                                "marks": [],
+                                "data": {}
+                            }
+                        ]
+                    },
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "Luther early in his career wrote letters to various poets and musicians, encouraging them to write hymns in a decent vernacular for the laity. In one letter he wrote that he did not believe that the Gospel “blighted the arts,” but that poetry and music were the servants and handmaids of God’s Word, second only to theology. One might imagine that his ten-month stay in the Wartburg shaped the text of his hymn, “A Mighty Fortress.” Not even Luther imagined that right down the mountain from his early, lofty perch in the Wartburg an infant boy would be baptized in the font of St. George’s Lutheran Church in Eisenach a century and a half later. The boy, no less than Johann Sebastian Bach, became the most gifted and famous of the numerous musicians of the unbelievably talented Bach family to serve both the Church and concert halls. He was later dubbed the Fifth Evangelist by Lutherans. (A former secretary of the Lutheran Seminary in Columbia had herself been baptized in St. George’s parish font a few centuries later than Bach.)",
+                                "marks": [],
+                                "data": {}
+                            }
+                        ]
+                    },
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "The Wartburg also was the inspiration for yet another musical giant, Richard Wagner, who in 1867 wrote the opera, ",
+                                "marks": [],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "The Meistersingers of Nürnberg",
+                                "marks": [
+                                    {
+                                        "type": "italic"
+                                    }
+                                ],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": ", based on the legend of the Mastersinger competition which was held at the Wartburg. Hans Sachs, the Meistersinger in question, sympathetic to the early Lutheran reform, had himself written a poem in 1523, “The Wittenberg Nightengale.” Wagner quotes a line of the poem at the beginning of the opera: “Awake, the dawn is drawing near; I hear, singing in the green grove, a blissful nightingale…”",
+                                "marks": [],
+                                "data": {}
+                            }
+                        ]
+                    },
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "The Wartburg has served over the centuries as a crossroads of culture and religion, of faith and practice, and of the overwhelming generosity made possible by a blessed Hungarian woman’s faith, aristocratic birth, and considerable worldly possessions. Saint’s days are at their best when they affirm and encourage us by their lives to use the gifts and talents with which we have been blessed to serve those in need. Listen carefully and perhaps you’ll hear that “blessed nightingale” singing in your heart, too, sparking faith and action, or what Luther would call “a busy, active thing” so that wherever you are becomes a happening place of faithful living and witness, too!",
+                                "marks": [],
+                                "data": {}
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "257KKjvq0njepmVUZAT7O5",
+            "publishDate": "2024-11-08T00:00",
+            "author": {
+                "name": "Dr. Bob Hawkins",
+                "image": {
+                    "url": "//images.ctfassets.net/3wcsgs8fznel/opaMg5v8fiwc4JuipOaao/519fff55dd7c90e53ea1e24d2595d5f1/dr-bob.jpg",
+                    "details": {
+                        "size": 5230,
+                        "image": {
+                            "width": 150,
+                            "height": 189
+                        }
+                    },
+                    "fileName": "dr-bob.jpg",
+                    "contentType": "image/jpeg"
+                }
+            },
+            "title": "What We Can Learn by Asking “Who’s Your People?”",
+            "content": {
+                "nodeType": "document",
+                "data": {},
+                "content": [
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "The all-important question hard-wired into native South Carolinians’ minds and hearts is “Who’s your people?” Given the wide-flung outposts of ancestral families with convoluted, intermarried trees and branches, variant spellings of surnames, and whether one hails from the Lowcountry, the Midlands, or the Piedmont, but more to the point in these latter days, ",
+                                "marks": [],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "which",
+                                "marks": [
+                                    {
+                                        "type": "italic"
+                                    }
+                                ],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": " side of Lake Murray are we talking about? – asking “Who’s your people?” helps clarify relationships, ways of doing things, and, for Lutherans even the congregations which have impacted our lives. Nevertheless, armed with such relational complexities – Bishop Aull once tried to explain to me the various branches of the SC Aulls (they are legion!) – it is quite likely that once the connections are explained, it still doesn’t mean we’ve gotten the whole picture. “Our people” have formed how we think and into which operative categories and pigeonholes we’re likely to stuff life’s realities. How we are formed can be quite limiting. There is a story (tho’ perhaps simply an old wives tale) floating around about how to cook a ham. One recipe included the vague direction: “Cut off about a 3 inch portion on the end.” For several generations folks in the immediate family followed the handwritten recipe religiously, since this was passed down by Great-grandma Elsa. Indeed, her treasured recipe produced a wonderful dish for the holidays. Finally, several generations later a budding chef in the family dared to ask, “Why cut off that bit on the end?” Beyond the obvious answer of “That’s the way we’ve ALWAYS done it!,” Great-grandma’s youngest sister, now in her nineties, finally revealed the secret: Elsa’s roasting pan was too small to contain a family-sized ham.",
+                                "marks": [],
+                                "data": {}
+                            }
+                        ]
+                    },
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "The Church itself has often been accused of holding rigidly to its own set of ",
+                                "marks": [],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "Seven Last Words",
+                                "marks": [
+                                    {
+                                        "type": "italic"
+                                    }
+                                ],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": ": “That’s The Way We’ve Always Done It!” Do we really need to lose sleep whether the left altar candle or the other is lit first? (That only makes some sense in Gothic churches with altars firmly against the wall [a.k.a. “walltars”]), when each architectural element and liturgical action was explained in detail as having “spiritual” significance. In churches with free-standing altars (Luther was the first to recommend returning to the free-standing altar; surprise!) such medieval allegory goes out the window (…perhaps this is a chat for another day?). Neither does there need to be identical flower arrangements flanking the altar nor even a separate lectern and pulpit. Uninformed architects and planning committees throw them into new designs because “…that’s the way we’ve always done it!” Remember, Jesus himself spoke of the whole of Scripture having a profound unity which reveals things about his Messiahship [Luke 13:25-27], so why split the first readings from the appointed Gospel architecturally? Choir members tell of a Herr Pastor’s forbidding a hymn or anthem because “…it’s not Lutheran.” On the other hand, the things we do each week which really have central meaning for our faith and mission in the world need to be explained, thought through, and even questioned periodically so that we don’t all succumb to mindless chancel prancing. Such periodic review is good for ",
+                                "marks": [],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "all",
+                                "marks": [
+                                    {
+                                        "type": "italic"
+                                    }
+                                ],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": " of us, autocratic Herr and Frau Pastors included. Also, such an in-depth review of our faith and belief is what we do when we ",
+                                "marks": [],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "confirm",
+                                "marks": [
+                                    {
+                                        "type": "italic"
+                                    }
+                                ],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": " folks – that important process is not a graduation but their own ",
+                                "marks": [],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "affirmation",
+                                "marks": [
+                                    {
+                                        "type": "italic"
+                                    }
+                                ],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": " of the faith into which we baptize and by which they will live their lives. Eric Schmidt has been our most recent witness to the power of such a vitally necessary review process.",
+                                "marks": [],
+                                "data": {}
+                            }
+                        ]
+                    },
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "Holy Baptism historically has been a victim of our insisting “that’s the way we’ve always done it,” a sure-fire clue that there’s more to the reality of baptism than we can readily articulate or imagine. A close investigation of the New Testament accounts already reveals that Blessed John’s baptism was different than the one which eventually evolved and developed into the prototype of what we will be part of this coming Sunday. John’s baptism primarily was focused on repentance and turning from sin [Mark 1:4: ",
+                                "marks": [],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "metanoia",
+                                "marks": [
+                                    {
+                                        "type": "italic"
+                                    }
+                                ],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "; “a change of perspective”]. Christian baptism remains the threshold rite of publicly renouncing sin, being baptized into the death and resurrection of Christ [Romans 6:5-11], and thus into the embodied, ",
+                                "marks": [],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "communal",
+                                "marks": [
+                                    {
+                                        "type": "italic"
+                                    }
+                                ],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": " faith of the Church. That is the bottom line if you need one. However, even the New Testament witness reveals a wide-spread diversity and confusion about the details of Holy Baptism, particularly in the early years following Jesus’ own ascension. Upon the Apostle Paul’s arrival in Ephesus, it is reported that he met with the small band of disciples gathering in the city. [Paul",
+                                "marks": [],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "] said to them, “Did you receive the Holy Spirit when you became believers?” They replied, “No, we have not even heard that there is a Holy Spirit.” Then he said, “Into what, then, were you baptized?” They answered, “Into John’s baptism.” Paul said, “John baptized with the baptism of repentance, telling the people to believe in the one who was to come after him, that is, in Jesus.” On hearing this, they were baptized in the name of the Lord Jesus. When Paul had laid his hands on them, the Holy Spirit came upon them, and they spoke in tongues and prophesied, altogether there were about twelve of them",
+                                "marks": [
+                                    {
+                                        "type": "italic"
+                                    }
+                                ],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": " [Acts 19:2-7]. If you read carefully, you may have paused at yet another point for pondering; these devout Ephesians were baptized “in the name of the Lord Jesus,” the earliest Christian baptismal liturgical formula we know. It took the eventual momentum of St. Matthew’s own witness in the 28",
+                                "marks": [],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "th",
+                                "marks": [
+                                    {
+                                        "type": "superscript"
+                                    }
+                                ],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": " chapter of his Gospel to shift the practice to the one we will again hear on Sunday: ",
+                                "marks": [],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "Go therefore and make disciples of all nations, baptizing them ",
+                                "marks": [
+                                    {
+                                        "type": "italic"
+                                    }
+                                ],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "in the name of the Father and of the Son and of the Holy Spirit",
+                                "marks": [
+                                    {
+                                        "type": "underline"
+                                    },
+                                    {
+                                        "type": "italic"
+                                    }
+                                ],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": ".",
+                                "marks": [],
+                                "data": {}
+                            }
+                        ]
+                    },
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "Every",
+                                "marks": [
+                                    {
+                                        "type": "italic"
+                                    },
+                                    {
+                                        "type": "bold"
+                                    }
+                                ],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": " baptism is cause for the Church’s rejoicing, whether one person comes to the “living water” or the enviable Biblical passage describing one day when …",
+                                "marks": [],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "about three thousand persons were added",
+                                "marks": [
+                                    {
+                                        "type": "italic"
+                                    }
+                                ],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": " [Acts 2:41]. Pastor Ron’s excitement was understandably palpable last Sunday when he announced that we would be baptizing an “adult” Chinese man, a good friend of friends of our own congregation. This is indeed cause for great rejoicing. Nevertheless, yet again we need to pause, for here is also a point to ponder. Announced as a Chinese “adult” man, we readily understood that this is a rare event for us, yes indeedy do!!! I dare say we assume ",
+                                "marks": [],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "any",
+                                "marks": [
+                                    {
+                                        "type": "italic"
+                                    }
+                                ],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": " adult baptized in our midst is likely a rare event, and this might well be the way our own formation has limited our faithful imaginings – folks in our tradition don’t tend to baptize adults, do they? We specialize in babies who are cute, squirm, yell, and start crying when water hits them – be honest, it is a Hallmark ® moment frequently commented on after a baby’s baptism. Instead, what would be helpful is to probe the reasons for our surprise about a card-carrying, grown-up adult at the font (or that the font isn’t adult size), and ask if we’ve been missing out on a lot of God’s enthusiastic partying with the blessed.",
+                                "marks": [],
+                                "data": {}
+                            }
+                        ]
+                    },
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "In fact, folks’ understanding of Holy Baptism has been turned upside down since those first disciples came to the water for baptism, thereby limiting our vision of who God welcomes into the family of faith. The Gospel accounts are predominately focused on the transition from John’s baptism of repentance to Christ’s own baptism, a Trinitarian epiphany on the banks of the Jordan. John himself proclaims, ",
+                                "marks": [],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "I baptize you with water for repentance, but the one who is coming after me is more powerful than I, and I am not worthy to carry his sandals He will baptize you with the Holy Spirit and fire ",
+                                "marks": [
+                                    {
+                                        "type": "italic"
+                                    }
+                                ],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "[Matthew 3:11]. Jesus’ own baptism immediately follows, variously reported and by Matthew, Mark, and Luke. Thereafter, following Jesus’ own passion predictions, suffering, death, and resurrection, Holy Baptism emerges as God’s way of clothing and refashioning dripping disciples with the reality of Christ’s death and resurrection, fired by the Spirit’s power. In the same way Jesus’ first was proclaimed God’s beloved, so too are all who follow Jesus’ path through baptismal waters. Interesting, the earliest reports are entirely about adults, it seems, until Christian communities are described in the Acts of the Apostles and the various apostolic letters to the wide-flung fledgling churches. The predominance of adults moved to repentance and being baptized is, in fact, quite logical. There wasn’t yet established congregational practices, no Sunday School or Cradle Roll, no Confirmation, or Luther League – simply adults who had heard Jesus, or heard about him, or maybe had been listening to the proclamation of his apostles as they traveled farther and farther afield. Finally, an interesting encounter is described far later in the ",
+                                "marks": [],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "Acts of the Apostles",
+                                "marks": [
+                                    {
+                                        "type": "italic"
+                                    }
+                                ],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": " which begins to fill in later developments in baptism.",
+                                "marks": [],
+                                "data": {}
+                            }
+                        ]
+                    },
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "The Apostles Paul, Silas, and Timothy have embarked on their missionary journey like the others. Their travels are described in Acts 16: ",
+                                "marks": [],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "11 ",
+                                "marks": [
+                                    {
+                                        "type": "superscript"
+                                    },
+                                    {
+                                        "type": "bold"
+                                    }
+                                ],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "We therefore set sail from Troas and took a straight course to Samothrace, the following day to Neapolis",
+                                "marks": [
+                                    {
+                                        "type": "italic"
+                                    }
+                                ],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": ", ",
+                                "marks": [],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "12 ",
+                                "marks": [
+                                    {
+                                        "type": "superscript"
+                                    },
+                                    {
+                                        "type": "bold"
+                                    }
+                                ],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "and from there to Philippi, which is a leading city of the district of Macedonia and a Roman colony.",
+                                "marks": [
+                                    {
+                                        "type": "italic"
+                                    }
+                                ],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": " Their evangelizing zeal lands Paul and Silas in jail (remember: all disciples have been clearly warned of the difficulties they might well encounter!) which does not in the least stop them from fervently praying and singing in their cell. The witness of their faith serves to convert the jailer, who asks: “…",
+                                "marks": [],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "Sirs, what must I do to be saved?” ",
+                                "marks": [
+                                    {
+                                        "type": "italic"
+                                    }
+                                ],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "31 ",
+                                "marks": [
+                                    {
+                                        "type": "superscript"
+                                    },
+                                    {
+                                        "type": "bold"
+                                    },
+                                    {
+                                        "type": "italic"
+                                    }
+                                ],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "They answered, “Believe in the Lord Jesus, and you will be saved, you and your household.” ",
+                                "marks": [
+                                    {
+                                        "type": "italic"
+                                    }
+                                ],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "32 ",
+                                "marks": [
+                                    {
+                                        "type": "superscript"
+                                    },
+                                    {
+                                        "type": "bold"
+                                    },
+                                    {
+                                        "type": "italic"
+                                    }
+                                ],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "They spoke the word of the Lord to him and to all who were in his house. ",
+                                "marks": [
+                                    {
+                                        "type": "italic"
+                                    }
+                                ],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "33 ",
+                                "marks": [
+                                    {
+                                        "type": "superscript"
+                                    },
+                                    {
+                                        "type": "bold"
+                                    },
+                                    {
+                                        "type": "italic"
+                                    }
+                                ],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "At the same hour of the night he took them and washed their wounds; then he and his entire family were baptized without delay.",
+                                "marks": [
+                                    {
+                                        "type": "italic"
+                                    }
+                                ],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": " It is the power of the jailer’s faith in Jesus which was capable of forming his “household,” leading to the baptism of “his entire family.” The phrase almost certainly would have included women and children and even his servants and slaves, if any. However, it took George Raymond Beasley-Murray’s 1962 landmark study, ",
+                                "marks": [],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "Baptism in the New Testament and the Early Church",
+                                "marks": [
+                                    {
+                                        "type": "italic"
+                                    }
+                                ],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": " to point out the obvious: While there is no clear proof that children and infants were ",
+                                "marks": [],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "regularly",
+                                "marks": [
+                                    {
+                                        "type": "italic"
+                                    }
+                                ],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": " baptized in the New Testament, by 300 CE Christians communities were baptizing whatever the age. In summary, for the New Testament and beyond adult baptism remains normative, but the baptism of children and infants is its appropriate derivative, the relational action of including one’s whole family within the Spirit-graced care of God’s benevolence and welcome. While Reformation era Christians bickered and fumed over “Believer’s Baptism,” that is in large part due to an inappropriate equating of faith and belief. Faith remains the awareness of loving, abiding relationship, whether expressed in welcoming adults to fellowship through baptism or caring for infants until they are nurtured and old enough to confirm their faith sparked long before. Belief is the secondary reflection on the power of faith in one’s life from childhood’s earliest memories on. Over the centuries the Church has collected and codified those faith-experiences as Creedal statements and theological tenets. Meanwhile, faith remains, as Luther once said, “a busy, active thing…” whenever it first ignites. Thanks be to God for such mind-boggling welcome, hospitality, and empowerment!",
+                                "marks": [],
+                                "data": {}
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
             "id": "X5YEp4I4O5mUXIaPL9n2r",
             "publishDate": "2024-10-25T00:00",
             "author": {

@@ -3,8 +3,8 @@ const { getLogger } = require('./logger');
 
 const logger = getLogger('refreshMockContent');
 
-const contentService = require('./contentService');
-const youtubeService = require('./youtubeService');
+const contentService = require('../services/contentService');
+const youtubeService = require('../services/youtubeService');
 const fs = require('node:fs');
 
 const mockIndexPath = require.resolve('@mhlc/ui/public/mock/index.json');

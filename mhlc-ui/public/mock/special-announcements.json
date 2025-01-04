@@ -1,1 +1,49 @@
-[]
+[
+    {
+        "id": "4KsOcsJPZ6BoiuGm54AJoh",
+        "publishBeginDate": "2024-12-17T00:00",
+        "publishEndDate": "2025-01-20T00:00",
+        "title": "Open Church Office Positions",
+        "description": {
+            "data": {},
+            "content": [
+                {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": "We have part-time positions open for both an Administrative Assistant and an Outreach Coordinator for the church.  If you or someone you know would be interested, please view the details at ",
+                            "nodeType": "text"
+                        },
+                        {
+                            "data": {
+                                "uri": "https://mthoreb.net/content/jobs"
+                            },
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "https://mthoreb.net/content/jobs",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "hyperlink"
+                        },
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": "!",
+                            "nodeType": "text"
+                        }
+                    ],
+                    "nodeType": "paragraph"
+                }
+            ],
+            "nodeType": "document"
+        },
+        "type": "info",
+        "image": null,
+        "videoId": null
+    }
+]

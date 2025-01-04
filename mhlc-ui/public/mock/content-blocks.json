@@ -1,5 +1,2861 @@
 [
     {
+        "id": "5KmnC3mjwX2PlOV8cJXaZC",
+        "key": "jobs/administrative-assistant-listing",
+        "title": "Adminstrative Assistant",
+        "content": {
+            "nodeType": "document",
+            "data": {},
+            "content": [
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "Mt. Horeb Lutheran Church in Chapin, SC, is seeking a dedicated ",
+                            "marks": [],
+                            "data": {}
+                        },
+                        {
+                            "nodeType": "text",
+                            "value": "Part-Time Administrative Assistant",
+                            "marks": [
+                                {
+                                    "type": "bold"
+                                }
+                            ],
+                            "data": {}
+                        },
+                        {
+                            "nodeType": "text",
+                            "value": " to support the church's daily operations, ensuring a welcoming and efficient office environment.",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "heading-4",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "Position Details",
+                            "marks": [
+                                {
+                                    "type": "bold"
+                                }
+                            ],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "unordered-list",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "list-item",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "paragraph",
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "nodeType": "text",
+                                            "value": "Hours: ",
+                                            "marks": [
+                                                {
+                                                    "type": "bold"
+                                                }
+                                            ],
+                                            "data": {}
+                                        },
+                                        {
+                                            "nodeType": "text",
+                                            "value": "28 hours/week, Tuesday–Friday, 8:30 AM – 3:30 PM",
+                                            "marks": [],
+                                            "data": {}
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "list-item",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "paragraph",
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "nodeType": "text",
+                                            "value": "Application Deadline: ",
+                                            "marks": [
+                                                {
+                                                    "type": "bold"
+                                                }
+                                            ],
+                                            "data": {}
+                                        },
+                                        {
+                                            "nodeType": "text",
+                                            "value": "Resumes will be accepted until the position is filled.",
+                                            "marks": [],
+                                            "data": {}
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "heading-4",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "Position Summary",
+                            "marks": [
+                                {
+                                    "type": "bold"
+                                }
+                            ],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "The Administrative Assistant provides comprehensive office support to the pastor, staff, and congregation. Responsibilities include preparing bulletins and newsletters, managing communications, coordinating supplies and events, and maintaining records.",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "heading-4",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "Position Description",
+                            "marks": [
+                                {
+                                    "type": "bold"
+                                }
+                            ],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "For a full description of this position, please see the full details ",
+                            "marks": [],
+                            "data": {}
+                        },
+                        {
+                            "nodeType": "hyperlink",
+                            "data": {
+                                "uri": "/content/jobs/administrative-assistant"
+                            },
+                            "content": [
+                                {
+                                    "nodeType": "text",
+                                    "value": "here",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ],
+                                    "data": {}
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "text",
+                            "value": ".",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "heading-4",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "To Apply",
+                            "marks": [
+                                {
+                                    "type": "bold"
+                                }
+                            ],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "Submit your resume and three references to ",
+                            "marks": [],
+                            "data": {}
+                        },
+                        {
+                            "nodeType": "hyperlink",
+                            "data": {
+                                "uri": "mailto:socialmedia@mthoreb.net"
+                            },
+                            "content": [
+                                {
+                                    "nodeType": "text",
+                                    "value": "socialmedia@mthoreb.net",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ],
+                                    "data": {}
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "text",
+                            "value": ". Applications will be reviewed on a rolling basis until the position is filled. Visit ",
+                            "marks": [],
+                            "data": {}
+                        },
+                        {
+                            "nodeType": "hyperlink",
+                            "data": {
+                                "uri": "/content/jobs/administrative-assistant"
+                            },
+                            "content": [
+                                {
+                                    "nodeType": "text",
+                                    "value": "the full position description",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ],
+                                    "data": {}
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "text",
+                            "value": " for additional details.",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                }
+            ]
+        },
+        "image": null,
+        "videoId": null
+    },
+    {
+        "id": "1yrTQmcmjhb6tmKdjDTUIm",
+        "key": "jobs/administrative-assistant-details",
+        "title": "Administrative Assistant Position Details",
+        "content": {
+            "nodeType": "document",
+            "data": {},
+            "content": [
+                {
+                    "nodeType": "heading-3",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "MT. HOREB LUTHERAN CHURCH",
+                            "marks": [
+                                {
+                                    "type": "bold"
+                                }
+                            ],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "heading-4",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "Position Description",
+                            "marks": [
+                                {
+                                    "type": "bold"
+                                }
+                            ],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "(Part-time: 28 Hours/week. Tues-Fri, 8:30am - 3:30pm)",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "TITLE",
+                            "marks": [
+                                {
+                                    "type": "bold"
+                                }
+                            ],
+                            "data": {}
+                        },
+                        {
+                            "nodeType": "text",
+                            "value": ": Administrative Assistant (Non-Exempt Position)",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "REPORTS TO",
+                            "marks": [
+                                {
+                                    "type": "bold"
+                                }
+                            ],
+                            "data": {}
+                        },
+                        {
+                            "nodeType": "text",
+                            "value": ": Pastor, as supported by the Human Resources Committee",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "PERSONNEL POLICIES STATEMENT: The employees of this church, in all their services –\nboth within the congregation and in the fulfillment of the church’s mission in the world – shall\ncarry out the duties to which they are assigned in the faithfulness to the faith and mission of the\nEvangelical Lutheran Church in America.",
+                            "marks": [
+                                {
+                                    "type": "italic"
+                                }
+                            ],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "heading-4",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "TO APPLY",
+                            "marks": [
+                                {
+                                    "type": "bold"
+                                }
+                            ],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "Please submit your resume and contact information for 3 references to ",
+                            "marks": [],
+                            "data": {}
+                        },
+                        {
+                            "nodeType": "hyperlink",
+                            "data": {
+                                "uri": "mailto:socialmedia@mthoreb.net"
+                            },
+                            "content": [
+                                {
+                                    "nodeType": "text",
+                                    "value": "socialmedia@mthoreb.net",
+                                    "marks": [],
+                                    "data": {}
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "text",
+                            "value": ".  Applications will be reviewed on a rolling basis until the position is filled.",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "heading-4",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "POSITION SUMMARY",
+                            "marks": [
+                                {
+                                    "type": "bold"
+                                }
+                            ],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "The Administrative Assistant provides office services for members of the parish staff and\nvarious other committees and functions of the church. Provide Guidance and Direction to\nother office staff as needed in all administrative duties.",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "heading-4",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "PRINCIPAL ACCOUNTABILITIES",
+                            "marks": [
+                                {
+                                    "type": "bold"
+                                }
+                            ],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "The Administrative Assistant shall provide support to all other staff members. This\nsupport shall include but is not limited to the following specific responsibilities:",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "ordered-list",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "list-item",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "paragraph",
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "nodeType": "text",
+                                            "value": "Function as staff assistant to Pastor and other designated staff in planning,\ncoordinating, and implementing administrative services, projects, and events.",
+                                            "marks": [],
+                                            "data": {}
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "list-item",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "paragraph",
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "nodeType": "text",
+                                            "value": "Create bulletin and announcement sheet weekly in Publisher software.",
+                                            "marks": [],
+                                            "data": {}
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "list-item",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "paragraph",
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "nodeType": "text",
+                                            "value": "Create Newsletter monthly in Publisher software.",
+                                            "marks": [],
+                                            "data": {}
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "list-item",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "paragraph",
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "nodeType": "text",
+                                            "value": "Research Sundays & Seasons weekly for: readings, preface, prayers, graphics,\netc. to be used each week including hymns and correct verbiage as it pertains\nto the Season and/or Sunday for the bulletin and the children’s\npages/bulletin.",
+                                            "marks": [],
+                                            "data": {}
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "list-item",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "paragraph",
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "nodeType": "text",
+                                            "value": "Create and print funeral bulletins.",
+                                            "marks": [],
+                                            "data": {}
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "list-item",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "paragraph",
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "nodeType": "text",
+                                            "value": "Negotiate the lease on the copier/printer with vendors prior to renewal date.",
+                                            "marks": [],
+                                            "data": {}
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "list-item",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "paragraph",
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "nodeType": "text",
+                                            "value": "Record copier totals for black/white and color copies each month for vendor\nreporting.",
+                                            "marks": [],
+                                            "data": {}
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "list-item",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "paragraph",
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "nodeType": "text",
+                                            "value": "Contact maintenance/service providers when needed, i.e. plumber, Terminix\nand others.",
+                                            "marks": [],
+                                            "data": {}
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "list-item",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "paragraph",
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "nodeType": "text",
+                                            "value": "Gather and research information to develop the Annual Church Directory.",
+                                            "marks": [],
+                                            "data": {}
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "list-item",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "paragraph",
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "nodeType": "text",
+                                            "value": "Create the ‘Golden Agers’ book.",
+                                            "marks": [],
+                                            "data": {}
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "list-item",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "paragraph",
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "nodeType": "text",
+                                            "value": "Order Poinsettias each Christmas Season.",
+                                            "marks": [],
+                                            "data": {}
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "list-item",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "paragraph",
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "nodeType": "text",
+                                            "value": "Order Palms for Palm Sunday.",
+                                            "marks": [],
+                                            "data": {}
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "list-item",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "paragraph",
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "nodeType": "text",
+                                            "value": "Order Lilies annually for Easter Sunday.",
+                                            "marks": [],
+                                            "data": {}
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "list-item",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "paragraph",
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "nodeType": "text",
+                                            "value": "Order Advent and Lenten Devotionals annually.",
+                                            "marks": [],
+                                            "data": {}
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "list-item",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "paragraph",
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "nodeType": "text",
+                                            "value": "Order congregation Offering envelopes annually.",
+                                            "marks": [],
+                                            "data": {}
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "list-item",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "paragraph",
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "nodeType": "text",
+                                            "value": "Order office supplies including janitorial, kitchen supplies as required.",
+                                            "marks": [],
+                                            "data": {}
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "list-item",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "paragraph",
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "nodeType": "text",
+                                            "value": "Create and mail All Saints Postcards for the families of deceased members\neach year.",
+                                            "marks": [],
+                                            "data": {}
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "list-item",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "paragraph",
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "nodeType": "text",
+                                            "value": "Create other postcards, brochures, ‘flyers’, signs as needed.",
+                                            "marks": [],
+                                            "data": {}
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "list-item",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "paragraph",
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "nodeType": "text",
+                                            "value": "Meet weekly with Pastor to review ‘needs’ for upcoming week.",
+                                            "marks": [],
+                                            "data": {}
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "list-item",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "paragraph",
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "nodeType": "text",
+                                            "value": "Gather data/information and complete the congregational report annually to\nthe SC Synod.",
+                                            "marks": [],
+                                            "data": {}
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "list-item",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "paragraph",
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "nodeType": "text",
+                                            "value": "Order Sunday School material as requested.",
+                                            "marks": [],
+                                            "data": {}
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "list-item",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "paragraph",
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "nodeType": "text",
+                                            "value": "Order candles and any other worship items as requested.",
+                                            "marks": [],
+                                            "data": {}
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "list-item",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "paragraph",
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "nodeType": "text",
+                                            "value": "Update Shepherd’s Staff as needed (new members, deceased, transfers)",
+                                            "marks": [],
+                                            "data": {}
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "list-item",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "paragraph",
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "nodeType": "text",
+                                            "value": "Run reports from Shepherd’s Staff as required.",
+                                            "marks": [],
+                                            "data": {}
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "list-item",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "paragraph",
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "nodeType": "text",
+                                            "value": "Create and post the eNews weekly for Friday morning publishing.",
+                                            "marks": [],
+                                            "data": {}
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "list-item",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "paragraph",
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "nodeType": "text",
+                                            "value": "Send mass congregational emails/communications when requested and\nappropriate, i.e. obituaries of members.",
+                                            "marks": [],
+                                            "data": {}
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "list-item",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "paragraph",
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "nodeType": "text",
+                                            "value": "Send email each week to the Lector assigned Sunday service.",
+                                            "marks": [],
+                                            "data": {}
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "list-item",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "paragraph",
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "nodeType": "text",
+                                            "value": "Order Altar Flowers for members each Sunday and maintain an accounting\nrecord.",
+                                            "marks": [],
+                                            "data": {}
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "list-item",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "paragraph",
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "nodeType": "text",
+                                            "value": "Create weekly Sunday Service Slides.",
+                                            "marks": [],
+                                            "data": {}
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "list-item",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "paragraph",
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "nodeType": "text",
+                                            "value": "Create weekly Sunday Announcement Slides.",
+                                            "marks": [],
+                                            "data": {}
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "list-item",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "paragraph",
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "nodeType": "text",
+                                            "value": "Create slides for funerals.",
+                                            "marks": [],
+                                            "data": {}
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "list-item",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "paragraph",
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "nodeType": "text",
+                                            "value": "Complete the U.S. Post Office Form that is included in bulk mailings.",
+                                            "marks": [],
+                                            "data": {}
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "list-item",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "paragraph",
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "nodeType": "text",
+                                            "value": "When Altar flowers are donated, make arrangements for shut-ins receipt, if\nflowers available for distribution.",
+                                            "marks": [],
+                                            "data": {}
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "list-item",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "paragraph",
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "nodeType": "text",
+                                            "value": "Manage sound board during Lenten 11am worship service.",
+                                            "marks": [],
+                                            "data": {}
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "list-item",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "paragraph",
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "nodeType": "text",
+                                            "value": "Create and maintain monthly calendar of events/meetings/Services.",
+                                            "marks": [],
+                                            "data": {}
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "list-item",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "paragraph",
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "nodeType": "text",
+                                            "value": "Maintain the birthday/marriage anniversary dates list of members.",
+                                            "marks": [],
+                                            "data": {}
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "list-item",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "paragraph",
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "nodeType": "text",
+                                            "value": "Order background checks in advance for anyone to be in contact with children\nin our church (Sunday school teachers, youth leaders, etc.)",
+                                            "marks": [],
+                                            "data": {}
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "list-item",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "paragraph",
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "nodeType": "text",
+                                            "value": "Maintain the shut-in list and labels.",
+                                            "marks": [],
+                                            "data": {}
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "list-item",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "paragraph",
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "nodeType": "text",
+                                            "value": "Generate Transfer letters when members join or depart Mt. Horeb Lutheran Church.",
+                                            "marks": [],
+                                            "data": {}
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "list-item",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "paragraph",
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "nodeType": "text",
+                                            "value": "Register members for SC Synod Assembly. Book hotels as requested.",
+                                            "marks": [],
+                                            "data": {}
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "list-item",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "paragraph",
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "nodeType": "text",
+                                            "value": "Perform other duties as assigned by Pastor and/or Council Vice-Chair.",
+                                            "marks": [],
+                                            "data": {}
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "heading-4",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "QUALIFICATIONS",
+                            "marks": [
+                                {
+                                    "type": "bold"
+                                }
+                            ],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "ordered-list",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "list-item",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "paragraph",
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "nodeType": "text",
+                                            "value": "Be a person of faith and embrace the mission of Mt. Horeb Lutheran-Chapin, SC\nto Experience and Share God’s Presence.",
+                                            "marks": [],
+                                            "data": {}
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "list-item",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "paragraph",
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "nodeType": "text",
+                                            "value": "Maintain high level of service and professionalism for all Admin. Assistant tasks.",
+                                            "marks": [],
+                                            "data": {}
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "list-item",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "paragraph",
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "nodeType": "text",
+                                            "value": "Ability to maintain confidentiality in all matters.",
+                                            "marks": [],
+                                            "data": {}
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "list-item",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "paragraph",
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "nodeType": "text",
+                                            "value": "PC skills including various word processing programs, spreadsheet software and\ndesktop publishing.",
+                                            "marks": [],
+                                            "data": {}
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "list-item",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "paragraph",
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "nodeType": "text",
+                                            "value": "Knowledge of standard office practices and techniques.",
+                                            "marks": [],
+                                            "data": {}
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "list-item",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "paragraph",
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "nodeType": "text",
+                                            "value": "Excellent communications kills, both oral and written.",
+                                            "marks": [],
+                                            "data": {}
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "list-item",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "paragraph",
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "nodeType": "text",
+                                            "value": "Three or more years of administrative experience.",
+                                            "marks": [],
+                                            "data": {}
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "list-item",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "paragraph",
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "nodeType": "text",
+                                            "value": "Excellent organizational skills",
+                                            "marks": [],
+                                            "data": {}
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "list-item",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "paragraph",
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "nodeType": "text",
+                                            "value": "Ability to work with diverse personalities.",
+                                            "marks": [],
+                                            "data": {}
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "list-item",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "paragraph",
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "nodeType": "text",
+                                            "value": "Technical or business school training preferred.",
+                                            "marks": [],
+                                            "data": {}
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "list-item",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "paragraph",
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "nodeType": "text",
+                                            "value": "Ability to prioritize work.",
+                                            "marks": [],
+                                            "data": {}
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "heading-4",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "WORKING ENVIRONMENT",
+                            "marks": [
+                                {
+                                    "type": "bold"
+                                }
+                            ],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "ordered-list",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "list-item",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "paragraph",
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "nodeType": "text",
+                                            "value": "Position requires minimal travel.",
+                                            "marks": [],
+                                            "data": {}
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "list-item",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "paragraph",
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "nodeType": "text",
+                                            "value": "Normal office environment with minimal exposure to noise and external weather\nconditions.",
+                                            "marks": [],
+                                            "data": {}
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "list-item",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "paragraph",
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "nodeType": "text",
+                                            "value": "Must be able to lift 25 pounds.",
+                                            "marks": [],
+                                            "data": {}
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "list-item",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "paragraph",
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "nodeType": "text",
+                                            "value": "Must be able to work a minimum of 28 hours per week.",
+                                            "marks": [],
+                                            "data": {}
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "NOTE",
+                            "marks": [
+                                {
+                                    "type": "bold"
+                                },
+                                {
+                                    "type": "italic"
+                                }
+                            ],
+                            "data": {}
+                        },
+                        {
+                            "nodeType": "text",
+                            "value": ": This description is not an exhaustive list of all job functions, duties, skills and\njob standards required. Other job functions, duties, skills and standards may be added.\nManagement reserves the right to add or change the job requirements at any time.",
+                            "marks": [
+                                {
+                                    "type": "italic"
+                                }
+                            ],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "heading-4",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "TO APPLY",
+                            "marks": [
+                                {
+                                    "type": "bold"
+                                }
+                            ],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "Please submit your resume and contact information for 3 references to ",
+                            "marks": [],
+                            "data": {}
+                        },
+                        {
+                            "nodeType": "hyperlink",
+                            "data": {
+                                "uri": "mailto:socialmedia@mthoreb.net"
+                            },
+                            "content": [
+                                {
+                                    "nodeType": "text",
+                                    "value": "socialmedia@mthoreb.net",
+                                    "marks": [],
+                                    "data": {}
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "text",
+                            "value": ".  Applications will be reviewed on a rolling basis until the position is filled.",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                }
+            ]
+        },
+        "image": null,
+        "videoId": null
+    },
+    {
+        "id": "5U4QnbVCFnI9aUR2cfdSRM",
+        "key": "jobs/outreach-coordinator-listing",
+        "title": "Outreach Coordinator",
+        "content": {
+            "nodeType": "document",
+            "data": {},
+            "content": [
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "Mt. Horeb Lutheran Church in Chapin, SC, is seeking a ",
+                            "marks": [],
+                            "data": {}
+                        },
+                        {
+                            "nodeType": "text",
+                            "value": "Part-Time Outreach Coordinator",
+                            "marks": [
+                                {
+                                    "type": "bold"
+                                }
+                            ],
+                            "data": {}
+                        },
+                        {
+                            "nodeType": "text",
+                            "value": " to support communication and outreach efforts within the church and the community.",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "heading-3",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "Position Details",
+                            "marks": [
+                                {
+                                    "type": "bold"
+                                }
+                            ],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "unordered-list",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "list-item",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "paragraph",
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "nodeType": "text",
+                                            "value": "Hours: ",
+                                            "marks": [
+                                                {
+                                                    "type": "bold"
+                                                }
+                                            ],
+                                            "data": {}
+                                        },
+                                        {
+                                            "nodeType": "text",
+                                            "value": "20 hours/week, Monday – Thursday, 9:00 AM – 2:00 PM",
+                                            "marks": [],
+                                            "data": {}
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "list-item",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "paragraph",
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "nodeType": "text",
+                                            "value": "Application Deadline:",
+                                            "marks": [
+                                                {
+                                                    "type": "bold"
+                                                }
+                                            ],
+                                            "data": {}
+                                        },
+                                        {
+                                            "nodeType": "text",
+                                            "value": " Resumes accepted through",
+                                            "marks": [],
+                                            "data": {}
+                                        },
+                                        {
+                                            "nodeType": "text",
+                                            "value": " January 6, 2025",
+                                            "marks": [
+                                                {
+                                                    "type": "bold"
+                                                }
+                                            ],
+                                            "data": {}
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "heading-3",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "Position Summary",
+                            "marks": [
+                                {
+                                    "type": "bold"
+                                }
+                            ],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "The Outreach Coordinator will manage communications, social media, website updates, and community engagement, ensuring that Mt. Horeb’s mission to ",
+                            "marks": [],
+                            "data": {}
+                        },
+                        {
+                            "nodeType": "text",
+                            "value": "“Experience and Share God’s Presence”",
+                            "marks": [
+                                {
+                                    "type": "italic"
+                                }
+                            ],
+                            "data": {}
+                        },
+                        {
+                            "nodeType": "text",
+                            "value": " is promoted effectively. This role requires strong organizational skills, social media and website proficiency, and the ability to communicate creatively with diverse audiences.",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "heading-3",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "Position Description",
+                            "marks": [
+                                {
+                                    "type": "bold"
+                                }
+                            ],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "For a full description of this position, please see the full details ",
+                            "marks": [],
+                            "data": {}
+                        },
+                        {
+                            "nodeType": "hyperlink",
+                            "data": {
+                                "uri": "/content/jobs/outreach-coordinator"
+                            },
+                            "content": [
+                                {
+                                    "nodeType": "text",
+                                    "value": "here",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ],
+                                    "data": {}
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "text",
+                            "value": ".",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "heading-3",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "To Apply",
+                            "marks": [
+                                {
+                                    "type": "bold"
+                                }
+                            ],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "Please submit your resume and contact information for 3 references by ",
+                            "marks": [],
+                            "data": {}
+                        },
+                        {
+                            "nodeType": "text",
+                            "value": "January 6, 2025",
+                            "marks": [
+                                {
+                                    "type": "bold"
+                                }
+                            ],
+                            "data": {}
+                        },
+                        {
+                            "nodeType": "text",
+                            "value": " to ",
+                            "marks": [],
+                            "data": {}
+                        },
+                        {
+                            "nodeType": "hyperlink",
+                            "data": {
+                                "uri": "mailto:socialmedia@mthoreb.net"
+                            },
+                            "content": [
+                                {
+                                    "nodeType": "text",
+                                    "value": "socialmedia@mthoreb.net",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ],
+                                    "data": {}
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "text",
+                            "value": ".  Visit ",
+                            "marks": [],
+                            "data": {}
+                        },
+                        {
+                            "nodeType": "hyperlink",
+                            "data": {
+                                "uri": "/content/jobs/outreach-coordinator"
+                            },
+                            "content": [
+                                {
+                                    "nodeType": "text",
+                                    "value": "the full position description",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ],
+                                    "data": {}
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "text",
+                            "value": " for additional details.",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                }
+            ]
+        },
+        "image": null,
+        "videoId": null
+    },
+    {
+        "id": "7tqDbqWcu9Lmvz8k86mAcj",
+        "key": "jobs/outreach-coordinator-details",
+        "title": "Outreach Coordinator Position Details",
+        "content": {
+            "nodeType": "document",
+            "data": {},
+            "content": [
+                {
+                    "nodeType": "heading-3",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "MT. HOREB LUTHERAN CHURCH",
+                            "marks": [
+                                {
+                                    "type": "bold"
+                                }
+                            ],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "heading-4",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "Position Description ",
+                            "marks": [
+                                {
+                                    "type": "bold"
+                                }
+                            ],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "(Part time: 20 Hours/week Mon-Thurs 9-2:00)",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "November 2024",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "TITLE:",
+                            "marks": [
+                                {
+                                    "type": "bold"
+                                }
+                            ],
+                            "data": {}
+                        },
+                        {
+                            "nodeType": "text",
+                            "value": "  Outreach Coordinator                           ",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "REPORTS TO:",
+                            "marks": [
+                                {
+                                    "type": "bold"
+                                }
+                            ],
+                            "data": {}
+                        },
+                        {
+                            "nodeType": "text",
+                            "value": "  Pastor, as supported by the Human Resources Committee",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "PERSONNEL POLICIES STATEMENT:  The employees of this church, in all their services – both within the congregation and in the fulfillment of the church’s mission in the world – shall carry out the duties to which they are assigned in the faithfulness to the faith and mission of the Evangelical Lutheran Church in America.",
+                            "marks": [
+                                {
+                                    "type": "italic"
+                                }
+                            ],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "heading-4",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "TO APPLY",
+                            "marks": [
+                                {
+                                    "type": "bold"
+                                }
+                            ],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "Please submit your resume and contact information for 3 references by ",
+                            "marks": [],
+                            "data": {}
+                        },
+                        {
+                            "nodeType": "text",
+                            "value": "January 6, 2025",
+                            "marks": [
+                                {
+                                    "type": "bold"
+                                }
+                            ],
+                            "data": {}
+                        },
+                        {
+                            "nodeType": "text",
+                            "value": " to ",
+                            "marks": [],
+                            "data": {}
+                        },
+                        {
+                            "nodeType": "hyperlink",
+                            "data": {
+                                "uri": "mailto:socialmedia@mthoreb.net"
+                            },
+                            "content": [
+                                {
+                                    "nodeType": "text",
+                                    "value": "socialmedia@mthoreb.net",
+                                    "marks": [],
+                                    "data": {}
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "text",
+                            "value": ".",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "heading-4",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "POSITION SUMMARY",
+                            "marks": [
+                                {
+                                    "type": "bold"
+                                }
+                            ],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "The Outreach Coordinator facilitates communications between the members of the congregation, its Core ministries, and the community at large.",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "heading-4",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "PRINCIPAL ACCOUNTABILITIES",
+                            "marks": [
+                                {
+                                    "type": "bold"
+                                }
+                            ],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "The Outreach Coordinator shall manage and support the communication by and between members of the congregation, the Chapin Community, and the community at-large. These duties shall include but are not limited to the following specific responsibilities:",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "ordered-list",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "list-item",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "paragraph",
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "nodeType": "text",
+                                            "value": "Be a person of faith and embrace the mission of Mt Horeb Lutheran Church – Chapin, SC to ",
+                                            "marks": [],
+                                            "data": {}
+                                        },
+                                        {
+                                            "nodeType": "text",
+                                            "value": "Experience and Share God’s Presence",
+                                            "marks": [
+                                                {
+                                                    "type": "italic"
+                                                }
+                                            ],
+                                            "data": {}
+                                        },
+                                        {
+                                            "nodeType": "text",
+                                            "value": ".",
+                                            "marks": [],
+                                            "data": {}
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "list-item",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "paragraph",
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "nodeType": "text",
+                                            "value": "Greet all people who come into the church office and assist as appropriate.",
+                                            "marks": [],
+                                            "data": {}
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "list-item",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "paragraph",
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "nodeType": "text",
+                                            "value": "Manage and maintain the Church’s social media presence, ensuring that timely and appropriate posts are made on a regular basis that highlight the activities and ministries of the congregation. (Facebook, Instagram, X, etc.)",
+                                            "marks": [],
+                                            "data": {}
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "list-item",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "paragraph",
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "nodeType": "text",
+                                            "value": "Create and maintain the church website content. Create and update site content. Train volunteers to create and post content from their ministry teams..",
+                                            "marks": [],
+                                            "data": {}
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "list-item",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "paragraph",
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "nodeType": "text",
+                                            "value": "Promote the activities of the church through photography, videography, blog posts, articles, etc.",
+                                            "marks": [],
+                                            "data": {}
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "list-item",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "paragraph",
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "nodeType": "text",
+                                            "value": "Act as staff liaison to AV/Technology Team to ensure weekly AV needs are met including the training of new AV Team members.",
+                                            "marks": [],
+                                            "data": {}
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "list-item",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "paragraph",
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "nodeType": "text",
+                                            "value": "Publish weekly emails to congregation and other times as requested by Pastor and/or Church teams.",
+                                            "marks": [],
+                                            "data": {}
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "list-item",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "paragraph",
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "nodeType": "text",
+                                            "value": "Engage with the Chapin community to promote the congregation through advertising, participation in community events, etc.",
+                                            "marks": [],
+                                            "data": {}
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "list-item",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "paragraph",
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "nodeType": "text",
+                                            "value": "Look for creative opportunities to promote Mt. Horeb in Chapin and  surrounding area.",
+                                            "marks": [],
+                                            "data": {}
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "list-item",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "paragraph",
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "nodeType": "text",
+                                            "value": "Responsible for all mass mailings (copying, stamping, labeling, folding, inserting into envelopes)",
+                                            "marks": [],
+                                            "data": {}
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "list-item",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "paragraph",
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "nodeType": "text",
+                                            "value": "Maintain a record of Sunday Service attendance and Visitors. Provide visitor information to the Pastor(s) and Witness Team contact. Update membership register as required.",
+                                            "marks": [],
+                                            "data": {}
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "list-item",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "paragraph",
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "nodeType": "text",
+                                            "value": "Record weekly church attendance into ",
+                                            "marks": [],
+                                            "data": {}
+                                        },
+                                        {
+                                            "nodeType": "text",
+                                            "value": "Shepherd’s Staff",
+                                            "marks": [
+                                                {
+                                                    "type": "italic"
+                                                }
+                                            ],
+                                            "data": {}
+                                        },
+                                        {
+                                            "nodeType": "text",
+                                            "value": ".",
+                                            "marks": [],
+                                            "data": {}
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "list-item",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "paragraph",
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "nodeType": "text",
+                                            "value": "Print certificates for Baptism, First Communion, Confirmation, Lutheran Men, WELCA, or any church organizations/committees, as needed.",
+                                            "marks": [],
+                                            "data": {}
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "list-item",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "paragraph",
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "nodeType": "text",
+                                            "value": "Update ",
+                                            "marks": [],
+                                            "data": {}
+                                        },
+                                        {
+                                            "nodeType": "text",
+                                            "value": "Prayer Board",
+                                            "marks": [
+                                                {
+                                                    "type": "italic"
+                                                }
+                                            ],
+                                            "data": {}
+                                        },
+                                        {
+                                            "nodeType": "text",
+                                            "value": " weekly.",
+                                            "marks": [],
+                                            "data": {}
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "Assist and act as a back-up for the Administrative Assistant as necessary to ensure that the office maintains a high level of service and professionalism.                        ",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "heading-4",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "QUALIFICATIONS",
+                            "marks": [
+                                {
+                                    "type": "bold"
+                                }
+                            ],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "ordered-list",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "list-item",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "paragraph",
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "nodeType": "text",
+                                            "value": "Ability to communicate effectively: orally and written. ",
+                                            "marks": [],
+                                            "data": {}
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "list-item",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "paragraph",
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "nodeType": "text",
+                                            "value": "Computer software skills including Windows competency, Social Media acumen, website experience",
+                                            "marks": [],
+                                            "data": {}
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "list-item",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "paragraph",
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "nodeType": "text",
+                                            "value": "General knowledge of office equipment operations.",
+                                            "marks": [],
+                                            "data": {}
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "list-item",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "paragraph",
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "nodeType": "text",
+                                            "value": "Good organizational skills",
+                                            "marks": [],
+                                            "data": {}
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "list-item",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "paragraph",
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "nodeType": "text",
+                                            "value": "A minimum of one year of experience in an office environment.",
+                                            "marks": [],
+                                            "data": {}
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "list-item",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "paragraph",
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "nodeType": "text",
+                                            "value": "Ability to work with diverse personalities.",
+                                            "marks": [],
+                                            "data": {}
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "list-item",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "paragraph",
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "nodeType": "text",
+                                            "value": "Ability to maintain confidentiality in all matters.",
+                                            "marks": [],
+                                            "data": {}
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "heading-4",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "WORKING ENVIRONMENT",
+                            "marks": [
+                                {
+                                    "type": "bold"
+                                }
+                            ],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "ordered-list",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "list-item",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "paragraph",
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "nodeType": "text",
+                                            "value": "Position requires minimal travel.",
+                                            "marks": [],
+                                            "data": {}
+                                        },
+                                        {
+                                            "nodeType": "text",
+                                            "value": "\t",
+                                            "marks": [
+                                                {
+                                                    "type": "bold"
+                                                }
+                                            ],
+                                            "data": {}
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "list-item",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "paragraph",
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "nodeType": "text",
+                                            "value": "Normal office environment with minimal exposure to noise and external weather conditions.",
+                                            "marks": [],
+                                            "data": {}
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "list-item",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "paragraph",
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "nodeType": "text",
+                                            "value": "Must be able to lift 25 pounds.",
+                                            "marks": [],
+                                            "data": {}
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "NOTE:  This description is not an exhaustive list of all job functions, duties, skills and job standards required.  Other job functions, duties, skills and standards may be added.  Management reserves the right to add or change the job requirements at any time.",
+                            "marks": [
+                                {
+                                    "type": "italic"
+                                },
+                                {
+                                    "type": "bold"
+                                }
+                            ],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "21Nov2024",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "heading-4",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "TO APPLY",
+                            "marks": [
+                                {
+                                    "type": "bold"
+                                }
+                            ],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "Please submit your resume and contact information for 3 references by ",
+                            "marks": [],
+                            "data": {}
+                        },
+                        {
+                            "nodeType": "text",
+                            "value": "January 6, 2025",
+                            "marks": [
+                                {
+                                    "type": "bold"
+                                }
+                            ],
+                            "data": {}
+                        },
+                        {
+                            "nodeType": "text",
+                            "value": " to ",
+                            "marks": [],
+                            "data": {}
+                        },
+                        {
+                            "nodeType": "hyperlink",
+                            "data": {
+                                "uri": "mailto:socialmedia@mthoreb.net"
+                            },
+                            "content": [
+                                {
+                                    "nodeType": "text",
+                                    "value": "socialmedia@mthoreb.net",
+                                    "marks": [],
+                                    "data": {}
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "text",
+                            "value": ".",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "\n",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                }
+            ]
+        },
+        "image": null,
+        "videoId": null
+    },
+    {
         "id": "PSWmx0wL33LnTaZvqqh1E",
         "key": "home/welcome-video",
         "image": null,
