@@ -4,8 +4,8 @@ export function logEvent(eventDetails) {
     getHttpClient().post('/api/audit', eventDetails);
 }
 
-export async function getEvents() {
-    return (await getHttpClient().get('/api/audit/events')).data;
+export async function getEvents(monthId) {
+    return (await getHttpClient().get('/api/audit/events', { params: { monthId } })).data;
 }
 
 if (import.meta.env.MODE === 'development') {

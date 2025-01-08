@@ -226,7 +226,7 @@ router.get('/audit/events',
     (req, res, next) => {
         (async function() {
             try {
-                const results = await getEvents();
+                const results = await getEvents(req.query.monthId);
                 res.send(results);
             } catch(err) {
                 next(err);

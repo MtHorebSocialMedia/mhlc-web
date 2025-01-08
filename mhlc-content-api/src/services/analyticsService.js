@@ -115,12 +115,12 @@ async function writeEvent(event) {
     }
 }
 
-async function getEvents() {
+async function getEvents(monthId) {
     const auth = await authorize();
     const sheets = google.sheets({ version: 'v4', auth });
     const res = await sheets.spreadsheets.values.get({
         spreadsheetId: process.env.GOOGLE_APIS_ANALYTICS_SHEET_ID,
-        range: 'Events!A2:J'
+        range: `Events-${monthId}!A2:J`
     });
     return res.data.values.map(([dateTime, environment, status, method, resourceType, resource, duration, referrer, ip, agent]) => ({
         dateTime,
@@ -135,7 +135,7 @@ async function getEvents() {
         agent,
         fromFacebook: resource.includes('fbclid='),
         fromEnews: resource.includes('src=enews')
-    })).filter(({ environment, resourceType, agent }) => (environment === 'production' && !isbot(agent) && (resourceType === 'route' || resourceType === 'dialog')));
+    })).filter(({ environment, resourceType, agent }) => (environment.startsWith('prod') && !isbot(agent) && (resourceType === 'route' || resourceType === 'dialog')));
 }
 
 async function processEvents() {
@@ -153,6 +153,7 @@ async function writeToSheets(events) {
     return new Promise((resolve, reject) => {
         try {
             const sheets = google.sheets({ version: 'v4', auth });
+            const monthId = new Date().toISOString().substring(0, 7);
             const resource = {
                 values: events.map((event) => ([
                     event.dateTime,
@@ -169,7 +170,7 @@ async function writeToSheets(events) {
             };
             sheets.spreadsheets.values.append({
                 spreadsheetId: process.env.GOOGLE_APIS_ANALYTICS_SHEET_ID,
-                range: 'Events!A1',
+                range: `Events-${monthId}!A1`,
                 valueInputOption: 'RAW',
                 resource
             }, (err) => {
