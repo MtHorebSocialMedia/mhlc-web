@@ -2,7 +2,7 @@
 // https://mailchimp.com/developer/marketing/api/
 
 const mailchimp = require('@mailchimp/mailchimp_marketing');
-const { getLogger } = require('./logger');
+const { getLogger } = require('../utils/logger');
 
 const logger = getLogger('mailService');
 

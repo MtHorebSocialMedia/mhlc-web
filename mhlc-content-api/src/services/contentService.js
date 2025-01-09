@@ -1,5 +1,5 @@
 const contentful = require('contentful');
-const { getLogger } = require('./logger');
+const { getLogger } = require('../utils/logger');
 
 const logger = getLogger('contentService');
 

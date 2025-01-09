@@ -1,9 +1,7 @@
 // Utilities
 import { defineStore } from 'pinia';
 import { ref } from 'vue';
-import { getHttpClient, getMockClient } from '../utils/httpUtils';
-
-const httpClient = getHttpClient();
+import { getHttpClient, getMockClient, addMocks } from '../utils/httpUtils';
 
 export const useContentStore = defineStore('content', () => {
     const menuItems = ref([]);
@@ -76,7 +74,7 @@ export const useContentStore = defineStore('content', () => {
 });
 
 async function getMenuItems() {
-    const menuItems = (await httpClient.get('/api/menu-items')).data;
+    const menuItems = (await getHttpClient().get('/api/menu-items')).data;
     menuItems.sort((a, b) => {
         return a.sequence - b.sequence;
     });
@@ -92,7 +90,7 @@ async function getMenuItems() {
 }
 
 async function getContentPages() {
-    const contentPages = (await httpClient.get('/api/content-pages')).data;
+    const contentPages = (await getHttpClient().get('/api/content-pages')).data;
     contentPages.forEach(page => {
         contentPages[page.contentPath] = page;
     })
@@ -100,7 +98,7 @@ async function getContentPages() {
 }
 
 async function getContentBlocks() {
-    const contentBlocks = (await httpClient.get('/api/content-blocks')).data;
+    const contentBlocks = (await getHttpClient().get('/api/content-blocks')).data;
     contentBlocks.forEach(block => {
         contentBlocks[block.key] = block;
     })
@@ -108,43 +106,43 @@ async function getContentBlocks() {
 }
 
 async function getNewsTypes() {
-    return (await httpClient.get('/api/news-types')).data;
+    return (await getHttpClient().get('/api/news-types')).data;
 }
 
 async function getNews(page) {
-    return (await httpClient.get('/api/news', { params: { page } })).data;
+    return (await getHttpClient().get('/api/news', { params: { page } })).data;
 }
 
 async function getNewsEntry(newsId) {
-    return (await httpClient.get(`/api/news/${newsId}`)).data;
+    return (await getHttpClient().get(`/api/news/${newsId}`)).data;
 }
 
 async function getChurchInfo() {
-    return (await httpClient.get('/api/church-info')).data;
+    return (await getHttpClient().get('/api/church-info')).data;
 }
 
 async function getCouncil() {
-    return (await httpClient.get('/api/council')).data;
+    return (await getHttpClient().get('/api/council')).data;
 }
 
 async function getStaff() {
-    return (await httpClient.get('/api/staff')).data;
+    return (await getHttpClient().get('/api/staff')).data;
 }
 
 async function getVideoList() {
-    return (await httpClient.get('/api/video-list')).data;
+    return (await getHttpClient().get('/api/video-list')).data;
 }
 
 async function getSpecialAnnouncements() {
-    return (await httpClient.get('/api/special-announcements')).data;
+    return (await getHttpClient().get('/api/special-announcements')).data;
 }
 
 async function getBlogPosts(page) {
-    return (await httpClient.get('/api/blog-posts', { params: { page } })).data;
+    return (await getHttpClient().get('/api/blog-posts', { params: { page } })).data;
 }
 
 async function getBlogPost(blogId) {
-    return (await httpClient.get(`/api/blog-posts/${blogId}`)).data;
+    return (await getHttpClient().get(`/api/blog-posts/${blogId}`)).data;
 }
 
 if (import.meta.env.MODE === 'development') {
@@ -153,7 +151,7 @@ if (import.meta.env.MODE === 'development') {
 
     const mockClient = getMockClient();
 
-    httpClient.addMocks((mock) => {
+    addMocks((mock) => {
         mock.onGet("/api/menu-items").reply(() => {
             return mockClient.get('./mock/menu-items.json');
         });

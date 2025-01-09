@@ -1,5 +1,41 @@
 [
     {
+        "id": "6unD1dXv0euaVQxShzjqO7",
+        "title": "Jobs",
+        "contentPath": "/content/jobs",
+        "headerImage": null,
+        "contentBlocks": [
+            {
+                "key": "jobs/administrative-assistant-listing"
+            },
+            {
+                "key": "jobs/outreach-coordinator-listing"
+            }
+        ]
+    },
+    {
+        "id": "ETecGLsQSWyFAAfabHA5g",
+        "title": "Administrative Assistant",
+        "contentPath": "/content/jobs/administrative-assistant",
+        "headerImage": null,
+        "contentBlocks": [
+            {
+                "key": "jobs/administrative-assistant-details"
+            }
+        ]
+    },
+    {
+        "id": "5JyB1kc5UOHQMDRUQkD7NX",
+        "title": "Outreach Coordinator",
+        "contentPath": "/content/jobs/outreach-coordinator",
+        "headerImage": null,
+        "contentBlocks": [
+            {
+                "key": "jobs/outreach-coordinator-details"
+            }
+        ]
+    },
+    {
         "id": "7KIAvylJBMpEzpgle6RfHe",
         "title": "Support",
         "contentPath": "/content/support",

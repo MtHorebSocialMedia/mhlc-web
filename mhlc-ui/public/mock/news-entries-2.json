@@ -1,9 +1,9 @@
 {
     "news": [
         {
-            "id": "7BzxrxH0l59dGxNIgDYnSr",
-            "datetime": "2024-10-18T00:00",
-            "title": "Family Book Share",
+            "id": "7s9f5EzY8tjxKbzioK3L1B",
+            "datetime": "2024-12-20T00:00",
+            "title": "Outreach Coordinator",
             "description": {
                 "data": {},
                 "content": [
@@ -13,31 +13,55 @@
                             {
                                 "data": {},
                                 "marks": [],
-                                "value": "The Learn Team has set up a Basket of Books for families and children. This basket will be located in the Narthex. Please look through and take home any book of interest. This is just one more way to support our families and children in “faith formation”. ",
+                                "value": "Applications for Outreach Coordinator are being accepted now. Help us find a Part-Time Outreach Coordinator to support communication and outreach efforts within the church and the community. Along with greeting visitors in the office, the Outreach Coordinator will manage communications, social media, website updates, and community engagement. A full description of the position is on the Welcome Center and the ",
                                 "nodeType": "text"
-                            }
-                        ],
-                        "nodeType": "paragraph"
-                    },
-                    {
-                        "data": {},
-                        "content": [
+                            },
+                            {
+                                "data": {
+                                    "uri": "https://mthoreb.net/content/jobs/outreach-coordinator"
+                                },
+                                "content": [
+                                    {
+                                        "data": {},
+                                        "marks": [
+                                            {
+                                                "type": "underline"
+                                            }
+                                        ],
+                                        "value": "website",
+                                        "nodeType": "text"
+                                    }
+                                ],
+                                "nodeType": "hyperlink"
+                            },
                             {
                                 "data": {},
                                 "marks": [],
-                                "value": "After your family has read a book, bring it back and put it in the basket and take another one home to share with your children.",
+                                "value": ". Resumes and references are being accepted through January 6, 2025, and can be emailed to ",
                                 "nodeType": "text"
-                            }
-                        ],
-                        "nodeType": "paragraph"
-                    },
-                    {
-                        "data": {},
-                        "content": [
+                            },
+                            {
+                                "data": {
+                                    "uri": "mailto:socialmedia@mthoreb.net"
+                                },
+                                "content": [
+                                    {
+                                        "data": {},
+                                        "marks": [
+                                            {
+                                                "type": "underline"
+                                            }
+                                        ],
+                                        "value": "socialmedia@mthoreb.net",
+                                        "nodeType": "text"
+                                    }
+                                ],
+                                "nodeType": "hyperlink"
+                            },
                             {
                                 "data": {},
                                 "marks": [],
-                                "value": "Any of you may share these books with any you think would enjoy them. If a book makes its way back to the basket, that’s great. If a book finds a new home, that may be just where it belongs! The Good News is meant to be shared!",
+                                "value": ".",
                                 "nodeType": "text"
                             }
                         ],
@@ -57,9 +81,9 @@
             "videoId": null
         },
         {
-            "id": "L7H2VhTq81f7g96Z3ZQsH",
-            "datetime": "2024-10-18T00:00",
-            "title": "Poinsettia Orders for Christmas",
+            "id": "1dESkYnmOygoROr4nATFIq",
+            "datetime": "2024-12-20T00:00",
+            "title": "Bulletin for December 22",
             "description": {
                 "data": {},
                 "content": [
@@ -69,23 +93,344 @@
                             {
                                 "data": {},
                                 "marks": [],
-                                "value": "Poinsettias are available for order now. The cost is $13 per plant and the deadline is ",
+                                "value": "Check out this Sunday's bulletin.",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    }
+                ],
+                "nodeType": "document"
+            },
+            "type": [
+                {
+                    "id": "5ktejUJ8noonowWZUs0uN7",
+                    "type": "General"
+                }
+            ],
+            "image": null,
+            "attachments": [
+                {
+                    "title": "Bulletin for December 22",
+                    "file": {
+                        "url": "//assets.ctfassets.net/3wcsgs8fznel/2YRR3T7yrbuKMOoeVHnXks/d018dada920cca8a161f7eb2f49bc83c/bulletin_1222.pdf",
+                        "details": {
+                            "size": 1717481
+                        },
+                        "fileName": "bulletin 1222.pdf",
+                        "contentType": "application/pdf"
+                    }
+                }
+            ],
+            "videoId": null
+        },
+        {
+            "id": "4qk4ZiBDZF4zUGq3tC0ZUV",
+            "datetime": "2024-12-20T00:00",
+            "title": "Holy Land Christians",
+            "description": {
+                "data": {},
+                "content": [
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "This Sunday, December 22, we will be hearing about the Christians of the Holy Land, and after the service in the Narthex a display of handmade olive wood religious articles from Bethlehem will be available for purchase. These carvings include olivewood Nativity sets, crosses, Christmas ornaments, candle holders, angels and many other religious crafts that could make a nice wedding, baptism, confirmation, Easter and Christmas gifts. The carvings are handmade by Christian families from Bethlehem who rely on it for their daily bread.",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    },
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "More than 70% of the Christian Community in the Holy Land depend upon tourism as their only source of income. For decades those Christians have been enduring many hardships as tourism in Bethlehem has plummeted and access to other sources of income has been sharply restricted due to the ongoing conflict, the wars, the 12-yard wall built around Bethlehem, the COVID-19 pandemic, and nowadays the catastrophic ongoing war.  Due to this tourists are afraid and unable to visit the Holy Land. This made it very difficult for the Christian families to find their daily bread and forced them to immigrate and flee their homeland since they lost their source of income. The Christian population of the Holy Land was 30% in the last century, today it is less than 1%. If it continues like this, in few years we will find no Christians in the land of Christ, which could cause tragic consequences to our faith and holy sites. A Christian family from Bethlehem, Shady Hannona and his wife, Feda'a, will be telling us the story of the Christians of the Holy Land and they will be presenting these carvings after the services.  ",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    }
+                ],
+                "nodeType": "document"
+            },
+            "type": [
+                {
+                    "id": "5ktejUJ8noonowWZUs0uN7",
+                    "type": "General"
+                }
+            ],
+            "image": null,
+            "attachments": [],
+            "videoId": null
+        },
+        {
+            "id": "33yHQgU7W3uMlL5bbEsWIa",
+            "datetime": "2024-12-20T00:00",
+            "title": "Don't Forget!",
+            "description": {
+                "data": {},
+                "content": [
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "ONE Sunday:  Can you commit to attending ONE Sunday school class next Sunday? All adults are invited for ONE special Sunday school class on Sunday, December 29 at 9am in the Fellowship Hall. We will discuss ONE word. The ONE word program leads each person to discover their ONE word for this new year, 2025. All are invited.",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    }
+                ],
+                "nodeType": "document"
+            },
+            "type": [
+                {
+                    "id": "5ktejUJ8noonowWZUs0uN7",
+                    "type": "General"
+                }
+            ],
+            "image": null,
+            "attachments": [],
+            "videoId": null
+        },
+        {
+            "id": "70HNZuXWKLO7JfWdcoRMYV",
+            "datetime": "2024-12-20T00:00",
+            "title": "Join us for lunch",
+            "description": {
+                "data": {},
+                "content": [
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "Lunch will be provided after the 11am Christmas Eve service.",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    }
+                ],
+                "nodeType": "document"
+            },
+            "type": [
+                {
+                    "id": "5ktejUJ8noonowWZUs0uN7",
+                    "type": "General"
+                }
+            ],
+            "image": null,
+            "attachments": [],
+            "videoId": null
+        },
+        {
+            "id": "1q6XHQTdwces7XcHCF0Zz4",
+            "datetime": "2024-12-20T00:00",
+            "title": "Altar Guild",
+            "description": {
+                "data": {},
+                "content": [
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "Have you considered helping with the Altar Guild Ministry? We need volunteers to help prepare sacraments for Holy Communion. It’s a fulfilling use of your time and requires about an hour each week for a month (40 minutes to prepare and 20 minutes to put away). If you are interested or have questions contact Ann Hutchens at (803)331-3345.",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    }
+                ],
+                "nodeType": "document"
+            },
+            "type": [
+                {
+                    "id": "5ktejUJ8noonowWZUs0uN7",
+                    "type": "General"
+                }
+            ],
+            "image": null,
+            "attachments": [],
+            "videoId": null
+        },
+        {
+            "id": "3PDN38SvzIqRM1t7WvSPb4",
+            "datetime": "2024-12-20T00:00",
+            "title": "Prayer Requests ",
+            "description": {
+                "data": {},
+                "content": [
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "Jerry Bundrick",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    },
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "Jerry Shealy",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    },
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "John DiMascio",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    },
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "Butch Russell",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    },
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "Laurie Schmidt",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    },
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "Helen Comalander",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    },
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "Tim Schmidt",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    },
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "Teressa Wessinger and entire family on the death of George Wessinger",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    },
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "Pastor Ron on the death of his brother, James Philabaum",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    }
+                ],
+                "nodeType": "document"
+            },
+            "type": [
+                {
+                    "id": "5ktejUJ8noonowWZUs0uN7",
+                    "type": "General"
+                }
+            ],
+            "image": null,
+            "attachments": [],
+            "videoId": null
+        },
+        {
+            "id": "5TU4N0obJC6Oyk6RVEagcy",
+            "datetime": "2024-12-20T00:00",
+            "title": "Agape Circle",
+            "description": {
+                "data": {},
+                "content": [
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "We have ",
+                                "nodeType": "text"
+                            },
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "changed our meeting date and times. We will now meet on the ",
                                 "nodeType": "text"
                             },
                             {
                                 "data": {},
                                 "marks": [
                                     {
+                                        "type": "underline"
+                                    },
+                                    {
                                         "type": "bold"
                                     }
                                 ],
-                                "value": "November 10.",
+                                "value": "first Thursday of the month at 5:30",
                                 "nodeType": "text"
                             },
                             {
                                 "data": {},
                                 "marks": [],
-                                "value": " Order forms are available at the Welcome Center if you would like to order. Turn the form into the office with your payment. Thank you!",
+                                "value": ". We always meet at the church. ANYONE looking to see what happens in a circle, visit us! ANYONE looking to join a circle, join with us! We have a fun time and would welcome you gladly!",
                                 "nodeType": "text"
                             }
                         ],
@@ -105,9 +450,9 @@
             "videoId": null
         },
         {
-            "id": "2A96Ed23YaciBZh3deubMI",
-            "datetime": "2024-10-18T00:00",
-            "title": "Reformation Sunday",
+            "id": "79X2SeCCCmfBp7xFkcRvfI",
+            "datetime": "2024-12-20T00:00",
+            "title": "Game on for the New Year!",
             "description": {
                 "data": {},
                 "content": [
@@ -117,7 +462,35 @@
                             {
                                 "data": {},
                                 "marks": [],
-                                "value": "Don’t forget to wear red Sunday, October 27th which represents the Holy Spirit and the Martyrs of the Christian Church. Reformation Sunday marks the anniversary of the day Martin Luther posted his Ninety-five Theses on the door of the Castle Church in Wittenberg, Germany (October 31, 1517). ",
+                                "value": "Ring in the New Year with fun, food, and fellowship at our New Year’s Eve Game Night! Join us in the Fellowship Hall on New Year’s Eve at 7pm for an evening filled with laughter and connection. Bring your favorite game—new or classic—and enjoy playing at our game tables. We’ll also have a Wii setup for even more excitement. Bring your favorite party food to share and enjoy a delicious spread with friends as we celebrate together. Around 9pm, we’ll join in on a New Year’s Eve ball drop from another country to mark the occasion. If the fun keeps going, we’ll stick around until 10pm.",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    },
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "We’re also giving back during this celebration. Bring a Christmas gift you’d like to regift for our ",
+                                "nodeType": "text"
+                            },
+                            {
+                                "data": {},
+                                "marks": [
+                                    {
+                                        "type": "italic"
+                                    }
+                                ],
+                                "value": "We Care",
+                                "nodeType": "text"
+                            },
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": " initiative. Additionally, we’re collecting children’s socks and underwear through our Action Team. Invite your friends and kick off 2025 with a night of joy, laughter, and generosity. We can’t wait to see you there!",
                                 "nodeType": "text"
                             }
                         ],
@@ -128,6 +501,10 @@
             },
             "type": [
                 {
+                    "id": "3Zl7eAG9eIPOZLPyA11Uj8",
+                    "type": "Event"
+                },
+                {
                     "id": "5ktejUJ8noonowWZUs0uN7",
                     "type": "General"
                 }
@@ -137,8 +514,8 @@
             "videoId": null
         },
         {
-            "id": "40M6QJMB7uS5JR7Nj8qmYp",
-            "datetime": "2024-10-18T00:00",
+            "id": "gYc2fEDwXzW2qCaXsMLH3",
+            "datetime": "2024-12-13T00:00",
             "title": "Prayer Requests",
             "description": {
                 "data": {},
@@ -149,7 +526,7 @@
                             {
                                 "data": {},
                                 "marks": [],
-                                "value": "--Ann B. Shealy",
+                                "value": "Jerry Bundrick",
                                 "nodeType": "text"
                             }
                         ],
@@ -161,7 +538,7 @@
                             {
                                 "data": {},
                                 "marks": [],
-                                "value": "--Jerry Shealy",
+                                "value": "Jerry Shealy",
                                 "nodeType": "text"
                             }
                         ],
@@ -173,39 +550,7 @@
                             {
                                 "data": {},
                                 "marks": [],
-                                "value": "--Lois Bundrick",
-                                "nodeType": "text"
-                            }
-                        ],
-                        "nodeType": "paragraph"
-                    }
-                ],
-                "nodeType": "document"
-            },
-            "type": [
-                {
-                    "id": "5ktejUJ8noonowWZUs0uN7",
-                    "type": "General"
-                }
-            ],
-            "image": null,
-            "attachments": [],
-            "videoId": null
-        },
-        {
-            "id": "6KUZqWLWy9D0Fx2aKjXjBq",
-            "datetime": "2024-10-18T00:00",
-            "title": "Visitation Team",
-            "description": {
-                "data": {},
-                "content": [
-                    {
-                        "data": {},
-                        "content": [
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": "Pastor Ron and the Visitation Team need you! Please prayerfully consider being a part of the Visitation Team. A commitment to the Visitation Team involves the following:",
+                                "value": "John DiMascio",
                                 "nodeType": "text"
                             }
                         ],
@@ -217,7 +562,7 @@
                             {
                                 "data": {},
                                 "marks": [],
-                                "value": "—One meeting a month in the Sanctuary to pray with Pastor Ron and receive blessed communion elements to take with you.",
+                                "value": "Butch Russell",
                                 "nodeType": "text"
                             }
                         ],
@@ -229,7 +574,7 @@
                             {
                                 "data": {},
                                 "marks": [],
-                                "value": "—During that month, choose your day or days to visit members that no longer can attend in-person services.",
+                                "value": "Laurie Schmidt",
                                 "nodeType": "text"
                             }
                         ],
@@ -241,103 +586,7 @@
                             {
                                 "data": {},
                                 "marks": [],
-                                "value": "Pastor Ron will provide training so that the Team will understand the expectations and to answer any questions team members may have. We want to make sure we are reaching everyone who is unable to attend in-person. If you would like to volunteer, please contact the office or sign up in the narthex.",
-                                "nodeType": "text"
-                            }
-                        ],
-                        "nodeType": "paragraph"
-                    }
-                ],
-                "nodeType": "document"
-            },
-            "type": [
-                {
-                    "id": "5ktejUJ8noonowWZUs0uN7",
-                    "type": "General"
-                }
-            ],
-            "image": null,
-            "attachments": [],
-            "videoId": null
-        },
-        {
-            "id": "2psJpIMdRH13NTtH9nc74l",
-            "datetime": "2024-10-11T00:00",
-            "title": "Lutheran Men",
-            "description": {
-                "data": {},
-                "content": [
-                    {
-                        "data": {},
-                        "content": [
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": "We meet Monday, October 14th.  Sign-up at the Welcome Center. The program will be led by a master bee keeper.",
-                                "nodeType": "text"
-                            }
-                        ],
-                        "nodeType": "paragraph"
-                    }
-                ],
-                "nodeType": "document"
-            },
-            "type": [
-                {
-                    "id": "5ktejUJ8noonowWZUs0uN7",
-                    "type": "General"
-                }
-            ],
-            "image": null,
-            "attachments": [],
-            "videoId": null
-        },
-        {
-            "id": "6NPhgQdwLEeG7iEab1yp6s",
-            "datetime": "2024-10-11T00:00",
-            "title": "Sweatshirts for Newberry Boys Farm",
-            "description": {
-                "data": {},
-                "content": [
-                    {
-                        "data": {},
-                        "content": [
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": "Agape Circle has been collecting sweatshirts for the Boys at Newberry Boys Farm. We could use your help! If you would like to contribute to this project, bring any kind of ",
-                                "nodeType": "text"
-                            },
-                            {
-                                "data": {},
-                                "marks": [
-                                    {
-                                        "type": "underline"
-                                    }
-                                ],
-                                "value": "new",
-                                "nodeType": "text"
-                            },
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": " sweatshirt to our collection box in the Narthex. Sweatshirts can be any size or color, crew neck, zip up, or hoodie. We will collect through ",
-                                "nodeType": "text"
-                            },
-                            {
-                                "data": {},
-                                "marks": [
-                                    {
-                                        "type": "underline"
-                                    }
-                                ],
-                                "value": "Sunday, Oct 20th ",
-                                "nodeType": "text"
-                            },
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": "and deliver on Thursday October 24th. ",
+                                "value": "Helen Comalander",
                                 "nodeType": "text"
                             }
                         ],
@@ -349,39 +598,7 @@
                             {
                                 "data": {},
                                 "marks": [],
-                                "value": "The boys range in age from first grade to twelfth grade. Their sizes vary, so the more we have the more likely we will have something for everyone! Thank you for any help you can give. ",
-                                "nodeType": "text"
-                            }
-                        ],
-                        "nodeType": "paragraph"
-                    }
-                ],
-                "nodeType": "document"
-            },
-            "type": [
-                {
-                    "id": "5ktejUJ8noonowWZUs0uN7",
-                    "type": "General"
-                }
-            ],
-            "image": null,
-            "attachments": [],
-            "videoId": null
-        },
-        {
-            "id": "1sVKFOO6qSiGSXQNZemJeJ",
-            "datetime": "2024-10-11T00:00",
-            "title": "Prayer Requests",
-            "description": {
-                "data": {},
-                "content": [
-                    {
-                        "data": {},
-                        "content": [
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": "--Ann B. Shealy",
+                                "value": "Tim Schmidt",
                                 "nodeType": "text"
                             }
                         ],
@@ -393,81 +610,7 @@
                             {
                                 "data": {},
                                 "marks": [],
-                                "value": "--Jerry Shealy",
-                                "nodeType": "text"
-                            }
-                        ],
-                        "nodeType": "paragraph"
-                    }
-                ],
-                "nodeType": "document"
-            },
-            "type": [
-                {
-                    "id": "5ktejUJ8noonowWZUs0uN7",
-                    "type": "General"
-                }
-            ],
-            "image": null,
-            "attachments": [],
-            "videoId": null
-        },
-        {
-            "id": "2ZpPObgUF6To6xS0zz6CDR",
-            "datetime": "2024-10-11T00:00",
-            "title": "LutheReaders",
-            "description": {
-                "nodeType": "document",
-                "data": {},
-                "content": [
-                    {
-                        "nodeType": "paragraph",
-                        "data": {},
-                        "content": [
-                            {
-                                "nodeType": "text",
-                                "value": "We meet Tuesday, October 15th, at 5:30pm.",
-                                "marks": [],
-                                "data": {}
-                            }
-                        ]
-                    }
-                ]
-            },
-            "type": [
-                {
-                    "id": "5ktejUJ8noonowWZUs0uN7",
-                    "type": "General"
-                }
-            ],
-            "image": null,
-            "attachments": [],
-            "videoId": null
-        },
-        {
-            "id": "2Dm3Xaj9kEmGEtn0Sk9Vqn",
-            "datetime": "2024-10-11T00:00",
-            "title": "Golden Agers Booklet",
-            "description": {
-                "data": {},
-                "content": [
-                    {
-                        "data": {},
-                        "content": [
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": "If you have turned 75 years old and are a new golden ager OR you need to update your existing information for the booklet, turn in to the church office at frontdesk@mthoreb.net. In order to print the books in time for Sunday, October 20th, we cannot accept any updates after ",
-                                "nodeType": "text"
-                            },
-                            {
-                                "data": {},
-                                "marks": [
-                                    {
-                                        "type": "bold"
-                                    }
-                                ],
-                                "value": "Monday, October 14th.",
+                                "value": "George Wessinger",
                                 "nodeType": "text"
                             }
                         ],
@@ -488,5 +631,5 @@
         }
     ],
     "page": 2,
-    "totalPages": 8
+    "totalPages": 14
 }

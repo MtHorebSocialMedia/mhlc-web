@@ -1,0 +1,16 @@
+{
+    "title": "AuthenticationRequest",
+    "description": "Request object for authenticating to the admin utils",
+    "type": "object",
+    "properties": {
+        "userName": {
+            "type": "string",
+            "isNotBlank": true
+        },
+        "password": {
+            "type": "string",
+            "isNotBlank": true
+        }
+    },
+    "required": ["userName", "password"]
+}

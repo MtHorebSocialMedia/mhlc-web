@@ -1,7 +1,7 @@
 <template>
     <template v-if="lgAndUp">
         <v-menu
-            v-for="(item) in menuItems"
+            v-for="(item) in menuItemsDisplayed"
             v-bind:key="item.id"
             open-on-hover
         >
@@ -45,7 +45,7 @@
             </template>
             <v-list>
                 <v-list-item
-                    v-for="(item, index) in menuItems"
+                    v-for="(item, index) in menuItemsDisplayed"
                     :key="index"
                     :value="index"
                 >
@@ -93,30 +93,6 @@
                         </v-menu>
                     </v-list-item-title>
                 </v-list-item>
-                <v-list-item :value="menuItems.length">
-                    <v-list-item-title>
-                        <v-btn
-                            color="primary"
-                            to="/donate"
-                            variant="text"
-                        >
-                            <v-icon></v-icon>
-                            Donate
-                        </v-btn>
-                    </v-list-item-title>
-                </v-list-item>
-                <v-list-item :value="menuItems.length+1">
-                    <v-list-item-title>
-                        <v-btn
-                            color="primary"
-                            to="/newsletter"
-                            variant="text"
-                        >
-                            <v-icon></v-icon>
-                            Join the Newsletter
-                        </v-btn>
-                    </v-list-item-title>
-                </v-list-item>
             </v-list>
         </v-menu>
     </template>
@@ -125,12 +101,37 @@
 
 <script setup>
     import { useContentStore } from '@/store/content';
+    import { useSecurityStore } from '@/store/security';
     import { storeToRefs } from 'pinia';
-    import { useDisplay } from 'vuetify'
+    import { useDisplay } from 'vuetify';
+    import { computed } from 'vue';
 
     const contentStore = useContentStore();
     const { menuItems } = storeToRefs(contentStore);
+    const securityStore = useSecurityStore();
+    const { isAuthenticatedUser } = storeToRefs(securityStore);
+
     const { lgAndUp } = useDisplay()
+
+    const menuItemsDisplayed = computed(() => {
+        const items = lgAndUp.value
+            ? menuItems.value
+            : menuItems.value.concat([
+                { label: 'Donate', path: '/donate' },
+                { label: 'Join the Newsletter', path: '/newsletter' }
+            ]);
+        const secureItems = isAuthenticatedUser.value ? [
+            {
+                label: 'Admin',
+                children: [
+                    { parent: 'admin-options', id: 'admin-home', label: 'Admin Home', path: '/admin' },
+                    { parent: 'admin-options', id: 'admin-analytics', label: 'Analytics', path: '/analytics' },
+                    { parent: 'admin-options', id: 'admin-logout', label: 'Logout', path: '/logout' }
+                ]
+            }
+        ] : [];
+        return items.concat(secureItems);
+    });
 </script>
 
 <style>

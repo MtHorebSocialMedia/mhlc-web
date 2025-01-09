@@ -1,9 +1,9 @@
 {
     "news": [
         {
-            "id": "3S6KFQLEpBgqyXNZ7P0pSZ",
-            "datetime": "2024-10-25T00:00",
-            "title": "Bulletin for October 27",
+            "id": "5z30y7KS0M6fB8kEUfJLyk",
+            "datetime": "2025-01-03T00:00",
+            "title": "Visitation Team Training",
             "description": {
                 "data": {},
                 "content": [
@@ -13,7 +13,7 @@
                             {
                                 "data": {},
                                 "marks": [],
-                                "value": "Check out this Sunday's bulletin.",
+                                "value": "Training will take place Saturday, January 11 at 10am in the Fellowship Hall. Please plan to attend if you are interested in helping Pastor Ron with our visitation ministry at Mt. Horeb. ",
                                 "nodeType": "text"
                             }
                         ],
@@ -29,24 +29,12 @@
                 }
             ],
             "image": null,
-            "attachments": [
-                {
-                    "title": "Bulletin for October 27",
-                    "file": {
-                        "url": "//assets.ctfassets.net/3wcsgs8fznel/6fGClbWQSztBhiHHfmdoB7/ed0131dab1fdc0ce2ee78f4a4ce5a09c/bulletin1027.pdf",
-                        "details": {
-                            "size": 1436724
-                        },
-                        "fileName": "bulletin1027.pdf",
-                        "contentType": "application/pdf"
-                    }
-                }
-            ],
+            "attachments": [],
             "videoId": null
         },
         {
-            "id": "6nP0mDRL4k3Yv2orQ6KT7D",
-            "datetime": "2024-10-25T00:00",
+            "id": "csWfnnd638EawK0ElLPBL",
+            "datetime": "2025-01-03T00:00",
             "title": "Prayer Requests",
             "description": {
                 "data": {},
@@ -57,7 +45,7 @@
                             {
                                 "data": {},
                                 "marks": [],
-                                "value": "Ann B. Shealy",
+                                "value": "Laurie Schmidt",
                                 "nodeType": "text"
                             }
                         ],
@@ -69,7 +57,7 @@
                             {
                                 "data": {},
                                 "marks": [],
-                                "value": "Jerry Shealy",
+                                "value": "Helen Comalander",
                                 "nodeType": "text"
                             }
                         ],
@@ -81,7 +69,31 @@
                             {
                                 "data": {},
                                 "marks": [],
-                                "value": "Cathryn Summer",
+                                "value": "Tim Schmidt",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    },
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "Catherine Nelson on the death of her husband, Larry",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    },
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "Mike Greene on the death of his wife, Margaret",
                                 "nodeType": "text"
                             }
                         ],
@@ -101,9 +113,9 @@
             "videoId": null
         },
         {
-            "id": "13q4bVurRp3IevrKIq2lMq",
-            "datetime": "2024-10-25T00:00",
-            "title": "Trunk or Treat \"Car\"nival",
+            "id": "40vSGAESklurRy8IBlrDdB",
+            "datetime": "2025-01-03T00:00",
+            "title": "Camp Can-Do",
             "description": {
                 "data": {},
                 "content": [
@@ -113,43 +125,7 @@
                             {
                                 "data": {},
                                 "marks": [],
-                                "value": "Join us this Sunday, October 27th, from 4-6pm in the Boundary Street parking lot. Decorate your car trunks with festive and creative themes or just come to help hand out candy as we enjoy fellowship with our church family and neighbors. Also, bring candy, snacks, or other appropriate prizes to hand out. Thank you!",
-                                "nodeType": "text"
-                            }
-                        ],
-                        "nodeType": "paragraph"
-                    }
-                ],
-                "nodeType": "document"
-            },
-            "type": [
-                {
-                    "id": "3Zl7eAG9eIPOZLPyA11Uj8",
-                    "type": "Event"
-                },
-                {
-                    "id": "5ktejUJ8noonowWZUs0uN7",
-                    "type": "General"
-                }
-            ],
-            "image": null,
-            "attachments": [],
-            "videoId": null
-        },
-        {
-            "id": "1jzmT7YwMT5mdtEisRAQtu",
-            "datetime": "2024-10-25T00:00",
-            "title": "Social Ministry Team",
-            "description": {
-                "data": {},
-                "content": [
-                    {
-                        "data": {},
-                        "content": [
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": "We will meet Thursday, October 31st at 10am.",
+                                "value": "For the months of January and February, 2025 all children are invited to participate in video lessons in the fellowship hall. Each Sunday at 9:10 a video from Davey and Goliath or Veggie Tales will be playing. Morning snacks will also be available. Stephanie Stoudemayer will be supervising and leading this group. Hope to see you there and bring a friend!!!",
                                 "nodeType": "text"
                             }
                         ],
@@ -169,9 +145,9 @@
             "videoId": null
         },
         {
-            "id": "3hVrcMFXOjXRgLG8J9uLsQ",
-            "datetime": "2024-10-25T00:00",
-            "title": "New Puzzle",
+            "id": "2jjwe5g4TQ1YbPWyHqugom",
+            "datetime": "2025-01-03T00:00",
+            "title": "We Care",
             "description": {
                 "data": {},
                 "content": [
@@ -181,87 +157,26 @@
                             {
                                 "data": {},
                                 "marks": [],
-                                "value": "There is a new puzzle in the Fellowship Hall. It is very tough so it will take lots of hands. Any time you can work on this puzzle would be appreciated. The theme of the puzzle is “Jesus finds us even when we are lost!” However, let’s try not to lose any pieces!",
-                                "nodeType": "text"
-                            }
-                        ],
-                        "nodeType": "paragraph"
-                    }
-                ],
-                "nodeType": "document"
-            },
-            "type": [
-                {
-                    "id": "5ktejUJ8noonowWZUs0uN7",
-                    "type": "General"
-                }
-            ],
-            "image": null,
-            "attachments": [],
-            "videoId": null
-        },
-        {
-            "id": "1m14eI9ycozhhHkIlwGDBr",
-            "datetime": "2024-10-25T00:00",
-            "title": "Reformation ",
-            "description": {
-                "data": {},
-                "content": [
-                    {
-                        "data": {},
-                        "content": [
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": "The church color is red this Sunday October 27th, which represents the Holy Spirit and the Martyrs of the Christian Church. Reformation Sunday marks the anniversary of the day Martin Luther posted his Ninety-five Theses on the door of the Castle Church in Wittenberg, Germany (October 31, 1517). So, don't forget to wear red!",
-                                "nodeType": "text"
-                            }
-                        ],
-                        "nodeType": "paragraph"
-                    }
-                ],
-                "nodeType": "document"
-            },
-            "type": [
-                {
-                    "id": "5ktejUJ8noonowWZUs0uN7",
-                    "type": "General"
-                }
-            ],
-            "image": null,
-            "attachments": [],
-            "videoId": null
-        },
-        {
-            "id": "31NFAnFVwNWPDekwTBgyto",
-            "datetime": "2024-10-25T00:00",
-            "title": "SONshine Bags",
-            "description": {
-                "data": {},
-                "content": [
-                    {
-                        "data": {},
-                        "content": [
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": "It is time for fall SONshine bags",
+                                "value": "Most needed items for ",
                                 "nodeType": "text"
                             },
                             {
                                 "data": {},
                                 "marks": [
                                     {
+                                        "type": "underline"
+                                    },
+                                    {
                                         "type": "bold"
                                     }
                                 ],
-                                "value": " ",
+                                "value": "January",
                                 "nodeType": "text"
                             },
                             {
                                 "data": {},
                                 "marks": [],
-                                "value": "These will be in the Fellowship Hall on October 31 through November 17. We have decided to rename these SONshine Bags so that we can spread sunshine and “Son”shine to our members who are unable to attend services. Snacks, puzzles, notepads, pens or pencils or any other item that may bring a smile to our fellow members! Bags should be picked up after service on November 17 and delivered no later than Thanksgiving! The Social Ministry Team thanks you for your assistance with this ministry!",
+                                "value": " are pancake mix/syrup, pasta sauce (canned or plastic jars), large cans of soup, boxed pasta, Spaghettios, corn muffin mix, Vienna sausages, canned chicken, peanut butter, granola bars/snack crackers, dry beans. They always need dish soap and laundry detergent and cleaning supplies. ",
                                 "nodeType": "text"
                             }
                         ],
@@ -281,9 +196,9 @@
             "videoId": null
         },
         {
-            "id": "G8rSLl4ORCCk6JUxG7U4d",
-            "datetime": "2024-10-25T00:00",
-            "title": "Worship Team",
+            "id": "7tklcPyroraVikb6qbL2xW",
+            "datetime": "2025-01-03T00:00",
+            "title": "Bulletin for January 5",
             "description": {
                 "data": {},
                 "content": [
@@ -293,75 +208,7 @@
                             {
                                 "data": {},
                                 "marks": [],
-                                "value": "We meet this Sunday after the service.",
-                                "nodeType": "text"
-                            }
-                        ],
-                        "nodeType": "paragraph"
-                    }
-                ],
-                "nodeType": "document"
-            },
-            "type": [
-                {
-                    "id": "5ktejUJ8noonowWZUs0uN7",
-                    "type": "General"
-                }
-            ],
-            "image": null,
-            "attachments": [],
-            "videoId": null
-        },
-        {
-            "id": "1FnwzNmHaHcEfrcjVHCyYy",
-            "datetime": "2024-10-18T00:00",
-            "title": "Golden Agers",
-            "description": {
-                "data": {},
-                "content": [
-                    {
-                        "data": {},
-                        "content": [
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": "This Sunday, October 20th, we celebrate the lives of our members who are 75 years and older.  Stay after worship to enjoy a catered lunch!",
-                                "nodeType": "text"
-                            }
-                        ],
-                        "nodeType": "paragraph"
-                    }
-                ],
-                "nodeType": "document"
-            },
-            "type": [
-                {
-                    "id": "3Zl7eAG9eIPOZLPyA11Uj8",
-                    "type": "Event"
-                },
-                {
-                    "id": "5ktejUJ8noonowWZUs0uN7",
-                    "type": "General"
-                }
-            ],
-            "image": null,
-            "attachments": [],
-            "videoId": null
-        },
-        {
-            "id": "3kW8Hs7rbQofbxlda2vecD",
-            "datetime": "2024-10-18T00:00",
-            "title": "Bulletin for October 20",
-            "description": {
-                "data": {},
-                "content": [
-                    {
-                        "data": {},
-                        "content": [
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": "Check out this Sunday's bulletin.",
+                                "value": "Check out this Sunday's bulletin",
                                 "nodeType": "text"
                             }
                         ],
@@ -379,20 +226,234 @@
             "image": null,
             "attachments": [
                 {
-                    "title": "October 20 bulletin",
+                    "title": "January 5 bulletin",
                     "file": {
-                        "url": "//assets.ctfassets.net/3wcsgs8fznel/509gqAJ2XX77O08Kn5nET7/af4500d76f8bcb315d30de41bd193739/bulletin1020.pdf",
+                        "url": "//assets.ctfassets.net/3wcsgs8fznel/5l8WE9Nc5nPPkU0nn6mQkK/9e9e3a7138dfcf059be7c349c9aeed18/bulletin_0105.pdf",
                         "details": {
-                            "size": 1203594
+                            "size": 1487124
                         },
-                        "fileName": "bulletin1020.pdf",
+                        "fileName": "bulletin 0105.pdf",
                         "contentType": "application/pdf"
                     }
                 }
             ],
             "videoId": null
+        },
+        {
+            "id": "5uyTUXGednEeeSitkTiOqE",
+            "datetime": "2025-01-03T00:00",
+            "title": "Leisure Timers",
+            "description": {
+                "data": {},
+                "content": [
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "We meet ",
+                                "nodeType": "text"
+                            },
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "Tuesday, January 7th at 10:30am. Sign up at the Welcome Center. ",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    }
+                ],
+                "nodeType": "document"
+            },
+            "type": [
+                {
+                    "id": "5ktejUJ8noonowWZUs0uN7",
+                    "type": "General"
+                }
+            ],
+            "image": null,
+            "attachments": [],
+            "videoId": null
+        },
+        {
+            "id": "256XgnNYY82vzlivppapyZ",
+            "datetime": "2025-01-03T00:00",
+            "title": "Altar Guild",
+            "description": {
+                "data": {},
+                "content": [
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "Have you considered helping with the Altar Guild Ministry? We need volunteers to help prepare sacraments for Holy Communion. It’s a fulfilling use of your time and requires about an hour each week for a month (40 minutes to prepare and 20 minutes to put away). If you are interested or have questions contact Ann Hutchens at (803)331-3345.",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    }
+                ],
+                "nodeType": "document"
+            },
+            "type": [
+                {
+                    "id": "5ktejUJ8noonowWZUs0uN7",
+                    "type": "General"
+                }
+            ],
+            "image": null,
+            "attachments": [],
+            "videoId": null
+        },
+        {
+            "id": "7qCOamSGZun6xJTtj6ERHP",
+            "datetime": "2024-12-27T00:00",
+            "title": "Prayer Requests",
+            "description": {
+                "data": {},
+                "content": [
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "Jerry Bundrick",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    },
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "Laurie Schmidt",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    },
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "Helen Comalander",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    },
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "Tim Schmidt",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    }
+                ],
+                "nodeType": "document"
+            },
+            "type": [
+                {
+                    "id": "5ktejUJ8noonowWZUs0uN7",
+                    "type": "General"
+                }
+            ],
+            "image": null,
+            "attachments": [],
+            "videoId": null
+        },
+        {
+            "id": "4wDkwYqMzF5z2V7cg2oqPd",
+            "datetime": "2024-12-27T00:00",
+            "title": "Bulletin for December 29",
+            "description": {
+                "data": {},
+                "content": [
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "Check out this Sunday's bulletin",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    }
+                ],
+                "nodeType": "document"
+            },
+            "type": [
+                {
+                    "id": "5ktejUJ8noonowWZUs0uN7",
+                    "type": "General"
+                }
+            ],
+            "image": null,
+            "attachments": [
+                {
+                    "title": "Bulletin for November 29",
+                    "file": {
+                        "url": "//assets.ctfassets.net/3wcsgs8fznel/2G4pEVKDTv36zz9prA4bEV/3d2fb5d0f0719f5ff6176f7621823487/bulletin_1229.pdf",
+                        "details": {
+                            "size": 1299509
+                        },
+                        "fileName": "bulletin 1229.pdf",
+                        "contentType": "application/pdf"
+                    }
+                }
+            ],
+            "videoId": null
+        },
+        {
+            "id": "4gWazpTYJqrd19OqOsJ1NN",
+            "datetime": "2024-12-27T00:00",
+            "title": "Don't Forget!",
+            "description": {
+                "data": {},
+                "content": [
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "ONE Sunday: Can you commit to attending ONE Sunday school class next Sunday? All adults are invited for ONE special Sunday school class on Sunday, December 29 at 9am in the Fellowship Hall. We will discuss ONE word. The ONE word program leads each person to discover their ONE word for this new year, 2025. All are invited.",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    }
+                ],
+                "nodeType": "document"
+            },
+            "type": [
+                {
+                    "id": "5ktejUJ8noonowWZUs0uN7",
+                    "type": "General"
+                }
+            ],
+            "image": null,
+            "attachments": [],
+            "videoId": null
         }
     ],
     "page": 1,
-    "totalPages": 8
+    "totalPages": 14
 }

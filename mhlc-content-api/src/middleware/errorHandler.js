@@ -1,5 +1,5 @@
-const { SystemError, BadRequestError, ConflictError } = require('./apiErrors');
-const { getLogger } = require('./logger');
+const { SystemError, BadRequestError, ConflictError } = require('../apiErrors');
+const { getLogger } = require('../utils/logger');
 
 const logger = getLogger('errorHandler');
 

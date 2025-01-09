@@ -5,8 +5,8 @@ const {
     getNewsEntries,
     getBlogPosts,
     getSpecialAnnouncements
-} = require('./contentService');
-const { getVideosList } = require('./youtubeService');
+} = require('./services/contentService');
+const { getVideosList } = require('./services/youtubeService');
 
 module.exports = (req, res, next) =>{
 
@@ -36,7 +36,7 @@ module.exports = (req, res, next) =>{
                 news.map((item) => ({
                     title: item.title,
                     description: documentToHtmlString(item.description),
-                    url: 'https://mthoreb.net/news/'+item.id,
+                    url: `https://mthoreb.net/news/${item.id}?src=enews`,
                     guid: item.id,
                     author: 'Mt. Horeb Lutheran Church',
                     date: item.datetime
@@ -45,7 +45,7 @@ module.exports = (req, res, next) =>{
                 blogs.map((item) => ({
                     title: item.title,
                     description: documentToHtmlString(item.content),
-                    url: 'https://mthoreb.net/blog-posts/'+item.id,
+                    url: `https://mthoreb.net/blog-posts/${item.id}?src=enews`,
                     guid: item.id,
                     author: item.author.name,
                     date: item.publishDate
@@ -54,7 +54,7 @@ module.exports = (req, res, next) =>{
                 announcements.map((announcement => ({
                     title: `Special Announcement: ${announcement.title}`,
                     description: documentToHtmlString(announcement.description),
-                    url: 'https://mthoreb.net',
+                    url: 'https://mthoreb.net?src=enews',
                     guid: announcement.id,
                     author: 'Mt. Horeb Lutheran Church',
                     date: new Date().toISOString()

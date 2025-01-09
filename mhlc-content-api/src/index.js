@@ -3,9 +3,9 @@ const express = require('express');
 const apiRouter = require('./apiRouter');
 const bodyParser = require('body-parser');
 const rssFeed = require('./rssFeed');
-const { getLogger } = require('./logger');
-const { getAuditHandler } = require('./auditHandler');
-const { initialize: initializeAnalytics } = require('./analyticsService');
+const { getLogger } = require('./utils/logger');
+const { getAuditHandler } = require('./middleware/auditHandler');
+const { initialize: initializeAnalytics } = require('./services/analyticsService');
 
 const app = express();
 const port = 3000;

@@ -2,7 +2,8 @@ const fs = require('fs').promises;
 const path = require('path');
 const process = require('process');
 const { google } = require('googleapis');
-const { getLogger } = require('./logger');
+const { getLogger } = require('../utils/logger');
+const { isbot } = require('isbot');
 
 const logger = getLogger('analyticsService');
 
@@ -109,9 +110,32 @@ const events = [];
  * @param {google.auth.OAuth2} auth The authenticated Google OAuth client.
  */
 async function writeEvent(event) {
-    if (process.env.GOOGLE_APIS_ANALYTICS_ENABLED === 'true' && initialized) {
+    if (process.env.GOOGLE_APIS_ANALYTICS_ENABLED === 'true' && initialized && !isbot(event.userAgent)) {
         events.push(event);
     }
+}
+
+async function getEvents(monthId) {
+    const auth = await authorize();
+    const sheets = google.sheets({ version: 'v4', auth });
+    const res = await sheets.spreadsheets.values.get({
+        spreadsheetId: process.env.GOOGLE_APIS_ANALYTICS_SHEET_ID,
+        range: `Events-${monthId}!A2:J`
+    });
+    return res.data.values.map(([dateTime, environment, status, method, resourceType, resource, duration, referrer, ip, agent]) => ({
+        dateTime,
+        environment,
+        status,
+        method,
+        resourceType,
+        resource,
+        duration,
+        referrer,
+        ip: ip.replace('::ffff:', ''),
+        agent,
+        fromFacebook: resource.includes('fbclid='),
+        fromEnews: resource.includes('src=enews')
+    })).filter(({ environment, resourceType, agent }) => (environment.startsWith('prod') && !isbot(agent) && (resourceType === 'route' || resourceType === 'dialog')));
 }
 
 async function processEvents() {
@@ -129,6 +153,7 @@ async function writeToSheets(events) {
     return new Promise((resolve, reject) => {
         try {
             const sheets = google.sheets({ version: 'v4', auth });
+            const monthId = new Date().toISOString().substring(0, 7);
             const resource = {
                 values: events.map((event) => ([
                     event.dateTime,
@@ -145,7 +170,7 @@ async function writeToSheets(events) {
             };
             sheets.spreadsheets.values.append({
                 spreadsheetId: process.env.GOOGLE_APIS_ANALYTICS_SHEET_ID,
-                range: 'Events!A1',
+                range: `Events-${monthId}!A1`,
                 valueInputOption: 'RAW',
                 resource
             }, (err) => {
@@ -161,4 +186,4 @@ async function writeToSheets(events) {
     });
 }
 
-module.exports = { initialize, writeEvent };
+module.exports = { initialize, writeEvent, getEvents };
