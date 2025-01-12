@@ -3,7 +3,7 @@ const Ajv = require('ajv');
 const addFormats = require('ajv-formats');
 const { getLogger } = require('../utils/logger');
 
-const logger = getLogger('validationHandler');
+const logger = getLogger('middleware/validationHandler');
 
 function isNotBlank(data) {
     return (data !== null) && (data !== undefined) && (data.trim().length > 0);
