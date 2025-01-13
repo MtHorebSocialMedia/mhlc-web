@@ -1,7 +1,12 @@
+const { getLogger } = require('../utils/logger');
+
+const logger = getLogger('svc/cache');
+
 // Super simple memory cache
 const cacheEntries = {};
 
 function setCacheEntry(key, value, ttlMs) {
+    logger.trace('Setting cache entry: ', { key, ttlMs })
     cacheEntries[key] = {
         expiration: new Date().getTime() + ttlMs,
         value
@@ -14,9 +19,11 @@ function getCacheEntry(key) {
     if (cacheEntries[key]) {
         const cacheEntry = cacheEntries[key];
         if (cacheEntry.expiration <= currentTime) {
-            removeCacheValue(key);
+            logger.trace('Cache entry has expired: ', { key });
+            removeCacheEntry(key);
         } else {
-          response = cacheEntry.value;
+            logger.trace('Returning cache entry: ', { key });
+            response = cacheEntry.value;
         }
     }
     return response;

@@ -1,7 +1,7 @@
 const { getLogger } = require('../utils/logger');
 const { writeEvent } = require('../services/analyticsService');
 
-const logger = getLogger('middleware/auditHandler');
+const logger = getLogger('mid/audit');
 
 const getAuditHandler = () => {
     return (

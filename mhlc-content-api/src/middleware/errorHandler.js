@@ -1,7 +1,7 @@
 const { SystemError, BadRequestError, ConflictError } = require('../apiErrors');
 const { getLogger } = require('../utils/logger');
 
-const logger = getLogger('middleware/errorHandler');
+const logger = getLogger('mid/error');
 
 const getErrorHandler = () => {
     return (

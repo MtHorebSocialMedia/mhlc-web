@@ -1,7 +1,7 @@
 const { getLogger } = require('../utils/logger');
 const { getCacheEntry, setCacheEntry } = require('../services/cacheService');
 
-const logger = getLogger('middleware/cache');
+const logger = getLogger('mid/cache');
 
 const getCacheHandler = (ttlMs) => {
     return (
@@ -11,11 +11,14 @@ const getCacheHandler = (ttlMs) => {
     ) => {
         const cachedResponse = getCacheEntry(req.originalUrl);
         if (cachedResponse) {
+            logger.trace('Returning cached response: ', cachedResponse);
             res.send(cachedResponse);
         } else {
-            res.on('finish', () => {
-                setCacheEntry(req.originalUrl, res.body, ttlMs);
-            });
+            const oldSend = res.send;
+            res.send = function(data) {
+              setCacheEntry(req.originalUrl, data, ttlMs);
+              oldSend.apply(res, arguments);
+            };
             next();
         }
     };
