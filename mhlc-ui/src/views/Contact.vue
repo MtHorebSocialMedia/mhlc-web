@@ -5,16 +5,12 @@
           Contact
         </h2>
         <hr />
-        <v-alert>
-          <ContentBlock contentBlockKey="contact/header" />
-        </v-alert>
-        <!-- <ContactForm /> -->
+        <ContactForm />
       </v-container>
 </template>
 
 <script setup>
-  // import ContactForm from '@/components/ContactForm.vue'
-  import ContentBlock from '@/components/ContentBlock.vue'
+  import ContactForm from '@/components/ContactForm.vue'
 </script>
 
 <style scoped>

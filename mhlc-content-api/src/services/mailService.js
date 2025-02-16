@@ -2,6 +2,7 @@
 // https://mailchimp.com/developer/marketing/api/
 
 const mailchimp = require('@mailchimp/mailchimp_marketing');
+const sgMail = require('@sendgrid/mail');
 const { getLogger } = require('../utils/logger');
 
 const logger = getLogger('mailService');
@@ -12,6 +13,11 @@ function getMailchimpClient() {
         server: process.env.MAILCHIMP_SERVER_PREFIX,
     });
     return mailchimp;
+}
+
+function getSendgridClient() {
+    sgMail.setApiKey(process.env.SENDGRID_API_KEY);
+    return sgMail;
 }
 
 // https://mailchimp.com/developer/marketing/api/list-members/
@@ -78,6 +84,16 @@ async function getNewsletterInterests() {
 async function callPing() {
     const response = await mailchimp.ping.get();
     logger.debug(response);
+}
+
+async function sendMail(to, subject, html) {
+    const from = process.env.SENDGRID_FROM_ADDRESS;
+    return getSendgridClient().send({
+        to,
+        from,
+        subject,
+        html
+    });
 }
 
 module.exports = { addMemberToNewsletter, getNewsletterInterests };

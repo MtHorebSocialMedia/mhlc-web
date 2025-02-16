@@ -4,10 +4,31 @@
             <p class="instructions">Please fill out and submit the following form and we will contact you as soon as possible.</p>
             <p class="required-note"><v-icon color="red" size="x-small">mdi-asterisk</v-icon> indicates a required field.</p>
         </v-alert>
+        <v-alert v-if="contactMessage.validationResult && !contactMessage.validationResult.valid" type="error">
+            <div v-if="contactMessage.validationResult.errors.firstName">
+                The first name field is required.
+            </div>
+            <div v-if="contactMessage.validationResult.errors.lastName">
+                The last name field is required.
+            </div>
+            <div v-if="contactMessage.validationResult.errors.emailAddress">
+                A valid email address is required.
+            </div>
+            <div v-if="contactMessage.validationResult.errors.phoneNumber">
+                A valid phone number is required.
+            </div>
+            <div v-if="contactMessage.validationResult.errors.contactMethod">
+                A preferred method of contact is required.
+            </div>
+            <div v-if="contactMessage.validationResult.errors.message">
+                A message is required.
+            </div>
+        </v-alert>
         <v-form>
             <v-row>
                 <v-col>
                     <v-text-field
+                        v-model="contactMessage.request.firstName"
                         label="First Name"
                         variant="outlined"
                     >
@@ -20,6 +41,7 @@
             <v-row>
                 <v-col>
                     <v-text-field
+                        v-model="contactMessage.request.lastName"
                         label="Last Name"
                         variant="outlined"
                     >
@@ -32,6 +54,7 @@
             <v-row>
                 <v-col>
                     <v-text-field
+                        v-model="contactMessage.request.emailAddress"
                         label="Email Address"
                         variant="outlined"
                     >
@@ -44,6 +67,7 @@
             <v-row>
                 <v-col>
                     <v-text-field
+                        v-model="contactMessage.request.phoneNumber"
                         label="Phone Number"
                         variant="outlined"
                     >
@@ -56,15 +80,21 @@
             <v-row>
                 <v-col>
                     <v-select
+                        v-model="contactMessage.request.contactMethod"
                         label="Preferred Method of Contact"
                         :items="['Email', 'Phone']"
                         variant="outlined"
-                    ></v-select>
+                    >
+                        <template v-slot:append-inner>
+                            <v-icon color="red" size="x-small">mdi-asterisk</v-icon>
+                        </template>
+                    </v-select>
                 </v-col>
             </v-row>
             <v-row>
                 <v-col>
                     <v-select
+                        v-model="contactMessage.request.contactReason"
                         label="Nature of Contact"
                         :items="['Pastor', 'Office', 'Preschool', 'Social Media & Technology', 'Worship', 'Learn', 'Witness', 'Serve', 'Support']"
                         variant="outlined"
@@ -74,7 +104,8 @@
             <v-row>
                 <v-col>
                     <v-textarea
-                        label="Question/Comment"
+                        v-model="contactMessage.request.message"
+                        label="Question/Comment/Message"
                         variant="outlined"
                     >
                         <template v-slot:append-inner>
@@ -85,7 +116,13 @@
             </v-row>
             <v-row>
                 <v-col>
-                    <v-btn color="red" block>Submit</v-btn>
+                    <v-btn
+                        color="red"
+                        block
+                        @click="sendContactRequest()"
+                    >
+                        Submit
+                    </v-btn>
                 </v-col>
             </v-row>
         </v-form>
@@ -93,7 +130,29 @@
 </template>
 
 <script setup>
-    import { useContentStore } from '@/store/content';
+    import { ref } from 'vue';
+    import { validate } from '../utils/validationUtils';
+    import contactRequestSchema from '@mhlc/content-api/schemas/contactRequest.json';
+    const contactMessage = ref({
+        request: {
+            firstName: '',
+            lastName: '',
+            emailAddress: '',
+            phoneNumber: '',
+            contactMethod: '',
+            contactReason: '',
+            message: ''
+        },
+        validationResult: null,
+        sent: false
+    });
+    const sendContactRequest = async () => {
+        const contact = contactMessage.value;
+        contact.validationResult = validate(contact.request, contactRequestSchema);
+        if(contact.validationResult.valid) {
+            contact.sent = await useMailStore().sendContactRequest(contact.request);
+        }
+    };
 </script>
 
 <style>

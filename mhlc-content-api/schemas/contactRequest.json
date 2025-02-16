@@ -1,0 +1,34 @@
+{
+    "title": "ContactRequest",
+    "description": "Request object to send a message",
+    "type": "object",
+    "properties": {
+        "firstName": {
+            "type": "string",
+            "isNotBlank": true
+        },
+        "lastName": {
+            "type": "string",
+            "isNotBlank": true
+        },
+        "emailAddress": {
+            "type": "string",
+            "format": "email",
+            "isNotBlank": true
+        },
+        "phoneNumber": {
+            "type": "string",
+            "format": "phone",
+            "isNotBlank": true
+        },
+        "contactMethod": {
+            "type": "string",
+            "isNotBlank": true
+        },
+        "message": {
+            "type": "string",
+            "isNotBlank": true
+        }
+    },
+    "required": ["firstName", "lastName", "emailAddress", "phoneNumber", "contactMethod", "message"]
+}
