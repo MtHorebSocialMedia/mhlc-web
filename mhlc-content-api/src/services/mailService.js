@@ -96,4 +96,4 @@ async function sendMail(to, subject, html) {
     });
 }
 
-module.exports = { addMemberToNewsletter, getNewsletterInterests };
+module.exports = { addMemberToNewsletter, getNewsletterInterests, sendMail };

@@ -15,7 +15,7 @@ const {
 } = require('./services/contentService');
 const { getPaypalUrl } = require('./services/donationService');
 const { getVideosList } = require('./services/youtubeService');
-const { addMemberToNewsletter } = require('./services/mailService');
+const { addMemberToNewsletter, sendMail } = require('./services/mailService');
 const { getEvents } = require('./services/analyticsService');
 const { getValidationHandler } = require('./middleware/validationHandler');
 const { getAuthenticationHandler } = require('./middleware/authenticationHandler');
@@ -23,10 +23,12 @@ const { getErrorHandler } = require('./middleware/errorHandler');
 const paypalRequestSchema = require('../schemas/paypalRequest.json');
 const newsletterSignupSchema = require('../schemas/newsletterSignupRequest.json');
 const authenticationRequestSchema = require('../schemas/authenticationRequest.json');
+const contactRequestSchema = require('../schemas/contactRequest.json');
 const { getLogger } = require('./utils/logger');
 const { authenticate } = require('./services/securityService');
 const { jwtSign } = require('./utils/jwtUtils');
 const { getCacheHandler } = require('./middleware/cacheHandler');
+const { isbot } = require('isbot');
 
 const logger = getLogger('apiRouter');
 
@@ -268,6 +270,65 @@ router.post('/authenticate',
         })();
     }
 );
+
+router.post('/contact',
+    getValidationHandler({ bodySchema: contactRequestSchema }),
+    (req, res, next) => {
+        (async function() {
+            try {
+                const userAgent = req.get('User-Agent');
+                if (isbot(userAgent)) {
+                    logger.warn('Blocked a bot attempt to send a contact messsage');
+                    res.send({ success: false });
+                } else {
+                    const { firstName, lastName, emailAddress, phoneNumber, contactMethod, contactReason, message } = req.body;
+                    const to = 'nthngalone@gmail.com';
+                    const subject = `Message from ${firstName} ${lastName} via mthoreb.net`;
+                    const html = `
+                    <html>
+                        <body>
+                            <table>
+                                <tr>
+                                    <th>First Name:</th>
+                                    <td>${firstName}</td>
+                                </tr>
+                                <tr>
+                                    <th>Last Name:</th>
+                                    <td>${lastName}</td>
+                                </tr>
+                                <tr>
+                                    <th>Email Address:</th>
+                                    <td>${emailAddress}</td>
+                                </tr>
+                                <tr>
+                                    <th>Phone Number:</th>
+                                    <td>${phoneNumber}</td>
+                                </tr>
+                                <tr>
+                                    <th>Preferred Contact Method:</th>
+                                    <td>${contactMethod}</td>
+                                </tr>
+                                <tr>
+                                    <th>Nature of Contact:</th>
+                                    <td>${contactReason}</td>
+                                </tr>
+                                <tr>
+                                    <th>Question/Comment/Message:</th>
+                                    <td>${message}</td>
+                                </tr>
+                            </table>
+                        </body>
+                    </html>
+                    `;
+                    const success = await sendMail({ to, subject, html });
+                    res.send({ success });
+                }
+            } catch (err) {
+                next(err);
+            }
+        })();
+    }
+)
 
 router.use(getErrorHandler());
 

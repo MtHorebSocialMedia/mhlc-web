@@ -4,6 +4,9 @@
             <p class="instructions">Please fill out and submit the following form and we will contact you as soon as possible.</p>
             <p class="required-note"><v-icon color="red" size="x-small">mdi-asterisk</v-icon> indicates a required field.</p>
         </v-alert>
+        <v-alert v-if="contactError" type="error">
+            An unexpected error occured while trying to send your request.  Please try again.  If this continues to happen, please contact the church office.
+        </v-alert>
         <v-alert v-if="contactMessage.validationResult && !contactMessage.validationResult.valid" type="error">
             <div v-if="contactMessage.validationResult.errors.firstName">
                 The first name field is required.
@@ -132,6 +135,7 @@
 <script setup>
     import { ref } from 'vue';
     import { validate } from '../utils/validationUtils';
+    import { useMailStore } from '../store/mail';
     import contactRequestSchema from '@mhlc/content-api/schemas/contactRequest.json';
     const contactMessage = ref({
         request: {
@@ -146,16 +150,26 @@
         validationResult: null,
         sent: false
     });
+    const contactError = ref(false);
+
     const sendContactRequest = async () => {
-        const contact = contactMessage.value;
-        contact.validationResult = validate(contact.request, contactRequestSchema);
-        if(contact.validationResult.valid) {
-            contact.sent = await useMailStore().sendContactRequest(contact.request);
+        contactError.value = false;
+        try {
+            const contact = contactMessage.value;
+            contact.validationResult = validate(contact.request, contactRequestSchema);
+            if(contact.validationResult.valid) {
+                const { success } = await useMailStore().sendContactRequest(contact.request);
+                contact.sent = success;
+            }
+        } catch (error) {
+            console.log('An error occurred attempting to send the request: ', error);
+            contactError.value = true;
         }
     };
 </script>
 
 <style>
+    .v-container.contact-form .v-form { margin-top: 40px; }
     .v-container.contact-form .v-alert { margin-bottom: 20px; }
     .v-container.contact-form .v-alert .instructions { margin-bottom: 5px; }
     .v-container.contact-form .v-alert .required-note { text-align: right; }
