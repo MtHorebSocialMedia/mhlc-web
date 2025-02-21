@@ -114,12 +114,7 @@
     const { lgAndUp } = useDisplay()
 
     const menuItemsDisplayed = computed(() => {
-        const items = lgAndUp.value
-            ? menuItems.value
-            : menuItems.value.concat([
-                { label: 'Donate', path: '/donate' },
-                { label: 'Join the Newsletter', path: '/newsletter' }
-            ]);
+        const items = menuItems.value;
         const secureItems = isAuthenticatedUser.value ? [
             {
                 label: 'Admin',
