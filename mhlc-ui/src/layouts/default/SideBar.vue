@@ -21,9 +21,9 @@
                 <v-btn
                     color="red"
                     block
-                    @click="$router.push('/newsletter')"
+                    @click="$router.push('/content/prayer')"
                 >
-                    Join the Newsletter
+                    Send a Prayer Request
                 </v-btn>
             </v-col>
         </v-row>
@@ -32,9 +32,9 @@
                 <v-btn
                     color="red"
                     block
-                    @click="window.open('https://form.jotform.com/250355257588062')"
+                    @click="$router.push('/newsletter')"
                 >
-                    Prayer Requests
+                    Join the Newsletter
                 </v-btn>
             </v-col>
         </v-row>
