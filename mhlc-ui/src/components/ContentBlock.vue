@@ -16,7 +16,17 @@
                 :align="block.imageAlignment"
                 :link="block.imageLink"
             />
-            <RichContentRenderer :content="block.content" />
+            <v-container v-if="block.videoUrl" class="d-flex justify-center">
+                <EmbeddedVideo :videoId="block.videoId" />
+            </v-container>
+            <RichContentRenderer
+                v-if="block.content"
+                :content="block.content"
+            />
+            <div
+                v-if="block.jotformFormId"
+                ref="jotformWrapper"
+            ></div>
             <ResponsiveImage
                 v-if="block.image && block.imageAlignment === 'bottom'"
                 :src="block.image.url"
@@ -26,9 +36,6 @@
                 :align="block.imageAlignment"
                 :link="block.imageLink"
             />
-            <v-container v-if="block.videoUrl" class="d-flex justify-center">
-                <EmbeddedVideo :videoId="block.videoId" />
-            </v-container>
         </div>
     </div>
 </template>
@@ -46,15 +53,35 @@
   });
 
   const block = ref(null);
+  const jotformWrapper = ref(null);
 
   const contentStore = useContentStore();
   const { contentBlocks, contentAssistEnabled } = storeToRefs(contentStore);
 
-  block.value = contentBlocks.value[props.contentBlockKey];
-  if (!block.value) {
-    watch(contentBlocks, () => {
-        block.value = contentBlocks.value[props.contentBlockKey];
-    });
+  function initBlock(blockData) {
+      block.value = blockData;
+  }
+
+  watch(jotformWrapper, () => {
+    if(jotformWrapper.value && jotformWrapper.value.appendChild) {
+        const jotformScript = document.createElement("script");
+        jotformScript.setAttribute('type', 'text/javascript');
+        jotformScript.setAttribute(
+            'src',
+            `https://form.jotform.com/jsform/${block.value.jotformFormId}`
+        );
+        jotformWrapper.value.appendChild(jotformScript);
+    }
+  });
+
+  if(contentBlocks.value[props.contentBlockKey]) {
+      initBlock(contentBlocks.value[props.contentBlockKey]);
+  } else {
+      watch(contentBlocks, () => {
+          if(contentBlocks.value[props.contentBlockKey]) {
+              initBlock(contentBlocks.value[props.contentBlockKey]);
+          }
+      });
   }
 
 </script>

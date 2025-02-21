@@ -17,5 +17,8 @@
     "mhlc-content-api",
     "mhlc-ui",
     "mhlc-images"
-  ]
+  ],
+  "dependencies": {
+    "@sendgrid/mail": "^8.1.4"
+  }
 }

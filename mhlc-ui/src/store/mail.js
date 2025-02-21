@@ -8,7 +8,11 @@ export const useMailStore = defineStore('mail', () => {
         return (await getHttpClient().post('/api/newsletter/signup', request)).data;
     }
 
-    return { addMemberToNewsletter };
+    async function sendContactRequest(request) {
+        return (await getHttpClient().post('/api/contact', request)).data;
+    }
+
+    return { addMemberToNewsletter, sendContactRequest };
 });
 
 if (import.meta.env.MODE === 'development') {
@@ -17,6 +21,7 @@ if (import.meta.env.MODE === 'development') {
 
     addMocks((mock) => {
         mock.onPost("/api/newsletter/signup").reply(200, { success: true });
+        mock.onPost("/api/contact").reply(200, { success: true });
     });
 
 }

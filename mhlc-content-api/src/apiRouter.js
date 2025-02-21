@@ -15,7 +15,7 @@ const {
 } = require('./services/contentService');
 const { getPaypalUrl } = require('./services/donationService');
 const { getVideosList } = require('./services/youtubeService');
-const { addMemberToNewsletter } = require('./services/mailService');
+const { addMemberToNewsletter, sendMail } = require('./services/mailService');
 const { getEvents } = require('./services/analyticsService');
 const { getValidationHandler } = require('./middleware/validationHandler');
 const { getAuthenticationHandler } = require('./middleware/authenticationHandler');
@@ -26,6 +26,7 @@ const authenticationRequestSchema = require('../schemas/authenticationRequest.js
 const { getLogger } = require('./utils/logger');
 const { authenticate } = require('./services/securityService');
 const { jwtSign } = require('./utils/jwtUtils');
+const { getCacheHandler } = require('./middleware/cacheHandler');
 
 const logger = getLogger('apiRouter');
 
@@ -40,27 +41,33 @@ router.use((err, req, res, next) => {
     res.sendStatus(500);
 });
 
-router.get('/church-info', (req, res, next) => {
-    (async function() {
-        try {
-            const info = await getChurchInfo();
-            res.send(info);
-        } catch(err) {
-            next(err);
-        }
-    })();
-});
+router.get('/church-info',
+    getCacheHandler(60*1000),
+    (req, res, next) => {
+        (async function() {
+            try {
+                const info = await getChurchInfo();
+                res.send(info);
+            } catch(err) {
+                next(err);
+            }
+        })();
+    }
+);
 
-router.get('/menu-items', (req, res, next) => {
-    (async function() {
-        try {
-            const items = await getMenuItems();
-            res.send(items);
-        } catch(err) {
-            next(err);
-        }
-    })();
-});
+router.get('/menu-items',
+    getCacheHandler(60*1000),
+    (req, res, next) => {
+        (async function() {
+            try {
+                const items = await getMenuItems();
+                res.send(items);
+            } catch(err) {
+                next(err);
+            }
+        })();
+    }
+);
 
 router.get('/content-pages', (req, res, next) => {
     (async function() {
@@ -140,27 +147,33 @@ router.get('/blog-posts/:blogId', (req, res, next) => {
     })();
 });
 
-router.get('/staff', (req, res, next) => {
-    (async function() {
-        try {
-            const items = await getStaff();
-            res.send(items);
-        } catch(err) {
-            next(err);
-        }
-    })();
-});
+router.get('/staff',
+    getCacheHandler(60*1000),
+    (req, res, next) => {
+        (async function() {
+            try {
+                const items = await getStaff();
+                res.send(items);
+            } catch(err) {
+                next(err);
+            }
+        })();
+    }
+);
 
-router.get('/council', (req, res, next) => {
-    (async function() {
-        try {
-            const items = await getCouncil();
-            res.send(items);
-        } catch(err) {
-            next(err);
-        }
-    })();
-});
+router.get('/council',
+    getCacheHandler(60*1000),
+    (req, res, next) => {
+        (async function() {
+            try {
+                const items = await getCouncil();
+                res.send(items);
+            } catch(err) {
+                next(err);
+            }
+        })();
+    }
+);
 
 router.get('/video-list',
     (req, res, next) => {

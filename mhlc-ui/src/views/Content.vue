@@ -1,5 +1,9 @@
 <template>
-  <v-container class="content-page" ref="content-page">
+  <v-container
+    v-if="page"
+    class="content-page"
+    ref="content-page"
+  >
     <h2>
       <v-icon>mdi-image-filter-hdr-outline</v-icon>
       {{ page.title }}

@@ -3,7 +3,7 @@ const Ajv = require('ajv');
 const addFormats = require('ajv-formats');
 const { getLogger } = require('../utils/logger');
 
-const logger = getLogger('validationHandler');
+const logger = getLogger('middleware/validationHandler');
 
 function isNotBlank(data) {
     return (data !== null) && (data !== undefined) && (data.trim().length > 0);
@@ -11,6 +11,17 @@ function isNotBlank(data) {
 
 const ajv = new Ajv({ allErrors: true });
 addFormats(ajv);
+
+// Phone number formatter regex taken from: https://stackoverflow.com/questions/16699007/regular-expression-to-match-standard-10-digit-phone-number
+// Will match on:
+// 123-456-7890
+// (123) 456-7890
+// 123 456 7890
+// 123.456.7890
+// +91 (123) 456-7890
+// 1234567890
+ajv.addFormat('phone',  /^(\+\d{1,2}\s?)?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$/); // Example for a 10-digit US number
+
 ajv.addKeyword({
     type: 'string',
     keyword: 'isNotBlank',

@@ -1,89 +1,9 @@
 {
     "news": [
         {
-            "id": "7s9f5EzY8tjxKbzioK3L1B",
-            "datetime": "2024-12-20T00:00",
-            "title": "Outreach Coordinator",
-            "description": {
-                "data": {},
-                "content": [
-                    {
-                        "data": {},
-                        "content": [
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": "Applications for Outreach Coordinator are being accepted now. Help us find a Part-Time Outreach Coordinator to support communication and outreach efforts within the church and the community. Along with greeting visitors in the office, the Outreach Coordinator will manage communications, social media, website updates, and community engagement. A full description of the position is on the Welcome Center and the ",
-                                "nodeType": "text"
-                            },
-                            {
-                                "data": {
-                                    "uri": "https://mthoreb.net/content/jobs/outreach-coordinator"
-                                },
-                                "content": [
-                                    {
-                                        "data": {},
-                                        "marks": [
-                                            {
-                                                "type": "underline"
-                                            }
-                                        ],
-                                        "value": "website",
-                                        "nodeType": "text"
-                                    }
-                                ],
-                                "nodeType": "hyperlink"
-                            },
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": ". Resumes and references are being accepted through January 6, 2025, and can be emailed to ",
-                                "nodeType": "text"
-                            },
-                            {
-                                "data": {
-                                    "uri": "mailto:socialmedia@mthoreb.net"
-                                },
-                                "content": [
-                                    {
-                                        "data": {},
-                                        "marks": [
-                                            {
-                                                "type": "underline"
-                                            }
-                                        ],
-                                        "value": "socialmedia@mthoreb.net",
-                                        "nodeType": "text"
-                                    }
-                                ],
-                                "nodeType": "hyperlink"
-                            },
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": ".",
-                                "nodeType": "text"
-                            }
-                        ],
-                        "nodeType": "paragraph"
-                    }
-                ],
-                "nodeType": "document"
-            },
-            "type": [
-                {
-                    "id": "5ktejUJ8noonowWZUs0uN7",
-                    "type": "General"
-                }
-            ],
-            "image": null,
-            "attachments": [],
-            "videoId": null
-        },
-        {
-            "id": "1dESkYnmOygoROr4nATFIq",
-            "datetime": "2024-12-20T00:00",
-            "title": "Bulletin for December 22",
+            "id": "6a8xLg0zXLPupiOwDz52Ug",
+            "datetime": "2025-02-12T00:00",
+            "title": "Bulletin for February 16",
             "description": {
                 "data": {},
                 "content": [
@@ -111,13 +31,13 @@
             "image": null,
             "attachments": [
                 {
-                    "title": "Bulletin for December 22",
+                    "title": "Bulletin",
                     "file": {
-                        "url": "//assets.ctfassets.net/3wcsgs8fznel/2YRR3T7yrbuKMOoeVHnXks/d018dada920cca8a161f7eb2f49bc83c/bulletin_1222.pdf",
+                        "url": "//assets.ctfassets.net/3wcsgs8fznel/2WjizAejuOaiBtGEMo5AU4/2e830c137f752382596979a45090ee27/Bulletin_022325.pdf",
                         "details": {
-                            "size": 1717481
+                            "size": 1608117
                         },
-                        "fileName": "bulletin 1222.pdf",
+                        "fileName": "Bulletin 022325.pdf",
                         "contentType": "application/pdf"
                     }
                 }
@@ -125,9 +45,9 @@
             "videoId": null
         },
         {
-            "id": "4qk4ZiBDZF4zUGq3tC0ZUV",
-            "datetime": "2024-12-20T00:00",
-            "title": "Holy Land Christians",
+            "id": "7uAyleIo8bFwlQEtSUq77Y",
+            "datetime": "2025-02-07T00:00",
+            "title": "Lutheran Men",
             "description": {
                 "data": {},
                 "content": [
@@ -137,19 +57,7 @@
                             {
                                 "data": {},
                                 "marks": [],
-                                "value": "This Sunday, December 22, we will be hearing about the Christians of the Holy Land, and after the service in the Narthex a display of handmade olive wood religious articles from Bethlehem will be available for purchase. These carvings include olivewood Nativity sets, crosses, Christmas ornaments, candle holders, angels and many other religious crafts that could make a nice wedding, baptism, confirmation, Easter and Christmas gifts. The carvings are handmade by Christian families from Bethlehem who rely on it for their daily bread.",
-                                "nodeType": "text"
-                            }
-                        ],
-                        "nodeType": "paragraph"
-                    },
-                    {
-                        "data": {},
-                        "content": [
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": "More than 70% of the Christian Community in the Holy Land depend upon tourism as their only source of income. For decades those Christians have been enduring many hardships as tourism in Bethlehem has plummeted and access to other sources of income has been sharply restricted due to the ongoing conflict, the wars, the 12-yard wall built around Bethlehem, the COVID-19 pandemic, and nowadays the catastrophic ongoing war.  Due to this tourists are afraid and unable to visit the Holy Land. This made it very difficult for the Christian families to find their daily bread and forced them to immigrate and flee their homeland since they lost their source of income. The Christian population of the Holy Land was 30% in the last century, today it is less than 1%. If it continues like this, in few years we will find no Christians in the land of Christ, which could cause tragic consequences to our faith and holy sites. A Christian family from Bethlehem, Shady Hannona and his wife, Feda'a, will be telling us the story of the Christians of the Holy Land and they will be presenting these carvings after the services.  ",
+                                "value": "Come join Lutheran Men Monday, February 10th. Jay Keck of the SC Wildlife Federation will discuss backyard habitat, birding, and SCWF’s mission. Dinner will be served at 6:30pm. Ladies are invited. Please sign up at the Welcome Center. ",
                                 "nodeType": "text"
                             }
                         ],
@@ -169,9 +77,9 @@
             "videoId": null
         },
         {
-            "id": "33yHQgU7W3uMlL5bbEsWIa",
-            "datetime": "2024-12-20T00:00",
-            "title": "Don't Forget!",
+            "id": "2ILKAh1LXyMv5K3bemjgiT",
+            "datetime": "2025-02-07T00:00",
+            "title": "Lenten Meals",
             "description": {
                 "data": {},
                 "content": [
@@ -181,7 +89,7 @@
                             {
                                 "data": {},
                                 "marks": [],
-                                "value": "ONE Sunday:  Can you commit to attending ONE Sunday school class next Sunday? All adults are invited for ONE special Sunday school class on Sunday, December 29 at 9am in the Fellowship Hall. We will discuss ONE word. The ONE word program leads each person to discover their ONE word for this new year, 2025. All are invited.",
+                                "value": "We need you! Consider signing up and preparing a meal. Your committee, group, family, or a group of friends can provide a meal. A sign-up sheet is located at the Welcome Center. Thank you!!!",
                                 "nodeType": "text"
                             }
                         ],
@@ -201,9 +109,9 @@
             "videoId": null
         },
         {
-            "id": "70HNZuXWKLO7JfWdcoRMYV",
-            "datetime": "2024-12-20T00:00",
-            "title": "Join us for lunch",
+            "id": "6LmRFjseRBSRLH6WT7RZXQ",
+            "datetime": "2025-02-05T00:00",
+            "title": "Souper Bowl Sunday We Care  Collection ",
             "description": {
                 "data": {},
                 "content": [
@@ -213,7 +121,7 @@
                             {
                                 "data": {},
                                 "marks": [],
-                                "value": "Lunch will be provided after the 11am Christmas Eve service.",
+                                "value": "This Sunday, immediately following service, the Mt. Horeb Youth Group will host a special Souper Bowl Collection to support We Care in Chapin, SC. We Care provides essential assistance, including food, transportation, heating, and utility help, to those in need. Donations in cash or by check (made payable to Mt. Horeb Lutheran Church) will make a direct impact. The youth will be in the Narthex with big soup pots, ready to collect your contributions. Let’s come together this Souper Bowl Sunday to show care and support for our neighbors in need! Thank you for your generosity.",
                                 "nodeType": "text"
                             }
                         ],
@@ -233,9 +141,9 @@
             "videoId": null
         },
         {
-            "id": "1q6XHQTdwces7XcHCF0Zz4",
-            "datetime": "2024-12-20T00:00",
-            "title": "Altar Guild",
+            "id": "2qnDS18emr6pUsyUkA79n9",
+            "datetime": "2025-02-03T00:00",
+            "title": "Financial Peace University",
             "description": {
                 "data": {},
                 "content": [
@@ -245,236 +153,7 @@
                             {
                                 "data": {},
                                 "marks": [],
-                                "value": "Have you considered helping with the Altar Guild Ministry? We need volunteers to help prepare sacraments for Holy Communion. It’s a fulfilling use of your time and requires about an hour each week for a month (40 minutes to prepare and 20 minutes to put away). If you are interested or have questions contact Ann Hutchens at (803)331-3345.",
-                                "nodeType": "text"
-                            }
-                        ],
-                        "nodeType": "paragraph"
-                    }
-                ],
-                "nodeType": "document"
-            },
-            "type": [
-                {
-                    "id": "5ktejUJ8noonowWZUs0uN7",
-                    "type": "General"
-                }
-            ],
-            "image": null,
-            "attachments": [],
-            "videoId": null
-        },
-        {
-            "id": "3PDN38SvzIqRM1t7WvSPb4",
-            "datetime": "2024-12-20T00:00",
-            "title": "Prayer Requests ",
-            "description": {
-                "data": {},
-                "content": [
-                    {
-                        "data": {},
-                        "content": [
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": "Jerry Bundrick",
-                                "nodeType": "text"
-                            }
-                        ],
-                        "nodeType": "paragraph"
-                    },
-                    {
-                        "data": {},
-                        "content": [
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": "Jerry Shealy",
-                                "nodeType": "text"
-                            }
-                        ],
-                        "nodeType": "paragraph"
-                    },
-                    {
-                        "data": {},
-                        "content": [
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": "John DiMascio",
-                                "nodeType": "text"
-                            }
-                        ],
-                        "nodeType": "paragraph"
-                    },
-                    {
-                        "data": {},
-                        "content": [
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": "Butch Russell",
-                                "nodeType": "text"
-                            }
-                        ],
-                        "nodeType": "paragraph"
-                    },
-                    {
-                        "data": {},
-                        "content": [
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": "Laurie Schmidt",
-                                "nodeType": "text"
-                            }
-                        ],
-                        "nodeType": "paragraph"
-                    },
-                    {
-                        "data": {},
-                        "content": [
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": "Helen Comalander",
-                                "nodeType": "text"
-                            }
-                        ],
-                        "nodeType": "paragraph"
-                    },
-                    {
-                        "data": {},
-                        "content": [
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": "Tim Schmidt",
-                                "nodeType": "text"
-                            }
-                        ],
-                        "nodeType": "paragraph"
-                    },
-                    {
-                        "data": {},
-                        "content": [
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": "Teressa Wessinger and entire family on the death of George Wessinger",
-                                "nodeType": "text"
-                            }
-                        ],
-                        "nodeType": "paragraph"
-                    },
-                    {
-                        "data": {},
-                        "content": [
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": "Pastor Ron on the death of his brother, James Philabaum",
-                                "nodeType": "text"
-                            }
-                        ],
-                        "nodeType": "paragraph"
-                    }
-                ],
-                "nodeType": "document"
-            },
-            "type": [
-                {
-                    "id": "5ktejUJ8noonowWZUs0uN7",
-                    "type": "General"
-                }
-            ],
-            "image": null,
-            "attachments": [],
-            "videoId": null
-        },
-        {
-            "id": "5TU4N0obJC6Oyk6RVEagcy",
-            "datetime": "2024-12-20T00:00",
-            "title": "Agape Circle",
-            "description": {
-                "data": {},
-                "content": [
-                    {
-                        "data": {},
-                        "content": [
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": "We have ",
-                                "nodeType": "text"
-                            },
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": "changed our meeting date and times. We will now meet on the ",
-                                "nodeType": "text"
-                            },
-                            {
-                                "data": {},
-                                "marks": [
-                                    {
-                                        "type": "underline"
-                                    },
-                                    {
-                                        "type": "bold"
-                                    }
-                                ],
-                                "value": "first Thursday of the month at 5:30",
-                                "nodeType": "text"
-                            },
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": ". We always meet at the church. ANYONE looking to see what happens in a circle, visit us! ANYONE looking to join a circle, join with us! We have a fun time and would welcome you gladly!",
-                                "nodeType": "text"
-                            }
-                        ],
-                        "nodeType": "paragraph"
-                    }
-                ],
-                "nodeType": "document"
-            },
-            "type": [
-                {
-                    "id": "5ktejUJ8noonowWZUs0uN7",
-                    "type": "General"
-                }
-            ],
-            "image": null,
-            "attachments": [],
-            "videoId": null
-        },
-        {
-            "id": "79X2SeCCCmfBp7xFkcRvfI",
-            "datetime": "2024-12-20T00:00",
-            "title": "Game on for the New Year!",
-            "description": {
-                "data": {},
-                "content": [
-                    {
-                        "data": {},
-                        "content": [
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": "Ring in the New Year with fun, food, and fellowship at our New Year’s Eve Game Night! Join us in the Fellowship Hall on New Year’s Eve at 7pm for an evening filled with laughter and connection. Bring your favorite game—new or classic—and enjoy playing at our game tables. We’ll also have a Wii setup for even more excitement. Bring your favorite party food to share and enjoy a delicious spread with friends as we celebrate together. Around 9pm, we’ll join in on a New Year’s Eve ball drop from another country to mark the occasion. If the fun keeps going, we’ll stick around until 10pm.",
-                                "nodeType": "text"
-                            }
-                        ],
-                        "nodeType": "paragraph"
-                    },
-                    {
-                        "data": {},
-                        "content": [
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": "We’re also giving back during this celebration. Bring a Christmas gift you’d like to regift for our ",
+                                "value": "According to a Ramsey Solutions research team study, 40% of Americans say their financial situation has caused them to lose sleep in the past month. If that's you, it's time to make a change. Take the first step and get control of your finances by signing up for ",
                                 "nodeType": "text"
                             },
                             {
@@ -484,13 +163,43 @@
                                         "type": "italic"
                                     }
                                 ],
-                                "value": "We Care",
+                                "value": "Financial Peace University. ",
+                                "nodeType": "text"
+                            },
+                            {
+                                "data": {},
+                                "marks": [
+                                    {
+                                        "type": "bold"
+                                    }
+                                ],
+                                "value": "This nine-week class begins Sun., Feb. 16, 1:00-3 p.m. ",
                                 "nodeType": "text"
                             },
                             {
                                 "data": {},
                                 "marks": [],
-                                "value": " initiative. Additionally, we’re collecting children’s socks and underwear through our Action Team. Invite your friends and kick off 2025 with a night of joy, laughter, and generosity. We can’t wait to see you there!",
+                                "value": "and will help you learn essential strategies to pay off debt, save money, and build wealth. The fee for class materials is $85. Scholarships are available upon request (please email outreach@mthoreb.net or call 803-345-2000 for more information). Childcare will be provided. ",
+                                "nodeType": "text"
+                            },
+                            {
+                                "data": {
+                                    "uri": "https://form.jotform.com/250284643382054"
+                                },
+                                "content": [
+                                    {
+                                        "data": {},
+                                        "marks": [],
+                                        "value": "Click here to register today",
+                                        "nodeType": "text"
+                                    }
+                                ],
+                                "nodeType": "hyperlink"
+                            },
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "!",
                                 "nodeType": "text"
                             }
                         ],
@@ -501,8 +210,116 @@
             },
             "type": [
                 {
-                    "id": "3Zl7eAG9eIPOZLPyA11Uj8",
-                    "type": "Event"
+                    "id": "5ktejUJ8noonowWZUs0uN7",
+                    "type": "General"
+                }
+            ],
+            "image": null,
+            "attachments": [],
+            "videoId": null
+        },
+        {
+            "id": "7hb8sT0vwMWbnVUNGWlwpi",
+            "datetime": "2025-01-31T00:00",
+            "title": "Wired Word",
+            "description": {
+                "data": {},
+                "content": [
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "Mt. Horeb has subscribed to the Wired Word and it is available for all to use. The Wired Word is an internet program that provides a current event story with scripture and discussion questions. It can be used for adult Sunday School lessons, by any of our small groups – men or women, or by neighbors at home or individually. ",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    },
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "To participate you need to turn in your email address. There is an email sign-up on the Welcome Center. The lesson is emailed weekly. Hopefully, everyone will read and think about the story, scripture, and discussion questions before meeting as a group. You are invited to participate with one of our adult Sunday School classes who will be using this for a few months. Emailed lessons should come out very soon as we get this program set up! ",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    }
+                ],
+                "nodeType": "document"
+            },
+            "type": [
+                {
+                    "id": "5ktejUJ8noonowWZUs0uN7",
+                    "type": "General"
+                }
+            ],
+            "image": null,
+            "attachments": [],
+            "videoId": null
+        },
+        {
+            "id": "2P6Aif9GOGUn6C5nn44dWH",
+            "datetime": "2025-01-31T00:00",
+            "title": "Communion Assistants/Communion Preparers",
+            "description": {
+                "data": {},
+                "content": [
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "To those preparing communion or assisting with communion, a training session for Communion Preparation and for Communion Assistants is scheduled after the service on February 16. Ann Hutchens will review the process and recent changes for preparing communion and Kay Shealy will review the responsibilities and any process changes for those assisting with communion. ",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    }
+                ],
+                "nodeType": "document"
+            },
+            "type": [
+                {
+                    "id": "5ktejUJ8noonowWZUs0uN7",
+                    "type": "General"
+                }
+            ],
+            "image": null,
+            "attachments": [],
+            "videoId": null
+        },
+        {
+            "id": "2nHhnQaSHMzD6ZQN3v1O5m",
+            "datetime": "2025-01-31T00:00",
+            "title": "Youth Group",
+            "description": {
+                "data": {},
+                "content": [
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "Feb. 2: Heartland Conference Youth Event (Love in Action), Summer Memorial Lutheran Church, Newberry. Meet at Mt.Horeb parking lot at 4:15 pm. Fun, fellowship and service (making gift bags for Lowman Home residents).",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    }
+                ],
+                "nodeType": "document"
+            },
+            "type": [
+                {
+                    "id": "3BITHvpc2z0yYfvxgTUQbK",
+                    "type": "Youth"
                 },
                 {
                     "id": "5ktejUJ8noonowWZUs0uN7",
@@ -514,72 +331,12 @@
             "videoId": null
         },
         {
-            "id": "gYc2fEDwXzW2qCaXsMLH3",
-            "datetime": "2024-12-13T00:00",
+            "id": "63FXYP9aPR9hfhVh0COV3b",
+            "datetime": "2025-01-24T00:00",
             "title": "Prayer Requests",
             "description": {
                 "data": {},
                 "content": [
-                    {
-                        "data": {},
-                        "content": [
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": "Jerry Bundrick",
-                                "nodeType": "text"
-                            }
-                        ],
-                        "nodeType": "paragraph"
-                    },
-                    {
-                        "data": {},
-                        "content": [
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": "Jerry Shealy",
-                                "nodeType": "text"
-                            }
-                        ],
-                        "nodeType": "paragraph"
-                    },
-                    {
-                        "data": {},
-                        "content": [
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": "John DiMascio",
-                                "nodeType": "text"
-                            }
-                        ],
-                        "nodeType": "paragraph"
-                    },
-                    {
-                        "data": {},
-                        "content": [
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": "Butch Russell",
-                                "nodeType": "text"
-                            }
-                        ],
-                        "nodeType": "paragraph"
-                    },
-                    {
-                        "data": {},
-                        "content": [
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": "Laurie Schmidt",
-                                "nodeType": "text"
-                            }
-                        ],
-                        "nodeType": "paragraph"
-                    },
                     {
                         "data": {},
                         "content": [
@@ -598,7 +355,7 @@
                             {
                                 "data": {},
                                 "marks": [],
-                                "value": "Tim Schmidt",
+                                "value": "Brady Amick",
                                 "nodeType": "text"
                             }
                         ],
@@ -610,7 +367,7 @@
                             {
                                 "data": {},
                                 "marks": [],
-                                "value": "George Wessinger",
+                                "value": "Nancy Hess",
                                 "nodeType": "text"
                             }
                         ],
@@ -628,8 +385,58 @@
             "image": null,
             "attachments": [],
             "videoId": null
+        },
+        {
+            "id": "2ceqn2MoNGer2WQoqtUcqu",
+            "datetime": "2025-01-24T00:00",
+            "title": "Bulletin for January 26",
+            "description": {
+                "data": {},
+                "content": [
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "Check out this Sunday'",
+                                "nodeType": "text"
+                            },
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "s bulletin",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    }
+                ],
+                "nodeType": "document"
+            },
+            "type": [
+                {
+                    "id": "5ktejUJ8noonowWZUs0uN7",
+                    "type": "General"
+                }
+            ],
+            "image": null,
+            "attachments": [
+                {
+                    "title": "Bulletin January 26",
+                    "file": {
+                        "url": "//assets.ctfassets.net/3wcsgs8fznel/A6dCvgOXyhbCxDNfItudo/246eaccd08f38282b42617fbffa0e910/bulletin_0126.pdf",
+                        "details": {
+                            "size": 1359900
+                        },
+                        "fileName": "bulletin 0126.pdf",
+                        "contentType": "application/pdf"
+                    }
+                }
+            ],
+            "videoId": null
         }
     ],
     "page": 2,
-    "totalPages": 14
+    "totalPages": 17
 }

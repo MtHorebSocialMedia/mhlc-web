@@ -1,7 +1,7 @@
 const { getLogger } = require('../utils/logger');
 const { jwtVerify, jwtSign } = require('../utils/jwtUtils');
 
-const logger = getLogger('middleware/authentication');
+const logger = getLogger('middleware/authenticationHandler');
 
 const getAuthenticationHandler = ({ authRequired }) => {
     return (
