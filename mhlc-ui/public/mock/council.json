@@ -1,70 +1,64 @@
 [
     {
-        "id": "EjbeQ5iGUyQiXU1QOgdpY",
-        "role": "Preschool",
-        "name": "Lisa McDonald"
-    },
-    {
-        "id": "6G7KO5TLYssiLzK5TKvF2Y",
-        "role": "Social Ministry, A/V, and Technology",
-        "name": "Laurie Schmidt"
-    },
-    {
-        "id": "3fQOWTqa88qTiJqnuq8TYT",
-        "role": "Christian Education",
-        "name": "Rae Davis"
-    },
-    {
-        "id": "2FaPohY8qlGf9cgthVTPy3",
-        "role": "Youth and Stewardship",
-        "name": "Heather Adams"
-    },
-    {
-        "id": "1cOWPZmceJrAiPFVcdsFlr",
-        "role": "Worship and Music",
-        "name": "Sandra McKie"
-    },
-    {
-        "id": "5Bl6vNbyvXuPm0l51zH7If",
-        "role": "Community Outreach",
-        "name": "Diane Senn"
-    },
-    {
-        "id": "31PfQoQ7CbZqGGycPVSQs",
-        "role": "Property",
-        "name": "Greg Shealy"
-    },
-    {
-        "id": "3vLT6Vw3yMpqV5j4FFqvjR",
-        "role": "Fellowship and Cemetary",
-        "name": "Travis Goodman"
-    },
-    {
-        "id": "36pV4kvFA8D68aWZoFCemg",
-        "role": "Witness",
-        "name": "Cameron Prince"
-    },
-    {
-        "id": "2wQEkBJbBOZf77hE07lKGU",
-        "role": "Finance and Human Resources",
-        "name": "Tom Griffin"
-    },
-    {
-        "id": "ChQzUvD9Tyg1QFBcRqqWZ",
-        "role": "Treasurer",
-        "name": "Lisa Smith",
-        "sequence": 3
-    },
-    {
-        "id": "7gd3wbE3jDHL7LZMFpJUFz",
-        "role": "Secretary",
-        "name": "Trina Free",
-        "sequence": 2
+        "id": "2S9GUzy0mgb7EcWIpR4yo5",
+        "role": "Witness, A/V & Technology",
+        "name": "Rod Davis"
     },
     {
         "id": "31cWo0K79Rflc2aWgscDIs",
-        "role": "Vice Chair",
+        "role": "Council Vice Chair",
         "name": "Katie Morgan",
         "sequence": 1
+    },
+    {
+        "id": "2wQEkBJbBOZf77hE07lKGU",
+        "role": "Social Ministry",
+        "name": "Pam Pope"
+    },
+    {
+        "id": "36pV4kvFA8D68aWZoFCemg",
+        "role": "Council Secretary & HR",
+        "name": "Cameron Prince",
+        "sequence": 2
+    },
+    {
+        "id": "3vLT6Vw3yMpqV5j4FFqvjR",
+        "role": "Fellowship",
+        "name": "Travis Goodman"
+    },
+    {
+        "id": "5Bl6vNbyvXuPm0l51zH7If",
+        "role": "Community & World",
+        "name": "Furman Miller"
+    },
+    {
+        "id": "1cOWPZmceJrAiPFVcdsFlr",
+        "role": "Worship & Music",
+        "name": "Sandra McKie"
+    },
+    {
+        "id": "31PfQoQ7CbZqGGycPVSQs",
+        "role": "Property & Cemetery",
+        "name": "Greg Shealy"
+    },
+    {
+        "id": "2FaPohY8qlGf9cgthVTPy3",
+        "role": "Finance & Stewardship",
+        "name": "Tom Griffin"
+    },
+    {
+        "id": "3fQOWTqa88qTiJqnuq8TYT",
+        "role": "Sunday School & Bible Study",
+        "name": "Lillie Free"
+    },
+    {
+        "id": "EjbeQ5iGUyQiXU1QOgdpY",
+        "role": "Preschool",
+        "name": "Diane Senn"
+    },
+    {
+        "id": "6G7KO5TLYssiLzK5TKvF2Y",
+        "role": "Youth",
+        "name": "Laurie Schmidt"
     }
 ]

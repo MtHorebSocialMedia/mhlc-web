@@ -14,7 +14,7 @@ function getCacheEntry(key) {
     if (cacheEntries[key]) {
         const cacheEntry = cacheEntries[key];
         if (cacheEntry.expiration <= currentTime) {
-            removeCacheValue(key);
+            removeCacheEntry(key);
         } else {
           response = cacheEntry.value;
         }

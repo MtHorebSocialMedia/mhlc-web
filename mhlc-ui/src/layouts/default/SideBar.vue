@@ -28,6 +28,18 @@
             </v-col>
         </v-row>
         <v-row>
+            <v-col>
+                <v-btn
+                    color="red"
+                    block
+                    @click="window.open('https://form.jotform.com/250355257588062')"
+                >
+                    Prayer Requests
+                </v-btn>
+            </v-col>
+        </v-row>
+
+        <v-row>
             <v-col cols="8">
                 <h3>Recent News</h3>
             </v-col>

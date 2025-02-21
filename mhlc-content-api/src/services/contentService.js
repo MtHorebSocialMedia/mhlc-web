@@ -59,7 +59,8 @@ async function getContentBlocks() {
             imageAlignment: item.fields.imageAlignment,
             imageLink: item.fields.imageLink,
             videoUrl: item.fields.videoUrl,
-            videoId: item.fields.videoUrl ? getVideoId(item.fields.videoUrl) : null
+            videoId: item.fields.videoUrl ? getVideoId(item.fields.videoUrl) : null,
+            jotformFormId: item.fields.jotformFormId
         };
     });
 }

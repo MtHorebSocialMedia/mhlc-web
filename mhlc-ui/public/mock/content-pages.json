@@ -1,5 +1,16 @@
 [
     {
+        "id": "VCvqNW7olXrDOJJhhRk1i",
+        "title": "Contact",
+        "contentPath": "/content/contact",
+        "headerImage": null,
+        "contentBlocks": [
+            {
+                "key": "contact/contact-form"
+            }
+        ]
+    },
+    {
         "id": "6unD1dXv0euaVQxShzjqO7",
         "title": "Jobs",
         "contentPath": "/content/jobs",
@@ -7,9 +18,6 @@
         "contentBlocks": [
             {
                 "key": "jobs/administrative-assistant-listing"
-            },
-            {
-                "key": "jobs/outreach-coordinator-listing"
             }
         ]
     },

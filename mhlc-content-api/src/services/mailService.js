@@ -88,12 +88,13 @@ async function callPing() {
 
 async function sendMail(to, subject, html) {
     const from = process.env.SENDGRID_FROM_ADDRESS;
-    return getSendgridClient().send({
+    const message = {
         to,
         from,
         subject,
         html
-    });
+    };
+    return getSendgridClient().send(message);
 }
 
 module.exports = { addMemberToNewsletter, getNewsletterInterests, sendMail };
