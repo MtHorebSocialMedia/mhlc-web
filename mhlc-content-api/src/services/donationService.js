@@ -21,7 +21,8 @@ async function getPaypalUrl(request) {
         ...commonParams,
         first_name: request.firstName,
         last_name: request.lastName,
-        email: request.emailAddress
+        email: request.emailAddress,
+        custom: request.note
     };
 
     switch(request.donationFrequency) {

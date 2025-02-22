@@ -126,6 +126,15 @@
                         </v-row>
                         <v-row>
                             <v-col>
+                                <v-text-field
+                                    v-model.number="paypalDonation.request.note"
+                                    label="Note / Memo"
+                                    variant="outlined"
+                                />
+                            </v-col>
+                        </v-row>
+                        <v-row>
+                            <v-col>
                                 <v-btn
                                     color="red"
                                     block
@@ -254,7 +263,8 @@
             lastName: '',
             emailAddress: '',
             donationFrequency: '',
-            donationAmount: null
+            donationAmount: null,
+            note: ''
         },
         confirm: {
             emailAddressConfirmation: '',

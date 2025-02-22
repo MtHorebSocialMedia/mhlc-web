@@ -15,6 +15,9 @@ const logger = getLogger('index');
 // automatically parse request bodies into JSON if content-type is application/json
 app.use(bodyParser.json());
 
+// automatically parse url-encoded (form data)
+app.use(express.urlencoded({ extended: true }));
+
 app.use(getAuditHandler());
 
 // To get the path to our build ui code, we'll use a little hack
@@ -36,6 +39,7 @@ app.use('/api', apiRouter);
 app.use('/feed', rssFeed);
 
 app.use('/donate/paypal-complete', (req, res) => {
+    console.log(req.body);
     res.sendFile(indexPath);
 });
 
