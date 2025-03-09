@@ -6,6 +6,8 @@ const rssFeed = require('./rssFeed');
 const { getLogger } = require('./utils/logger');
 const { getAuditHandler } = require('./middleware/auditHandler');
 const { initialize: initializeAnalytics } = require('./services/analyticsService');
+const { getPaypalDonationConfirmationEmailTemplate } = require('./utils/mailTemplates');
+const { sendMail } = require('./services/mailService');
 
 const app = express();
 const port = 3000;
@@ -39,8 +41,19 @@ app.use('/api', apiRouter);
 app.use('/feed', rssFeed);
 
 app.use('/donate/paypal-complete', (req, res) => {
-    console.log(req.body);
-    res.sendFile(indexPath);
+    (async function() {
+        const { subject, body } = getPaypalDonationConfirmationEmailTemplate({
+            ...req.body,
+            ...req.query
+        });
+        const treasurerEmailAddress = process.env.SENDGRID_TO_ADDRESS_TREASURER;
+        if (treasurerEmailAddress) {
+            await sendMail(treasurerEmailAddress, subject, body);
+        } else {
+            logger.warn('An email address has not been configured for the treasurer.  Cannot send donation emails.');
+        }
+        res.sendFile(indexPath);
+    })();
 });
 
 // Default handler - if unknown path, just respond with the default html

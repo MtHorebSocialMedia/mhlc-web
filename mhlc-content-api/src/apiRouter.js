@@ -27,6 +27,7 @@ const { getLogger } = require('./utils/logger');
 const { authenticate } = require('./services/securityService');
 const { jwtSign } = require('./utils/jwtUtils');
 const { getCacheHandler } = require('./middleware/cacheHandler');
+const { getDonationRequestEmailTemplate } = require('./utils/mailTemplates');
 
 const logger = getLogger('apiRouter');
 
@@ -207,6 +208,13 @@ router.post('/donations/paypal',
         (async function() {
             try {
                 const url = await getPaypalUrl(req.body);
+                const { subject, body } = getDonationRequestEmailTemplate(req.body);
+                const treasurerEmailAddress = process.env.SENDGRID_TO_ADDRESS_TREASURER;
+                if (treasurerEmailAddress) {
+                    await sendMail(treasurerEmailAddress, subject, body);
+                } else {
+                    logger.warn('An email address has not been configured for the treasurer.  Cannot send donation emails.');
+                }
                 res.send({ url });
             } catch(err) {
                 next(err);
