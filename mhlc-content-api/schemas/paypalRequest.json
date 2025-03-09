@@ -23,6 +23,9 @@
         "donationAmount": {
             "type": "number",
             "exclusiveMinimum": 0
+        },
+        "note": {
+            "type": "string"
         }
     },
     "required": ["firstName", "lastName", "emailAddress", "donationFrequency", "donationAmount"]
