@@ -13,6 +13,8 @@ const client = contentful.createClient({
     accessToken: CONTENTFUL_DELIVERY_API_KEY
 });
 
+let eventNewsTypeId = null;
+
 async function getMenuItems() {
     const { items } = await client.getEntries({
         content_type: 'menuItem'
@@ -109,6 +111,53 @@ async function getNewsEntries(page) {
     });
     const totalPages = Math.ceil(total / itemsPerPage);
     return { news, page, totalPages };
+}
+
+async function getUpcomingEvents(page) {
+
+    if (!eventNewsTypeId) {
+        const { items } = await client.getEntries({
+            content_type: 'newsType',
+            'fields.type': 'Event'
+        });
+        eventNewsTypeId = (items && items.length > 0) ? items[0].sys.id : null;
+    }
+
+    page = page || 1;
+    const itemsPerPage = 10;
+    const skip = (page - 1) * itemsPerPage;
+    const currentDateTime = new Date().toISOString();
+    const { items, total } = await client.getEntries({
+        content_type: 'news',
+        limit: itemsPerPage,
+        'fields.datetime[lte]': currentDateTime,
+        'fields.eventDatetime[gte]': currentDateTime,
+        'fields.type.sys.id': eventNewsTypeId,
+        order: 'fields.eventDatetime',
+        skip
+    });
+    const events = items.map((item) => {
+        return {
+            id: item.sys.id,
+            datetime: item.fields.datetime,
+            eventDatetime: item.fields.eventDatetime,
+            title: item.fields.title,
+            description: item.fields.description,
+            type: item.fields.type ? item.fields.type.map(type => ({
+                id: type.sys.id,
+                type: type.fields.type
+            })) : [],
+            image: item.fields.image ? item.fields.image.fields.file : null,
+            attachments: item.fields.attachments ? item.fields.attachments.map((attachment) => ({
+                title: attachment.fields.title,
+                file: attachment.fields.file
+            })) : [],
+            videoUrl: item.fields.videoUrl,
+            videoId: item.fields.videoUrl ? getVideoId(item.fields.videoUrl) : null
+        };
+    });
+    const totalPages = Math.ceil(total / itemsPerPage);
+    return { events, page, totalPages };
 }
 
 async function getNewsEntry(newsId) {
@@ -278,6 +327,7 @@ module.exports = {
     getNewsTypes,
     getNewsEntries,
     getNewsEntry,
+    getUpcomingEvents,
     getChurchInfo,
     getCouncil,
     getStaff,

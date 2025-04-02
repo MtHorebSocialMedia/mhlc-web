@@ -41,6 +41,18 @@
 
         <v-row>
             <v-col cols="8">
+                <h3>Upcoming Events</h3>
+            </v-col>
+            <v-col cols="4" class="news-link">
+                <router-link to="/events">View All</router-link>
+            </v-col>
+        </v-row>
+        <v-row>
+            <EventsList recent />
+        </v-row>
+
+        <v-row>
+            <v-col cols="8">
                 <h3>Recent News</h3>
             </v-col>
             <v-col cols="4" class="news-link">
@@ -56,6 +68,7 @@
 <script setup>
 import ContentBlock from '@/components/ContentBlock.vue'
 import NewsList from '@/components/NewsList.vue'
+import EventsList from '@/components/EventsList.vue'
 </script>
 
 <style scoped>

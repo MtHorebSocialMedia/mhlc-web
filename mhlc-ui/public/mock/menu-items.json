@@ -1,5 +1,46 @@
 [
     {
+        "id": "3O7wJBM6BBxAAuA8kKW0bp",
+        "label": "Events",
+        "sequence": 3,
+        "path": "/news",
+        "parent": null
+    },
+    {
+        "id": "7H7PLQVVvajONImkWC9oCg",
+        "label": "Donate",
+        "sequence": 7,
+        "path": "/donate",
+        "parent": null
+    },
+    {
+        "id": "6zYu9bco77Jmm0pj7ofJnl",
+        "label": "Send a Prayer Request",
+        "sequence": 2,
+        "path": "/content/prayer",
+        "parent": "1Wd1LbvEObjd5tc70bL7i2"
+    },
+    {
+        "id": "163J2E0jZZxAdCWyrPpJjm",
+        "label": "Join the Newsletter",
+        "sequence": 2,
+        "path": "/newsletter",
+        "parent": "1Wd1LbvEObjd5tc70bL7i2"
+    },
+    {
+        "id": "3n5zWPmhQdIqlA1UaUPHUR",
+        "label": "Contact",
+        "sequence": 0,
+        "path": "/content/contact",
+        "parent": "1Wd1LbvEObjd5tc70bL7i2"
+    },
+    {
+        "id": "1Wd1LbvEObjd5tc70bL7i2",
+        "label": "Connect",
+        "sequence": 6,
+        "parent": null
+    },
+    {
         "id": "5nB30CWQzNyT4gRn2oRV0g",
         "label": "History",
         "sequence": 5,
@@ -60,13 +101,6 @@
         "sequence": 3,
         "path": "/leaders",
         "parent": "5tf97ADQHKJ0vUNp4da4o"
-    },
-    {
-        "id": "3O7wJBM6BBxAAuA8kKW0bp",
-        "label": "News",
-        "sequence": 3,
-        "path": "/news",
-        "parent": null
     },
     {
         "id": "6axI4rO6YfNpNCr4bfQk3R",

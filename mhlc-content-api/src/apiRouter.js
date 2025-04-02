@@ -11,7 +11,8 @@ const {
     getChurchInfo,
     getCouncil,
     getStaff,
-    getSpecialAnnouncements
+    getSpecialAnnouncements,
+    getUpcomingEvents
 } = require('./services/contentService');
 const { getPaypalUrl } = require('./services/donationService');
 const { getVideosList } = require('./services/youtubeService');
@@ -97,6 +98,18 @@ router.get('/news-types', (req, res, next) => {
         try {
             const items = await getNewsTypes();
             res.send(items);
+        } catch(err) {
+            next(err);
+        }
+    })();
+});
+
+router.get('/events', (req, res, next) => {
+    (async function() {
+        try {
+            const page = req.query.page || 1;
+            const results = await getUpcomingEvents(page);
+            res.send(results);
         } catch(err) {
             next(err);
         }

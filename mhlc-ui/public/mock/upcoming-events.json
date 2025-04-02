@@ -1,0 +1,54 @@
+{
+    "events": [
+        {
+            "id": "6Jrob4lIXhtBYa2d9u0sYK",
+            "datetime": "2025-04-01T00:00",
+            "title": "Church Clean Up Day this Saturday!",
+            "description": {
+                "data": {},
+                "content": [
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "Join us ",
+                                "nodeType": "text"
+                            },
+                            {
+                                "data": {},
+                                "marks": [
+                                    {
+                                        "type": "bold"
+                                    }
+                                ],
+                                "value": "this Saturday, April 5 from 8:30-11:30 a.m. ",
+                                "nodeType": "text"
+                            },
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": " for a morning of service as we come together to clean and prepare our church grounds for the upcoming Holy Week. We will be collecting debris from the trees, tidying up the property, and ensuring the area is beautiful and welcoming for all. Ages 15+ are welcome to participate – bring your gloves, and let’s make a difference together! ",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    }
+                ],
+                "nodeType": "document"
+            },
+            "type": [
+                {
+                    "id": "3Zl7eAG9eIPOZLPyA11Uj8",
+                    "type": "Event"
+                }
+            ],
+            "image": null,
+            "attachments": [],
+            "videoId": null
+        }
+    ],
+    "page": 1,
+    "totalPages": 1
+}
