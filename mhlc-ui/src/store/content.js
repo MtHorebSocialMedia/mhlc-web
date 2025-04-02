@@ -9,6 +9,7 @@ export const useContentStore = defineStore('content', () => {
     const contentBlocks = ref([]);
     const newsTypes = ref([]);
     const recentNews = ref({});
+    const upcomingEvents = ref({});
     const churchInfo = ref({});
     const staff = ref([]);
     const council = ref([]);
@@ -38,7 +39,8 @@ export const useContentStore = defineStore('content', () => {
             getCouncil(),
             getStaff(),
             getSpecialAnnouncements(),
-            loadNews(1)
+            loadNews(1),
+            loadUpcomingEvents(1)
         ]);
 
         menuItems.value = menuItemsResp;
@@ -60,6 +62,14 @@ export const useContentStore = defineStore('content', () => {
         return newsResults;
     }
 
+    async function loadUpcomingEvents(page) {
+        const events = await getUpcomingEvents(page);
+        if (page === 1) {
+            upcomingEvents.value = events;
+        }
+        return events;
+    }
+
     // Toggle the content assist with content block keys by pressing the back-tick (`) key
     window.document.addEventListener('keypress', (event) => {
         if(event.key === '`') {
@@ -68,8 +78,8 @@ export const useContentStore = defineStore('content', () => {
     });
 
     return {
-        menuItems, contentPages, contentBlocks, newsTypes, recentNews, churchInfo, council, staff, videoList, specialAnnouncements, contentAssistEnabled,
-        fetchContent, getNews, getNewsEntry, getBlogPosts, getBlogPost
+        menuItems, contentPages, contentBlocks, newsTypes, recentNews, upcomingEvents, churchInfo, council, staff, videoList, specialAnnouncements, contentAssistEnabled,
+        fetchContent, getNews, getNewsEntry, getBlogPosts, getBlogPost, getUpcomingEvents
     };
 });
 
@@ -111,6 +121,10 @@ async function getNewsTypes() {
 
 async function getNews(page) {
     return (await getHttpClient().get('/api/news', { params: { page } })).data;
+}
+
+async function getUpcomingEvents(page) {
+    return (await getHttpClient().get('/api/events', { params: { page } })).data;
 }
 
 async function getNewsEntry(newsId) {

@@ -1,5 +1,27 @@
 [
     {
+        "id": "2UbufHCg8SZ6qaNJaZ2sFu",
+        "title": "Visitation",
+        "contentPath": "/content/visitation",
+        "headerImage": null,
+        "contentBlocks": [
+            {
+                "key": "visitation/form"
+            }
+        ]
+    },
+    {
+        "id": "3AI3hBAW3USMn63dZXEmyQ",
+        "title": "Send a Prayer Request",
+        "contentPath": "/content/prayer",
+        "headerImage": null,
+        "contentBlocks": [
+            {
+                "key": "prayer/form"
+            }
+        ]
+    },
+    {
         "id": "VCvqNW7olXrDOJJhhRk1i",
         "title": "Contact",
         "contentPath": "/content/contact",

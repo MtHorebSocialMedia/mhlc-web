@@ -1,9 +1,9 @@
 {
     "news": [
         {
-            "id": "3oeybi1SxjoxK68laxOT3S",
-            "datetime": "2025-02-20T00:00",
-            "title": "Pancakes & Palms: A Shrove Tuesday Feast and Tradition",
+            "id": "30tHfWC68E4pn5z9KsGbi4",
+            "datetime": "2025-04-01T00:00",
+            "title": "Friendship Circle: Fri., Apr. 25",
             "description": {
                 "data": {},
                 "content": [
@@ -12,48 +12,8 @@
                         "content": [
                             {
                                 "data": {},
-                                "marks": [
-                                    {
-                                        "type": "bold"
-                                    }
-                                ],
-                                "value": "Join Us for a Shrove Tuesday Pancake Supper! 🍽️🥞",
-                                "nodeType": "text"
-                            }
-                        ],
-                        "nodeType": "paragraph"
-                    },
-                    {
-                        "data": {},
-                        "content": [
-                            {
-                                "data": {},
                                 "marks": [],
-                                "value": "It’s time to flip, flip, and feast! Come celebrate Shrove Tuesday with a fun and festive pancake supper!",
-                                "nodeType": "text"
-                            }
-                        ],
-                        "nodeType": "paragraph"
-                    },
-                    {
-                        "data": {},
-                        "content": [
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": "Shrove Tuesday is the last day before Lent, a time to enjoy some indulgence before the season of reflection begins. It’s traditionally a day for using up rich ingredients like eggs, butter, and sugar, and what better way to do that than with stacks of hot, fluffy pancakes? So, gather your family, friends, and appetites, and join us for a deliciously fun evening of food, laughter, and community. Dinner is free, but donations will be gladly accepted. ",
-                                "nodeType": "text"
-                            }
-                        ],
-                        "nodeType": "paragraph"
-                    },
-                    {
-                        "data": {},
-                        "content": [
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": "After supper, we’ll continue the tradition of reflection with a ",
+                                "value": "Join us for the next meeting of the ",
                                 "nodeType": "text"
                             },
                             {
@@ -63,13 +23,13 @@
                                         "type": "bold"
                                     }
                                 ],
-                                "value": "prayer service and the burning of palm branches",
+                                "value": "Friendship Circle",
                                 "nodeType": "text"
                             },
                             {
                                 "data": {},
                                 "marks": [],
-                                "value": " after the pancake feast. The ashes from these burned palms will be used on ",
+                                "value": " on ",
                                 "nodeType": "text"
                             },
                             {
@@ -79,13 +39,13 @@
                                         "type": "bold"
                                     }
                                 ],
-                                "value": "Ash Wednesday",
+                                "value": "Friday, April 25th at 11:30 AM",
                                 "nodeType": "text"
                             },
                             {
                                 "data": {},
                                 "marks": [],
-                                "value": " to mark the start of Lent. ",
+                                "value": " at ",
                                 "nodeType": "text"
                             },
                             {
@@ -95,41 +55,13 @@
                                         "type": "bold"
                                     }
                                 ],
-                                "value": "Bring your palms from last Palm Sunday",
+                                "value": "J.Peters",
                                 "nodeType": "text"
                             },
                             {
                                 "data": {},
                                 "marks": [],
-                                "value": " and join us in this deeply meaningful service. Don’t have any palms? ",
-                                "nodeType": "text"
-                            },
-                            {
-                                "data": {},
-                                "marks": [
-                                    {
-                                        "type": "bold"
-                                    }
-                                ],
-                                "value": "Extra palms will be available",
-                                "nodeType": "text"
-                            },
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": ", so you can still participate!",
-                                "nodeType": "text"
-                            }
-                        ],
-                        "nodeType": "paragraph"
-                    },
-                    {
-                        "data": {},
-                        "content": [
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": "Come for the pancakes, stay for the tradition, and leave with a heart full of community and reflection. We can’t wait to see you there!",
+                                "value": " in Chapin! The Friendship Circle gathers at a local restaurant for a time of fun, food, and fellowship. It's a wonderful opportunity to connect with others, enjoy a delicious meal, and build lasting friendships. We look forward to seeing you there! ",
                                 "nodeType": "text"
                             }
                         ],
@@ -149,9 +81,9 @@
             "videoId": null
         },
         {
-            "id": "4stUqipPpOj5CRMxa5OsPF",
-            "datetime": "2025-02-19T00:00",
-            "title": "CPR/AED Training",
+            "id": "liH8wJPv2AZKV2Cjng2QM",
+            "datetime": "2025-04-01T00:00",
+            "title": "Easter Egg Stuffing Party This Sunday!",
             "description": {
                 "nodeType": "document",
                 "data": {},
@@ -162,7 +94,23 @@
                         "content": [
                             {
                                 "nodeType": "text",
-                                "value": "Sign up in the narthex for one of the following sessions provided by the American Hearth Association: \nMar. 8, 10 AM - 2 PM \nMar. 18, 10 AM - 2 PM\nMar. 30, 2 PM - 6 PM. \nCertification cards will be provided upon completion, and fees are covered by Mt. Horeb. Contact Leigh Bebber at 803-466-1976 or bebbeleigh@gmail.com with any questions. ",
+                                "value": "6th-12th graders are invited on",
+                                "marks": [],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": " Sun., April 6 from 4-6 p.m. ",
+                                "marks": [
+                                    {
+                                        "type": "bold"
+                                    }
+                                ],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "text",
+                                "value": "to fill Easter eggs with prizes in preparation for the community Easter Egg Hunt!",
                                 "marks": [],
                                 "data": {}
                             }
@@ -172,8 +120,16 @@
             },
             "type": [
                 {
+                    "id": "2pWRSRQB8VE40PR4Tuncyc",
+                    "type": "Newsletters"
+                },
+                {
                     "id": "5ktejUJ8noonowWZUs0uN7",
                     "type": "General"
+                },
+                {
+                    "id": "3BITHvpc2z0yYfvxgTUQbK",
+                    "type": "Youth"
                 }
             ],
             "image": null,
@@ -181,172 +137,138 @@
             "videoId": null
         },
         {
-            "id": "1TfOPWLKBl1sRyFtRKw8Hw",
-            "datetime": "2025-02-19T00:00",
-            "title": "Lenten Meals Begin March 5",
+            "id": "6Jrob4lIXhtBYa2d9u0sYK",
+            "datetime": "2025-04-01T00:00",
+            "title": "Church Clean Up Day this Saturday!",
             "description": {
-                "nodeType": "document",
                 "data": {},
                 "content": [
                     {
-                        "nodeType": "paragraph",
                         "data": {},
                         "content": [
                             {
-                                "nodeType": "text",
-                                "value": "This Lenten season, join us at Mt. Horeb every Wednesday, March 5 - April 9, for a meaningful service and a delicious meal. We offer two opportunities to participate:",
-                                "marks": [],
-                                "data": {}
-                            }
-                        ]
-                    },
-                    {
-                        "nodeType": "unordered-list",
-                        "data": {},
-                        "content": [
-                            {
-                                "nodeType": "list-item",
                                 "data": {},
-                                "content": [
-                                    {
-                                        "nodeType": "paragraph",
-                                        "data": {},
-                                        "content": [
-                                            {
-                                                "nodeType": "text",
-                                                "value": "11 a.m. Service & Lunch: ",
-                                                "marks": [
-                                                    {
-                                                        "type": "bold"
-                                                    }
-                                                ],
-                                                "data": {}
-                                            },
-                                            {
-                                                "nodeType": "text",
-                                                "value": "Attend our 11 a.m. service and enjoy a community lunch afterward. We’d love for you to be part of this one-hour event.",
-                                                "marks": [],
-                                                "data": {}
-                                            }
-                                        ]
-                                    }
-                                ]
+                                "marks": [],
+                                "value": "Join us ",
+                                "nodeType": "text"
                             },
                             {
-                                "nodeType": "list-item",
                                 "data": {},
-                                "content": [
-                                    {
-                                        "nodeType": "paragraph",
-                                        "data": {},
-                                        "content": [
-                                            {
-                                                "nodeType": "text",
-                                                "value": "6 p.m. Service & Dinner",
-                                                "marks": [
-                                                    {
-                                                        "type": "bold"
-                                                    }
-                                                ],
-                                                "data": {}
-                                            },
-                                            {
-                                                "nodeType": "text",
-                                                "value": ": Gather with us for a special service at 6 p.m., followed by a delicious dinner. A $5 donation for dinner is kindly recommended.",
-                                                "marks": [],
-                                                "data": {}
-                                            }
-                                        ]
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "nodeType": "paragraph",
-                        "data": {},
-                        "content": [
-                            {
-                                "nodeType": "text",
-                                "value": "To sign up to provide ",
-                                "marks": [],
-                                "data": {}
-                            },
-                            {
-                                "nodeType": "text",
-                                "value": "lunch",
                                 "marks": [
                                     {
                                         "type": "bold"
                                     }
                                 ],
-                                "data": {}
+                                "value": "this Saturday, April 5 from 8:30-11:30 a.m. ",
+                                "nodeType": "text"
                             },
                             {
-                                "nodeType": "text",
-                                "value": ", ",
+                                "data": {},
                                 "marks": [],
-                                "data": {}
-                            },
-                            {
-                                "nodeType": "hyperlink",
-                                "data": {
-                                    "uri": "https://bit.ly/mthoreblunch"
-                                },
-                                "content": [
-                                    {
-                                        "nodeType": "text",
-                                        "value": "please click here",
-                                        "marks": [],
-                                        "data": {}
-                                    }
-                                ]
-                            },
-                            {
-                                "nodeType": "text",
-                                "value": " or use the sign-up sheet in the narthex. To sign up to provide ",
-                                "marks": [],
-                                "data": {}
-                            },
-                            {
-                                "nodeType": "text",
-                                "value": "dinner",
-                                "marks": [
-                                    {
-                                        "type": "bold"
-                                    }
-                                ],
-                                "data": {}
-                            },
-                            {
-                                "nodeType": "text",
-                                "value": ", ",
-                                "marks": [],
-                                "data": {}
-                            },
-                            {
-                                "nodeType": "hyperlink",
-                                "data": {
-                                    "uri": "https://bit.ly/mthorebdinner"
-                                },
-                                "content": [
-                                    {
-                                        "nodeType": "text",
-                                        "value": "please click here",
-                                        "marks": [],
-                                        "data": {}
-                                    }
-                                ]
-                            },
-                            {
-                                "nodeType": "text",
-                                "value": " or use the sign-up sheet in the narthex.",
-                                "marks": [],
-                                "data": {}
+                                "value": " for a morning of service as we come together to clean and prepare our church grounds for the upcoming Holy Week. We will be collecting debris from the trees, tidying up the property, and ensuring the area is beautiful and welcoming for all. Ages 15+ are welcome to participate – bring your gloves, and let’s make a difference together! ",
+                                "nodeType": "text"
                             }
-                        ]
+                        ],
+                        "nodeType": "paragraph"
                     }
-                ]
+                ],
+                "nodeType": "document"
+            },
+            "type": [
+                {
+                    "id": "3Zl7eAG9eIPOZLPyA11Uj8",
+                    "type": "Event"
+                }
+            ],
+            "image": null,
+            "attachments": [],
+            "videoId": null
+        },
+        {
+            "id": "7riNUiJ9KwsBAN5qYuXLTh",
+            "datetime": "2025-03-26T00:00",
+            "title": "Community Easter Egg Hunt: April 19",
+            "description": {
+                "data": {},
+                "content": [
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "Join us Sat., April 19 at 10 a.m. for a fun-filled Easter celebration for the whole community. The morning will be filled with exciting activities, including crafts, games, snacks, and a special telling of the Easter story. The ",
+                                "nodeType": "text"
+                            },
+                            {
+                                "data": {},
+                                "marks": [
+                                    {
+                                        "type": "bold"
+                                    }
+                                ],
+                                "value": "Easter Egg Hunt",
+                                "nodeType": "text"
+                            },
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": " will kick off at ",
+                                "nodeType": "text"
+                            },
+                            {
+                                "data": {},
+                                "marks": [
+                                    {
+                                        "type": "bold"
+                                    }
+                                ],
+                                "value": "10 a.m.",
+                                "nodeType": "text"
+                            },
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": ", with plenty of eggs hidden for children of all ages to find! Don't forget to bring your baskets and your best egg-hunting skills! ",
+                                "nodeType": "text"
+                            },
+                            {
+                                "data": {
+                                    "uri": "https://form.jotform.com/250696129480059"
+                                },
+                                "content": [
+                                    {
+                                        "data": {},
+                                        "marks": [],
+                                        "value": "Please click here to register your family. ",
+                                        "nodeType": "text"
+                                    }
+                                ],
+                                "nodeType": "hyperlink"
+                            },
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    },
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "This is a wonderful opportunity to connect with your neighbors and celebrate the season of renewal and hope. We look forward to seeing you there!",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    }
+                ],
+                "nodeType": "document"
             },
             "type": [
                 {
@@ -360,8 +282,8 @@
         },
         {
             "id": "YsuX8LyYORfzObO5oNJJB",
-            "datetime": "2025-02-19T00:00",
-            "title": "Leisure Timers",
+            "datetime": "2025-03-26T00:00",
+            "title": "Leisure Timers: Tues., April 1",
             "description": {
                 "data": {},
                 "content": [
@@ -370,18 +292,24 @@
                         "content": [
                             {
                                 "data": {},
+                                "marks": [],
+                                "value": "Join us on Tuesday, April 1, at 10:30 a.m. for a special discussion led by author Vera Peou Crenshaw about her book, ",
+                                "nodeType": "text"
+                            },
+                            {
+                                "data": {},
                                 "marks": [
                                     {
-                                        "type": "bold"
+                                        "type": "italic"
                                     }
                                 ],
-                                "value": "LeisureTimers will meet Tues., Mar. 4, 10:30 a.m. ",
+                                "value": "Crying for Justice: Survival Through Miracles",
                                 "nodeType": "text"
                             },
                             {
                                 "data": {},
                                 "marks": [],
-                                "value": "Join us for a Bible study led by Wayne Hollis. Lunch will be provided. Please sign up in the narthex. ",
+                                "value": ". Vera will share insights and reflections on her powerful work. Guests are welcome to bring a bag lunch. Please sign up in the narthex. We look forward to seeing you there!",
                                 "nodeType": "text"
                             }
                         ],
@@ -401,36 +329,26 @@
             "videoId": null
         },
         {
-            "id": "6hX3tjVNLJjzLJ0XnVvIfE",
-            "datetime": "2025-02-19T00:00",
-            "title": "Worship Team Meeting",
+            "id": "6a8xLg0zXLPupiOwDz52Ug",
+            "datetime": "2025-03-26T00:00",
+            "title": "Bulletin for March 30",
             "description": {
-                "nodeType": "document",
                 "data": {},
                 "content": [
                     {
-                        "nodeType": "paragraph",
                         "data": {},
                         "content": [
                             {
-                                "nodeType": "text",
-                                "value": "The Worship Team will meet immediately following the service this Sunday, ",
+                                "data": {},
                                 "marks": [],
-                                "data": {}
-                            },
-                            {
-                                "nodeType": "text",
-                                "value": "Feb. 23, 12 p.m.",
-                                "marks": [
-                                    {
-                                        "type": "bold"
-                                    }
-                                ],
-                                "data": {}
+                                "value": "Check out this Sunday's bulletin.",
+                                "nodeType": "text"
                             }
-                        ]
+                        ],
+                        "nodeType": "paragraph"
                     }
-                ]
+                ],
+                "nodeType": "document"
             },
             "type": [
                 {
@@ -439,12 +357,92 @@
                 }
             ],
             "image": null,
+            "attachments": [
+                {
+                    "title": "Bulletin",
+                    "file": {
+                        "url": "//assets.ctfassets.net/3wcsgs8fznel/2WjizAejuOaiBtGEMo5AU4/8368fb7a570e3b2cf507396a659a0153/UPDATED_Bulletin_033025.pdf",
+                        "details": {
+                            "size": 2922233
+                        },
+                        "fileName": "UPDATED Bulletin 033025.pdf",
+                        "contentType": "application/pdf"
+                    }
+                }
+            ],
+            "videoId": null
+        },
+        {
+            "id": "agRTgoSr0kk3dFfbJHXHp",
+            "datetime": "2025-03-26T00:00",
+            "title": "Worship Team Meeting: This Sunday!",
+            "description": {
+                "data": {},
+                "content": [
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "The Worship Team will meet in the Fellowship Hall immediately following the service on Sun., March 30, to plan upcoming services. Anyone interested in joining the team is welcome to attend!",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    }
+                ],
+                "nodeType": "document"
+            },
+            "type": [
+                {
+                    "id": "5ktejUJ8noonowWZUs0uN7",
+                    "type": "General"
+                },
+                {
+                    "id": "2pWRSRQB8VE40PR4Tuncyc",
+                    "type": "Newsletters"
+                }
+            ],
+            "image": null,
+            "attachments": [],
+            "videoId": null
+        },
+        {
+            "id": "5girwZZwgFziqAOmdksQUt",
+            "datetime": "2025-03-26T00:00",
+            "title": "Easter Egg Surprises Needed",
+            "description": {
+                "data": {},
+                "content": [
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "We are now accepting donations of individually wrapped candy and small toys for the Easter Egg Hunt plastic eggs! Please drop off your donations in the narthex by April 6 for the stuffing party. ",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    }
+                ],
+                "nodeType": "document"
+            },
+            "type": [
+                {
+                    "id": "2pWRSRQB8VE40PR4Tuncyc",
+                    "type": "Newsletters"
+                }
+            ],
+            "image": null,
             "attachments": [],
             "videoId": null
         },
         {
             "id": "1SYhVXFPGzuqtxBaOnzWSM",
-            "datetime": "2025-02-19T00:00",
+            "datetime": "2025-03-26T00:00",
             "title": "Prayer Requests",
             "description": {
                 "data": {},
@@ -473,12 +471,186 @@
                         "content": [
                             {
                                 "data": {},
-                                "marks": [],
-                                "value": "Susan Addy\nHelen Comalander\nLandon Free\nKevin Frick\nPhyllis Metts\nPeggy Roache\nAnn B. Shealy\nVicky Shealy\nCathryn Summer",
-                                "nodeType": "text"
+                                "content": [
+                                    {
+                                        "data": {},
+                                        "content": [
+                                            {
+                                                "data": {},
+                                                "marks": [],
+                                                "value": "Tom Griffin ",
+                                                "nodeType": "text"
+                                            }
+                                        ],
+                                        "nodeType": "paragraph"
+                                    }
+                                ],
+                                "nodeType": "list-item"
+                            },
+                            {
+                                "data": {},
+                                "content": [
+                                    {
+                                        "data": {},
+                                        "content": [
+                                            {
+                                                "data": {},
+                                                "marks": [],
+                                                "value": "Sandra McKie",
+                                                "nodeType": "text"
+                                            }
+                                        ],
+                                        "nodeType": "paragraph"
+                                    }
+                                ],
+                                "nodeType": "list-item"
+                            },
+                            {
+                                "data": {},
+                                "content": [
+                                    {
+                                        "data": {},
+                                        "content": [
+                                            {
+                                                "data": {},
+                                                "marks": [],
+                                                "value": "Gene Teal",
+                                                "nodeType": "text"
+                                            }
+                                        ],
+                                        "nodeType": "paragraph"
+                                    }
+                                ],
+                                "nodeType": "list-item"
+                            },
+                            {
+                                "data": {},
+                                "content": [
+                                    {
+                                        "data": {},
+                                        "content": [
+                                            {
+                                                "data": {},
+                                                "marks": [],
+                                                "value": "Carol Teal",
+                                                "nodeType": "text"
+                                            }
+                                        ],
+                                        "nodeType": "paragraph"
+                                    }
+                                ],
+                                "nodeType": "list-item"
+                            },
+                            {
+                                "data": {},
+                                "content": [
+                                    {
+                                        "data": {},
+                                        "content": [
+                                            {
+                                                "data": {},
+                                                "marks": [],
+                                                "value": "Susan Addy",
+                                                "nodeType": "text"
+                                            }
+                                        ],
+                                        "nodeType": "paragraph"
+                                    }
+                                ],
+                                "nodeType": "list-item"
+                            },
+                            {
+                                "data": {},
+                                "content": [
+                                    {
+                                        "data": {},
+                                        "content": [
+                                            {
+                                                "data": {},
+                                                "marks": [],
+                                                "value": "Landon Free",
+                                                "nodeType": "text"
+                                            }
+                                        ],
+                                        "nodeType": "paragraph"
+                                    }
+                                ],
+                                "nodeType": "list-item"
+                            },
+                            {
+                                "data": {},
+                                "content": [
+                                    {
+                                        "data": {},
+                                        "content": [
+                                            {
+                                                "data": {},
+                                                "marks": [],
+                                                "value": "Kevin Frick",
+                                                "nodeType": "text"
+                                            }
+                                        ],
+                                        "nodeType": "paragraph"
+                                    }
+                                ],
+                                "nodeType": "list-item"
+                            },
+                            {
+                                "data": {},
+                                "content": [
+                                    {
+                                        "data": {},
+                                        "content": [
+                                            {
+                                                "data": {},
+                                                "marks": [],
+                                                "value": "Peggy Roache",
+                                                "nodeType": "text"
+                                            }
+                                        ],
+                                        "nodeType": "paragraph"
+                                    }
+                                ],
+                                "nodeType": "list-item"
+                            },
+                            {
+                                "data": {},
+                                "content": [
+                                    {
+                                        "data": {},
+                                        "content": [
+                                            {
+                                                "data": {},
+                                                "marks": [],
+                                                "value": "Vicky Shealy",
+                                                "nodeType": "text"
+                                            }
+                                        ],
+                                        "nodeType": "paragraph"
+                                    }
+                                ],
+                                "nodeType": "list-item"
+                            },
+                            {
+                                "data": {},
+                                "content": [
+                                    {
+                                        "data": {},
+                                        "content": [
+                                            {
+                                                "data": {},
+                                                "marks": [],
+                                                "value": "Cathryn Summer",
+                                                "nodeType": "text"
+                                            }
+                                        ],
+                                        "nodeType": "paragraph"
+                                    }
+                                ],
+                                "nodeType": "list-item"
                             }
                         ],
-                        "nodeType": "paragraph"
+                        "nodeType": "unordered-list"
                     },
                     {
                         "data": {},
@@ -547,21 +719,15 @@
             "videoId": null
         },
         {
-            "id": "6VCwGEILATezxUyKeRuAYh",
-            "datetime": "2025-02-18T00:00",
-            "title": "Decoration Committee Meeting",
+            "id": "3MSSlA3GpdNhdVATHujne4",
+            "datetime": "2025-03-26T00:00",
+            "title": "Donate to Spring SonShine Bags",
             "description": {
                 "data": {},
                 "content": [
                     {
                         "data": {},
                         "content": [
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": "The Decoration Committee will meet in the church fellowship hall ",
-                                "nodeType": "text"
-                            },
                             {
                                 "data": {},
                                 "marks": [
@@ -569,23 +735,13 @@
                                         "type": "bold"
                                     }
                                 ],
-                                "value": "on Tuesday, Feb. 25,",
+                                "value": " ",
                                 "nodeType": "text"
                             },
                             {
                                 "data": {},
                                 "marks": [],
-                                "value": " at",
-                                "nodeType": "text"
-                            },
-                            {
-                                "data": {},
-                                "marks": [
-                                    {
-                                        "type": "bold"
-                                    }
-                                ],
-                                "value": " 2 p.m. ",
+                                "value": "SonShine bags are a special ministry initiative to brighten the day of 22 of our members who are unable to attend service. These bags, filled with thoughtful donations, will be delivered to them as a way of sharing both sunshine and \"Son\"shine before Easter. Suggested donations include snacks, puzzles, notepads, pens, pencils, or any small item that could bring joy. Drop off your donations in the SonShine bags in the narthex, and the Social Ministry Team thanks you for your support! ",
                                 "nodeType": "text"
                             }
                         ],
@@ -596,168 +752,15 @@
             },
             "type": [
                 {
-                    "id": "5ktejUJ8noonowWZUs0uN7",
-                    "type": "General"
+                    "id": "2pWRSRQB8VE40PR4Tuncyc",
+                    "type": "Newsletters"
                 }
             ],
             "image": null,
-            "attachments": [],
-            "videoId": null
-        },
-        {
-            "id": "5lcipHpub76CC5PFo4eM12",
-            "datetime": "2025-02-12T00:00",
-            "title": "Altar Guild/ Communion Assistant Training",
-            "description": {
-                "data": {},
-                "content": [
-                    {
-                        "data": {},
-                        "content": [
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": "Immediately following the service, there will be a brief training for all Altar Guild and Communion Assistants this Sunday, Feb. 16. ",
-                                "nodeType": "text"
-                            }
-                        ],
-                        "nodeType": "paragraph"
-                    }
-                ],
-                "nodeType": "document"
-            },
-            "type": [
-                {
-                    "id": "5ktejUJ8noonowWZUs0uN7",
-                    "type": "General"
-                }
-            ],
-            "image": null,
-            "attachments": [],
-            "videoId": null
-        },
-        {
-            "id": "5cq4CRxEICeq8pNS3qxCBl",
-            "datetime": "2025-02-12T00:00",
-            "title": "Friendship Circle",
-            "description": {
-                "data": {},
-                "content": [
-                    {
-                        "data": {},
-                        "content": [
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": "Friendship Circle will meet on Friday, Feb. 21, at Catch22 at 11:30. We hope to see you there!",
-                                "nodeType": "text"
-                            }
-                        ],
-                        "nodeType": "paragraph"
-                    }
-                ],
-                "nodeType": "document"
-            },
-            "type": [
-                {
-                    "id": "5ktejUJ8noonowWZUs0uN7",
-                    "type": "General"
-                }
-            ],
-            "image": null,
-            "attachments": [],
-            "videoId": null
-        },
-        {
-            "id": "5PGeuu6w3VDZiYcTEWpSc8",
-            "datetime": "2025-02-12T00:00",
-            "title": "Financial Peace University",
-            "description": {
-                "data": {},
-                "content": [
-                    {
-                        "data": {},
-                        "content": [
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": "According to a Ramsey Solutions research team study, 40% of Americans say their financial situation has caused them to lose sleep in the past month. If that's you, it's time to make a change. Take the first step and get control of your finances by signing up for ",
-                                "nodeType": "text"
-                            },
-                            {
-                                "data": {},
-                                "marks": [
-                                    {
-                                        "type": "italic"
-                                    }
-                                ],
-                                "value": "Financial Peace University. ",
-                                "nodeType": "text"
-                            },
-                            {
-                                "data": {},
-                                "marks": [
-                                    {
-                                        "type": "bold"
-                                    }
-                                ],
-                                "value": "This nine-week class begins Sun., Feb. 16, 1:00-3 p.m. ",
-                                "nodeType": "text"
-                            },
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": "and will help you learn essential strategies to pay off debt, save money, and build wealth. The fee for class materials is $85. Scholarships are available upon request (please email outreach@mthoreb.net or call 803-345-2000 for more information). Childcare will be provided. ",
-                                "nodeType": "text"
-                            },
-                            {
-                                "data": {
-                                    "uri": "https://form.jotform.com/250284643382054"
-                                },
-                                "content": [
-                                    {
-                                        "data": {},
-                                        "marks": [],
-                                        "value": "Click here to register today",
-                                        "nodeType": "text"
-                                    }
-                                ],
-                                "nodeType": "hyperlink"
-                            },
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": "!",
-                                "nodeType": "text"
-                            }
-                        ],
-                        "nodeType": "paragraph"
-                    }
-                ],
-                "nodeType": "document"
-            },
-            "type": [
-                {
-                    "id": "3Zl7eAG9eIPOZLPyA11Uj8",
-                    "type": "Event"
-                }
-            ],
-            "image": {
-                "url": "//images.ctfassets.net/3wcsgs8fznel/34AqDT3LLZeUvxhUuUgFve/7bfd115465840a88e24e95943b9b50ac/Screenshot_2025-01-28_at_7.48.50_PM.png",
-                "details": {
-                    "size": 1133777,
-                    "image": {
-                        "width": 1018,
-                        "height": 1128
-                    }
-                },
-                "fileName": "Screenshot 2025-01-28 at 7.48.50 PM.png",
-                "contentType": "image/png"
-            },
             "attachments": [],
             "videoId": null
         }
     ],
     "page": 1,
-    "totalPages": 17
+    "totalPages": 18
 }

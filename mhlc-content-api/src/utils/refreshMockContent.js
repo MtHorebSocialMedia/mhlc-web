@@ -22,6 +22,7 @@ function saveContent(content, fileName) {
     saveContent(await contentService.getMenuItems(), 'menu-items.json');
     saveContent(await contentService.getNewsEntries(1), 'news-entries-1.json');
     saveContent(await contentService.getNewsEntries(2), 'news-entries-2.json');
+    saveContent(await contentService.getUpcomingEvents(), 'upcoming-events.json');
     saveContent(await contentService.getNewsTypes(), 'news-types.json');
     saveContent(await contentService.getStaff(), 'staff.json');
     saveContent(await contentService.getBlogPosts(1), 'blog-posts-1.json');

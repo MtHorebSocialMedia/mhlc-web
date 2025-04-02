@@ -61,6 +61,20 @@ const routes = [
     ],
   },
   {
+    path: '/events',
+    component: () => import('@/layouts/default/Default.vue'),
+    children: [
+      {
+        path: '',
+        name: 'Events',
+        // route level code-splitting
+        // this generates a separate chunk (about.[hash].js) for this route
+        // which is lazy-loaded when the route is visited.
+        component: () => import(/* webpackChunkName: "events" */ '@/views/Events.vue'),
+      },
+    ],
+  },
+  {
     path: '/news/:newsId',
     component: () => import('@/layouts/default/Default.vue'),
     children: [
@@ -71,6 +85,20 @@ const routes = [
         // this generates a separate chunk (about.[hash].js) for this route
         // which is lazy-loaded when the route is visited.
         component: () => import(/* webpackChunkName: "newsEntry" */ '@/views/NewsEntry.vue'),
+      },
+    ],
+  },
+  {
+    path: '/event/:newsId',
+    component: () => import('@/layouts/default/Default.vue'),
+    children: [
+      {
+        path: '',
+        name: 'EventEntry',
+        // route level code-splitting
+        // this generates a separate chunk (about.[hash].js) for this route
+        // which is lazy-loaded when the route is visited.
+        component: () => import(/* webpackChunkName: "eventEntry" */ '@/views/EventEntry.vue'),
       },
     ],
   },

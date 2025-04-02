@@ -1,111 +1,58 @@
 [
     {
-        "id": "4KsOcsJPZ6BoiuGm54AJoh",
-        "publishBeginDate": "2025-02-12T00:00",
-        "publishEndDate": "2025-03-08T00:00",
-        "title": "We're Hiring!",
-        "description": {
-            "data": {},
-            "content": [
-                {
-                    "data": {},
-                    "content": [
-                        {
-                            "data": {},
-                            "marks": [],
-                            "value": "We are hiring a",
-                            "nodeType": "text"
-                        },
-                        {
-                            "data": {},
-                            "marks": [],
-                            "value": " part-time Administrative Assistant.  If you or someone you know would be interested, please check out the details at ",
-                            "nodeType": "text"
-                        },
-                        {
-                            "data": {
-                                "uri": "https://mthoreb.net/content/jobs"
-                            },
-                            "content": [
-                                {
-                                    "data": {},
-                                    "marks": [],
-                                    "value": "https://mthoreb.net/content/jobs",
-                                    "nodeType": "text"
-                                }
-                            ],
-                            "nodeType": "hyperlink"
-                        },
-                        {
-                            "data": {},
-                            "marks": [],
-                            "value": "!",
-                            "nodeType": "text"
-                        }
-                    ],
-                    "nodeType": "paragraph"
-                }
-            ],
-            "nodeType": "document"
-        },
-        "type": "info",
-        "image": null,
-        "videoId": null
-    },
-    {
         "id": "41DXQ8qUFdDvmkuAsqS2JP",
         "publishBeginDate": "2025-02-04T12:00",
         "publishEndDate": "2026-02-10T00:00",
         "title": "Need Prayer?",
         "description": {
+            "nodeType": "document",
             "data": {},
             "content": [
                 {
+                    "nodeType": "paragraph",
                     "data": {},
                     "content": [
                         {
-                            "data": {},
+                            "nodeType": "text",
+                            "value": "We would love to support you in prayer. ",
                             "marks": [
                                 {
                                     "type": "bold"
                                 }
                             ],
-                            "value": "We would love to support you in prayer. ",
-                            "nodeType": "text"
+                            "data": {}
                         },
                         {
+                            "nodeType": "hyperlink",
                             "data": {
-                                "uri": "https://form.jotform.com/250355257588062"
+                                "uri": "https://mthoreb.net/content/prayer"
                             },
                             "content": [
                                 {
-                                    "data": {},
+                                    "nodeType": "text",
+                                    "value": "Click here",
                                     "marks": [
                                         {
                                             "type": "bold"
                                         }
                                     ],
-                                    "value": "Click here",
-                                    "nodeType": "text"
+                                    "data": {}
                                 }
-                            ],
-                            "nodeType": "hyperlink"
+                            ]
                         },
                         {
-                            "data": {},
+                            "nodeType": "text",
+                            "value": " to submit a request. ",
                             "marks": [
                                 {
                                     "type": "bold"
                                 }
                             ],
-                            "value": " to submit a request. ",
-                            "nodeType": "text"
+                            "data": {}
                         }
-                    ],
-                    "nodeType": "paragraph"
+                    ]
                 }
-            ],
-            "nodeType": "document"
+            ]
         },
         "type": "info",
         "image": null,

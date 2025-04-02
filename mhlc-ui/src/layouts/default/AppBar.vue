@@ -1,7 +1,7 @@
 <template>
   <v-container class="header">
     <v-row>
-      <v-col cols="4">
+      <v-col cols="3">
         <img
           :width="xs ? 135 : 193"
           :height="xs ? 130 : 185"
@@ -11,7 +11,7 @@
         {{ churchInfo.slogan }}
       </v-col>
       <v-spacer></v-spacer>
-      <v-col cols="8">
+      <v-col cols="9">
         <v-container>
           <v-row>
             <v-col class="social">
