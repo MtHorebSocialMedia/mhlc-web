@@ -103,6 +103,26 @@ function getCategories() {
             count: 0
         },
         {
+            name: 'Events',
+            analyze: (path, category) => {
+                if (['/events'].includes(path)) {
+                    category.count++;
+                    return true;
+                }
+            },
+            count: 0
+        },
+        {
+            name: 'Event Entry',
+            analyze: (path, category) => {
+                if (path.startsWith('/event/')) {
+                    category.count++;
+                    return true;
+                }
+            },
+            count: 0
+        },
+        {
             name: 'Blogs',
             analyze: (path, category) => {
                 if (['/blog-posts'].includes(path)) {
@@ -145,7 +165,7 @@ function getCategories() {
         {
             name: 'Leaders',
             analyze: (path, category) => {
-                if (['/leaders'].includes(path)) {
+                if (['/leaders', '/leaders/'].includes(path)) {
                     category.count++;
                     return true;
                 }
