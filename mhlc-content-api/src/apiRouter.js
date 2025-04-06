@@ -12,7 +12,8 @@ const {
     getCouncil,
     getStaff,
     getSpecialAnnouncements,
-    getUpcomingEvents
+    getUpcomingEvents,
+    getEventDetails
 } = require('./services/contentService');
 const { getPaypalUrl } = require('./services/donationService');
 const { getVideosList } = require('./services/youtubeService');
@@ -110,6 +111,17 @@ router.get('/events', (req, res, next) => {
             const page = req.query.page || 1;
             const results = await getUpcomingEvents(page);
             res.send(results);
+        } catch(err) {
+            next(err);
+        }
+    })();
+});
+
+router.get('/events/:eventId', (req, res, next) => {
+    (async function() {
+        try {
+            const eventDetails = await getEventDetails(req.params.eventId);
+            res.send(eventDetails);
         } catch(err) {
             next(err);
         }

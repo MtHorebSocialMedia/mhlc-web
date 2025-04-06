@@ -88,6 +88,9 @@ async function callPing() {
 
 async function sendMail(to, subject, html) {
     const from = process.env.SENDGRID_FROM_ADDRESS;
+    if (to.includes(',')) {
+        to = to.split(',').map(addr => addr.trim());
+    }
     const message = {
         to,
         from,

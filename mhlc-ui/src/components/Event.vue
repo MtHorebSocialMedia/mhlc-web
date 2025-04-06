@@ -73,8 +73,8 @@
     const newsEntry = ref(null);
     const jotformWrapper = ref(null);
 
-    async function loadNewsEntry(newsId) {
-        newsEntry.value = await useContentStore().getNewsEntry(newsId);
+    async function loadNewsEntry(eventId) {
+        newsEntry.value = await useContentStore().getEventDetails(eventId);
     }
 
     function formatDateTime(dateTime) {

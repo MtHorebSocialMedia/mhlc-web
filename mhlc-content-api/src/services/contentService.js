@@ -113,6 +113,28 @@ async function getNewsEntries(page) {
     return { news, page, totalPages };
 }
 
+async function getNewsEntry(newsId) {
+    const item = await client.getEntry(newsId);
+    return {
+        id: item.sys.id,
+        datetime: item.fields.datetime,
+        title: item.fields.title,
+        description: item.fields.description,
+        type: item.fields.type ? item.fields.type.map(type => ({
+            id: type.sys.id,
+            type: type.fields.type
+        })) : [],
+        image: item.fields.image ? item.fields.image.fields.file : null,
+        attachments: item.fields.attachments ? item.fields.attachments.map((attachment) => ({
+            title: attachment.fields.title,
+            file: attachment.fields.file
+        })) : [],
+        videoUrl: item.fields.videoUrl,
+        videoId: item.fields.videoUrl ? getVideoId(item.fields.videoUrl) : null
+    };
+}
+
+
 async function getUpcomingEvents(page) {
 
     if (!eventNewsTypeId) {
@@ -161,11 +183,13 @@ async function getUpcomingEvents(page) {
     return { events, page, totalPages };
 }
 
-async function getNewsEntry(newsId) {
-    const item = await client.getEntry(newsId);
+async function getEventDetails(eventId) {
+    const item = await client.getEntry(eventId);
     return {
         id: item.sys.id,
         datetime: item.fields.datetime,
+        eventDatetime: item.fields.eventDatetime,
+        eventRegistrationJotFormId: item.fields.eventRegistrationJotFormId,
         title: item.fields.title,
         description: item.fields.description,
         type: item.fields.type ? item.fields.type.map(type => ({
@@ -329,6 +353,7 @@ module.exports = {
     getNewsEntries,
     getNewsEntry,
     getUpcomingEvents,
+    getEventDetails,
     getChurchInfo,
     getCouncil,
     getStaff,
