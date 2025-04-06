@@ -141,6 +141,7 @@ async function getUpcomingEvents(page) {
             id: item.sys.id,
             datetime: item.fields.datetime,
             eventDatetime: item.fields.eventDatetime,
+            eventRegistrationJotFormId: item.fields.eventRegistrationJotFormId,
             title: item.fields.title,
             description: item.fields.description,
             type: item.fields.type ? item.fields.type.map(type => ({
