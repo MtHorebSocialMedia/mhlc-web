@@ -195,7 +195,6 @@
             // truncate to only 5 entries
             eventsResults.value.events.length = 5;
         }
-        console.log('eventsResults.value:', eventsResults.value);
     }
 
     async function nextPage() {

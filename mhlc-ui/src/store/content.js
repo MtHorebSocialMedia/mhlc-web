@@ -5,8 +5,8 @@ import { getHttpClient, getMockClient, addMocks } from '../utils/httpUtils';
 
 export const useContentStore = defineStore('content', () => {
     const menuItems = ref([]);
-    const contentPages = ref([]);
-    const contentBlocks = ref([]);
+    const contentPages = ref({});
+    const contentBlocks = ref({});
     const newsTypes = ref([]);
     const recentNews = ref({});
     const upcomingEvents = ref({});

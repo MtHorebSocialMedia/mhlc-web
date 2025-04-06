@@ -2,6 +2,23 @@
 import { createRouter, createWebHistory, createWebHashHistory } from 'vue-router';
 import { logEvent } from '@/utils/auditService';
 import { isAuthenticated, addErrorCallback } from '@/utils/httpUtils';
+import { useContentStore } from '@/store/content';
+import { storeToRefs } from 'pinia';
+import { watch } from 'vue';
+
+async function getContentPage(path) {
+  const contentStore = useContentStore();
+  const { contentPages } = storeToRefs(contentStore);
+  if (Object.keys(contentPages.value).length == 0) {
+    return new Promise((resolve) => {
+      watch(contentPages, () => {
+        resolve(contentPages.value[path])
+      });
+    });
+  } else {
+    return contentPages.value[path];
+  }
+}
 
 const routes = [
   {
@@ -267,6 +284,19 @@ const routes = [
         // this generates a separate chunk (about.[hash].js) for this route
         // which is lazy-loaded when the route is visited.
         component: () => import(/* webpackChunkName: "notFound" */ '@/views/NotFound.vue'),
+        beforeEnter: (to, from, next) => {
+          // Check to see if there is a content page matching this route,
+          // if there is, forward to that instead
+          (async function() {
+            const contentPath = `/content${to.path}`;
+            const path = await getContentPage(contentPath);
+            if (path) {
+              next(contentPath);
+            } else {
+              next();
+            }
+          })();
+        }
       },
     ],
   }
