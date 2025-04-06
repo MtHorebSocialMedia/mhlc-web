@@ -79,4 +79,23 @@ function getPaypalDonationConfirmationEmailTemplate(confirmation) {
     return { subject, body };
 }
 
-module.exports = { getDonationRequestEmailTemplate, getPaypalDonationConfirmationEmailTemplate };
+function getSystemStartupEmailTemplate() {
+    const subject = 'mthoreb.net Server Startup Notice';
+    const body = `
+    <html>
+        <body>
+            <h1>mthoreb.net Server Startup Notice</h1>
+            <p>
+                A server for mthoreb.net has just started up.
+            </p>
+            <p>
+                If this was not expected, it is recommended to checkout <a href="https://mthoreb.net">mthoreb.net</a> to ensure that
+                it is still functioning properly.
+            </p>
+        </body>
+    </html>
+    `;
+    return { subject, body };
+}
+
+module.exports = { getDonationRequestEmailTemplate, getPaypalDonationConfirmationEmailTemplate, getSystemStartupEmailTemplate };
