@@ -63,7 +63,7 @@
     import { useContentStore } from '@/store/content';
     import EmbeddedVideo from './EmbeddedVideo.vue';
     import RichContentRenderer from './RichContentRenderer.vue';
-    import { ref, watch } from 'vue';
+    import { ref } from 'vue';
     import router from '../router';
 
     const newsEntry = ref(null);
@@ -83,7 +83,8 @@
                 hour = `${intHour - 12}`;
                 meridian = 'PM';
             }
-            return `${month}/${day}/${year} ${hour.padStart(2, '0')}:${minute} ${meridian}`;
+            const timeDisplay = intHour !== 0 ? ` ${hour.padStart(2, '0')}:${minute} ${meridian}` : '';
+            return `${month}/${day}/${year}${timeDisplay}`;
         } else {
             return '';
         }
