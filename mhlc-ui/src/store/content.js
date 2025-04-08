@@ -5,8 +5,8 @@ import { getHttpClient, getMockClient, addMocks } from '../utils/httpUtils';
 
 export const useContentStore = defineStore('content', () => {
     const menuItems = ref([]);
-    const contentPages = ref([]);
-    const contentBlocks = ref([]);
+    const contentPages = ref({});
+    const contentBlocks = ref({});
     const newsTypes = ref([]);
     const recentNews = ref({});
     const upcomingEvents = ref({});
@@ -79,7 +79,7 @@ export const useContentStore = defineStore('content', () => {
 
     return {
         menuItems, contentPages, contentBlocks, newsTypes, recentNews, upcomingEvents, churchInfo, council, staff, videoList, specialAnnouncements, contentAssistEnabled,
-        fetchContent, getNews, getNewsEntry, getBlogPosts, getBlogPost, getUpcomingEvents
+        fetchContent, getNews, getNewsEntry, getBlogPosts, getBlogPost, getUpcomingEvents, getEventDetails
     };
 });
 
@@ -123,12 +123,16 @@ async function getNews(page) {
     return (await getHttpClient().get('/api/news', { params: { page } })).data;
 }
 
+async function getNewsEntry(newsId) {
+    return (await getHttpClient().get(`/api/news/${newsId}`)).data;
+}
+
 async function getUpcomingEvents(page) {
     return (await getHttpClient().get('/api/events', { params: { page } })).data;
 }
 
-async function getNewsEntry(newsId) {
-    return (await getHttpClient().get(`/api/news/${newsId}`)).data;
+async function getEventDetails(eventId) {
+    return (await getHttpClient().get(`/api/events/${eventId}`)).data;
 }
 
 async function getChurchInfo() {

@@ -14,6 +14,24 @@
 </script>
 
 <style scoped>
-.v-container.blogs h2 { margin-top: 10px; margin-bottom: 10px; }
-.v-container.blogs hr { margin-bottom: 20px; }
+  .v-container.blogs h2 { margin-top: 10px; margin-bottom: 10px; }
+  .v-container.blogs hr { margin-bottom: 20px; }
+</style>
+
+<style>
+@page {
+  size: A4 landscape;
+}
+@media print {
+  /* All your print styles go here */
+  .v-container.header,
+  .v-col.month-options,
+  .v-row.unknown-stats,
+  .v-footer {
+    display: none !important;
+  }
+  .v-row.platform-summary-heading {
+    break-before: page;
+  }
+}
 </style>

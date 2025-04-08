@@ -68,21 +68,26 @@
 
     const newsEntry = ref(null);
 
-    async function loadNewsEntry(newsId) {
-        newsEntry.value = await useContentStore().getNewsEntry(newsId);
+    async function loadNewsEntry(eventId) {
+        newsEntry.value = await useContentStore().getEventDetails(eventId);
     }
 
     function formatDateTime(dateTime) {
-        const [date, time ] = dateTime.split('T');
-        const [ year, month, day ] = date.split('-');
-        let [ hour, minute ] = time.split(':');
-        let meridian = 'AM';
-        const intHour = parseInt(hour);
-        if (intHour > 12) {
-            hour = `${intHour - 12}`;
-            meridian = 'PM';
+        if (dateTime) {
+            const [date, time ] = dateTime.split('T');
+            const [ year, month, day ] = date.split('-');
+            let [ hour, minute ] = time.split(':');
+            let meridian = 'AM';
+            const intHour = parseInt(hour);
+            if (intHour > 12) {
+                hour = `${intHour - 12}`;
+                meridian = 'PM';
+            }
+            const timeDisplay = intHour !== 0 ? ` ${hour.padStart(2, '0')}:${minute} ${meridian}` : '';
+            return `${month}/${day}/${year}${timeDisplay}`;
+        } else {
+            return '';
         }
-        return `${month}/${day}/${year} ${hour.padStart(2, '0')}:${minute} ${meridian}`;
     }
 
     const path = router.currentRoute.value.path;
