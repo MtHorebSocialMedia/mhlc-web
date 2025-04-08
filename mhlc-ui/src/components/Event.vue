@@ -54,10 +54,6 @@
                         </v-card>
                     </v-col>
                 </v-row>
-                <div
-                    v-if="newsEntry.eventRegistrationJotFormId"
-                    ref="jotformWrapper"
-                ></div>
             </v-container>
         </v-card-item>
     </v-card>
@@ -71,7 +67,6 @@
     import router from '../router';
 
     const newsEntry = ref(null);
-    const jotformWrapper = ref(null);
 
     async function loadNewsEntry(eventId) {
         newsEntry.value = await useContentStore().getEventDetails(eventId);
@@ -93,18 +88,6 @@
             return '';
         }
     }
-
-    watch(jotformWrapper, () => {
-        if(jotformWrapper.value && jotformWrapper.value.appendChild) {
-            const jotformScript = document.createElement("script");
-            jotformScript.setAttribute('type', 'text/javascript');
-            jotformScript.setAttribute(
-                'src',
-                `https://form.jotform.com/jsform/${newsEntry.value.eventRegistrationJotFormId}`
-            );
-            jotformWrapper.value.appendChild(jotformScript);
-        }
-    });
 
     const path = router.currentRoute.value.path;
     const [,,newsId] = path.split('/');

@@ -66,13 +66,16 @@ app.use('*', (req, res) => {
     app.listen(port, () => {
         logger.info(`mhlc-web app listening on port ${port}`);
 
-        const { subject, body } = getSystemStartupEmailTemplate();
-        const adminEmailAddress = process.env.SENDGRID_TO_ADDRESS_ADMIN;
-        if (adminEmailAddress) {
-            logger.info('Sending startup notification email.');
-            sendMail(adminEmailAddress, subject, body);
-        } else {
-            logger.warn('An email address has not been configured for the admin.  Cannot send startup notification emails.');
+        const { NODE_ENV } = process.env;
+        if (NODE_ENV && NODE_ENV.toLowerCase().startsWith('prod')) {
+            const { subject, body } = getSystemStartupEmailTemplate();
+            const adminEmailAddress = process.env.SENDGRID_TO_ADDRESS_ADMIN;
+            if (adminEmailAddress) {
+                logger.info('Sending startup notification email.');
+                sendMail(adminEmailAddress, subject, body);
+            } else {
+                logger.warn('An email address has not been configured for the admin.  Cannot send startup notification emails.');
+            }
         }
     });
 })();
