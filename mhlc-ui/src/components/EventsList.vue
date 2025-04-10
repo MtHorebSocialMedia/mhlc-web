@@ -145,7 +145,7 @@
                 <v-btn
                     class="ms-auto"
                     text="Close"
-                    @click="showFullDetails = false"
+                    @click="closeFullDetailsDialog()"
                 ></v-btn>
             </template>
         </v-card>
@@ -154,6 +154,7 @@
 
 <script setup>
     import { useContentStore } from '@/store/content';
+    import { useDialogsStore } from '@/store/dialogs';
     import { storeToRefs } from 'pinia';
     import EmbeddedVideo from './EmbeddedVideo.vue';
     import RichContentRenderer from './RichContentRenderer.vue';
@@ -170,6 +171,8 @@
 
     const contentStore = useContentStore();
     const { upcomingEvents } = storeToRefs(contentStore);
+
+    const dialogsStore = useDialogsStore();
 
     const eventsResults = ref({});
     const currentPage = ref(0);
@@ -219,7 +222,6 @@
                 meridian = 'PM';
             }
             const timeDisplay = intHour !== 0 ? ` ${hour.padStart(2, '0')}:${minute} ${meridian}` : '';
-            console.log({ timeDisplay });
             return `${month}/${day}/${year}${timeDisplay}`;
         } else {
             return '';
@@ -230,6 +232,12 @@
         fullDetailsToShow.value = eventsResults.value.events.find(({ id }) => id === newsId);
         showFullDetails.value = true;
         logEvent({ uri: `/event/${newsId}`, type: 'dialog' });
+        dialogsStore.openDialog({ close: closeFullDetailsDialog });
+    }
+
+    function closeFullDetailsDialog() {
+        showFullDetails.value = false;
+        dialogsStore.closeDialog({ close: closeFullDetailsDialog });
     }
 </script>
 

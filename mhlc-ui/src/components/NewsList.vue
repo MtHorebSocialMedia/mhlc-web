@@ -187,7 +187,7 @@
                 <v-btn
                     class="ms-auto"
                     text="Close"
-                    @click="showFullDetails = false"
+                    @click="closeFullDetailsDialog()"
                 ></v-btn>
             </template>
         </v-card>
@@ -196,6 +196,7 @@
 
 <script setup>
     import { useContentStore } from '@/store/content';
+    import { useDialogsStore } from '@/store/dialogs';
     import { storeToRefs } from 'pinia';
     import EmbeddedVideo from './EmbeddedVideo.vue';
     import RichContentRenderer from './RichContentRenderer.vue';
@@ -212,6 +213,8 @@
 
     const contentStore = useContentStore();
     const { recentNews, newsTypes } = storeToRefs(contentStore);
+
+    const dialogsStore = useDialogsStore();
 
     const newsResults = ref({});
     const currentPage = ref(0);
@@ -258,6 +261,12 @@
         fullDetailsToShow.value = newsResults.value.news.find(({ id }) => id === newsId);
         showFullDetails.value = true;
         logEvent({ uri: `/news/${newsId}`, type: 'dialog' });
+        dialogsStore.openDialog({ close: closeFullDetailsDialog });
+    }
+
+    function closeFullDetailsDialog() {
+        showFullDetails.value = false;
+        dialogsStore.closeDialog({ close: closeFullDetailsDialog });
     }
 </script>
 
