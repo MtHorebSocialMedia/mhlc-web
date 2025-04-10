@@ -5,6 +5,7 @@ import { isAuthenticated, addErrorCallback } from '@/utils/httpUtils';
 import { useContentStore } from '@/store/content';
 import { storeToRefs } from 'pinia';
 import { watch } from 'vue';
+import { useDialogsStore } from '@/store/dialogs';
 
 async function getContentPage(path) {
   const contentStore = useContentStore();
@@ -333,6 +334,11 @@ addErrorCallback(403, () => {
 const securePaths = ['/admin', '/analytics'];
 
 router.beforeEach(async (to) => {
+
+  // Close any open dialogs
+  const dialogStore = useDialogsStore();
+  dialogStore.closeDialogs();
+
   // if this is a secured page, make sure the user is authenticated
   if (!isAuthenticated() && securePaths.includes(to.path)) {
     // redirect the user to the login page

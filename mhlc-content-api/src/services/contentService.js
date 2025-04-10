@@ -1,4 +1,5 @@
 const contentful = require('contentful');
+const { writeEvent } = require('./analyticsService');
 const { getLogger } = require('../utils/logger');
 
 const logger = getLogger('contentService');
@@ -19,6 +20,7 @@ async function getMenuItems() {
     const { items } = await client.getEntries({
         content_type: 'menuItem'
     });
+    writeContentfulAuditEvent('menuItem');
     return items.map((item) => {
         return {
             id: item.sys.id,
@@ -34,6 +36,7 @@ async function getContentPages() {
     const { items } = await client.getEntries({
         content_type: 'contentPage'
     });
+    writeContentfulAuditEvent('contentPage');
     return items.map((item) => {
         return {
             id: item.sys.id,
@@ -51,6 +54,7 @@ async function getContentBlocks() {
     const { items } = await client.getEntries({
         content_type: 'contentBlock'
     });
+    writeContentfulAuditEvent('contentBlock');
     return items.map((item) => {
         return {
             id: item.sys.id,
@@ -71,6 +75,7 @@ async function getNewsTypes() {
     const { items } = await client.getEntries({
         content_type: 'newsType'
     });
+    writeContentfulAuditEvent('newsType');
     return items.map((item) => {
         return {
             id: item.sys.id,
@@ -90,6 +95,7 @@ async function getNewsEntries(page) {
         order: '-fields.datetime',
         skip
     });
+    writeContentfulAuditEvent('news');
     const news = items.map((item) => {
         return {
             id: item.sys.id,
@@ -115,6 +121,7 @@ async function getNewsEntries(page) {
 
 async function getNewsEntry(newsId) {
     const item = await client.getEntry(newsId);
+    writeContentfulAuditEvent('newsEntry');
     return {
         id: item.sys.id,
         datetime: item.fields.datetime,
@@ -142,6 +149,7 @@ async function getUpcomingEvents(page) {
             content_type: 'newsType',
             'fields.type': 'Event'
         });
+        writeContentfulAuditEvent('newsType');
         eventNewsTypeId = (items && items.length > 0) ? items[0].sys.id : null;
     }
 
@@ -184,6 +192,7 @@ async function getUpcomingEvents(page) {
 
 async function getEventDetails(eventId) {
     const item = await client.getEntry(eventId);
+    writeContentfulAuditEvent('newsEntry');
     return {
         id: item.sys.id,
         datetime: item.fields.datetime,
@@ -215,6 +224,7 @@ async function getBlogPosts(page) {
         order: '-fields.publishDate',
         skip
     });
+    writeContentfulAuditEvent('blogPost');
     const blogs = items.map((item) => {
         return {
             id: item.sys.id,
@@ -249,6 +259,7 @@ async function getStaff() {
     const { items } = await client.getEntries({
         content_type: 'staff'
     });
+    writeContentfulAuditEvent('staff');
     return items.map((item) => {
         return {
             id: item.sys.id,
@@ -264,6 +275,7 @@ async function getCouncil() {
     const { items } = await client.getEntries({
         content_type: 'council'
     });
+    writeContentfulAuditEvent('council');
     return items.map((item) => {
         return {
             id: item.sys.id,
@@ -278,6 +290,7 @@ async function getChurchInfo() {
     const { items } = await client.getEntries({
         content_type: 'churchInfo'
     });
+    writeContentfulAuditEvent('churchInfo');
     const infoItems = items.map((item) => {
         return {
             id: item.sys.id,
@@ -312,6 +325,7 @@ async function getSpecialAnnouncements(page) {
         'fields.publishEndDate[gte]': currentDate,
         order: '-fields.publishBeginDate'
     });
+    writeContentfulAuditEvent('specialAnnouncement');
     return items.map((item) => {
         return {
             id: item.sys.id,
@@ -341,6 +355,15 @@ function getVideoId(videoUrl) {
         logger.warn('Could not figure out videoId from url: ', videoUrl);
         return null;
     }
+}
+
+function writeContentfulAuditEvent(resource) {
+    writeEvent({
+        dateTime: new Date().toISOString(),
+        method: 'GET',
+        resourceType: 'cms',
+        resource
+    });
 }
 
 module.exports = {
