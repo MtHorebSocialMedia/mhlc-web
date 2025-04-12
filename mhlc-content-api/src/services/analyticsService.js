@@ -135,7 +135,7 @@ async function getEvents(monthId) {
         agent,
         fromFacebook: resource.includes('fbclid='),
         fromEnews: resource.includes('src=enews')
-    })).filter(({ environment, resourceType, agent }) => (environment.startsWith('prod') && !isbot(agent) && (resourceType === 'route' || resourceType === 'dialog')));
+    })).filter(({ environment, resourceType, agent }) => (environment.startsWith('prod') && (!agent || !isbot(agent)) && (resourceType === 'route' || resourceType === 'dialog' || resourceType === 'cms')));
 }
 
 async function processEvents() {

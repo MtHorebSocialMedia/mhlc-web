@@ -166,6 +166,7 @@ async function getUpcomingEvents(page) {
         order: 'fields.eventDatetime',
         skip
     });
+    writeContentfulAuditEvent('news');
     const events = items.map((item) => {
         return {
             id: item.sys.id,
@@ -243,6 +244,7 @@ async function getBlogPosts(page) {
 
 async function getBlogPost(newsId) {
     const item = await client.getEntry(newsId);
+    writeContentfulAuditEvent('blogPostEntry');
     return {
         id: item.sys.id,
         publishDate: item.fields.publishDate,
