@@ -131,7 +131,7 @@ async function getEvents(monthId) {
         resource,
         duration,
         referrer,
-        ip: ip.replace('::ffff:', ''),
+        ip: ip ? ip.replace('::ffff:', '') : '',
         agent,
         fromFacebook: resource.includes('fbclid='),
         fromEnews: resource.includes('src=enews')

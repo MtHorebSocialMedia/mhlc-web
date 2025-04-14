@@ -16,6 +16,9 @@ export const useAnalyticsStore = defineStore('analytics', () => {
         const unknownAgents = [];
         const unknownCmsResources = [];
 
+        const dailyTraffic = {};
+        const dailyCmsTraffic = {};
+
         const categoryData = [];
 
         const categories = getCategories();
@@ -24,11 +27,16 @@ export const useAnalyticsStore = defineStore('analytics', () => {
 
         events.forEach(event => {
             const [path] = event.resource.split('?');
+            const [ eventDate ] = event.dateTime.split('T');
             if (event.resourceType === 'cms') {
                 const cmsResourceFound = cmsResources.some(resource => resource.analyze(path, resource));
                 if (!cmsResourceFound) {
                     unknownCmsResources.push(path);
                 }
+                if (!dailyCmsTraffic[eventDate]) {
+                    dailyCmsTraffic[eventDate] = 0;
+                }
+                dailyCmsTraffic[eventDate]++;
             } else {
                 const categoryFound = categories.some(category => category.analyze(path, category));
                 if (!categoryFound) {
@@ -38,6 +46,10 @@ export const useAnalyticsStore = defineStore('analytics', () => {
                 if (!platformFound) {
                     unknownAgents.push(event.agent);
                 }
+                if (!dailyTraffic[eventDate]) {
+                    dailyTraffic[eventDate] = 0;
+                }
+                dailyTraffic[eventDate]++;
             }
         });
 
@@ -73,7 +85,17 @@ export const useAnalyticsStore = defineStore('analytics', () => {
             return b.data - a.data;
         });
 
-        return { startDateTime, endDateTime, categoryData, platformsData, uncategorized, unknownAgents };
+        const dailyTrafficData = Object.keys(dailyTraffic).map(date => ({
+            label: date,
+            data: dailyTraffic[date]
+         }));
+
+         const dailyCmsTrafficData = Object.keys(dailyCmsTraffic).map(date => ({
+            label: date,
+            data: dailyCmsTraffic[date]
+         }));
+
+        return { startDateTime, endDateTime, categoryData, platformsData, uncategorized, unknownAgents, dailyTrafficData, dailyCmsTrafficData };
 
     }
 
