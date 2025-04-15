@@ -1,6 +1,8 @@
 const contentful = require('contentful');
 const { writeEvent } = require('./analyticsService');
+const { isInitialized, authorize } = require('../utils/googleApisUtil');
 const { getLogger } = require('../utils/logger');
+const { google } = require('googleapis');
 
 const logger = getLogger('contentService');
 
@@ -14,13 +16,90 @@ const client = contentful.createClient({
     accessToken: CONTENTFUL_DELIVERY_API_KEY
 });
 
+async function getEntries(requestConfig, cacheId) {
+    const contentType = requestConfig.content_type;
+    cacheId = cacheId || contentType;
+    let entries = null;
+    let drive = null;
+    const cacheFolderId = process.env.GOOGLE_APIS_CONTENT_CACHE_FOLDER_ID;
+    if (isInitialized()) {
+        const auth = await authorize();
+        drive = google.drive({ version: 'v3', auth });
+        const res = await drive.files.list({
+            q: `'${cacheFolderId}' in parents and trashed = false`,
+            fields: 'files(id, name)',
+            spaces: 'drive',
+        });
+        const files = res.data.files;
+        if (files && files.length > 0) {
+            const cacheFile = files.find(file => file.name === `${cacheId}.json`);
+            if (cacheFile) {
+                const fileId = cacheFile.id;
+                const res = await drive.files.get(
+                    { fileId, alt: 'media' },
+                    { responseType: 'stream' }
+                );
+
+                entries = await new Promise((resolve, reject) => {
+                    let data = '';
+                    res.data
+                        .on('data', (chunk) => {
+                            data += chunk.toString(); // Convert buffer to string
+                        })
+                        .on('end', () => {
+                            logger.debug('Retrieved cached entries: ', data);
+                            resolve(JSON.parse(data));
+                        })
+                        .on('error', (err) => {
+                            reject(err);
+                        });
+                });
+            }
+        }
+    }
+    if (!entries) {
+        entries = await client.getEntries(requestConfig);
+        writeContentfulAuditEvent(contentType);
+        if (drive) {
+            const fileMetadata = {
+                name: `${cacheId}.json`,
+                parents: [cacheFolderId]
+            };
+
+            const media = {
+                mimeType: 'application/json',
+                body: JSON.stringify(entries),
+            };
+
+            const response = await drive.files.create({
+                resource: fileMetadata,
+                media: media,
+                fields: 'id',
+            });
+            logger.debug('Created content cache file: ', response.data.id);
+        }
+    } else {
+        logger.debug('Returning cached response.')
+    }
+    return entries;
+}
+
+async function getEntry(contentType, entryId) {
+    const entry = await client.getEntry(entryId);
+    writeContentfulAuditEvent(`${contentType}Entry`);
+    return entry;
+}
+
+async function getAsset(assetId) {
+    return client.getAsset(assetId);
+}
+
 let eventNewsTypeId = null;
 
 async function getMenuItems() {
-    const { items } = await client.getEntries({
+    const { items } = await getEntries({
         content_type: 'menuItem'
     });
-    writeContentfulAuditEvent('menuItem');
     return items.map((item) => {
         return {
             id: item.sys.id,
@@ -33,10 +112,9 @@ async function getMenuItems() {
 }
 
 async function getContentPages() {
-    const { items } = await client.getEntries({
+    const { items } = await getEntries({
         content_type: 'contentPage'
     });
-    writeContentfulAuditEvent('contentPage');
     return items.map((item) => {
         return {
             id: item.sys.id,
@@ -51,10 +129,9 @@ async function getContentPages() {
 }
 
 async function getContentBlocks() {
-    const { items } = await client.getEntries({
+    const { items } = await getEntries({
         content_type: 'contentBlock'
     });
-    writeContentfulAuditEvent('contentBlock');
     return items.map((item) => {
         return {
             id: item.sys.id,
@@ -72,10 +149,9 @@ async function getContentBlocks() {
 }
 
 async function getNewsTypes() {
-    const { items } = await client.getEntries({
+    const { items } = await getEntries({
         content_type: 'newsType'
     });
-    writeContentfulAuditEvent('newsType');
     return items.map((item) => {
         return {
             id: item.sys.id,
@@ -88,14 +164,13 @@ async function getNewsEntries(page) {
     page = page || 1;
     const itemsPerPage = 10;
     const skip = (page - 1) * itemsPerPage;
-    const { items, total } = await client.getEntries({
+    const { items, total } = await getEntries({
         content_type: 'news',
         limit: itemsPerPage,
         'fields.datetime[lte]': new Date().toISOString(),
         order: '-fields.datetime',
         skip
-    });
-    writeContentfulAuditEvent('news');
+    }, `news-${page}`);
     const news = items.map((item) => {
         return {
             id: item.sys.id,
@@ -120,8 +195,7 @@ async function getNewsEntries(page) {
 }
 
 async function getNewsEntry(newsId) {
-    const item = await client.getEntry(newsId);
-    writeContentfulAuditEvent('newsEntry');
+    const item = await getEntry('news', newsId);
     return {
         id: item.sys.id,
         datetime: item.fields.datetime,
@@ -145,11 +219,10 @@ async function getNewsEntry(newsId) {
 async function getUpcomingEvents(page) {
 
     if (!eventNewsTypeId) {
-        const { items } = await client.getEntries({
+        const { items } = await getEntries({
             content_type: 'newsType',
             'fields.type': 'Event'
-        });
-        writeContentfulAuditEvent('newsType');
+        }, `newsType-Event`);
         eventNewsTypeId = (items && items.length > 0) ? items[0].sys.id : null;
     }
 
@@ -157,7 +230,7 @@ async function getUpcomingEvents(page) {
     const itemsPerPage = 10;
     const skip = (page - 1) * itemsPerPage;
     const currentDateTime = new Date().toISOString();
-    const { items, total } = await client.getEntries({
+    const { items, total } = await getEntries({
         content_type: 'news',
         limit: itemsPerPage,
         'fields.datetime[lte]': currentDateTime,
@@ -165,8 +238,7 @@ async function getUpcomingEvents(page) {
         'fields.type.sys.id': eventNewsTypeId,
         order: 'fields.eventDatetime',
         skip
-    });
-    writeContentfulAuditEvent('news');
+    }, `upcomingEvents-${page}`);
     const events = items.map((item) => {
         return {
             id: item.sys.id,
@@ -192,8 +264,7 @@ async function getUpcomingEvents(page) {
 }
 
 async function getEventDetails(eventId) {
-    const item = await client.getEntry(eventId);
-    writeContentfulAuditEvent('newsEntry');
+    const item = await getEntry('news', eventId);
     return {
         id: item.sys.id,
         datetime: item.fields.datetime,
@@ -218,14 +289,13 @@ async function getBlogPosts(page) {
     page = page || 1;
     const itemsPerPage = 10;
     const skip = (page - 1) * itemsPerPage;
-    const { items, total } = await client.getEntries({
+    const { items, total } = await getEntries({
         content_type: 'blogPost',
         limit: itemsPerPage,
         'fields.publishDate[lte]': new Date().toISOString(),
         order: '-fields.publishDate',
         skip
-    });
-    writeContentfulAuditEvent('blogPost');
+    }, `blogPost-${page}`);
     const blogs = items.map((item) => {
         return {
             id: item.sys.id,
@@ -243,8 +313,7 @@ async function getBlogPosts(page) {
 }
 
 async function getBlogPost(newsId) {
-    const item = await client.getEntry(newsId);
-    writeContentfulAuditEvent('blogPostEntry');
+    const item = await getEntry('blogPost', newsId);
     return {
         id: item.sys.id,
         publishDate: item.fields.publishDate,
@@ -258,10 +327,9 @@ async function getBlogPost(newsId) {
 }
 
 async function getStaff() {
-    const { items } = await client.getEntries({
+    const { items } = await getEntries({
         content_type: 'staff'
     });
-    writeContentfulAuditEvent('staff');
     return items.map((item) => {
         return {
             id: item.sys.id,
@@ -274,10 +342,9 @@ async function getStaff() {
 }
 
 async function getCouncil() {
-    const { items } = await client.getEntries({
+    const { items } = await getEntries({
         content_type: 'council'
     });
-    writeContentfulAuditEvent('council');
     return items.map((item) => {
         return {
             id: item.sys.id,
@@ -289,10 +356,9 @@ async function getCouncil() {
 }
 
 async function getChurchInfo() {
-    const { items } = await client.getEntries({
+    const { items } = await getEntries({
         content_type: 'churchInfo'
     });
-    writeContentfulAuditEvent('churchInfo');
     const infoItems = items.map((item) => {
         return {
             id: item.sys.id,
@@ -315,19 +381,18 @@ async function getChurchInfo() {
 }
 
 async function getAsset(assetId) {
-    const asset = await client.getAsset(assetId);
+    const asset = await getAsset(assetId);
     return asset;
 }
 
 async function getSpecialAnnouncements(page) {
     const currentDate = new Date().toISOString();
-    const { items } = await client.getEntries({
+    const { items } = await getEntries({
         content_type: 'specialAnnouncement',
         'fields.publishBeginDate[lte]': currentDate,
         'fields.publishEndDate[gte]': currentDate,
         order: '-fields.publishBeginDate'
     });
-    writeContentfulAuditEvent('specialAnnouncement');
     return items.map((item) => {
         return {
             id: item.sys.id,

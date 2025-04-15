@@ -5,7 +5,7 @@ const bodyParser = require('body-parser');
 const rssFeed = require('./rssFeed');
 const { getLogger } = require('./utils/logger');
 const { getAuditHandler } = require('./middleware/auditHandler');
-const { initialize: initializeAnalytics } = require('./services/analyticsService');
+const { initialize: initializeGoogleApis } = require('./utils/googleApisUtil');
 const { getPaypalDonationConfirmationEmailTemplate, getSystemStartupEmailTemplate } = require('./utils/mailTemplates');
 const { sendMail } = require('./services/mailService');
 
@@ -62,7 +62,7 @@ app.use('*', (req, res) => {
 });
 
 (async function() {
-    await initializeAnalytics();
+    await initializeGoogleApis();
     app.listen(port, () => {
         logger.info(`mhlc-web app listening on port ${port}`);
 
