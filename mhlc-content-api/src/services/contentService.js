@@ -339,11 +339,6 @@ async function getChurchInfo() {
     return infoItems.length > 0 ? infoItems[0]: null;
 }
 
-async function getAsset(assetId) {
-    const asset = await getAsset(assetId);
-    return asset;
-}
-
 async function getSpecialAnnouncements(page) {
     const currentDate = new Date().toISOString();
     const { items } = await getEntries({
