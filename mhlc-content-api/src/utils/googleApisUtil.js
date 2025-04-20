@@ -98,6 +98,16 @@ async function saveCredentials(client) {
     await fs.writeFile(TOKEN_PATH, payload);
 }
 
+async function getAuthorizedSheetsClient() {
+    const auth = await authorize();
+    return google.sheets({ version: 'v4', auth });
+}
+
+async function getAuthorizedDriveClient() {
+    const auth = await authorize();
+    return google.drive({ version: 'v3', auth });
+}
+
 /**
  * Load or request or authorization to call APIs.
  *
@@ -117,4 +127,114 @@ async function authorize() {
     return client;
 }
 
-module.exports = { isInitialized, onInitialized, initialize, authorize };
+async function readJsonFile(folderId, fileName) {
+    let fileContents = null;
+    if (isInitialized()) {
+        const drive = await getAuthorizedDriveClient();
+        const files = await listFiles(drive, folderId);
+        if (files && files.length > 0) {
+            const cacheFile = files.find(file => file.name === fileName);
+            if (cacheFile) {
+                const fileId = cacheFile.id;
+                const res = await drive.files.get(
+                    { fileId, alt: 'media' },
+                    { responseType: 'stream' }
+                );
+                fileContents = await new Promise((resolve, reject) => {
+                    let data = '';
+                    res.data
+                        .on('data', (chunk) => {
+                            data += chunk.toString(); // Convert buffer to string
+                        })
+                        .on('end', () => {
+                            resolve(JSON.parse(data));
+                        })
+                        .on('error', (err) => {
+                            reject(err);
+                        });
+                });
+            }
+        }
+    }
+    return fileContents;
+}
+
+async function writeJsonFile(folderId, fileName, contents) {
+    if (isInitialized()) {
+        const drive = await getAuthorizedDriveClient();
+        const fileMetadata = {
+            name: fileName,
+            parents: [folderId]
+        };
+
+        const media = {
+            mimeType: 'application/json',
+            body: JSON.stringify(contents),
+        };
+
+        const response = await drive.files.create({
+            resource: fileMetadata,
+            media: media,
+            fields: 'id',
+        });
+        logger.debug('Created drive file: ', response.data.id);
+    }
+}
+
+async function listFiles(drive, folderId) {
+    const res = await drive.files.list({
+        q: `'${folderId}' in parents and trashed = false`,
+        fields: 'files(id, name)',
+        spaces: 'drive',
+    });
+    return res.data.files;
+}
+
+async function deleteJsonFile(folderId, fileName) {
+    if (isInitialized()) {
+        const drive = await getAuthorizedDriveClient();
+        const files = await listFiles(drive, folderId);
+        const matchingFileIds = files.filter(file => file.name === fileName).map(file => file.id);
+        await Promise.all(matchingFileIds.map(fileId => drive.files.delete({ fileId })));
+    }
+}
+
+async function deleteAllFiles(folderId) {
+    if (isInitialized()) {
+        const drive = await getAuthorizedDriveClient();
+        const files = await listFiles(drive, folderId);
+        const fileIds = files.map(file => file.id);
+        await Promise.all(fileIds.map(fileId => drive.files.delete({ fileId })));
+    }
+}
+
+async function readSheetValues(spreadsheetId, range) {
+    const sheets = await getAuthorizedSheetsClient();
+    const res = await sheets.spreadsheets.values.get({
+        spreadsheetId,
+        range
+    });
+    return res.data.values;
+}
+
+async function writeSheetValues(spreadsheetId, range, values) {
+    const sheets = await getAuthorizedSheetsClient();
+    await sheets.spreadsheets.values.append({
+        spreadsheetId,
+        range,
+        valueInputOption: 'RAW',
+        resource: { values }
+    });
+}
+
+module.exports = {
+    isInitialized,
+    onInitialized,
+    initialize,
+    readJsonFile,
+    writeJsonFile,
+    deleteJsonFile,
+    deleteAllFiles,
+    readSheetValues,
+    writeSheetValues
+};

@@ -28,7 +28,6 @@ const authenticationRequestSchema = require('../schemas/authenticationRequest.js
 const { getLogger } = require('./utils/logger');
 const { authenticate } = require('./services/securityService');
 const { jwtSign } = require('./utils/jwtUtils');
-const { getCacheHandler } = require('./middleware/cacheHandler');
 const { getDonationRequestEmailTemplate } = require('./utils/mailTemplates');
 
 const logger = getLogger('apiRouter');
@@ -45,7 +44,6 @@ router.use((err, req, res, next) => {
 });
 
 router.get('/church-info',
-    getCacheHandler(60*1000),
     (req, res, next) => {
         (async function() {
             try {
@@ -59,7 +57,6 @@ router.get('/church-info',
 );
 
 router.get('/menu-items',
-    getCacheHandler(60*1000),
     (req, res, next) => {
         (async function() {
             try {
@@ -174,7 +171,6 @@ router.get('/blog-posts/:blogId', (req, res, next) => {
 });
 
 router.get('/staff',
-    getCacheHandler(60*1000),
     (req, res, next) => {
         (async function() {
             try {
@@ -188,7 +184,6 @@ router.get('/staff',
 );
 
 router.get('/council',
-    getCacheHandler(60*1000),
     (req, res, next) => {
         (async function() {
             try {

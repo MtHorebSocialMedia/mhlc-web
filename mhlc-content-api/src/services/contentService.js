@@ -1,8 +1,7 @@
 const contentful = require('contentful');
 const { writeEvent } = require('./analyticsService');
-const { isInitialized, authorize } = require('../utils/googleApisUtil');
+const { getCacheEntry, setCacheEntry } = require('./cacheService');
 const { getLogger } = require('../utils/logger');
-const { google } = require('googleapis');
 
 const logger = getLogger('contentService');
 
@@ -19,65 +18,11 @@ const client = contentful.createClient({
 async function getEntries(requestConfig, cacheId) {
     const contentType = requestConfig.content_type;
     cacheId = cacheId || contentType;
-    let entries = null;
-    let drive = null;
-    const cacheFolderId = process.env.GOOGLE_APIS_CONTENT_CACHE_FOLDER_ID;
-    if (isInitialized()) {
-        const auth = await authorize();
-        drive = google.drive({ version: 'v3', auth });
-        const res = await drive.files.list({
-            q: `'${cacheFolderId}' in parents and trashed = false`,
-            fields: 'files(id, name)',
-            spaces: 'drive',
-        });
-        const files = res.data.files;
-        if (files && files.length > 0) {
-            const cacheFile = files.find(file => file.name === `${cacheId}.json`);
-            if (cacheFile) {
-                const fileId = cacheFile.id;
-                const res = await drive.files.get(
-                    { fileId, alt: 'media' },
-                    { responseType: 'stream' }
-                );
-
-                entries = await new Promise((resolve, reject) => {
-                    let data = '';
-                    res.data
-                        .on('data', (chunk) => {
-                            data += chunk.toString(); // Convert buffer to string
-                        })
-                        .on('end', () => {
-                            logger.debug('Retrieved cached entries: ', data);
-                            resolve(JSON.parse(data));
-                        })
-                        .on('error', (err) => {
-                            reject(err);
-                        });
-                });
-            }
-        }
-    }
+    let entries = await getCacheEntry(cacheId);
     if (!entries) {
         entries = await client.getEntries(requestConfig);
         writeContentfulAuditEvent(contentType);
-        if (drive) {
-            const fileMetadata = {
-                name: `${cacheId}.json`,
-                parents: [cacheFolderId]
-            };
-
-            const media = {
-                mimeType: 'application/json',
-                body: JSON.stringify(entries),
-            };
-
-            const response = await drive.files.create({
-                resource: fileMetadata,
-                media: media,
-                fields: 'id',
-            });
-            logger.debug('Created content cache file: ', response.data.id);
-        }
+        await setCacheEntry(cacheId, entries);
     } else {
         logger.debug('Returning cached response.')
     }
@@ -85,13 +30,27 @@ async function getEntries(requestConfig, cacheId) {
 }
 
 async function getEntry(contentType, entryId) {
-    const entry = await client.getEntry(entryId);
-    writeContentfulAuditEvent(`${contentType}Entry`);
+    const cacheId = `entry-${entryId}`;
+    let entry = await getCacheEntry(cacheId);
+    if (!entry) {
+        entry = await client.getEntry(entryId);
+        writeContentfulAuditEvent(`${contentType}Entry`);
+        await setCacheEntry(cacheId, entry);
+    }
     return entry;
 }
 
 async function getAsset(assetId) {
     return client.getAsset(assetId);
+}
+
+function writeContentfulAuditEvent(resource) {
+    writeEvent({
+        dateTime: new Date().toISOString(),
+        method: 'GET',
+        resourceType: 'cms',
+        resource
+    });
 }
 
 let eventNewsTypeId = null;
@@ -422,15 +381,6 @@ function getVideoId(videoUrl) {
         logger.warn('Could not figure out videoId from url: ', videoUrl);
         return null;
     }
-}
-
-function writeContentfulAuditEvent(resource) {
-    writeEvent({
-        dateTime: new Date().toISOString(),
-        method: 'GET',
-        resourceType: 'cms',
-        resource
-    });
 }
 
 module.exports = {
