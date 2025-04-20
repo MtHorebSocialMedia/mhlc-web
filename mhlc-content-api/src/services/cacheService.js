@@ -13,7 +13,7 @@ async function getCacheEntry(key) {
     let response = null;
     const cacheEntry = await readJsonFile(getCacheFolderId(), `${key}.json`);
     if (cacheEntry && cacheEntry.value) {
-        if (cacheEntry.expiration <= currentTime) {
+        if (cacheEntry.expiration > 0 && cacheEntry.expiration <= currentTime) {
             await removeCacheEntry(key);
         } else {
           response = cacheEntry.value;
