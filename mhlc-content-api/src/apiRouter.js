@@ -29,6 +29,7 @@ const { getLogger } = require('./utils/logger');
 const { authenticate } = require('./services/securityService');
 const { jwtSign } = require('./utils/jwtUtils');
 const { getDonationRequestEmailTemplate } = require('./utils/mailTemplates');
+const { clearCache } = require('./services/cacheService');
 
 const logger = getLogger('apiRouter');
 
@@ -269,6 +270,20 @@ router.get('/audit/events',
             try {
                 const results = await getEvents(req.query.monthId);
                 res.send(results);
+            } catch(err) {
+                next(err);
+            }
+        })();
+    }
+);
+
+router.delete('/cache',
+    getAuthenticationHandler({ authRequired: true }),
+    (req, res, next) => {
+        (async function() {
+            try {
+                await clearCache();
+                res.send(true);
             } catch(err) {
                 next(err);
             }
