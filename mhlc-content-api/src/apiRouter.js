@@ -302,6 +302,13 @@ router.post('/authenticate',
     }
 );
 
+router.post('/content/webhook', (req, res, next) => {
+    (async function() {
+        logger.info('Contentful webhook event: ', req.body);
+        res.send();
+    })();
+});
+
 router.use(getErrorHandler());
 
 module.exports = router;
