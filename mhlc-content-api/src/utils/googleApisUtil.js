@@ -127,13 +127,13 @@ async function authorize() {
     return client;
 }
 
-async function readJsonFile(folderId, fileName) {
+async function readJsonFile(folderId, fileKey) {
     let fileContents = null;
     if (isInitialized()) {
         const drive = await getAuthorizedDriveClient();
         const files = await listFiles(drive, folderId);
         if (files && files.length > 0) {
-            const cacheFile = files.find(file => file.name === fileName);
+            const cacheFile = files.find(({ name }) => (name.startsWith(fileKey) && name.endsWith('.json')));
             if (cacheFile) {
                 const fileId = cacheFile.id;
                 const res = await drive.files.get(
@@ -159,15 +159,18 @@ async function readJsonFile(folderId, fileName) {
     return fileContents;
 }
 
-async function writeJsonFile(folderId, fileName, contents) {
+async function writeJsonFile(folderId, fileKey, contents) {
     if (isInitialized()) {
+
         // just in case there's an existing json file with the same name, remove it
-        await deleteJsonFile(`${key}.json`);
+        await deleteJsonFile(fileKey);
 
         const drive = await getAuthorizedDriveClient();
+
+        const fileName = `${fileKey}.json`
         const fileMetadata = {
             name: fileName,
-            parents: [folderId]
+            parents: [ folderId ]
         };
 
         const media = {
@@ -180,7 +183,8 @@ async function writeJsonFile(folderId, fileName, contents) {
             media: media,
             fields: 'id',
         });
-        logger.debug('Created drive file: ', response.data.id);
+
+        logger.debug('Created JSON drive file: ', response.data.id);
     }
 }
 
@@ -193,11 +197,13 @@ async function listFiles(drive, folderId) {
     return res.data.files;
 }
 
-async function deleteJsonFile(folderId, fileName) {
+async function deleteJsonFile(folderId, fileKey) {
     if (isInitialized()) {
         const drive = await getAuthorizedDriveClient();
         const files = await listFiles(drive, folderId);
-        const matchingFileIds = files.filter(file => file.name === fileName).map(file => file.id);
+        const matchingFileIds = files
+            .filter(({ name }) => (name.startsWith(fileKey) && name.endsWith('.json')))
+            .map(file => file.id);
         await Promise.all(matchingFileIds.map(fileId => drive.files.delete({ fileId })));
     }
 }

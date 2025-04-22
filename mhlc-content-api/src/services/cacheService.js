@@ -5,13 +5,13 @@ async function setCacheEntry(key, value, ttlMs) {
         expiration: ttlMs ? new Date().getTime() + ttlMs : 0,
         value
     };
-    await writeJsonFile(getCacheFolderId(), `${key}.json`, cacheEntry);
+    await writeJsonFile(getCacheFolderId(), key, cacheEntry);
 }
 
 async function getCacheEntry(key) {
     const currentTime = new Date().getTime();
     let response = null;
-    const cacheEntry = await readJsonFile(getCacheFolderId(), `${key}.json`);
+    const cacheEntry = await readJsonFile(getCacheFolderId(), key);
     if (cacheEntry && cacheEntry.value) {
         if (cacheEntry.expiration > 0 && cacheEntry.expiration <= currentTime) {
             await removeCacheEntry(key);
@@ -23,7 +23,7 @@ async function getCacheEntry(key) {
 }
 
 async function removeCacheEntry(key) {
-    await deleteJsonFile(`${key}.json`);
+    await deleteJsonFile(key);
 }
 
 async function clearCache() {

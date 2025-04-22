@@ -13,7 +13,8 @@ const {
     getStaff,
     getSpecialAnnouncements,
     getUpcomingEvents,
-    getEventDetails
+    getEventDetails,
+    clearCachedContent
 } = require('./services/contentService');
 const { getPaypalUrl } = require('./services/donationService');
 const { getVideosList } = require('./services/youtubeService');
@@ -29,7 +30,7 @@ const { getLogger } = require('./utils/logger');
 const { authenticate } = require('./services/securityService');
 const { jwtSign } = require('./utils/jwtUtils');
 const { getDonationRequestEmailTemplate } = require('./utils/mailTemplates');
-const { clearCache } = require('./services/cacheService');
+const { clearCache, removeCacheEntry } = require('./services/cacheService');
 
 const logger = getLogger('apiRouter');
 
@@ -277,20 +278,6 @@ router.get('/audit/events',
     }
 );
 
-router.delete('/cache',
-    getAuthenticationHandler({ authRequired: true }),
-    (req, res, next) => {
-        (async function() {
-            try {
-                await clearCache();
-                res.send(true);
-            } catch(err) {
-                next(err);
-            }
-        })();
-    }
-);
-
 router.post('/authenticate',
     getValidationHandler({ bodySchema: authenticationRequestSchema }),
     (req, res, next) => {
@@ -312,10 +299,28 @@ router.post('/authenticate',
     }
 );
 
+router.delete('/content/cache',
+    getAuthenticationHandler({ authRequired: true }),
+    (req, res, next) => {
+        (async function() {
+            try {
+                await clearCachedContent();
+                res.send(true);
+            } catch(err) {
+                next(err);
+            }
+        })();
+    }
+);
+
 router.post('/content/webhook', (req, res, next) => {
     (async function() {
-        logger.info('Contentful webhook event: ', req.body);
-        res.send();
+        const id = req.body.sys.id;
+        const contentType = req.body.sys.contentType.sys.id;
+        const contentId = { id, contentType };
+        logger.info('Received contentful webhook event: ', contentId);
+        await clearCachedContent(contentId);
+        res.send(true);
     })();
 });
 
