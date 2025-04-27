@@ -13,11 +13,12 @@ const logger = getLogger('s3Utils');
 function getS3Client() {
     const {
         S3_ENDPOINT_URL,
+        S3_REGION,
         S3_ACCESS_KEY,
         S3_SECRET_KEY
     } = process.env;
     return new S3Client({
-        region: "us-east-1", // required, but can be any valid AWS region
+        region: S3_REGION, // required, but can be any valid S3 region
         endpoint: S3_ENDPOINT_URL, // replace with your region's endpoint
         credentials: {
             accessKeyId: S3_ACCESS_KEY,
@@ -38,15 +39,17 @@ async function listFiles(s3Client, bucketName, folderId) {
 async function readJsonFile(folderId, fileKey) {
     const { S3_BUCKET_NAME } = process.env;
     const s3Client = getS3Client();
+    const filePath = `${folderId}/${fileKey}.json`;
     try {
         const { Body } = await s3Client.send(new GetObjectCommand({
-            Bucket: S3_BUCKET_NAME,             // Space name
-            Key: `${folderId}/${fileKey}.json`  // File path in the bucket
+            Bucket: S3_BUCKET_NAME, // Space name
+            Key: filePath           // File path in the bucket
         }));
-        return Body.transformToString();
+        const fileContents = await Body.transformToString();
+        return JSON.parse(fileContents);
     } catch(err) {
         if (err.name === 'NoSuchKey') {
-            logger.debug(`No file [${S3_BUCKET_NAME}/${folderId}/${fileKey}.json] found.`);
+            logger.debug(`No file [${S3_BUCKET_NAME}/${filePath}] found.`);
             return null;
         } else {
             throw err; // rethrow other errors
@@ -57,13 +60,14 @@ async function readJsonFile(folderId, fileKey) {
 async function writeJsonFile(folderId, fileKey, contents) {
     const { S3_BUCKET_NAME } = process.env;
     const s3Client = getS3Client();
-    const { Location } = await s3Client.send(new PutObjectCommand({
-        Bucket: S3_BUCKET_NAME,             // Space name
-        Key: `${folderId}/${fileKey}.json`, // File path in the bucket
+    const filePath = `${folderId}/${fileKey}.json`;
+    await s3Client.send(new PutObjectCommand({
+        Bucket: S3_BUCKET_NAME,         // Space name
+        Key: filePath,                  // File path in the bucket
         Body: JSON.stringify(contents),
-        ACL: 'public-read',                 // or 'private'
+        ACL: 'public-read',             // or 'private'
     }));
-    logger.debug('S3 file uploaded successfully at: ', Location);
+    logger.debug('S3 file uploaded successfully at: ', `${S3_BUCKET_NAME}/${filePath}`);
 }
 
 async function deleteJsonFile(folderId, fileKey) {

@@ -5,6 +5,9 @@
         Content Cache
       </h2>
       <hr />
+      <v-alert v-if="cacheClearedSuccess" type="success">
+        The content cache has been cleared!
+      </v-alert>
       <v-dialog max-width="500">
         <template v-slot:activator="{ props: activatorProps }">
           <v-btn
@@ -25,11 +28,11 @@
 
               <v-btn
                 text="Cancel"
-                @click="isActive.value = false"
+                @click="cancelCacheClearing(isActive)"
               ></v-btn>
               <v-btn
                 text="Yes"
-                @click="isActive.value = false"
+                @click="clearCache(isActive)"
               ></v-btn>
             </v-card-actions>
           </v-card>
@@ -39,7 +42,23 @@
 </template>
 
 <script setup>
-  import TrafficSummary from '@/components/TrafficSummary.vue'
+  import { ref } from 'vue';
+  import { useContentStore } from '@/store/content';
+
+  const cacheClearedSuccess = ref(false);
+
+  function cancelCacheClearing(isDialogActive) {
+    isDialogActive.value = false;
+    cacheClearedSuccess.value = false;
+  }
+
+  async function clearCache(isDialogActive) {
+    isDialogActive.value = false;
+    cacheClearedSuccess.value = false;
+    await useContentStore().clearCache();
+    cacheClearedSuccess.value = true;
+  }
+
 </script>
 
 <style scoped>
