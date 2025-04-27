@@ -13,6 +13,12 @@
             <v-list-item-title>Analytics</v-list-item-title>
           </v-list-item>
         </v-list>
+        <v-list-item to="/cache">
+          <template v-slot:prepend>
+            <v-icon>mdi-database</v-icon>
+          </template>
+          <v-list-item-title>Content Cache</v-list-item-title>
+        </v-list-item>
       </v-container>
 </template>
 
