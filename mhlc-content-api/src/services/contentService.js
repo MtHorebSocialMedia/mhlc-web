@@ -26,7 +26,7 @@ async function getEntries(requestConfig, cacheId, ttlMsCallback) {
             ttlMs = await ttlMsCallback();
         }
         writeContentfulAuditEvent(contentType);
-        await setCacheEntry(cacheId, entries, ttlMs);
+        setCacheEntry(cacheId, entries, ttlMs);
     } else {
         logger.debug('Returning cached response.')
     }

@@ -163,7 +163,7 @@ async function writeJsonFile(folderId, fileKey, contents) {
     if (isInitialized()) {
 
         // just in case there's an existing json file with the same name, remove it
-        await deleteJsonFile(fileKey);
+        await deleteJsonFile(folderId, fileKey);
 
         const drive = await getAuthorizedDriveClient();
 
