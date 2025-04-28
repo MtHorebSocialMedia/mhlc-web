@@ -23,8 +23,13 @@ async function getCacheEntry(key) {
     return response;
 }
 
-async function removeCacheEntry(key) {
-    await deleteJsonFile(getCacheFolderId(), key);
+async function removeCacheEntry(key, fuzzy=false) {
+    if (fuzzy) {
+        await deleteAllFiles(getCacheFolderId, key);
+    } else {
+        await deleteJsonFile(getCacheFolderId(), key);
+    }
+
 }
 
 async function clearCache() {

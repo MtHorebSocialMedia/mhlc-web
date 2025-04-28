@@ -79,13 +79,16 @@ async function deleteJsonFile(folderId, fileKey) {
     }));
 }
 
-async function deleteAllFiles(folderId) {
+async function deleteAllFiles(folderId, startsWithKey) {
     const { S3_BUCKET_NAME } = process.env;
     const s3Client = getS3Client();
     const files = await listFiles(s3Client, S3_BUCKET_NAME, folderId);
+    const filesToDelete = startsWithKey
+        ? files.filter(file => file.startsWith(`${folderId}/${startsWithKey}`))
+        : files;
     await s3Client.send(new DeleteObjectsCommand({
         Bucket: S3_BUCKET_NAME,             // Space name
-        Delete: { Objects: files.map((k) => ({ Key: k })) }
+        Delete: { Objects: filesToDelete.map((k) => ({ Key: k })) }
     }));
 }
 
