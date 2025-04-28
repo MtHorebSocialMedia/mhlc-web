@@ -289,6 +289,20 @@ const routes = [
     ],
   },
   {
+    path: '/cache',
+    component: () => import('@/layouts/default/Admin.vue'),
+    children: [
+      {
+        path: '/cache',
+        name: 'ContentCache',
+        // route level code-splitting
+        // this generates a separate chunk (about.[hash].js) for this route
+        // which is lazy-loaded when the route is visited.
+        component: () => import(/* webpackChunkName: "cache" */ '@/views/Cache.vue'),
+      },
+    ],
+  },
+  {
     path: '/:pathMatch(.*)',
     component: () => import('@/layouts/default/Default.vue'),
     children: [
@@ -331,7 +345,7 @@ addErrorCallback(403, () => {
   router.replace('/logout');
 });
 
-const securePaths = ['/admin', '/analytics'];
+const securePaths = ['/admin', '/analytics', '/cache'];
 
 router.beforeEach(async (to) => {
 

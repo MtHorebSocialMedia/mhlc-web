@@ -14,20 +14,42 @@ export const useAnalyticsStore = defineStore('analytics', () => {
 
         const uncategorized = [];
         const unknownAgents = [];
+        const unknownCmsResources = [];
+
+        const dailyTraffic = {};
+        const dailyCmsTraffic = {};
+
         const categoryData = [];
 
         const categories = getCategories();
         const platforms = getPlatforms();
+        const cmsResources = getCmsResources();
 
         events.forEach(event => {
             const [path] = event.resource.split('?');
-            const categoryFound = categories.some(category => category.analyze(path, category));
-            if (!categoryFound) {
-                uncategorized.push(path);
-            }
-            const platformFound = platforms.some(platform => platform.analyze(event.agent, platform));
-            if (!platformFound) {
-                unknownAgents.push(event.agent);
+            const [ eventDate ] = event.dateTime.split('T');
+            if (event.resourceType === 'cms') {
+                const cmsResourceFound = cmsResources.some(resource => resource.analyze(path, resource));
+                if (!cmsResourceFound) {
+                    unknownCmsResources.push(path);
+                }
+                if (!dailyCmsTraffic[eventDate]) {
+                    dailyCmsTraffic[eventDate] = 0;
+                }
+                dailyCmsTraffic[eventDate]++;
+            } else {
+                const categoryFound = categories.some(category => category.analyze(path, category));
+                if (!categoryFound) {
+                    uncategorized.push(path);
+                }
+                const platformFound = platforms.some(platform => platform.analyze(event.agent, platform));
+                if (!platformFound) {
+                    unknownAgents.push(event.agent);
+                }
+                if (!dailyTraffic[eventDate]) {
+                    dailyTraffic[eventDate] = 0;
+                }
+                dailyTraffic[eventDate]++;
             }
         });
 
@@ -63,13 +85,147 @@ export const useAnalyticsStore = defineStore('analytics', () => {
             return b.data - a.data;
         });
 
-        return { startDateTime, endDateTime, categoryData, platformsData, uncategorized, unknownAgents };
+        const dailyTrafficData = Object.keys(dailyTraffic).map(date => ({
+            label: date,
+            data: dailyTraffic[date]
+         }));
+
+         const dailyCmsTrafficData = Object.keys(dailyCmsTraffic).map(date => ({
+            label: date,
+            data: dailyCmsTraffic[date]
+         }));
+
+        return { startDateTime, endDateTime, categoryData, platformsData, uncategorized, unknownAgents, dailyTrafficData, dailyCmsTrafficData };
 
     }
 
     return { getEventsData };
 });
 
+function getCmsResources() {
+    return [
+        {
+            name: 'MenuItem',
+            analyze: (path, resource) => {
+                if (['menuItem'].includes(path)) {
+                    resource.count++;
+                    return true;
+                }
+            },
+            count: 0
+        },
+        {
+            name: 'ContentPage',
+            analyze: (path, resource) => {
+                if (['contentPage'].includes(path)) {
+                    resource.count++;
+                    return true;
+                }
+            },
+            count: 0
+        },
+        {
+            name: 'ContentBlock',
+            analyze: (path, resource) => {
+                if (['contentBlock'].includes(path)) {
+                    resource.count++;
+                    return true;
+                }
+            },
+            count: 0
+        },
+        {
+            name: 'NewsType',
+            analyze: (path, resource) => {
+                if (['newsType'].includes(path)) {
+                    resource.count++;
+                    return true;
+                }
+            },
+            count: 0
+        },
+        {
+            name: 'News',
+            analyze: (path, resource) => {
+                if (['news'].includes(path)) {
+                    resource.count++;
+                    return true;
+                }
+            },
+            count: 0
+        },
+        {
+            name: 'NewsEntry',
+            analyze: (path, resource) => {
+                if (['newsEntry'].includes(path)) {
+                    resource.count++;
+                    return true;
+                }
+            },
+            count: 0
+        },
+        {
+            name: 'BlogPost',
+            analyze: (path, resource) => {
+                if (['blogPost'].includes(path)) {
+                    resource.count++;
+                    return true;
+                }
+            },
+            count: 0
+        },
+        {
+            name: 'BlogPostEntry',
+            analyze: (path, resource) => {
+                if (['blogPostEntry'].includes(path)) {
+                    resource.count++;
+                    return true;
+                }
+            },
+            count: 0
+        },
+        {
+            name: 'Staff',
+            analyze: (path, resource) => {
+                if (['staff'].includes(path)) {
+                    resource.count++;
+                    return true;
+                }
+            },
+            count: 0
+        },
+        {
+            name: 'Council',
+            analyze: (path, resource) => {
+                if (['council'].includes(path)) {
+                    resource.count++;
+                    return true;
+                }
+            },
+            count: 0
+        },
+        {
+            name: 'ChurchInfo',
+            analyze: (path, resource) => {
+                if (['churchInfo'].includes(path)) {
+                    resource.count++;
+                    return true;
+                }
+            },
+            count: 0
+        },
+        {
+            name: 'SpecialAnnouncement',
+            analyze: (path, resource) => {
+                if (['specialAnnouncement'].includes(path)) {
+                    resource.count++;
+                    return true;
+                }
+            },
+            count: 0
+        }
+    ];
+}
 function getCategories() {
     return [
         {
@@ -296,10 +452,7 @@ function getPlatforms() {
 
 if (import.meta.env.MODE === 'development') {
 
-    console.log('Enabling mock responses for mail store');
+    console.log('Enabling mock responses for analytics');
 
-    addMocks((mock) => {
-        mock.onPost("/api/authenticate").reply(200, { authenticated: true }, { 'x-authorization': 'token' });
-    });
 
 }

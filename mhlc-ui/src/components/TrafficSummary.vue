@@ -4,6 +4,7 @@
             <v-col class="month-options">
                 <v-btn
                     v-for="month in months"
+                    :key="month"
                     @click="getAnalyticsForMonth(month)"
                 >
                     {{ month }}
@@ -13,6 +14,30 @@
         <v-row>
             <v-col>
                 <v-alert>Report for dates <b>{{ startDateDisplay }}</b> to <b>{{ endDateDisplay }}</b>.</v-alert>
+            </v-col>
+        </v-row>
+        <v-row class="daily-traffic-heading">
+            <v-col>
+                <h3>Daily Traffic</h3>
+            </v-col>
+        </v-row>
+        <v-row class="daily-traffic-totals">
+            <v-col>
+                <label>Total Daily Traffic:</label>
+                {{ totalDailyTraffic }}
+            </v-col>
+            <v-col>
+                <label>Average Daily Traffic:</label>
+                {{ avgDailyTraffic }}
+            </v-col>
+        </v-row>
+        <v-row class="daily-traffic-chart">
+            <v-col>
+                <Line
+                    v-if="dailyTrafficChartData && dailyTrafficChartData.datasets && dailyTrafficChartData.datasets.length > 0"
+                    :options="chartOptions"
+                    :data="dailyTrafficChartData"
+                />
             </v-col>
         </v-row>
         <v-row class="feature-summary-heading">
@@ -39,7 +64,7 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <tr v-for="feature in featureList">
+                        <tr v-for="feature in featureList" :key="feature">
                             <td class="feature">{{ feature.label }}</td>
                             <td class="visits">{{ feature.data }}</td>
                         </tr>
@@ -73,12 +98,36 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <tr v-for="platform in platformsList">
+                        <tr v-for="platform in platformsList" :key="platform">
                             <td class="platform">{{ platform.label }}</td>
                             <td class="count">{{ platform.data }}</td>
                         </tr>
                     </tbody>
                 </table>
+            </v-col>
+        </v-row>
+        <v-row class="daily-cms-traffic-heading">
+            <v-col>
+                <h3>Daily CMS Traffic</h3>
+            </v-col>
+        </v-row>
+        <v-row class="daily-cms-traffic-totals">
+            <v-col>
+                <label>Total Daily CMS Traffic:</label>
+                {{ totalDailyCmsTraffic }}
+            </v-col>
+            <v-col>
+                <label>Average Daily CMS Traffic:</label>
+                {{ avgDailyCmsTraffic }}
+            </v-col>
+        </v-row>
+        <v-row class="daily-cms-traffic-chart">
+            <v-col>
+                <Line
+                    v-if="dailyCmsTrafficChartData && dailyCmsTrafficChartData.datasets && dailyCmsTrafficChartData.datasets.length > 0"
+                    :options="chartOptions"
+                    :data="dailyCmsTrafficChartData"
+                />
             </v-col>
         </v-row>
         <v-row class="unknown-stats">
@@ -94,10 +143,21 @@
 <script setup>
     import { useAnalyticsStore } from '@/store/analytics';
     import { ref } from 'vue';
-    import { Bar, Doughnut } from 'vue-chartjs';
-    import { Chart as ChartJS, Title, Tooltip, Legend, BarElement, CategoryScale, LinearScale, ArcElement } from 'chart.js'
+    import { Bar, Doughnut, Line } from 'vue-chartjs';
+    import {
+        Chart as ChartJS,
+        Title,
+        Tooltip,
+        Legend,
+        BarElement,
+        CategoryScale,
+        LinearScale,
+        ArcElement,
+        PointElement,
+        LineElement
+    } from 'chart.js'
 
-    ChartJS.register(Title, Tooltip, Legend, BarElement, CategoryScale, LinearScale, ArcElement);
+    ChartJS.register(Title, Tooltip, Legend, BarElement, CategoryScale, LinearScale, ArcElement, PointElement, LineElement);
 
     const analyticsStartYear = 2024;
     const analyticsStartMonth = 10;
@@ -133,6 +193,20 @@
         datasets: []
     });
 
+    const totalDailyTraffic = ref(0);
+    const avgDailyTraffic = ref(0);
+    const dailyTrafficChartData = ref({
+        labels: [],
+        datasets: []
+    });
+
+    const totalDailyCmsTraffic = ref(0);
+    const avgDailyCmsTraffic = ref(0);
+    const dailyCmsTrafficChartData = ref({
+        labels: [],
+        datasets: []
+    });
+
     const uncategorizedList = ref([]);
     const unknownAgentsList = ref([]);
 
@@ -159,13 +233,27 @@
         uncategorizedList.value = [];
         unknownAgentsList.value = [];
 
+        totalDailyTraffic.value = 0;
+        dailyTrafficChartData.value = {
+            labels: [],
+            datasets: []
+        };
+
+        totalDailyCmsTraffic.value = 0;
+        dailyCmsTrafficChartData.value = {
+            labels: [],
+            datasets: []
+        };
+
         const {
             startDateTime,
             endDateTime,
             categoryData,
             platformsData,
             uncategorized,
-            unknownAgents
+            unknownAgents,
+            dailyTrafficData,
+            dailyCmsTrafficData
         } = await useAnalyticsStore().getEventsData(month);
 
         startDateDisplay.value = formatDateTime(startDateTime);
@@ -188,6 +276,20 @@
 
         uncategorizedList.value = uncategorized;
         unknownAgentsList.value = unknownAgents;
+
+        totalDailyTraffic.value = dailyTrafficData.reduce((sum, td) => sum+td.data, 0);
+        avgDailyTraffic.value = Math.round(totalDailyTraffic.value / dailyTrafficData.length);
+        dailyTrafficChartData.value = {
+            labels: dailyTrafficData.map(td => td.label),
+            datasets: [{ label: 'Visits', data: dailyTrafficData.map(td => td.data) }]
+        };
+
+        totalDailyCmsTraffic.value = dailyCmsTrafficData.reduce((sum, td) => sum+td.data, 0);
+        avgDailyCmsTraffic.value = Math.round(totalDailyCmsTraffic.value / dailyCmsTrafficData.length);
+        dailyCmsTrafficChartData.value = {
+            labels: dailyCmsTrafficData.map(td => td.label),
+            datasets: [{ label: 'CMS API Calls', data: dailyCmsTrafficData.map(td => td.data) }]
+        };
     }
 
     function formatDateTime(dateTime) {
@@ -220,4 +322,6 @@
     .traffic-summary .month-options button { margin-left: 5px; margin-right: 5px; }
 
     .traffic-summary .doughnut-wrapper { display: block; width: 50%; margin-left: auto; margin-right: auto; }
+
+    .traffic-summary label { font-weight: bold; }
 </style>
