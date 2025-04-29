@@ -321,8 +321,8 @@ async function getBlogPosts(page) {
         let ttlMs = 0;
         const futureEntries = await client.getEntries({
             content_type: 'blogPost',
-            'fields.datetime[gt]': currentDateTimeISO,
-            order: 'fields.datetime'
+            'fields.publishDate[gt]': currentDateTimeISO,
+            order: 'fields.publishDate'
         });
         if (futureEntries && futureEntries.items && futureEntries.items.length > 0) {
             const firstFutureEntryDateTime = futureEntries.items[0].fields.datetime;
@@ -334,7 +334,7 @@ async function getBlogPosts(page) {
         {
             content_type: 'blogPost',
             limit: itemsPerPage,
-            'fields.publishDate[lte]': new Date().toISOString(),
+            'fields.publishDate[lte]': currentDateTimeISO,
             order: '-fields.publishDate',
             skip
         },
