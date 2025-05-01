@@ -68,7 +68,7 @@ async function writeToSheets(events) {
             values
         );
     } catch (err) {
-        logger.error(`An error occurred trying to write events to google sheets.  These [${resource.values.length}] events will be lost.`, err);
+        logger.error(`An error occurred trying to write events to google sheets.  These [${events.length}] events will be lost.`, err);
     }
 }
 

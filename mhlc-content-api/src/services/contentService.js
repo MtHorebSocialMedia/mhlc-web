@@ -425,15 +425,39 @@ async function getChurchInfo() {
     return infoItems.length > 0 ? infoItems[0]: null;
 }
 
-async function getSpecialAnnouncements(page) {
-    const currentDate = new Date().toISOString();
-    const { items } = await getEntries({
-        content_type: 'specialAnnouncement',
-        'fields.publishBeginDate[lte]': currentDate,
-        'fields.publishEndDate[gte]': currentDate,
-        order: '-fields.publishBeginDate'
-    });
-    return items.map((item) => {
+async function getSpecialAnnouncements() {
+    const currentDate = new Date();
+    const currentDateTimeISO = currentDate.toISOString();
+    const ttlMsCallback = async () => {
+        // There may be entries in the CMS that have a future datetime on them - these will not
+        // be included in the cached content.  Look for any future entries, and set a ttl on the
+        // cached content to the difference in the current time and the first future entry found.
+        // If no future entries are found, default to 0 which is indefinite.  CMS update events
+        // will clear out the cache as well, so no need to worry about indefinite entries going stale.
+        let ttlMs = 0;
+        const futureEntries = await client.getEntries({
+            content_type: 'specialAnnouncement',
+            'fields.publishBeginDate[gt]': currentDateTimeISO,
+            order: 'fields.publishBeginDate'
+        });
+        if (futureEntries && futureEntries.items && futureEntries.items.length > 0) {
+            const firstFutureEntryDateTime = futureEntries.items[0].fields.datetime;
+            ttlMs = new Date(firstFutureEntryDateTime).getTime() - currentDate.getTime();
+        }
+        return ttlMs;
+    };
+    const { items } = await getEntries(
+        {
+            content_type: 'specialAnnouncement',
+            'fields.publishBeginDate[lte]': currentDateTimeISO,
+            'fields.publishEndDate[gte]': currentDateTimeISO,
+            order: '-fields.publishBeginDate'
+        },
+        'specialAnnouncement',
+        ttlMsCallback
+    );
+    // in case there is cached data that has expired, filter those out
+    return items.filter(item => item.fields.publishEndDate > currentDateTimeISO).map((item) => {
         return {
             id: item.sys.id,
             publishBeginDate: item.fields.publishBeginDate,

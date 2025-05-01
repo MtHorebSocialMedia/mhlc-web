@@ -1,4 +1,3 @@
-// const { readJsonFile, writeJsonFile, deleteJsonFile, deleteAllFiles } = require('../utils/googleApisUtil');
 const { readJsonFile, writeJsonFile, deleteJsonFile, deleteAllFiles } = require('../utils/s3Utils');
 
 async function setCacheEntry(key, value, ttlMs) {
@@ -25,7 +24,7 @@ async function getCacheEntry(key) {
 
 async function removeCacheEntry(key, fuzzy=false) {
     if (fuzzy) {
-        await deleteAllFiles(getCacheFolderId, key);
+        await deleteAllFiles(getCacheFolderId(), key);
     } else {
         await deleteJsonFile(getCacheFolderId(), key);
     }
@@ -35,10 +34,6 @@ async function removeCacheEntry(key, fuzzy=false) {
 async function clearCache() {
     await deleteAllFiles(getCacheFolderId());
 }
-
-// function getCacheFolderId() {
-//     return process.env.GOOGLE_APIS_CONTENT_CACHE_FOLDER_ID;
-// }
 
 function getCacheFolderId() {
     return process.env.S3_CONTENT_CACHE_FOLDER_ID;

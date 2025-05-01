@@ -121,6 +121,7 @@
                 children: [
                     { parent: 'admin-options', id: 'admin-home', label: 'Admin Home', path: '/admin' },
                     { parent: 'admin-options', id: 'admin-analytics', label: 'Analytics', path: '/analytics' },
+                    { parent: 'admin-options', id: 'admin-content-cache', label: 'Content Cache', path: '/cache' },
                     { parent: 'admin-options', id: 'admin-logout', label: 'Logout', path: '/logout' }
                 ]
             }
