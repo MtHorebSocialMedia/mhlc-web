@@ -8,6 +8,7 @@
       <v-alert v-if="cacheClearedSuccess" type="success">
         The content cache has been cleared!
       </v-alert>
+      <br />
       <v-dialog max-width="500">
         <template v-slot:activator="{ props: activatorProps }">
           <v-btn

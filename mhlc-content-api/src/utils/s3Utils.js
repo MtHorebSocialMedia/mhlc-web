@@ -73,10 +73,16 @@ async function writeJsonFile(folderId, fileKey, contents) {
 async function deleteJsonFile(folderId, fileKey) {
     const { S3_BUCKET_NAME } = process.env;
     const s3Client = getS3Client();
-    await s3Client.send(new DeleteObjectCommand({
-        Bucket: S3_BUCKET_NAME,             // Space name
-        Key: `${folderId}/${fileKey}.json`  // File path in the bucket
-    }));
+    const fileToDelete = `${folderId}/${fileKey}.json`
+    logger.debug('Deleting file from s3 cache: ', fileToDelete);
+    try {
+        await s3Client.send(new DeleteObjectCommand({
+            Bucket: S3_BUCKET_NAME, // Space name
+            Key: fileToDelete       // File path in the bucket
+        }));
+    } catch (error) {
+        logger.error(`Error deleting file: ${fileToDelete} `, error, error.$response);
+    }
 }
 
 async function deleteAllFiles(folderId, startsWithKey) {
@@ -86,10 +92,15 @@ async function deleteAllFiles(folderId, startsWithKey) {
     const filesToDelete = startsWithKey
         ? files.filter(file => file.startsWith(`${folderId}/${startsWithKey}`))
         : files;
-    await s3Client.send(new DeleteObjectsCommand({
-        Bucket: S3_BUCKET_NAME,             // Space name
-        Delete: { Objects: filesToDelete.map((k) => ({ Key: k })) }
-    }));
+    logger.debug('Deleting files from s3 cache: ', filesToDelete);
+    try {
+        await s3Client.send(new DeleteObjectsCommand({
+            Bucket: S3_BUCKET_NAME,             // Space name
+            Delete: { Objects: filesToDelete.map((k) => ({ Key: k })) }
+        }));
+    } catch (error) {
+        logger.error(`Error deleting files: ${JSON.stringify(filesToDelete)}`, error, error.$response);
+    }
 }
 
 module.exports = {

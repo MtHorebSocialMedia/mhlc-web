@@ -153,7 +153,8 @@ router.get('/news/:newsId', (req, res, next) => {
 router.get('/blog-posts', (req, res, next) => {
     (async function() {
         try {
-            const items = await getBlogPosts();
+            const page = req.query.page || 1;
+            const items = await getBlogPosts(page);
             res.send(items);
         } catch(err) {
             next(err);
