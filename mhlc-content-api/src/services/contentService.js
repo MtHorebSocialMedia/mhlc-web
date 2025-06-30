@@ -257,7 +257,7 @@ async function getUpcomingEvents(page) {
             order: 'fields.eventDatetime',
             skip
         },
-        `upcomingEvents-${page}`,
+        `news-upcomingEvents-${page}`,
         ttlMsCallback
     );
     const events = items.map((item) => {
