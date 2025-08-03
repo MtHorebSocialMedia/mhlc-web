@@ -232,7 +232,7 @@ router.post('/donations/paypal',
             try {
                 const url = await getPaypalUrl(req.body);
                 const { subject, body } = getDonationRequestEmailTemplate(req.body);
-                const treasurerEmailAddress = process.env.SENDGRID_TO_ADDRESS_TREASURER;
+                const treasurerEmailAddress = process.env.MAIL_TO_ADDRESS_TREASURER;
                 if (treasurerEmailAddress) {
                     await sendMail(treasurerEmailAddress, subject, body);
                 } else {

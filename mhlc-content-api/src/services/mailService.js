@@ -2,7 +2,7 @@
 // https://mailchimp.com/developer/marketing/api/
 
 const mailchimp = require('@mailchimp/mailchimp_marketing');
-const sgMail = require('@sendgrid/mail');
+const nodemailer = require('nodemailer');
 const { getLogger } = require('../utils/logger');
 
 const logger = getLogger('mailService');
@@ -87,17 +87,30 @@ async function callPing() {
 }
 
 async function sendMail(to, subject, html) {
-    const from = process.env.SENDGRID_FROM_ADDRESS;
-    if (to.includes(',')) {
-        to = to.split(',').map(addr => addr.trim());
-    }
-    const message = {
-        to,
+    const transporter = nodemailer.createTransport({
+        service: 'SendinBlue', // SendinBlue is the old name for brevo
+        auth: {
+            user: process.env.BREVO_SMTP_USER,
+            pass: process.env.BREVO_SMTP_KEY
+        }
+    });
+
+    const from = process.env.MAIL_FROM_ADDRESS;
+
+    // Email options
+    const mailOptions = {
         from,
+        to,
         subject,
         html
     };
-    return getSendgridClient().send(message);
+
+    // Send the email
+    try {
+        await transporter.sendMail(mailOptions);
+    } catch (error) {
+        logger.error('Error sending email: ', error);
+    }
 }
 
 module.exports = { addMemberToNewsletter, getNewsletterInterests, sendMail };
