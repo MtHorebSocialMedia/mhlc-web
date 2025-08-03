@@ -46,7 +46,7 @@ app.use('/donate/paypal-complete', (req, res) => {
             ...req.body,
             ...req.query
         });
-        const treasurerEmailAddress = process.env.SENDGRID_TO_ADDRESS_TREASURER;
+        const treasurerEmailAddress = process.env.MAIL_TO_ADDRESS_TREASURER;
         if (treasurerEmailAddress) {
             await sendMail(treasurerEmailAddress, subject, body);
         } else {
@@ -69,7 +69,7 @@ app.use('*', (req, res) => {
         const { NODE_ENV } = process.env;
         if (NODE_ENV && NODE_ENV.toLowerCase().startsWith('prod')) {
             const { subject, body } = getSystemStartupEmailTemplate();
-            const adminEmailAddress = process.env.SENDGRID_TO_ADDRESS_ADMIN;
+            const adminEmailAddress = process.env.MAIL_TO_ADDRESS_ADMIN;
             if (adminEmailAddress) {
                 logger.info('Sending startup notification email.');
                 sendMail(adminEmailAddress, subject, body);

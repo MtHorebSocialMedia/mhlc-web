@@ -24,6 +24,7 @@
     "isbot": "^5.1.17",
     "jsonwebtoken": "^9.0.2",
     "log4js": "^6.9.1",
+    "nodemailer": "^7.0.5",
     "rss": "^1.2.2",
     "rss-parser": "^3.13.0",
     "xml-formatter": "^3.6.3"
