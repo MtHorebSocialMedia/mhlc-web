@@ -2,7 +2,7 @@
     <v-container class="newsletter-signup">
         <h2>
           <v-icon>mdi-image-filter-hdr-outline</v-icon>
-          Newsletter Signup
+          Join the Weekly e-News
         </h2>
         <hr />
         <NewsletterSignupForm />

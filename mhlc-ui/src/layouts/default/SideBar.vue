@@ -34,7 +34,7 @@
                     block
                     @click="$router.push('/newsletter')"
                 >
-                    Join the Newsletter
+                    Join the Weekly e-News
                 </v-btn>
             </v-col>
         </v-row>
