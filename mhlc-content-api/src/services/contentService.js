@@ -228,18 +228,18 @@ async function getUpcomingEvents(page) {
     const currentDate = new Date();
     const currentDateTimeISO = currentDate.toISOString();
     const ttlMsCallback = async () => {
-        // There may be entries in the CMS that have a future datetime on them - these will not
-        // be included in the cached content.  Look for any future entries, and set a ttl on the
-        // cached content to the difference in the current time and the first future entry found.
-        // If no future entries are found, default to 0 which is indefinite.  CMS update events
-        // will clear out the cache as well, so no need to worry about indefinite entries going stale.
+        // Events are interesting - there may be some items that are future dated and will not
+        // publish before that date, and there may be some items that need to roll off because
+        // they're past their event date.  For the caching logic, we're just going to look at all
+        // events that have an event date in the future, and whatever the first one is, that's the
+        // longest we'll cache.  That should hopefully take care of both scenarios.
         let ttlMs = 0;
         const futureEntries = await client.getEntries({
             content_type: 'news',
-            'fields.datetime[gt]': currentDateTimeISO,
+            // 'fields.datetime[gt]': currentDateTimeISO,
             'fields.eventDatetime[gte]': currentDateTimeISO,
             'fields.type.sys.id': eventNewsTypeId,
-            order: 'fields.datetime'
+            order: 'fields.eventDatetime'
         });
         if (futureEntries && futureEntries.items && futureEntries.items.length > 0) {
             const firstFutureEntryDateTime = futureEntries.items[0].fields.datetime;
