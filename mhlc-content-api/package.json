@@ -15,18 +15,18 @@
     "@mailchimp/mailchimp_marketing": "^3.0.80",
     "ajv": "^8.17.1",
     "ajv-formats": "^3.0.1",
-    "body-parser": "^1.20.2",
+    "body-parser": "^2.2.1",
     "contentful": "^10.12.8",
     "crypto-random-string": "^5.0.0",
-    "dotenv": "^16.4.5",
-    "express": "^4.19.2",
+    "dotenv": "^17.2.3",
+    "express": "^4.22.1",
     "googleapis": "^144.0.0",
-    "isbot": "^5.1.17",
-    "jsonwebtoken": "^9.0.2",
+    "isbot": "^5.1.32",
+    "jsonwebtoken": "^9.0.3",
     "log4js": "^6.9.1",
-    "nodemailer": "^7.0.5",
+    "nodemailer": "^7.0.11",
     "rss": "^1.2.2",
     "rss-parser": "^3.13.0",
-    "xml-formatter": "^3.6.3"
+    "xml-formatter": "^3.6.7"
   }
 }
