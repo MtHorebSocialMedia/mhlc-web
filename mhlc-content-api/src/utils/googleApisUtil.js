@@ -1,21 +1,33 @@
 const fs = require('fs').promises;
 const path = require('path');
 const process = require('process');
-const { google } = require('googleapis');
-const { getLogger } = require('../utils/logger');
+const { Readable } = require('stream');
 
+const { GoogleAuth } = require('google-auth-library');
+const { drive_v3 } = require('@googleapis/drive');
+const { sheets_v4 } = require('@googleapis/sheets');
+
+const { getLogger } = require('../utils/logger');
 const logger = getLogger('googleApisUtil');
 
 const SCOPES = [
     'https://www.googleapis.com/auth/drive',
     'https://www.googleapis.com/auth/spreadsheets'
 ];
-const TOKEN_PATH = path.join(process.cwd(), './credentials/token.json');
-const CREDENTIALS_PATH = path.join(process.cwd(), './credentials/credentials.json');
+
+const CREDENTIALS_PATH = path.join(
+    process.cwd(),
+    './credentials/credentials.json'
+);
 
 let initialized = false;
-
 const initCallbacks = [];
+
+let authClient;
+let driveClient;
+let sheetsClient;
+
+/* ------------------ lifecycle ------------------ */
 
 function isInitialized() {
     return initialized;
@@ -31,8 +43,10 @@ function onInitialized(callback) {
 
 async function initialize() {
     try {
-        const privateKeyB64 = process.env.GOOGLE_APIS_ANALYTICS_PRIVATE_KEY_B64;
-        const privateKey = Buffer.from(privateKeyB64, 'base64').toString();
+        const privateKey = Buffer
+            .from(process.env.GOOGLE_APIS_ANALYTICS_PRIVATE_KEY_B64, 'base64')
+            .toString();
+
         const credentials = {
             type: 'service_account',
             project_id: process.env.GOOGLE_APIS_ANALYTICS_PROJECT_ID,
@@ -51,174 +65,138 @@ async function initialize() {
             JSON.stringify(credentials, null, 2)
         );
 
-        await authorize();
-
         initialized = true;
 
-        while (initCallbacks.length > 0) {
-            const callback = initCallbacks.shift();
-            callback();
+        while (initCallbacks.length) {
+            initCallbacks.shift()();
         }
 
     } catch (err) {
-        logger.error('An error occurred attempting to initialize the analytics service.  This service will not be active.', err);
-    }
-}
-/**
- * Reads previously authorized credentials from the save file.
- *
- * @return {Promise<OAuth2Client|null>}
- */
-async function loadSavedCredentialsIfExist() {
-    try {
-        const content = await fs.readFile(TOKEN_PATH);
-        const credentials = JSON.parse(content);
-        return google.auth.fromJSON(credentials);
-    } catch (err) {
-        return null;
+        logger.error(
+            'Failed to initialize Google APIs service.',
+            err
+        );
     }
 }
 
-/**
- * Serializes credentials to a file compatible with GoogleAuth.fromJSON.
- *
- * @param {OAuth2Client} client
- * @return {Promise<void>}
- */
-async function saveCredentials(client) {
-    const content = await fs.readFile(CREDENTIALS_PATH);
-    const keys = JSON.parse(content);
-    const key = keys.installed || keys.web;
-    const payload = JSON.stringify({
-        type: 'authorized_user',
-        client_id: key.client_id,
-        client_secret: key.client_secret,
-        refresh_token: client.credentials.refresh_token,
-    });
-    await fs.writeFile(TOKEN_PATH, payload);
-}
+/* ------------------ auth + clients ------------------ */
 
-async function getAuthorizedSheetsClient() {
-    const auth = await authorize();
-    return google.sheets({ version: 'v4', auth });
-}
-
-async function getAuthorizedDriveClient() {
-    const auth = await authorize();
-    return google.drive({ version: 'v3', auth });
-}
-
-/**
- * Load or request or authorization to call APIs.
- *
- */
-async function authorize() {
-    let client = await loadSavedCredentialsIfExist();
-    if (client) {
-        return client;
-    }
-    client = new google.auth.GoogleAuth({
-        keyFile: CREDENTIALS_PATH,
-        scopes: SCOPES
-    });
-    if (client.credentials) {
-        await saveCredentials(client);
-    }
-    return client;
-}
-
-async function readJsonFile(folderId, fileKey) {
-    let fileContents = null;
-    if (isInitialized()) {
-        const drive = await getAuthorizedDriveClient();
-        const files = await listFiles(drive, folderId);
-        if (files && files.length > 0) {
-            const cacheFile = files.find(({ name }) => (name.startsWith(fileKey) && name.endsWith('.json')));
-            if (cacheFile) {
-                const fileId = cacheFile.id;
-                const res = await drive.files.get(
-                    { fileId, alt: 'media' },
-                    { responseType: 'stream' }
-                );
-                fileContents = await new Promise((resolve, reject) => {
-                    let data = '';
-                    res.data
-                        .on('data', (chunk) => {
-                            data += chunk.toString(); // Convert buffer to string
-                        })
-                        .on('end', () => {
-                            resolve(JSON.parse(data));
-                        })
-                        .on('error', (err) => {
-                            reject(err);
-                        });
-                });
-            }
-        }
-    }
-    return fileContents;
-}
-
-async function writeJsonFile(folderId, fileKey, contents) {
-    if (isInitialized()) {
-
-        // just in case there's an existing json file with the same name, remove it
-        await deleteJsonFile(folderId, fileKey);
-
-        const drive = await getAuthorizedDriveClient();
-
-        const fileName = `${fileKey}.json`
-        const fileMetadata = {
-            name: fileName,
-            parents: [ folderId ]
-        };
-
-        const media = {
-            mimeType: 'application/json',
-            body: JSON.stringify(contents),
-        };
-
-        const response = await drive.files.create({
-            resource: fileMetadata,
-            media: media,
-            fields: 'id',
+async function getAuth() {
+    if (!authClient) {
+        authClient = new GoogleAuth({
+            keyFile: CREDENTIALS_PATH,
+            scopes: SCOPES
         });
-
-        logger.debug('Created JSON drive file: ', response.data.id);
     }
+    return authClient;
 }
 
-async function listFiles(drive, folderId) {
+async function getDrive() {
+    if (!driveClient) {
+        driveClient = new drive_v3.Drive({
+            auth: await getAuth()
+        });
+    }
+    return driveClient;
+}
+
+async function getSheets() {
+    if (!sheetsClient) {
+        sheetsClient = new sheets_v4.Sheets({
+            auth: await getAuth()
+        });
+    }
+    return sheetsClient;
+}
+
+/* ------------------ drive helpers ------------------ */
+
+async function listFiles(folderId) {
+    const drive = await getDrive();
     const res = await drive.files.list({
         q: `'${folderId}' in parents and trashed = false`,
         fields: 'files(id, name)',
-        spaces: 'drive',
+        spaces: 'drive'
     });
-    return res.data.files;
+    return res.data.files || [];
+}
+
+async function readJsonFile(folderId, fileKey) {
+    if (!isInitialized()) return null;
+
+    const drive = await getDrive();
+    const files = await listFiles(folderId);
+
+    const file = files.find(
+        f => f.name.startsWith(fileKey) && f.name.endsWith('.json')
+    );
+
+    if (!file) return null;
+
+    const res = await drive.files.get(
+        { fileId: file.id, alt: 'media' },
+        { responseType: 'stream' }
+    );
+
+    return new Promise((resolve, reject) => {
+        let data = '';
+        res.data
+            .on('data', chunk => (data += chunk.toString()))
+            .on('end', () => resolve(JSON.parse(data)))
+            .on('error', reject);
+    });
+}
+
+async function writeJsonFile(folderId, fileKey, contents) {
+    if (!isInitialized()) return;
+
+    await deleteJsonFile(folderId, fileKey);
+
+    const drive = await getDrive();
+
+    const res = await drive.files.create({
+        resource: {
+            name: `${fileKey}.json`,
+            parents: [folderId]
+        },
+        media: {
+            mimeType: 'application/json',
+            body: Readable.from(JSON.stringify(contents))
+        },
+        fields: 'id'
+    });
+
+    logger.debug('Created JSON drive file:', res.data.id);
 }
 
 async function deleteJsonFile(folderId, fileKey) {
-    if (isInitialized()) {
-        const drive = await getAuthorizedDriveClient();
-        const files = await listFiles(drive, folderId);
-        const matchingFileIds = files
-            .filter(({ name }) => (name.startsWith(fileKey) && name.endsWith('.json')))
-            .map(file => file.id);
-        await Promise.all(matchingFileIds.map(fileId => drive.files.delete({ fileId })));
-    }
+    if (!isInitialized()) return;
+
+    const drive = await getDrive();
+    const files = await listFiles(folderId);
+
+    const ids = files
+        .filter(f => f.name.startsWith(fileKey) && f.name.endsWith('.json'))
+        .map(f => f.id);
+
+    await Promise.all(ids.map(id => drive.files.delete({ fileId: id })));
 }
 
 async function deleteAllFiles(folderId) {
-    if (isInitialized()) {
-        const drive = await getAuthorizedDriveClient();
-        const files = await listFiles(drive, folderId);
-        const fileIds = files.map(file => file.id);
-        await Promise.all(fileIds.map(fileId => drive.files.delete({ fileId })));
-    }
+    if (!isInitialized()) return;
+
+    const drive = await getDrive();
+    const files = await listFiles(folderId);
+
+    await Promise.all(
+        files.map(f => drive.files.delete({ fileId: f.id }))
+    );
 }
 
+/* ------------------ sheets helpers ------------------ */
+
 async function readSheetValues(spreadsheetId, range) {
-    const sheets = await getAuthorizedSheetsClient();
+    const sheets = await getSheets();
     const res = await sheets.spreadsheets.values.get({
         spreadsheetId,
         range
@@ -227,14 +205,16 @@ async function readSheetValues(spreadsheetId, range) {
 }
 
 async function writeSheetValues(spreadsheetId, range, values) {
-    const sheets = await getAuthorizedSheetsClient();
+    const sheets = await getSheets();
     await sheets.spreadsheets.values.append({
         spreadsheetId,
         range,
         valueInputOption: 'RAW',
-        resource: { values }
+        requestBody: { values }
     });
 }
+
+/* ------------------ exports ------------------ */
 
 module.exports = {
     isInitialized,
