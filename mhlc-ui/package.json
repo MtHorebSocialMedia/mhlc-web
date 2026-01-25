@@ -32,7 +32,6 @@
   "devDependencies": {
     "@vitejs/plugin-vue": "^6.0.3",
     "axios-mock-adapter": "^2.1.0",
-    "eslint": "^9.39.2",
     "eslint-plugin-vue": "^10.7.0",
     "sass": "^1.97.3",
     "unplugin-fonts": "^1.4.0",

@@ -21,7 +21,8 @@
     "mhlc-ui",
     "mhlc-images"
   ],
-  "dependencies": {
-
+  "devDependencies": {
+    "@eslint/js": "^9.39.2",
+    "eslint": "^9.39.2"
   }
 }

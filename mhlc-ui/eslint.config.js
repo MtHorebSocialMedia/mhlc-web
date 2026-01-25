@@ -1,9 +1,9 @@
-const eslint = require('eslint');
+const eslintJs = require('@eslint/js');
 const eslintPluginVue = require('eslint-plugin-vue');
 
 module.exports = [
   // Use recommended ESLint rules
-  // eslint.configs.recommended,
+  eslintJs.configs.recommended,
 
   // Use recommended Vue 3 ESLint rules (for flat config, use "flat/recommended")
   ...eslintPluginVue.configs['flat/recommended'],
