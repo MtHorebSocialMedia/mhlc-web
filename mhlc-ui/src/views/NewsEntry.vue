@@ -7,11 +7,16 @@
           Happenings from the Mount - News
         </h2>
       </v-col>
-      <v-col cols="3" class="navigation">
-        <router-link to="/news">View All News</router-link>
+      <v-col
+        cols="3"
+        class="navigation"
+      >
+        <router-link to="/news">
+          View All News
+        </router-link>
       </v-col>
     </v-row>
-    <hr />
+    <hr>
     <v-row>
       <v-col>
         <News />

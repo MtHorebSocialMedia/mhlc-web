@@ -1,12 +1,12 @@
 <template>
-    <v-container class="donate">
-        <h2>
-          <v-icon>mdi-image-filter-hdr-outline</v-icon>
-          Donate Online
-        </h2>
-        <hr />
-        <DonationForm />
-      </v-container>
+  <v-container class="donate">
+    <h2>
+      <v-icon>mdi-image-filter-hdr-outline</v-icon>
+      Donate Online
+    </h2>
+    <hr>
+    <DonationForm />
+  </v-container>
 </template>
 
 <script setup>

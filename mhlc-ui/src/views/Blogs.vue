@@ -1,14 +1,14 @@
 <template>
   <v-container class="blogs">
-      <h2>
-        <v-icon>mdi-image-filter-hdr-outline</v-icon>
-        Musings from the Mount - Blog Posts
-      </h2>
-      <hr />
-      <v-alert>
-        <ContentBlock content-block-key="blogs/header" />
-      </v-alert>
-      <BlogsList />
+    <h2>
+      <v-icon>mdi-image-filter-hdr-outline</v-icon>
+      Musings from the Mount - Blog Posts
+    </h2>
+    <hr>
+    <v-alert>
+      <ContentBlock content-block-key="blogs/header" />
+    </v-alert>
+    <BlogsList />
   </v-container>
 </template>
 

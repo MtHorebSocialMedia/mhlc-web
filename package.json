@@ -7,6 +7,8 @@
     "b64-google-private-key": "npm run b64-google-private-key -w mhlc-content-api",
     "build:ui": "npm run build -w mhlc-ui",
     "dev:ui": "npm run dev -w mhlc-ui",
+    "lint": "npm run lint --workspaces --if-present",
+    "lint:fix": "npm run lint:fix --workspaces --if-present",
     "refresh-mock-content": "npm run refresh-mock-content -w mhlc-content-api",
     "release:demo": "rm -rf ./docs/* && npm run build:demo -w mhlc-ui && cp -r ./mhlc-ui/dist/* ./docs && touch ./docs/.nojekyll",
     "start": "npm run build:ui && npm run start -w mhlc-content-api",

@@ -1,43 +1,56 @@
 <template>
-    <div :class="contentAssistEnabled ? 'content-block outlined' : 'content-block'" ref="content-block">
-        <v-alert
-            v-if="contentAssistEnabled"
-            icon="mdi-file-document-outline"
-        >{{ contentBlockKey }}</v-alert>
-        <div v-if="block" class="content">
-            <h3 v-if="block.title">{{ block.title }}</h3>
-            <hr v-if="block.title" />
-            <ResponsiveImage
-                v-if="block.image && block.imageAlignment !== 'bottom'"
-                :src="block.image.url"
-                alt="Content Block Image"
-                :maxWidth="block.image.details.image.width"
-                :maxHeight="block.image.details.image.height"
-                :align="block.imageAlignment"
-                :link="block.imageLink"
-            />
-            <v-container v-if="block.videoUrl" class="d-flex justify-center">
-                <EmbeddedVideo :videoId="block.videoId" />
-            </v-container>
-            <RichContentRenderer
-                v-if="block.content"
-                :content="block.content"
-            />
-            <div
-                v-if="block.jotformFormId"
-                ref="jotformWrapper"
-            ></div>
-            <ResponsiveImage
-                v-if="block.image && block.imageAlignment === 'bottom'"
-                :src="block.image.url"
-                alt="Content Block Image"
-                :maxWidth="block.image.details.image.width"
-                :maxHeight="block.image.details.image.height"
-                :align="block.imageAlignment"
-                :link="block.imageLink"
-            />
-        </div>
+  <div
+    ref="content-block"
+    :class="contentAssistEnabled ? 'content-block outlined' : 'content-block'"
+  >
+    <v-alert
+      v-if="contentAssistEnabled"
+      icon="mdi-file-document-outline"
+    >
+      {{ contentBlockKey }}
+    </v-alert>
+    <div
+      v-if="block"
+      class="content"
+    >
+      <h3 v-if="block.title">
+        {{ block.title }}
+      </h3>
+      <hr v-if="block.title">
+      <ResponsiveImage
+        v-if="block.image && block.imageAlignment !== 'bottom'"
+        :src="block.image.url"
+        alt="Content Block Image"
+        :max-width="block.image.details.image.width"
+        :max-height="block.image.details.image.height"
+        :align="block.imageAlignment"
+        :link="block.imageLink"
+      />
+      <v-container
+        v-if="block.videoUrl"
+        class="d-flex justify-center"
+      >
+        <EmbeddedVideo :video-id="block.videoId" />
+      </v-container>
+      <RichContentRenderer
+        v-if="block.content"
+        :content="block.content"
+      />
+      <div
+        v-if="block.jotformFormId"
+        ref="jotformWrapper"
+      />
+      <ResponsiveImage
+        v-if="block.image && block.imageAlignment === 'bottom'"
+        :src="block.image.url"
+        alt="Content Block Image"
+        :max-width="block.image.details.image.width"
+        :max-height="block.image.details.image.height"
+        :align="block.imageAlignment"
+        :link="block.imageLink"
+      />
     </div>
+  </div>
 </template>
 
 <script setup>

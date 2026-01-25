@@ -1,11 +1,11 @@
 <template>
-    <v-container class="logout">
-        <h2>
-          <v-icon>mdi-image-filter-hdr-outline</v-icon>
-          Logging out...
-        </h2>
-        <hr />
-      </v-container>
+  <v-container class="logout">
+    <h2>
+      <v-icon>mdi-image-filter-hdr-outline</v-icon>
+      Logging out...
+    </h2>
+    <hr>
+  </v-container>
 </template>
 
 <script setup>

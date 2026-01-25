@@ -1,12 +1,12 @@
 <template>
-    <img
-        :src="props.src"
-        :style="getImageStyle()"
-        :alt="props.alt"
-        :class="getImageClass()"
-        ref="image"
-        @click="imageClicked()"
-    />
+  <img
+    ref="image"
+    :src="props.src"
+    :style="getImageStyle()"
+    :alt="props.alt"
+    :class="getImageClass()"
+    @click="imageClicked()"
+  >
 </template>
 
 <script setup>
@@ -19,7 +19,7 @@
         maxWidth: { type: Number, required: true },
         maxHeight: { type: Number, required: true },
         align: { type: String, required: false, default: 'center' },
-        link: { type: String, required: false }
+        link: { type: String, required: false, default: null }
     });
 
     const image = useTemplateRef('image');

@@ -1,144 +1,166 @@
 <template>
-    <v-container class="traffic-summary">
-        <v-row>
-            <v-col class="month-options">
-                <v-btn
-                    v-for="month in months"
-                    :key="month"
-                    @click="getAnalyticsForMonth(month)"
-                >
-                    {{ month }}
-                </v-btn>
-            </v-col>
-        </v-row>
-        <v-row>
-            <v-col>
-                <v-alert>Report for dates <b>{{ startDateDisplay }}</b> to <b>{{ endDateDisplay }}</b>.</v-alert>
-            </v-col>
-        </v-row>
-        <v-row class="daily-traffic-heading">
-            <v-col>
-                <h3>Daily Traffic</h3>
-            </v-col>
-        </v-row>
-        <v-row class="daily-traffic-totals">
-            <v-col>
-                <label>Total Daily Traffic:</label>
-                {{ totalDailyTraffic }}
-            </v-col>
-            <v-col>
-                <label>Average Daily Traffic:</label>
-                {{ avgDailyTraffic }}
-            </v-col>
-        </v-row>
-        <v-row class="daily-traffic-chart">
-            <v-col>
-                <Line
-                    v-if="dailyTrafficChartData && dailyTrafficChartData.datasets && dailyTrafficChartData.datasets.length > 0"
-                    :options="chartOptions"
-                    :data="dailyTrafficChartData"
-                />
-            </v-col>
-        </v-row>
-        <v-row class="feature-summary-heading">
-            <v-col>
-                <h3>Feature Summary</h3>
-            </v-col>
-        </v-row>
-        <v-row class="feature-summary-chart">
-            <v-col>
-                <Bar
-                    v-if="featureChartData && featureChartData.datasets && featureChartData.datasets.length > 0"
-                    :options="chartOptions"
-                    :data="featureChartData"
-                />
-            </v-col>
-        </v-row>
-        <v-row class="feature-summary-details">
-            <v-col>
-                <table class="feature-summary">
-                    <thead>
-                        <tr>
-                            <th class="feature">Feature</th>
-                            <th class="visits">Visits</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr v-for="feature in featureList" :key="feature">
-                            <td class="feature">{{ feature.label }}</td>
-                            <td class="visits">{{ feature.data }}</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </v-col>
-        </v-row>
-        <v-row class="platform-summary-heading">
-            <v-col>
-                <h3>Platform Summary</h3>
-            </v-col>
-        </v-row>
-        <v-row class="platform-summary-chart">
-            <v-col>
-                <div class="doughnut-wrapper">
-                    <Doughnut
-                        v-if="platformsChartData && platformsChartData.datasets && platformsChartData.datasets.length > 0"
-                        :options="chartOptions"
-                        :data="platformsChartData"
-                    />
-                </div>
-            </v-col>
-        </v-row>
-        <v-row class="platform-summary-details">
-            <v-col>
-                <table class="platforms-summary">
-                    <thead>
-                        <tr>
-                            <th class="platform">Platform</th>
-                            <th class="count">Count</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr v-for="platform in platformsList" :key="platform">
-                            <td class="platform">{{ platform.label }}</td>
-                            <td class="count">{{ platform.data }}</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </v-col>
-        </v-row>
-        <v-row class="daily-cms-traffic-heading">
-            <v-col>
-                <h3>Daily CMS Traffic</h3>
-            </v-col>
-        </v-row>
-        <v-row class="daily-cms-traffic-totals">
-            <v-col>
-                <label>Total Daily CMS Traffic:</label>
-                {{ totalDailyCmsTraffic }}
-            </v-col>
-            <v-col>
-                <label>Average Daily CMS Traffic:</label>
-                {{ avgDailyCmsTraffic }}
-            </v-col>
-        </v-row>
-        <v-row class="daily-cms-traffic-chart">
-            <v-col>
-                <Line
-                    v-if="dailyCmsTrafficChartData && dailyCmsTrafficChartData.datasets && dailyCmsTrafficChartData.datasets.length > 0"
-                    :options="chartOptions"
-                    :data="dailyCmsTrafficChartData"
-                />
-            </v-col>
-        </v-row>
-        <v-row class="unknown-stats">
-            <v-col>
-                <h3>Uncategorized Traffic</h3>
-                <v-list :items="uncategorizedList"></v-list>
-                <h3>Unknown Agents</h3>
-                <v-list :items="unknownAgentsList"></v-list>
-            </v-col>
-        </v-row>
-    </v-container>
+  <v-container class="traffic-summary">
+    <v-row>
+      <v-col class="month-options">
+        <v-btn
+          v-for="month in months"
+          :key="month"
+          @click="getAnalyticsForMonth(month)"
+        >
+          {{ month }}
+        </v-btn>
+      </v-col>
+    </v-row>
+    <v-row>
+      <v-col>
+        <v-alert>Report for dates <b>{{ startDateDisplay }}</b> to <b>{{ endDateDisplay }}</b>.</v-alert>
+      </v-col>
+    </v-row>
+    <v-row class="daily-traffic-heading">
+      <v-col>
+        <h3>Daily Traffic</h3>
+      </v-col>
+    </v-row>
+    <v-row class="daily-traffic-totals">
+      <v-col>
+        <label>Total Daily Traffic:</label>
+        {{ totalDailyTraffic }}
+      </v-col>
+      <v-col>
+        <label>Average Daily Traffic:</label>
+        {{ avgDailyTraffic }}
+      </v-col>
+    </v-row>
+    <v-row class="daily-traffic-chart">
+      <v-col>
+        <Line
+          v-if="dailyTrafficChartData && dailyTrafficChartData.datasets && dailyTrafficChartData.datasets.length > 0"
+          :options="chartOptions"
+          :data="dailyTrafficChartData"
+        />
+      </v-col>
+    </v-row>
+    <v-row class="feature-summary-heading">
+      <v-col>
+        <h3>Feature Summary</h3>
+      </v-col>
+    </v-row>
+    <v-row class="feature-summary-chart">
+      <v-col>
+        <Bar
+          v-if="featureChartData && featureChartData.datasets && featureChartData.datasets.length > 0"
+          :options="chartOptions"
+          :data="featureChartData"
+        />
+      </v-col>
+    </v-row>
+    <v-row class="feature-summary-details">
+      <v-col>
+        <table class="feature-summary">
+          <thead>
+            <tr>
+              <th class="feature">
+                Feature
+              </th>
+              <th class="visits">
+                Visits
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr
+              v-for="feature in featureList"
+              :key="feature"
+            >
+              <td class="feature">
+                {{ feature.label }}
+              </td>
+              <td class="visits">
+                {{ feature.data }}
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </v-col>
+    </v-row>
+    <v-row class="platform-summary-heading">
+      <v-col>
+        <h3>Platform Summary</h3>
+      </v-col>
+    </v-row>
+    <v-row class="platform-summary-chart">
+      <v-col>
+        <div class="doughnut-wrapper">
+          <Doughnut
+            v-if="platformsChartData && platformsChartData.datasets && platformsChartData.datasets.length > 0"
+            :options="chartOptions"
+            :data="platformsChartData"
+          />
+        </div>
+      </v-col>
+    </v-row>
+    <v-row class="platform-summary-details">
+      <v-col>
+        <table class="platforms-summary">
+          <thead>
+            <tr>
+              <th class="platform">
+                Platform
+              </th>
+              <th class="count">
+                Count
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr
+              v-for="platform in platformsList"
+              :key="platform"
+            >
+              <td class="platform">
+                {{ platform.label }}
+              </td>
+              <td class="count">
+                {{ platform.data }}
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </v-col>
+    </v-row>
+    <v-row class="daily-cms-traffic-heading">
+      <v-col>
+        <h3>Daily CMS Traffic</h3>
+      </v-col>
+    </v-row>
+    <v-row class="daily-cms-traffic-totals">
+      <v-col>
+        <label>Total Daily CMS Traffic:</label>
+        {{ totalDailyCmsTraffic }}
+      </v-col>
+      <v-col>
+        <label>Average Daily CMS Traffic:</label>
+        {{ avgDailyCmsTraffic }}
+      </v-col>
+    </v-row>
+    <v-row class="daily-cms-traffic-chart">
+      <v-col>
+        <Line
+          v-if="dailyCmsTrafficChartData && dailyCmsTrafficChartData.datasets && dailyCmsTrafficChartData.datasets.length > 0"
+          :options="chartOptions"
+          :data="dailyCmsTrafficChartData"
+        />
+      </v-col>
+    </v-row>
+    <v-row class="unknown-stats">
+      <v-col>
+        <h3>Uncategorized Traffic</h3>
+        <v-list :items="uncategorizedList" />
+        <h3>Unknown Agents</h3>
+        <v-list :items="unknownAgentsList" />
+      </v-col>
+    </v-row>
+  </v-container>
 </template>
 <script setup>
     import { useAnalyticsStore } from '@/store/analytics';

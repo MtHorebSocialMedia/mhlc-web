@@ -1,11 +1,11 @@
 <template>
   <v-container class="analytics">
-      <h2>
-        <v-icon>mdi-image-filter-hdr-outline</v-icon>
-        Analytics Report
-      </h2>
-      <hr />
-      <TrafficSummary />
+    <h2>
+      <v-icon>mdi-image-filter-hdr-outline</v-icon>
+      Analytics Report
+    </h2>
+    <hr>
+    <TrafficSummary />
   </v-container>
 </template>
 

@@ -2,7 +2,7 @@
   <div class="content">
     <RichTextRenderer
       :document="content"
-      :nodeRenderers="renderNodes()"
+      :node-renderers="renderNodes()"
     />
   </div>
 </template>

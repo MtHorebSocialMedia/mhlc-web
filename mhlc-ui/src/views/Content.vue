@@ -1,33 +1,33 @@
 <template>
   <v-container
     v-if="page"
-    class="content-page"
     ref="content-page"
+    class="content-page"
   >
     <h2>
       <v-icon>mdi-image-filter-hdr-outline</v-icon>
       {{ page.title }}
     </h2>
-    <hr />
+    <hr>
     <v-row v-if="page.headerImage">
       <v-col class="header-image">
         <ResponsiveImage
-            :src="page.headerImage.url"
-            alt="Header Image"
-            :maxWidth="page.headerImage.details.image.width"
-            :maxHeight="page.headerImage.details.image.height"
+          :src="page.headerImage.url"
+          alt="Header Image"
+          :max-width="page.headerImage.details.image.width"
+          :max-height="page.headerImage.details.image.height"
         />
       </v-col>
     </v-row>
     <v-row
-        v-for="block in page.contentBlocks"
-        v-bind:key="block.key"
+      v-for="block in page.contentBlocks"
+      :key="block.key"
     >
-        <v-col>
-            <ContentBlock
-                :contentBlockKey="block.key"
-            />
-        </v-col>
+      <v-col>
+        <ContentBlock
+          :content-block-key="block.key"
+        />
+      </v-col>
     </v-row>
   </v-container>
 </template>

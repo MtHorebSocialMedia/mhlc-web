@@ -6,38 +6,59 @@
           :width="xs ? 135 : 193"
           :height="xs ? 130 : 185"
           src="/logo193x185.png"
-        />
-        <br />
+        >
+        <br>
         {{ churchInfo.slogan }}
       </v-col>
-      <v-spacer></v-spacer>
+      <v-spacer />
       <v-col cols="9">
         <v-container>
           <v-row>
             <v-col class="social">
-              <v-btn icon @click="openFacebook">
-                <v-icon color="#4267B2">mdi-facebook</v-icon>
+              <v-btn
+                icon
+                @click="openFacebook"
+              >
+                <v-icon color="#4267B2">
+                  mdi-facebook
+                </v-icon>
               </v-btn>
-              <v-btn icon @click="openInstagram">
-                <v-icon color="#833AB4">mdi-instagram</v-icon>
+              <v-btn
+                icon
+                @click="openInstagram"
+              >
+                <v-icon color="#833AB4">
+                  mdi-instagram
+                </v-icon>
               </v-btn>
-              <v-btn icon @click="openYouTube">
-                <v-icon color="red">mdi-youtube</v-icon>
+              <v-btn
+                icon
+                @click="openYouTube"
+              >
+                <v-icon color="red">
+                  mdi-youtube
+                </v-icon>
               </v-btn>
             </v-col>
           </v-row>
           <v-row>
             <v-col class="contact">
               <span v-if="smAndUp">
-                  {{ churchInfo.streetAddress }}<br />
-                  {{ churchInfo.city }}, {{ churchInfo.state}} {{ churchInfo.zipCode }}<br />
-                  {{ churchInfo.phoneNumber }}
+                {{ churchInfo.streetAddress }}<br>
+                {{ churchInfo.city }}, {{ churchInfo.state }} {{ churchInfo.zipCode }}<br>
+                {{ churchInfo.phoneNumber }}
               </span>
               <span v-else>
-                <v-btn icon @click="showAddress = true">
+                <v-btn
+                  icon
+                  @click="showAddress = true"
+                >
                   <v-icon color="blue">mdi-map-marker</v-icon>
                 </v-btn>
-                <v-btn icon @click="showPhone = true">
+                <v-btn
+                  icon
+                  @click="showPhone = true"
+                >
                   <v-icon color="green">mdi-phone</v-icon>
                 </v-btn>
               </span>
@@ -56,54 +77,58 @@
     v-model="showAddress"
     width="auto"
   >
-      <v-card>
-          <v-card-title>
-              <v-icon color="blue">mdi-map-marker</v-icon>
-              Address
-              <hr />
-          </v-card-title>
-          <v-container>
-            <v-row>
-              <v-col>
-                {{ churchInfo.streetAddress }}<br />
-                {{ churchInfo.city }}, {{ churchInfo.state}} {{ churchInfo.zipCode }}
-              </v-col>
-            </v-row>
-          </v-container>
-          <template v-slot:actions>
-              <v-btn
-                  class="ms-auto"
-                  text="Close"
-                  @click="showAddress = false"
-              ></v-btn>
-          </template>
-      </v-card>
+    <v-card>
+      <v-card-title>
+        <v-icon color="blue">
+          mdi-map-marker
+        </v-icon>
+        Address
+        <hr>
+      </v-card-title>
+      <v-container>
+        <v-row>
+          <v-col>
+            {{ churchInfo.streetAddress }}<br>
+            {{ churchInfo.city }}, {{ churchInfo.state }} {{ churchInfo.zipCode }}
+          </v-col>
+        </v-row>
+      </v-container>
+      <template #actions>
+        <v-btn
+          class="ms-auto"
+          text="Close"
+          @click="showAddress = false"
+        />
+      </template>
+    </v-card>
   </v-dialog>
   <v-dialog
     v-model="showPhone"
     width="auto"
   >
-      <v-card>
-          <v-card-title>
-              <v-icon color="green">mdi-phone</v-icon>
-              Phone
-              <hr />
-          </v-card-title>
-          <v-container>
-            <v-row>
-              <v-col>
-                {{ churchInfo.phoneNumber }}
-              </v-col>
-            </v-row>
-          </v-container>
-          <template v-slot:actions>
-              <v-btn
-                  class="ms-auto"
-                  text="Close"
-                  @click="showPhone = false"
-              ></v-btn>
-          </template>
-      </v-card>
+    <v-card>
+      <v-card-title>
+        <v-icon color="green">
+          mdi-phone
+        </v-icon>
+        Phone
+        <hr>
+      </v-card-title>
+      <v-container>
+        <v-row>
+          <v-col>
+            {{ churchInfo.phoneNumber }}
+          </v-col>
+        </v-row>
+      </v-container>
+      <template #actions>
+        <v-btn
+          class="ms-auto"
+          text="Close"
+          @click="showPhone = false"
+        />
+      </template>
+    </v-card>
   </v-dialog>
 </template>
 

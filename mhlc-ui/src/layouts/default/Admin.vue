@@ -10,7 +10,9 @@
         </v-row>
       </v-container>
     </v-main>
-    <v-footer :class="name">{{ churchInfo.footer }}</v-footer>
+    <v-footer :class="name">
+      {{ churchInfo.footer }}
+    </v-footer>
   </v-app>
 </template>
 
