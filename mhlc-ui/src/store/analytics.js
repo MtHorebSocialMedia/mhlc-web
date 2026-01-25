@@ -1,7 +1,6 @@
 // Utilities
 import { defineStore } from 'pinia';
 import { getEvents } from '@/utils/auditService';
-import { addMocks } from '../utils/httpUtils';
 
 export const useAnalyticsStore = defineStore('analytics', () => {
 

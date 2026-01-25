@@ -1,17 +1,17 @@
 <template>
-    <v-container class="leaders">
-        <h2>
-          <v-icon>mdi-image-filter-hdr-outline</v-icon>
-          Our Leaders
-        </h2>
-        <hr />
-        <h3>Staff</h3>
-        <StaffList />
-        <br />
-        <h3>Church Council</h3>
-        <ContentBlock contentBlockKey="leaders/council" />
-        <CouncilList />
-    </v-container>
+  <v-container class="leaders">
+    <h2>
+      <v-icon>mdi-image-filter-hdr-outline</v-icon>
+      Our Leaders
+    </h2>
+    <hr>
+    <h3>Staff</h3>
+    <StaffList />
+    <br>
+    <h3>Church Council</h3>
+    <ContentBlock content-block-key="leaders/council" />
+    <CouncilList />
+  </v-container>
 </template>
 
 <script setup>

@@ -1,71 +1,97 @@
 <template>
-    <v-container class="login-form">
-        <v-alert>
-            <p class="instructions">
-                Please provide the appropriate credentials for accessing the administrative features.
-            </p>
-            <p class="required-note"><v-icon color="red" size="x-small">mdi-asterisk</v-icon> indicates a required field.</p>
-        </v-alert>
-        <v-alert v-if="loginError" type="error">
-            <p class="instructions">
-                We are currently experiencing a technical issue.  Please try again later or contact the church office.
-            </p>
-        </v-alert>
-        <v-alert v-if="loginInvalid" type="error">
-            <p class="instructions">
-                Please provide valid credentials for accessing the administrative features.
-            </p>
-        </v-alert>
-        <v-alert v-if="login.validationResult && !login.validationResult.valid" type="error">
-            <div v-if="login.validationResult.errors.userName">
-                The user name field is required.
-            </div>
-            <div v-if="login.validationResult.errors.password">
-                The password field is required.
-            </div>
-        </v-alert>
-        <br />
-        <v-form v-if="!loginComplete">
-            <v-row>
-                <v-col>
-                    <v-text-field
-                        v-model="login.request.userName"
-                        label="User Name"
-                        variant="outlined"
-                    >
-                        <template v-slot:append-inner>
-                            <v-icon color="red" size="x-small">mdi-asterisk</v-icon>
-                        </template>
-                    </v-text-field>
-                </v-col>
-            </v-row>
-            <v-row>
-                <v-col>
-                    <v-text-field
-                        v-model="login.request.password"
-                        label="Password"
-                        variant="outlined"
-                        type="password"
-                    >
-                        <template v-slot:append-inner>
-                            <v-icon color="red" size="x-small">mdi-asterisk</v-icon>
-                        </template>
-                    </v-text-field>
-                </v-col>
-            </v-row>
-            <v-row>
-                <v-col>
-                    <v-btn
-                        color="red"
-                        block
-                        @click="submitLoginRequest()"
-                    >
-                        Login
-                    </v-btn>
-                </v-col>
-            </v-row>
-        </v-form>
-    </v-container>
+  <v-container class="login-form">
+    <v-alert>
+      <p class="instructions">
+        Please provide the appropriate credentials for accessing the administrative features.
+      </p>
+      <p class="required-note">
+        <v-icon
+          color="red"
+          size="x-small"
+        >
+          mdi-asterisk
+        </v-icon> indicates a required field.
+      </p>
+    </v-alert>
+    <v-alert
+      v-if="loginError"
+      type="error"
+    >
+      <p class="instructions">
+        We are currently experiencing a technical issue.  Please try again later or contact the church office.
+      </p>
+    </v-alert>
+    <v-alert
+      v-if="loginInvalid"
+      type="error"
+    >
+      <p class="instructions">
+        Please provide valid credentials for accessing the administrative features.
+      </p>
+    </v-alert>
+    <v-alert
+      v-if="login.validationResult && !login.validationResult.valid"
+      type="error"
+    >
+      <div v-if="login.validationResult.errors.userName">
+        The user name field is required.
+      </div>
+      <div v-if="login.validationResult.errors.password">
+        The password field is required.
+      </div>
+    </v-alert>
+    <br>
+    <v-form v-if="!loginComplete">
+      <v-row>
+        <v-col>
+          <v-text-field
+            v-model="login.request.userName"
+            label="User Name"
+            variant="outlined"
+          >
+            <template #append-inner>
+              <v-icon
+                color="red"
+                size="x-small"
+              >
+                mdi-asterisk
+              </v-icon>
+            </template>
+          </v-text-field>
+        </v-col>
+      </v-row>
+      <v-row>
+        <v-col>
+          <v-text-field
+            v-model="login.request.password"
+            label="Password"
+            variant="outlined"
+            type="password"
+          >
+            <template #append-inner>
+              <v-icon
+                color="red"
+                size="x-small"
+              >
+                mdi-asterisk
+              </v-icon>
+            </template>
+          </v-text-field>
+        </v-col>
+      </v-row>
+      <v-row>
+        <v-col>
+          <v-btn
+            color="red"
+            block
+            @click="submitLoginRequest()"
+          >
+            Login
+          </v-btn>
+        </v-col>
+      </v-row>
+    </v-form>
+  </v-container>
 </template>
 
 <script setup>

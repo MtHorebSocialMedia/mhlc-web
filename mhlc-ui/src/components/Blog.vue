@@ -1,32 +1,37 @@
 <template>
-    <v-card v-if="blogContent" elevation="4">
-        <v-card-item>
-            <v-card-title class="blog-title">
-                <v-icon size="small">mdi-post-outline</v-icon>
-                {{ blogContent.title }}
-                <hr />
-            </v-card-title>
-            <v-card-subtitle class="blog-subtitle">
-                <v-container>
-                    <v-row>
-                        <v-col class="blog-author">
-                            {{ blogContent.author.name }}
-                        </v-col>
-                        <v-col class="blog-publish-date">
-                            <span>{{ formatDateTime(blogContent.publishDate) }}</span>
-                        </v-col>
-                    </v-row>
-                </v-container>
-            </v-card-subtitle>
-            <v-container>
-                <v-row>
-                    <v-col>
-                        <RichContentRenderer :content="blogContent.content" />
-                    </v-col>
-                </v-row>
-            </v-container>
-        </v-card-item>
-    </v-card>
+  <v-card
+    v-if="blogContent"
+    elevation="4"
+  >
+    <v-card-item>
+      <v-card-title class="blog-title">
+        <v-icon size="small">
+          mdi-post-outline
+        </v-icon>
+        {{ blogContent.title }}
+        <hr>
+      </v-card-title>
+      <v-card-subtitle class="blog-subtitle">
+        <v-container>
+          <v-row>
+            <v-col class="blog-author">
+              {{ blogContent.author.name }}
+            </v-col>
+            <v-col class="blog-publish-date">
+              <span>{{ formatDateTime(blogContent.publishDate) }}</span>
+            </v-col>
+          </v-row>
+        </v-container>
+      </v-card-subtitle>
+      <v-container>
+        <v-row>
+          <v-col>
+            <RichContentRenderer :content="blogContent.content" />
+          </v-col>
+        </v-row>
+      </v-container>
+    </v-card-item>
+  </v-card>
 </template>
 
 <script setup>

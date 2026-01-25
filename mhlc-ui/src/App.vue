@@ -1,15 +1,15 @@
 <template>
   <router-view />
   <v-overlay
-      :model-value="showLoading"
-      class="align-center justify-center"
-    >
-      <v-progress-circular
-        color="primary"
-        size="64"
-        indeterminate
-      ></v-progress-circular>
-    </v-overlay>
+    :model-value="showLoading"
+    class="align-center justify-center"
+  >
+    <v-progress-circular
+      color="primary"
+      size="64"
+      indeterminate
+    />
+  </v-overlay>
 </template>
 
 <script setup>

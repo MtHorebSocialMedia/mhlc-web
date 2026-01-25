@@ -1,14 +1,17 @@
 <template>
-    <v-container ref="embedded-video" class="d-flex justify-center">
-        <iframe
-            :src="getVideoUrl()"
-            :style="getVideoStyle()"
-            title="YouTube video player"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allowfullscreen
-        ></iframe>
-    </v-container>
+  <v-container
+    ref="embedded-video"
+    class="d-flex justify-center"
+  >
+    <iframe
+      :src="getVideoUrl()"
+      :style="getVideoStyle()"
+      title="YouTube video player"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
+    />
+  </v-container>
 </template>
 
 <script setup>

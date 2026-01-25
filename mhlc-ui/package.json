@@ -9,7 +9,8 @@
     "build": "vite build",
     "build:demo": "vite build --mode development --base=/mhlc-web",
     "preview": "vite preview",
-    "lint": "eslint . --fix --ignore-path .gitignore"
+    "lint": "eslint ./src",
+    "lint:fix": "eslint ./src --fix"
   },
   "author": "MHLC Technology Team",
   "license": "UNLICENSED",
@@ -31,8 +32,7 @@
   "devDependencies": {
     "@vitejs/plugin-vue": "^6.0.3",
     "axios-mock-adapter": "^2.1.0",
-    "eslint": "^8.57.1",
-    "eslint-plugin-vue": "^9.33.0",
+    "eslint-plugin-vue": "^10.7.0",
     "sass": "^1.97.3",
     "unplugin-fonts": "^1.4.0",
     "vite": "^7.3.1",

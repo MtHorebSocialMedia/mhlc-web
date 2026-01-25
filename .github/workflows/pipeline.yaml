@@ -21,13 +21,9 @@ jobs:
     - name: Build Source
       run: npm run build:ui
 
+    - name: Lint Source
+      run: npm run lint
+
     - name: Build Container Image
       run: docker build -t mhlc-web:$(echo $GITHUB_SHA | head -c7) .
 
-    - name: Push Image to Registry
-      if: ${{ endsWith(github.ref, 'origin/main') }}
-      run: echo "TODO - Push Image to Registry"
-
-    - name: Helm Deploy to Kubernetes Environment
-      if: ${{ endsWith(github.ref, 'origin/main') }}
-      run: echo "TODO - Helm Deploy to Kubernetes Environment"

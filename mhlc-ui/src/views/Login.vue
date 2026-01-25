@@ -1,12 +1,12 @@
 <template>
-    <v-container class="login">
-        <h2>
-          <v-icon>mdi-image-filter-hdr-outline</v-icon>
-          Admin Login
-        </h2>
-        <hr />
-        <LoginForm />
-      </v-container>
+  <v-container class="login">
+    <h2>
+      <v-icon>mdi-image-filter-hdr-outline</v-icon>
+      Admin Login
+    </h2>
+    <hr>
+    <LoginForm />
+  </v-container>
 </template>
 
 <script setup>

@@ -4,7 +4,7 @@
       <v-icon>mdi-image-filter-hdr-outline</v-icon>
       Happenings at the Mount - Upcoming Events
     </h2>
-    <hr />
+    <hr>
     <v-alert>
       <ContentBlock content-block-key="events/header" />
     </v-alert>

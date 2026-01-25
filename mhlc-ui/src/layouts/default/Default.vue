@@ -7,13 +7,19 @@
           <v-col :class="getMainViewClass()">
             <router-view />
           </v-col>
-          <v-col v-if="lgAndUp" cols="3" class="side-view">
+          <v-col
+            v-if="lgAndUp"
+            cols="3"
+            class="side-view"
+          >
             <side-bar />
           </v-col>
         </v-row>
       </v-container>
     </v-main>
-    <v-footer :class="name">{{ churchInfo.footer }}</v-footer>
+    <v-footer :class="name">
+      {{ churchInfo.footer }}
+    </v-footer>
   </v-app>
 </template>
 

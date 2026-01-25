@@ -10,7 +10,9 @@
         </v-row>
       </v-container>
     </v-main>
-    <v-footer :class="name">{{ churchInfo.footer }}</v-footer>
+    <v-footer :class="name">
+      {{ churchInfo.footer }}
+    </v-footer>
   </v-app>
 </template>
 
@@ -22,15 +24,7 @@
 
   const contentStore = useContentStore();
   const { churchInfo } = storeToRefs(contentStore);
-  const { name, width: deviceWidth } = useDisplay();
-
-  function getMainViewClass() {
-      if (deviceWidth.value > 450) {
-        return `main-view ${name.value}`;
-      } else {
-        return `main-view xxs`
-      }
-  }
+  const { name } = useDisplay();
 
 </script>
 

@@ -3,9 +3,9 @@
     <v-row>
       <v-col>
         <div
-            v-if="jotformFormId"
-            ref="jotformWrapper"
-        ></div>
+          v-if="jotformFormId"
+          ref="jotformWrapper"
+        />
       </v-col>
     </v-row>
   </v-container>

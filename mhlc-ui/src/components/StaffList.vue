@@ -1,59 +1,59 @@
 <template>
-    <v-container v-if="staff">
-        <template v-if="mdAndUp">
-            <v-row
-                v-for="(row, rowIndex) in staffMatrix"
-                :key="rowIndex"
-            >
-                <v-col
-                    v-for="member in row"
-                    :key="member.id"
-                >
-                    <v-card elevation="4">
-                        <v-card-item>
-                            <v-card-title>{{ member.name }}</v-card-title>
-                            <v-card-subtitle>{{ member.title }}</v-card-subtitle>
-                            <v-card-text>
-                                <ResponsiveImage
-                                    v-if="member.picture"
-                                    :src="member.picture.url"
-                                    :alt="member.name"
-                                    :maxWidth="member.picture.details.image.width"
-                                    :maxHeight="member.picture.details.image.height"
-                                    align="center"
-                                />
-                            </v-card-text>
-                        </v-card-item>
-                    </v-card>
-                </v-col>
-            </v-row>
-        </template>
-        <template v-else>
-            <v-row
-                v-for="member in staff"
-                :key="member.id"
-            >
-                <v-col>
-                    <v-card elevation="4">
-                        <v-card-item>
-                            <v-card-title>{{ member.name }}</v-card-title>
-                            <v-card-subtitle>{{ member.title }}</v-card-subtitle>
-                            <v-card-text>
-                                <ResponsiveImage
-                                    v-if="member.picture"
-                                    :src="member.picture.url"
-                                    :alt="member.name"
-                                    :maxWidth="member.picture.details.image.width"
-                                    :maxHeight="member.picture.details.image.height"
-                                    align="center"
-                                />
-                            </v-card-text>
-                        </v-card-item>
-                    </v-card>
-                </v-col>
-            </v-row>
-        </template>
-    </v-container>
+  <v-container v-if="staff">
+    <template v-if="mdAndUp">
+      <v-row
+        v-for="(row, rowIndex) in staffMatrix"
+        :key="rowIndex"
+      >
+        <v-col
+          v-for="member in row"
+          :key="member.id"
+        >
+          <v-card elevation="4">
+            <v-card-item>
+              <v-card-title>{{ member.name }}</v-card-title>
+              <v-card-subtitle>{{ member.title }}</v-card-subtitle>
+              <v-card-text>
+                <ResponsiveImage
+                  v-if="member.picture"
+                  :src="member.picture.url"
+                  :alt="member.name"
+                  :max-width="member.picture.details.image.width"
+                  :max-height="member.picture.details.image.height"
+                  align="center"
+                />
+              </v-card-text>
+            </v-card-item>
+          </v-card>
+        </v-col>
+      </v-row>
+    </template>
+    <template v-else>
+      <v-row
+        v-for="member in staff"
+        :key="member.id"
+      >
+        <v-col>
+          <v-card elevation="4">
+            <v-card-item>
+              <v-card-title>{{ member.name }}</v-card-title>
+              <v-card-subtitle>{{ member.title }}</v-card-subtitle>
+              <v-card-text>
+                <ResponsiveImage
+                  v-if="member.picture"
+                  :src="member.picture.url"
+                  :alt="member.name"
+                  :max-width="member.picture.details.image.width"
+                  :max-height="member.picture.details.image.height"
+                  align="center"
+                />
+              </v-card-text>
+            </v-card-item>
+          </v-card>
+        </v-col>
+      </v-row>
+    </template>
+  </v-container>
 </template>
 
 <script setup>

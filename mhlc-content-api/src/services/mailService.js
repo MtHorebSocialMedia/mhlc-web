@@ -15,11 +15,6 @@ function getMailchimpClient() {
     return mailchimp;
 }
 
-function getSendgridClient() {
-    sgMail.setApiKey(process.env.SENDGRID_API_KEY);
-    return sgMail;
-}
-
 // https://mailchimp.com/developer/marketing/api/list-members/
 // TODO Add interests selection
 // request data should look like this with interest ids being the keys:
@@ -79,11 +74,6 @@ async function getNewsletterInterests() {
       }));
   }))).flat();
   return newsletterInterests;
-}
-
-async function callPing() {
-    const response = await mailchimp.ping.get();
-    logger.debug(response);
 }
 
 async function sendMail(to, subject, html) {

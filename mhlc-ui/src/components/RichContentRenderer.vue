@@ -2,7 +2,7 @@
   <div class="content">
     <RichTextRenderer
       :document="content"
-      :nodeRenderers="renderNodes()"
+      :node-renderers="renderNodes()"
     />
   </div>
 </template>
@@ -14,7 +14,7 @@
     import { h, Comment } from "vue";
     import { getAssetHeight, getAssetWidth } from '../utils/assetUtils';
 
-    const props = defineProps({
+    defineProps({
         content: { type: Object, required: true }
     });
 
@@ -22,14 +22,14 @@
         return {
           [BLOCKS.EMBEDDED_ASSET]: (node, key, next) => {
               const asset = node.data.target.fields.file;
+              const width = getAssetWidth(asset.details.image.width, asset.details.image.height);
+              const height = getAssetHeight(asset.details.image.width, asset.details.image.height);
               switch(asset.contentType) {
                 case 'image/png':
                 case 'image/jpg':
                 case 'image/jpeg':
                 case 'image/gif':
                 case 'image/bmp':
-                  const width = getAssetWidth(asset.details.image.width, asset.details.image.height);
-                  const height = getAssetHeight(asset.details.image.width, asset.details.image.height);
                   return h(
                     'img',
                     { src: asset.url, width, height },

@@ -1,70 +1,79 @@
 <template>
-    <v-hover v-slot="{ isHovering, props }">
-        <v-card
-            v-if="video"
-            v-bind="props"
-            :class="{ 'on-hover': isHovering }"
-            :elevation="isHovering ? 16 : 2"
-            variant="outlined">
-            <v-card-title>
-                <v-icon color="red">mdi-youtube</v-icon>
-                {{ title }}
-            </v-card-title>
-            <v-img
-                src="/logo193x185.png"
-                class="mx-auto"
-                width="193"
-                height="185"
-            ></v-img>
-            <v-overlay
-                :model-value="isHovering"
-                class="align-center justify-center"
-                contained
-            >
-                <v-btn
-                    icon="mdi-play"
-                    @click="openVideoDialog()"
-                >
-                </v-btn>
-            </v-overlay>
-        </v-card>
-    </v-hover>
-    <v-dialog
-      v-model="showVideo"
-      width="auto"
+  <v-hover v-slot="{ isHovering, props: hoverProps }">
+    <v-card
+      v-if="video"
+      v-bind="hoverProps"
+      :class="{ 'on-hover': isHovering }"
+      :elevation="isHovering ? 16 : 2"
+      variant="outlined"
     >
-        <v-card>
-            <v-card-item>
-                <v-card-title>
-                    {{ title }}
-                    <hr />
-                </v-card-title>
-                <v-card-subtitle>
-                    <v-icon color="red">mdi-youtube</v-icon>
-                    <a :href="video.link" target="_blank">Watch on YouTube</a>
-                    <v-icon size="small">mdi-open-in-new</v-icon>
-                </v-card-subtitle>
-                <v-container>
-                    <v-row>
-                        <v-col class="d-flex">
-                            <EmbeddedVideo
-                                :videoId="video.id"
-                                :maxWidth="640"
-                                :maxHeight="390"
-                            />
-                        </v-col>
-                    </v-row>
-                </v-container>
-            </v-card-item>
-            <template v-slot:actions>
-                <v-btn
-                    class="ms-auto"
-                    text="Close"
-                    @click="showVideo = false"
-                ></v-btn>
-            </template>
-        </v-card>
-    </v-dialog>
+      <v-card-title>
+        <v-icon color="red">
+          mdi-youtube
+        </v-icon>
+        {{ title }}
+      </v-card-title>
+      <v-img
+        src="/logo193x185.png"
+        class="mx-auto"
+        width="193"
+        height="185"
+      />
+      <v-overlay
+        :model-value="isHovering"
+        class="align-center justify-center"
+        contained
+      >
+        <v-btn
+          icon="mdi-play"
+          @click="openVideoDialog()"
+        />
+      </v-overlay>
+    </v-card>
+  </v-hover>
+  <v-dialog
+    v-model="showVideo"
+    width="auto"
+  >
+    <v-card>
+      <v-card-item>
+        <v-card-title>
+          {{ title }}
+          <hr>
+        </v-card-title>
+        <v-card-subtitle>
+          <v-icon color="red">
+            mdi-youtube
+          </v-icon>
+          <a
+            :href="video.link"
+            target="_blank"
+          >Watch on YouTube</a>
+          <v-icon size="small">
+            mdi-open-in-new
+          </v-icon>
+        </v-card-subtitle>
+        <v-container>
+          <v-row>
+            <v-col class="d-flex">
+              <EmbeddedVideo
+                :video-id="video.id"
+                :max-width="640"
+                :max-height="390"
+              />
+            </v-col>
+          </v-row>
+        </v-container>
+      </v-card-item>
+      <template #actions>
+        <v-btn
+          class="ms-auto"
+          text="Close"
+          @click="showVideo = false"
+        />
+      </template>
+    </v-card>
+  </v-dialog>
 </template>
 
 <script setup>

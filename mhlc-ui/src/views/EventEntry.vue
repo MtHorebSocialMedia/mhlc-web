@@ -7,11 +7,16 @@
           Happenings at the Mount - Events
         </h2>
       </v-col>
-      <v-col cols="3" class="navigation">
-        <router-link to="/events">View All Events</router-link>
+      <v-col
+        cols="3"
+        class="navigation"
+      >
+        <router-link to="/events">
+          View All Events
+        </router-link>
       </v-col>
     </v-row>
-    <hr />
+    <hr>
     <v-row>
       <v-col>
         <Event />

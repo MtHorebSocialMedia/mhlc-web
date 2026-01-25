@@ -1,25 +1,25 @@
 <template>
-    <v-container class="admin-home">
-        <h2>
-          <v-icon>mdi-image-filter-hdr-outline</v-icon>
-          Admin Home
-        </h2>
-        <hr />
-        <v-list>
-          <v-list-item to="/analytics">
-            <template v-slot:prepend>
-              <v-icon>mdi-chart-line</v-icon>
-            </template>
-            <v-list-item-title>Analytics</v-list-item-title>
-          </v-list-item>
-        </v-list>
-        <v-list-item to="/cache">
-          <template v-slot:prepend>
-            <v-icon>mdi-database</v-icon>
-          </template>
-          <v-list-item-title>Content Cache</v-list-item-title>
-        </v-list-item>
-      </v-container>
+  <v-container class="admin-home">
+    <h2>
+      <v-icon>mdi-image-filter-hdr-outline</v-icon>
+      Admin Home
+    </h2>
+    <hr>
+    <v-list>
+      <v-list-item to="/analytics">
+        <template #prepend>
+          <v-icon>mdi-chart-line</v-icon>
+        </template>
+        <v-list-item-title>Analytics</v-list-item-title>
+      </v-list-item>
+    </v-list>
+    <v-list-item to="/cache">
+      <template #prepend>
+        <v-icon>mdi-database</v-icon>
+      </template>
+      <v-list-item-title>Content Cache</v-list-item-title>
+    </v-list-item>
+  </v-container>
 </template>
 
 <script setup>

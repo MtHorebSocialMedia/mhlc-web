@@ -4,7 +4,7 @@
       <v-icon>mdi-image-filter-hdr-outline</v-icon>
       Happenings from the Mount - News
     </h2>
-    <hr />
+    <hr>
     <v-alert>
       <ContentBlock content-block-key="news/header" />
     </v-alert>

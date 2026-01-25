@@ -6,7 +6,9 @@
   "scripts": {
     "start": "node ./src/index.js",
     "b64-google-private-key": "node ./src/utils/b64GooglePrivateKey.js",
-    "refresh-mock-content": "node ./src/utils/refreshMockContent.js"
+    "refresh-mock-content": "node ./src/utils/refreshMockContent.js",
+    "lint": "eslint ./src",
+    "lint:fix": "eslint ./src --fix"
   },
   "author": "MHLC Technology Team",
   "license": "UNLICENSED",

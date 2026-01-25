@@ -1,14 +1,14 @@
 <template>
   <v-container class="not-found">
-      <h2>
-        <v-icon>mdi-image-filter-hdr-outline</v-icon>
-        Page Not Found
-      </h2>
-      <hr />
-      <v-alert>
-        <ContentBlock content-block-key="not-found/info" />
-      </v-alert>
-      <BlogsList />
+    <h2>
+      <v-icon>mdi-image-filter-hdr-outline</v-icon>
+      Page Not Found
+    </h2>
+    <hr>
+    <v-alert>
+      <ContentBlock content-block-key="not-found/info" />
+    </v-alert>
+    <BlogsList />
   </v-container>
 </template>
 

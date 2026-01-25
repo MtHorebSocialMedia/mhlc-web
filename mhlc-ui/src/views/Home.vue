@@ -4,12 +4,12 @@
       <v-icon>mdi-image-filter-hdr-outline</v-icon>
       Welcome to Mt. Horeb Lutheran Church!
     </h2>
-    <hr />
+    <hr>
     <SpecialAnnouncements />
     <v-alert style="text-align: center">
-      <ContentBlock contentBlockKey="home/welcome" />
+      <ContentBlock content-block-key="home/welcome" />
     </v-alert>
-    <ContentBlock contentBlockKey="home/welcome-video" />
+    <ContentBlock content-block-key="home/welcome-video" />
   </v-container>
 </template>
 
