@@ -22,7 +22,7 @@
     "contentful": "^11.10.2",
     "crypto-random-string": "^5.0.0",
     "dotenv": "^17.2.3",
-    "express": "^4.22.1",
+    "express": "^5.2.1",
     "google-auth-library": "^10.5.0",
     "isbot": "^5.1.33",
     "jsonwebtoken": "^9.0.3",
