@@ -1,9 +1,307 @@
 {
     "news": [
         {
-            "id": "1R7rnP1eVmg7rxlsincbQf",
-            "datetime": "2025-03-25T00:00",
-            "title": "LutheReaders: Tues., Apr. 15",
+            "id": "2oavLeKkN4KU0cpxb4UJer",
+            "datetime": "2025-12-17T00:00",
+            "title": "2026 Altar flowers",
+            "description": {
+                "data": {},
+                "content": [
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [
+                                    {
+                                        "type": "underline"
+                                    },
+                                    {
+                                        "type": "bold"
+                                    }
+                                ],
+                                "value": "Please sign up for altar flowers for 2026!",
+                                "nodeType": "text"
+                            },
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "  Pick up a form from the welcome desk this Sunday, complete it, and drop it in the offering plate or leave it in the church office.  Please pay for 2026 flowers ",
+                                "nodeType": "text"
+                            },
+                            {
+                                "data": {},
+                                "marks": [
+                                    {
+                                        "type": "underline"
+                                    },
+                                    {
+                                        "type": "italic"
+                                    }
+                                ],
+                                "value": "after",
+                                "nodeType": "text"
+                            },
+                            {
+                                "data": {},
+                                "marks": [
+                                    {
+                                        "type": "underline"
+                                    }
+                                ],
+                                "value": " January 1, 2026",
+                                "nodeType": "text"
+                            },
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": ".  There has been a fee increase of $1.50 by the florist, bringing the updated donation total to $53.50. Thank you!!!",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    }
+                ],
+                "nodeType": "document"
+            },
+            "type": [
+                {
+                    "id": "5ktejUJ8noonowWZUs0uN7",
+                    "type": "General"
+                }
+            ],
+            "image": null,
+            "attachments": [],
+            "videoId": null
+        },
+        {
+            "id": "4h2HO2U4bvkMozJ0ooNn8Q",
+            "datetime": "2025-12-12T13:15",
+            "title": "Wreaths Across America - Saturday, Dec. 13, 1:30 PM",
+            "description": {
+                "data": {},
+                "content": [
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "The Mt. Horeb Youth Group invites you to join us for Wreaths Across America 2025 on Saturday, December 13",
+                                "nodeType": "text"
+                            },
+                            {
+                                "data": {},
+                                "marks": [
+                                    {
+                                        "type": "superscript"
+                                    }
+                                ],
+                                "value": "th",
+                                "nodeType": "text"
+                            },
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": ", at 1:30 p.m. in the cemetery. ",
+                                "nodeType": "text"
+                            },
+                            {
+                                "data": {},
+                                "marks": [
+                                    {
+                                        "type": "bold"
+                                    },
+                                    {
+                                        "type": "underline"
+                                    }
+                                ],
+                                "value": "We need your help in laying 119 wreaths to honor and remember our service members this Christmas season.",
+                                "nodeType": "text"
+                            },
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": " We look forward to seeing you at this very special event!",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    }
+                ],
+                "nodeType": "document"
+            },
+            "type": [
+                {
+                    "id": "3Zl7eAG9eIPOZLPyA11Uj8",
+                    "type": "Event"
+                }
+            ],
+            "image": null,
+            "attachments": [],
+            "videoId": null
+        },
+        {
+            "id": "3BB2SaWYSnAcigFpReS1D2",
+            "datetime": "2025-11-20T13:25",
+            "title": "Agape Circle - Dec. 4, 5:30 PM",
+            "description": {
+                "data": {},
+                "content": [
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "The ",
+                                "nodeType": "text"
+                            },
+                            {
+                                "data": {},
+                                "marks": [
+                                    {
+                                        "type": "bold"
+                                    }
+                                ],
+                                "value": "Agape Circle",
+                                "nodeType": "text"
+                            },
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": " meets once a month for a meaningful time of fellowship, spiritual encouragement, and service planning. Each gathering includes a ",
+                                "nodeType": "text"
+                            },
+                            {
+                                "data": {},
+                                "marks": [
+                                    {
+                                        "type": "bold"
+                                    }
+                                ],
+                                "value": "devotional",
+                                "nodeType": "text"
+                            },
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": ", ",
+                                "nodeType": "text"
+                            },
+                            {
+                                "data": {},
+                                "marks": [
+                                    {
+                                        "type": "bold"
+                                    }
+                                ],
+                                "value": "uplifting conversation",
+                                "nodeType": "text"
+                            },
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": ", and opportunities to organize and support ",
+                                "nodeType": "text"
+                            },
+                            {
+                                "data": {},
+                                "marks": [
+                                    {
+                                        "type": "bold"
+                                    }
+                                ],
+                                "value": "outreach projects",
+                                "nodeType": "text"
+                            },
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": " that bless our church and community. We like to stay busy—and we love making a difference! An offering is collected at each meeting to support our service efforts and charitable donations. ",
+                                "nodeType": "text"
+                            },
+                            {
+                                "data": {},
+                                "marks": [
+                                    {
+                                        "type": "bold"
+                                    }
+                                ],
+                                "value": "New members are always welcome!",
+                                "nodeType": "text"
+                            },
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": " Come be part of a circle of friendship, faith, and purpose.",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    }
+                ],
+                "nodeType": "document"
+            },
+            "type": [
+                {
+                    "id": "3Zl7eAG9eIPOZLPyA11Uj8",
+                    "type": "Event"
+                }
+            ],
+            "image": null,
+            "attachments": [],
+            "videoId": null
+        },
+        {
+            "id": "2gwj3qzEp5Lt8ZIXcSVrQz",
+            "datetime": "2025-11-20T13:00",
+            "title": "Leisure Timers: December 2, 10:30 AM",
+            "description": {
+                "data": {},
+                "content": [
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [
+                                    {
+                                        "type": "underline"
+                                    },
+                                    {
+                                        "type": "bold"
+                                    }
+                                ],
+                                "value": "Leisure Timers meeting",
+                                "nodeType": "text"
+                            },
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": " Tuesday, December 2, at 10:30 am. We will enjoy a catered meal following the meeting. The cost is 13.95 each. Sign up by November 25 at the welcome desk, or call Gail Bundrick at 803-345-5244.",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    }
+                ],
+                "nodeType": "document"
+            },
+            "type": [
+                {
+                    "id": "3Zl7eAG9eIPOZLPyA11Uj8",
+                    "type": "Event"
+                }
+            ],
+            "image": null,
+            "attachments": [],
+            "videoId": null
+        },
+        {
+            "id": "kJcRzzj2jN1kmbVo6khyX",
+            "datetime": "2025-11-20T13:00",
+            "title": "Angel Tree Program",
             "description": {
                 "nodeType": "document",
                 "data": {},
@@ -14,14 +312,111 @@
                         "content": [
                             {
                                 "nodeType": "text",
-                                "value": "Join us on",
+                                "value": "This year we will be sponsoring 35 children through the Angel Tree program. The tree is up, and gifts should be returned by December 5th. Please consider taking a tag from the tree and helping make a child’s Christmas extra special. Your generosity is a beautiful way to share Christ’s love this season! ",
                                 "marks": [],
                                 "data": {}
+                            }
+                        ]
+                    }
+                ]
+            },
+            "type": [
+                {
+                    "id": "5ktejUJ8noonowWZUs0uN7",
+                    "type": "General"
+                }
+            ],
+            "image": null,
+            "attachments": [],
+            "videoId": null
+        },
+        {
+            "id": "3jFfkySxEqNPLa0gb1bjTJ",
+            "datetime": "2025-11-20T12:08",
+            "title": "Social Ministry Committee Meeting, Dec. 4, 10:00 AM",
+            "description": {
+                "data": {},
+                "content": [
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [
+                                    {
+                                        "type": "bold"
+                                    }
+                                ],
+                                "value": "Caring Hearts In Action",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    },
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "The Social Ministry Team meets on the first Thursday of each month at 10 a.m. with a shared mission: to extend Christian compassion and care to those in need—whether physically, emotionally, or spiritually. This dedicated group includes our visitation team, caregivers, bereavement meal coordinators, and card ministry, along with other outreach efforts throughout the year. Together, they work to support the ill, the elderly, the grieving, the underprivileged, and anyone who could use a reminder that they are not alone. If you feel called to serve or want to learn more, contact Deena Bishop at ",
+                                "nodeType": "text"
                             },
                             {
+                                "data": {
+                                    "uri": "mailto:all4cu@gmail.com"
+                                },
+                                "content": [
+                                    {
+                                        "data": {},
+                                        "marks": [],
+                                        "value": "all4cu@gmail.com",
+                                        "nodeType": "text"
+                                    }
+                                ],
+                                "nodeType": "hyperlink"
+                            },
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": ". All are welcome!",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    }
+                ],
+                "nodeType": "document"
+            },
+            "type": [
+                {
+                    "id": "3Zl7eAG9eIPOZLPyA11Uj8",
+                    "type": "Event"
+                }
+            ],
+            "image": null,
+            "attachments": [],
+            "videoId": null
+        },
+        {
+            "id": "oP0c6svfoOFYwW7rZvS8x",
+            "datetime": "2025-11-06T15:00",
+            "title": "LutheReaders: November 18",
+            "description": {
+                "nodeType": "document",
+                "data": {},
+                "content": [
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
+                            {
                                 "nodeType": "text",
-                                "value": " Tues., Apr. 15 at 5:30 p.m. ",
+                                "value": "Luthereaders Book Club meets",
                                 "marks": [
+                                    {
+                                        "type": "underline"
+                                    },
                                     {
                                         "type": "bold"
                                     }
@@ -30,724 +425,190 @@
                             },
                             {
                                 "nodeType": "text",
-                                "value": "for book discussion and fellowship as we dive into ",
+                                "value": " Tuesday, November 18, 5:30 p.m. Please come join us for a meal and book review of \"By Any Other Name\" by Jodi Picoult. We have extra copies of this book that was signed out by a member from the Chapin Library. Hope you can join us!",
                                 "marks": [],
                                 "data": {}
-                            },
+                            }
+                        ]
+                    },
+                    {
+                        "nodeType": "paragraph",
+                        "data": {},
+                        "content": [
                             {
                                 "nodeType": "text",
-                                "value": "How to Read a Book",
+                                "value": "Please contact Leigh Bebber 803-466-1976 for more information or if you plan on attending. Thanks! ",
+                                "marks": [],
+                                "data": {}
+                            }
+                        ]
+                    }
+                ]
+            },
+            "type": [
+                {
+                    "id": "3Zl7eAG9eIPOZLPyA11Uj8",
+                    "type": "Event"
+                }
+            ],
+            "image": null,
+            "attachments": [],
+            "videoId": null
+        },
+        {
+            "id": "ZjGaJ4U4bpJP2ZhKdPeqx",
+            "datetime": "2025-11-06T15:00",
+            "title": "Annual Congregational Meeting - Sunday, November 16 ",
+            "description": {
+                "data": {},
+                "content": [
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "The annual Congregational Meeting will be held on Sunday, November 16th following worship service in the sanctuary. The agenda includes election of new council members, 2026 Ministry Spending Plan, and Cemetery ByLaw changes. All voting members should plan to be present. ",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    }
+                ],
+                "nodeType": "document"
+            },
+            "type": [
+                {
+                    "id": "3Zl7eAG9eIPOZLPyA11Uj8",
+                    "type": "Event"
+                }
+            ],
+            "image": null,
+            "attachments": [],
+            "videoId": null
+        },
+        {
+            "id": "7Db96kW5lo5eMjqWaNoRRn",
+            "datetime": "2025-11-06T15:00",
+            "title": "Food Drive for Chapin We Care",
+            "description": {
+                "data": {},
+                "content": [
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "Join us in supporting ",
+                                "nodeType": "text"
+                            },
+                            {
+                                "data": {},
                                 "marks": [
                                     {
                                         "type": "italic"
                                     }
                                 ],
-                                "data": {}
+                                "value": "Chapin We Care",
+                                "nodeType": "text"
                             },
                             {
-                                "nodeType": "text",
-                                "value": " by Monica Wood (a",
+                                "data": {},
                                 "marks": [],
-                                "data": {}
+                                "value": " by donating non-perishable food items in this spirited college football-themed food drive! Fans will compete to see which team's supporters can collect the most items. The winning team will be announced on ",
+                                "nodeType": "text"
                             },
                             {
-                                "nodeType": "text",
-                                "value": "vailable on Amazon, Hoopla, Audible, and Libby).",
-                                "marks": [],
-                                "data": {}
-                            },
-                            {
-                                "nodeType": "text",
-                                "value": " We’ll gather in the Stockman Room to discuss the book and enjoy a meal together. If you’d like to join us please email ",
-                                "marks": [],
-                                "data": {}
-                            },
-                            {
-                                "nodeType": "text",
-                                "value": "bebberleigh@gmail.com",
+                                "data": {},
                                 "marks": [
                                     {
                                         "type": "bold"
                                     }
                                 ],
-                                "data": {}
+                                "value": "November 23rd",
+                                "nodeType": "text"
                             },
                             {
-                                "nodeType": "text",
-                                "value": " so we can ensure enough dinner for everyone. We’d love to have you!",
+                                "data": {},
                                 "marks": [],
-                                "data": {}
+                                "value": ", and regardless of the outcome of the actual football game on ",
+                                "nodeType": "text"
+                            },
+                            {
+                                "data": {},
+                                "marks": [
+                                    {
+                                        "type": "bold"
+                                    }
+                                ],
+                                "value": "November 29th",
+                                "nodeType": "text"
+                            },
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": ", supporters of the winning food drive team are encouraged to proudly wear their team colors on ",
+                                "nodeType": "text"
+                            },
+                            {
+                                "data": {},
+                                "marks": [
+                                    {
+                                        "type": "bold"
+                                    }
+                                ],
+                                "value": "November 30th",
+                                "nodeType": "text"
+                            },
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": ".",
+                                "nodeType": "text"
                             }
-                        ]
+                        ],
+                        "nodeType": "paragraph"
+                    },
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "This friendly competition is all about giving back—",
+                                "nodeType": "text"
+                            },
+                            {
+                                "data": {},
+                                "marks": [
+                                    {
+                                        "type": "bold"
+                                    }
+                                ],
+                                "value": "the winner will be determined by the number of items donated, not the weight.",
+                                "nodeType": "text"
+                            },
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": " Let's show our team spirit and make a difference together!",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
                     }
-                ]
+                ],
+                "nodeType": "document"
             },
             "type": [
-                {
-                    "id": "2pWRSRQB8VE40PR4Tuncyc",
-                    "type": "Newsletters"
-                },
                 {
                     "id": "3Zl7eAG9eIPOZLPyA11Uj8",
                     "type": "Event"
-                }
-            ],
-            "image": null,
-            "attachments": [],
-            "videoId": null
-        },
-        {
-            "id": "2Kx4kVf1cSd9vHTngkJOEL",
-            "datetime": "2025-03-12T00:00",
-            "title": "Youth Prayer Walk This Sunday!",
-            "description": {
-                "data": {},
-                "content": [
-                    {
-                        "data": {},
-                        "content": [
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": "All 6-12th graders are invited to join us this Sunday at 4 p.m. in the Fellowship Hall for a Prayer Walk and reflection on John 3:16-17. We’ll enjoy dinner at Sonic after the walk. ",
-                                "nodeType": "text"
-                            }
-                        ],
-                        "nodeType": "paragraph"
-                    }
-                ],
-                "nodeType": "document"
-            },
-            "type": [
-                {
-                    "id": "2pWRSRQB8VE40PR4Tuncyc",
-                    "type": "Newsletters"
                 },
-                {
-                    "id": "3Zl7eAG9eIPOZLPyA11Uj8",
-                    "type": "Event"
-                },
-                {
-                    "id": "3BITHvpc2z0yYfvxgTUQbK",
-                    "type": "Youth"
-                }
-            ],
-            "image": null,
-            "attachments": [],
-            "videoId": null
-        },
-        {
-            "id": "3P6tpacNVe9XhnQtbl7Haz",
-            "datetime": "2025-03-12T00:00",
-            "title": "Donate to SonShine Bags",
-            "description": {
-                "data": {},
-                "content": [
-                    {
-                        "data": {},
-                        "content": [
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": "22 Spring SonShine Bags will be set up in the narthex from March 9 - 30 for you to drop off donated items. These bags will be delivered to our members who are unable to attend services by Easter. We’ve renamed them “SONshine Bags” to spread both sunshine and \"Son\"shine. Suggested items include snacks, puzzles, notepads, pens, pencils, or any small item that might brighten someone’s day. The Social Ministry Team appreciates your support of this special ministry! ",
-                                "nodeType": "text"
-                            }
-                        ],
-                        "nodeType": "paragraph"
-                    }
-                ],
-                "nodeType": "document"
-            },
-            "type": [
-                {
-                    "id": "2pWRSRQB8VE40PR4Tuncyc",
-                    "type": "Newsletters"
-                }
-            ],
-            "image": null,
-            "attachments": [],
-            "videoId": null
-        },
-        {
-            "id": "HG7GizAKaTJ7g2yWyJqe3",
-            "datetime": "2025-03-06T00:00",
-            "title": "Check Out Our New Lending Library for Children!",
-            "description": {
-                "data": {},
-                "content": [
-                    {
-                        "data": {},
-                        "content": [
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": "Free books and activities for children and families are now available in the Fellowship Hall. Take books to share and help build faith at home and return books when you're finished. We ask that you help keep the area tidy by reshelving books neatly. Enjoy!",
-                                "nodeType": "text"
-                            }
-                        ],
-                        "nodeType": "paragraph"
-                    }
-                ],
-                "nodeType": "document"
-            },
-            "type": [
-                {
-                    "id": "2pWRSRQB8VE40PR4Tuncyc",
-                    "type": "Newsletters"
-                }
-            ],
-            "image": null,
-            "attachments": [],
-            "videoId": null
-        },
-        {
-            "id": "4hFibyiyNYlxRLeILFJO3P",
-            "datetime": "2025-03-06T00:00",
-            "title": "We Care March Needs",
-            "description": {
-                "data": {},
-                "content": [
-                    {
-                        "data": {},
-                        "content": [
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": "We provide donations to ",
-                                "nodeType": "text"
-                            },
-                            {
-                                "data": {},
-                                "marks": [
-                                    {
-                                        "type": "bold"
-                                    }
-                                ],
-                                "value": "We Care ",
-                                "nodeType": "text"
-                            },
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": "of Chapin to support our neighbors in need. This month, We Care has requested:",
-                                "nodeType": "text"
-                            }
-                        ],
-                        "nodeType": "paragraph"
-                    },
-                    {
-                        "data": {},
-                        "content": [
-                            {
-                                "data": {},
-                                "content": [
-                                    {
-                                        "data": {},
-                                        "content": [
-                                            {
-                                                "data": {},
-                                                "marks": [],
-                                                "value": "instant potatoes",
-                                                "nodeType": "text"
-                                            }
-                                        ],
-                                        "nodeType": "paragraph"
-                                    }
-                                ],
-                                "nodeType": "list-item"
-                            },
-                            {
-                                "data": {},
-                                "content": [
-                                    {
-                                        "data": {},
-                                        "content": [
-                                            {
-                                                "data": {},
-                                                "marks": [],
-                                                "value": "jelly/jam ",
-                                                "nodeType": "text"
-                                            }
-                                        ],
-                                        "nodeType": "paragraph"
-                                    }
-                                ],
-                                "nodeType": "list-item"
-                            },
-                            {
-                                "data": {},
-                                "content": [
-                                    {
-                                        "data": {},
-                                        "content": [
-                                            {
-                                                "data": {},
-                                                "marks": [],
-                                                "value": "spaghetti sauce",
-                                                "nodeType": "text"
-                                            }
-                                        ],
-                                        "nodeType": "paragraph"
-                                    }
-                                ],
-                                "nodeType": "list-item"
-                            },
-                            {
-                                "data": {},
-                                "content": [
-                                    {
-                                        "data": {},
-                                        "content": [
-                                            {
-                                                "data": {},
-                                                "marks": [],
-                                                "value": "chicken noodle soup ",
-                                                "nodeType": "text"
-                                            }
-                                        ],
-                                        "nodeType": "paragraph"
-                                    }
-                                ],
-                                "nodeType": "list-item"
-                            },
-                            {
-                                "data": {},
-                                "content": [
-                                    {
-                                        "data": {},
-                                        "content": [
-                                            {
-                                                "data": {},
-                                                "marks": [],
-                                                "value": "chunky soup",
-                                                "nodeType": "text"
-                                            }
-                                        ],
-                                        "nodeType": "paragraph"
-                                    }
-                                ],
-                                "nodeType": "list-item"
-                            },
-                            {
-                                "data": {},
-                                "content": [
-                                    {
-                                        "data": {},
-                                        "content": [
-                                            {
-                                                "data": {},
-                                                "marks": [],
-                                                "value": "Progresso soup",
-                                                "nodeType": "text"
-                                            }
-                                        ],
-                                        "nodeType": "paragraph"
-                                    }
-                                ],
-                                "nodeType": "list-item"
-                            },
-                            {
-                                "data": {},
-                                "content": [
-                                    {
-                                        "data": {},
-                                        "content": [
-                                            {
-                                                "data": {},
-                                                "marks": [],
-                                                "value": "pork and beans",
-                                                "nodeType": "text"
-                                            }
-                                        ],
-                                        "nodeType": "paragraph"
-                                    }
-                                ],
-                                "nodeType": "list-item"
-                            },
-                            {
-                                "data": {},
-                                "content": [
-                                    {
-                                        "data": {},
-                                        "content": [
-                                            {
-                                                "data": {},
-                                                "marks": [],
-                                                "value": "boxed pasta, baked beans",
-                                                "nodeType": "text"
-                                            }
-                                        ],
-                                        "nodeType": "paragraph"
-                                    }
-                                ],
-                                "nodeType": "list-item"
-                            },
-                            {
-                                "data": {},
-                                "content": [
-                                    {
-                                        "data": {},
-                                        "content": [
-                                            {
-                                                "data": {},
-                                                "marks": [],
-                                                "value": "Spaghettios ",
-                                                "nodeType": "text"
-                                            }
-                                        ],
-                                        "nodeType": "paragraph"
-                                    }
-                                ],
-                                "nodeType": "list-item"
-                            },
-                            {
-                                "data": {},
-                                "content": [
-                                    {
-                                        "data": {},
-                                        "content": [
-                                            {
-                                                "data": {},
-                                                "marks": [],
-                                                "value": "dish soap",
-                                                "nodeType": "text"
-                                            }
-                                        ],
-                                        "nodeType": "paragraph"
-                                    }
-                                ],
-                                "nodeType": "list-item"
-                            },
-                            {
-                                "data": {},
-                                "content": [
-                                    {
-                                        "data": {},
-                                        "content": [
-                                            {
-                                                "data": {},
-                                                "marks": [],
-                                                "value": "laundry detergent",
-                                                "nodeType": "text"
-                                            }
-                                        ],
-                                        "nodeType": "paragraph"
-                                    }
-                                ],
-                                "nodeType": "list-item"
-                            },
-                            {
-                                "data": {},
-                                "content": [
-                                    {
-                                        "data": {},
-                                        "content": [
-                                            {
-                                                "data": {},
-                                                "marks": [],
-                                                "value": "cleaning supplies",
-                                                "nodeType": "text"
-                                            }
-                                        ],
-                                        "nodeType": "paragraph"
-                                    }
-                                ],
-                                "nodeType": "list-item"
-                            }
-                        ],
-                        "nodeType": "unordered-list"
-                    },
-                    {
-                        "data": {},
-                        "content": [
-                            {
-                                "data": {},
-                                "marks": [
-                                    {
-                                        "type": "bold"
-                                    }
-                                ],
-                                "value": "We Care ",
-                                "nodeType": "text"
-                            },
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": "is also requesting plastic eggs, candy, small toys, small plush, crayons, bubbles, or like items to fill Easter baskets for their client’s children. They are also accepting books about Jesus! The deadline for Easter items is March 20. ",
-                                "nodeType": "text"
-                            }
-                        ],
-                        "nodeType": "paragraph"
-                    }
-                ],
-                "nodeType": "document"
-            },
-            "type": [
-                {
-                    "id": "2pWRSRQB8VE40PR4Tuncyc",
-                    "type": "Newsletters"
-                }
-            ],
-            "image": null,
-            "attachments": [],
-            "videoId": null
-        },
-        {
-            "id": "3bMLhsP7EaIwifDAs6itht",
-            "datetime": "2025-03-06T00:00",
-            "title": "This Sunday is Girl Scout Sunday!",
-            "description": {
-                "nodeType": "document",
-                "data": {},
-                "content": [
-                    {
-                        "nodeType": "paragraph",
-                        "data": {},
-                        "content": [
-                            {
-                                "nodeType": "text",
-                                "value": "This Sunday, we are celebrating Girl Scout Sunday! Let's extend a warm and welcoming greeting to our Girl Scout families as they join us in worship. Be sure to get ready to make your cookie orders and support these incredible young leaders as they work toward their goals. We look forward to a sweet Sunday together!",
-                                "marks": [],
-                                "data": {}
-                            }
-                        ]
-                    }
-                ]
-            },
-            "type": [
-                {
-                    "id": "2pWRSRQB8VE40PR4Tuncyc",
-                    "type": "Newsletters"
-                }
-            ],
-            "image": null,
-            "attachments": [],
-            "videoId": null
-        },
-        {
-            "id": "4I6QehOzKakGM6JwNsKXWS",
-            "datetime": "2025-03-06T00:00",
-            "title": "Join the Visitation Team",
-            "description": {
-                "data": {},
-                "content": [
-                    {
-                        "data": {},
-                        "content": [
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": "We are looking for volunteers to join our Visitation Team! The team meets every Monday at 10 AM to plan how to support and encourage those who are unable to attend worship. If you have an hour to spare each week, consider helping us bring comfort and care to our fellow church members. Send an email to ",
-                                "nodeType": "text"
-                            },
-                            {
-                                "data": {},
-                                "marks": [
-                                    {
-                                        "type": "bold"
-                                    }
-                                ],
-                                "value": "outreach@mthoreb.net",
-                                "nodeType": "text"
-                            },
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": " for more info. ",
-                                "nodeType": "text"
-                            }
-                        ],
-                        "nodeType": "paragraph"
-                    }
-                ],
-                "nodeType": "document"
-            },
-            "type": [
-                {
-                    "id": "2pWRSRQB8VE40PR4Tuncyc",
-                    "type": "Newsletters"
-                }
-            ],
-            "image": null,
-            "attachments": [],
-            "videoId": null
-        },
-        {
-            "id": "1TfOPWLKBl1sRyFtRKw8Hw",
-            "datetime": "2025-03-06T00:00",
-            "title": "Wednesday Service and Meal Times",
-            "description": {
-                "data": {},
-                "content": [
-                    {
-                        "data": {},
-                        "content": [
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": "This Lenten season, join us at Mt. Horeb every Wednesday through April 9 for a meaningful service and a delicious meal. We offer two opportunities to participate:",
-                                "nodeType": "text"
-                            }
-                        ],
-                        "nodeType": "paragraph"
-                    },
-                    {
-                        "data": {},
-                        "content": [
-                            {
-                                "data": {},
-                                "content": [
-                                    {
-                                        "data": {},
-                                        "content": [
-                                            {
-                                                "data": {},
-                                                "marks": [
-                                                    {
-                                                        "type": "bold"
-                                                    }
-                                                ],
-                                                "value": "11 a.m.:",
-                                                "nodeType": "text"
-                                            },
-                                            {
-                                                "data": {},
-                                                "marks": [],
-                                                "value": " Join us for a brief service followed by lunch. ",
-                                                "nodeType": "text"
-                                            }
-                                        ],
-                                        "nodeType": "paragraph"
-                                    }
-                                ],
-                                "nodeType": "list-item"
-                            },
-                            {
-                                "data": {},
-                                "content": [
-                                    {
-                                        "data": {},
-                                        "content": [
-                                            {
-                                                "data": {},
-                                                "marks": [
-                                                    {
-                                                        "type": "bold"
-                                                    }
-                                                ],
-                                                "value": "6 p.m.",
-                                                "nodeType": "text"
-                                            },
-                                            {
-                                                "data": {},
-                                                "marks": [],
-                                                "value": ": Gather with us for a special dinner at 6 p.m. and service at 7 p.m. A $5 donation for dinner is kindly recommended.",
-                                                "nodeType": "text"
-                                            }
-                                        ],
-                                        "nodeType": "paragraph"
-                                    }
-                                ],
-                                "nodeType": "list-item"
-                            }
-                        ],
-                        "nodeType": "unordered-list"
-                    },
-                    {
-                        "data": {},
-                        "content": [
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": "To sign up to provide ",
-                                "nodeType": "text"
-                            },
-                            {
-                                "data": {},
-                                "marks": [
-                                    {
-                                        "type": "bold"
-                                    }
-                                ],
-                                "value": "lunch",
-                                "nodeType": "text"
-                            },
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": ", ",
-                                "nodeType": "text"
-                            },
-                            {
-                                "data": {
-                                    "uri": "https://bit.ly/mthoreblunch"
-                                },
-                                "content": [
-                                    {
-                                        "data": {},
-                                        "marks": [],
-                                        "value": "please click here",
-                                        "nodeType": "text"
-                                    }
-                                ],
-                                "nodeType": "hyperlink"
-                            },
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": " or use the sign-up sheet in the narthex. To sign up to provide ",
-                                "nodeType": "text"
-                            },
-                            {
-                                "data": {},
-                                "marks": [
-                                    {
-                                        "type": "bold"
-                                    }
-                                ],
-                                "value": "dinner",
-                                "nodeType": "text"
-                            },
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": ", ",
-                                "nodeType": "text"
-                            },
-                            {
-                                "data": {
-                                    "uri": "https://bit.ly/mthorebdinner"
-                                },
-                                "content": [
-                                    {
-                                        "data": {},
-                                        "marks": [],
-                                        "value": "please click here",
-                                        "nodeType": "text"
-                                    }
-                                ],
-                                "nodeType": "hyperlink"
-                            },
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": " or use the sign-up sheet in the narthex.",
-                                "nodeType": "text"
-                            }
-                        ],
-                        "nodeType": "paragraph"
-                    }
-                ],
-                "nodeType": "document"
-            },
-            "type": [
                 {
                     "id": "5ktejUJ8noonowWZUs0uN7",
                     "type": "General"
-                },
-                {
-                    "id": "3Zl7eAG9eIPOZLPyA11Uj8",
-                    "type": "Event"
                 }
             ],
             "image": null,
@@ -755,9 +616,9 @@
             "videoId": null
         },
         {
-            "id": "1AEmNGdK9dxqa3Qzo8wIDA",
-            "datetime": "2025-03-06T00:00",
-            "title": "CPR/AED Training",
+            "id": "3nIsSJ0tB6VFQpN4pGSm9i",
+            "datetime": "2025-11-06T14:30",
+            "title": "Budget Forum - Sunday, November 9, 9:00 a.m.",
             "description": {
                 "data": {},
                 "content": [
@@ -767,23 +628,7 @@
                             {
                                 "data": {},
                                 "marks": [],
-                                "value": "Sign up in the narthex for one of the following sessions: ",
-                                "nodeType": "text"
-                            },
-                            {
-                                "data": {},
-                                "marks": [
-                                    {
-                                        "type": "bold"
-                                    }
-                                ],
-                                "value": "Mar. 18, 10 AM - 2 PM, or Mar. 30, 2 PM - 6 PM. ",
-                                "nodeType": "text"
-                            },
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": "Certification cards will be provided upon completion, and fees are covered by Mt. Horeb. Email bebbeleigh@gmail.com for more info. ",
+                                "value": "Please plan to attend the forum to discuss the proposed 2026 Ministry Spending Plan at 9:00 a.m. on Sunday, November 9th, in preparation for our Congregational Meeting on Sunday, November 16th.",
                                 "nodeType": "text"
                             }
                         ],
@@ -794,160 +639,8 @@
             },
             "type": [
                 {
-                    "id": "2pWRSRQB8VE40PR4Tuncyc",
-                    "type": "Newsletters"
-                },
-                {
                     "id": "3Zl7eAG9eIPOZLPyA11Uj8",
                     "type": "Event"
-                }
-            ],
-            "image": null,
-            "attachments": [],
-            "videoId": null
-        },
-        {
-            "id": "3oeybi1SxjoxK68laxOT3S",
-            "datetime": "2025-02-27T00:00",
-            "title": "Pancakes & Palms: A Shrove Tuesday Feast and Tradition",
-            "description": {
-                "data": {},
-                "content": [
-                    {
-                        "data": {},
-                        "content": [
-                            {
-                                "data": {},
-                                "marks": [
-                                    {
-                                        "type": "bold"
-                                    }
-                                ],
-                                "value": "Join Us for a Shrove Tuesday Pancake Supper! 🍽️🥞",
-                                "nodeType": "text"
-                            }
-                        ],
-                        "nodeType": "paragraph"
-                    },
-                    {
-                        "data": {},
-                        "content": [
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": "It’s time to flip, flip, and feast! Come celebrate Shrove Tuesday with a fun and festive pancake supper!",
-                                "nodeType": "text"
-                            }
-                        ],
-                        "nodeType": "paragraph"
-                    },
-                    {
-                        "data": {},
-                        "content": [
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": "Shrove Tuesday is the last day before Lent, a time to enjoy some indulgence before the season of reflection begins. It’s traditionally a day for using up rich ingredients like eggs, butter, and sugar, and what better way to do that than with stacks of hot, fluffy pancakes? So, gather your family, friends, and appetites, and join us for a deliciously fun evening of food, laughter, and community. Dinner is free, but donations will be gladly accepted. ",
-                                "nodeType": "text"
-                            }
-                        ],
-                        "nodeType": "paragraph"
-                    },
-                    {
-                        "data": {},
-                        "content": [
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": "After supper, we’ll continue the tradition of reflection with a ",
-                                "nodeType": "text"
-                            },
-                            {
-                                "data": {},
-                                "marks": [
-                                    {
-                                        "type": "bold"
-                                    }
-                                ],
-                                "value": "prayer service and the burning of palm branches",
-                                "nodeType": "text"
-                            },
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": " after the pancake feast. The ashes from these burned palms will be used on ",
-                                "nodeType": "text"
-                            },
-                            {
-                                "data": {},
-                                "marks": [
-                                    {
-                                        "type": "bold"
-                                    }
-                                ],
-                                "value": "Ash Wednesday",
-                                "nodeType": "text"
-                            },
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": " to mark the start of Lent. ",
-                                "nodeType": "text"
-                            },
-                            {
-                                "data": {},
-                                "marks": [
-                                    {
-                                        "type": "bold"
-                                    }
-                                ],
-                                "value": "Bring your palms from last Palm Sunday",
-                                "nodeType": "text"
-                            },
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": " and join us in this deeply meaningful service. Don’t have any palms? ",
-                                "nodeType": "text"
-                            },
-                            {
-                                "data": {},
-                                "marks": [
-                                    {
-                                        "type": "bold"
-                                    }
-                                ],
-                                "value": "Extra palms will be available",
-                                "nodeType": "text"
-                            },
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": ", so you can still participate!",
-                                "nodeType": "text"
-                            }
-                        ],
-                        "nodeType": "paragraph"
-                    },
-                    {
-                        "data": {},
-                        "content": [
-                            {
-                                "data": {},
-                                "marks": [],
-                                "value": "Come for the pancakes, stay for the tradition, and leave with a heart full of community and reflection. We can’t wait to see you there!",
-                                "nodeType": "text"
-                            }
-                        ],
-                        "nodeType": "paragraph"
-                    }
-                ],
-                "nodeType": "document"
-            },
-            "type": [
-                {
-                    "id": "5ktejUJ8noonowWZUs0uN7",
-                    "type": "General"
                 }
             ],
             "image": null,
@@ -956,5 +649,5 @@
         }
     ],
     "page": 2,
-    "totalPages": 18
+    "totalPages": 26
 }

@@ -57,7 +57,7 @@ app.use('/donate/paypal-complete', (req, res) => {
 });
 
 // Default handler - if unknown path, just respond with the default html
-app.use('*', (req, res) => {
+app.use('/*splat', (req, res) => {
     res.sendFile(indexPath);
 });
 

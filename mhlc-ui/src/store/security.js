@@ -32,7 +32,7 @@ export const useSecurityStore = defineStore('security', () => {
 
 if (import.meta.env.MODE === 'development') {
 
-    console.log('Enabling mock responses for mail store');
+    console.log('Enabling mock responses for security store');
 
     addMocks((mock) => {
         mock.onPost("/api/authenticate").reply(200, { authenticated: true }, { 'x-authorization': 'token' });
