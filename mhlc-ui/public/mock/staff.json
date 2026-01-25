@@ -1,5 +1,12 @@
 [
     {
+        "id": "32r0wB3idRFVY9iMCOLcUU",
+        "title": "Preschool Director",
+        "name": "Sherri Derrick",
+        "picture": null,
+        "sequence": 4
+    },
+    {
         "id": "L8RiDipHOuwVFtd0xz898",
         "title": "Interim Organist",
         "name": "Dr. Bob Hawkins",
@@ -18,24 +25,6 @@
         "sequence": 5
     },
     {
-        "id": "32r0wB3idRFVY9iMCOLcUU",
-        "title": "Preschool Director",
-        "name": "Peggy Miller",
-        "picture": {
-            "url": "//images.ctfassets.net/3wcsgs8fznel/7o9XIfKLz1HZEiiHgbcHu9/83ce06311e96752952748f6f2d486e30/peggy.jpg",
-            "details": {
-                "size": 8842,
-                "image": {
-                    "width": 160,
-                    "height": 160
-                }
-            },
-            "fileName": "peggy.jpg",
-            "contentType": "image/jpeg"
-        },
-        "sequence": 4
-    },
-    {
         "id": "sFGcab5OHGh5dqVULvg84",
         "title": "Treasurer",
         "name": "Lisa Smith",
@@ -52,24 +41,6 @@
             "contentType": "image/jpeg"
         },
         "sequence": 3
-    },
-    {
-        "id": "g7QOnmlLqTx7cfyNeqGE9",
-        "title": "Administrator",
-        "name": "Camille Joseph",
-        "picture": {
-            "url": "//images.ctfassets.net/3wcsgs8fznel/7vAk2OafK7iMYSEYckKnhN/c3f2aa87d2237613d3578ebcaa74e38d/cam3.png",
-            "details": {
-                "size": 19367,
-                "image": {
-                    "width": 180,
-                    "height": 219
-                }
-            },
-            "fileName": "cam3.png",
-            "contentType": "image/png"
-        },
-        "sequence": 2
     },
     {
         "id": "2VgNWTHBJp7CS45INM7aRj",

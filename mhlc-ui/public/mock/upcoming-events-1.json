@@ -1,0 +1,312 @@
+{
+    "events": [
+        {
+            "id": "3Z5hgbilt80fivMEJJLNsy",
+            "datetime": "2026-01-22T00:00",
+            "eventDatetime": "2026-01-25T11:30",
+            "title": "Worship Team Meeting - January 25, 11:30 a.m. (WEATHER PERMITTING)",
+            "description": {
+                "data": {},
+                "content": [
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "Worship at The Mount is at the heart of who we are, and our Worship Team helps make every service a meaningful experience for all who gather. This dedicated group works behind the scenes and in visible ways to support the flow, beauty, and reverence of our worship life together. If you feel called to serve, whether occasionally or more regularly, we’d love to help you find your place on the team. No experience needed—just a willing heart.",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    }
+                ],
+                "nodeType": "document"
+            },
+            "type": [
+                {
+                    "id": "3Zl7eAG9eIPOZLPyA11Uj8",
+                    "type": "Event"
+                }
+            ],
+            "image": null,
+            "attachments": [],
+            "videoId": null
+        },
+        {
+            "id": "4Zw3uYuNLaTQ9gNv6BMuXw",
+            "datetime": "2026-01-22T00:00",
+            "eventDatetime": "2026-01-26T18:00",
+            "title": "Fellowship Committee Meeting (Zoom)",
+            "description": {
+                "data": {},
+                "content": [
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "The Fellowship Committee is a group dedicated to planning and organizing fun, engaging activities for the congregation throughout the year. From potlucks and holiday celebrations to game nights and community outreach events, the committee ensures there’s something for everyone to enjoy, fostering a sense of fellowship and connection among members. Their goal is to create memorable experiences that bring people together and strengthen the bonds within the church community.",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    },
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "Anyone interested please text your email address to 803-513-6659 and we will send you a link to the Zoom.",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    }
+                ],
+                "nodeType": "document"
+            },
+            "type": [
+                {
+                    "id": "3Zl7eAG9eIPOZLPyA11Uj8",
+                    "type": "Event"
+                }
+            ],
+            "image": null,
+            "attachments": [],
+            "videoId": null
+        },
+        {
+            "id": "32LgxDsSr0tODLMSzlJd1q",
+            "datetime": "2026-01-22T00:00",
+            "eventDatetime": "2026-01-28T10:00",
+            "title": "Fiber Friends - No need to suffer from FOMO!",
+            "description": {
+                "data": {},
+                "content": [
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "Join us for our weekly gathering!  ",
+                                "nodeType": "text"
+                            },
+                            {
+                                "data": {},
+                                "marks": [
+                                    {
+                                        "type": "bold"
+                                    },
+                                    {
+                                        "type": "italic"
+                                    }
+                                ],
+                                "value": "SOME",
+                                "nodeType": "text"
+                            },
+                            {
+                                "data": {},
+                                "marks": [
+                                    {
+                                        "type": "bold"
+                                    }
+                                ],
+                                "value": " ",
+                                "nodeType": "text"
+                            },
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "of us specialize in",
+                                "nodeType": "text"
+                            },
+                            {
+                                "data": {},
+                                "marks": [
+                                    {
+                                        "type": "bold"
+                                    }
+                                ],
+                                "value": " \"",
+                                "nodeType": "text"
+                            },
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "stitching\"... but ",
+                                "nodeType": "text"
+                            },
+                            {
+                                "data": {},
+                                "marks": [
+                                    {
+                                        "type": "bold"
+                                    },
+                                    {
+                                        "type": "italic"
+                                    }
+                                ],
+                                "value": "WE ALL",
+                                "nodeType": "text"
+                            },
+                            {
+                                "data": {},
+                                "marks": [
+                                    {
+                                        "type": "bold"
+                                    }
+                                ],
+                                "value": " ",
+                                "nodeType": "text"
+                            },
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "specialize in ",
+                                "nodeType": "text"
+                            },
+                            {
+                                "data": {},
+                                "marks": [
+                                    {
+                                        "type": "bold"
+                                    },
+                                    {
+                                        "type": "underline"
+                                    }
+                                ],
+                                "value": "FRIENDSHIP",
+                                "nodeType": "text"
+                            },
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "!!! ",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    },
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [
+                                    {
+                                        "type": "bold"
+                                    }
+                                ],
+                                "value": "ALL",
+                                "nodeType": "text"
+                            },
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": " are welcome!  ",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    },
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "Here is some information regarding an ongoing effort - Project Linus:",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    },
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [
+                                    {
+                                        "type": "bold"
+                                    }
+                                ],
+                                "value": "PROJECT LINUS - ",
+                                "nodeType": "text"
+                            },
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "Our friends from Bethel Lutheran church have asked us to participate in Project Linus (a national organization whose simple intention is to wrap children in warmth and love). This consists of making, collecting, and donating handmade blankets/quilts for infants and school-age children. All donations must be handmade (crochet, knit, cloth, rag, felt) and washable/dryable! Our donations will be taken to a group in Augusta, Georgia, which also serves Aiken, SC. As of their July newsletter, they have donated 4,304 blankets this year. Until further notice, this will be an ongoing project. We will keep a donation box in the Narthex, and as we fill it, we will take it to Bethel, and they will make the deliveries. You do not need to participate in Fiber Friends to participate in this project! Any of you who create at home, please help us provide for these young people. Remember, handmade, washable, and dryable! Fiber Friends meets on Wednesdays at 10:00 in the Youth Room downstairs. Anyone is welcome to drop in or join us. If you do not “stitch” but would like a group to sit and talk with, you are welcome also! Often, we do more talking and laughing than stitching!",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    }
+                ],
+                "nodeType": "document"
+            },
+            "type": [
+                {
+                    "id": "3Zl7eAG9eIPOZLPyA11Uj8",
+                    "type": "Event"
+                }
+            ],
+            "image": null,
+            "attachments": [],
+            "videoId": null
+        },
+        {
+            "id": "3OHJbFEdwpw7sCwYSlWHnr",
+            "datetime": "2026-01-22T00:00",
+            "eventDatetime": "2026-02-08T10:00",
+            "title": "Scout Sunday - February 8",
+            "description": {
+                "data": {},
+                "content": [
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [
+                                    {
+                                        "type": "underline"
+                                    },
+                                    {
+                                        "type": "bold"
+                                    }
+                                ],
+                                "value": "Sunday, February 8",
+                                "nodeType": "text"
+                            },
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": " is Scout Sunday! All current and former scouts are encouraged to attend so we can recognize you!  ",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    }
+                ],
+                "nodeType": "document"
+            },
+            "type": [
+                {
+                    "id": "3Zl7eAG9eIPOZLPyA11Uj8",
+                    "type": "Event"
+                }
+            ],
+            "image": null,
+            "attachments": [],
+            "videoId": null
+        }
+    ],
+    "page": 1,
+    "totalPages": 1
+}

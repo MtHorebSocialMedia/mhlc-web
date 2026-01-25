@@ -1,5 +1,190 @@
 [
     {
+        "id": "WYKC9VXAeIv7g5vH8MNjw",
+        "key": "worship-schedule/special-services",
+        "title": "Special Worship Opportunities",
+        "content": {
+            "nodeType": "document",
+            "data": {},
+            "content": [
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "(Note: Times listed here are the typical times for each service, but these may be adjusted each year to the needs of the church. Be sure to check out the news section and our social media for any changes to these services!)",
+                            "marks": [
+                                {
+                                    "type": "italic"
+                                }
+                            ],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "Christmas Eve Worship",
+                            "marks": [
+                                {
+                                    "type": "bold"
+                                }
+                            ],
+                            "data": {}
+                        },
+                        {
+                            "nodeType": "text",
+                            "value": " at 11 AM and 7 PM",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "Ash Wednesday Worship ",
+                            "marks": [
+                                {
+                                    "type": "bold"
+                                }
+                            ],
+                            "data": {}
+                        },
+                        {
+                            "nodeType": "text",
+                            "value": "at 11 AM and 7 PM",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "Lenten Worship ",
+                            "marks": [
+                                {
+                                    "type": "bold"
+                                }
+                            ],
+                            "data": {}
+                        },
+                        {
+                            "nodeType": "text",
+                            "value": "Wednesdays in Lent at 7 PM, preceded by supper at 6 PM",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "Maundy Thursday Worship",
+                            "marks": [
+                                {
+                                    "type": "bold"
+                                }
+                            ],
+                            "data": {}
+                        },
+                        {
+                            "nodeType": "text",
+                            "value": " with Communion at 11 AM and 7 PM",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "Good Friday Tenebrae Worship",
+                            "marks": [
+                                {
+                                    "type": "bold"
+                                }
+                            ],
+                            "data": {}
+                        },
+                        {
+                            "nodeType": "text",
+                            "value": " at 7 PM",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "Easter Sunday Worship ",
+                            "marks": [
+                                {
+                                    "type": "bold"
+                                }
+                            ],
+                            "data": {}
+                        },
+                        {
+                            "nodeType": "text",
+                            "value": "at 10:00 AM, preceded by breakfast at 8:30 AM and then flowering of the cross",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                }
+            ]
+        },
+        "image": null,
+        "videoId": null
+    },
+    {
+        "id": "3l9hTLwN2PHwZhTdZ2iz8M",
+        "key": "events/header",
+        "content": {
+            "nodeType": "document",
+            "data": {},
+            "content": [
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "Check out the upcoming events at Mt. Horeb!  Click each link to view the full details of the event.",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                }
+            ]
+        },
+        "image": null,
+        "videoId": null
+    },
+    {
         "id": "43RwxUxQxgsFqMFvZsUFdp",
         "key": "visitation/form",
         "image": null,
@@ -6435,7 +6620,7 @@
                                                     "id": "WYKC9VXAeIv7g5vH8MNjw",
                                                     "type": "Entry",
                                                     "createdAt": "2024-08-17T15:25:22.229Z",
-                                                    "updatedAt": "2024-08-17T15:25:22.229Z",
+                                                    "updatedAt": "2025-12-07T23:04:05.014Z",
                                                     "environment": {
                                                         "sys": {
                                                             "id": "master",
@@ -6443,8 +6628,8 @@
                                                             "linkType": "Environment"
                                                         }
                                                     },
-                                                    "publishedVersion": 7,
-                                                    "revision": 1,
+                                                    "publishedVersion": 10,
+                                                    "revision": 2,
                                                     "contentType": {
                                                         "sys": {
                                                             "type": "Link",
@@ -6493,7 +6678,7 @@
                                                                     },
                                                                     {
                                                                         "nodeType": "text",
-                                                                        "value": " at 11 AM, 5 PM, 7 PM",
+                                                                        "value": " at 11 AM and 7 PM",
                                                                         "marks": [],
                                                                         "data": {}
                                                                     }
@@ -8598,167 +8783,6 @@
                 }
             ],
             "nodeType": "document"
-        },
-        "image": null,
-        "videoId": null
-    },
-    {
-        "id": "WYKC9VXAeIv7g5vH8MNjw",
-        "key": "worship-schedule/special-services",
-        "title": "Special Worship Opportunities",
-        "content": {
-            "nodeType": "document",
-            "data": {},
-            "content": [
-                {
-                    "nodeType": "paragraph",
-                    "data": {},
-                    "content": [
-                        {
-                            "nodeType": "text",
-                            "value": "(Note: Times listed here are the typical times for each service, but these may be adjusted each year to the needs of the church. Be sure to check out the news section and our social media for any changes to these services!)",
-                            "marks": [
-                                {
-                                    "type": "italic"
-                                }
-                            ],
-                            "data": {}
-                        }
-                    ]
-                },
-                {
-                    "nodeType": "paragraph",
-                    "data": {},
-                    "content": [
-                        {
-                            "nodeType": "text",
-                            "value": "Christmas Eve Worship",
-                            "marks": [
-                                {
-                                    "type": "bold"
-                                }
-                            ],
-                            "data": {}
-                        },
-                        {
-                            "nodeType": "text",
-                            "value": " at 11 AM, 5 PM, 7 PM",
-                            "marks": [],
-                            "data": {}
-                        }
-                    ]
-                },
-                {
-                    "nodeType": "paragraph",
-                    "data": {},
-                    "content": [
-                        {
-                            "nodeType": "text",
-                            "value": "Ash Wednesday Worship ",
-                            "marks": [
-                                {
-                                    "type": "bold"
-                                }
-                            ],
-                            "data": {}
-                        },
-                        {
-                            "nodeType": "text",
-                            "value": "at 11 AM and 7 PM",
-                            "marks": [],
-                            "data": {}
-                        }
-                    ]
-                },
-                {
-                    "nodeType": "paragraph",
-                    "data": {},
-                    "content": [
-                        {
-                            "nodeType": "text",
-                            "value": "Lenten Worship ",
-                            "marks": [
-                                {
-                                    "type": "bold"
-                                }
-                            ],
-                            "data": {}
-                        },
-                        {
-                            "nodeType": "text",
-                            "value": "Wednesdays in Lent at 7 PM, preceded by supper at 6 PM",
-                            "marks": [],
-                            "data": {}
-                        }
-                    ]
-                },
-                {
-                    "nodeType": "paragraph",
-                    "data": {},
-                    "content": [
-                        {
-                            "nodeType": "text",
-                            "value": "Maundy Thursday Worship",
-                            "marks": [
-                                {
-                                    "type": "bold"
-                                }
-                            ],
-                            "data": {}
-                        },
-                        {
-                            "nodeType": "text",
-                            "value": " with Communion at 11 AM and 7 PM",
-                            "marks": [],
-                            "data": {}
-                        }
-                    ]
-                },
-                {
-                    "nodeType": "paragraph",
-                    "data": {},
-                    "content": [
-                        {
-                            "nodeType": "text",
-                            "value": "Good Friday Tenebrae Worship",
-                            "marks": [
-                                {
-                                    "type": "bold"
-                                }
-                            ],
-                            "data": {}
-                        },
-                        {
-                            "nodeType": "text",
-                            "value": " at 7 PM",
-                            "marks": [],
-                            "data": {}
-                        }
-                    ]
-                },
-                {
-                    "nodeType": "paragraph",
-                    "data": {},
-                    "content": [
-                        {
-                            "nodeType": "text",
-                            "value": "Easter Sunday Worship ",
-                            "marks": [
-                                {
-                                    "type": "bold"
-                                }
-                            ],
-                            "data": {}
-                        },
-                        {
-                            "nodeType": "text",
-                            "value": "at 10:00 AM, preceded by breakfast at 8:30 AM and then flowering of the cross",
-                            "marks": [],
-                            "data": {}
-                        }
-                    ]
-                }
-            ]
         },
         "image": null,
         "videoId": null

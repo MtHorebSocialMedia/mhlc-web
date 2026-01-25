@@ -1,9 +1,29 @@
 [
     {
-        "id": "3O7wJBM6BBxAAuA8kKW0bp",
-        "label": "Events",
-        "sequence": 3,
+        "id": "163J2E0jZZxAdCWyrPpJjm",
+        "label": "Join the Weekly Enews",
+        "sequence": 2,
+        "path": "/newsletter",
+        "parent": "1Wd1LbvEObjd5tc70bL7i2"
+    },
+    {
+        "id": "2T30rK3lRaVjg5GzZTpUqP",
+        "label": "News",
+        "sequence": 1,
         "path": "/news",
+        "parent": "3O7wJBM6BBxAAuA8kKW0bp"
+    },
+    {
+        "id": "3WNCPqyvtnVuRVYHnrHLmq",
+        "label": "Events",
+        "sequence": 0,
+        "path": "/events",
+        "parent": "3O7wJBM6BBxAAuA8kKW0bp"
+    },
+    {
+        "id": "3O7wJBM6BBxAAuA8kKW0bp",
+        "label": "Happenings",
+        "sequence": 3,
         "parent": null
     },
     {
@@ -18,13 +38,6 @@
         "label": "Send a Prayer Request",
         "sequence": 2,
         "path": "/content/prayer",
-        "parent": "1Wd1LbvEObjd5tc70bL7i2"
-    },
-    {
-        "id": "163J2E0jZZxAdCWyrPpJjm",
-        "label": "Join the Weekly e-News",
-        "sequence": 2,
-        "path": "/newsletter",
         "parent": "1Wd1LbvEObjd5tc70bL7i2"
     },
     {

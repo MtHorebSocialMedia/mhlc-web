@@ -8,7 +8,7 @@ const youtubeService = require('../services/youtubeService');
 const fs = require('node:fs');
 
 const mockIndexPath = require.resolve('@mhlc/ui/public/mock/index.json');
-const mockPath = mockIndexPath.replace('/index.json', '');
+const mockPath = mockIndexPath.replace('/index.json', '').replace('\\index.json', '');
 
 function saveContent(content, fileName) {
     fs.writeFileSync(`${mockPath}/${fileName}`, JSON.stringify(content, null, 4));
@@ -22,7 +22,7 @@ function saveContent(content, fileName) {
     saveContent(await contentService.getMenuItems(), 'menu-items.json');
     saveContent(await contentService.getNewsEntries(1), 'news-entries-1.json');
     saveContent(await contentService.getNewsEntries(2), 'news-entries-2.json');
-    saveContent(await contentService.getUpcomingEvents(), 'upcoming-events.json');
+    saveContent(await contentService.getUpcomingEvents(1), 'upcoming-events-1.json');
     saveContent(await contentService.getNewsTypes(), 'news-types.json');
     saveContent(await contentService.getStaff(), 'staff.json');
     saveContent(await contentService.getBlogPosts(1), 'blog-posts-1.json');

@@ -200,6 +200,11 @@ if (import.meta.env.MODE === 'development') {
             return [200, news[0]];
         });
 
+        mock.onGet("/api/events").reply((config) => {
+            const page = config.params ? config.params.page : 1;
+            return mockClient.get(`./mock/upcoming-events-${page}.json`);
+        });
+
         mock.onGet("/api/church-info").reply(() => {
             return mockClient.get('./mock/church-info.json');
         });
