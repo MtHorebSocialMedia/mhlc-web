@@ -24,15 +24,7 @@
 
   const contentStore = useContentStore();
   const { churchInfo } = storeToRefs(contentStore);
-  const { name, width: deviceWidth } = useDisplay();
-
-  function getMainViewClass() {
-      if (deviceWidth.value > 450) {
-        return `main-view ${name.value}`;
-      } else {
-        return `main-view xxs`
-      }
-  }
+  const { name } = useDisplay();
 
 </script>
 

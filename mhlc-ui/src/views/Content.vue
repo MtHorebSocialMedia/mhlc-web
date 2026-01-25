@@ -1,7 +1,6 @@
 <template>
   <v-container
     v-if="page"
-    ref="content-page"
     class="content-page"
   >
     <h2>
@@ -36,27 +35,17 @@
   import ContentBlock from '@/components/ContentBlock.vue'
   import { useContentStore } from '@/store/content';
   import { storeToRefs } from 'pinia';
-  import { computed, useTemplateRef } from 'vue';
+  import { computed } from 'vue';
   import router from '../router';
-  import { getAssetSizeStyle } from '../utils/assetUtils';
   import ResponsiveImage from '@/components/ResponsiveImage.vue';
 
   const contentStore = useContentStore();
   const { contentPages } = storeToRefs(contentStore);
-  const contentPage = useTemplateRef('content-page');
 
   const page = computed(() => {
       const contentPath = router.currentRoute.value.path;
       return contentPages.value[contentPath];
   });
-
-  function getImageStyle(image) {
-      return getAssetSizeStyle(
-          image.details.image.width,
-          image.details.image.height,
-          contentPage.value ? contentPage.value.$el : null
-      );
-  }
 
 </script>
 

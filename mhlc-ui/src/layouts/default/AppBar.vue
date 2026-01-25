@@ -140,8 +140,8 @@
     import { ref } from 'vue';
 
     const contentStore = useContentStore();
-    const { churchInfo, menuItems } = storeToRefs(contentStore);
-    const { lgAndUp, smAndUp, xs } = useDisplay()
+    const { churchInfo } = storeToRefs(contentStore);
+    const { smAndUp, xs } = useDisplay()
     const showAddress = ref(false);
     const showPhone = ref(false);
 

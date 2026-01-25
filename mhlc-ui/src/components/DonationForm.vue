@@ -322,7 +322,7 @@
             const tithelyScript = document.createElement('script')
             tithelyScript.setAttribute('src', 'https://tithe.ly/widget/v3/give.js?3')
             tithelyScript.onload = () => {
-                create_tithely_widget();
+                create_tithely_widget(); // eslint-disable-line no-undef
             };
             document.head.appendChild(tithelyScript)
         }

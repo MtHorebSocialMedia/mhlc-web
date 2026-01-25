@@ -1,4 +1,5 @@
 const eslintJs = require('@eslint/js');
+const globals = require('globals');
 
 module.exports = [
   // Use recommended ESLint rules
@@ -7,6 +8,11 @@ module.exports = [
 
   // Optional: Override/add specific rules
   {
+    languageOptions: {
+      globals: {
+        ...globals.node
+      }
+    },
     rules: {
 
     },

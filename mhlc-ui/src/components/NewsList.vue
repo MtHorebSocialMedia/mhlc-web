@@ -238,7 +238,7 @@
     });
 
     const contentStore = useContentStore();
-    const { recentNews, newsTypes } = storeToRefs(contentStore);
+    const { recentNews } = storeToRefs(contentStore);
 
     const dialogsStore = useDialogsStore();
 

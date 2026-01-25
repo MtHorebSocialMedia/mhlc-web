@@ -1,8 +1,8 @@
 <template>
-  <v-hover v-slot="{ isHovering, props }">
+  <v-hover v-slot="{ isHovering, props: hoverProps }">
     <v-card
       v-if="video"
-      v-bind="props"
+      v-bind="hoverProps"
       :class="{ 'on-hover': isHovering }"
       :elevation="isHovering ? 16 : 2"
       variant="outlined"
