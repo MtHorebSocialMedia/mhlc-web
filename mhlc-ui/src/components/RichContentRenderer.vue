@@ -14,6 +14,10 @@
     import { h, Comment } from "vue";
     import { getAssetHeight, getAssetWidth } from '../utils/assetUtils';
 
+    defineProps({
+        content: { type: Object, required: true }
+    });
+
     const renderNodes = () => {
         return {
           [BLOCKS.EMBEDDED_ASSET]: (node, key, next) => {
