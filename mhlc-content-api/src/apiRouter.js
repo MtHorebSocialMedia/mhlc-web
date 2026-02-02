@@ -313,7 +313,7 @@ router.delete('/content/cache',
     }
 );
 
-router.post('/content/webhook', (req, res) => {
+router.post('/content/webhook', (req, res, next) => {
     (async function() {
         try {
             const id = req.body.sys.id;
