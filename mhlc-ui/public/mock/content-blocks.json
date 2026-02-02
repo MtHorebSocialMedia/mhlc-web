@@ -1,8 +1,8 @@
 [
     {
-        "id": "WYKC9VXAeIv7g5vH8MNjw",
-        "key": "worship-schedule/special-services",
-        "title": "Special Worship Opportunities",
+        "id": "2uJhi87SHzPkXepDH4bV7O",
+        "key": "privacy/cookies-and-analytics",
+        "title": "Cookies and Website Analytics",
         "content": {
             "nodeType": "document",
             "data": {},
@@ -13,33 +13,7 @@
                     "content": [
                         {
                             "nodeType": "text",
-                            "value": "(Note: Times listed here are the typical times for each service, but these may be adjusted each year to the needs of the church. Be sure to check out the news section and our social media for any changes to these services!)",
-                            "marks": [
-                                {
-                                    "type": "italic"
-                                }
-                            ],
-                            "data": {}
-                        }
-                    ]
-                },
-                {
-                    "nodeType": "paragraph",
-                    "data": {},
-                    "content": [
-                        {
-                            "nodeType": "text",
-                            "value": "Christmas Eve Worship",
-                            "marks": [
-                                {
-                                    "type": "bold"
-                                }
-                            ],
-                            "data": {}
-                        },
-                        {
-                            "nodeType": "text",
-                            "value": " at 11 AM and 7 PM",
+                            "value": "Our website uses cookies and other similar technologies to collect limited information about how the site is used (such as page visits and traffic patterns). This information helps us improve our website and better serve our community.",
                             "marks": [],
                             "data": {}
                         }
@@ -51,17 +25,7 @@
                     "content": [
                         {
                             "nodeType": "text",
-                            "value": "Ash Wednesday Worship ",
-                            "marks": [
-                                {
-                                    "type": "bold"
-                                }
-                            ],
-                            "data": {}
-                        },
-                        {
-                            "nodeType": "text",
-                            "value": "at 11 AM and 7 PM",
+                            "value": "We do not use cookies to sell personal information.  You may adjust your browser settings to refuse cookies or alert you when cookies are being sent.   Disabling cookies, however, may affect how certain features of the website function.",
                             "marks": [],
                             "data": {}
                         }
@@ -73,83 +37,7 @@
                     "content": [
                         {
                             "nodeType": "text",
-                            "value": "Lenten Worship ",
-                            "marks": [
-                                {
-                                    "type": "bold"
-                                }
-                            ],
-                            "data": {}
-                        },
-                        {
-                            "nodeType": "text",
-                            "value": "Wednesdays in Lent at 7 PM, preceded by supper at 6 PM",
-                            "marks": [],
-                            "data": {}
-                        }
-                    ]
-                },
-                {
-                    "nodeType": "paragraph",
-                    "data": {},
-                    "content": [
-                        {
-                            "nodeType": "text",
-                            "value": "Maundy Thursday Worship",
-                            "marks": [
-                                {
-                                    "type": "bold"
-                                }
-                            ],
-                            "data": {}
-                        },
-                        {
-                            "nodeType": "text",
-                            "value": " with Communion at 11 AM and 7 PM",
-                            "marks": [],
-                            "data": {}
-                        }
-                    ]
-                },
-                {
-                    "nodeType": "paragraph",
-                    "data": {},
-                    "content": [
-                        {
-                            "nodeType": "text",
-                            "value": "Good Friday Tenebrae Worship",
-                            "marks": [
-                                {
-                                    "type": "bold"
-                                }
-                            ],
-                            "data": {}
-                        },
-                        {
-                            "nodeType": "text",
-                            "value": " at 7 PM",
-                            "marks": [],
-                            "data": {}
-                        }
-                    ]
-                },
-                {
-                    "nodeType": "paragraph",
-                    "data": {},
-                    "content": [
-                        {
-                            "nodeType": "text",
-                            "value": "Easter Sunday Worship ",
-                            "marks": [
-                                {
-                                    "type": "bold"
-                                }
-                            ],
-                            "data": {}
-                        },
-                        {
-                            "nodeType": "text",
-                            "value": "at 10:00 AM, preceded by breakfast at 8:30 AM and then flowering of the cross",
+                            "value": "By continuing to use this site, you agree to our use of cookies as described in this Privacy Policy.  ",
                             "marks": [],
                             "data": {}
                         }
@@ -161,8 +49,8 @@
         "videoId": null
     },
     {
-        "id": "3l9hTLwN2PHwZhTdZ2iz8M",
-        "key": "events/header",
+        "id": "451CAETv8GE5v19bC1woLc",
+        "key": "privacy/general",
         "content": {
             "nodeType": "document",
             "data": {},
@@ -173,7 +61,7 @@
                     "content": [
                         {
                             "nodeType": "text",
-                            "value": "Check out the upcoming events at Mt. Horeb!  Click each link to view the full details of the event.",
+                            "value": "The Mt. Horeb Lutheran Church website uses web traffic tracking tools to help improve our online ministry and community outreach, please continue reading to for the specifics around our privacy policy.",
                             "marks": [],
                             "data": {}
                         }
@@ -183,57 +71,6 @@
         },
         "image": null,
         "videoId": null
-    },
-    {
-        "id": "43RwxUxQxgsFqMFvZsUFdp",
-        "key": "visitation/form",
-        "image": null,
-        "videoId": null,
-        "jotformFormId": "250425881462054"
-    },
-    {
-        "id": "ws3MsQc9t5La7E5gvN0dx",
-        "key": "prayer/form",
-        "content": {
-            "data": {},
-            "content": [
-                {
-                    "data": {},
-                    "content": [
-                        {
-                            "data": {},
-                            "marks": [],
-                            "value": "",
-                            "nodeType": "text"
-                        }
-                    ],
-                    "nodeType": "paragraph"
-                },
-                {
-                    "data": {},
-                    "content": [
-                        {
-                            "data": {},
-                            "marks": [],
-                            "value": "",
-                            "nodeType": "text"
-                        }
-                    ],
-                    "nodeType": "paragraph"
-                }
-            ],
-            "nodeType": "document"
-        },
-        "image": null,
-        "videoId": null,
-        "jotformFormId": "250355257588062"
-    },
-    {
-        "id": "6sDNyqe9oTlyewshUFT3bw",
-        "key": "contact/contact-form",
-        "image": null,
-        "videoId": null,
-        "jotformFormId": "250505719255053"
     },
     {
         "id": "zbaw6X6iSHzommRRMRhVU",
@@ -249,7 +86,7 @@
                     "content": [
                         {
                             "nodeType": "text",
-                            "value": "Registration begins February 14th, 2025 for children not currently enrolled in our program. Please return your enrollment form along with your non-refundable registration fee to the church or preschool to guarantee your child’s spot in next years’ program.",
+                            "value": "Registration begins February 16th, 2026 for children not currently enrolled in our program. Please return your enrollment form along with your non-refundable registration fee to the church or preschool to guarantee your child’s spot in next years’ program.",
                             "marks": [],
                             "data": {}
                         }
@@ -293,10 +130,10 @@
                                                 "id": "3wcsgs8fznel"
                                             }
                                         },
-                                        "id": "4KKfOxFShnhVXjdKHewfVs",
+                                        "id": "4AaS8vbZmteRD1Ixw26FmW",
                                         "type": "Asset",
-                                        "createdAt": "2025-01-26T03:46:59.322Z",
-                                        "updatedAt": "2025-01-26T03:48:51.809Z",
+                                        "createdAt": "2026-02-01T22:04:25.182Z",
+                                        "updatedAt": "2026-02-01T22:05:16.058Z",
                                         "environment": {
                                             "sys": {
                                                 "id": "master",
@@ -304,18 +141,18 @@
                                                 "linkType": "Environment"
                                             }
                                         },
-                                        "publishedVersion": 8,
+                                        "publishedVersion": 9,
                                         "revision": 2,
                                         "locale": "en-US"
                                     },
                                     "fields": {
-                                        "title": "mhlc-preschool-registration-2025-2026",
+                                        "title": "mhlc-preschool-registration-2026-2027",
                                         "file": {
-                                            "url": "//assets.ctfassets.net/3wcsgs8fznel/4KKfOxFShnhVXjdKHewfVs/9a3b8e87569d61d346fb88c8937429a2/mhlc-preschool-registration-2025-2026.pdf",
+                                            "url": "//assets.ctfassets.net/3wcsgs8fznel/4AaS8vbZmteRD1Ixw26FmW/abe1ea554f3c25067875ff9a2edf9182/Registration_Form_2026-2027.pdf",
                                             "details": {
-                                                "size": 614622
+                                                "size": 124017
                                             },
-                                            "fileName": "mhlc-preschool-registration-2025-2026.pdf",
+                                            "fileName": "Registration Form 2026-2027.pdf",
                                             "contentType": "application/pdf"
                                         }
                                     }
@@ -324,7 +161,7 @@
                             "content": [
                                 {
                                     "nodeType": "text",
-                                    "value": "Enrollment Form – 2025/2026",
+                                    "value": "Enrollment Form – 2026/2027",
                                     "marks": [],
                                     "data": {}
                                 }
@@ -569,7 +406,7 @@
                     "content": [
                         {
                             "nodeType": "text",
-                            "value": "Mt Horeb Lutheran Church",
+                            "value": "Mt Horeb Lutheran Church\n",
                             "marks": [
                                 {
                                     "type": "bold"
@@ -579,7 +416,7 @@
                         },
                         {
                             "nodeType": "text",
-                            "value": "\nPO Box 8\nChapin, SC 29036\nAttn: Peggy Miller",
+                            "value": "PO Box 8\nChapin, SC 29036\nAttn: Preschool",
                             "marks": [],
                             "data": {}
                         }
@@ -613,7 +450,7 @@
                         },
                         {
                             "nodeType": "text",
-                            "value": "will be open for the 2025-2026 school year and registration opens on February 14th, 2025! To register, please see the ",
+                            "value": "will be open for the 2026-2027 school year and registration opens on February 16th, 2026! To register, please see the ",
                             "marks": [],
                             "data": {}
                         },
@@ -675,7 +512,7 @@
                                                     "id": "zbaw6X6iSHzommRRMRhVU",
                                                     "type": "Entry",
                                                     "createdAt": "2024-08-17T19:20:59.453Z",
-                                                    "updatedAt": "2025-01-26T03:49:11.427Z",
+                                                    "updatedAt": "2026-02-01T22:05:48.288Z",
                                                     "environment": {
                                                         "sys": {
                                                             "id": "master",
@@ -683,8 +520,8 @@
                                                             "linkType": "Environment"
                                                         }
                                                     },
-                                                    "publishedVersion": 16,
-                                                    "revision": 4,
+                                                    "publishedVersion": 29,
+                                                    "revision": 9,
                                                     "contentType": {
                                                         "sys": {
                                                             "type": "Link",
@@ -707,7 +544,7 @@
                                                                 "content": [
                                                                     {
                                                                         "nodeType": "text",
-                                                                        "value": "Registration begins February 14th, 2025 for children not currently enrolled in our program. Please return your enrollment form along with your non-refundable registration fee to the church or preschool to guarantee your child’s spot in next years’ program.",
+                                                                        "value": "Registration begins February 16th, 2026 for children not currently enrolled in our program. Please return your enrollment form along with your non-refundable registration fee to the church or preschool to guarantee your child’s spot in next years’ program.",
                                                                         "marks": [],
                                                                         "data": {}
                                                                     }
@@ -751,10 +588,10 @@
                                                                                             "id": "3wcsgs8fznel"
                                                                                         }
                                                                                     },
-                                                                                    "id": "4KKfOxFShnhVXjdKHewfVs",
+                                                                                    "id": "4AaS8vbZmteRD1Ixw26FmW",
                                                                                     "type": "Asset",
-                                                                                    "createdAt": "2025-01-26T03:46:59.322Z",
-                                                                                    "updatedAt": "2025-01-26T03:48:51.809Z",
+                                                                                    "createdAt": "2026-02-01T22:04:25.182Z",
+                                                                                    "updatedAt": "2026-02-01T22:05:16.058Z",
                                                                                     "environment": {
                                                                                         "sys": {
                                                                                             "id": "master",
@@ -762,18 +599,18 @@
                                                                                             "linkType": "Environment"
                                                                                         }
                                                                                     },
-                                                                                    "publishedVersion": 8,
+                                                                                    "publishedVersion": 9,
                                                                                     "revision": 2,
                                                                                     "locale": "en-US"
                                                                                 },
                                                                                 "fields": {
-                                                                                    "title": "mhlc-preschool-registration-2025-2026",
+                                                                                    "title": "mhlc-preschool-registration-2026-2027",
                                                                                     "file": {
-                                                                                        "url": "//assets.ctfassets.net/3wcsgs8fznel/4KKfOxFShnhVXjdKHewfVs/9a3b8e87569d61d346fb88c8937429a2/mhlc-preschool-registration-2025-2026.pdf",
+                                                                                        "url": "//assets.ctfassets.net/3wcsgs8fznel/4AaS8vbZmteRD1Ixw26FmW/abe1ea554f3c25067875ff9a2edf9182/Registration_Form_2026-2027.pdf",
                                                                                         "details": {
-                                                                                            "size": 614622
+                                                                                            "size": 124017
                                                                                         },
-                                                                                        "fileName": "mhlc-preschool-registration-2025-2026.pdf",
+                                                                                        "fileName": "Registration Form 2026-2027.pdf",
                                                                                         "contentType": "application/pdf"
                                                                                     }
                                                                                 }
@@ -782,7 +619,7 @@
                                                                         "content": [
                                                                             {
                                                                                 "nodeType": "text",
-                                                                                "value": "Enrollment Form – 2025/2026",
+                                                                                "value": "Enrollment Form – 2026/2027",
                                                                                 "marks": [],
                                                                                 "data": {}
                                                                             }
@@ -1027,7 +864,7 @@
                                                                 "content": [
                                                                     {
                                                                         "nodeType": "text",
-                                                                        "value": "Mt Horeb Lutheran Church",
+                                                                        "value": "Mt Horeb Lutheran Church\n",
                                                                         "marks": [
                                                                             {
                                                                                 "type": "bold"
@@ -1037,7 +874,7 @@
                                                                     },
                                                                     {
                                                                         "nodeType": "text",
-                                                                        "value": "\nPO Box 8\nChapin, SC 29036\nAttn: Peggy Miller",
+                                                                        "value": "PO Box 8\nChapin, SC 29036\nAttn: Preschool",
                                                                         "marks": [],
                                                                         "data": {}
                                                                     }
@@ -1063,7 +900,7 @@
                                                     "id": "2OsuugzXrA9tMBpWFePlVR",
                                                     "type": "Entry",
                                                     "createdAt": "2024-08-17T19:23:59.561Z",
-                                                    "updatedAt": "2024-08-17T19:23:59.561Z",
+                                                    "updatedAt": "2026-02-01T21:25:49.003Z",
                                                     "environment": {
                                                         "sys": {
                                                             "id": "master",
@@ -1071,8 +908,8 @@
                                                             "linkType": "Environment"
                                                         }
                                                     },
-                                                    "publishedVersion": 10,
-                                                    "revision": 1,
+                                                    "publishedVersion": 12,
+                                                    "revision": 2,
                                                     "contentType": {
                                                         "sys": {
                                                             "type": "Link",
@@ -1086,166 +923,166 @@
                                                     "key": "preschool/registration-supply-fees",
                                                     "title": "Registration and Suppy Fees",
                                                     "content": {
+                                                        "nodeType": "document",
                                                         "data": {},
                                                         "content": [
                                                             {
+                                                                "nodeType": "heading-4",
                                                                 "data": {},
                                                                 "content": [
                                                                     {
-                                                                        "data": {},
-                                                                        "marks": [],
+                                                                        "nodeType": "text",
                                                                         "value": "Registration (Non-refundable – due with enrollment application)",
-                                                                        "nodeType": "text"
+                                                                        "marks": [],
+                                                                        "data": {}
                                                                     }
-                                                                ],
-                                                                "nodeType": "heading-4"
+                                                                ]
                                                             },
                                                             {
+                                                                "nodeType": "unordered-list",
                                                                 "data": {},
                                                                 "content": [
                                                                     {
+                                                                        "nodeType": "list-item",
                                                                         "data": {},
                                                                         "content": [
                                                                             {
+                                                                                "nodeType": "paragraph",
                                                                                 "data": {},
                                                                                 "content": [
                                                                                     {
-                                                                                        "data": {},
+                                                                                        "nodeType": "text",
+                                                                                        "value": "Church members – $100 ($50 for each additional sibling)",
                                                                                         "marks": [],
-                                                                                        "value": "Church members – $100 ($25 for each additional sibling)",
-                                                                                        "nodeType": "text"
+                                                                                        "data": {}
                                                                                     }
-                                                                                ],
-                                                                                "nodeType": "paragraph"
+                                                                                ]
                                                                             }
-                                                                        ],
-                                                                        "nodeType": "list-item"
+                                                                        ]
                                                                     },
                                                                     {
+                                                                        "nodeType": "list-item",
                                                                         "data": {},
                                                                         "content": [
                                                                             {
+                                                                                "nodeType": "paragraph",
                                                                                 "data": {},
                                                                                 "content": [
                                                                                     {
-                                                                                        "data": {},
+                                                                                        "nodeType": "text",
+                                                                                        "value": "Non-members – $150 ($75 for each additional sibling)",
                                                                                         "marks": [],
-                                                                                        "value": "Non-members – $150 ($50 for each additional sibling)",
-                                                                                        "nodeType": "text"
+                                                                                        "data": {}
                                                                                     }
-                                                                                ],
-                                                                                "nodeType": "paragraph"
+                                                                                ]
                                                                             }
-                                                                        ],
-                                                                        "nodeType": "list-item"
+                                                                        ]
                                                                     }
-                                                                ],
-                                                                "nodeType": "unordered-list"
+                                                                ]
                                                             },
                                                             {
+                                                                "nodeType": "heading-4",
                                                                 "data": {},
                                                                 "content": [
                                                                     {
-                                                                        "data": {},
-                                                                        "marks": [],
+                                                                        "nodeType": "text",
                                                                         "value": "Supply Fee (1/2 due w/ Sept. tuition, remainder due w/Jan. tuition)",
-                                                                        "nodeType": "text"
-                                                                    }
-                                                                ],
-                                                                "nodeType": "heading-4"
-                                                            },
-                                                            {
-                                                                "data": {},
-                                                                "content": [
-                                                                    {
-                                                                        "data": {},
-                                                                        "content": [
-                                                                            {
-                                                                                "data": {},
-                                                                                "content": [
-                                                                                    {
-                                                                                        "data": {},
-                                                                                        "marks": [],
-                                                                                        "value": "2 days/week – $120",
-                                                                                        "nodeType": "text"
-                                                                                    }
-                                                                                ],
-                                                                                "nodeType": "paragraph"
-                                                                            }
-                                                                        ],
-                                                                        "nodeType": "list-item"
-                                                                    },
-                                                                    {
-                                                                        "data": {},
-                                                                        "content": [
-                                                                            {
-                                                                                "data": {},
-                                                                                "content": [
-                                                                                    {
-                                                                                        "data": {},
-                                                                                        "marks": [],
-                                                                                        "value": "3 days/week – $130",
-                                                                                        "nodeType": "text"
-                                                                                    }
-                                                                                ],
-                                                                                "nodeType": "paragraph"
-                                                                            }
-                                                                        ],
-                                                                        "nodeType": "list-item"
-                                                                    },
-                                                                    {
-                                                                        "data": {},
-                                                                        "content": [
-                                                                            {
-                                                                                "data": {},
-                                                                                "content": [
-                                                                                    {
-                                                                                        "data": {},
-                                                                                        "marks": [],
-                                                                                        "value": "4 days/week – $140",
-                                                                                        "nodeType": "text"
-                                                                                    }
-                                                                                ],
-                                                                                "nodeType": "paragraph"
-                                                                            }
-                                                                        ],
-                                                                        "nodeType": "list-item"
-                                                                    },
-                                                                    {
-                                                                        "data": {},
-                                                                        "content": [
-                                                                            {
-                                                                                "data": {},
-                                                                                "content": [
-                                                                                    {
-                                                                                        "data": {},
-                                                                                        "marks": [],
-                                                                                        "value": "5 days/week – $150",
-                                                                                        "nodeType": "text"
-                                                                                    }
-                                                                                ],
-                                                                                "nodeType": "paragraph"
-                                                                            }
-                                                                        ],
-                                                                        "nodeType": "list-item"
-                                                                    }
-                                                                ],
-                                                                "nodeType": "unordered-list"
-                                                            },
-                                                            {
-                                                                "data": {},
-                                                                "content": [
-                                                                    {
-                                                                        "data": {},
                                                                         "marks": [],
-                                                                        "value": "",
-                                                                        "nodeType": "text"
+                                                                        "data": {}
                                                                     }
-                                                                ],
-                                                                "nodeType": "paragraph"
+                                                                ]
+                                                            },
+                                                            {
+                                                                "nodeType": "unordered-list",
+                                                                "data": {},
+                                                                "content": [
+                                                                    {
+                                                                        "nodeType": "list-item",
+                                                                        "data": {},
+                                                                        "content": [
+                                                                            {
+                                                                                "nodeType": "paragraph",
+                                                                                "data": {},
+                                                                                "content": [
+                                                                                    {
+                                                                                        "nodeType": "text",
+                                                                                        "value": "2 days/week – $120",
+                                                                                        "marks": [],
+                                                                                        "data": {}
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    {
+                                                                        "nodeType": "list-item",
+                                                                        "data": {},
+                                                                        "content": [
+                                                                            {
+                                                                                "nodeType": "paragraph",
+                                                                                "data": {},
+                                                                                "content": [
+                                                                                    {
+                                                                                        "nodeType": "text",
+                                                                                        "value": "3 days/week – $130",
+                                                                                        "marks": [],
+                                                                                        "data": {}
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    {
+                                                                        "nodeType": "list-item",
+                                                                        "data": {},
+                                                                        "content": [
+                                                                            {
+                                                                                "nodeType": "paragraph",
+                                                                                "data": {},
+                                                                                "content": [
+                                                                                    {
+                                                                                        "nodeType": "text",
+                                                                                        "value": "4 days/week – $140",
+                                                                                        "marks": [],
+                                                                                        "data": {}
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    {
+                                                                        "nodeType": "list-item",
+                                                                        "data": {},
+                                                                        "content": [
+                                                                            {
+                                                                                "nodeType": "paragraph",
+                                                                                "data": {},
+                                                                                "content": [
+                                                                                    {
+                                                                                        "nodeType": "text",
+                                                                                        "value": "5 days/week – $150",
+                                                                                        "marks": [],
+                                                                                        "data": {}
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "nodeType": "paragraph",
+                                                                "data": {},
+                                                                "content": [
+                                                                    {
+                                                                        "nodeType": "text",
+                                                                        "value": "",
+                                                                        "marks": [],
+                                                                        "data": {}
+                                                                    }
+                                                                ]
                                                             }
-                                                        ],
-                                                        "nodeType": "document"
+                                                        ]
                                                     }
                                                 }
                                             },
@@ -1265,7 +1102,7 @@
                                                     "id": "2buAKSVmb5z4mPctgbLC1b",
                                                     "type": "Entry",
                                                     "createdAt": "2024-08-17T19:25:04.277Z",
-                                                    "updatedAt": "2024-08-17T19:25:04.277Z",
+                                                    "updatedAt": "2026-02-01T21:28:02.366Z",
                                                     "environment": {
                                                         "sys": {
                                                             "id": "master",
@@ -1273,8 +1110,8 @@
                                                             "linkType": "Environment"
                                                         }
                                                     },
-                                                    "publishedVersion": 6,
-                                                    "revision": 1,
+                                                    "publishedVersion": 11,
+                                                    "revision": 2,
                                                     "contentType": {
                                                         "sys": {
                                                             "type": "Link",
@@ -1317,7 +1154,7 @@
                                                                                 "content": [
                                                                                     {
                                                                                         "nodeType": "text",
-                                                                                        "value": "2 days/week – $180/month",
+                                                                                        "value": "2 days/week – $220/month",
                                                                                         "marks": [],
                                                                                         "data": {}
                                                                                     }
@@ -1353,25 +1190,7 @@
                                                                                 "content": [
                                                                                     {
                                                                                         "nodeType": "text",
-                                                                                        "value": "3 days/week – $200/month",
-                                                                                        "marks": [],
-                                                                                        "data": {}
-                                                                                    }
-                                                                                ]
-                                                                            }
-                                                                        ]
-                                                                    },
-                                                                    {
-                                                                        "nodeType": "list-item",
-                                                                        "data": {},
-                                                                        "content": [
-                                                                            {
-                                                                                "nodeType": "paragraph",
-                                                                                "data": {},
-                                                                                "content": [
-                                                                                    {
-                                                                                        "nodeType": "text",
-                                                                                        "value": "4 days/week – $220/month",
+                                                                                        "value": "4 days/week – $260/month",
                                                                                         "marks": [],
                                                                                         "data": {}
                                                                                     }
@@ -1407,7 +1226,7 @@
                                                                                 "content": [
                                                                                     {
                                                                                         "nodeType": "text",
-                                                                                        "value": "4 days/week – $240/month",
+                                                                                        "value": "4 days/week – $280/month",
                                                                                         "marks": [],
                                                                                         "data": {}
                                                                                     }
@@ -1425,7 +1244,7 @@
                                                                                 "content": [
                                                                                     {
                                                                                         "nodeType": "text",
-                                                                                        "value": "5 days/week – $260/month",
+                                                                                        "value": "5 days/week – $310/month",
                                                                                         "marks": [],
                                                                                         "data": {}
                                                                                     }
@@ -1503,7 +1322,7 @@
                                                     "id": "5ZRatWGjblKiXjTbsWObTV",
                                                     "type": "Entry",
                                                     "createdAt": "2024-08-17T19:25:42.680Z",
-                                                    "updatedAt": "2024-08-17T19:25:42.680Z",
+                                                    "updatedAt": "2026-02-01T21:29:22.503Z",
                                                     "environment": {
                                                         "sys": {
                                                             "id": "master",
@@ -1511,8 +1330,8 @@
                                                             "linkType": "Environment"
                                                         }
                                                     },
-                                                    "publishedVersion": 4,
-                                                    "revision": 1,
+                                                    "publishedVersion": 6,
+                                                    "revision": 2,
                                                     "contentType": {
                                                         "sys": {
                                                             "type": "Link",
@@ -1555,7 +1374,7 @@
                                                                                 "content": [
                                                                                     {
                                                                                         "nodeType": "text",
-                                                                                        "value": "$7/day",
+                                                                                        "value": "$10/day",
                                                                                         "marks": [],
                                                                                         "data": {}
                                                                                     }
@@ -1591,7 +1410,7 @@
                                                                                 "content": [
                                                                                     {
                                                                                         "nodeType": "text",
-                                                                                        "value": "$15/day",
+                                                                                        "value": "$20/day",
                                                                                         "marks": [],
                                                                                         "data": {}
                                                                                     }
@@ -1694,7 +1513,7 @@
                                     "content": [
                                         {
                                             "nodeType": "text",
-                                            "value": "Half-day program hours from 9 a.m. to 12 p.m., five days per week",
+                                            "value": "Half-day program hours from 9 a.m. to 12 p.m.",
                                             "marks": [
                                                 {
                                                     "type": "bold"
@@ -1812,7 +1631,25 @@
                         },
                         {
                             "nodeType": "text",
-                            "value": " for a young child’s healthy development. Teachers use The Creative Curriculum for Preschoolers, a developmentally appropriate, whole language, thematic approach to preschool education. Each classroom is arranged by interest areas, creatively organized to foster growth, imagination, creativity and independence. Activities are planned through centers which include language, math, science and art activities. 4K students will be introduced to our new curriculum called “Get Set for School,” part of the Handwriting Without Tears program.",
+                            "value": " for a young child’s healthy development. ",
+                            "marks": [],
+                            "data": {}
+                        },
+                        {
+                            "nodeType": "text",
+                            "value": "Teachers use a developmentally appropriate, whole language, thematic approach to preschool education. ",
+                            "marks": [],
+                            "data": {}
+                        },
+                        {
+                            "nodeType": "text",
+                            "value": " Each classroom is arranged by interest areas, creatively organized to foster growth, imagination, creativity and independence. Activities are planned through centers which include language, math, science and art activities. ",
+                            "marks": [],
+                            "data": {}
+                        },
+                        {
+                            "nodeType": "text",
+                            "value": "4K students utilize curriculum based on their pocket of preschool to ready them for kindergarten. ",
                             "marks": [],
                             "data": {}
                         }
@@ -1824,7 +1661,7 @@
                     "content": [
                         {
                             "nodeType": "text",
-                            "value": "Once a week, children enjoy a 30-minute music class, and our pastors leads chapel time every Wednesday morning. Other special activities include a Preschool Art Show, Holiday Music Program, Preschool Sunday at the church.",
+                            "value": "Once a week, children enjoy a 30-minute music class, and our pastors leads chapel time every Monday morning. Other special activities include a Preschool Art Show, Holiday Music Program, Preschool Sunday at the church.",
                             "marks": [],
                             "data": {}
                         }
@@ -1836,7 +1673,19 @@
                     "content": [
                         {
                             "nodeType": "text",
-                            "value": "Two-year-olds attend either Monday/Wednesday or Tuesday/Thursday. Three-year-olds have the option of attending three days (M/T/W) or four days (M-Th). Four-year-olds have the option of attending four days (M-Th) or five days (M-F).",
+                            "value": "Two-year-olds attend either Monday/Wednesday or Tuesday/Thursday. ",
+                            "marks": [],
+                            "data": {}
+                        },
+                        {
+                            "nodeType": "text",
+                            "value": "Three-year-olds will attend four days (M-Th)",
+                            "marks": [],
+                            "data": {}
+                        },
+                        {
+                            "nodeType": "text",
+                            "value": ". Four-year-olds have the option of attending four days (M-Th) or five days (M-F).",
                             "marks": [],
                             "data": {}
                         }
@@ -1870,6 +1719,695 @@
         },
         "imageAlignment": "top",
         "videoId": null
+    },
+    {
+        "id": "5ZRatWGjblKiXjTbsWObTV",
+        "key": "preschool/extra-fees",
+        "title": "Extras",
+        "content": {
+            "nodeType": "document",
+            "data": {},
+            "content": [
+                {
+                    "nodeType": "heading-4",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "Early Bird drop-off",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "unordered-list",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "list-item",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "paragraph",
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "nodeType": "text",
+                                            "value": "$10/day",
+                                            "marks": [],
+                                            "data": {}
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "heading-4",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "Lunch Bunch",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "unordered-list",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "list-item",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "paragraph",
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "nodeType": "text",
+                                            "value": "$20/day",
+                                            "marks": [],
+                                            "data": {}
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                }
+            ]
+        },
+        "image": null,
+        "videoId": null
+    },
+    {
+        "id": "2buAKSVmb5z4mPctgbLC1b",
+        "key": "preschool/monthly-tuition",
+        "title": "Monthly Tuition",
+        "content": {
+            "nodeType": "document",
+            "data": {},
+            "content": [
+                {
+                    "nodeType": "heading-4",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "Two Year Olds",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "unordered-list",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "list-item",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "paragraph",
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "nodeType": "text",
+                                            "value": "2 days/week – $220/month",
+                                            "marks": [],
+                                            "data": {}
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "heading-4",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "Three Year Olds",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "unordered-list",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "list-item",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "paragraph",
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "nodeType": "text",
+                                            "value": "4 days/week – $260/month",
+                                            "marks": [],
+                                            "data": {}
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "heading-4",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "Four Year Olds (includes $20 curriculum fee)",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "unordered-list",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "list-item",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "paragraph",
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "nodeType": "text",
+                                            "value": "4 days/week – $280/month",
+                                            "marks": [],
+                                            "data": {}
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "list-item",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "paragraph",
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "nodeType": "text",
+                                            "value": "5 days/week – $310/month",
+                                            "marks": [],
+                                            "data": {}
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "heading-4",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "Sibling Discount",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "unordered-list",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "list-item",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "paragraph",
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "nodeType": "text",
+                                            "value": "$40/month",
+                                            "marks": [],
+                                            "data": {}
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                }
+            ]
+        },
+        "image": null,
+        "videoId": null
+    },
+    {
+        "id": "2OsuugzXrA9tMBpWFePlVR",
+        "key": "preschool/registration-supply-fees",
+        "title": "Registration and Suppy Fees",
+        "content": {
+            "nodeType": "document",
+            "data": {},
+            "content": [
+                {
+                    "nodeType": "heading-4",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "Registration (Non-refundable – due with enrollment application)",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "unordered-list",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "list-item",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "paragraph",
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "nodeType": "text",
+                                            "value": "Church members – $100 ($50 for each additional sibling)",
+                                            "marks": [],
+                                            "data": {}
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "list-item",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "paragraph",
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "nodeType": "text",
+                                            "value": "Non-members – $150 ($75 for each additional sibling)",
+                                            "marks": [],
+                                            "data": {}
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "heading-4",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "Supply Fee (1/2 due w/ Sept. tuition, remainder due w/Jan. tuition)",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "unordered-list",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "list-item",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "paragraph",
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "nodeType": "text",
+                                            "value": "2 days/week – $120",
+                                            "marks": [],
+                                            "data": {}
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "list-item",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "paragraph",
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "nodeType": "text",
+                                            "value": "3 days/week – $130",
+                                            "marks": [],
+                                            "data": {}
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "list-item",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "paragraph",
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "nodeType": "text",
+                                            "value": "4 days/week – $140",
+                                            "marks": [],
+                                            "data": {}
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "list-item",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "paragraph",
+                                    "data": {},
+                                    "content": [
+                                        {
+                                            "nodeType": "text",
+                                            "value": "5 days/week – $150",
+                                            "marks": [],
+                                            "data": {}
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                }
+            ]
+        },
+        "image": null,
+        "videoId": null
+    },
+    {
+        "id": "WYKC9VXAeIv7g5vH8MNjw",
+        "key": "worship-schedule/special-services",
+        "title": "Special Worship Opportunities",
+        "content": {
+            "nodeType": "document",
+            "data": {},
+            "content": [
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "(Note: Times listed here are the typical times for each service, but these may be adjusted each year to the needs of the church. Be sure to check out the news section and our social media for any changes to these services!)",
+                            "marks": [
+                                {
+                                    "type": "italic"
+                                }
+                            ],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "Christmas Eve Worship",
+                            "marks": [
+                                {
+                                    "type": "bold"
+                                }
+                            ],
+                            "data": {}
+                        },
+                        {
+                            "nodeType": "text",
+                            "value": " at 11 AM and 7 PM",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "Ash Wednesday Worship ",
+                            "marks": [
+                                {
+                                    "type": "bold"
+                                }
+                            ],
+                            "data": {}
+                        },
+                        {
+                            "nodeType": "text",
+                            "value": "at 11 AM and 7 PM",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "Lenten Worship ",
+                            "marks": [
+                                {
+                                    "type": "bold"
+                                }
+                            ],
+                            "data": {}
+                        },
+                        {
+                            "nodeType": "text",
+                            "value": "Wednesdays in Lent at 7 PM, preceded by supper at 6 PM",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "Maundy Thursday Worship",
+                            "marks": [
+                                {
+                                    "type": "bold"
+                                }
+                            ],
+                            "data": {}
+                        },
+                        {
+                            "nodeType": "text",
+                            "value": " with Communion at 11 AM and 7 PM",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "Good Friday Tenebrae Worship",
+                            "marks": [
+                                {
+                                    "type": "bold"
+                                }
+                            ],
+                            "data": {}
+                        },
+                        {
+                            "nodeType": "text",
+                            "value": " at 7 PM",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "Easter Sunday Worship ",
+                            "marks": [
+                                {
+                                    "type": "bold"
+                                }
+                            ],
+                            "data": {}
+                        },
+                        {
+                            "nodeType": "text",
+                            "value": "at 10:00 AM, preceded by breakfast at 8:30 AM and then flowering of the cross",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                }
+            ]
+        },
+        "image": null,
+        "videoId": null
+    },
+    {
+        "id": "3l9hTLwN2PHwZhTdZ2iz8M",
+        "key": "events/header",
+        "content": {
+            "nodeType": "document",
+            "data": {},
+            "content": [
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "Check out the upcoming events at Mt. Horeb!  Click each link to view the full details of the event.",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                }
+            ]
+        },
+        "image": null,
+        "videoId": null
+    },
+    {
+        "id": "43RwxUxQxgsFqMFvZsUFdp",
+        "key": "visitation/form",
+        "image": null,
+        "videoId": null,
+        "jotformFormId": "250425881462054"
+    },
+    {
+        "id": "ws3MsQc9t5La7E5gvN0dx",
+        "key": "prayer/form",
+        "content": {
+            "data": {},
+            "content": [
+                {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": "",
+                            "nodeType": "text"
+                        }
+                    ],
+                    "nodeType": "paragraph"
+                },
+                {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "marks": [],
+                            "value": "",
+                            "nodeType": "text"
+                        }
+                    ],
+                    "nodeType": "paragraph"
+                }
+            ],
+            "nodeType": "document"
+        },
+        "image": null,
+        "videoId": null,
+        "jotformFormId": "250355257588062"
+    },
+    {
+        "id": "6sDNyqe9oTlyewshUFT3bw",
+        "key": "contact/contact-form",
+        "image": null,
+        "videoId": null,
+        "jotformFormId": "250505719255053"
     },
     {
         "id": "5KmnC3mjwX2PlOV8cJXaZC",
@@ -8314,477 +8852,6 @@
             "contentType": "image/png"
         },
         "imageAlignment": "top",
-        "videoId": null
-    },
-    {
-        "id": "5ZRatWGjblKiXjTbsWObTV",
-        "key": "preschool/extra-fees",
-        "title": "Extras",
-        "content": {
-            "nodeType": "document",
-            "data": {},
-            "content": [
-                {
-                    "nodeType": "heading-4",
-                    "data": {},
-                    "content": [
-                        {
-                            "nodeType": "text",
-                            "value": "Early Bird drop-off",
-                            "marks": [],
-                            "data": {}
-                        }
-                    ]
-                },
-                {
-                    "nodeType": "unordered-list",
-                    "data": {},
-                    "content": [
-                        {
-                            "nodeType": "list-item",
-                            "data": {},
-                            "content": [
-                                {
-                                    "nodeType": "paragraph",
-                                    "data": {},
-                                    "content": [
-                                        {
-                                            "nodeType": "text",
-                                            "value": "$7/day",
-                                            "marks": [],
-                                            "data": {}
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "nodeType": "heading-4",
-                    "data": {},
-                    "content": [
-                        {
-                            "nodeType": "text",
-                            "value": "Lunch Bunch",
-                            "marks": [],
-                            "data": {}
-                        }
-                    ]
-                },
-                {
-                    "nodeType": "unordered-list",
-                    "data": {},
-                    "content": [
-                        {
-                            "nodeType": "list-item",
-                            "data": {},
-                            "content": [
-                                {
-                                    "nodeType": "paragraph",
-                                    "data": {},
-                                    "content": [
-                                        {
-                                            "nodeType": "text",
-                                            "value": "$15/day",
-                                            "marks": [],
-                                            "data": {}
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "nodeType": "paragraph",
-                    "data": {},
-                    "content": [
-                        {
-                            "nodeType": "text",
-                            "value": "",
-                            "marks": [],
-                            "data": {}
-                        }
-                    ]
-                }
-            ]
-        },
-        "image": null,
-        "videoId": null
-    },
-    {
-        "id": "2buAKSVmb5z4mPctgbLC1b",
-        "key": "preschool/monthly-tuition",
-        "title": "Monthly Tuition",
-        "content": {
-            "nodeType": "document",
-            "data": {},
-            "content": [
-                {
-                    "nodeType": "heading-4",
-                    "data": {},
-                    "content": [
-                        {
-                            "nodeType": "text",
-                            "value": "Two Year Olds",
-                            "marks": [],
-                            "data": {}
-                        }
-                    ]
-                },
-                {
-                    "nodeType": "unordered-list",
-                    "data": {},
-                    "content": [
-                        {
-                            "nodeType": "list-item",
-                            "data": {},
-                            "content": [
-                                {
-                                    "nodeType": "paragraph",
-                                    "data": {},
-                                    "content": [
-                                        {
-                                            "nodeType": "text",
-                                            "value": "2 days/week – $180/month",
-                                            "marks": [],
-                                            "data": {}
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "nodeType": "heading-4",
-                    "data": {},
-                    "content": [
-                        {
-                            "nodeType": "text",
-                            "value": "Three Year Olds",
-                            "marks": [],
-                            "data": {}
-                        }
-                    ]
-                },
-                {
-                    "nodeType": "unordered-list",
-                    "data": {},
-                    "content": [
-                        {
-                            "nodeType": "list-item",
-                            "data": {},
-                            "content": [
-                                {
-                                    "nodeType": "paragraph",
-                                    "data": {},
-                                    "content": [
-                                        {
-                                            "nodeType": "text",
-                                            "value": "3 days/week – $200/month",
-                                            "marks": [],
-                                            "data": {}
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "nodeType": "list-item",
-                            "data": {},
-                            "content": [
-                                {
-                                    "nodeType": "paragraph",
-                                    "data": {},
-                                    "content": [
-                                        {
-                                            "nodeType": "text",
-                                            "value": "4 days/week – $220/month",
-                                            "marks": [],
-                                            "data": {}
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "nodeType": "heading-4",
-                    "data": {},
-                    "content": [
-                        {
-                            "nodeType": "text",
-                            "value": "Four Year Olds (includes $20 curriculum fee)",
-                            "marks": [],
-                            "data": {}
-                        }
-                    ]
-                },
-                {
-                    "nodeType": "unordered-list",
-                    "data": {},
-                    "content": [
-                        {
-                            "nodeType": "list-item",
-                            "data": {},
-                            "content": [
-                                {
-                                    "nodeType": "paragraph",
-                                    "data": {},
-                                    "content": [
-                                        {
-                                            "nodeType": "text",
-                                            "value": "4 days/week – $240/month",
-                                            "marks": [],
-                                            "data": {}
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "nodeType": "list-item",
-                            "data": {},
-                            "content": [
-                                {
-                                    "nodeType": "paragraph",
-                                    "data": {},
-                                    "content": [
-                                        {
-                                            "nodeType": "text",
-                                            "value": "5 days/week – $260/month",
-                                            "marks": [],
-                                            "data": {}
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "nodeType": "heading-4",
-                    "data": {},
-                    "content": [
-                        {
-                            "nodeType": "text",
-                            "value": "Sibling Discount",
-                            "marks": [],
-                            "data": {}
-                        }
-                    ]
-                },
-                {
-                    "nodeType": "unordered-list",
-                    "data": {},
-                    "content": [
-                        {
-                            "nodeType": "list-item",
-                            "data": {},
-                            "content": [
-                                {
-                                    "nodeType": "paragraph",
-                                    "data": {},
-                                    "content": [
-                                        {
-                                            "nodeType": "text",
-                                            "value": "$40/month",
-                                            "marks": [],
-                                            "data": {}
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "nodeType": "paragraph",
-                    "data": {},
-                    "content": [
-                        {
-                            "nodeType": "text",
-                            "value": "",
-                            "marks": [],
-                            "data": {}
-                        }
-                    ]
-                }
-            ]
-        },
-        "image": null,
-        "videoId": null
-    },
-    {
-        "id": "2OsuugzXrA9tMBpWFePlVR",
-        "key": "preschool/registration-supply-fees",
-        "title": "Registration and Suppy Fees",
-        "content": {
-            "data": {},
-            "content": [
-                {
-                    "data": {},
-                    "content": [
-                        {
-                            "data": {},
-                            "marks": [],
-                            "value": "Registration (Non-refundable – due with enrollment application)",
-                            "nodeType": "text"
-                        }
-                    ],
-                    "nodeType": "heading-4"
-                },
-                {
-                    "data": {},
-                    "content": [
-                        {
-                            "data": {},
-                            "content": [
-                                {
-                                    "data": {},
-                                    "content": [
-                                        {
-                                            "data": {},
-                                            "marks": [],
-                                            "value": "Church members – $100 ($25 for each additional sibling)",
-                                            "nodeType": "text"
-                                        }
-                                    ],
-                                    "nodeType": "paragraph"
-                                }
-                            ],
-                            "nodeType": "list-item"
-                        },
-                        {
-                            "data": {},
-                            "content": [
-                                {
-                                    "data": {},
-                                    "content": [
-                                        {
-                                            "data": {},
-                                            "marks": [],
-                                            "value": "Non-members – $150 ($50 for each additional sibling)",
-                                            "nodeType": "text"
-                                        }
-                                    ],
-                                    "nodeType": "paragraph"
-                                }
-                            ],
-                            "nodeType": "list-item"
-                        }
-                    ],
-                    "nodeType": "unordered-list"
-                },
-                {
-                    "data": {},
-                    "content": [
-                        {
-                            "data": {},
-                            "marks": [],
-                            "value": "Supply Fee (1/2 due w/ Sept. tuition, remainder due w/Jan. tuition)",
-                            "nodeType": "text"
-                        }
-                    ],
-                    "nodeType": "heading-4"
-                },
-                {
-                    "data": {},
-                    "content": [
-                        {
-                            "data": {},
-                            "content": [
-                                {
-                                    "data": {},
-                                    "content": [
-                                        {
-                                            "data": {},
-                                            "marks": [],
-                                            "value": "2 days/week – $120",
-                                            "nodeType": "text"
-                                        }
-                                    ],
-                                    "nodeType": "paragraph"
-                                }
-                            ],
-                            "nodeType": "list-item"
-                        },
-                        {
-                            "data": {},
-                            "content": [
-                                {
-                                    "data": {},
-                                    "content": [
-                                        {
-                                            "data": {},
-                                            "marks": [],
-                                            "value": "3 days/week – $130",
-                                            "nodeType": "text"
-                                        }
-                                    ],
-                                    "nodeType": "paragraph"
-                                }
-                            ],
-                            "nodeType": "list-item"
-                        },
-                        {
-                            "data": {},
-                            "content": [
-                                {
-                                    "data": {},
-                                    "content": [
-                                        {
-                                            "data": {},
-                                            "marks": [],
-                                            "value": "4 days/week – $140",
-                                            "nodeType": "text"
-                                        }
-                                    ],
-                                    "nodeType": "paragraph"
-                                }
-                            ],
-                            "nodeType": "list-item"
-                        },
-                        {
-                            "data": {},
-                            "content": [
-                                {
-                                    "data": {},
-                                    "content": [
-                                        {
-                                            "data": {},
-                                            "marks": [],
-                                            "value": "5 days/week – $150",
-                                            "nodeType": "text"
-                                        }
-                                    ],
-                                    "nodeType": "paragraph"
-                                }
-                            ],
-                            "nodeType": "list-item"
-                        }
-                    ],
-                    "nodeType": "unordered-list"
-                },
-                {
-                    "data": {},
-                    "content": [
-                        {
-                            "data": {},
-                            "marks": [],
-                            "value": "",
-                            "nodeType": "text"
-                        }
-                    ],
-                    "nodeType": "paragraph"
-                }
-            ],
-            "nodeType": "document"
-        },
-        "image": null,
         "videoId": null
     },
     {

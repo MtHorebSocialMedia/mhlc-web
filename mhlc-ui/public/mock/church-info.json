@@ -12,5 +12,58 @@
     "facebook": "https://www.facebook.com/Mt-Horeb-Lutheran-Church-163197867173867",
     "instagram": "https://www.instagram.com/mhlc_chapin/",
     "youTube": "https://www.youtube.com/@MHLCChapinSC",
-    "footer": "Copyright 2025 Mt. Horeb Lutheran Church.  Mt. Horeb Lutheran Church (MHLC) is a congregation of the Evangelical Lutheran Church of America (ELCA) in Chapin, SC."
+    "footer": {
+        "nodeType": "document",
+        "data": {},
+        "content": [
+            {
+                "nodeType": "paragraph",
+                "data": {},
+                "content": [
+                    {
+                        "nodeType": "text",
+                        "value": "Copyright 2026 Mt. Horeb Lutheran Church.  Mt. Horeb Lutheran Church (MHLC) is a congregation of the Evangelical Lutheran Church of America (ELCA) in Chapin, SC.\n",
+                        "marks": [],
+                        "data": {}
+                    },
+                    {
+                        "nodeType": "text",
+                        "value": "Privacy Notice",
+                        "marks": [
+                            {
+                                "type": "bold"
+                            }
+                        ],
+                        "data": {}
+                    },
+                    {
+                        "nodeType": "text",
+                        "value": ": For information on how our site uses cookies to help improve our online ministry and community outreach, please see our ",
+                        "marks": [],
+                        "data": {}
+                    },
+                    {
+                        "nodeType": "hyperlink",
+                        "data": {
+                            "uri": "https://mthoreb.net/content/privacy"
+                        },
+                        "content": [
+                            {
+                                "nodeType": "text",
+                                "value": "Privacy Policy",
+                                "marks": [],
+                                "data": {}
+                            }
+                        ]
+                    },
+                    {
+                        "nodeType": "text",
+                        "value": ".",
+                        "marks": [],
+                        "data": {}
+                    }
+                ]
+            }
+        ]
+    }
 }

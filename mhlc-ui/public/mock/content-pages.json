@@ -1,5 +1,30 @@
 [
     {
+        "id": "30ohTISnB3J49Nue3L1V8n",
+        "title": "Privacy",
+        "contentPath": "/content/privacy",
+        "headerImage": null,
+        "contentBlocks": [
+            {
+                "key": "privacy/general"
+            },
+            {
+                "key": "privacy/cookies-and-analytics"
+            }
+        ]
+    },
+    {
+        "id": "TFeElm89EzUr0FNxctKqP",
+        "title": "Preschool",
+        "contentPath": "/content/preschool",
+        "headerImage": null,
+        "contentBlocks": [
+            {
+                "key": "preschool/info"
+            }
+        ]
+    },
+    {
         "id": "2UbufHCg8SZ6qaNJaZ2sFu",
         "title": "Visitation",
         "contentPath": "/content/visitation",
@@ -161,20 +186,6 @@
             },
             {
                 "key": "serve/get-involved"
-            }
-        ]
-    },
-    {
-        "id": "TFeElm89EzUr0FNxctKqP",
-        "title": "Preschool",
-        "contentPath": "/content/preschool",
-        "headerImage": null,
-        "contentBlocks": [
-            {
-                "key": "preschool/info"
-            },
-            {
-                "key": "preschool/director"
             }
         ]
     },

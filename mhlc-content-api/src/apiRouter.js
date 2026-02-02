@@ -313,14 +313,18 @@ router.delete('/content/cache',
     }
 );
 
-router.post('/content/webhook', (req, res) => {
+router.post('/content/webhook', (req, res, next) => {
     (async function() {
-        const id = req.body.sys.id;
-        const contentType = req.body.sys.contentType.sys.id;
-        const contentId = { id, contentType };
-        logger.info('Received contentful webhook event: ', contentId);
-        await clearCachedContent(contentId);
-        res.send(true);
+        try {
+            const id = req.body.sys.id;
+            const contentType = req.body.sys.contentType.sys.id;
+            const contentId = { id, contentType };
+            logger.info('Received contentful webhook event: ', contentId);
+            await clearCachedContent(contentId);
+            res.send(true);
+        } catch(err) {
+            next(err);
+        }
     })();
 });
 

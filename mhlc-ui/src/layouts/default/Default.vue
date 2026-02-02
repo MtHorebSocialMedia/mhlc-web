@@ -18,7 +18,10 @@
       </v-container>
     </v-main>
     <v-footer :class="name">
-      {{ churchInfo.footer }}
+      <RichContentRenderer
+        v-if="churchInfo.footer"
+        :content="churchInfo.footer"
+      />
     </v-footer>
   </v-app>
 </template>
@@ -26,6 +29,7 @@
 <script setup>
   import AppBar from './AppBar.vue'
   import SideBar from './SideBar.vue'
+  import RichContentRenderer from '@/components/RichContentRenderer.vue'
   import { useContentStore } from '@/store/content';
   import { storeToRefs } from 'pinia';
   import { useDisplay } from 'vuetify'
@@ -58,4 +62,5 @@
     .v-footer.md { max-height: 80px; }
     .v-footer.sm { max-height: 100px; }
     .v-footer.xs { max-height: 160px; }
+    .v-footer .content { width: 100%; font-size: 13px; text-align: center; }
 </style>
