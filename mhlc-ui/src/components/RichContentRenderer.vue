@@ -9,7 +9,7 @@
 
 <script setup>
     import { RouterLink } from 'vue-router'
-    import { BLOCKS } from '@contentful/rich-text-types';
+    import { BLOCKS, MARKS } from '@contentful/rich-text-types';
     import RichTextRenderer from 'contentful-rich-text-vue-renderer';
     import { h, Comment } from "vue";
     import { getAssetHeight, getAssetWidth } from '../utils/assetUtils';
@@ -17,6 +17,23 @@
     defineProps({
         content: { type: Object, required: true }
     });
+
+    function applyMarks(text, marks) {
+      return marks.reduce((content, mark) => {
+        switch (mark.type) {
+          case MARKS.BOLD:
+            return h('strong', content)
+          case MARKS.ITALIC:
+            return h('em', content)
+          case MARKS.UNDERLINE:
+            return h('u', content)
+          case MARKS.CODE:
+            return h('code', content)
+          default:
+            return content
+        }
+      }, text)
+    }
 
     const renderNodes = () => {
         return {
@@ -77,9 +94,25 @@
                 },
                 next(node.content, key, next)
               );
+          },
+          'text': (node) => {
+              const content = []
+              if (node.value.includes('\n')) {
+                const parts = node.value.split('\n')
+                parts.forEach((part) => {
+                  if (part !== '') {
+                    content.push(applyMarks(part, node.marks))
+                    content.push(h('br'))
+                  }
+                })
+              } else {
+                content.push(applyMarks(node.value, node.marks))
+              }
+              return content
           }
         }
     }
+
 </script>
 
 <style>
