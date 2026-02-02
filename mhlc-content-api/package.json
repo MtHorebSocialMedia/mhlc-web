@@ -8,7 +8,9 @@
     "b64-google-private-key": "node ./src/utils/b64GooglePrivateKey.js",
     "refresh-mock-content": "node ./src/utils/refreshMockContent.js",
     "lint": "eslint ./src",
-    "lint:fix": "eslint ./src --fix"
+    "lint:fix": "eslint ./src --fix",
+    "test": "jest --coverage",
+    "test:watch": "jest --watch"
   },
   "author": "MHLC Technology Team",
   "license": "UNLICENSED",
@@ -33,5 +35,9 @@
     "rss": "^1.2.2",
     "rss-parser": "^3.13.0",
     "xml-formatter": "^3.6.7"
+  },
+  "devDependencies": {
+    "jest": "^30.2.0",
+    "supertest": "^7.2.2"
   }
 }

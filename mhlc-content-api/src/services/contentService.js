@@ -5,22 +5,31 @@ const { getLogger } = require('../utils/logger');
 
 const logger = getLogger('contentService');
 
-const {
-    CONTENTFUL_SPACE_ID,
-    CONTENTFUL_DELIVERY_API_KEY
-} = process.env;
+let client = null;
 
-const client = contentful.createClient({
-    space: CONTENTFUL_SPACE_ID,
-    accessToken: CONTENTFUL_DELIVERY_API_KEY
-});
+function getClient() {
+
+    if (!client) {
+
+        const {
+            CONTENTFUL_SPACE_ID,
+            CONTENTFUL_DELIVERY_API_KEY
+        } = process.env;
+
+        client = contentful.createClient({
+            space: CONTENTFUL_SPACE_ID,
+            accessToken: CONTENTFUL_DELIVERY_API_KEY
+        });
+    }
+    return client;
+}
 
 async function getEntries(requestConfig, cacheId, ttlMsCallback) {
     const contentType = requestConfig.content_type;
     cacheId = cacheId || contentType;
     let entries = await getCacheEntry(cacheId);
     if (!entries) {
-        entries = await client.getEntries(requestConfig);
+        entries = await getClient().getEntries(requestConfig);
         let ttlMs = 0;
         if (ttlMsCallback) {
             ttlMs = await ttlMsCallback();
@@ -37,7 +46,7 @@ async function getEntry(contentType, entryId) {
     const cacheId = `entry-${entryId}`;
     let entry = await getCacheEntry(cacheId);
     if (!entry) {
-        entry = await client.getEntry(entryId);
+        entry = await getClient().getEntry(entryId);
         writeContentfulAuditEvent(`${contentType}Entry`);
         await setCacheEntry(cacheId, entry);
     }
@@ -45,7 +54,7 @@ async function getEntry(contentType, entryId) {
 }
 
 async function getAsset(assetId) {
-    return client.getAsset(assetId);
+    return getClient().getAsset(assetId);
 }
 
 function writeContentfulAuditEvent(resource) {
@@ -145,7 +154,7 @@ async function getNewsEntries(page) {
         // If no future entries are found, default to 0 which is indefinite.  CMS update events
         // will clear out the cache as well, so no need to worry about indefinite entries going stale.
         let ttlMs = 0;
-        const futureEntries = await client.getEntries({
+        const futureEntries = await getClient().getEntries({
             content_type: 'news',
             'fields.datetime[gt]': currentDateTimeISO,
             order: 'fields.datetime'
@@ -234,7 +243,7 @@ async function getUpcomingEvents(page) {
         // If no future entries are found, default to 0 which is indefinite.  CMS update events
         // will clear out the cache as well, so no need to worry about indefinite entries going stale.
         let ttlMs = 0;
-        const futureEntries = await client.getEntries({
+        const futureEntries = await getClient().getEntries({
             content_type: 'news',
             'fields.datetime[gt]': currentDateTimeISO,
             'fields.eventDatetime[gte]': currentDateTimeISO,
@@ -319,7 +328,7 @@ async function getBlogPosts(page) {
         // If no future entries are found, default to 0 which is indefinite.  CMS update events
         // will clear out the cache as well, so no need to worry about indefinite entries going stale.
         let ttlMs = 0;
-        const futureEntries = await client.getEntries({
+        const futureEntries = await getClient().getEntries({
             content_type: 'blogPost',
             'fields.publishDate[gt]': currentDateTimeISO,
             order: 'fields.publishDate'
@@ -435,7 +444,7 @@ async function getSpecialAnnouncements() {
         // If no future entries are found, default to 0 which is indefinite.  CMS update events
         // will clear out the cache as well, so no need to worry about indefinite entries going stale.
         let ttlMs = 0;
-        const futureEntries = await client.getEntries({
+        const futureEntries = await getClient().getEntries({
             content_type: 'specialAnnouncement',
             'fields.publishBeginDate[gt]': currentDateTimeISO,
             order: 'fields.publishBeginDate'
