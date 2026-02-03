@@ -9,7 +9,10 @@
           v-for="member in row"
           :key="member.id"
         >
-          <v-card elevation="4">
+          <v-card
+            class="staff-member"
+            elevation="4"
+          >
             <v-card-item>
               <v-card-title>{{ member.name }}</v-card-title>
               <v-card-subtitle>{{ member.title }}</v-card-subtitle>
@@ -22,6 +25,9 @@
                   :max-height="member.picture.details.image.height"
                   align="center"
                 />
+                <v-icon v-else>
+                  mdi-account-circle
+                </v-icon>
               </v-card-text>
             </v-card-item>
           </v-card>
@@ -34,7 +40,10 @@
         :key="member.id"
       >
         <v-col>
-          <v-card elevation="4">
+          <v-card
+            class="staff-member"
+            elevation="4"
+          >
             <v-card-item>
               <v-card-title>{{ member.name }}</v-card-title>
               <v-card-subtitle>{{ member.title }}</v-card-subtitle>
@@ -47,6 +56,9 @@
                   :max-height="member.picture.details.image.height"
                   align="center"
                 />
+                <v-icon v-else>
+                  mdi-account-circle
+                </v-icon>
               </v-card-text>
             </v-card-item>
           </v-card>
@@ -98,4 +110,12 @@
 <style scoped>
 .v-card-subtitle .v-container { padding: 0px; }
 .v-card-subtitle .v-col { padding: 10px; }
+.v-card.staff-member {
+    height: 325px;
+}
+.v-card.v-card.staff-member .v-card-text { text-align: center; }
+.v-card.staff-member .v-icon {
+    font-size: 150px;
+    color: #999;
+}
 </style>
