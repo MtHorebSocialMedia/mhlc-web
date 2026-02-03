@@ -328,6 +328,19 @@ router.post('/content/webhook', (req, res, next) => {
     })();
 });
 
+router.get('/configuration', (req, res, next) => {
+    (async function() {
+        try {
+            const config = {
+                enableTrafficTracking: !(process.env.DISABLE_TRAFFIC_TRACKING === 'true')
+            };
+            res.send(config);
+        } catch(err) {
+            next(err);
+        }
+    })();
+});
+
 router.use(getErrorHandler());
 
 module.exports = router;

@@ -64,7 +64,9 @@ app.use('/*splat', (req, res) => {
 (async function() {
     await initializeGoogleApis();
     app.listen(port, () => {
+        logger.info(`mhlc-web traffic tracking is ${process.env.DISABLE_TRAFFIC_TRACKING === 'true' ? 'disabled' : 'enabled'}`);
         logger.info(`mhlc-web app listening on port ${port}`);
+        logger.info(`mhlc-web app is available at http://localhost:${port}`);
 
         const { NODE_ENV } = process.env;
         if (NODE_ENV && NODE_ENV.toLowerCase().startsWith('prod')) {

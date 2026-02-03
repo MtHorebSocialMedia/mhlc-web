@@ -58,7 +58,8 @@
     .v-container.main-container > .v-row > .v-col.main-view.md { max-width: 850px; }
     .v-container.main-container > .v-row > .v-col.side-view { margin-left: 20px; }
     .v-footer { background-color: #CCC !important; border-top: 1px solid #666 !important; }
-    .v-footer.lg { max-height: 40px; }
+    .v-footer.xl { max-height: 60px; }
+    .v-footer.lg { max-height: 60px; }
     .v-footer.md { max-height: 80px; }
     .v-footer.sm { max-height: 100px; }
     .v-footer.xs { max-height: 160px; }
