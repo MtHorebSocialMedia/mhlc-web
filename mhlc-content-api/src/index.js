@@ -9,6 +9,46 @@ const { initialize: initializeGoogleApis } = require('./utils/googleApisUtil');
 const { getPaypalDonationConfirmationEmailTemplate, getSystemStartupEmailTemplate } = require('./utils/mailTemplates');
 const { sendMail } = require('./services/mailService');
 
+process.on('uncaughtException', err => {
+    console.error('UNCAUGHT EXCEPTION', err);
+    try {
+        const adminEmailAddress = process.env.MAIL_TO_ADDRESS_ADMIN;
+        if (adminEmailAddress) {
+            sendMail(
+                adminEmailAddress,
+                'mhlc-web UNCAUGHT EXCEPTION',
+                `An uncaught exception was encountered:\n\n${err.stack || err}`
+            );
+        } else {
+            console.warn('An email address has not been configured for the admin.  Cannot send crash notification emails.');
+        }
+    } catch (mailErr) {
+        console.error('Error sending uncaught exception email', mailErr);
+    }
+    // delay exit just long enough for mail to send out
+    setTimeout(() => process.exit(1), 100);
+});
+
+process.on('unhandledRejection', err => {
+    console.error('UNHANDLED PROMISE REJECTION', err);
+    try {
+        const adminEmailAddress = process.env.MAIL_TO_ADDRESS_ADMIN;
+        if (adminEmailAddress) {
+            sendMail(
+                adminEmailAddress,
+                'mhlc-web UNHANDLED PROMISE REJECTION',
+                `An unhandled promise rejection was encountered:\n\n${err.stack || err}`
+            );
+        } else {
+            console.warn('An email address has not been configured for the admin.  Cannot send crash notification emails.');
+        }
+    } catch (mailErr) {
+        console.error('Error sending unhandled promise rejection email', mailErr);
+    }
+    // delay exit just long enough for mail to send out
+    setTimeout(() => process.exit(1), 100);
+});
+
 const app = express();
 const port = 3000;
 
@@ -40,8 +80,8 @@ app.use('/api', apiRouter);
 
 app.use('/feed', rssFeed);
 
-app.use('/donate/paypal-complete', (req, res) => {
-    (async function() {
+app.use('/donate/paypal-complete', async (req, res, next) => {
+    try {
         const { subject, body } = getPaypalDonationConfirmationEmailTemplate({
             ...req.body,
             ...req.query
@@ -53,12 +93,22 @@ app.use('/donate/paypal-complete', (req, res) => {
             logger.warn('An email address has not been configured for the treasurer.  Cannot send donation emails.');
         }
         res.sendFile(indexPath);
-    })();
+    } catch(err) {
+        next(err);
+    }
 });
 
 // Default handler - if unknown path, just respond with the default html
 app.use('/*splat', (req, res) => {
     res.sendFile(indexPath);
+});
+
+app.use((err, req, res, next) => {
+    logger.error('Unhandled error: ', err);
+    if (res.headersSent) {
+        return next(err);
+    }
+    res.status(500).send('Internal Server Error');
 });
 
 (async function() {
