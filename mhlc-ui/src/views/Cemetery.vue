@@ -11,7 +11,7 @@
     <v-alert>
       <ContentBlock content-block-key="cemetery/info" />
     </v-alert>
-    <br />
+    <br>
     <iframe
       src="https://mhlccem.maps.arcgis.com/apps/instant/basic/index.html?appid=d0b223046baf4f21bd5607794b73caf4"
       frameborder="0"
@@ -19,7 +19,7 @@
       allowfullscreen
       @onload="hideLoading()"
     >
-        iFrames are not supported on this page.
+      iFrames are not supported on this page.
     </iframe>
   </v-container>
 </template>
