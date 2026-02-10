@@ -19,6 +19,15 @@
     import { useContentStore } from '@/store/content';
     import { useConfigurationStore } from '@/store/configuration';
     import router from '@/router';
+    import { onShowLoading, onHideLoading } from '@/utils/eventBus';
+
+    // Register callbacks for event bus
+    onShowLoading(() => {
+      showLoading.value = true;
+    });
+    onHideLoading(() => {
+      showLoading.value = false;
+    });
 
     // Show/hide loading animation on router navigation
     router.beforeEach(() => {

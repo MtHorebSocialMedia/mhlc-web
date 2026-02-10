@@ -220,7 +220,7 @@ const routes = [
   },
   {
     path: '/cemetery',
-    component: () => import('@/layouts/default/Default.vue'),
+    component: () => import('@/layouts/default/Cemetery.vue'),
     children: [
       {
         path: '/cemetery',

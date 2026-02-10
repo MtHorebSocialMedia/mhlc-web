@@ -8,12 +8,16 @@
       Cemetery
     </h2>
     <hr>
-    <ContentBlock content-block-key="cemetery/info" />
+    <v-alert>
+      <ContentBlock content-block-key="cemetery/info" />
+    </v-alert>
+    <br />
     <iframe
       src="https://mhlccem.maps.arcgis.com/apps/instant/basic/index.html?appid=d0b223046baf4f21bd5607794b73caf4"
       frameborder="0"
       :style="getMapStyle()"
       allowfullscreen
+      @onload="hideLoading()"
     >
         iFrames are not supported on this page.
     </iframe>
@@ -24,12 +28,15 @@
     import ContentBlock from '../components/ContentBlock.vue';
     import { getAssetSizeStyle } from '../utils/assetUtils';
     import { useTemplateRef } from 'vue';
+    import { showLoading, hideLoading } from '../utils/eventBus';
+
+    showLoading();
 
     const mapContainer = useTemplateRef('embedded-map');
 
     function getMapStyle() {
         return getAssetSizeStyle(
-            850,
+            1500,
             600,
             mapContainer.value ? mapContainer.value.$el : null
         ) + ' border: none; display: block; margin-left: auto; margin-right: auto;';
