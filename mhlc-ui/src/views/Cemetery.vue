@@ -17,7 +17,6 @@
       frameborder="0"
       :style="getMapStyle()"
       allowfullscreen
-      @onload="hideLoading()"
     >
       iFrames are not supported on this page.
     </iframe>
@@ -31,6 +30,10 @@
     import { showLoading, hideLoading } from '../utils/eventBus';
 
     showLoading();
+
+    setTimeout(() => {
+        hideLoading();
+    }, 3000);
 
     const mapContainer = useTemplateRef('embedded-map');
 
