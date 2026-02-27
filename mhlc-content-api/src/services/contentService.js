@@ -175,7 +175,7 @@ async function getNewsEntries(page) {
             description: item.fields.description,
             type: item.fields.type ? item.fields.type.map(type => ({
                 id: type.sys.id,
-                type: type.fields?.type
+                type: type.fields?.type ?? 'General'
             })) : [],
             image: item.fields.image ? item.fields.image.fields.file : null,
             attachments: item.fields.attachments ? item.fields.attachments.map((attachment) => ({
