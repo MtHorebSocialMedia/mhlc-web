@@ -83,14 +83,14 @@
         await loadScript('https://www.clarity.ms/tag/v84w1tow2i');
 
         // Enable Google Analytics
-        await loadScript('https://www.googletagmanager.com/gtag/js?id=G-E2W4Y1G50N');
-
         window.dataLayer = window.dataLayer || [];
         window.gtag = (...args) => {
           window.dataLayer.push(args);
         }
+        await loadScript('https://www.googletagmanager.com/gtag/js?id=G-E2W4Y1G50N');
         window.gtag('js', new Date());
         window.gtag('config', 'G-E2W4Y1G50N');
+        window.gtag('event', 'page_view');
       }
     })()
 
