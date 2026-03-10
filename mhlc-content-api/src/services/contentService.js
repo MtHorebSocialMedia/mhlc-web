@@ -59,7 +59,7 @@ function writeContentfulAuditEvent(resource) {
 
 async function clearCachedContent(contentId) {
     if (contentId) {
-        await removeCacheEntry(contentId.id);
+        await removeCacheEntry(`entry-${contentId.id}`);
         await removeCacheEntry(contentId.contentType, true);
     } else {
         await clearCache();
