@@ -39,7 +39,7 @@
 
     function getMapStyle() {
         return getAssetSizeStyle(
-            1500,
+            400,
             600,
             mapContainer.value ? mapContainer.value.$el : null
         ) + ' border: none; display: block; margin-left: auto; margin-right: auto;';
