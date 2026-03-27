@@ -109,7 +109,14 @@
                 content.push(applyMarks(node.value, node.marks))
               }
               return content
-          }
+          },
+          // [BLOCKS.TABLE]: (node, key, next) => {
+          //   return h(
+          //     'table',
+          //     { class: 'table' },
+          //     next(node.content, key, next)
+          //   );
+          // }
         }
     }
 
@@ -123,4 +130,7 @@
   .content p  { margin-top: 10px; margin-bottom: 10px; }
   .content ul { margin-left: 25px; }
   .content ol { margin-left: 25px; }
+  .content table { border-collapse: collapse; margin-top: 10px; margin-bottom: 10px; }
+  .content td, .content th { border: 1px solid black; padding: 8px; }
+  .content th { background-color: #CCC; }
 </style>
