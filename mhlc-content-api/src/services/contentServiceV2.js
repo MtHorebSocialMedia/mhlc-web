@@ -92,9 +92,15 @@ async function getContentPages() {
             id: item.sys.id,
             title: item.fields.title,
             paths: (item.fields.paths || []).map(path => path),
+            layout: {
+                name: item.fields.layout.fields.name,
+                header: item.fields.layout.fields.header,
+                footer: item.fields.layout.fields.footer
+            },
             sections: (item.fields.sections || []).map(section => ({
                 id: section.sys.id,
-                name: section.fields.name
+                name: section.fields.name,
+                content: section.fields.sectionContent
             }))
         };
     });

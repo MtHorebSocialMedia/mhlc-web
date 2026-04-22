@@ -257,6 +257,16 @@ router.post('/content/webhook', async (req, res, next) => {
         const id = req.body.sys.id;
         const contentType = req.body.sys.contentType.sys.id;
         const contentId = { id, contentType };
+        /*
+        Update to also delete cached entries with references to this element
+        How to Get Incoming Links
+        You can retrieve parent references by querying the Contentful Delivery API (CDA) or the Content Management API (CMA) using the following methods:
+            Using links_to_entry: This search parameter allows you to filter for any entries that have a Reference Field pointing to a specific entry ID.
+                Example CDA Query: https://cdn.contentful.com/spaces/{space_id}/entries?links_to_entry={entry_id}
+            Targeted Search: If you know which specific content types and fields might contain the link, you can filter more precisely.
+                Example: .../entries?content_type=blogPost&fields.author.sys.id={entry_id}
+            SDK Support: Most official libraries, like the Contentful JavaScript SDK, have built-in methods to handle linked entries and assets automatically by resolving references up to 10 levels deep
+        */
         logger.info('Received contentful webhook event: ', contentId);
         await clearCachedContent(contentId);
         res.send(true);
