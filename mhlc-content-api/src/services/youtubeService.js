@@ -1,28 +1,36 @@
 const RssParser = require('rss-parser');
+const { getLogger } = require('../utils/logger');
+
 const rssParser = new RssParser();
+const logger = getLogger('services/youtubeService');
 
 async function getVideosList() {
 
-    const feed = await rssParser.parseURL(process.env.YOUTUBE_RSS_FEED);
+    try {
+        const feed = await rssParser.parseURL(process.env.YOUTUBE_RSS_FEED);
 
-    return feed.items
-        .filter((video) => {
-            // All live stream titles start with "Mt. Horeb Lutheran Church"
-            // Filter out Celebrations of Life (funerals)
-            return video.title.toLowerCase().startsWith('mt. horeb lutheran church')
-                && !video.title.toLowerCase().includes('celebration of life');
-        })
-        .map((video) => {
-            const [,,id] = video.id.split(':');
-            return {
-                id,
-                title: video.title,
-                link: video.link,
-                embedLink: getEmbedLink(video.link),
-                date: video.pubDate,
-                author: video.author
-            }
-        });
+        return feed.items
+            .filter((video) => {
+                // All live stream titles start with "Mt. Horeb Lutheran Church"
+                // Filter out Celebrations of Life (funerals)
+                return video.title.toLowerCase().startsWith('mt. horeb lutheran church')
+                    && !video.title.toLowerCase().includes('celebration of life');
+            })
+            .map((video) => {
+                const [,,id] = video.id.split(':');
+                return {
+                    id,
+                    title: video.title,
+                    link: video.link,
+                    embedLink: getEmbedLink(video.link),
+                    date: video.pubDate,
+                    author: video.author
+                }
+            });
+        } catch(err) {
+            logger.error('Error fetching or parsing YouTube RSS feed:', err);
+            return [];
+        }
 }
 
 // Turn this: https://www.youtube.com/watch?v=GsCZC3hsjwk
