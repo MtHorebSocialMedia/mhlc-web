@@ -8,8 +8,9 @@ const { getAuditHandler } = require('./middleware/auditHandler');
 const { initialize: initializeGoogleApis } = require('./utils/googleApisUtil');
 const { getPaypalDonationConfirmationEmailTemplate, getSystemStartupEmailTemplate } = require('./utils/mailTemplates');
 const { sendMail } = require('./services/mailService');
-const { getContentPages, getContentSection, getChurchInfo } = require('./services/contentServiceV2');
+const { getContentPages, getContentSection, getChurchInfo, getAsset, getAssetByFileName } = require('./services/contentServiceV2');
 const ejs = require('ejs');
+const axios = require('axios');
 
 process.on('uncaughtException', err => {
     console.error('UNCAUGHT EXCEPTION', err);
@@ -102,13 +103,12 @@ app.use('/donate/paypal-complete', async (req, res, next) => {
 
 app.use('/content/*splat', async (req, res) => {
     const path = req.path.replace('/content', '');
-    logger.info(`Serving content page for path: ${path}`);
     const pages = await getContentPages();
 
     const matchingPage = pages.find(page => page.paths.includes(path));
 
     if (matchingPage) {
-        logger.info(`Serving content page for path: ${path}`, matchingPage);
+        // logger.debug(`Serving content page for path: ${path}`, matchingPage);
         const contentSections = [];
         for (const section of matchingPage.sections) {
             contentSections.push(section.content);
@@ -152,6 +152,27 @@ app.use('/content/*splat', async (req, res) => {
     } else {
         logger.warn(`No content page found for path: ${path}`);
         res.status(404).json({ error: 'Content page not found' });
+    }
+});
+
+app.use('/images/:fileName', async (req, res) => {
+    const { fileName } = req.params;
+    try {
+        const asset = await getAssetByFileName(fileName);
+        if (asset) {
+            const stream = await axios({
+                method: 'get',
+                url: `https://${asset.fields.file.url}`,
+                responseType: 'stream'
+            });
+            res.setHeader('Content-Type', asset.fields.file.contentType);
+            stream.data.pipe(res);
+        } else {
+            res.status(404).json({ error: `Asset [${fileName}] not found` });
+        }
+    } catch(err) {
+        logger.error(`Error serving asset [${fileName}]:`, err);
+        res.status(500).json({ error: `Error retrieving asset [${fileName}]` });
     }
 });
 

@@ -48,6 +48,14 @@ async function getAsset(assetId) {
     return client.getAsset(assetId);
 }
 
+async function getAssetByFileName(assetName) {
+    const { items } = await client.getAssets({
+        'fields.file.fileName': assetName,
+        limit: 1
+    });
+    return items[0];
+}
+
 function writeContentfulAuditEvent(resource) {
     writeEvent({
         dateTime: new Date().toISOString(),
@@ -67,21 +75,6 @@ async function clearCachedContent(contentId) {
 }
 
 let eventNewsTypeId = null;
-
-async function getMenuItems() {
-    const { items } = await getEntries({
-        content_type: 'menuItem'
-    });
-    return items.map((item) => {
-        return {
-            id: item.sys.id,
-            label: item.fields.label,
-            sequence: item.fields.sequence,
-            path: item.fields.path,
-            parent: item.fields.parent ? item.fields.parent.sys.id : null
-        };
-    });
-}
 
 async function getContentPages() {
     const { items } = await getEntries({
@@ -113,26 +106,6 @@ async function getContentSection(sectionId) {
         name: item.fields.name,
         sectionContent: item.fields.sectionContent
     };
-}
-
-async function getContentBlocks() {
-    const { items } = await getEntries({
-        content_type: 'contentBlock'
-    });
-    return items.map((item) => {
-        return {
-            id: item.sys.id,
-            key: item.fields.key,
-            title: item.fields.title,
-            content: item.fields.content,
-            image: item.fields.image ? item.fields.image.fields.file : null,
-            imageAlignment: item.fields.imageAlignment,
-            imageLink: item.fields.imageLink,
-            videoUrl: item.fields.videoUrl,
-            videoId: item.fields.videoUrl ? getVideoId(item.fields.videoUrl) : null,
-            jotformFormId: item.fields.jotformFormId
-        };
-    });
 }
 
 async function getNewsTypes() {
@@ -504,10 +477,8 @@ function getVideoId(videoUrl) {
 }
 
 module.exports = {
-    getMenuItems,
     getContentPages,
     getContentSection,
-    getContentBlocks,
     getNewsTypes,
     getNewsEntries,
     getNewsEntry,
@@ -520,5 +491,6 @@ module.exports = {
     getBlogPost,
     getSpecialAnnouncements,
     getAsset,
+    getAssetByFileName,
     clearCachedContent
 };
