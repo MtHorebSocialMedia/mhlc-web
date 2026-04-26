@@ -8,9 +8,10 @@ const { getAuditHandler } = require('./middleware/auditHandler');
 const { initialize: initializeGoogleApis } = require('./utils/googleApisUtil');
 const { getPaypalDonationConfirmationEmailTemplate, getSystemStartupEmailTemplate } = require('./utils/mailTemplates');
 const { sendMail } = require('./services/mailService');
-const { getContentPages, getContentSection, getChurchInfo, getAsset, getAssetByFileName } = require('./services/contentServiceV2');
+const { getContentPages, getContentSection, getChurchInfo, getAsset, getAssetByFileName, getUpcomingEvents, getBlogPosts } = require('./services/contentServiceV2');
 const ejs = require('ejs');
 const axios = require('axios');
+const { documentToHtmlString } = require('@contentful/rich-text-html-renderer');
 
 process.on('uncaughtException', err => {
     console.error('UNCAUGHT EXCEPTION', err);
@@ -68,9 +69,27 @@ app.use(getAuditHandler());
 // To get the path to our build ui code, we'll use a little hack
 // First resolve the absolute path to the index.html file in the ui module
 // Then remove the index.html portion of the path to get the reference to just the directory
-const indexPath = require.resolve('@mhlc/ui/dist/index.html');
-const uiPath = indexPath.replace('index.html', '');
-app.use(express.static(uiPath, {
+// const indexPath = require.resolve('@mhlc/ui/dist/index.html');
+// const uiPath = indexPath.replace('index.html', '');
+// app.use(express.static(uiPath, {
+//     cacheControl: true,
+//     maxAge: 0,
+//     setHeaders: (res) => {
+//         res.setHeader('Cache-Control', 'no-cache');
+//         res.setHeader('Expires', new Date(0).getTime());
+//     }
+// }));
+
+app.use('/components', express.static('./components', {
+    cacheControl: true,
+    maxAge: 0,
+    setHeaders: (res) => {
+        res.setHeader('Cache-Control', 'no-cache');
+        res.setHeader('Expires', new Date(0).getTime());
+    }
+}));
+
+app.use('/theme', express.static('./theme', {
     cacheControl: true,
     maxAge: 0,
     setHeaders: (res) => {
@@ -120,29 +139,61 @@ app.use('/content/*splat', async (req, res) => {
                     <meta charset="UTF-8">
                     <meta name="viewport" content="width=device-width, initial-scale=1.0">
                     <title>${matchingPage.title}</title>
-                    <link rel="stylesheet" href="/mhlc-v2.css">
+                    <link rel="stylesheet" href="/theme/mhlc-v2.css">
                 </head>
                 <body>
                     ${matchingPage.layout.header}
                     ${contentSections.join('\n')}
                     ${matchingPage.layout.footer}
+                    <script src="/components/enews-signup.js"></script>
                 </body>
             </html>
         `;
+        const currentDate = new Date();
+        const churchInfo = page.includes('churchInfo.') ? await getChurchInfo() : {};
+        const events = page.includes('events.') ? (await getUpcomingEvents(1, 3)).events.map(event => {
+            const eventDateTime = new Date(event.eventDatetime);
+            return {
+                title: event.title,
+                month: eventDateTime.toLocaleString('default', { month: 'short' }),
+                day: eventDateTime.getDate(),
+                year: eventDateTime.getFullYear(),
+                time: eventDateTime.toLocaleTimeString('default', { hour: '2-digit', minute: '2-digit' }),
+                dayOfWeek: eventDateTime.toLocaleString('default', { weekday: 'long' }),
+                description: documentToHtmlString(event.description)
+            };
+        }) : [];
+        const blogs = page.includes('blogs.') ? (await getBlogPosts(1, 5)).blogs.map(blog => {
+            const blogDate = new Date(blog.publishDate);
+            return {
+                title: blog.title,
+                author: blog.author,
+                month: blogDate.toLocaleString('default', { month: 'short' }),
+                day: blogDate.getDate(),
+                year: blogDate.getFullYear(),
+                time: blogDate.toLocaleTimeString('default', { hour: '2-digit', minute: '2-digit' }),
+                dayOfWeek: blogDate.toLocaleString('default', { weekday: 'long' }),
+                content: documentToHtmlString(blog.content)
+            };
+        }) : [];
+        const contextData = {
+            date: {
+                month: currentDate.toLocaleString('default', { month: 'long' }),
+                day: currentDate.getDate(),
+                year: currentDate.getFullYear(),
+                dayOfWeek: currentDate.toLocaleString('default', { weekday: 'long' })
+            },
+            churchInfo,
+            events,
+            blogs
+        };
+        logger.debug(`Rendering content page for path: ${path} with context data:`, contextData);
         let renderedPage = page;
         try {
             const currentDate = new Date();
             renderedPage = await ejs.render(
                 page,
-                {
-                    date: {
-                        month: currentDate.toLocaleString('default', { month: 'long' }),
-                        day: currentDate.getDate(),
-                        year: currentDate.getFullYear(),
-                        dayOfWeek: currentDate.toLocaleString('default', { weekday: 'long' })
-                    },
-                    churchInfo: await getChurchInfo()
-                },
+                contextData,
                 { async: true }
             );
         } catch (err) {

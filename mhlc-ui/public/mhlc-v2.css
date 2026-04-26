@@ -187,3 +187,6 @@ a{text-decoration:none;color:inherit}
 @media(max-width:800px){.enews__inner{grid-template-columns:1fr}
 }
 
+/* Custom - DW */
+.message.error { background: var(--forest-dark); padding: 1rem; border: 1px solid var(--gold-light); color:white; }
+.message.success { background: var(--gold); padding: 1rem; border: 1px solid white; color: var(--forest-dark); font-weight: bold; }

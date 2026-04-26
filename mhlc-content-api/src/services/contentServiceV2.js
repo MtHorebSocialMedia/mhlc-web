@@ -294,9 +294,8 @@ async function getEventDetails(eventId) {
     };
 }
 
-async function getBlogPosts(page) {
+async function getBlogPosts(page, itemsPerPage=10) {
     page = page || 1;
-    const itemsPerPage = 10;
     const skip = (page - 1) * itemsPerPage;
     const currentDate = new Date();
     const currentDateTimeISO = currentDate.toISOString();
