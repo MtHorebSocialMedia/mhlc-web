@@ -120,8 +120,120 @@ app.use('/donate/paypal-complete', async (req, res, next) => {
     }
 });
 
-app.use('/content/*splat', async (req, res) => {
-    const path = req.path.replace('/content', '');
+// app.use('/content/*splat', async (req, res) => {
+//     const path = req.path.replace('/content', '');
+//     const pages = await getContentPages();
+
+//     const matchingPage = pages.find(page => page.paths.includes(path));
+
+//     if (matchingPage) {
+//         // logger.debug(`Serving content page for path: ${path}`, matchingPage);
+//         const contentSections = [];
+//         for (const section of matchingPage.sections) {
+//             contentSections.push(section.content);
+//         }
+//         const page = `
+//             <!DOCTYPE html>
+//             <html lang="en">
+//                 <head>
+//                     <meta charset="UTF-8">
+//                     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+//                     <title>${matchingPage.title}</title>
+//                     <link rel="stylesheet" href="/theme/mhlc-v2.css">
+//                 </head>
+//                 <body>
+//                     ${matchingPage.layout.header}
+//                     ${contentSections.join('\n')}
+//                     ${matchingPage.layout.footer}
+//                     <script src="/components/enews-signup.js"></script>
+//                 </body>
+//             </html>
+//         `;
+//         const currentDate = new Date();
+//         const churchInfo = page.includes('churchInfo.') ? await getChurchInfo() : {};
+//         const events = page.includes('events.') ? (await getUpcomingEvents(1, 3)).events.map(event => {
+//             const eventDateTime = new Date(event.eventDatetime);
+//             return {
+//                 title: event.title,
+//                 month: eventDateTime.toLocaleString('default', { month: 'short' }),
+//                 day: eventDateTime.getDate(),
+//                 year: eventDateTime.getFullYear(),
+//                 time: eventDateTime.toLocaleTimeString('default', { hour: '2-digit', minute: '2-digit' }),
+//                 dayOfWeek: eventDateTime.toLocaleString('default', { weekday: 'long' }),
+//                 description: documentToHtmlString(event.description)
+//             };
+//         }) : [];
+//         const blogs = page.includes('blogs.') ? (await getBlogPosts(1, 5)).blogs.map(blog => {
+//             const blogDate = new Date(blog.publishDate);
+//             return {
+//                 title: blog.title,
+//                 author: blog.author,
+//                 month: blogDate.toLocaleString('default', { month: 'short' }),
+//                 day: blogDate.getDate(),
+//                 year: blogDate.getFullYear(),
+//                 time: blogDate.toLocaleTimeString('default', { hour: '2-digit', minute: '2-digit' }),
+//                 dayOfWeek: blogDate.toLocaleString('default', { weekday: 'long' }),
+//                 content: documentToHtmlString(blog.content)
+//             };
+//         }) : [];
+//         const contextData = {
+//             date: {
+//                 month: currentDate.toLocaleString('default', { month: 'long' }),
+//                 day: currentDate.getDate(),
+//                 year: currentDate.getFullYear(),
+//                 dayOfWeek: currentDate.toLocaleString('default', { weekday: 'long' })
+//             },
+//             churchInfo,
+//             events,
+//             blogs
+//         };
+//         logger.debug(`Rendering content page for path: ${path} with context data:`, contextData);
+//         let renderedPage = page;
+//         try {
+//             const currentDate = new Date();
+//             renderedPage = await ejs.render(
+//                 page,
+//                 contextData,
+//                 { async: true }
+//             );
+//         } catch (err) {
+//             logger.error('Error rendering content page', err);
+//         }
+//         res.send(renderedPage);
+//     } else {
+//         logger.warn(`No content page found for path: ${path}`);
+//         res.status(404).json({ error: 'Content page not found' });
+//     }
+// });
+
+app.use('/images/:fileName', async (req, res) => {
+    const { fileName } = req.params;
+    try {
+        const asset = await getAssetByFileName(fileName);
+        if (asset) {
+            const stream = await axios({
+                method: 'get',
+                url: `https://${asset.fields.file.url}`,
+                responseType: 'stream'
+            });
+            res.setHeader('Content-Type', asset.fields.file.contentType);
+            stream.data.pipe(res);
+        } else {
+            res.status(404).json({ error: `Asset [${fileName}] not found` });
+        }
+    } catch(err) {
+        logger.error(`Error serving asset [${fileName}]:`, err);
+        res.status(500).json({ error: `Error retrieving asset [${fileName}]` });
+    }
+});
+
+// Default handler - if unknown path, just respond with the default html
+app.use(async (req, res) => {
+
+    logger.debug(`Received request for path: ${req.path}`);
+
+    const path = req.path === '/' ? '/home' : req.path; // treat root path as /home for content page matching
+
     const pages = await getContentPages();
 
     const matchingPage = pages.find(page => page.paths.includes(path));
@@ -187,7 +299,7 @@ app.use('/content/*splat', async (req, res) => {
             events,
             blogs
         };
-        logger.debug(`Rendering content page for path: ${path} with context data:`, contextData);
+        // logger.debug(`Rendering content page for path: ${path} with context data:`, contextData);
         let renderedPage = page;
         try {
             const currentDate = new Date();
@@ -204,32 +316,6 @@ app.use('/content/*splat', async (req, res) => {
         logger.warn(`No content page found for path: ${path}`);
         res.status(404).json({ error: 'Content page not found' });
     }
-});
-
-app.use('/images/:fileName', async (req, res) => {
-    const { fileName } = req.params;
-    try {
-        const asset = await getAssetByFileName(fileName);
-        if (asset) {
-            const stream = await axios({
-                method: 'get',
-                url: `https://${asset.fields.file.url}`,
-                responseType: 'stream'
-            });
-            res.setHeader('Content-Type', asset.fields.file.contentType);
-            stream.data.pipe(res);
-        } else {
-            res.status(404).json({ error: `Asset [${fileName}] not found` });
-        }
-    } catch(err) {
-        logger.error(`Error serving asset [${fileName}]:`, err);
-        res.status(500).json({ error: `Error retrieving asset [${fileName}]` });
-    }
-});
-
-// Default handler - if unknown path, just respond with the default html
-app.use('/*splat', async (req, res) => {
-    res.sendFile(indexPath);
 });
 
 app.use((err, req, res, next) => {
